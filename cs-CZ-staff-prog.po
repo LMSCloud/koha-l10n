@@ -3,33 +3,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "POT-Creation-Date: 2023-11-11 12:26+0100\n"
-"PO-Revision-Date: 2023-09-25 19:11+0000\n"
+"PO-Revision-Date: 2023-11-13 16:16+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: cs\n"
+"Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Weblate 5.1.1\n"
 "X-Pootle-Path: /cs/22.11/cs-CZ-staff-prog.po\n"
 "X-Pootle-Revision: 1\n"
 "X-POOTLE-MTIME: 1695669074.706346\n"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:3
-#, fuzzy, c-format
+#, c-format
 msgid "Release manager"
-msgstr "Správce vydání:"
+msgstr "Správce vydání"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:4
-#, fuzzy, c-format
+#, c-format
 msgid "Release manager assistant"
-msgstr "Asistent správce vydání:"
+msgstr "Asistent správce vydání"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:5
-#, fuzzy, c-format
+#, c-format
 msgid "Release manager mentor"
-msgstr "Správce vydání:"
+msgstr "Mentor správce vydání"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:6
 #, fuzzy, c-format
@@ -227,9 +227,9 @@ msgid "Documentation team:"
 msgstr "Dokumentační tým:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:143
-#, fuzzy, c-format
+#, c-format
 msgid "Newsletter editor:"
-msgstr "Editor citátů"
+msgstr "Editor newsletterů:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:149
 #, c-format
@@ -2237,15 +2237,15 @@ msgstr "%s %sa = Dřívější záhlaví"
 
 #. %1$s:  PROCESS selectoptionopen value='b' 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:159
-#, fuzzy, c-format
+#, c-format
 msgid "%sb = later name"
-msgstr "%s Další jméno: "
+msgstr "%sb = pozdější jméno"
 
 #. %1$s:  PROCESS selectoptionopen value='c' 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:160
 #, c-format
 msgid "%sc = official name"
-msgstr ""
+msgstr "%sc = oficiální jméno"
 
 #. %1$s:  PROCESS selectoptionopen value='d' 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:161
@@ -2255,21 +2255,21 @@ msgstr ""
 
 #. %1$s:  PROCESS selectoptionopen value='e' 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:162
-#, c-format
+#, c-format, fuzzy
 msgid "%se = pseudonym"
-msgstr ""
+msgstr "%se = pseudonym"
 
 #. %1$s:  PROCESS selectoptionopen value='f' 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:163
-#, fuzzy, c-format
+#, c-format
 msgid "%sf = real name"
-msgstr "%s Jméno: "
+msgstr "%sf = skuetčné jméno"
 
 #. %1$s:  PROCESS selectoptionopen value='g' 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:164
-#, fuzzy, c-format
+#, c-format
 msgid "%sg = broader term or name"
-msgstr "%sg - Rozšířený výraz"
+msgstr "%sg = širší termín nebo název"
 
 #. %1$s:  PROCESS selectoptionopen value='h' 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:165
@@ -2281,7 +2281,7 @@ msgstr "%sh - Zúžený výraz"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:166
 #, c-format
 msgid "%si = name in religion"
-msgstr ""
+msgstr "%si = náboženské jméno"
 
 #. %1$s:  PROCESS selectoptionopen value='j' 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:167
@@ -2299,7 +2299,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:169
 #, c-format
 msgid "%sl = shared pseudonym"
-msgstr ""
+msgstr "%sl = společný pseudonym"
 
 #. %1$s:  PROCESS selectoptionopen value='m' 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:170
@@ -2321,9 +2321,9 @@ msgstr ""
 
 #. %1$s:  PROCESS selectoptionopen value='x' 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:173
-#, fuzzy, c-format
+#, c-format
 msgid "%sx = not applicable"
-msgstr "%sn - Nepoužito"
+msgstr "%sx = nepoužije se"
 
 #. %1$s:  PROCESS selectoptionopen value='z' 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:174
@@ -5009,8 +5009,9 @@ msgstr "Tento záznam nelze otevřít v základním editoru"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
+#, fuzzy
 msgid "Convert browser storage macros"
-msgstr ""
+msgstr "Převod maker úložiště prohlížeče"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -20358,12 +20359,12 @@ msgstr "Magyar (Maďarština) Agnes Imecs"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1138
 #, c-format
 msgid "Norsk Bokmål (Norwegian) Axel Bojer and Thomas Gramstad"
-msgstr "Norsk Bokmål (Bokmål norština) Axel Bojer a Thomas Gramstad"
+msgstr "Norsk Bokmål (norština) Axel Bojer a Thomas Gramstad"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1139
 #, c-format
 msgid "Norsk Nynorsk (Norwegian) Unni Knutsen and Marit Kristine Ådland"
-msgstr "Norsk Nynorsk (Nynorsk norština) Unni Knutsen a Marit Kristine Ådland"
+msgstr "Norsk Nynorsk (norština) Unni Knutsen a Marit Kristine Ådland"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1140
 #, c-format
@@ -20884,13 +20885,13 @@ msgstr "Sleva: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:198
 #, c-format
 msgid "If empty, discount rate from vendor will be used"
-msgstr "Pokud je sleva vynechána, bude použita sleva definovaná v profilu dodavatele"
+msgstr "Pokud je prázdná, použije se slevová sazba dodavatele"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:207
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:339
 #, c-format
 msgid "Select a fund (will use default if set)"
-msgstr "Vyber financování (pokud nastaveno, použije výchozí)"
+msgstr "Vyber financování (pokud nastaveno, použije se výchozí)"
 
 #. For the first occurrence,
 #. %1$s:  budget.b_txt | html 
