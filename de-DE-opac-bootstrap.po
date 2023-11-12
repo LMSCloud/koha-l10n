@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-10 21:07+0100\n"
-"PO-Revision-Date: 2023-10-16 21:26+0000\n"
+"PO-Revision-Date: 2023-11-13 13:36+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: de\n"
+"Language: de-DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.1.1\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /de/22.11/de-DE-opac-bootstrap.po\n"
 "X-POOTLE-MTIME: 1697491592.707306\n"
@@ -27,7 +27,7 @@ msgstr "Gebühren und Entgelte"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:97
 #, c-format
 msgid "Created"
-msgstr "Erstellt"
+msgstr "Eingetragen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:10
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:98
@@ -68,7 +68,7 @@ msgstr "Offener Betrag"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:128
 #, c-format
 msgid "Total due"
-msgstr "Gebühren insgesamt"
+msgstr "Gesamtbetrag"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:78
 #, c-format
@@ -78,7 +78,7 @@ msgstr "Gesamtbetrag mit eingerechnetem Guthaben:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:88
 #, c-format
 msgid "You have no fines or charges"
-msgstr "Sie haben keine Gebühren"
+msgstr "Sie haben keine offenen Gebühren"
 
 #. %1$s:  r.patron.firstname | html 
 #. %2$s:  r.patron.surname | html 
@@ -95,7 +95,7 @@ msgstr "Mahngebühr"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:138
 #, c-format
 msgid "Pay selected fines and charges"
-msgstr "Gebühren und Entgelte bezahlen "
+msgstr "Gebühren und Entgelte bezahlen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:139
 #, c-format
@@ -230,7 +230,7 @@ msgstr "Rückerstattung einer Überzahlung"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/accounts.inc:42
 #, c-format
 msgid "Payment"
-msgstr "Bezahlen"
+msgstr "Zahlung"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/accounts.inc:43
 #, c-format
@@ -320,7 +320,7 @@ msgstr "UF"
 #. ABBR
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/authorities-search-results.inc:17
 msgid "Used For"
-msgstr "Benutzt für:"
+msgstr "Verwendet für"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/authorities-search-results.inc:19
 #, c-format
@@ -675,9 +675,9 @@ msgstr "Vorgemerktes Exemplar: %s"
 #. %4$s:  END 
 #. %5$s:  ELSE 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:72
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s Never expires %s %s "
-msgstr "Läuft nie ab %s %s "
+msgstr "%s %s %s Läuft nie ab %s %s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:88
 #, c-format
@@ -907,28 +907,28 @@ msgstr "[ END ] %%] %s %s %s %s %s %s %s %s %s %s "
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:111
 #, c-format
 msgid "Module "
-msgstr ""
+msgstr "Modul "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:116
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:124
-#, fuzzy, c-format
+#, c-format
 msgid "Module page "
-msgstr "Ergebnisse pro Seite: "
+msgstr "Modulseite "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:119
-#, fuzzy, c-format
+#, c-format
 msgid "Add form"
-msgstr "Beliebiges Format"
+msgstr "Neues Formular"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:127
-#, fuzzy, c-format
+#, c-format
 msgid "Confirm deletion"
-msgstr "Anschaffungsvorschlag bestätigen"
+msgstr "Löschung bestätigen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:132
 #, c-format
 msgid "Module page"
-msgstr ""
+msgstr "Modulseite"
 
 #. NAV
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:140
@@ -1235,25 +1235,24 @@ msgstr "Melden Sie sich an, um eigene Listen zu erstellen"
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:91
-#, fuzzy
 msgid "Self check out"
-msgstr "Hilfe zur Selbstverbuchung"
+msgstr "Selbstverbuchung"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:92
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:6
-#, fuzzy, c-format
+#, c-format
 msgid "Self checkout"
-msgstr "Hilfe zur Selbstverbuchung"
+msgstr "Selbstverbuchung"
 
 #. A name=Your cookies
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:100
 msgid "View and amend cookies you have consented to"
-msgstr ""
+msgstr "Cookies, denen Sie zugestimmt haben, anzeigen und verändern"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:101
-#, fuzzy, c-format
+#, c-format
 msgid "Your cookies"
-msgstr "Zustimmungen"
+msgstr "Ihre Cookies"
 
 #. %1$s:  INCLUDE 'patron-title.inc' patron = logged_in_user no_html = 1 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:117
@@ -1507,7 +1506,10 @@ msgstr "Wenn Sie kein Google-Konto, aber ein lokales Benutzerkonto haben, könne
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:398
 #, c-format
 msgid "Sorry, your Shibboleth identity does not match a valid library identity. If you have a local login, you may use that below."
-msgstr "Ihre Shibboleth-Identität lässt sich leider keinem gültigen Benutzerkonto zuordnen. Wenn Sie über lokale Anmeldedaten verfügen, verwenden Sie dieses bitte im Formular unterhalb. "
+msgstr ""
+"Ihre Shibboleth-Identität lässt sich leider keinem gültigen Bibliothekskonto "
+"zuordnen. Wenn Sie über ein lokales Login verfügen, können Sie dieses unten "
+"verwenden."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:401
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:101
@@ -1591,46 +1593,46 @@ msgstr "Passwort vergessen?"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:251
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:220
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:110
-#, fuzzy, c-format
+#, c-format
 msgid "Create an account"
-msgstr "Benutzerkonto eröffnen"
+msgstr "Bibliothekskonto eröffnen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:464
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:501
 #, c-format
 msgid "Accept all cookies"
-msgstr ""
+msgstr "Alle Cookies akzeptieren"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:466
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:503
 #, c-format
 msgid "Accept only essential cookies"
-msgstr ""
+msgstr "Nur erforderliche Cookies akzeptieren"
 
 #. BUTTON
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:467
 msgid "Click to view more information about your cookie consents"
-msgstr ""
+msgstr "Weitere Informationen zu Ihren gewählten Präferenzen für Cookies"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:467
-#, fuzzy, c-format
+#, c-format
 msgid "More information"
-msgstr "Reihe:"
+msgstr "Weitere Informationen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:476
-#, fuzzy, c-format
+#, c-format
 msgid "Cookie consent"
-msgstr "Zustimmungen"
+msgstr "Cookie-Zustimmung"
 
 #. INPUT type=checkbox name=consentCheckbox
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:489
 msgid "Consent to cookie"
-msgstr ""
+msgstr "Cookie zustimmen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:504
 #, c-format
 msgid "Accept selected non-essential cookies"
-msgstr ""
+msgstr "Ausgewählte nicht-erforderliche Cookies akzeptieren"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/catalog_concern.inc:10
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc:46
@@ -1656,9 +1658,9 @@ msgid "Submit "
 msgstr "Bestätigen "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:15
-#, fuzzy, c-format
+#, c-format
 msgid "Enter item barcode: "
-msgstr "Neues Exemplar scannen oder Barcode eingeben:"
+msgstr "Barcode eingeben: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:21
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:106
@@ -1684,9 +1686,9 @@ msgid "Due date"
 msgstr "Fälligkeitsdatum"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:31
-#, fuzzy, c-format
+#, c-format
 msgid "items checked out"
-msgstr "Exemplar ausgeliehen"
+msgstr "ausgeliehene Exemplare"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:37
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-topissues.inc:90
@@ -1899,7 +1901,7 @@ msgstr "MARCXML"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc:80
 #, c-format
 msgid "MARC (non-Unicode/MARC-8)"
-msgstr "MARC (non-Unicode/MARC-8)"
+msgstr "MARC (Nicht-Unicode/MARC-8)"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc:81
 #, c-format
@@ -1988,19 +1990,19 @@ msgid "Availability"
 msgstr "Verfügbarkeit"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:33
-#, fuzzy, c-format
+#, c-format
 msgid "Show all records"
-msgstr "Zeige alle Nachrichteneinträge"
+msgstr "Zeige alle Titel"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:33
-#, fuzzy, c-format
+#, c-format
 msgid "Showing only records with available items"
-msgstr "Aktuell verfügbare Exemplare."
+msgstr "Zeige alle Titel mit verfügbaren Exemplaren"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:35
-#, fuzzy, c-format
+#, c-format
 msgid "Limit to records with available items"
-msgstr "Aktuell verfügbare Exemplare"
+msgstr "Auf Titel mit verfügbaren Exemplaren einschränken"
 
 #. %1$s:  FOREACH relate IN related 
 #. %2$s:  relate.related_search | html 
@@ -2572,9 +2574,8 @@ msgstr "Buchcover"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:7
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:10
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:14
-#, fuzzy
 msgid "Place a hold on %s"
-msgstr "Vormerkung auf "
+msgstr "Vormerkung auf  %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:32
 #, c-format
@@ -2633,9 +2634,8 @@ msgstr "In Listen speichern"
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:66
-#, fuzzy
 msgid "Add %s to the cart"
-msgstr "Zum Korb hinzufügen"
+msgstr "%s zum Korb hinzufügen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:66
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:365
@@ -2769,9 +2769,9 @@ msgstr "Abholungen"
 
 #. %1$s:  logged_in_user.alert_subscriptions.count | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/usermenu.inc:167
-#, fuzzy, c-format
+#, c-format
 msgid "Alert subscriptions (%s)"
-msgstr "Abonnements ( %s )"
+msgstr "Abonnierte Benachrichtigungen ( %s )"
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/validator-strings.inc:2
@@ -2972,9 +2972,9 @@ msgid "An error has occurred &rsaquo; %s%s%sKoha online%s catalog"
 msgstr "Es ist ein Fehler aufgetreten &rsaquo; %s%s%sKoha %s - Katalog"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/errors/errorpage.tt:16
-#, fuzzy, c-format
+#, c-format
 msgid "An error has occurred"
-msgstr "Es ist ein Fehler aufgetreten."
+msgstr "Es ist ein Fehler aufgetreten"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/errors/errorpage.tt:33
 #, c-format
@@ -3632,9 +3632,93 @@ msgid "ilsdi.pl?service=GetPatronInfo&amp;patron_id=1&amp;show_contact=0&amp;sho
 msgstr "ilsdi.pl?service=GetPatronInfo&amp;patron_id=1&amp;show_contact=0&amp;show_loans=1 "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:599
-#, fuzzy, c-format
+#, c-format
 msgid "&lt;?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?&gt; &lt;GetPatronInfo&gt; &lt;category_type&gt;A&lt;/category_type&gt; &lt;categorycode&gt;ADUEXT&lt;/categorycode&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;lost&gt;0&lt;/lost&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;amountoutstanding&gt;6&lt;/amountoutstanding&gt; &lt;description&gt;Adulte extérieur&lt;/description&gt; &lt;title&gt;M&lt;/title&gt; &lt;enrolmentperiod&gt;12&lt;/enrolmentperiod&gt; &lt;charges&gt;6.00&lt;/charges&gt; &lt;dateenrolled&gt;2009-03-04&lt;/dateenrolled&gt; &lt;borrowernotes&gt;&lt;/borrowernotes&gt; &lt;dateexpiry&gt;2010-03-04&lt;/dateexpiry&gt; &lt;is_expired&gt;0&lt;/is_expired&gt; &lt;firstname&gt;Jean-André&lt;/firstname&gt; &lt;gonenoaddress&gt;0&lt;/gonenoaddress&gt; &lt;dateofbirth&gt;1984-06-08&lt;/dateofbirth&gt; &lt;debarred&gt;0&lt;/debarred&gt; &lt;branchname&gt;Bibliothèque Jean Prunier&lt;/branchname&gt; &lt;surname&gt;SANTONI&lt;/surname&gt; &lt;cardnumber&gt;815&lt;/cardnumber&gt; &lt;initials&gt;JAS&lt;/initials&gt; &lt;sort1&gt;CSP5&lt;/sort1&gt; &lt;sex&gt;M&lt;/sex&gt; &lt;loans&gt; &lt;loan&gt; &lt;lastreneweddate&gt;2009-04-03&lt;/lastreneweddate&gt; &lt;isbn&gt;2253003689&lt;/isbn&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;itemnumber&gt;4454&lt;/itemnumber&gt; &lt;date_due&gt;2009-05-06&lt;/date_due&gt; &lt;barcode&gt;4765476&lt;/barcode&gt; &lt;datelastseen&gt;2008-08-23&lt;/datelastseen&gt; &lt;issuedate&gt;2008-08-23&lt;/issuedate&gt; &lt;title&gt;L'Île au trésor&lt;/title&gt; &lt;itemtype&gt;LITT&lt;/itemtype&gt; &lt;author&gt;Robert Louis Stevenson&lt;/author&gt; &lt;timestamp&gt;2009-04-03 14:46:10&lt;/timestamp&gt; &lt;publishercode&gt;Librairie générale française&lt;/publishercode&gt; &lt;datecreated&gt;2008-08-23&lt;/datecreated&gt; &lt;totalrenewals&gt;11&lt;/totalrenewals&gt; &lt;dateaccessioned&gt;2008-08-23&lt;/dateaccessioned&gt; &lt;onloan&gt;2008-09-17&lt;/onloan&gt; &lt;biblioitemnumber&gt;4483&lt;/biblioitemnumber&gt; &lt;withdrawn&gt;0&lt;/withdrawn&gt; &lt;notforloan&gt;0&lt;/notforloan&gt; &lt;replacementpricedate&gt;2008-08-23&lt;/replacementpricedate&gt; &lt;itemcallnumber&gt;RO STE&lt;/itemcallnumber&gt; &lt;location&gt;Salle de lecture&lt;/location&gt; &lt;itemlost&gt;0&lt;/itemlost&gt; &lt;publicationyear&gt;1985&lt;/publicationyear&gt; &lt;holds_on_record&gt;0&lt;/holds_on_record&gt; &lt;holds_on_item&gt;0&lt;/holds_on_item&gt; &lt;issues&gt;1&lt;/issues&gt; &lt;homebranch&gt;BIB&lt;/homebranch&gt; &lt;holdingbranch&gt;BIB&lt;/holdingbranch&gt; &lt;biblionumber&gt;4483&lt;/biblionumber&gt; &lt;renewals&gt;3&lt;/renewals&gt; &lt;damaged&gt;0&lt;/damaged&gt; &lt;cn_sort&gt;RO_STE&lt;/cn_sort&gt; &lt;frameworkcode&gt;&lt;/frameworkcode&gt; &lt;datelastborrowed&gt;2008-08-23&lt;/datelastborrowed&gt; &lt;/loan&gt; &lt;loan&gt; &lt;lastreneweddate&gt;2009-03-17&lt;/lastreneweddate&gt; &lt;isbn&gt;9782700017823&lt;/isbn&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;itemnumber&gt;4456&lt;/itemnumber&gt; &lt;date_due&gt;2009-04-18&lt;/date_due&gt; &lt;barcode&gt;2700017UUU&lt;/barcode&gt; &lt;datelastseen&gt;2008-08-23&lt;/datelastseen&gt; &lt;issuedate&gt;2008-08-23&lt;/issuedate&gt; &lt;title&gt;La guitare en 10 leçons&lt;/title&gt; &lt;itemtype&gt;LITT&lt;/itemtype&gt; &lt;author&gt;Jon Buck&lt;/author&gt; &lt;timestamp&gt;2009-03-17 16:48:14&lt;/timestamp&gt; &lt;publishercode&gt;Gründ&lt;/publishercode&gt; &lt;datecreated&gt;2008-08-23&lt;/datecreated&gt; &lt;totalrenewals&gt;6&lt;/totalrenewals&gt; &lt;dateaccessioned&gt;2008-08-23&lt;/dateaccessioned&gt; &lt;notes&gt;La couv. porte en plus : \"un guide simple et facile pour apprendre la guitare\" | Glossaire. Index&lt;/notes&gt; &lt;onloan&gt;2008-09-25&lt;/onloan&gt; &lt;biblioitemnumber&gt;4486&lt;/biblioitemnumber&gt; &lt;withdrawn&gt;0&lt;/withdrawn&gt; &lt;notforloan&gt;0&lt;/notforloan&gt; &lt;replacementpricedate&gt;2008-08-23&lt;/replacementpricedate&gt; &lt;itemcallnumber&gt;787.87 BUC&lt;/itemcallnumber&gt; &lt;location&gt;Salle de lecture&lt;/location&gt; &lt;itemlost&gt;0&lt;/itemlost&gt; &lt;publicationyear&gt;2007&lt;/publicationyear&gt; &lt;holds_on_record&gt;1&lt;/holds_on_record&gt; &lt;holds_on_item&gt;1&lt;/holds_on_item&gt; &lt;issues&gt;1&lt;/issues&gt; &lt;homebranch&gt;BIB&lt;/homebranch&gt; &lt;holdingbranch&gt;BIB&lt;/holdingbranch&gt; &lt;biblionumber&gt;4486&lt;/biblionumber&gt; &lt;renewals&gt;3&lt;/renewals&gt; &lt;damaged&gt;0&lt;/damaged&gt; &lt;cn_sort&gt;78787_BUC&lt;/cn_sort&gt; &lt;volume&gt;une méthode simple et facile pour apprendre la guitare&lt;/volume&gt; &lt;frameworkcode&gt;&lt;/frameworkcode&gt; &lt;datelastborrowed&gt;2008-08-23&lt;/datelastborrowed&gt; &lt;/loan&gt; &lt;/loans&gt; &lt;/GetPatronInfo&gt;"
-msgstr "&lt;?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?&gt; &lt;GetPatronInfo&gt; &lt;category_type&gt;A&lt;/category_type&gt; &lt;categorycode&gt;ADUEXT&lt;/categorycode&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;lost&gt;0&lt;/lost&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;amountoutstanding&gt;6&lt;/amountoutstanding&gt; &lt;description&gt;Adulte extérieur&lt;/description&gt; &lt;title&gt;M&lt;/title&gt; &lt;enrolmentperiod&gt;12&lt;/enrolmentperiod&gt; &lt;charges&gt;6.00&lt;/charges&gt; &lt;dateenrolled&gt;2009-03-04&lt;/dateenrolled&gt; &lt;borrowernotes&gt;&lt;/borrowernotes&gt; &lt;dateexpiry&gt;2010-03-04&lt;/dateexpiry&gt; &lt;is_expired&gt;0&lt;/is_expired&gt; &lt;firstname&gt;Jean-André&lt;/firstname&gt; &lt;gonenoaddress&gt;0&lt;/gonenoaddress&gt; &lt;dateofbirth&gt;1984-06-08&lt;/dateofbirth&gt; &lt;debarred&gt;0&lt;/debarred&gt; &lt;branchname&gt;Bibliothèque Jean Prunier&lt;/branchname&gt; &lt;surname&gt;SANTONI&lt;/surname&gt; &lt;cardnumber&gt;815&lt;/cardnumber&gt; &lt;initials&gt;JAS&lt;/initials&gt; &lt;sort1&gt;CSP5&lt;/sort1&gt; &lt;sex&gt;M&lt;/sex&gt; &lt;loans&gt; &lt;loan&gt; &lt;lastreneweddate&gt;2009-04-03&lt;/lastreneweddate&gt; &lt;isbn&gt;2253003689&lt;/isbn&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;itemnumber&gt;4454&lt;/itemnumber&gt; &lt;date_due&gt;2009-05-06&lt;/date_due&gt; &lt;barcode&gt;4765476&lt;/barcode&gt; &lt;datelastseen&gt;2008-08-23&lt;/datelastseen&gt; &lt;issuedate&gt;2008-08-23&lt;/issuedate&gt; &lt;title&gt;L'Île au trésor&lt;/title&gt; &lt;itemtype&gt;LITT&lt;/itemtype&gt; &lt;author&gt;Robert Louis Stevenson&lt;/author&gt; &lt;timestamp&gt;2009-04-03 14:46:10&lt;/timestamp&gt; &lt;publishercode&gt;Librairie générale française&lt;/publishercode&gt; &lt;datecreated&gt;2008-08-23&lt;/datecreated&gt; &lt;totalrenewals&gt;11&lt;/totalrenewals&gt; &lt;dateaccessioned&gt;2008-08-23&lt;/dateaccessioned&gt; &lt;onloan&gt;2008-09-17&lt;/onloan&gt; &lt;biblioitemnumber&gt;4483&lt;/biblioitemnumber&gt; &lt;withdrawn&gt;0&lt;/withdrawn&gt; &lt;notforloan&gt;0&lt;/notforloan&gt; &lt;replacementpricedate&gt;2008-08-23&lt;/replacementpricedate&gt; &lt;itemcallnumber&gt;RO STE&lt;/itemcallnumber&gt; &lt;location&gt;Salle de lecture&lt;/location&gt; &lt;itemlost&gt;0&lt;/itemlost&gt; &lt;publicationyear&gt;1985&lt;/publicationyear&gt; &lt;issues&gt;1&lt;/issues&gt; &lt;homebranch&gt;BIB&lt;/homebranch&gt; &lt;holdingbranch&gt;BIB&lt;/holdingbranch&gt; &lt;biblionumber&gt;4483&lt;/biblionumber&gt; &lt;renewals&gt;3&lt;/renewals&gt; &lt;damaged&gt;0&lt;/damaged&gt; &lt;cn_sort&gt;RO_STE&lt;/cn_sort&gt; &lt;frameworkcode&gt;&lt;/frameworkcode&gt; &lt;datelastborrowed&gt;2008-08-23&lt;/datelastborrowed&gt; &lt;/loan&gt; &lt;loan&gt; &lt;lastreneweddate&gt;2009-03-17&lt;/lastreneweddate&gt; &lt;isbn&gt;9782700017823&lt;/isbn&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;itemnumber&gt;4456&lt;/itemnumber&gt; &lt;date_due&gt;2009-04-18&lt;/date_due&gt; &lt;barcode&gt;2700017UUU&lt;/barcode&gt; &lt;datelastseen&gt;2008-08-23&lt;/datelastseen&gt; &lt;issuedate&gt;2008-08-23&lt;/issuedate&gt; &lt;title&gt;La guitare en 10 leçons&lt;/title&gt; &lt;itemtype&gt;LITT&lt;/itemtype&gt; &lt;author&gt;Jon Buck&lt;/author&gt; &lt;timestamp&gt;2009-03-17 16:48:14&lt;/timestamp&gt; &lt;publishercode&gt;Gründ&lt;/publishercode&gt; &lt;datecreated&gt;2008-08-23&lt;/datecreated&gt; &lt;totalrenewals&gt;6&lt;/totalrenewals&gt; &lt;dateaccessioned&gt;2008-08-23&lt;/dateaccessioned&gt; &lt;notes&gt;La couv. porte en plus : \"un guide simple et facile pour apprendre la guitare\" | Glossaire. Index&lt;/notes&gt; &lt;onloan&gt;2008-09-25&lt;/onloan&gt; &lt;biblioitemnumber&gt;4486&lt;/biblioitemnumber&gt; &lt;withdrawn&gt;0&lt;/withdrawn&gt; &lt;notforloan&gt;0&lt;/notforloan&gt; &lt;replacementpricedate&gt;2008-08-23&lt;/replacementpricedate&gt; &lt;itemcallnumber&gt;787.87 BUC&lt;/itemcallnumber&gt; &lt;location&gt;Salle de lecture&lt;/location&gt; &lt;itemlost&gt;0&lt;/itemlost&gt; &lt;publicationyear&gt;2007&lt;/publicationyear&gt; &lt;issues&gt;1&lt;/issues&gt; &lt;homebranch&gt;BIB&lt;/homebranch&gt; &lt;holdingbranch&gt;BIB&lt;/holdingbranch&gt; &lt;biblionumber&gt;4486&lt;/biblionumber&gt; &lt;renewals&gt;3&lt;/renewals&gt; &lt;damaged&gt;0&lt;/damaged&gt; &lt;cn_sort&gt;78787_BUC&lt;/cn_sort&gt; &lt;volume&gt;une méthode simple et facile pour apprendre la guitare&lt;/volume&gt; &lt;frameworkcode&gt;&lt;/frameworkcode&gt; &lt;datelastborrowed&gt;2008-08-23&lt;/datelastborrowed&gt; &lt;/loan&gt; &lt;/loans&gt; &lt;/GetPatronInfo&gt;"
+msgstr ""
+"&lt;?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?&gt; &lt;GetPatronInfo&gt; "
+"&lt;category_type&gt;A&lt;/category_type&gt; "
+"&lt;categorycode&gt;ADUEXT&lt;/categorycode&gt; "
+"&lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;lost&gt;0&lt;/lost&gt; "
+"&lt;branchcode&gt;BIB&lt;/branchcode&gt; "
+"&lt;amountoutstanding&gt;6&lt;/amountoutstanding&gt; &lt;description&gt;"
+"Adulte extérieur&lt;/description&gt; &lt;title&gt;M&lt;/title&gt; "
+"&lt;enrolmentperiod&gt;12&lt;/enrolmentperiod&gt; &lt;charges&gt;6."
+"00&lt;/charges&gt; &lt;dateenrolled&gt;2009-03-04&lt;/dateenrolled&gt; "
+"&lt;borrowernotes&gt;&lt;/borrowernotes&gt; "
+"&lt;dateexpiry&gt;2010-03-04&lt;/dateexpiry&gt; "
+"&lt;is_expired&gt;0&lt;/is_expired&gt; &lt;firstname&gt;Jean-"
+"André&lt;/firstname&gt; &lt;gonenoaddress&gt;0&lt;/gonenoaddress&gt; "
+"&lt;dateofbirth&gt;1984-06-08&lt;/dateofbirth&gt; "
+"&lt;debarred&gt;0&lt;/debarred&gt; &lt;branchname&gt;Bibliothèque Jean "
+"Prunier&lt;/branchname&gt; &lt;surname&gt;SANTONI&lt;/surname&gt; "
+"&lt;cardnumber&gt;815&lt;/cardnumber&gt; &lt;initials&gt;JAS&lt;/initials&gt;"
+" &lt;sort1&gt;CSP5&lt;/sort1&gt; &lt;sex&gt;M&lt;/sex&gt; &lt;loans&gt; "
+"&lt;loan&gt; &lt;lastreneweddate&gt;2009-04-03&lt;/lastreneweddate&gt; "
+"&lt;isbn&gt;2253003689&lt;/isbn&gt; "
+"&lt;borrowernumber&gt;419&lt;/borrowernumber&gt; "
+"&lt;branchcode&gt;BIB&lt;/branchcode&gt; "
+"&lt;itemnumber&gt;4454&lt;/itemnumber&gt; "
+"&lt;date_due&gt;2009-05-06&lt;/date_due&gt; "
+"&lt;barcode&gt;4765476&lt;/barcode&gt; "
+"&lt;datelastseen&gt;2008-08-23&lt;/datelastseen&gt; "
+"&lt;issuedate&gt;2008-08-23&lt;/issuedate&gt; &lt;title&gt;L'Île au "
+"trésor&lt;/title&gt; &lt;itemtype&gt;LITT&lt;/itemtype&gt; &lt;author&gt;"
+"Robert Louis Stevenson&lt;/author&gt; &lt;timestamp&gt;2009-04-03 "
+"14:46:10&lt;/timestamp&gt; &lt;publishercode&gt;Librairie générale "
+"française&lt;/publishercode&gt; "
+"&lt;datecreated&gt;2008-08-23&lt;/datecreated&gt; "
+"&lt;totalrenewals&gt;11&lt;/totalrenewals&gt; "
+"&lt;dateaccessioned&gt;2008-08-23&lt;/dateaccessioned&gt; "
+"&lt;onloan&gt;2008-09-17&lt;/onloan&gt; "
+"&lt;biblioitemnumber&gt;4483&lt;/biblioitemnumber&gt; "
+"&lt;withdrawn&gt;0&lt;/withdrawn&gt; &lt;notforloan&gt;0&lt;/notforloan&gt; "
+"&lt;replacementpricedate&gt;2008-08-23&lt;/replacementpricedate&gt; "
+"&lt;itemcallnumber&gt;RO STE&lt;/itemcallnumber&gt; &lt;location&gt;Salle de "
+"lecture&lt;/location&gt; &lt;itemlost&gt;0&lt;/itemlost&gt; "
+"&lt;publicationyear&gt;1985&lt;/publicationyear&gt; "
+"&lt;holds_on_record&gt;0&lt;/holds_on_record&gt; "
+"&lt;holds_on_item&gt;0&lt;/holds_on_item&gt; &lt;issues&gt;1&lt;/issues&gt; "
+"&lt;homebranch&gt;BIB&lt;/homebranch&gt; "
+"&lt;holdingbranch&gt;BIB&lt;/holdingbranch&gt; "
+"&lt;biblionumber&gt;4483&lt;/biblionumber&gt; "
+"&lt;renewals&gt;3&lt;/renewals&gt; &lt;damaged&gt;0&lt;/damaged&gt; "
+"&lt;cn_sort&gt;RO_STE&lt;/cn_sort&gt; "
+"&lt;frameworkcode&gt;&lt;/frameworkcode&gt; "
+"&lt;datelastborrowed&gt;2008-08-23&lt;/datelastborrowed&gt; &lt;/loan&gt; "
+"&lt;loan&gt; &lt;lastreneweddate&gt;2009-03-17&lt;/lastreneweddate&gt; "
+"&lt;isbn&gt;9782700017823&lt;/isbn&gt; "
+"&lt;borrowernumber&gt;419&lt;/borrowernumber&gt; "
+"&lt;branchcode&gt;BIB&lt;/branchcode&gt; "
+"&lt;itemnumber&gt;4456&lt;/itemnumber&gt; "
+"&lt;date_due&gt;2009-04-18&lt;/date_due&gt; "
+"&lt;barcode&gt;2700017UUU&lt;/barcode&gt; "
+"&lt;datelastseen&gt;2008-08-23&lt;/datelastseen&gt; "
+"&lt;issuedate&gt;2008-08-23&lt;/issuedate&gt; &lt;title&gt;La guitare en 10 "
+"leçons&lt;/title&gt; &lt;itemtype&gt;LITT&lt;/itemtype&gt; &lt;author&gt;Jon "
+"Buck&lt;/author&gt; &lt;timestamp&gt;2009-03-17 16:48:14&lt;/timestamp&gt; "
+"&lt;publishercode&gt;Gründ&lt;/publishercode&gt; "
+"&lt;datecreated&gt;2008-08-23&lt;/datecreated&gt; "
+"&lt;totalrenewals&gt;6&lt;/totalrenewals&gt; "
+"&lt;dateaccessioned&gt;2008-08-23&lt;/dateaccessioned&gt; &lt;notes&gt;La "
+"couv. porte en plus : \"un guide simple et facile pour apprendre la guitare\""
+" | Glossaire. Index&lt;/notes&gt; &lt;onloan&gt;2008-09-25&lt;/onloan&gt; "
+"&lt;biblioitemnumber&gt;4486&lt;/biblioitemnumber&gt; "
+"&lt;withdrawn&gt;0&lt;/withdrawn&gt; &lt;notforloan&gt;0&lt;/notforloan&gt; "
+"&lt;replacementpricedate&gt;2008-08-23&lt;/replacementpricedate&gt; "
+"&lt;itemcallnumber&gt;787.87 BUC&lt;/itemcallnumber&gt; &lt;location&gt;"
+"Salle de lecture&lt;/location&gt; &lt;itemlost&gt;0&lt;/itemlost&gt; "
+"&lt;publicationyear&gt;2007&lt;/publicationyear&gt; "
+"&lt;holds_on_record&gt;1&lt;/holds_on_record&gt; "
+"&lt;holds_on_item&gt;1&lt;/holds_on_item&gt; &lt;issues&gt;1&lt;/issues&gt; "
+"&lt;homebranch&gt;BIB&lt;/homebranch&gt; "
+"&lt;holdingbranch&gt;BIB&lt;/holdingbranch&gt; "
+"&lt;biblionumber&gt;4486&lt;/biblionumber&gt; "
+"&lt;renewals&gt;3&lt;/renewals&gt; &lt;damaged&gt;0&lt;/damaged&gt; "
+"&lt;cn_sort&gt;78787_BUC&lt;/cn_sort&gt; &lt;volume&gt;une méthode simple et "
+"facile pour apprendre la guitare&lt;/volume&gt; "
+"&lt;frameworkcode&gt;&lt;/frameworkcode&gt; "
+"&lt;datelastborrowed&gt;2008-08-23&lt;/datelastborrowed&gt; &lt;/loan&gt; "
+"&lt;/loans&gt; &lt;/GetPatronInfo&gt;"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:712
 #, c-format
@@ -3990,9 +4074,9 @@ msgstr "ISBD-Sicht &rsaquo; %s%s%sKoha %s - Katalog"
 
 #. %1$s:  biblio.title | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-ISBDdetail.tt:14
-#, fuzzy, c-format
+#, c-format
 msgid "ISBD view for: %s"
-msgstr "ISBD"
+msgstr "ISBD-Sicht für %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-ISBDdetail.tt:25
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-MARCdetail.tt:26
@@ -4076,7 +4160,7 @@ msgstr "Keine Exemplare verfügbar."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-browse.tt:92
 #, c-format
 msgid "Loading"
-msgstr "Lädt..."
+msgstr "Lädt"
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-MARCdetail.tt:174
@@ -4328,7 +4412,7 @@ msgstr "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s und %s "
 #. SELECT name=idx
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:55
 msgid "Choose search type for field %s"
-msgstr ""
+msgstr "Suchart für Feld %s auswählen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:56
 #, c-format
@@ -4439,9 +4523,8 @@ msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISSN"
 
 #. INPUT type=text name=q
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:110
-#, fuzzy
 msgid "Enter field %s search terms"
-msgstr "Suchbegriffe eingeben"
+msgstr "Suchbegriffe für Feld %s eingeben"
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:114
@@ -4931,19 +5014,19 @@ msgstr "Bitte bestätigen Sie, dass Sie keine E-Mail mehr erhalten möchten, wen
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:8
-#, fuzzy, c-format
+#, c-format
 msgid "Your alert subscriptions &rsaquo; %s%s%sKoha online%s catalog"
-msgstr "Hefte eines Abonnements &rsaquo; %s%s%sKoha %s - Katalog"
+msgstr "Abonnierte Benachrichtigungen  &rsaquo; %s%s%sKoha %s - Katalog"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:25
-#, fuzzy, c-format
+#, c-format
 msgid "Your alert subscriptions"
-msgstr "Hefte eines Abonnements"
+msgstr "Abonnierte Benachrichtigungen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:40
-#, fuzzy, c-format
+#, c-format
 msgid "Alert subscriptions"
-msgstr "Abonnements"
+msgstr "Abonnierte Benachrichtigungen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:49
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:64
@@ -4959,14 +5042,16 @@ msgid "Actions"
 msgstr "Aktionen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:78
-#, fuzzy, c-format
+#, c-format
 msgid "Unsubscribe from email alerts"
-msgstr "E-Mail-Abonnement über neue Zeitschriftenhefte löschen"
+msgstr "Abonnement beenden"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:87
-#, fuzzy, c-format
+#, c-format
 msgid "You have not subscribed to email alerts for any subscriptions."
-msgstr "Sie haben E-Mail-Benachrichtigungen über neue Zeitschriftenhefte abonniert. "
+msgstr ""
+"Sie haben keine E-Mail-Benachrichtigungen über das Eintreffen neuer "
+"Zeitschriftenhefte abonniert."
 
 #. %1$s:  authtypetext | html 
 #. %2$s:  IF ( LibraryNameTitle ) 
@@ -7077,9 +7162,9 @@ msgstr "Liste herunterladen %s &rsaquo; %s%s%sKoha %s - Katalog"
 
 #. %1$s:  shelf.shelfname | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt:28
-#, fuzzy, c-format
+#, c-format
 msgid "Download list '%s'"
-msgstr "Liste herunterladen "
+msgstr "Liste '%s' herunterladen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt:53
 #, c-format
@@ -7390,7 +7475,7 @@ msgstr "Fernleihbestellung anzeigen"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:45
 #, c-format
 msgid "Ill request disclaimer"
-msgstr ""
+msgstr "Rechtshinweis für Fernleihbestellungen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:72
 #, c-format
@@ -7562,7 +7647,7 @@ msgstr "Bestellung stornieren"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:283
 #, c-format
 msgid "ILL request disclaimer"
-msgstr ""
+msgstr "Rechtshinweis für Fernleihbestellungen"
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #. %2$s:  IF ( LibraryNameTitle ) 
@@ -7593,35 +7678,37 @@ msgstr "Thumbnail"
 #. %4$s:  ELSE 
 #. %5$s:  END 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:9
-#, fuzzy, c-format
+#, c-format
 msgid "Editing checkout note for %s &rsaquo; %s%s%sKoha online%s catalog"
 msgstr "Ausleihnotiz für %s bearbeiten &rsaquo; %s%s%sKoha %s - Katalog"
 
 #. %1$s:  title | html 
 #. %2$s:  author | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:26
-#, fuzzy, c-format
+#, c-format
 msgid "Editing checkout note for '%s' %s"
-msgstr "Ausleihnotiz für %s %s"
+msgstr "Ausleihnotiz für '%s' %s bearbeiten"
 
 #. %1$s:  IF not(Koha.Preference("AllowCheckoutNotes")) 
 #. %2$s:  ELSE 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:40
-#, fuzzy, c-format
+#, c-format
 msgid "%s Checkout notes have not been enabled. Please contact the library. %s "
-msgstr "%s Ausleihnotizen sind nicht aktiviert. Kontaktieren Sie bitte die Bibliothek. %s "
+msgstr ""
+"%s Ausleihnotizen sind nicht aktiviert. Kontaktieren Sie bitte die "
+"Bibliothek. %s "
 
 #. %1$s:  title | html 
 #. %2$s:  author | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:40
-#, fuzzy, c-format
+#, c-format
 msgid "Editing checkout note for %s %s"
-msgstr "Ausleihnotiz für %s %s"
+msgstr "Ausleihnotiz für %s %s bearbeiten"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "Edit checkout note"
-msgstr "Ausleihmitteilung"
+msgstr "Ausleihnotiz bearbeiten"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:47
 #, c-format
@@ -7773,7 +7860,7 @@ msgstr "Persönliche Daten"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry-update-submitted.tt:24
 #, c-format
 msgid "Updates submitted"
-msgstr ""
+msgstr "Änderungen abgesendet"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry-update-submitted.tt:38
 #, c-format
@@ -8478,52 +8565,48 @@ msgstr "Unbekannt"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:81
 msgid "Choose how many days in advance you wish to receive notice"
 msgstr ""
+"Auswählen, wie viele Tage im voraus man die Benachrichtigung erhalten möchte"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:97
 msgid "Unselect sms messaging"
-msgstr ""
+msgstr "SMS-Benachrichtigungen abwählen"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:99
-#, fuzzy
 msgid "Select sms messaging"
-msgstr "Zeitpunkt auswählen"
+msgstr "SMS-Benachrichtigungen auswählen"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:110
-#, fuzzy
 msgid "Unselect notification by phone"
-msgstr "E-Mail-Benachrichtigung abbestellen "
+msgstr "Telefonbenachrichtigungen abwählen"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:117
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:140
-#, fuzzy
 msgid "Select notification by phone"
-msgstr "E-Mail-Benachrichtigung abbestellen "
+msgstr "Telefonbenachrichtigungen auswählen"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:133
 msgid "Unselect itiva messaging"
-msgstr ""
+msgstr "itiva-Benachrichtigungen abwählen"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:156
 msgid "Unselect email messaging"
-msgstr ""
+msgstr "E-Mail-Benachrichtigungen abwählen"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:158
-#, fuzzy
 msgid "Select email messaging"
-msgstr "Zeitpunkt auswählen"
+msgstr "E-Mail-Benachrichitgungen auswählen"
 
 #. INPUT type=checkbox name=digest
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:168
-#, fuzzy
 msgid "Unselect digests"
-msgstr "Liste auswählen"
+msgstr "Zusammenfassungen abwählen"
 
 #. INPUT type=checkbox name=digest
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:168
@@ -8533,9 +8616,8 @@ msgstr "Sei müssen eine Versandart auswählen, die Zusammenfassungen unterstüt
 
 #. INPUT type=checkbox name=digest
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:170
-#, fuzzy
 msgid "Select digests"
-msgstr "Liste auswählen"
+msgstr "Zusammenfassungen auswählen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:189
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:64
@@ -9056,9 +9138,9 @@ msgid "Your consents"
 msgstr "Zustimmungen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:42
-#, fuzzy, c-format
+#, c-format
 msgid "Privacy policy consent"
-msgstr "Einwilligungen in Datenschutzerklärungen"
+msgstr "Zustimmung zur Datenschutzerklärung"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:44
 #, c-format
@@ -9068,17 +9150,17 @@ msgstr "Um Ihre Anmeldung aufrecht zu erhalten, benötigen wir Ihre Einwilligung
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:45
 #, c-format
 msgid "If you choose to withdraw your consent we will "
-msgstr ""
+msgstr "Wenn Sie entscheiden Ihre Zustimmung zurückzunehmen, werden wir "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "remove your account"
-msgstr "Benutzerkonto"
+msgstr "Ihr Bibliothekskonto löschen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:45
 #, c-format
 msgid "within a reasonable time and you should log out now."
-msgstr ""
+msgstr "und Sie sollten sich nun abmelden."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:47
 #, c-format
@@ -9094,28 +9176,28 @@ msgstr "gelesen und stimme der Verarbeitung meiner persönlichen Daten wie darin
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:56
 #, c-format
 msgid "Do you agree?"
-msgstr ""
+msgstr "Sind Sie einverstanden?"
 
 #. %1$s:  consent_type | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:55
-#, fuzzy, c-format
+#, c-format
 msgid "Consent for %s"
-msgstr "Einwilligungen"
+msgstr "Zustimmung zu %s"
 
 #. For the first occurrence,
 #. %1$s:  ELSIF consent.refused_on 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:61
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:64
-#, fuzzy, c-format
+#, c-format
 msgid "No %s "
-msgstr "Hinweise: %s "
+msgstr "Nein %s "
 
 #. %1$s:  END 
 #. %2$s:  IF consent.given_on 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:67
-#, fuzzy, c-format
+#, c-format
 msgid "No %s %s "
-msgstr "Hinweise: %s "
+msgstr "Nein %s %s "
 
 #. %1$s:  consent.given_on | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:70
@@ -9127,17 +9209,17 @@ msgstr "Ihre Zustimmung wurde am %s registriert."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:72
 #, c-format
 msgid "We registered that you did not consent on %s."
-msgstr ""
+msgstr "Wir haben festgestellt, dass Sie am %s nicht zugestimmt haben."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:82
-#, fuzzy, c-format
+#, c-format
 msgid "Cookie consents"
-msgstr "Zustimmungen"
+msgstr "Zustimmung zu Cookies"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:83
-#, fuzzy, c-format
+#, c-format
 msgid "View your cookie consents"
-msgstr "Zustimmungen"
+msgstr "Ihre Cookie-Zustimmungen"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
@@ -9342,9 +9424,11 @@ msgstr "Ausleihverlauf"
 #. %8$s:  IF all_checkouts.size == 0 
 #. %9$s:  ELSE 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:44
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%s %s%s%s %s %s You have never borrowed anything from this library. %s "
-msgstr "%s Sie haben noch nie etwas aus dieser Bibliothek ausgeliehen. %s "
+msgstr ""
+"%s%s%s %s%s%s %s %s Sie haben in dieser Bibliothek bisher nichts entliehen. "
+"%s "
 
 #. For the first occurrence,
 #. %1$s:  savings | $Price with_symbol => 1 
@@ -9758,9 +9842,9 @@ msgid "Please confirm your registration &rsaquo; %s%s%sKoha online%s catalog"
 msgstr "Bitte bestätigen Sie Ihre Anmeldung &rsaquo; %s%s%sKoha %s - Katalog"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-email-sent.tt:17
-#, fuzzy, c-format
+#, c-format
 msgid "Confirm your registration"
-msgstr "Bitte bestätigen Sie die Kontoeröffnung"
+msgstr "Bestätigen Sie Ihre Anmeldung"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-email-sent.tt:32
 #, c-format
@@ -9778,9 +9862,9 @@ msgid "Your account will not be activated until you follow the link provided in 
 msgstr "Ihr Benutzerkonto wird erst aktiviert, wenn Sie den Link in der Bestätigungsmail angeklickt haben."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-invalid.tt:20
-#, fuzzy, c-format
+#, c-format
 msgid "Registration invalid"
-msgstr "Anmeldung ungültig!"
+msgstr "Anmeldung ungültig"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-invalid.tt:36
 #, c-format
@@ -9799,12 +9883,12 @@ msgstr "Problem melden &rsaquo; %s%s%sKoha %s - Katalog"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reportproblem.tt:21
 #, c-format
 msgid "Report submitted"
-msgstr ""
+msgstr "Bericht abgesendet"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reportproblem.tt:23
 #, c-format
 msgid "Error submitting report"
-msgstr ""
+msgstr "Fehler beim Absenden des Berichts"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reportproblem.tt:53
 #, c-format
@@ -10486,9 +10570,9 @@ msgid "%s %s &rsaquo; %s %s %s %s Koha online %s catalog "
 msgstr "%s %s &rsaquo; %s %s %s %s Koha %s - Katalog "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-restrictedpage.tt:30
-#, fuzzy, c-format
+#, c-format
 msgid "Restricted page"
-msgstr "Ergebnisse pro Seite: "
+msgstr "Eingeschränkt zugängliche Seite"
 
 #. %1$s:  IF ( searchdesc ) 
 #. %2$s:  IF ( ms_value ) 
@@ -11458,9 +11542,9 @@ msgid "The \"Anyone\" permission has no actual effect while this list is strictl
 msgstr "Die Berechtigung für \"Jeder\" hat keine Auswirkung für private Listen."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:110
-#, fuzzy, c-format
+#, c-format
 msgid "Contents of "
-msgstr "Inhalte von &nbsp;"
+msgstr "Inhalte von "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:116
 #, c-format
@@ -11468,9 +11552,9 @@ msgid "Create new list"
 msgstr "Neue Liste"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:122
-#, fuzzy, c-format
+#, c-format
 msgid "Edit list "
-msgstr "Liste bearbeiten"
+msgstr "Liste bearbeiten "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:151
 #, c-format
@@ -11697,9 +11781,9 @@ msgid "Resort list"
 msgstr "Liste neu sortieren"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:369
-#, fuzzy, c-format
+#, c-format
 msgid "Add to list"
-msgstr "Der Liste hinzufügen:"
+msgstr "Zur Liste hinzufügen"
 
 #. INPUT type=submit name=tagsel_button
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:379
@@ -11861,9 +11945,8 @@ msgstr "Nein, nicht löschen"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:832
-#, fuzzy
 msgid "No, do not delete from list"
-msgstr "Nein, nicht löschen"
+msgstr "Nein, nicht von der Liste löschen"
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:832
@@ -11888,9 +11971,8 @@ msgstr "Ja, löschen"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:832
-#, fuzzy
 msgid "Yes, delete from list"
-msgstr "Ja, löschen"
+msgstr "Ja, von der Liste löschen"
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:832
@@ -12922,9 +13004,9 @@ msgstr "Gebühren der Verwandten"
 #. %1$s:  borrower_club_enrollments.count || 0 | html 
 #. %2$s:  borrower_enrollable_clubs.count || 0 | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:284
-#, fuzzy, c-format
+#, c-format
 msgid "Clubs (%s/%s)"
-msgstr "Clubs (%s/%s) "
+msgstr "Clubs (%s/%s)"
 
 #. %1$s:  RESERVES.count | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:290
@@ -13133,9 +13215,9 @@ msgstr "Keine Verlängerung vor %s"
 #. %2$s:  END 
 #. %3$s:  IF ( ISSUE.auto_renew || ISSUE.auto_too_soon ) 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:497
-#, fuzzy, c-format
+#, c-format
 msgid "%s Renewal not allowed %s %s "
-msgstr "%s Keine Verlängerung erlaubt %s "
+msgstr "%s Keine Verlängerung erlaubt %s %s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:508
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:814
@@ -13898,14 +13980,14 @@ msgstr "%s Vormerkungen (%s) "
 #. %6$s:  END 
 #. %7$s:  new_issue.date_due | $KohaDates as_due_date => 1 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:322
-#, fuzzy, c-format
+#, c-format
 msgid "%s (%s). %s %s %s. %s Due on %s "
-msgstr "%s %s von %s %s %s %s "
+msgstr "%s (%s). %s %s %s. %s Fällig am  %s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:322
-#, fuzzy, c-format
+#, c-format
 msgid "Checked out: "
-msgstr "Ausgeliehen"
+msgstr "Ausgeliehen: "
 
 #. %1$s:  borrowername | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:337
@@ -13949,9 +14031,9 @@ msgid "Check in item"
 msgstr "Rückgabe"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:412
-#, fuzzy, c-format
+#, c-format
 msgid "This item is scheduled for automatic renewal"
-msgstr "Dieses Exemplar ist für automatische Verlängerung vorgesehen."
+msgstr "Dieses Exemplar wird automatisch verlängert"
 
 #. %1$s:  IF ( ISSUE.charges ) 
 #. %2$s:  ELSE 
@@ -13962,9 +14044,9 @@ msgid "%sYes%sNo%s "
 msgstr "%sJa%sNein%s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:427
-#, fuzzy, c-format
+#, c-format
 msgid "Show your checkouts"
-msgstr "Keine Ausleihen"
+msgstr "Ausleihen anzeigen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:430
 #, c-format
