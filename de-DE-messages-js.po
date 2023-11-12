@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-10 21:07+0100\n"
-"PO-Revision-Date: 2023-10-16 21:24+0000\n"
+"PO-Revision-Date: 2023-11-13 13:36+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: de\n"
+"Language: de-DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.1.1\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /de/22.11/de-DE-messages-js.po\n"
 "X-POOTLE-MTIME: 1697491487.374527\n"
@@ -150,7 +150,7 @@ msgstr "Pflichtfelder im Exemplar nicht vollständig ausgefüllt"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:83
 #: koha-tmpl/intranet-tmpl/prog/js/z3950_search.js:117
 msgid "Loading"
-msgstr "Lädt..."
+msgstr "Lädt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/ajax.js:18
 msgid "Internal Server Error, please reload the page"
@@ -300,7 +300,7 @@ msgstr "Sind Sie sicher, dass sie die Felder und Unterfelder des %s-Frameworks e
 #: koha-tmpl/intranet-tmpl/prog/js/biblio_framework.js:59
 #, javascript-format
 msgid "Importing to framework: %s. Importing from file: %s."
-msgstr "Importiere in Framework: %s. Importiere aus Datei: %s"
+msgstr "Importiere in Framework: %s. Importiere aus Datei: %s."
 
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:88
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:90
@@ -636,9 +636,8 @@ msgid "Not allowed: overdue"
 msgstr "Nicht möglich: überfällig"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:228
-#, fuzzy
 msgid "Unable to find an open day"
-msgstr "Nicht möglich als zurückgegeben zu reklamieren"
+msgstr "Kann keinen Öffnungstag ermitteln"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:232
 msgid "reason unknown"
@@ -1051,16 +1050,17 @@ msgstr "Exemplar wurde noch nicht von %s geliefert"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:350
 msgid "Unable to resume, hold not found"
-msgstr "Wiederaufnahme nicht möglich, Vormerkung nicht gefunden."
+msgstr "Wiederaufnahme nicht möglich, Vormerkung nicht gefunden"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:353
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:439
 msgid "Your request could not be processed. Check the logs"
-msgstr "Ihre Vormerkung konnte nicht eingetragen werden, bitte prüfen Sie die Logs."
+msgstr ""
+"Ihre Vormerkung konnte nicht eingetragen werden, bitte prüfen Sie die Logs"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:400
 msgid "Suspend hold on"
-msgstr "Vormerkung aussetzen am "
+msgstr "Vormerkung aussetzen am"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:406
 msgid "Suspend until:"
@@ -1072,7 +1072,7 @@ msgstr "Löschen Sie das Datum, um unbefristet auszusetzen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:436
 msgid "Unable to suspend, hold not found"
-msgstr "Aussetzen nicht möglich, Vormerkung nicht gefunden."
+msgstr "Aussetzen nicht möglich, Vormerkung nicht gefunden"
 
 #: koha-tmpl/intranet-tmpl/prog/js/item_search_fields.js:5
 msgid "Please enter letters or numbers"
@@ -1261,12 +1261,14 @@ msgstr "Sollen die Benachrichtigungseinstellungen auf den Standard für diesen B
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:38
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:55
 msgid "Your concern was sucessfully submitted."
-msgstr ""
+msgstr "Ihr Anliegen wurde erfolgreich übermittelt."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:46
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:60
 msgid "There was an error when submitting your concern, please contact a librarian."
 msgstr ""
+"Bei der Übermittlung Ihres Anliegens ist ein Fehler aufgetreten, bitte "
+"kontaktieren Sie die Bibliothek."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:23
 msgid "Loading updates . . ."
@@ -1690,7 +1692,7 @@ msgstr "Bitte geben Sie %s oder mehr Zeichen ein"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:20
 msgid "Loading more results…"
-msgstr "Lade weitere Ergebnisse..."
+msgstr "Lade weitere Ergebnisse…"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:22
 #, javascript-format
@@ -1704,7 +1706,7 @@ msgstr "Keine Ergebnisse gefunden"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:25
 msgid "Searching…"
-msgstr "Suche..."
+msgstr "Suche…"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:26
 msgid "Remove all items"
@@ -1747,7 +1749,7 @@ msgstr "Sind Sie sicher, dass Sie %s löschen möchten?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:473
 msgid "An error occurred. Check the logs"
-msgstr "Es ist ein Fehler aufgetreten. Überprüfen Sie die Logs."
+msgstr "Es ist ein Fehler aufgetreten. Überprüfen Sie die Logs"
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:19
 msgid "Frequency and subscription length provided doesn't combine well. Please consider entering an issue count rather than a time period."
@@ -1755,7 +1757,11 @@ msgstr "Die Erscheinungsweise und die Abonnementlänge stimmen nicht überein. E
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:51
 msgid "If you wish to claim late or missing issues you must link this subscription to a vendor. Click OK to ignore or Cancel to return and enter a vendor"
-msgstr "Wenn Sie verspätete oder fehlende Hefte reklamieren möchten, müssen Sie dieses Abonnement mit einem Lieferanten verknüpfen. Klicken Sie auf OK um das zu ignorieren, oder auf Abbrechen um zurückzugehen und einen Lieferanten einzugeben."
+msgstr ""
+"Wenn Sie verspätete oder fehlende Hefte reklamieren möchten, müssen Sie "
+"dieses Abonnement mit einem Lieferanten verknüpfen. Klicken Sie auf OK, um "
+"das zu ignorieren, oder auf Abbrechen, um zurückzugehen und einen "
+"Lieferanten einzugeben."
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:58
 msgid "The vendor does not exist"
@@ -1824,11 +1830,15 @@ msgstr "Ein Muster mit diesem Namen existiert bereits. Möchten Sie es bearbeite
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:370
 msgid "Warning: This will modify the pattern for all subscriptions that are using it."
-msgstr "Warnung: Sie verändern hiermit das Erscheinungsmuster für alle damit verknüpften Abonnements. "
+msgstr ""
+"Warnung: Sie verändern hiermit das Erscheinungsmuster für alle damit "
+"verknüpften Abonnements."
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:400
 msgid "Something went wrong. Unable to create a new numbering pattern."
-msgstr "Etwas ist schief gelaufen. Es kein kein neues Nummerierungsmuster angelegt werden."
+msgstr ""
+"Etwas ist schief gelaufen. Es kann kein neues Nummerierungsmuster angelegt "
+"werden."
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:421
 msgid "Searching for subscription in Mana Knowledge Base"
@@ -1884,7 +1894,7 @@ msgstr "Datei existiert bereits"
 
 #: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:109
 msgid "Root directory for uploads not defined"
-msgstr "Basisverzeichnis für Uploads ist nicht definiert."
+msgstr "Wurzelverzeichnis für Uploads ist nicht definiert"
 
 #: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:109
 msgid "Temporary directory for uploads not defined"
@@ -2205,7 +2215,7 @@ msgstr "in"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:27
 msgid "Show mine only"
-msgstr ""
+msgstr "Zeige nur meine Einträge"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:53
 msgid "There are no agreements defined"
@@ -2464,7 +2474,7 @@ msgstr "Paket aus Holdings enfernen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:40
 msgid "External ID"
-msgstr ""
+msgstr "Externe ID"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:59
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:43
@@ -4039,34 +4049,28 @@ msgid "E-resource management"
 msgstr "ERM"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:69
-#, fuzzy
 msgid "Show agreement"
-msgstr "Neue Vereinbarung"
+msgstr "Zeige Vereinbarung"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:75
-#, fuzzy
 msgid "Add agreement"
 msgstr "Neue Vereinbarung"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:81
-#, fuzzy
 msgid "Edit agreement"
-msgstr "Vereinbarung %s bearbeiten"
+msgstr "Vereinbarung bearbeiten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:100
-#, fuzzy
 msgid "Show license"
-msgstr "Neue Lizenz"
+msgstr "Lizenz anzeigen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:106
-#, fuzzy
 msgid "Add license"
 msgstr "Neue Lizenz"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:112
-#, fuzzy
 msgid "Edit license"
-msgstr "Lizenz %s bearbeiten"
+msgstr "Lizenz bearbeiten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:118
 msgid "eHoldings"
@@ -4078,19 +4082,16 @@ msgstr "Lokal"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:147
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
-#, fuzzy
 msgid "Show package"
-msgstr "Neues Paket"
+msgstr "Paket anzeigen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:155
-#, fuzzy
 msgid "Add package"
 msgstr "Neues Paket"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:163
-#, fuzzy
 msgid "Edit package"
-msgstr "Paket %s bearbeiten"
+msgstr "Paket bearbeiten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:169
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:255
@@ -4099,25 +4100,21 @@ msgstr "Titel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:186
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:272
-#, fuzzy
 msgid "Show title"
-msgstr "Neuer Titel"
+msgstr "Titel anzeigen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:194
-#, fuzzy
 msgid "Add title"
-msgstr "Exemplar hinzufügen"
+msgstr "Neuer Titel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:202
-#, fuzzy
 msgid "Edit title"
-msgstr "Titel %s bearbeiten"
+msgstr "Titel bearbeiten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:218
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:280
-#, fuzzy
 msgid "Resource"
-msgstr "Ressource %s"
+msgstr "Ressource"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:226
 msgid "EBSCO"
@@ -4152,9 +4149,8 @@ msgid "View report"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:28
-#, fuzzy
 msgid "Preservation"
-msgstr "Beschreibung"
+msgstr "Bestandserhaltung"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:34
 msgid "Home"
@@ -4459,7 +4455,7 @@ msgstr ""
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
 msgid "Error! Adding tags failed at"
-msgstr ""
+msgstr "Fehler! Hinzufügen von Tags fehlgeschlagen für"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
 msgid "Note: you can only tag an item with a given term once.  Check 'Tags' to see your current tags."
