@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "POT-Creation-Date: 2023-11-08 12:00+0000\n"
-"PO-Revision-Date: 2023-11-07 09:24+0000\n"
+"PO-Revision-Date: 2023-11-13 16:16+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: bg\n"
+"Language: bg-Cyrl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.1.1\n"
 "X-Pootle-Path: /bg/22.11/bg-Cyrl-opac-bootstrap.po\n"
 "X-Pootle-Revision: 1\n"
 "X-POOTLE-MTIME: 1699349045.423961\n"
@@ -1235,7 +1235,7 @@ msgstr "Преминете към основното съдържание"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:28
 #, c-format
 msgid "Your cart is empty."
-msgstr "\"Количката за книги в момента е празна"
+msgstr "Количката за книги е празна."
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:33
@@ -2467,7 +2467,9 @@ msgstr "Паролата трябва да съдържа най-малко %s �
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/password_check.inc:2
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:1063
 msgid "Password must contain at least %s characters, including UPPERCASE, lowercase and numbers"
-msgstr "Паролата трябва да съдържа най-малко %s символа, включително ГЛАВНИ, малки букви и цифри "
+msgstr ""
+"Паролата трябва да съдържа най-малко %s символа, включително ГЛАВНИ, малки "
+"букви и цифри"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -2806,7 +2808,7 @@ msgstr "Искания за междубиблиотечно заемане"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-curbside-pickups.tt:116
 #, c-format
 msgid "Curbside pickups"
-msgstr "Curbside pickups"
+msgstr "Събиране на pickups"
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/validator-strings.inc:2
@@ -2965,7 +2967,7 @@ msgstr "Клубове, в които можете да се регистрир�
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/clubs-tab.tt:63
 #, c-format
 msgid "Enroll "
-msgstr "Регистрирай се сега"
+msgstr "Регистрирай се сега "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/clubs-tab.tt:66
 #, c-format
@@ -3068,7 +3070,7 @@ msgstr "Възникна грешка &rsaquo; %s%s%sKoha online%s катало�
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:33
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/svc/suggestion.tt:15
 msgid "Breadcrumb"
-msgstr "Breadcrumb"
+msgstr "Поредица от свързани части"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/errors/errorpage.tt:16
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:44
@@ -4830,7 +4832,7 @@ msgstr "Нормален шрифт"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:369
 #, c-format
 msgid "Large print"
-msgstr "С едър шрифт"
+msgstr "Едър шрифт"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:370
 #, c-format
@@ -8633,7 +8635,7 @@ msgstr "Моля, свържете се с библиотеката, ако не
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:216
 #, c-format
 msgid "Preferred language for notices: "
-msgstr "Предпочитан език за известия:"
+msgstr "Предпочитан език за известия: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:218
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:90
@@ -11906,7 +11908,7 @@ msgstr "Име: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:573
 #, c-format
 msgid "Sort this list by: "
-msgstr "Сортирайте списъка по:"
+msgstr "Сортирайте списъка по: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:618
 #, c-format
@@ -12364,7 +12366,7 @@ msgstr "Изберете предложения за: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:405
 #, c-format
 msgid "Suggested on"
-msgstr "Предложено на"
+msgstr "Поръчана от"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:407
 #, c-format
@@ -13052,13 +13054,13 @@ msgstr "Клубове (%s/%s) "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:289
 #, c-format
 msgid "Holds (%s)"
-msgstr "Резервации (%s) "
+msgstr "Резервации (%s)"
 
 #. %1$s:  RECALLS.count | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:294
 #, c-format
 msgid "Recalls (%s)"
-msgstr "Recalls (%s)"
+msgstr "Поискани за връщане екземпляри (%s)"
 
 #. %1$s:  current_article_requests.size || 0 | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:299
@@ -13849,7 +13851,7 @@ msgstr "Този екземпляр принадлежи на друга биб�
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:80
 #, c-format
 msgid "Your account has expired."
-msgstr "Вашият акаунт е изтекъл"
+msgstr "Вашият акаунт е изтекъл."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:82
 #, c-format
