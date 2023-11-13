@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-10 21:07+0100\n"
-"PO-Revision-Date: 2023-10-20 18:01+0000\n"
+"PO-Revision-Date: 2023-11-13 16:21+0000\n"
 "Last-Translator: vfernandes <vfernandes@keep.pt>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: pt\n"
+"Language: pt-PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Weblate 5.1.1\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /pt/22.11/pt-PT-staff-prog.po\n"
 "X-POOTLE-MTIME: 1697824868.622223\n"
@@ -12593,9 +12593,9 @@ msgstr "O leitor tem modificações pendentes"
 
 #. %1$s:  patron.dateexpiry | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:24
-#, fuzzy, c-format
+#, c-format
 msgid "Patron's card expires on %s."
-msgstr "O cartão de leitor expira em %s"
+msgstr "O cartão de leitor expira em %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:25
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:42
@@ -42270,6 +42270,9 @@ msgstr "Adicionar registo MARC"
 #, c-format
 msgid "This record had encoding issues, non-xml characters have been stripped in order to allow editing. Please be cautious when saving that some data may have been removed from the record."
 msgstr ""
+"Este registo tem problemas de codificação, os caracteres não aceites foram "
+"removidos para permitir a edição. Por favor, seja tenha atenção na gravação "
+"que alguma informação pode ter sido removida do registo."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:864
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:47
@@ -42680,9 +42683,8 @@ msgstr "Adicionar item"
 
 #. INPUT type=submit name=add_duplicate_submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:290
-#, fuzzy
 msgid "Add and duplicate"
-msgstr "Adicionar & duplicar"
+msgstr "Adicionar e duplicar"
 
 #. INPUT type=button name=add_multiple_copies
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:293
@@ -43812,9 +43814,9 @@ msgstr "O leitor foi automaticamente alterado pela leitura de um número de cart
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:76
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:160
-#, fuzzy, c-format
+#, c-format
 msgid "Note about the accompanying materials: "
-msgstr "Nota sobre os materiais acompanhantes: %s"
+msgstr "Nota sobre os materiais acompanhantes: "
 
 #. %1$s:  alert.ITEM_LOST | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:82
@@ -43864,9 +43866,9 @@ msgid "Staff members are not allowed to discharge borrowers, nor borrowers to re
 msgstr "Os bibliotecários não podem perdoar multas aos leitores, nem os leitores podem fazer um pedido de quitação."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:106
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron, so circulation is disabled."
-msgstr "Este é o leitor anónimo, portanto nenhum histórico de circulação é mostrado."
+msgstr "Este é o leitor anónimo, portanto a circulação não está ativa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:321
@@ -44175,9 +44177,9 @@ msgid "Yes, check out (Y)"
 msgstr "Sim, emprestar (S)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:407
-#, fuzzy, c-format
+#, c-format
 msgid "Don't check out, confirm hold, and print slip (P)"
-msgstr "Não emprestar e imprimir talão (P)"
+msgstr "Não emprestar, confirmar a reserva e imprimir talão (P)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:413
 #, c-format
@@ -44213,27 +44215,27 @@ msgstr "Uso local guardado"
 
 #. %1$s:  INCLUDE 'patron-title.inc' patron=BORROWER 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:457
-#, fuzzy, c-format
+#, c-format
 msgid "Item checked in from: %s"
-msgstr "Exemplar recebido de %s"
+msgstr "Exemplar devolvido de: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:460
-#, fuzzy, c-format
+#, c-format
 msgid "Item on hold, please checkin."
-msgstr "Exemplar perdido, não pode ser ser devolvido."
+msgstr "Exemplar reservado, por favor devolva."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:463
-#, fuzzy, c-format
+#, c-format
 msgid "Item claimed returned, please checkin."
-msgstr "O exemplar foi reclamado como retornado."
+msgstr "Exemplar reclamado devolvido, por favor devolva."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:466
 #, c-format
 msgid "Item can fill a recall, please checkin."
-msgstr ""
+msgstr "Exemplar pode preencher uma reclamação, por favor devolva."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:470
-#, fuzzy, c-format
+#, c-format
 msgid "Item was lost, cannot be returned."
 msgstr "Exemplar perdido, não pode ser ser devolvido."
 
@@ -44244,14 +44246,14 @@ msgid "Item was lost, now found."
 msgstr "Exemplar estava perdido, agora encontrado."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:477
-#, fuzzy, c-format
+#, c-format
 msgid "Item was withdrawn, cannot be returned."
-msgstr "O exemplar foi reclamado como retornado."
+msgstr "Exemplar retirado, não pode ser devolvido."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:479
-#, fuzzy, c-format
+#, c-format
 msgid "Item was withdrawn"
-msgstr "Exemplar retirado."
+msgstr "Exemplar retirado"
 
 #. %1$s:  INVALID_DATE | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:484
@@ -44387,6 +44389,8 @@ msgstr "Exemplar em espera para preencher uma reserva e está em trânsito para 
 #, c-format
 msgid "No open days found while calculating the due date. Check the library calendar."
 msgstr ""
+"Não foram encontrados dias abertos no cálculo da data de término. Verifique "
+"o calendário da biblioteca."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:592
 #, c-format
@@ -52670,9 +52674,9 @@ msgid "%s Total due: "
 msgstr "%s Total devido: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:59
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron."
-msgstr "O exemplar encontra-se em espera para outro leitor."
+msgstr "Este é o leitor anónimo."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:65
 #, c-format
@@ -63898,9 +63902,9 @@ msgid "Renew existing patrons"
 msgstr "Renovar leitores existentes"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:342
-#, fuzzy, c-format
+#, c-format
 msgid "using the dateexpiry value in the file, if present"
-msgstr "usando a data de término do ficheiro, caso exista"
+msgstr "usando a data de término presente no ficheiro, caso exista"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:343
 #, c-format
