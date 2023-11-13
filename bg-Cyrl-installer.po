@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:06-0300\n"
-"PO-Revision-Date: 2023-11-13 13:36+0000\n"
+"PO-Revision-Date: 2023-11-13 16:21+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -662,7 +662,7 @@ msgstr "Switzerland"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:44
 msgid "Côte d’Ivoire"
-msgstr "Côte d’Ivoire"
+msgstr "Кот д’Ивоар"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:45
 msgid "Cook Islands"
@@ -3482,11 +3482,11 @@ msgstr "Автор на послеслов, надпис в края на кни
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:5:row:16
 msgid "Author of introduction, etc."
-msgstr "Автор на въведението"
+msgstr "Автор на въведението и под."
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:5:row:17
 msgid "Author of dialogue"
-msgstr "Автор на послеслов, надпис в края на книгата и др."
+msgstr "Автор на послеслов, надпис в края на книгата и други"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:5:row:18
 msgid "Bibliographic antecedent"
@@ -4026,7 +4026,8 @@ msgstr "Общи правила за разделяне на сигнатура"
 
 #: installer/data/mysql/en/mandatory/class_sources.yml:description:1
 msgid "Default classification sources and filing rules for Koha."
-msgstr "Източници на класификация по подразбиране и правила за регистрация за Koha"
+msgstr ""
+"Източници на класификация по подразбиране и правила за регистрация за Koha."
 
 #: installer/data/mysql/en/mandatory/illbatch_statuses.yml:description:1
 #, fuzzy
@@ -4862,7 +4863,7 @@ msgstr "Благодаря"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:30:mul:3
 msgid "The following item will be due soon:"
-msgstr "Следният екземпляр ще дойде скоро"
+msgstr "Следният екземпляр ще дойде скоро:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:3
 msgid "The following item(s) will be due soon:"
@@ -5112,14 +5113,12 @@ msgid "Thank you for joining %s%s%sthe library%s%s"
 msgstr "Благодарим ви, че се присъединихте към %s%s%sбиблиотека%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:6
-#, fuzzy
 msgid "You can search for all our materials in our %scatalog%s.%s"
-msgstr "Можете да търсите всички наши материали в нашия %sкаталог%s."
+msgstr "Можете да търсите всички наши материали в нашия %sкаталог%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:8
-#, fuzzy
 msgid "Your library card number is %s%s"
-msgstr "Номер на читателска карта е %s"
+msgstr "Номер на читателска карта е %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:10
 msgid "If you have any problems or questions regarding your account, please contact the library."
@@ -5191,7 +5190,7 @@ msgstr "        Всичко кредит към %s:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61:mul:90
 msgid "        Total outstanding dues as of %s:"
-msgstr "    Общо дължими задължения към %s:"
+msgstr "        Общо дължими задължения към %s:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62:mul:8
 msgid "Please order for the library:"
@@ -5604,7 +5603,7 @@ msgstr "Екземплярът трябва да се поднови в библ
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:25
 msgid "Your account has expired."
-msgstr "Вашият акаунт е изтекъл"
+msgstr "Вашият акаунт е изтекъл."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:85:mul:2
 msgid "Checked in items for %s %s %s %s %s"
@@ -5660,7 +5659,7 @@ msgstr "Оставаща сума: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90:mul:3
 msgid "Recall for pickup at %s"
-msgstr "Recall за вземане от %s."
+msgstr "Recall за вземане от %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:90:mul:9
 msgid "ITEM RECALLED"
@@ -6698,7 +6697,7 @@ msgstr "Приписвано име"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:25
 msgid "Author of dialog"
-msgstr "Автор на послеслов, надпис в края на книгата и др."
+msgstr "Автор на послеслов, надпис в края на книгата и други"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:26
 #, fuzzy
@@ -7616,7 +7615,7 @@ msgstr "  %s&lt;име&gt; &lt;фамилия&gt;%s"
 
 #: installer/data/mysql/en/optional/sample_creator_data.yml:creator_layouts:1:row:4:mul:7
 msgid "  %sBranch: &lt;branchcode&gt;%s"
-msgstr " %sОтдел: &lt;код&gt;%s"
+msgstr "  %sОтдел: &lt;код&gt;%s"
 
 #: installer/data/mysql/en/optional/sample_creator_data.yml:creator_layouts:1:row:4:mul:9
 msgid "  %sExpires: August 31, 2010%s"
@@ -7656,7 +7655,7 @@ msgstr "Тест Принтер 01"
 
 #: installer/data/mysql/en/optional/sample_itemtypes.yml:description:1
 msgid "A set of default item types."
-msgstr "Набор от видове библиотечни документи по подразбиране"
+msgstr "Набор от видове библиотечни документи по подразбиране."
 
 #: installer/data/mysql/en/optional/sample_itemtypes.yml:itemtypes:1:row:1
 msgid "Books"
@@ -7724,7 +7723,12 @@ msgstr "Текст на шаблона за каталог"
 
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:1:mul:1
 msgid "Welcome to Koha. Koha is a full-featured open-source ILS. Developed initially in New Zealand by Katipo Communications Ltd and first deployed in January of 2000 for Horowhenua Library Trust, Koha is currently maintained by a team of software providers and library technology staff from around the globe."
-msgstr "Добре дошли в Коха. Коха е пълнофункционална ILS система с отворен код. Първоначално разработена в Нова Зеландия от Katipo Communications Ltd и въведена за първи път през януари 2000 г. за Horowhenua Library Trust, Коха в момента се поддържа от екип от доставчици на софтуер и персонал по библиотечни технологии от цял ​​свят."
+msgstr ""
+"Добре дошли в Коха. Коха е пълнофункционална ILS система с отворен код. "
+"Първоначално разработена в Нова Зеландия от Katipo Communications Ltd и "
+"въведена за първи път през януари 2000г. за Horowhenua Library Trust, Коха в "
+"момента се поддържа от екип от доставчици на софтуер и персонал по "
+"библиотечни технологии от цял свят."
 
 #: installer/data/mysql/en/optional/sample_news.yml:additional_contents_localizations:2:row:2:mul:1
 msgid "Now that you've installed Koha, what's next? Here are some suggestions:"
