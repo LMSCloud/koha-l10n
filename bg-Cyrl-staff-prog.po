@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-10 21:07+0100\n"
-"PO-Revision-Date: 2023-11-14 03:01+0000\n"
+"PO-Revision-Date: 2023-11-15 03:01+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -2082,9 +2082,9 @@ msgstr "Комбинация от клавиши"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:289
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:30
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:117
-#, fuzzy, c-format
+#, c-format
 msgid "Interlibrary loan batch statuses"
-msgstr "Таблици за Междубиблиотечно заемане (МБЗ)"
+msgstr "Междубиблиотечно заемане: Статус за партиди"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/adv-search.inc:18
@@ -2725,9 +2725,8 @@ msgstr "Отказ"
 
 #. INPUT type=reset
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:182
-#, fuzzy
 msgid "Clear form"
-msgstr "Изчистване на форматирането"
+msgstr "Празна форма"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:4
 #, c-format
@@ -3637,24 +3636,24 @@ msgstr "Читатели, използващи този доставчик"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:15
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:60
-#, fuzzy, c-format
+#, c-format
 msgid "Report type"
-msgstr "Вид на записа"
+msgstr "Вид отчет"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:19
-#, fuzzy, c-format
+#, c-format
 msgid "Report rows processed"
-msgstr "%s обработени директории."
+msgstr "Обработени редове за отчет"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:24
-#, fuzzy, c-format
+#, c-format
 msgid "Platforms added"
-msgstr "Екземплярите са добавени"
+msgstr "Създадени платформи"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:26
-#, fuzzy, c-format
+#, c-format
 msgid "Databases added"
-msgstr "Данните са добавени"
+msgstr "База данни са добавени"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_add_items.tt:164
@@ -3663,72 +3662,76 @@ msgid "Items added"
 msgstr "Екземплярите са добавени"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:30
-#, fuzzy, c-format
+#, c-format
 msgid "Titles added"
-msgstr "Екземплярите са добавени"
+msgstr "Заглавията са добавени"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:35
 #, c-format
 msgid "Monthly usages skipped"
-msgstr ""
+msgstr "Пропуснато месечно използване"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:39
-#, fuzzy, c-format
+#, c-format
 msgid "Monthly usages added"
-msgstr "Добавени са задължителни данни"
+msgstr "Добавено месечно потребление"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:43
 #, c-format
 msgid "Yearly usages skipped"
-msgstr ""
+msgstr "Годишната употреба е пропусната"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:47
 #, c-format
 msgid "Yearly usages added"
-msgstr ""
+msgstr "Добавена годишна употреба"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:89
 #, c-format
 msgid "already exists in this data provider and was not created. New usage statistics were verified anyway"
 msgstr ""
+"вече съществува в този доставчик на данни и не е създаден. Новите "
+"статистически данни за употребата все пак бяха проверени"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:91
-#, fuzzy, c-format
+#, c-format
 msgid "successfully added"
-msgstr "Полето е успешно добавено: %s "
+msgstr "е успешно добавено"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:93
-#, fuzzy, c-format
+#, c-format
 msgid "could not be processed - please check the logs"
-msgstr "Възникна проблем, проверете регистрационните файлове"
+msgstr "не можа да бъде обработен - моля, проверете регистрационните файлове"
 
 #. %1$s:  m.message | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:95
 #, c-format
 msgid "COUNTER report file size exceeds limit defined by the database. Limit is %s MB."
 msgstr ""
+"Размерът на файла на отчета COUNTER надвишава максимума, определен в базата "
+"данни. Лимитът е %s MB."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:96
 #, c-format
 msgid "Please increase this limit or harvest a shorter period."
-msgstr ""
+msgstr "Моля, увеличете този лимит или го правете за по-кратък период."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:98
 #, c-format
 msgid "SUSHI response returned no items."
-msgstr ""
+msgstr "Отговорът SUSHI не съдържа записи."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:99
-#, fuzzy, c-format
+#, c-format
 msgid "Please try a different harvest period."
-msgstr "Моля, опитайте по-късно"
+msgstr "Моля, опитайте с различен период от време."
 
 #. %1$s:  m.message | html 
 #. %2$s:  m.code | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:101
 #, c-format
 msgid "SUSHI returned: %s %s"
-msgstr ""
+msgstr "SUSHI отговор: %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/marc_import_commit_batch.inc:7
 #, c-format
@@ -4018,9 +4021,9 @@ msgid "Items"
 msgstr "Екземпляри"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/biblio-view-menu.inc:59
-#, fuzzy, c-format
+#, c-format
 msgid "Bookings ("
-msgstr "Наличности (%s)"
+msgstr "Резервации ("
 
 #. For the first occurrence,
 #. %1$s:  Biblio.HoldsCount( biblio_object_id ) | html 
@@ -4030,7 +4033,7 @@ msgstr "Наличности (%s)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:569
 #, c-format
 msgid "Holds (%s)"
-msgstr "Резервации (%s) "
+msgstr "Резервации (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/biblio-view-menu.inc:79
 #, c-format
@@ -4076,7 +4079,7 @@ msgstr "График"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:573
 #, c-format
 msgid "Recalls (%s)"
-msgstr "Поискани за връщане екземпляри (%s) "
+msgstr "Recalls (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocked-fines.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:102
@@ -4160,9 +4163,9 @@ msgid "Vendor not found."
 msgstr "Доставчика не е намерен."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:17
-#, fuzzy, c-format
+#, c-format
 msgid "ILL request not found."
-msgstr "Дневник заявки за МБЗ "
+msgstr "Заявката за междубиблиотечно заемане не беше намерена."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:19
 #, c-format
@@ -5034,9 +5037,9 @@ msgid "Place hold for %s"
 msgstr "Направете резервация за %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:199
-#, fuzzy, c-format
+#, c-format
 msgid "Place booking"
-msgstr "Публикувано от"
+msgstr "Резервация на място"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:203
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:585
@@ -5154,9 +5157,12 @@ msgstr "Търсене на индекс"
 #. %48$s:  item.checkout.date_due | $KohaDates | $raw 
 #. %49$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/catalogue/itemsearch_item.csv.inc:1
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s %s %s %s %s %s \"%s %sby %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
-msgstr "%s %s %s %s %s %s %s %s %s \"%s %sот %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
+msgstr ""
+"%s %s %s %s %s %s %s %s %s \"%s %sby %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s "
+"\"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" "
+"%s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
 
 #. %1$s:  IF ( Koha.Preference( 'marcflavour' ) == 'UNIMARC' && biblio.author ) 
 #. %2$s:  END 
@@ -6086,7 +6092,7 @@ msgstr "Покажете заеманията"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:13
 #, c-format
 msgid "Checkouts table will show automatically in %s seconds..."
-msgstr ""
+msgstr "Таблицата със заеманията ще се покаже автоматично след %s секунди..."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:24
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:25
@@ -6426,9 +6432,9 @@ msgid "Renew as &quot;unseen&quot; if appropriate:"
 msgstr "Презапишете като &quot;'невидим'&quot; ако е необходимо:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:65
-#, fuzzy, c-format
+#, c-format
 msgid "Check in selected items"
-msgstr "Презапишете или върнете избраните екземпляри"
+msgstr "Върнете избраните екземпляри"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:66
 #, fuzzy, c-format
@@ -6715,9 +6721,9 @@ msgstr "История на искания за връщане на екземп
 
 #. %1$s:  patron.alert_subscriptions.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:189
-#, fuzzy, c-format
+#, c-format
 msgid "Alert subscriptions (%s)"
-msgstr "Абонаменти (%s)"
+msgstr "Известия за абонаменти ( %s )"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:204
 #, c-format
@@ -7955,19 +7961,19 @@ msgid "Availability "
 msgstr "В наличност"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:34
-#, fuzzy, c-format
+#, c-format
 msgid "Showing only records with available items"
-msgstr "Показване само на налични елементи"
+msgstr "Показване само на налични екземпляри"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:37
-#, fuzzy, c-format
+#, c-format
 msgid "Show all records"
-msgstr "Показване на всички поръчки"
+msgstr "Показване на всички"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:39
-#, fuzzy, c-format
+#, c-format
 msgid "Limit to records with available items"
-msgstr "Наличните в момента екземпляри"
+msgstr "Само наличните в момента екземпляри"
 
 #. %1$s:  FOREACH relate IN related 
 #. %2$s:  relate.related_search | html 
@@ -10155,12 +10161,12 @@ msgstr "Съгласие за бисквитки"
 #. INPUT type=checkbox name=consentCheckbox
 #: koha-tmpl/intranet-tmpl/prog/en/includes/intranet-bottom.inc:123
 msgid "Consent to cookie"
-msgstr ""
+msgstr "Съгласете се с бисквитките"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/intranet-bottom.inc:138
 #, c-format
 msgid "Accept selected non-essential cookies"
-msgstr ""
+msgstr "Приемете избрани несъществени бисквитки"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/keyboard_shortcuts.inc:3
 #, c-format
@@ -11840,7 +11846,9 @@ msgstr "Паролата трябва да съдържа най-малко %s �
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/password_check.inc:3
 msgid "Password must contain at least %s characters, including UPPERCASE, lowercase and numbers"
-msgstr "Паролата трябва да съдържа най-малко %s символа, включително ГЛАВНИ, малки букви и цифри "
+msgstr ""
+"Паролата трябва да съдържа най-малко %s символа, включително ГЛАВНИ, малки "
+"букви и цифри"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/password_check.inc:3
@@ -41427,7 +41435,7 @@ msgstr "Номер екземпляр:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:88
 #, c-format
 msgid "Show all items"
-msgstr "Показване на всички"
+msgstr "Покажи всички екземпляри"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:97
 #, c-format
@@ -45873,9 +45881,9 @@ msgstr "Трансферът беше отменен по време на пре
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:139
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1287
-#, fuzzy, c-format
+#, c-format
 msgid "Recall"
-msgstr "Поискани за връщане екземпляри"
+msgstr "Напомняне"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1288
@@ -50270,14 +50278,14 @@ msgstr "Задаване на разрешения за %s &rsaquo; Читате
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:36
-#, fuzzy, c-format
+#, c-format
 msgid "Alert subscriptions"
-msgstr "Изтриване на абонамента"
+msgstr "Абониран за известия"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:74
-#, fuzzy, c-format
+#, c-format
 msgid "Unsubscribe from email alerts"
-msgstr "Липсва от имейл адреса"
+msgstr "Отпишете се от имейл за абонамент"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:84
 #, fuzzy, c-format
@@ -50568,7 +50576,7 @@ msgstr "Скриване на платените"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:374
 msgid "Show all transactions"
-msgstr "Показване на всички"
+msgstr "Вижте всички транзакции"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:29
 #, c-format
@@ -57008,7 +57016,7 @@ msgstr "Изпращане на видими записи за групово и
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1082
 #, c-format
 msgid "Add to list"
-msgstr "Добавете към списък"
+msgstr "Добавяне към списък"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1082
@@ -67547,7 +67555,7 @@ msgstr "Разрешение \"Всеки\" няма реално влияние
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:240
 #, c-format
 msgid "Contents of "
-msgstr "Съдържание на "
+msgstr "Съдържанието на "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:117
 #, c-format
