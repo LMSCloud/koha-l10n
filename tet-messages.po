@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2022-05-01 12:24-0300\n"
 "Language-Team: Koha Translation Team \n"
 "Language: tet\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "unknown"
 msgstr "la hatene"
 
-#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:231
+#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:211
 msgid "Not for loan"
 msgstr "Labele empresta"
 
@@ -1611,7 +1611,7 @@ msgstr ""
 msgid "Budgeted cost"
 msgstr ""
 
-#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:252
+#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:263
 msgid "Creation date"
 msgstr "Data kriasaun"
 
@@ -1632,7 +1632,7 @@ msgstr ""
 msgid "Vendor price"
 msgstr ""
 
-#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:223
+#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:225
 msgid "Internal note"
 msgstr "Nota interna"
 
@@ -1655,7 +1655,7 @@ msgstr "Estadu la iha"
 msgid "Parent order number (internal)"
 msgstr "Numeru item (interna)"
 
-#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:320
+#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:331
 #, fuzzy
 msgid "Quantity"
 msgstr "Kuantidade"
@@ -1664,7 +1664,7 @@ msgstr "Kuantidade"
 msgid "Quantity received"
 msgstr ""
 
-#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:236
+#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:206
 msgid "Replacement price"
 msgstr "Folin substituisaun"
 
@@ -1734,8 +1734,8 @@ msgstr ""
 msgid "Tax amount on receive"
 msgstr ""
 
-#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:242
-#: Koha/Database/Columns.pm:284
+#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:295
 msgid "Timestamp"
 msgstr "Tempu oras"
 
@@ -1856,7 +1856,8 @@ msgstr "Hela fatin alternativu: ZIP/Kodigu postal"
 msgid "Circulation note"
 msgstr "Nota sirkulasaun"
 
-#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:292
+#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:303
 msgid "Borrower number"
 msgstr "Kliente nia numeru"
 
@@ -1868,7 +1869,7 @@ msgstr "Uma biblioteka"
 msgid "Card number"
 msgstr "Numeru kartaun"
 
-#: Koha/Database/Columns.pm:144
+#: Koha/Database/Columns.pm:144 Koha/Database/Columns.pm:256
 msgid "Patron category"
 msgstr "Kategoria kliente"
 
@@ -2082,377 +2083,383 @@ msgid "ZIP/Postal code"
 msgstr "Kodigu ZIP/Korreiu"
 
 #: Koha/Database/Columns.pm:200
-msgid "Barcode"
-msgstr "Barcode"
-
-#: Koha/Database/Columns.pm:201
 msgid "Biblioitem number (internal)"
 msgstr "Numeru biblioitem (interna)"
 
+#: Koha/Database/Columns.pm:201
+msgid "Barcode"
+msgstr "Barcode"
+
 #: Koha/Database/Columns.pm:202
-msgid "Biblio number (internal)"
-msgstr "Numeru biblio (interna)"
+msgid "Date acquired"
+msgstr "Data simu tiona"
 
 #: Koha/Database/Columns.pm:203
 msgid "Source of acquisition"
 msgstr "Huun ba akuisisaun"
 
 #: Koha/Database/Columns.pm:204
-msgid "Collection"
-msgstr "Kolesaun"
-
-#: Koha/Database/Columns.pm:205
-#, fuzzy
-msgid "Koha normalized classification for sorting"
-msgstr "Modifika huun klasifikasun"
-
-#: Koha/Database/Columns.pm:206
-msgid "Source of classification / shelving scheme"
-msgstr "Huun ba klasifikasaun / esquema iha amariu"
-
-#: Koha/Database/Columns.pm:207
-msgid "Coded location qualifier"
-msgstr ""
-
-#: Koha/Database/Columns.pm:208
-msgid "Copy number"
-msgstr "Numeru kopia"
-
-#: Koha/Database/Columns.pm:209
-msgid "Damaged on"
-msgstr "Aat iha"
-
-#: Koha/Database/Columns.pm:210
-msgid "Damaged status"
-msgstr "Estado aat"
-
-#: Koha/Database/Columns.pm:211
-msgid "Date acquired"
-msgstr "Data simu tiona"
-
-#: Koha/Database/Columns.pm:212
-msgid "Date last checked out"
-msgstr "Data ikus ne'ebe item empresta ona"
-
-#: Koha/Database/Columns.pm:213
-msgid "Date last seen"
-msgstr "Data ikus ne'ebe haree livru ne'e"
-
-#: Koha/Database/Columns.pm:214
-#, fuzzy
-msgid "Date of deletion"
-msgstr "Data moris"
-
-#: Koha/Database/Columns.pm:215
-msgid "Serial enumeraton/chronology"
-msgstr "Enumerasaun periódiku"
-
-#: Koha/Database/Columns.pm:216
-msgid "Exclude from local holds priority"
-msgstr ""
-
-#: Koha/Database/Columns.pm:217
-msgid "Current library"
-msgstr "Biblioteka daudaun"
-
-#: Koha/Database/Columns.pm:218
 msgid "Permanent library"
 msgstr "Biblioteka permanente"
 
-#: Koha/Database/Columns.pm:219
-msgid "Total checkouts"
-msgstr "Total emprestimos"
+#: Koha/Database/Columns.pm:205
+msgid "Price"
+msgstr "Folin"
 
-#: Koha/Database/Columns.pm:220 Koha/Database/Columns.pm:303
-msgid "Call number"
-msgstr "Kota"
+#: Koha/Database/Columns.pm:207
+msgid "Price effective from"
+msgstr ""
 
-#: Koha/Database/Columns.pm:221
+#: Koha/Database/Columns.pm:208
+msgid "Date last checked out"
+msgstr "Data ikus ne'ebe item empresta ona"
+
+#: Koha/Database/Columns.pm:209
+msgid "Date last seen"
+msgstr "Data ikus ne'ebe haree livru ne'e"
+
+#: Koha/Database/Columns.pm:210
+msgid "Shelving control number"
+msgstr "Número de kontrolo iha armariu"
+
+#: Koha/Database/Columns.pm:212
+msgid "Damaged status"
+msgstr "Estado aat"
+
+#: Koha/Database/Columns.pm:213
+msgid "Damaged on"
+msgstr "Aat iha"
+
+#: Koha/Database/Columns.pm:214
+msgid "Lost status"
+msgstr "Estado lakon"
+
+#: Koha/Database/Columns.pm:215
 msgid "Lost on"
 msgstr "Lakon iha"
 
+#: Koha/Database/Columns.pm:216
+msgid "Withdrawn status"
+msgstr "Estadu hasai tiona"
+
+#: Koha/Database/Columns.pm:217
+msgid "Withdrawn on"
+msgstr "Hasai tiona iha"
+
+#: Koha/Database/Columns.pm:218 Koha/Database/Columns.pm:314
+msgid "Call number"
+msgstr "Kota"
+
+#: Koha/Database/Columns.pm:219
+msgid "Coded location qualifier"
+msgstr ""
+
+#: Koha/Database/Columns.pm:220
+msgid "Total checkouts"
+msgstr "Total emprestimos"
+
+#: Koha/Database/Columns.pm:221
+msgid "Total renewals"
+msgstr "Hafoun total"
+
 #: Koha/Database/Columns.pm:222
-msgid "Lost status"
-msgstr "Estado lakon"
+msgid "Total holds"
+msgstr "Reserva total"
+
+#: Koha/Database/Columns.pm:223
+msgid "Use restrictions"
+msgstr "Uza restrisaun sira"
 
 #: Koha/Database/Columns.pm:224
 msgid "Public note"
 msgstr "Nota públiku"
 
-#: Koha/Database/Columns.pm:225
-msgid "Item number (internal)"
-msgstr "Numeru item (interna)"
-
 #: Koha/Database/Columns.pm:226
-#, fuzzy
-msgid "Koha item type"
-msgstr "Koha tipuitem"
+msgid "Current library"
+msgstr "Biblioteka daudaun"
 
-#: Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:228
+#, fuzzy
+msgid "Deleted on"
+msgstr "Aat iha"
+
+#: Koha/Database/Columns.pm:229 Koha/Database/Columns.pm:253
 msgid "Shelving location"
 msgstr "Lokalizasaun iha armariu"
 
-#: Koha/Database/Columns.pm:228
-msgid "Materials specified"
-msgstr "Materiais espesifikadu"
-
-#: Koha/Database/Columns.pm:229
-msgid "Additional subfields (XML)"
-msgstr "Subkampu adisionál (XML)"
-
 #: Koha/Database/Columns.pm:230
-#, fuzzy
-msgid "New status"
-msgstr "Estadu la iha"
-
-#: Koha/Database/Columns.pm:232
-msgid "Due date"
-msgstr "Data atu fo fila"
-
-#: Koha/Database/Columns.pm:233
 msgid "Permanent shelving location"
 msgstr "Lokalizasaun permanente iha armariu"
 
-#: Koha/Database/Columns.pm:234
-msgid "Price"
-msgstr "Folin"
+#: Koha/Database/Columns.pm:231
+msgid "Due date"
+msgstr "Data atu fo fila"
+
+#: Koha/Database/Columns.pm:232
+msgid "Source of classification / shelving scheme"
+msgstr "Huun ba klasifikasaun / esquema iha amariu"
+
+#: Koha/Database/Columns.pm:233
+#, fuzzy
+msgid "Koha normalized classification for sorting"
+msgstr "Modifika huun klasifikasun"
+
+#: Koha/Database/Columns.pm:234 Koha/Database/Columns.pm:255
+msgid "Collection"
+msgstr "Kolesaun"
 
 #: Koha/Database/Columns.pm:235
-msgid "Total renewals"
-msgstr "Hafoun total"
+msgid "Materials specified"
+msgstr "Materiais espesifikadu"
+
+#: Koha/Database/Columns.pm:236
+#, fuzzy
+msgid "Uniform Resource Identifier"
+msgstr "Uniform Resource Identifier"
 
 #: Koha/Database/Columns.pm:237
-msgid "Price effective from"
-msgstr ""
+#, fuzzy
+msgid "Koha itemtype"
+msgstr "Koha tipuitem"
 
 #: Koha/Database/Columns.pm:238
-msgid "Total holds"
-msgstr "Reserva total"
+msgid "Additional subfields (XML)"
+msgstr "Subkampu adisionál (XML)"
 
 #: Koha/Database/Columns.pm:239
-msgid "Use restrictions"
-msgstr "Uza restrisaun sira"
+msgid "Serial enumeraton/chronology"
+msgstr "Enumerasaun periódiku"
 
 #: Koha/Database/Columns.pm:240
-msgid "Shelving control number"
-msgstr "Número de kontrolo iha armariu"
+msgid "Copy number"
+msgstr "Numeru kopia"
 
 #: Koha/Database/Columns.pm:241
 msgid "Inventory number"
 msgstr "Numeru inventáriu"
 
-#: Koha/Database/Columns.pm:243
+#: Koha/Database/Columns.pm:242
 #, fuzzy
-msgid "Uniform resource identifier"
-msgstr "Uniform Resource Identifier"
+msgid "New status"
+msgstr "Estadu la iha"
 
-#: Koha/Database/Columns.pm:244
-msgid "Withdrawn on"
-msgstr "Hasai tiona iha"
+#: Koha/Database/Columns.pm:243
+msgid "Exclude from local holds priority"
+msgstr ""
 
-#: Koha/Database/Columns.pm:245
-msgid "Withdrawn status"
-msgstr "Estadu hasai tiona"
+#: Koha/Database/Columns.pm:246 Koha/Database/Columns.pm:305
+msgid "Statistics date and time"
+msgstr "Estatistika data no loron"
 
-#: Koha/Database/Columns.pm:248
+#: Koha/Database/Columns.pm:247 Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:313 Koha/Database/Columns.pm:322
+msgid "Library"
+msgstr "Biblioteka"
+
+#: Koha/Database/Columns.pm:248 Koha/Database/Columns.pm:310
+msgid "Value"
+msgstr "Valor"
+
+#: Koha/Database/Columns.pm:249
+#, fuzzy
+msgid "Transaction type"
+msgstr "Data kriasaun"
+
+#: Koha/Database/Columns.pm:250
+msgid "SIP mode"
+msgstr ""
+
+#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:306
+msgid "Item number"
+msgstr "Numeru item"
+
+#: Koha/Database/Columns.pm:252
+#, fuzzy
+msgid "Koha item type"
+msgstr "Koha tipuitem"
+
+#: Koha/Database/Columns.pm:259
 msgid "Abstract"
 msgstr ""
 
-#: Koha/Database/Columns.pm:249 Koha/Database/Columns.pm:310
+#: Koha/Database/Columns.pm:260 Koha/Database/Columns.pm:321
 msgid "Author"
 msgstr "Autor"
 
-#: Koha/Database/Columns.pm:250 Koha/Database/Columns.pm:268
+#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:279
 msgid "Biblio number"
 msgstr "Numeru biblio"
 
-#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:313
+#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:324
 #, fuzzy
 msgid "Copyright date"
 msgstr "Copyrightdate"
 
-#: Koha/Database/Columns.pm:253
+#: Koha/Database/Columns.pm:264
 msgid "Framework code"
 msgstr "Kodigu kuadru"
 
-#: Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:265
 msgid "Medium"
 msgstr ""
 
-#: Koha/Database/Columns.pm:255 Koha/Database/Columns.pm:276
+#: Koha/Database/Columns.pm:266 Koha/Database/Columns.pm:287
 msgid "Notes"
 msgstr "Nota sira"
 
-#: Koha/Database/Columns.pm:256
+#: Koha/Database/Columns.pm:267
 msgid "Name of part/section of a work"
 msgstr ""
 
-#: Koha/Database/Columns.pm:257
+#: Koha/Database/Columns.pm:268
 msgid "Number of part/section of a work"
 msgstr ""
 
-#: Koha/Database/Columns.pm:258
+#: Koha/Database/Columns.pm:269
 msgid "Is a serial?"
 msgstr ""
 
-#: Koha/Database/Columns.pm:259
+#: Koha/Database/Columns.pm:270
 msgid "Series title"
 msgstr ""
 
-#: Koha/Database/Columns.pm:260
+#: Koha/Database/Columns.pm:271
 msgid "Remainder of title"
 msgstr ""
 
-#: Koha/Database/Columns.pm:261
+#: Koha/Database/Columns.pm:272
 msgid "Modification date"
 msgstr "Data modifikasaun"
 
-#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:285
-#: Koha/Database/Columns.pm:321
+#: Koha/Database/Columns.pm:273 Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:332
 msgid "Title"
 msgstr "Titulu"
 
-#: Koha/Database/Columns.pm:263
+#: Koha/Database/Columns.pm:274
 msgid "Uniform title"
 msgstr ""
 
-#: Koha/Database/Columns.pm:266
+#: Koha/Database/Columns.pm:277
 msgid "Age restriction"
 msgstr "Restrisaun tinan"
 
-#: Koha/Database/Columns.pm:267
+#: Koha/Database/Columns.pm:278
 msgid "Biblioitem number"
 msgstr "Numeru biblioitem"
 
-#: Koha/Database/Columns.pm:269
+#: Koha/Database/Columns.pm:280
 msgid "Classification"
 msgstr "Klasifikasaun"
 
-#: Koha/Database/Columns.pm:270
+#: Koha/Database/Columns.pm:281
 msgid "Dewey/classification"
 msgstr "Dewey/klasifikasaun"
 
-#: Koha/Database/Columns.pm:271
+#: Koha/Database/Columns.pm:282
 msgid "Illustrations"
 msgstr "Ilustrasaun sira"
 
-#: Koha/Database/Columns.pm:272 Koha/Database/Columns.pm:314
+#: Koha/Database/Columns.pm:283 Koha/Database/Columns.pm:325
 msgid "ISBN"
 msgstr "ISBN"
 
-#: Koha/Database/Columns.pm:273
+#: Koha/Database/Columns.pm:284
 msgid "ISSN"
 msgstr "ISSN"
 
-#: Koha/Database/Columns.pm:274
+#: Koha/Database/Columns.pm:285
 msgid "Biblio-level item type"
 msgstr "Nivel-biblio tipu item"
 
-#: Koha/Database/Columns.pm:275
+#: Koha/Database/Columns.pm:286
 msgid "LCCN"
 msgstr "LCCN"
 
-#: Koha/Database/Columns.pm:277
+#: Koha/Database/Columns.pm:288
 msgid "Number"
 msgstr "Numeru"
 
-#: Koha/Database/Columns.pm:278
+#: Koha/Database/Columns.pm:289
 msgid "Number of pages"
 msgstr "Pajina hira"
 
-#: Koha/Database/Columns.pm:279 Koha/Database/Columns.pm:318
+#: Koha/Database/Columns.pm:290 Koha/Database/Columns.pm:329
 msgid "Place of publication"
 msgstr "Fatin publikasaun"
 
-#: Koha/Database/Columns.pm:280
+#: Koha/Database/Columns.pm:291
 msgid "Publication date"
 msgstr "Data publikasaun"
 
-#: Koha/Database/Columns.pm:281 Koha/Database/Columns.pm:319
+#: Koha/Database/Columns.pm:292 Koha/Database/Columns.pm:330
 msgid "Publisher"
 msgstr "Editór"
 
-#: Koha/Database/Columns.pm:282
+#: Koha/Database/Columns.pm:293
 msgid "Size"
 msgstr "Tamanu"
 
-#: Koha/Database/Columns.pm:283
+#: Koha/Database/Columns.pm:294
 msgid "Sub classification"
 msgstr "Sub klasifikasaun"
 
-#: Koha/Database/Columns.pm:286
+#: Koha/Database/Columns.pm:297
 msgid "URL"
 msgstr "URL"
 
-#: Koha/Database/Columns.pm:287
+#: Koha/Database/Columns.pm:298
 msgid "Volume number"
 msgstr "Numeru volume"
 
-#: Koha/Database/Columns.pm:288
+#: Koha/Database/Columns.pm:299
 msgid "Volume date"
 msgstr "Data volume"
 
-#: Koha/Database/Columns.pm:289
+#: Koha/Database/Columns.pm:300
 msgid "Volume information"
 msgstr "Information volume"
 
-#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:302
-#: Koha/Database/Columns.pm:311
-msgid "Library"
-msgstr "Biblioteka"
-
-#: Koha/Database/Columns.pm:294
-msgid "Statistics date and time"
-msgstr "Estatistika data no loron"
-
-#: Koha/Database/Columns.pm:295
-msgid "Item number"
-msgstr "Numeru item"
-
-#: Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:307
 msgid "Itemtype"
 msgstr "Itemtype"
 
-#: Koha/Database/Columns.pm:298
+#: Koha/Database/Columns.pm:309
 msgid "Type"
 msgstr "Tipu"
 
-#: Koha/Database/Columns.pm:299
-msgid "Value"
-msgstr "Valor"
-
-#: Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:315
 msgid "End date"
 msgstr "Data ikus liu"
 
-#: Koha/Database/Columns.pm:305
+#: Koha/Database/Columns.pm:316
 msgid "Location"
 msgstr "Lokalizasaun"
 
-#: Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:317
 msgid "Periodicity"
 msgstr "Periodicidade"
 
-#: Koha/Database/Columns.pm:307
+#: Koha/Database/Columns.pm:318
 msgid "Start date"
 msgstr "Data komesa"
 
-#: Koha/Database/Columns.pm:312
+#: Koha/Database/Columns.pm:323
 #, fuzzy
 msgid "Collection title"
 msgstr "Titulu kolesaun"
 
-#: Koha/Database/Columns.pm:315
+#: Koha/Database/Columns.pm:326
 #, fuzzy
 msgid "Item type"
 msgstr "Itemtype"
 
-#: Koha/Database/Columns.pm:316
+#: Koha/Database/Columns.pm:327
 #, fuzzy
 msgid "Note"
 msgstr "Nota sira"
 
-#: Koha/Database/Columns.pm:317
+#: Koha/Database/Columns.pm:328
 #, fuzzy
 msgid "Patron reason"
 msgstr "kliente ba "
@@ -3009,7 +3016,7 @@ msgstr ""
 msgid "Overdues at {library}"
 msgstr "Biblioteka permanente"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:773
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:781
 #, fuzzy, perl-brace-format
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
@@ -3208,6 +3215,16 @@ msgid "message"
 msgid_plural "messages"
 msgstr[0] "Mensajen sira"
 msgstr[1] "Mensajen sira"
+
+#~ msgid "Biblio number (internal)"
+#~ msgstr "Numeru biblio (interna)"
+
+#, fuzzy
+#~ msgid "Date of deletion"
+#~ msgstr "Data moris"
+
+#~ msgid "Item number (internal)"
+#~ msgstr "Numeru item (interna)"
 
 #, fuzzy
 #~ msgctxt "citations"

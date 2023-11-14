@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2022-05-01 12:45-0300\n"
 "Language-Team: Koha Translation Team \n"
 "Language: ur\n"
@@ -48,7 +48,7 @@ msgid "Edit"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:94
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1022
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1024
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:11
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:105
 msgid "Delete"
@@ -606,161 +606,165 @@ msgid "on hold"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:201
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:501
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:503
 msgid "Not allowed: patron restricted"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:203
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:508
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:510
 msgid "Not allowed: overdue"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:207
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:205
+msgid "Unable to find an open day"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:209
 msgid "reason unknown"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:276
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:278
 msgid "Loading... you may continue scanning."
 msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:293
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:674
-#, fuzzy
-msgid "Today's checkouts"
-msgstr "کوئی اجراء نہیں"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:295
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:676
 #, fuzzy
+msgid "Today's checkouts"
+msgstr "کوئی اجراء نہیں"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:297
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:678
+#, fuzzy
 msgid "Previous checkouts"
 msgstr "گذشتہ اجراء چیک کریں:: "
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:349
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:754
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:351
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:756
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
 msgid "by _AUTHOR_"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:370
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:775
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:372
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:777
 #, fuzzy
 msgid "On-site checkout"
 msgstr "سائٹ پر زیر التواء اجراء"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:374
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:376
 msgid "This item has been recalled and the due date updated"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:475
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:609
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:477
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:611
 msgid "Recalled"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:482
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:611
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:484
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:613
 #: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:313
 msgid "On hold"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:489
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:491
 #, fuzzy
 msgid "Not renewable"
 msgstr "%s نا قابل تجدید"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:496
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:498
 msgid "Must be renewed at the library"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:515
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:517
 #, fuzzy, javascript-format
 msgid "No renewal before %s"
 msgstr "%s سے پہلے تجدید ممکن نہیں%s "
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:522
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:550
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:524
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:552
 #, fuzzy
 msgid "Scheduled for automatic renewal"
 msgstr "%s خودکارتجدید کریں"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:529
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:531
 msgid "Can no longer be auto-renewed - number of checkout days exceeded"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:536
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:538
 #, fuzzy
 msgid "Automatic renewal failed, patron has unpaid fines"
 msgstr "%s خودکار تجدید ناکام ہوگئی ہے، آپ کا لائبریری اکاؤنٹ ختم ہو گیا ہے."
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:543
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:545
 #, fuzzy
 msgid "Automatic renewal failed, account expired"
 msgstr "%s خودکار تجدید ناکام ہوگئی ہے، آپ کا لائبریری اکاؤنٹ ختم ہو گیا ہے."
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:559
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:561
 msgid "Renewal denied by syspref"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:594
-#, javascript-format
-msgid "%s of %s renewals remaining"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:596
 #, javascript-format
+msgid "%s of %s renewals remaining"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
+#, javascript-format
 msgid " and %s of %s unseen renewals remaining"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:628
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:630
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:632
 msgid "Claim returned"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
 #, fuzzy
 msgid "No itemtype"
 msgstr " آئٹم کے اقسام کی تنظیم"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
 msgid "Number of checkouts by item type"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:977
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:979
 msgid "Double click to edit"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1025
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1027
 msgid "Resolve"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1030
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1032
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:104
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:85
 #, fuzzy
 msgid "Actions"
 msgstr "عمل"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1033
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1035
 msgid "Edit notes"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1096
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1098
 #, fuzzy
 msgid "Show 1 claim"
 msgid_plural "Show all {count} claims"
 msgstr[0] "چارٹ دکھائیں"
 msgstr[1] "چارٹ دکھائیں"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1101
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1103
 msgid "Show 1 unresolved claim"
 msgid_plural "Show {count} unresolved claims"
 msgstr[0] ""
 msgstr[1] ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1122
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1124
 msgid "Update"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1123
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1125
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:407
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:165
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:78
@@ -769,7 +773,7 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1162
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1164
 msgid "Are you sure you want to delete this return claim?"
 msgstr ""
 
@@ -1759,7 +1763,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:149
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:35
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:81
 msgid "Licenses"
 msgstr ""
 
@@ -2109,7 +2113,8 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:236
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:3
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:87
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:124
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:226
 msgid "Packages"
 msgstr ""
 
@@ -2532,7 +2537,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:69
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:27
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:50
 msgid "Agreements"
 msgstr ""
 
@@ -2643,6 +2648,7 @@ msgid "There are no packages created yet"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:204
 msgid "Import from a list"
 msgstr ""
 
@@ -2748,28 +2754,7 @@ msgstr ""
 msgid "License #%s"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:20
-msgid "E-resource management"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:44
-#, fuzzy
-msgid "eHoldings"
-msgstr "مختص کی گئی"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:63
-msgid "Local"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:75
-msgid "EBSCO"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:99
-msgid "Titles"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:232
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:135
 msgid "The e-resource management module is disabled, turn on <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=ERMModule\">ERMModule</a> to use it"
 msgstr ""
 
@@ -2787,6 +2772,85 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:62
 msgid "Add new user"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:40
+msgid "E-resource management"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:63
+msgid "Show agreement"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:69
+msgid "Add agreement"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:75
+msgid "Edit agreement"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:94
+#, fuzzy
+msgid "Show license"
+msgstr "فعال تاریخ"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:100
+msgid "Add license"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:106
+msgid "Edit license"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:112
+#, fuzzy
+msgid "eHoldings"
+msgstr "مختص کی گئی"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:118
+msgid "Local"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:141
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:243
+msgid "Show package"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:149
+msgid "Add package"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:157
+msgid "Edit package"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:163
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
+msgid "Titles"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:180
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:266
+#, fuzzy
+msgid "Show title"
+msgstr "فعال تاریخ"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:188
+msgid "Add title"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:196
+msgid "Edit title"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:212
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:274
+msgid "Resource"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:220
+msgid "EBSCO"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:14

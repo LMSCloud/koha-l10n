@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2022-05-01 10:33-0300\n"
 "Language-Team: Koha Translation Team \n"
 "Language: ko\n"
@@ -1142,7 +1142,7 @@ msgstr "회수 취소"
 #. %3$s:  transfertwhen | $KohaDates 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/item-status.inc:74
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:133
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:447
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:449
 #, c-format
 msgid "In transit from %s to %s since %s"
 msgstr "%s 이후 %s에서 %s까지 수송"
@@ -1413,7 +1413,7 @@ msgstr "총서"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:124
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:105
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:193
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:380
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:382
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:303
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:591
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:593
@@ -1572,6 +1572,7 @@ msgid "Sorry, your Shibboleth identity does not match a valid library identity. 
 msgstr "죄송합니다, 귀하의 예전 계정이 현재 유효한 도서관 계정과 다릅니다. 만약 지역 도서관 계정으로 로그인을 하신다면 서비스 이용이 가능할 것 같습니다. "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:380
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:106
 #, fuzzy, c-format
 msgid "Shibboleth login"
 msgstr "예전 계정 로그인"
@@ -4525,6 +4526,11 @@ msgstr "할 수 없음"
 msgid "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s and %s "
 msgstr "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s and %s "
 
+#. SELECT name=idx
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:60
+msgid "Choose search type for field %s"
+msgstr ""
+
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:61
 #, c-format
 msgid "Keyword"
@@ -4637,7 +4643,7 @@ msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISSN"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:106
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:99
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:191
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:372
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:374
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:330
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:667
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:718
@@ -4649,8 +4655,8 @@ msgstr "바코드"
 
 #. INPUT type=text name=q
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:115
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:290
-msgid "Enter search terms"
+#, fuzzy
+msgid "Enter field %s search terms"
 msgstr "검색 용어 입력"
 
 #. A
@@ -4679,7 +4685,7 @@ msgstr ""
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:123
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:98
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:190
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:370
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:372
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:91
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:116
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:327
@@ -4693,7 +4699,7 @@ msgstr "항목 형식"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:70
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1197
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:104
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:378
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:380
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:92
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:120
 #, c-format
@@ -4757,6 +4763,11 @@ msgstr "정렬 조건:"
 #, c-format
 msgid "Publication date range"
 msgstr "발행 간격"
+
+#. INPUT type=text name=limit-yr
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:290
+msgid "Enter search terms"
+msgstr "검색 용어 입력"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:291
 #, c-format
@@ -5206,7 +5217,7 @@ msgstr "온라인 자료:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-curbside-pickups.tt:180
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1217
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt:134
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:384
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:386
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:927
 #, c-format
 msgid "Notes"
@@ -5290,11 +5301,6 @@ msgstr "만약 예전 계정을 가지고 계시다면, 다음과 같이 해주�
 #, fuzzy, c-format
 msgid "If you have a local account, you may use that below."
 msgstr "만약 예전 계정을 가지고 계시다면, 다음과 같이 해주세요:"
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:106
-#, c-format
-msgid "Shibboleth Login"
-msgstr "예전 계정 로그인"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:107
 #, fuzzy, c-format
@@ -5857,7 +5863,7 @@ msgstr "%s이 레코드에는 항목이 없습니다.%s "
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:368
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:589
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:806
 #, fuzzy
@@ -6045,7 +6051,7 @@ msgstr "로케이션"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:72
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1213
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:106
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:368
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:370
 #, c-format
 msgid "Copy number"
 msgstr "복본 기호"
@@ -6291,7 +6297,8 @@ msgstr ""
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:122
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:138
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:149
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:296
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:304
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:571
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:93
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:107
@@ -7117,7 +7124,7 @@ msgstr "현재 도서관 "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1194
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:101
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:192
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:374
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:376
 #, c-format
 msgid "Home library"
 msgstr "지정 도서관"
@@ -7130,7 +7137,7 @@ msgstr "명기된 자료"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1207
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:125
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:107
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:382
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:384
 #, c-format
 msgid "Vol info"
 msgstr "권 정보"
@@ -7526,7 +7533,7 @@ msgid "Requested item type"
 msgstr "항목형식 추가"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:146
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:309
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:311
 #, c-format
 msgid "Any item type"
 msgstr "어떤 항목 유형"
@@ -9597,19 +9604,19 @@ msgstr "특수 자료"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:95
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:186
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:365
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:367
 #, fuzzy, c-format
 msgid "Select a specific item:"
 msgstr "특수 자료"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:102
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:375
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:377
 #, c-format
 msgid "Last location"
 msgstr "최근 위치"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:108
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:385
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:387
 #, c-format
 msgid "Information"
 msgstr "정보"
@@ -9623,13 +9630,13 @@ msgstr "주문할 수 없습니다"
 #. For the first occurrence,
 #. %1$s:  item.checkout.date_due | $KohaDates as_due_date => 1 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:131
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:445
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:447
 #, c-format
 msgid "Due %s"
 msgstr "만기일 %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:136
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:451
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:453
 #, c-format
 msgid "Unavailable (lost or missing)"
 msgstr "사용 불가 (분실 또는 없음)"
@@ -9637,7 +9644,7 @@ msgstr "사용 불가 (분실 또는 없음)"
 #. For the first occurrence,
 #. %1$s:  item.notforloan | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:139
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:455
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:457
 #, c-format
 msgid "Not for loan (%s)"
 msgstr "대출불가 (%s)"
@@ -10361,7 +10368,7 @@ msgid "Note: Library policy does not allow hold/pickup of an item available loca
 msgstr ""
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:286
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 #, c-format
 msgid "Show more options"
 msgstr "옵션 더 보기"
@@ -10371,115 +10378,115 @@ msgstr "옵션 더 보기"
 msgid "Hold starts on date:"
 msgstr "시작일 예약:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:300
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:301
 #, c-format
 msgid "Hold not needed after:"
 msgstr "이날 이후에는 예약이 필요하지 않습니다: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:307
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:309
 #, fuzzy, c-format
 msgid "Request specific item type:"
 msgstr "특수 자료"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:320
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:322
 #, fuzzy, c-format
 msgid "Request specific item group:"
 msgstr "특수 자료"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:322
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:324
 #, fuzzy, c-format
 msgid "Any item group"
 msgstr "항목만"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:334
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:336
 #, c-format
 msgid "Hold notes:"
 msgstr "예약 주기사항:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:344
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:346
 #, c-format
 msgid "Next available item"
 msgstr "다음 이용가능자료"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:352
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:354
 #, c-format
 msgid "A specific item"
 msgstr "특수 자료"
 
 #. INPUT type=radio name=checkitem
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:408
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:410
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:412
 msgid "Cannot be put on hold"
 msgstr "예약할 수 없습니다"
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
 #. %2$s:  itemLoo.waitingdate | $KohaDates 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:461
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:463
 #, fuzzy, c-format
 msgid "Waiting for patron at %s since %s"
 msgstr "%s 이후 %s에서 %s까지 수송"
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
 #. %2$s:  itemLoo.reservedate | $KohaDates 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:463
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:465
 #, fuzzy, c-format
 msgid "On hold for patron expected at %s since %s"
 msgstr "%s 이후 %s에서 %s까지 수송"
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:465
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:467
 #, fuzzy, c-format
 msgid "On hold for patron expected at %s"
 msgstr "%s 이후 %s에서 %s까지 수송"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:469
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:471
 #, c-format
 msgid "Not on hold"
 msgstr "예약불가"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:477
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:479
 #, fuzzy, c-format
 msgid "Show unholdable items"
 msgstr "모든 항목 보기"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:478
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:480
 #, fuzzy, c-format
 msgid "Hide unholdable items"
 msgstr "다음 이용가능자료"
 
 #. INPUT type=submit
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:490
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:492
 #, fuzzy
 msgid "Confirm hold"
 msgstr "예약 확인"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Expecting a specific item selection."
 msgstr "특수자료 선택 예정"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hide options"
 msgstr "옵션 숨기기"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hold expiration date should be filled."
 msgstr ""
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hold start date should be filled."
 msgstr ""
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Place a hold on"
 msgstr "예약하기"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Place a hold on: "
 msgstr "예약하기:"
 
@@ -14421,6 +14428,10 @@ msgstr "000 "
 #, fuzzy
 #~ msgid "Serial collection "
 #~ msgstr "소장 연속간행물"
+
+#, c-format
+#~ msgid "Shibboleth Login"
+#~ msgstr "예전 계정 로그인"
 
 #, fuzzy
 #~ msgid "The current subscription began on %s and is issued %s twice per day %s %s every day %s %s three times per week %s %s every week %s %s every 2 weeks %s %s every 3 weeks %s %s every month %s %s every 2 months %s %s every quarter %s %s twice per year %s %s every year %s %s every 2 years %s %s irregularly %s %s on Monday %s %s on Tuesday %s %s on Wednesday %s %s on Thursday %s %s on Friday %s %s on Saturday %s %s on Sunday %s for %s%s issues%s %s%s weeks%s %s%s months%s "

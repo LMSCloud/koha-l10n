@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2022-05-01 09:56-0300\n"
 "Language-Team: Koha Translation Team \n"
 "Language: hr\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "unknown"
 msgstr "Nepoznato"
 
-#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:231
+#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:211
 #, fuzzy
 msgid "Not for loan"
 msgstr "Nije za posudbu: "
@@ -1614,7 +1614,7 @@ msgstr ""
 msgid "Budgeted cost"
 msgstr ""
 
-#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:252
+#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:263
 msgid "Creation date"
 msgstr "Datum izrade"
 
@@ -1635,7 +1635,7 @@ msgstr ""
 msgid "Vendor price"
 msgstr ""
 
-#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:223
+#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:225
 #, fuzzy
 msgid "Internal note"
 msgstr "Interna bilješka:"
@@ -1659,7 +1659,7 @@ msgstr "Novi skup"
 msgid "Parent order number (internal)"
 msgstr "Broj primjerke (interni)"
 
-#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:320
+#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:331
 #, fuzzy
 msgid "Quantity"
 msgstr "Količina"
@@ -1668,7 +1668,7 @@ msgstr "Količina"
 msgid "Quantity received"
 msgstr ""
 
-#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:236
+#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:206
 msgid "Replacement price"
 msgstr "Vrijednost"
 
@@ -1738,8 +1738,8 @@ msgstr ""
 msgid "Tax amount on receive"
 msgstr ""
 
-#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:242
-#: Koha/Database/Columns.pm:284
+#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:295
 #, fuzzy
 msgid "Timestamp"
 msgstr "Vremensko ograničenje isteklo"
@@ -1861,7 +1861,8 @@ msgstr "Alternativna adresa: ZIP/poštanski broj"
 msgid "Circulation note"
 msgstr "Napomena o cirkulaciji"
 
-#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:292
+#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:303
 msgid "Borrower number"
 msgstr "Broj korisnika"
 
@@ -1873,7 +1874,7 @@ msgstr "Knjižnica koja posjeduje"
 msgid "Card number"
 msgstr "Članski broj"
 
-#: Koha/Database/Columns.pm:144
+#: Koha/Database/Columns.pm:144 Koha/Database/Columns.pm:256
 msgid "Patron category"
 msgstr "Kategorija korisnika"
 
@@ -2091,392 +2092,397 @@ msgid "ZIP/Postal code"
 msgstr "Zip/Poštanski broj"
 
 #: Koha/Database/Columns.pm:200
-msgid "Barcode"
-msgstr "Barkod"
-
-#: Koha/Database/Columns.pm:201
 #, fuzzy
 msgid "Biblioitem number (internal)"
 msgstr "Broj primjerke (interni)"
 
+#: Koha/Database/Columns.pm:201
+msgid "Barcode"
+msgstr "Barkod"
+
 #: Koha/Database/Columns.pm:202
-#, fuzzy
-msgid "Biblio number (internal)"
-msgstr "Broj primjerke (interni)"
+msgid "Date acquired"
+msgstr "Datum zaprimanja"
 
 #: Koha/Database/Columns.pm:203
 msgid "Source of acquisition"
 msgstr "Izvor nabave"
 
 #: Koha/Database/Columns.pm:204
-msgid "Collection"
-msgstr "Zbirka"
-
-#: Koha/Database/Columns.pm:205
-msgid "Koha normalized classification for sorting"
-msgstr "Koha normalizirana klasifikacija za sortiranje"
-
-#: Koha/Database/Columns.pm:206
-msgid "Source of classification / shelving scheme"
-msgstr "Izvor klasifikacije / sheme za slaganje na police"
-
-#: Koha/Database/Columns.pm:207
-msgid "Coded location qualifier"
-msgstr ""
-
-#: Koha/Database/Columns.pm:208
-msgid "Copy number"
-msgstr "Broj primjerka"
-
-#: Koha/Database/Columns.pm:209
-#, fuzzy
-msgid "Damaged on"
-msgstr "Oštećeno ("
-
-#: Koha/Database/Columns.pm:210
-msgid "Damaged status"
-msgstr "Status uništeno"
-
-#: Koha/Database/Columns.pm:211
-msgid "Date acquired"
-msgstr "Datum zaprimanja"
-
-#: Koha/Database/Columns.pm:212
-#, fuzzy
-msgid "Date last checked out"
-msgstr "Zaduženi primjerci"
-
-#: Koha/Database/Columns.pm:213
-msgid "Date last seen"
-msgstr "Zadnji put viđeno"
-
-#: Koha/Database/Columns.pm:214
-#, fuzzy
-msgid "Date of deletion"
-msgstr "Datum rođenja"
-
-#: Koha/Database/Columns.pm:215
-msgid "Serial enumeraton/chronology"
-msgstr "Numeracija/kronologija serijske publikacije"
-
-#: Koha/Database/Columns.pm:216
-msgid "Exclude from local holds priority"
-msgstr ""
-
-#: Koha/Database/Columns.pm:217
-msgid "Current library"
-msgstr "Trenutna knjižnica"
-
-#: Koha/Database/Columns.pm:218
 #, fuzzy
 msgid "Permanent library"
 msgstr "Trenutna knjižnica"
 
-#: Koha/Database/Columns.pm:219
-msgid "Total checkouts"
-msgstr "Ukoupno posuđeno"
+#: Koha/Database/Columns.pm:205
+msgid "Price"
+msgstr "Cijena"
 
-#: Koha/Database/Columns.pm:220 Koha/Database/Columns.pm:303
-msgid "Call number"
-msgstr "Signatura"
+#: Koha/Database/Columns.pm:207
+msgid "Price effective from"
+msgstr ""
 
-#: Koha/Database/Columns.pm:221
+#: Koha/Database/Columns.pm:208
+#, fuzzy
+msgid "Date last checked out"
+msgstr "Zaduženi primjerci"
+
+#: Koha/Database/Columns.pm:209
+msgid "Date last seen"
+msgstr "Zadnji put viđeno"
+
+#: Koha/Database/Columns.pm:210
+#, fuzzy
+msgid "Shelving control number"
+msgstr "Početni broj korisničke iskaznice"
+
+#: Koha/Database/Columns.pm:212
+msgid "Damaged status"
+msgstr "Status uništeno"
+
+#: Koha/Database/Columns.pm:213
+#, fuzzy
+msgid "Damaged on"
+msgstr "Oštećeno ("
+
+#: Koha/Database/Columns.pm:214
+msgid "Lost status"
+msgstr "Status izgubljeno"
+
+#: Koha/Database/Columns.pm:215
 #, fuzzy
 msgid "Lost on"
 msgstr "Izgubljeno:"
 
+#: Koha/Database/Columns.pm:216
+msgid "Withdrawn status"
+msgstr "Status otpisano"
+
+#: Koha/Database/Columns.pm:217
+#, fuzzy
+msgid "Withdrawn on"
+msgstr "Otpisano:"
+
+#: Koha/Database/Columns.pm:218 Koha/Database/Columns.pm:314
+msgid "Call number"
+msgstr "Signatura"
+
+#: Koha/Database/Columns.pm:219
+msgid "Coded location qualifier"
+msgstr ""
+
+#: Koha/Database/Columns.pm:220
+msgid "Total checkouts"
+msgstr "Ukoupno posuđeno"
+
+#: Koha/Database/Columns.pm:221
+msgid "Total renewals"
+msgstr "Ukupno obnavljanja"
+
 #: Koha/Database/Columns.pm:222
-msgid "Lost status"
-msgstr "Status izgubljeno"
+msgid "Total holds"
+msgstr "Ukupno rezervacija"
+
+#: Koha/Database/Columns.pm:223
+msgid "Use restrictions"
+msgstr "Restrikcije"
 
 #: Koha/Database/Columns.pm:224
 msgid "Public note"
 msgstr "Javna napomena"
 
-#: Koha/Database/Columns.pm:225
-msgid "Item number (internal)"
-msgstr "Broj primjerke (interni)"
-
 #: Koha/Database/Columns.pm:226
-#, fuzzy
-msgid "Koha item type"
-msgstr "Koha vrsta građe"
+msgid "Current library"
+msgstr "Trenutna knjižnica"
 
-#: Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:228
+#, fuzzy
+msgid "Deleted on"
+msgstr "Oštećeno ("
+
+#: Koha/Database/Columns.pm:229 Koha/Database/Columns.pm:253
 msgid "Shelving location"
 msgstr "Lokacija na polici"
 
-#: Koha/Database/Columns.pm:228
+#: Koha/Database/Columns.pm:230
+msgid "Permanent shelving location"
+msgstr "Stalna lokacija na polici"
+
+#: Koha/Database/Columns.pm:231
+msgid "Due date"
+msgstr "Rok posudbe"
+
+#: Koha/Database/Columns.pm:232
+msgid "Source of classification / shelving scheme"
+msgstr "Izvor klasifikacije / sheme za slaganje na police"
+
+#: Koha/Database/Columns.pm:233
+msgid "Koha normalized classification for sorting"
+msgstr "Koha normalizirana klasifikacija za sortiranje"
+
+#: Koha/Database/Columns.pm:234 Koha/Database/Columns.pm:255
+msgid "Collection"
+msgstr "Zbirka"
+
+#: Koha/Database/Columns.pm:235
 #, fuzzy
 msgid "Materials specified"
 msgstr "Nije specificirano"
 
-#: Koha/Database/Columns.pm:229
+#: Koha/Database/Columns.pm:236
+msgid "Uniform Resource Identifier"
+msgstr ""
+
+#: Koha/Database/Columns.pm:237
+#, fuzzy
+msgid "Koha itemtype"
+msgstr "Koha vrsta građe"
+
+#: Koha/Database/Columns.pm:238
 msgid "Additional subfields (XML)"
 msgstr "Dodatna potpolja (XML)"
 
-#: Koha/Database/Columns.pm:230
-#, fuzzy
-msgid "New status"
-msgstr "Novi skup"
-
-#: Koha/Database/Columns.pm:232
-msgid "Due date"
-msgstr "Rok posudbe"
-
-#: Koha/Database/Columns.pm:233
-msgid "Permanent shelving location"
-msgstr "Stalna lokacija na polici"
-
-#: Koha/Database/Columns.pm:234
-msgid "Price"
-msgstr "Cijena"
-
-#: Koha/Database/Columns.pm:235
-msgid "Total renewals"
-msgstr "Ukupno obnavljanja"
-
-#: Koha/Database/Columns.pm:237
-msgid "Price effective from"
-msgstr ""
-
-#: Koha/Database/Columns.pm:238
-msgid "Total holds"
-msgstr "Ukupno rezervacija"
-
 #: Koha/Database/Columns.pm:239
-msgid "Use restrictions"
-msgstr "Restrikcije"
+msgid "Serial enumeraton/chronology"
+msgstr "Numeracija/kronologija serijske publikacije"
 
 #: Koha/Database/Columns.pm:240
-#, fuzzy
-msgid "Shelving control number"
-msgstr "Početni broj korisničke iskaznice"
+msgid "Copy number"
+msgstr "Broj primjerka"
 
 #: Koha/Database/Columns.pm:241
 msgid "Inventory number"
 msgstr "Inventarni broj"
 
+#: Koha/Database/Columns.pm:242
+#, fuzzy
+msgid "New status"
+msgstr "Novi skup"
+
 #: Koha/Database/Columns.pm:243
-msgid "Uniform resource identifier"
+msgid "Exclude from local holds priority"
 msgstr ""
 
-#: Koha/Database/Columns.pm:244
-#, fuzzy
-msgid "Withdrawn on"
-msgstr "Otpisano:"
-
-#: Koha/Database/Columns.pm:245
-msgid "Withdrawn status"
-msgstr "Status otpisano"
-
-#: Koha/Database/Columns.pm:248
-msgid "Abstract"
-msgstr ""
-
-#: Koha/Database/Columns.pm:249 Koha/Database/Columns.pm:310
-msgid "Author"
-msgstr "Autor"
-
-#: Koha/Database/Columns.pm:250 Koha/Database/Columns.pm:268
-msgid "Biblio number"
-msgstr "Broj biblio zapisa "
-
-#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:313
-#, fuzzy
-msgid "Copyright date"
-msgstr "Datum copyright-a"
-
-#: Koha/Database/Columns.pm:253
-#, fuzzy
-msgid "Framework code"
-msgstr "%s Obrazac"
-
-#: Koha/Database/Columns.pm:254
-msgid "Medium"
-msgstr ""
-
-#: Koha/Database/Columns.pm:255 Koha/Database/Columns.pm:276
-msgid "Notes"
-msgstr "Napomene"
-
-#: Koha/Database/Columns.pm:256
-msgid "Name of part/section of a work"
-msgstr ""
-
-#: Koha/Database/Columns.pm:257
-msgid "Number of part/section of a work"
-msgstr ""
-
-#: Koha/Database/Columns.pm:258
-msgid "Is a serial?"
-msgstr ""
-
-#: Koha/Database/Columns.pm:259
-msgid "Series title"
-msgstr ""
-
-#: Koha/Database/Columns.pm:260
-msgid "Remainder of title"
-msgstr ""
-
-#: Koha/Database/Columns.pm:261
-msgid "Modification date"
-msgstr "Datum promjene"
-
-#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:285
-#: Koha/Database/Columns.pm:321
-msgid "Title"
-msgstr "Naslov"
-
-#: Koha/Database/Columns.pm:263
-msgid "Uniform title"
-msgstr ""
-
-#: Koha/Database/Columns.pm:266
-msgid "Age restriction"
-msgstr "Dobno ograničenje"
-
-#: Koha/Database/Columns.pm:267
-#, fuzzy
-msgid "Biblioitem number"
-msgstr "Broj biblio zapisa "
-
-#: Koha/Database/Columns.pm:269
-msgid "Classification"
-msgstr "Klasifikacija"
-
-#: Koha/Database/Columns.pm:270
-msgid "Dewey/classification"
-msgstr "Dewey/klasifikacija"
-
-#: Koha/Database/Columns.pm:271
-msgid "Illustrations"
-msgstr "Ilustracije"
-
-#: Koha/Database/Columns.pm:272 Koha/Database/Columns.pm:314
-msgid "ISBN"
-msgstr "ISBN"
-
-#: Koha/Database/Columns.pm:273
-msgid "ISSN"
-msgstr "ISSN"
-
-#: Koha/Database/Columns.pm:274
-#, fuzzy
-msgid "Biblio-level item type"
-msgstr "Sve vrste građe"
-
-#: Koha/Database/Columns.pm:275
-msgid "LCCN"
-msgstr "LCCN"
-
-#: Koha/Database/Columns.pm:277
-msgid "Number"
-msgstr "Broj"
-
-#: Koha/Database/Columns.pm:278
-msgid "Number of pages"
-msgstr "Broj stranica"
-
-#: Koha/Database/Columns.pm:279 Koha/Database/Columns.pm:318
-msgid "Place of publication"
-msgstr "Mjesto izdavanja"
-
-#: Koha/Database/Columns.pm:280
-msgid "Publication date"
-msgstr "Godina izdavanja"
-
-#: Koha/Database/Columns.pm:281 Koha/Database/Columns.pm:319
-msgid "Publisher"
-msgstr "Izdavač"
-
-#: Koha/Database/Columns.pm:282
-msgid "Size"
-msgstr ""
-
-#: Koha/Database/Columns.pm:283
-msgid "Sub classification"
-msgstr "Sub-klasifikacija"
-
-#: Koha/Database/Columns.pm:286
-msgid "URL"
-msgstr "URL"
-
-#: Koha/Database/Columns.pm:287
-#, fuzzy
-msgid "Volume number"
-msgstr "Broj kolegija"
-
-#: Koha/Database/Columns.pm:288
-#, fuzzy
-msgid "Volume date"
-msgstr "Rok posudbe"
-
-#: Koha/Database/Columns.pm:289
-#, fuzzy
-msgid "Volume information"
-msgstr "Podaci o primjerku"
-
-#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:302
-#: Koha/Database/Columns.pm:311
-msgid "Library"
-msgstr "Knjižnica"
-
-#: Koha/Database/Columns.pm:294
+#: Koha/Database/Columns.pm:246 Koha/Database/Columns.pm:305
 #, fuzzy
 msgid "Statistics date and time"
 msgstr "Statistički mađioničar"
 
-#: Koha/Database/Columns.pm:295
+#: Koha/Database/Columns.pm:247 Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:313 Koha/Database/Columns.pm:322
+msgid "Library"
+msgstr "Knjižnica"
+
+#: Koha/Database/Columns.pm:248 Koha/Database/Columns.pm:310
+msgid "Value"
+msgstr ""
+
+#: Koha/Database/Columns.pm:249
+#, fuzzy
+msgid "Transaction type"
+msgstr "Datum izrade"
+
+#: Koha/Database/Columns.pm:250
+msgid "SIP mode"
+msgstr ""
+
+#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:306
 msgid "Item number"
 msgstr "Broj primjerka"
 
-#: Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:252
+#, fuzzy
+msgid "Koha item type"
+msgstr "Koha vrsta građe"
+
+#: Koha/Database/Columns.pm:259
+msgid "Abstract"
+msgstr ""
+
+#: Koha/Database/Columns.pm:260 Koha/Database/Columns.pm:321
+msgid "Author"
+msgstr "Autor"
+
+#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:279
+msgid "Biblio number"
+msgstr "Broj biblio zapisa "
+
+#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:324
+#, fuzzy
+msgid "Copyright date"
+msgstr "Datum copyright-a"
+
+#: Koha/Database/Columns.pm:264
+#, fuzzy
+msgid "Framework code"
+msgstr "%s Obrazac"
+
+#: Koha/Database/Columns.pm:265
+msgid "Medium"
+msgstr ""
+
+#: Koha/Database/Columns.pm:266 Koha/Database/Columns.pm:287
+msgid "Notes"
+msgstr "Napomene"
+
+#: Koha/Database/Columns.pm:267
+msgid "Name of part/section of a work"
+msgstr ""
+
+#: Koha/Database/Columns.pm:268
+msgid "Number of part/section of a work"
+msgstr ""
+
+#: Koha/Database/Columns.pm:269
+msgid "Is a serial?"
+msgstr ""
+
+#: Koha/Database/Columns.pm:270
+msgid "Series title"
+msgstr ""
+
+#: Koha/Database/Columns.pm:271
+msgid "Remainder of title"
+msgstr ""
+
+#: Koha/Database/Columns.pm:272
+msgid "Modification date"
+msgstr "Datum promjene"
+
+#: Koha/Database/Columns.pm:273 Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:332
+msgid "Title"
+msgstr "Naslov"
+
+#: Koha/Database/Columns.pm:274
+msgid "Uniform title"
+msgstr ""
+
+#: Koha/Database/Columns.pm:277
+msgid "Age restriction"
+msgstr "Dobno ograničenje"
+
+#: Koha/Database/Columns.pm:278
+#, fuzzy
+msgid "Biblioitem number"
+msgstr "Broj biblio zapisa "
+
+#: Koha/Database/Columns.pm:280
+msgid "Classification"
+msgstr "Klasifikacija"
+
+#: Koha/Database/Columns.pm:281
+msgid "Dewey/classification"
+msgstr "Dewey/klasifikacija"
+
+#: Koha/Database/Columns.pm:282
+msgid "Illustrations"
+msgstr "Ilustracije"
+
+#: Koha/Database/Columns.pm:283 Koha/Database/Columns.pm:325
+msgid "ISBN"
+msgstr "ISBN"
+
+#: Koha/Database/Columns.pm:284
+msgid "ISSN"
+msgstr "ISSN"
+
+#: Koha/Database/Columns.pm:285
+#, fuzzy
+msgid "Biblio-level item type"
+msgstr "Sve vrste građe"
+
+#: Koha/Database/Columns.pm:286
+msgid "LCCN"
+msgstr "LCCN"
+
+#: Koha/Database/Columns.pm:288
+msgid "Number"
+msgstr "Broj"
+
+#: Koha/Database/Columns.pm:289
+msgid "Number of pages"
+msgstr "Broj stranica"
+
+#: Koha/Database/Columns.pm:290 Koha/Database/Columns.pm:329
+msgid "Place of publication"
+msgstr "Mjesto izdavanja"
+
+#: Koha/Database/Columns.pm:291
+msgid "Publication date"
+msgstr "Godina izdavanja"
+
+#: Koha/Database/Columns.pm:292 Koha/Database/Columns.pm:330
+msgid "Publisher"
+msgstr "Izdavač"
+
+#: Koha/Database/Columns.pm:293
+msgid "Size"
+msgstr ""
+
+#: Koha/Database/Columns.pm:294
+msgid "Sub classification"
+msgstr "Sub-klasifikacija"
+
+#: Koha/Database/Columns.pm:297
+msgid "URL"
+msgstr "URL"
+
+#: Koha/Database/Columns.pm:298
+#, fuzzy
+msgid "Volume number"
+msgstr "Broj kolegija"
+
+#: Koha/Database/Columns.pm:299
+#, fuzzy
+msgid "Volume date"
+msgstr "Rok posudbe"
+
+#: Koha/Database/Columns.pm:300
+#, fuzzy
+msgid "Volume information"
+msgstr "Podaci o primjerku"
+
+#: Koha/Database/Columns.pm:307
 #, fuzzy
 msgid "Itemtype"
 msgstr "Vrsta građe"
 
-#: Koha/Database/Columns.pm:298
+#: Koha/Database/Columns.pm:309
 msgid "Type"
 msgstr "Vrsta"
 
-#: Koha/Database/Columns.pm:299
-msgid "Value"
-msgstr ""
-
-#: Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:315
 msgid "End date"
 msgstr "Završni datum"
 
-#: Koha/Database/Columns.pm:305
+#: Koha/Database/Columns.pm:316
 msgid "Location"
 msgstr "Lokacija"
 
-#: Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:317
 msgid "Periodicity"
 msgstr "Učestalost"
 
-#: Koha/Database/Columns.pm:307
+#: Koha/Database/Columns.pm:318
 msgid "Start date"
 msgstr "Početni datum"
 
-#: Koha/Database/Columns.pm:312
+#: Koha/Database/Columns.pm:323
 #, fuzzy
 msgid "Collection title"
 msgstr "Naslov zbirke:"
 
-#: Koha/Database/Columns.pm:315
+#: Koha/Database/Columns.pm:326
 #, fuzzy
 msgid "Item type"
 msgstr "Vrsta građe"
 
-#: Koha/Database/Columns.pm:316
+#: Koha/Database/Columns.pm:327
 #, fuzzy
 msgid "Note"
 msgstr "Napomene"
 
-#: Koha/Database/Columns.pm:317
+#: Koha/Database/Columns.pm:328
 #, fuzzy
 msgid "Patron reason"
 msgstr "Korisnik ima restrikciju"
@@ -3032,7 +3038,7 @@ msgstr ""
 msgid "Overdues at {library}"
 msgstr "Trenutna knjižnica"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:773
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:781
 #, fuzzy, perl-brace-format
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
@@ -3231,6 +3237,17 @@ msgid "message"
 msgid_plural "messages"
 msgstr[0] "Poruka"
 msgstr[1] "Poruka"
+
+#, fuzzy
+#~ msgid "Biblio number (internal)"
+#~ msgstr "Broj primjerke (interni)"
+
+#, fuzzy
+#~ msgid "Date of deletion"
+#~ msgstr "Datum rođenja"
+
+#~ msgid "Item number (internal)"
+#~ msgstr "Broj primjerke (interni)"
 
 #, fuzzy
 #~ msgctxt "citations"

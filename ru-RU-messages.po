@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2023-06-23 14:39+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
@@ -29,7 +29,7 @@ msgstr "Ошибка: не удалось получить информацию 
 msgid "unknown"
 msgstr "неизвестно"
 
-#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:231
+#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:211
 msgid "Not for loan"
 msgstr "Не для выдачи"
 
@@ -1606,7 +1606,7 @@ msgstr "Бюджетная стоимость с налогом"
 msgid "Budgeted cost"
 msgstr "Бюджетная стоимость"
 
-#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:252
+#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:263
 msgid "Creation date"
 msgstr "Дата создания"
 
@@ -1628,7 +1628,7 @@ msgstr "Номер позиции (EDIFACT)"
 msgid "Vendor price"
 msgstr "Цена поставщика"
 
-#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:223
+#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:225
 msgid "Internal note"
 msgstr "Внутреннее примечание"
 
@@ -1650,7 +1650,7 @@ msgstr "Статус заказа"
 msgid "Parent order number (internal)"
 msgstr "Номер родительского заказа (внутренний)"
 
-#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:320
+#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:331
 msgid "Quantity"
 msgstr "Количество"
 
@@ -1658,7 +1658,7 @@ msgstr "Количество"
 msgid "Quantity received"
 msgstr "Полученное количество"
 
-#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:236
+#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:206
 msgid "Replacement price"
 msgstr "Цена для замены"
 
@@ -1726,8 +1726,8 @@ msgstr "Сумма налога по заказу"
 msgid "Tax amount on receive"
 msgstr "Сумма налога при получении"
 
-#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:242
-#: Koha/Database/Columns.pm:284
+#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:295
 msgid "Timestamp"
 msgstr "Отметка времени"
 
@@ -1847,7 +1847,8 @@ msgstr "Дополнительный адрес: Почтовый индекс"
 msgid "Circulation note"
 msgstr "Примечание для книговыдачи"
 
-#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:292
+#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:303
 msgid "Borrower number"
 msgstr "Номер абонента библиотеки"
 
@@ -1859,7 +1860,7 @@ msgstr "Домашняя библиотека"
 msgid "Card number"
 msgstr "Номер читательского билета"
 
-#: Koha/Database/Columns.pm:144
+#: Koha/Database/Columns.pm:144 Koha/Database/Columns.pm:256
 msgid "Patron category"
 msgstr "Категория посетителя"
 
@@ -2070,96 +2071,92 @@ msgid "ZIP/Postal code"
 msgstr "Почтовый индекс"
 
 #: Koha/Database/Columns.pm:200
-msgid "Barcode"
-msgstr "Штрих-код"
-
-#: Koha/Database/Columns.pm:201
 msgid "Biblioitem number (internal)"
 msgstr "Biblioitem номер (внутренний)"
 
+#: Koha/Database/Columns.pm:201
+msgid "Barcode"
+msgstr "Штрих-код"
+
 #: Koha/Database/Columns.pm:202
-msgid "Biblio number (internal)"
-msgstr "Библиономер (внутренний)"
+msgid "Date acquired"
+msgstr "Дата приобретения"
 
 #: Koha/Database/Columns.pm:203
 msgid "Source of acquisition"
 msgstr "Источник комплектования"
 
 #: Koha/Database/Columns.pm:204
-msgid "Collection"
-msgstr "Собрание"
-
-#: Koha/Database/Columns.pm:205
-msgid "Koha normalized classification for sorting"
-msgstr "Нормализованная классификация Koha для сортировки"
-
-#: Koha/Database/Columns.pm:206
-msgid "Source of classification / shelving scheme"
-msgstr "Источник классификации / полочная схема"
-
-#: Koha/Database/Columns.pm:207
-msgid "Coded location qualifier"
-msgstr "Квалификатор кодированного местоположения"
-
-#: Koha/Database/Columns.pm:208
-msgid "Copy number"
-msgstr "Номер копии"
-
-#: Koha/Database/Columns.pm:209
-msgid "Damaged on"
-msgstr "Поврежден на"
-
-#: Koha/Database/Columns.pm:210
-msgid "Damaged status"
-msgstr "Статус повреждения"
-
-#: Koha/Database/Columns.pm:211
-msgid "Date acquired"
-msgstr "Дата приобретения"
-
-#: Koha/Database/Columns.pm:212
-msgid "Date last checked out"
-msgstr "Дата последней книговыдачи"
-
-#: Koha/Database/Columns.pm:213
-msgid "Date last seen"
-msgstr "Дата когда последний раз просмотренно"
-
-#: Koha/Database/Columns.pm:214
-msgid "Date of deletion"
-msgstr "Дата удаления"
-
-#: Koha/Database/Columns.pm:215
-msgid "Serial enumeraton/chronology"
-msgstr "Нумерация сериальных изданий / хронология"
-
-#: Koha/Database/Columns.pm:216
-msgid "Exclude from local holds priority"
-msgstr "Исключить из приоритета локальных резервирований"
-
-#: Koha/Database/Columns.pm:217
-msgid "Current library"
-msgstr "Текущая библиотека"
-
-#: Koha/Database/Columns.pm:218
 msgid "Permanent library"
 msgstr "Постоянная библиотека"
 
-#: Koha/Database/Columns.pm:219
-msgid "Total checkouts"
-msgstr "Выдач всего"
+#: Koha/Database/Columns.pm:205
+msgid "Price"
+msgstr "Цена"
 
-#: Koha/Database/Columns.pm:220 Koha/Database/Columns.pm:303
-msgid "Call number"
-msgstr "Шифр хранения"
+#: Koha/Database/Columns.pm:207
+msgid "Price effective from"
+msgstr "Цена действует от"
 
-#: Koha/Database/Columns.pm:221
+#: Koha/Database/Columns.pm:208
+msgid "Date last checked out"
+msgstr "Дата последней книговыдачи"
+
+#: Koha/Database/Columns.pm:209
+msgid "Date last seen"
+msgstr "Дата когда последний раз просмотренно"
+
+#: Koha/Database/Columns.pm:210
+msgid "Shelving control number"
+msgstr "Полочный контрольный номер"
+
+#: Koha/Database/Columns.pm:212
+msgid "Damaged status"
+msgstr "Статус повреждения"
+
+#: Koha/Database/Columns.pm:213
+msgid "Damaged on"
+msgstr "Поврежден на"
+
+#: Koha/Database/Columns.pm:214
+msgid "Lost status"
+msgstr "Статус утери"
+
+#: Koha/Database/Columns.pm:215
 msgid "Lost on"
 msgstr "Утеряно на"
 
+#: Koha/Database/Columns.pm:216
+msgid "Withdrawn status"
+msgstr "Статус изъятия"
+
+#: Koha/Database/Columns.pm:217
+msgid "Withdrawn on"
+msgstr "Изъят на"
+
+#: Koha/Database/Columns.pm:218 Koha/Database/Columns.pm:314
+msgid "Call number"
+msgstr "Шифр хранения"
+
+#: Koha/Database/Columns.pm:219
+msgid "Coded location qualifier"
+msgstr "Квалификатор кодированного местоположения"
+
+#: Koha/Database/Columns.pm:220
+msgid "Total checkouts"
+msgstr "Выдач всего"
+
+#: Koha/Database/Columns.pm:221
+msgid "Total renewals"
+msgstr "Всего продлений"
+
 #: Koha/Database/Columns.pm:222
-msgid "Lost status"
-msgstr "Статус утери"
+msgid "Total holds"
+msgstr "Всего резервирований"
+
+#: Koha/Database/Columns.pm:223
+msgid "Use restrictions"
+msgstr "Использовать ограничения"
 
 # Общедоступная заметка:
 # (длинное)
@@ -2167,280 +2164,290 @@ msgstr "Статус утери"
 msgid "Public note"
 msgstr "Общедоступное примечание"
 
-# Шифр для заказа экземпляра:
-# (длинное - разлазиться таблица)
-#: Koha/Database/Columns.pm:225
-msgid "Item number (internal)"
-msgstr "Номер экземпляра (внутренний)"
-
 #: Koha/Database/Columns.pm:226
-msgid "Koha item type"
-msgstr "Тип экземпляра Koha"
+msgid "Current library"
+msgstr "Текущая библиотека"
 
-#: Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:228
+#, fuzzy
+msgid "Deleted on"
+msgstr "Поврежден на"
+
+#: Koha/Database/Columns.pm:229 Koha/Database/Columns.pm:253
 msgid "Shelving location"
 msgstr "Общее расположение полки"
 
-#: Koha/Database/Columns.pm:228
-msgid "Materials specified"
-msgstr "Указание материалов"
-
-#: Koha/Database/Columns.pm:229
-msgid "Additional subfields (XML)"
-msgstr "Дополнительные подполя (XML)"
-
 #: Koha/Database/Columns.pm:230
-msgid "New status"
-msgstr "Новый статус"
-
-# --Дата возвращения (ибо=return date)
-#: Koha/Database/Columns.pm:232
-msgid "Due date"
-msgstr "Ожидается на дату"
-
-#: Koha/Database/Columns.pm:233
 msgid "Permanent shelving location"
 msgstr "Постоянное полочное местоположение"
 
-#: Koha/Database/Columns.pm:234
-msgid "Price"
-msgstr "Цена"
+# --Дата возвращения (ибо=return date)
+#: Koha/Database/Columns.pm:231
+msgid "Due date"
+msgstr "Ожидается на дату"
+
+#: Koha/Database/Columns.pm:232
+msgid "Source of classification / shelving scheme"
+msgstr "Источник классификации / полочная схема"
+
+#: Koha/Database/Columns.pm:233
+msgid "Koha normalized classification for sorting"
+msgstr "Нормализованная классификация Koha для сортировки"
+
+#: Koha/Database/Columns.pm:234 Koha/Database/Columns.pm:255
+msgid "Collection"
+msgstr "Собрание"
 
 #: Koha/Database/Columns.pm:235
-msgid "Total renewals"
-msgstr "Всего продлений"
+msgid "Materials specified"
+msgstr "Указание материалов"
+
+#: Koha/Database/Columns.pm:236
+#, fuzzy
+msgid "Uniform Resource Identifier"
+msgstr "URI (Универсальный идентификатор ресурса)"
 
 #: Koha/Database/Columns.pm:237
-msgid "Price effective from"
-msgstr "Цена действует от"
+#, fuzzy
+msgid "Koha itemtype"
+msgstr "Тип экземпляра Koha"
 
 #: Koha/Database/Columns.pm:238
-msgid "Total holds"
-msgstr "Всего резервирований"
+msgid "Additional subfields (XML)"
+msgstr "Дополнительные подполя (XML)"
 
 #: Koha/Database/Columns.pm:239
-msgid "Use restrictions"
-msgstr "Использовать ограничения"
+msgid "Serial enumeraton/chronology"
+msgstr "Нумерация сериальных изданий / хронология"
 
 #: Koha/Database/Columns.pm:240
-msgid "Shelving control number"
-msgstr "Полочный контрольный номер"
+msgid "Copy number"
+msgstr "Номер копии"
 
 #: Koha/Database/Columns.pm:241
 msgid "Inventory number"
 msgstr "Инвентарный номер"
 
+#: Koha/Database/Columns.pm:242
+msgid "New status"
+msgstr "Новый статус"
+
 #: Koha/Database/Columns.pm:243
-msgid "Uniform resource identifier"
-msgstr "URI (Универсальный идентификатор ресурса)"
+msgid "Exclude from local holds priority"
+msgstr "Исключить из приоритета локальных резервирований"
 
-#: Koha/Database/Columns.pm:244
-msgid "Withdrawn on"
-msgstr "Изъят на"
+#: Koha/Database/Columns.pm:246 Koha/Database/Columns.pm:305
+msgid "Statistics date and time"
+msgstr "Дата и время статистики"
 
-#: Koha/Database/Columns.pm:245
-msgid "Withdrawn status"
-msgstr "Статус изъятия"
+#: Koha/Database/Columns.pm:247 Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:313 Koha/Database/Columns.pm:322
+msgid "Library"
+msgstr "Библиотека"
 
-#: Koha/Database/Columns.pm:248
+#: Koha/Database/Columns.pm:248 Koha/Database/Columns.pm:310
+msgid "Value"
+msgstr "Значение"
+
+#: Koha/Database/Columns.pm:249
+#, fuzzy
+msgid "Transaction type"
+msgstr "Дата создания"
+
+#: Koha/Database/Columns.pm:250
+msgid "SIP mode"
+msgstr ""
+
+# Шифр для заказа экземпляра:
+# (длинное - разлазиться таблица)
+#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:306
+msgid "Item number"
+msgstr "Номер экземпляра"
+
+#: Koha/Database/Columns.pm:252
+msgid "Koha item type"
+msgstr "Тип экземпляра Koha"
+
+#: Koha/Database/Columns.pm:259
 msgid "Abstract"
 msgstr "Аннотация"
 
-#: Koha/Database/Columns.pm:249 Koha/Database/Columns.pm:310
+#: Koha/Database/Columns.pm:260 Koha/Database/Columns.pm:321
 msgid "Author"
 msgstr "Автор"
 
-#: Koha/Database/Columns.pm:250 Koha/Database/Columns.pm:268
+#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:279
 msgid "Biblio number"
 msgstr "Библиономер"
 
-#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:313
+#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:324
 msgid "Copyright date"
 msgstr "Дата авторского права"
 
-#: Koha/Database/Columns.pm:253
+#: Koha/Database/Columns.pm:264
 msgid "Framework code"
 msgstr "Код структуры"
 
-#: Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:265
 msgid "Medium"
 msgstr "Средний"
 
-#: Koha/Database/Columns.pm:255 Koha/Database/Columns.pm:276
+#: Koha/Database/Columns.pm:266 Koha/Database/Columns.pm:287
 msgid "Notes"
 msgstr "Заметки "
 
-#: Koha/Database/Columns.pm:256
+#: Koha/Database/Columns.pm:267
 msgid "Name of part/section of a work"
 msgstr "Наименование части/раздела работы"
 
-#: Koha/Database/Columns.pm:257
+#: Koha/Database/Columns.pm:268
 msgid "Number of part/section of a work"
 msgstr "Количество частей/разделов работы"
 
-#: Koha/Database/Columns.pm:258
+#: Koha/Database/Columns.pm:269
 msgid "Is a serial?"
 msgstr "Продолжающееся издание?"
 
-#: Koha/Database/Columns.pm:259
+#: Koha/Database/Columns.pm:270
 msgid "Series title"
 msgstr "Заглавие серии"
 
-#: Koha/Database/Columns.pm:260
+#: Koha/Database/Columns.pm:271
 msgid "Remainder of title"
 msgstr "Оставшаяся часть названия"
 
-#: Koha/Database/Columns.pm:261
+#: Koha/Database/Columns.pm:272
 msgid "Modification date"
 msgstr "Дата изменения"
 
-#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:285
-#: Koha/Database/Columns.pm:321
+#: Koha/Database/Columns.pm:273 Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:332
 msgid "Title"
 msgstr "Заглавие"
 
-#: Koha/Database/Columns.pm:263
+#: Koha/Database/Columns.pm:274
 msgid "Uniform title"
 msgstr "Постоянное заглавие"
 
-#: Koha/Database/Columns.pm:266
+#: Koha/Database/Columns.pm:277
 msgid "Age restriction"
 msgstr "Ограничение по возрасту"
 
-#: Koha/Database/Columns.pm:267
+#: Koha/Database/Columns.pm:278
 msgid "Biblioitem number"
 msgstr "Biblioitem номер"
 
-#: Koha/Database/Columns.pm:269
+#: Koha/Database/Columns.pm:280
 msgid "Classification"
 msgstr "Классификация"
 
-#: Koha/Database/Columns.pm:270
+#: Koha/Database/Columns.pm:281
 msgid "Dewey/classification"
 msgstr "Дьюи/классификация"
 
-#: Koha/Database/Columns.pm:271
+#: Koha/Database/Columns.pm:282
 msgid "Illustrations"
 msgstr "Иллюстрации"
 
-#: Koha/Database/Columns.pm:272 Koha/Database/Columns.pm:314
+#: Koha/Database/Columns.pm:283 Koha/Database/Columns.pm:325
 msgid "ISBN"
 msgstr "ISBN"
 
-#: Koha/Database/Columns.pm:273
+#: Koha/Database/Columns.pm:284
 msgid "ISSN"
 msgstr "ISSN"
 
-#: Koha/Database/Columns.pm:274
+#: Koha/Database/Columns.pm:285
 msgid "Biblio-level item type"
 msgstr "Класс экземпляра на уровне библиотеки"
 
-#: Koha/Database/Columns.pm:275
+#: Koha/Database/Columns.pm:286
 msgid "LCCN"
 msgstr "LCCN (ш.х.БК)"
 
-#: Koha/Database/Columns.pm:277
+#: Koha/Database/Columns.pm:288
 msgid "Number"
 msgstr "Номер"
 
-#: Koha/Database/Columns.pm:278
+#: Koha/Database/Columns.pm:289
 msgid "Number of pages"
 msgstr "Количество страниц"
 
 # 110^a - является изданием, публикуемым от имени конференции
-#: Koha/Database/Columns.pm:279 Koha/Database/Columns.pm:318
+#: Koha/Database/Columns.pm:290 Koha/Database/Columns.pm:329
 msgid "Place of publication"
 msgstr "Место публикации"
 
-#: Koha/Database/Columns.pm:280
+#: Koha/Database/Columns.pm:291
 msgid "Publication date"
 msgstr "Дата публикации"
 
-#: Koha/Database/Columns.pm:281 Koha/Database/Columns.pm:319
+#: Koha/Database/Columns.pm:292 Koha/Database/Columns.pm:330
 msgid "Publisher"
 msgstr "Издатель"
 
-#: Koha/Database/Columns.pm:282
+#: Koha/Database/Columns.pm:293
 msgid "Size"
 msgstr "Размер"
 
-#: Koha/Database/Columns.pm:283
+#: Koha/Database/Columns.pm:294
 msgid "Sub classification"
 msgstr "Подклассификация"
 
-#: Koha/Database/Columns.pm:286
+#: Koha/Database/Columns.pm:297
 msgid "URL"
 msgstr "URL"
 
-#: Koha/Database/Columns.pm:287
+#: Koha/Database/Columns.pm:298
 msgid "Volume number"
 msgstr "Номер тома"
 
 # --Дата возвращения (ибо=return date)
-#: Koha/Database/Columns.pm:288
+#: Koha/Database/Columns.pm:299
 msgid "Volume date"
 msgstr "Дата выпуска тома"
 
-#: Koha/Database/Columns.pm:289
+#: Koha/Database/Columns.pm:300
 msgid "Volume information"
 msgstr "Информация о томе"
 
-#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:302
-#: Koha/Database/Columns.pm:311
-msgid "Library"
-msgstr "Библиотека"
-
-#: Koha/Database/Columns.pm:294
-msgid "Statistics date and time"
-msgstr "Дата и время статистики"
-
-# Шифр для заказа экземпляра:
-# (длинное - разлазиться таблица)
-#: Koha/Database/Columns.pm:295
-msgid "Item number"
-msgstr "Номер экземпляра"
-
-#: Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:307
 msgid "Itemtype"
 msgstr "Тип единицы"
 
-#: Koha/Database/Columns.pm:298
+#: Koha/Database/Columns.pm:309
 msgid "Type"
 msgstr "Тип "
 
-#: Koha/Database/Columns.pm:299
-msgid "Value"
-msgstr "Значение"
-
-#: Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:315
 msgid "End date"
 msgstr "Конечная дата"
 
-#: Koha/Database/Columns.pm:305
+#: Koha/Database/Columns.pm:316
 msgid "Location"
 msgstr "Расположение"
 
-#: Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:317
 msgid "Periodicity"
 msgstr "Периодичность"
 
-#: Koha/Database/Columns.pm:307
+#: Koha/Database/Columns.pm:318
 msgid "Start date"
 msgstr "Дата начала"
 
-#: Koha/Database/Columns.pm:312
+#: Koha/Database/Columns.pm:323
 msgid "Collection title"
 msgstr "Название коллекции"
 
-#: Koha/Database/Columns.pm:315
+#: Koha/Database/Columns.pm:326
 msgid "Item type"
 msgstr "Тип экземпляра"
 
-#: Koha/Database/Columns.pm:316
+#: Koha/Database/Columns.pm:327
 msgid "Note"
 msgstr "Заметка"
 
-#: Koha/Database/Columns.pm:317
+#: Koha/Database/Columns.pm:328
 msgid "Patron reason"
 msgstr "Причина"
 
@@ -2986,7 +2993,7 @@ msgstr ""
 msgid "Overdues at {library}"
 msgstr "Постоянная библиотека"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:773
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:781
 #, perl-brace-format
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
@@ -3182,6 +3189,17 @@ msgid_plural "messages"
 msgstr[0] "сообщение"
 msgstr[1] "сообщения"
 msgstr[2] "сообщения"
+
+#~ msgid "Biblio number (internal)"
+#~ msgstr "Библиономер (внутренний)"
+
+#~ msgid "Date of deletion"
+#~ msgstr "Дата удаления"
+
+# Шифр для заказа экземпляра:
+# (длинное - разлазиться таблица)
+#~ msgid "Item number (internal)"
+#~ msgstr "Номер экземпляра (внутренний)"
 
 #~ msgctxt "citations"
 #~ msgid "Quotes"

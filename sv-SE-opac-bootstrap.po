@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2023-11-14 07:53+0000\n"
 "Last-Translator: \"Tomas.jiglind\" <tomas.jiglind@mariestad.se>\n"
 "Language-Team: Koha Translation Team\n"
@@ -1139,7 +1139,7 @@ msgstr "Återkräv"
 #. %3$s:  transfertwhen | $KohaDates 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/item-status.inc:74
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:133
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:447
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:449
 #, c-format
 msgid "In transit from %s to %s since %s"
 msgstr "Under transport från %s till %s sedan %s"
@@ -1408,7 +1408,7 @@ msgstr "Serie"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:124
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:105
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:193
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:380
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:382
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:303
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:591
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:593
@@ -1558,9 +1558,7 @@ msgstr "Logga in med Google"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:193
 #, c-format
 msgid "If you do not have a Google account, but do have a local account, you can still log in: "
-msgstr ""
-"Om du inte har ett Google-konto, men har ett lokalt konto, kan du ändå logga "
-"in: "
+msgstr "Om du inte har ett Google-konto, men har ett lokalt konto, kan du ändå logga in: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:377
 #, c-format
@@ -1568,6 +1566,7 @@ msgid "Sorry, your Shibboleth identity does not match a valid library identity. 
 msgstr "Din Shibboleth-identitet överensstämmer inte med en giltig biblioteksidentitet. Om du har ett lokalt inloggningsnamn kan du använda det nedan."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:380
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:106
 #, c-format
 msgid "Shibboleth login"
 msgstr "Shibboleth-inloggning"
@@ -4499,6 +4498,11 @@ msgstr "inte"
 msgid "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s and %s "
 msgstr "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s och %s "
 
+#. SELECT name=idx
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:60
+msgid "Choose search type for field %s"
+msgstr ""
+
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:61
 #, c-format
 msgid "Keyword"
@@ -4611,7 +4615,7 @@ msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISSN"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:106
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:99
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:191
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:372
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:374
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:330
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:667
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:718
@@ -4623,8 +4627,8 @@ msgstr "Streckkod"
 
 #. INPUT type=text name=q
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:115
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:290
-msgid "Enter search terms"
+#, fuzzy
+msgid "Enter field %s search terms"
 msgstr "Ange söktermer"
 
 #. A
@@ -4653,7 +4657,7 @@ msgstr "Visa (icke föredragna) rubriker är inkluderade"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:123
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:98
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:190
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:370
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:372
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:91
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:116
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:327
@@ -4667,7 +4671,7 @@ msgstr "Exemplartyp"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:70
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1197
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:104
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:378
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:380
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:92
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:120
 #, c-format
@@ -4731,6 +4735,11 @@ msgstr "Sortera efter:"
 #, c-format
 msgid "Publication date range"
 msgstr "Utgivningsdatum, intervall"
+
+#. INPUT type=text name=limit-yr
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:290
+msgid "Enter search terms"
+msgstr "Ange söktermer"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:291
 #, c-format
@@ -5061,9 +5070,7 @@ msgstr "Prenumerationsnotiser"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscribe.tt:39
 #, c-format
 msgid "Do you want to receive an email when a new issue for this subscription arrives?"
-msgstr ""
-"Vill du få ett e-postmeddelande när det kommer ett nytt nummer för den här "
-"prenumerationen?"
+msgstr "Vill du få ett e-postmeddelande när det kommer ett nytt nummer för den här prenumerationen?"
 
 #. INPUT type=submit
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscribe.tt:46
@@ -5102,9 +5109,7 @@ msgstr "Nej"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscribe.tt:53
 #, c-format
 msgid "Please confirm that you do not want to receive email when a new issue arrives for this subscription."
-msgstr ""
-"Bekräfta att du inte vill ha ett e-postmeddelande när det kommer ett nytt "
-"nummer/häfte för den här prenumerationen."
+msgstr "Bekräfta att du inte vill ha ett e-postmeddelande när det kommer ett nytt nummer/häfte för den här prenumerationen."
 
 #. %1$s:  authtypetext | html 
 #. %2$s:  IF ( LibraryNameTitle ) 
@@ -5184,7 +5189,7 @@ msgstr "Online-resurser:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-curbside-pickups.tt:180
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1217
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt:134
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:384
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:386
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:927
 #, c-format
 msgid "Notes"
@@ -5269,11 +5274,6 @@ msgstr "Om du har ett CAS-konto, kan du använda det nedan."
 msgid "If you have a local account, you may use that below."
 msgstr "Om du har ett lokalt konto, kan du använda det nedan."
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:106
-#, c-format
-msgid "Shibboleth Login"
-msgstr "Shibboleth-inloggning"
-
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:107
 #, c-format
 msgid "Log in using a Shibboleth account."
@@ -5288,9 +5288,7 @@ msgstr "CAS-inloggning"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:112
 #, c-format
 msgid "If you do not have a Shibboleth account, but you do have a CAS account, you can use CAS."
-msgstr ""
-"Om du inte har ett Shibboleth-konto, men du har ett CAS-konto, kan du "
-"använda CAS."
+msgstr "Om du inte har ett Shibboleth-konto, men du har ett CAS-konto, kan du använda CAS."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:115
 #, c-format
@@ -5330,9 +5328,7 @@ msgstr "Inget"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:161
 #, c-format
 msgid "If you do not have a CAS account, but do have a local account, you can still log in: "
-msgstr ""
-"Om du inte har ett CAS-konto, men har ett lokalt konto, kan du ändå logga in:"
-" "
+msgstr "Om du inte har ett CAS-konto, men har ett lokalt konto, kan du ändå logga in: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:186
 #, c-format
@@ -5391,9 +5387,7 @@ msgstr "Saknar du lösenord?"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:244
 #, c-format
 msgid "If you don't have a password yet, stop by the circulation desk the next time you're in the library. We'll happily set one up for you."
-msgstr ""
-"Om du saknar lösenord så säg till i lånedisken nästa gång du besöker "
-"biblioteket. Vi ger dig ett lösenord."
+msgstr "Om du saknar lösenord så säg till i lånedisken nästa gång du besöker biblioteket. Vi ger dig ett lösenord."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:245
 #, c-format
@@ -5838,7 +5832,7 @@ msgstr "%sDenna post har inga exemplar.%s "
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:368
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:589
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:806
 msgid "No item was selected"
@@ -6025,7 +6019,7 @@ msgstr "Plats"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:72
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1213
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:106
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:368
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:370
 #, c-format
 msgid "Copy number"
 msgstr "Ex.nummer"
@@ -6269,7 +6263,8 @@ msgstr "Du har redan en planerad hämtning för det här biblioteket."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:122
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:138
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:149
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:296
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:304
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:571
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:93
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:107
@@ -7087,7 +7082,7 @@ msgstr "Aktuellt bibliotek"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1194
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:101
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:192
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:374
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:376
 #, c-format
 msgid "Home library"
 msgstr "Hembibliotek"
@@ -7100,7 +7095,7 @@ msgstr "Del av materialet som avses"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1207
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:125
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:107
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:382
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:384
 #, c-format
 msgid "Vol info"
 msgstr "Volyminfo"
@@ -7491,7 +7486,7 @@ msgid "Requested item type"
 msgstr "Begärd exemplartyp"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:146
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:309
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:311
 #, c-format
 msgid "Any item type"
 msgstr "Alla exemplartyper"
@@ -7973,9 +7968,7 @@ msgstr "Dina uppdateringar har skickats in och ditt låntagarkonto har ändrats.
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry-update-submitted.tt:42
 #, c-format
 msgid "Your updates have been submitted. A librarian will review your updates before applying them."
-msgstr ""
-"Dina uppdateringar har skickats in. En bibliotekarie kommer att granska dina "
-"ändringar innan de förs in."
+msgstr "Dina uppdateringar har skickats in. En bibliotekarie kommer att granska dina ändringar innan de förs in."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:16
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:26
@@ -8021,9 +8014,7 @@ msgstr "Inga ändringar gjorda."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:95
 #, c-format
 msgid "You have not filled out all required fields. Please fill in all missing fields and resubmit."
-msgstr ""
-"Du har inte fyllt i alla obligatoriska fält. Fyll i alla tomma fält och "
-"skicka in igen."
+msgstr "Du har inte fyllt i alla obligatoriska fält. Fyll i alla tomma fält och skicka in igen."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:99
 #, c-format
@@ -8480,9 +8471,7 @@ msgstr "Integritetspolicy"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:997
 #, c-format
 msgid "I agree with your processing of my personal data as outlined in the "
-msgstr ""
-"Jag godkänner att ni hanterar min personliga information som det står "
-"skrivet i "
+msgstr "Jag godkänner att ni hanterar min personliga information som det står skrivet i "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:997
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:56
@@ -8665,9 +8654,7 @@ msgstr "SMS-leverantör:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:209
 #, c-format
 msgid "Please contact a library staff member if you are unsure of your mobile service provider, or you do not see your provider in this list."
-msgstr ""
-"Vänligen kontakta bibliotekspersonalen om du är osäker på vilken din "
-"mobiloperatör är, eller om du inte ser din operatör i listan."
+msgstr "Vänligen kontakta bibliotekspersonalen om du är osäker på vilken din mobiloperatör är, eller om du inte ser din operatör i listan."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:216
 #, c-format
@@ -9115,9 +9102,7 @@ msgstr "Du får strax ett e-postmeddelande. "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt:175
 #, c-format
 msgid "Please click the link in this email to finish the process of resetting your password. "
-msgstr ""
-"Vänligen klicka på länken i detta e-postbrev för att slutföra processen att "
-"återställa ditt lösenord. "
+msgstr "Vänligen klicka på länken i detta e-postbrev för att slutföra processen att återställa ditt lösenord. "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt:176
 #, c-format
@@ -9199,9 +9184,7 @@ msgstr "Ditt medgivande blev registrerat den %s."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:62
 #, c-format
 msgid "You indicated recently that you do not consent, and we will process your request soon."
-msgstr ""
-"Du angav nyligen att du inte ger ditt medgivande och vi kommer behandla din "
-"begäran snart."
+msgstr "Du angav nyligen att du inte ger ditt medgivande och vi kommer behandla din begäran snart."
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
@@ -9370,9 +9353,7 @@ msgstr "Ta bort reservationshistorik"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:191
 #, c-format
 msgid "Immediately delete my checkout history & my hold history. This action cannot be undone."
-msgstr ""
-"Ta bort min lånehistorik och min reservationshistorik omedelbart. Detta kan "
-"inte ångras."
+msgstr "Ta bort min lånehistorik och min reservationshistorik omedelbart. Detta kan inte ångras."
 
 #. INPUT type=submit
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:194
@@ -9568,19 +9549,19 @@ msgstr "Återkräv ett specifikt exemplar"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:95
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:186
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:365
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:367
 #, c-format
 msgid "Select a specific item:"
 msgstr "Välj ett särskilt exemplar:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:102
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:375
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:377
 #, c-format
 msgid "Last location"
 msgstr "Senaste plats"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:108
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:385
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:387
 #, c-format
 msgid "Information"
 msgstr "Information"
@@ -9593,13 +9574,13 @@ msgstr "Kan inte återkrävas"
 #. For the first occurrence,
 #. %1$s:  item.checkout.date_due | $KohaDates as_due_date => 1 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:131
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:445
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:447
 #, c-format
 msgid "Due %s"
 msgstr "Återlämningsdatum %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:136
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:451
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:453
 #, c-format
 msgid "Unavailable (lost or missing)"
 msgstr "Ej tillgänglig (förlorad eller saknad)"
@@ -9607,7 +9588,7 @@ msgstr "Ej tillgänglig (förlorad eller saknad)"
 #. For the first occurrence,
 #. %1$s:  item.notforloan | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:139
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:455
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:457
 #, c-format
 msgid "Not for loan (%s)"
 msgstr "Ej för utlån: (%s)"
@@ -9836,9 +9817,7 @@ msgstr "Registreringen felaktig!"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-invalid.tt:39
 #, c-format
 msgid "There were problems processing your registration. Please contact your library for help."
-msgstr ""
-"Det uppstod problem när du registrerade dig. Kontakta ditt bibliotek för "
-"hjälp."
+msgstr "Det uppstod problem när du registrerade dig. Kontakta ditt bibliotek för hjälp."
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
@@ -10074,9 +10053,7 @@ msgstr "Tyvärr, du kan inte göra reservationer."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:194
 #, c-format
 msgid "According to our records, we don't have up-to-date contact information. Please contact the library. "
-msgstr ""
-"Enligt våra anteckningar har vi inte uppdaterad kontaktinformation. Vänligen "
-"kontakta biblioteket. "
+msgstr "Enligt våra anteckningar har vi inte uppdaterad kontaktinformation. Vänligen kontakta biblioteket. "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:38
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:195
@@ -10094,8 +10071,7 @@ msgstr "Uppdatera din kontaktinformation"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:196
 #, c-format
 msgid "(Please note: there may be a delay in restoring your account if you submit online.)"
-msgstr ""
-"(Obs: det kan ta ett tag innan ditt konto återställs om du skickar online.)"
+msgstr "(Obs: det kan ta ett tag innan ditt konto återställs om du skickar online.)"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:44
 #, c-format
@@ -10278,8 +10254,7 @@ msgstr "Du har redan gjort ett återkrav på denna titel."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:208
 #, c-format
 msgid "This title cannot be requested because it's already in your possession."
-msgstr ""
-"Den här titeln kan inte beställas eftersom den redan är utlånad till dig."
+msgstr "Den här titeln kan inte beställas eftersom den redan är utlånad till dig."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:210
 #, c-format
@@ -10332,7 +10307,7 @@ msgid "Note: Library policy does not allow hold/pickup of an item available loca
 msgstr "Obs: bibliotekets låneregler tillåter inte reservationer på exemplar som står inne på hylla. Välkommen till biblioteket för att låna dessa"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:286
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 #, c-format
 msgid "Show more options"
 msgstr "Visa fler alternativ"
@@ -10342,114 +10317,114 @@ msgstr "Visa fler alternativ"
 msgid "Hold starts on date:"
 msgstr "Reservation startar datum:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:300
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:301
 #, c-format
 msgid "Hold not needed after:"
 msgstr "Reservation behövs inte efter:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:307
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:309
 #, c-format
 msgid "Request specific item type:"
 msgstr "Begär en särskild medietyp:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:320
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:322
 #, c-format
 msgid "Request specific item group:"
 msgstr "Begär en särskild exemplartyp:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:322
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:324
 #, c-format
 msgid "Any item group"
 msgstr "Vilken exemplargrupp som helst"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:334
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:336
 #, c-format
 msgid "Hold notes:"
 msgstr "Reservationskommentar:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:344
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:346
 #, c-format
 msgid "Next available item"
 msgstr "Nästa tillgängliga exemplar"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:352
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:354
 #, c-format
 msgid "A specific item"
 msgstr "Ett särskilt exemplar"
 
 #. INPUT type=radio name=checkitem
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:408
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:410
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:412
 msgid "Cannot be put on hold"
 msgstr "Kan inte reserveras"
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
 #. %2$s:  itemLoo.waitingdate | $KohaDates 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:461
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:463
 #, c-format
 msgid "Waiting for patron at %s since %s"
 msgstr "Väntar på låntagare hos %s sedan %s"
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
 #. %2$s:  itemLoo.reservedate | $KohaDates 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:463
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:465
 #, c-format
 msgid "On hold for patron expected at %s since %s"
 msgstr "Väntar på %s sedan %s"
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:465
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:467
 #, c-format
 msgid "On hold for patron expected at %s"
 msgstr "Reserverad till låntagare förväntas till %s"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:469
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:471
 #, c-format
 msgid "Not on hold"
 msgstr "Inte reserverad"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:477
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:479
 #, c-format
 msgid "Show unholdable items"
 msgstr "Visa exemplar som inte går att reservera"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:478
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:480
 #, c-format
 msgid "Hide unholdable items"
 msgstr "Göm exemplar som inte går att reservera"
 
 #. INPUT type=submit
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:490
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:492
 msgid "Confirm hold"
 msgstr "Bekräfta reservation"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Expecting a specific item selection."
 msgstr "Ett särskilt exemplar förväntas."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hide options"
 msgstr "Dölj alternativ"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hold expiration date should be filled."
 msgstr "Utgångsdatum måste anges."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hold start date should be filled."
 msgstr "Starttid måste anges."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Place a hold on"
 msgstr "Reservera"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Place a hold on: "
 msgstr "Reservera: "
 
@@ -10901,9 +10876,7 @@ msgstr "Dina mottagarlistor"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-routing-lists.tt:48
 #, c-format
 msgid "You are subscribed to the routing lists for following serial titles. If you wish to make changes, please contact the library."
-msgstr ""
-"Du prenumererar på mottagarlistor för följande seriella titlar. Om du vill "
-"göra ändringar, kontakta biblioteket."
+msgstr "Du prenumererar på mottagarlistor för följande seriella titlar. Om du vill göra ändringar, kontakta biblioteket."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-routing-lists.tt:54
 #, c-format
@@ -11595,9 +11568,7 @@ msgstr "skickas snart till %s."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt:109
 #, c-format
 msgid "Something went wrong while processing the following addresses. Please check them. These are: %s"
-msgstr ""
-"Något gick fel när följande adresser skulle bearbetas. Vänligen se över dem. "
-"Adresserna är: %s"
+msgstr "Något gick fel när följande adresser skulle bearbetas. Vänligen se över dem. Adresserna är: %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt:112
 #, c-format
@@ -11716,9 +11687,7 @@ msgstr "Ett fel inträffade när denna lista togs bort."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:156
 #, c-format
 msgid "The item has not been added to the list. Please check it's not already in the list."
-msgstr ""
-"Exemplaret har inte lagts till listan. Kontrollera att det inte redan finns "
-"i denna lista."
+msgstr "Exemplaret har inte lagts till listan. Kontrollera att det inte redan finns i denna lista."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:158
 #, c-format
@@ -11972,9 +11941,7 @@ msgstr "Sortera denna lista efter: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:618
 #, c-format
 msgid "The library has disabled the ability for patrons to create new public lists. If you make your list private, you will not be able to make it public again."
-msgstr ""
-"Biblioteket har stängt av funktionen att dela offentliga listor. Om du gör "
-"listan privat kommer du inte att kunna göra den offentlig igen."
+msgstr "Biblioteket har stängt av funktionen att dela offentliga listor. Om du gör listan privat kommer du inte att kunna göra den offentlig igen."
 
 #. %1$s:  shelf.shelfname | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:640
@@ -12823,9 +12790,7 @@ msgstr "Tack!"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:65
 #, c-format
 msgid "Your corrections have been submitted to the library, and a staff member will update your record as soon as possible."
-msgstr ""
-"Dina ändringar har skickats till biblioteket, där någon i personalen "
-"uppdaterar din information så snart som möjligt."
+msgstr "Dina ändringar har skickats till biblioteket, där någon i personalen uppdaterar din information så snart som möjligt."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:70
 #, c-format
@@ -12910,8 +12875,7 @@ msgstr "Ej för utlån"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:106
 #, c-format
 msgid "There are items available in the library, please visit to check them out"
-msgstr ""
-"Det finns tillgängliga exemplar i biblioteket, gör ett besök för att låna"
+msgstr "Det finns tillgängliga exemplar i biblioteket, gör ett besök för att låna"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:108
 #, c-format
@@ -13316,8 +13280,7 @@ msgstr "Automatiskt omlån misslyckades, du har obetalda avgifter."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:480
 #, c-format
 msgid "Automatic renewal failed, your account is expired."
-msgstr ""
-"Automatiskt omlån misslyckades. Giltighetstiden på ditt konto har gått ut."
+msgstr "Automatiskt omlån misslyckades. Giltighetstiden på ditt konto har gått ut."
 
 #. %1$s:  ISSUE.soonestrenewdate | $KohaDates  as_due_date => 1 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:488
@@ -13658,9 +13621,7 @@ msgstr "(Exemplaret kan inte återlämnas på detta bibliotek, kontakta personal
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:14
 #, c-format
 msgid "(Item is withdrawn and check-in blocked by policy, please see library staff for assistance)"
-msgstr ""
-"(Exemplaret är mjukgallrat och går ej att återlämna, kontakta personal för "
-"hjälp)"
+msgstr "(Exemplaret är mjukgallrat och går ej att återlämna, kontakta personal för hjälp)"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:16
 #, c-format
@@ -13695,9 +13656,7 @@ msgstr "%s Självbetjäningsautomat"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:69
 #, c-format
 msgid "Sorry, this self check-in station has lost authentication. Please contact the administrator to resolve this problem."
-msgstr ""
-"Den här självbetjäningsstationen har tappat autentiseringen. Kontakta "
-"administratören för att lösa problemet."
+msgstr "Den här självbetjäningsstationen har tappat autentiseringen. Kontakta administratören för att lösa problemet."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:74
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:181
@@ -13756,9 +13715,7 @@ msgstr "Hjälp för självbetjäning"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:179
 #, c-format
 msgid "Scan each item or enter its barcode. A list with the entered barcodes will be displayed."
-msgstr ""
-"Skanna varje exemplar eller skriv in streckkoden. En lista med de angivna "
-"streckkoderna kommer att visas."
+msgstr "Skanna varje exemplar eller skriv in streckkoden. En lista med de angivna streckkoderna kommer att visas."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:180
 #, c-format
@@ -14376,6 +14333,10 @@ msgstr "000 "
 
 #~ msgid "Serial collection "
 #~ msgstr "Periodikasamling "
+
+#, c-format
+#~ msgid "Shibboleth Login"
+#~ msgstr "Shibboleth-inloggning"
 
 #~ msgid "Sign in to view availability and checkout items or place holds"
 #~ msgstr "Logga in för att se tillgänglighet och låna exemplar eller göra reservationer"

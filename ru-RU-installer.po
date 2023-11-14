@@ -9,8 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.1.1\n"
 "X-Pootle-Path: /ru/22.11/ru-RU-installer.po\n"
 "X-Pootle-Revision: 1\n"
@@ -4840,31 +4839,31 @@ msgstr "Если вы не инициировали этот запрос, вы 
 msgid "We want to notify you that your password has been changed. If you did not change it yourself (or requested that change), please contact library staff."
 msgstr "Пароль изменен. Обратитесь в библиотеку, если это не Вы изменили пароль."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:1
 msgid "%sThis email has been sent in response to your password recovery request for the account %s%s%s."
 msgstr "%s Это письмо было отправлено в ответ на ваш запрос о восстановления пароля для учетной записи %s%s%s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:4
 msgid "You can now create your new password using the following link:"
 msgstr "Теперь вы можете создать свой новый пароль, используя следующую ссылку:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:7
 msgid "%sThis link will be valid for 2 days from this email's reception, then you must reapply if you do not change your password.%s"
 msgstr "%sЭта ссылка будет действительна в течение двух дней с момента получения этого электронного письма. Подайте заявку повторно, если не измените свой пароль.%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:9
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:8
 msgid "%sThank you.%s"
 msgstr "%sСпасибо!%s"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:45:mul:2
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:45:mul:1
 msgid "%sA librarian has reset the password for the account %s%s%s."
 msgstr "%sБиблиотекарь сбросил пароль к учетной записи %s%s%s."
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:45:mul:5
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:45:mul:4
 msgid "Please create your new password using the following link:"
 msgstr "Создайте новый пароль по ссылке:"
 
-#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:45:mul:8
+#: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:45:mul:7
 msgid "%sThis link will be valid for 5 days from this email's reception, then you must reapply if you do not change your password.%s"
 msgstr "%sЭта ссылка будет действительна в течение 5 дней с момента получения этого электронного письма. Подайте заявку повторно, если не измените свой пароль.%s"
 
@@ -5789,9 +5788,7 @@ msgstr "Экземпляр слишком поврежден, чтобы вып�
 
 #: installer/data/mysql/en/optional/auth_val.yml:authorised_values:5:row:26
 msgid "Item was found to be too damaged to fill article request"
-msgstr ""
-"Было обнаружено, что экземпляр слишком поврежден для выполнения запроса "
-"статьи"
+msgstr "Было обнаружено, что экземпляр слишком поврежден для выполнения запроса статьи"
 
 #: installer/data/mysql/en/optional/auth_val.yml:authorised_values:5:row:27
 msgid "Cancelled from the OPAC user page"
@@ -5839,9 +5836,7 @@ msgstr "Основная библиографическая единица"
 
 #: installer/data/mysql/en/optional/marc21_holdings_coded_values.yml:authorised_values:1:row:3
 msgid "Secondary bibliographic unit: supplements, special issues, accompanying material, other secondary bibliographic units"
-msgstr ""
-"Дополнительная библиографическая единица: приложения, специальные выпуски, "
-"сопроводительные материалы, другие дополнительные библиографические единицы"
+msgstr "Дополнительная библиографическая единица: приложения, специальные выпуски, сопроводительные материалы, другие дополнительные библиографические единицы"
 
 #: installer/data/mysql/en/optional/marc21_holdings_coded_values.yml:authorised_values:1:row:4
 msgid "Indexes"
@@ -6401,9 +6396,7 @@ msgstr "Хранитель"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:48
 msgid "Contestant"
-msgstr ""
-"Противная сторона, выдвигающая в суде возражения против искового требования, "
-"постановления, решения"
+msgstr "Противная сторона, выдвигающая в суде возражения против искового требования, постановления, решения"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:49
 msgid "Contestant -appellant"
@@ -7125,8 +7118,7 @@ msgstr "Образцы цитат"
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:1
 msgid "To be prepared for war is one of the most effectual means of preserving peace."
-msgstr ""
-"Быть готовым к войне это один из наиболее эффективных методов сохранить мир."
+msgstr "Быть готовым к войне это один из наиболее эффективных методов сохранить мир."
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:2
 msgid "When angry, count ten, before you speak; if very angry, an hundred."
@@ -7162,11 +7154,7 @@ msgstr ""
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:10
 msgid "You cannot become thorough Americans if you think of yourselves in groups. America does not consist of groups. A man who thinks of himself as belonging to a particular national group in America has not yet become an American."
-msgstr ""
-"Вы не сможете стать настоящими американцами, если будете думать о себе "
-"группами. Америка не состоит из групп. Человек, который считает себя "
-"принадлежащим к определенной национальной группе в Америке, еще не стал "
-"американцем."
+msgstr "Вы не сможете стать настоящими американцами, если будете думать о себе группами. Америка не состоит из групп. Человек, который считает себя принадлежащим к определенной национальной группе в Америке, еще не стал американцем."
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:11
 msgid "If you don't say anything, you won't be called on to repeat it."
@@ -7178,8 +7166,7 @@ msgstr "Если бы мы только сидели и молчали, то б�
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:13
 msgid "The slogan of progress is changing from the full dinner pail to the full garage."
-msgstr ""
-"Лозунг прогресса меняется - от полного обеденного судка к полному гаражу."
+msgstr "Лозунг прогресса меняется - от полного обеденного судка к полному гаражу."
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:14
 msgid "Let me assert my firm belief that the only thing we have to fear is fear itself."
@@ -7264,9 +7251,7 @@ msgstr ""
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:34
 msgid "Tremendous amounts of talent are being lost to our society just because that talent wears a skirt."
-msgstr ""
-"Наше общество теряет огромное количество талантов только потому, что этот "
-"талант носит юбку."
+msgstr "Наше общество теряет огромное количество талантов только потому, что этот талант носит юбку."
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:35
 msgid "At the end of the day, we can endure much more than we think we can."
@@ -7302,15 +7287,11 @@ msgstr "Мне потребовалось довольно много време
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:43
 msgid "What you do makes a difference, and you have to decide what kind of difference you want to make."
-msgstr ""
-"То, что вы делаете, имеет значение, и вы должны решить, какого рода "
-"изменения вы хотите добиться."
+msgstr "То, что вы делаете, имеет значение, и вы должны решить, какого рода изменения вы хотите добиться."
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:44
 msgid "The way I see it, if you want the rainbow, you gotta put up with the rain!"
-msgstr ""
-"Насколько я понимаю, если ты хочешь видеть радугу, тебе придется мириться с "
-"дождем!"
+msgstr "Насколько я понимаю, если ты хочешь видеть радугу, тебе придется мириться с дождем!"
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:45
 msgid "Each and every one of us has the capacity to be an oppressor. I want to encourage each and every one of us to interrogate how we might be an oppressor and how we might be able to become liberators for ourselves and for each other."
@@ -7318,9 +7299,7 @@ msgstr ""
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:46
 msgid "The future depends entirely on what each of us does every day; a movement is only people moving."
-msgstr ""
-"Будущее полностью зависит от того, что каждый из нас делает каждый день; "
-"движение - это движение только людей."
+msgstr "Будущее полностью зависит от того, что каждый из нас делает каждый день; движение - это движение только людей."
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:quotes:1:row:47
 msgid "The land knows you, even when you are lost."

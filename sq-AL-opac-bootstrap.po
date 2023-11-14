@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2022-05-01 12:03-0300\n"
 "Language-Team: Koha Translation Team \n"
 "Language: sq\n"
@@ -1136,7 +1136,7 @@ msgstr "RecallItem "
 #. %3$s:  transfertwhen | $KohaDates 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/item-status.inc:74
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:133
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:447
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:449
 #, c-format
 msgid "In transit from %s to %s since %s"
 msgstr "Në tranzit nga %s tek %s që më %s"
@@ -1405,7 +1405,7 @@ msgstr "Seritë"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:124
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:105
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:193
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:380
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:382
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:303
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:591
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:593
@@ -1564,6 +1564,7 @@ msgid "Sorry, your Shibboleth identity does not match a valid library identity. 
 msgstr "Na vjen keq, identiteti juaj Shibboleth nuk përputhet me një identitet të vlefshëm të regjistruar në bibliotekë. Nëse zotëroni kredenciale lokale për hyrje në sistem, mund t'i përdorni më poshtë."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:380
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:106
 #, fuzzy, c-format
 msgid "Shibboleth login"
 msgstr "Autentikim Shibboleth"
@@ -4513,6 +4514,11 @@ msgstr "jo"
 msgid "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s and %s "
 msgstr "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s dhe %s "
 
+#. SELECT name=idx
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:60
+msgid "Choose search type for field %s"
+msgstr ""
+
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:61
 #, c-format
 msgid "Keyword"
@@ -4625,7 +4631,7 @@ msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISSN"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:106
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:99
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:191
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:372
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:374
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:330
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:667
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:718
@@ -4637,8 +4643,8 @@ msgstr "Barkodi"
 
 #. INPUT type=text name=q
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:115
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:290
-msgid "Enter search terms"
+#, fuzzy
+msgid "Enter field %s search terms"
 msgstr "Vendos termat e kërkimit"
 
 #. A
@@ -4667,7 +4673,7 @@ msgstr ""
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:123
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:98
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:190
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:370
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:372
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:91
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:116
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:327
@@ -4681,7 +4687,7 @@ msgstr "Lloji i materialit"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:70
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1197
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:104
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:378
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:380
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:92
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:120
 #, c-format
@@ -4745,6 +4751,11 @@ msgstr "Rendit sipas:"
 #, c-format
 msgid "Publication date range"
 msgstr "Periudha kohore e publikimit"
+
+#. INPUT type=text name=limit-yr
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:290
+msgid "Enter search terms"
+msgstr "Vendos termat e kërkimit"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:291
 #, c-format
@@ -5194,7 +5205,7 @@ msgstr "Burimet online:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-curbside-pickups.tt:180
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1217
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt:134
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:384
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:386
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:927
 #, c-format
 msgid "Notes"
@@ -5278,11 +5289,6 @@ msgstr "Nëse dispononi llogari CAS, mund ta përdorni më poshtë."
 #, c-format
 msgid "If you have a local account, you may use that below."
 msgstr "Nëse keni llogari lokale, mund ta përdorni më poshtë."
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:106
-#, c-format
-msgid "Shibboleth Login"
-msgstr "Autentikim Shibboleth"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:107
 #, fuzzy, c-format
@@ -5843,7 +5849,7 @@ msgstr "%sKy rekord nuk ka tituj të regjistruar.%s "
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:368
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:589
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:806
 #, fuzzy
@@ -6031,7 +6037,7 @@ msgstr "Vendndodhja"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:72
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1213
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:106
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:368
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:370
 #, c-format
 msgid "Copy number"
 msgstr "Numri i kopjes"
@@ -6277,7 +6283,8 @@ msgstr ""
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:122
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:138
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:149
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:296
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:304
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:571
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:93
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:107
@@ -7103,7 +7110,7 @@ msgstr "Biblioteka kryesore"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1194
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:101
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:192
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:374
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:376
 #, c-format
 msgid "Home library"
 msgstr "Biblioteka kryesore"
@@ -7116,7 +7123,7 @@ msgstr "Nuk u specifikua asnjë tag."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1207
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:125
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:107
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:382
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:384
 #, c-format
 msgid "Vol info"
 msgstr "Vol info"
@@ -7510,7 +7517,7 @@ msgid "Requested item type"
 msgstr "Kërko lloj materiali specifik:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:146
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:309
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:311
 #, c-format
 msgid "Any item type"
 msgstr "Çdo tip"
@@ -9576,19 +9583,19 @@ msgstr "Zgjidh një titull specifik:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:95
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:186
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:365
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:367
 #, c-format
 msgid "Select a specific item:"
 msgstr "Zgjidh një titull specifik:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:102
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:375
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:377
 #, c-format
 msgid "Last location"
 msgstr "Vendndodhja e fundit"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:108
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:385
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:387
 #, c-format
 msgid "Information"
 msgstr "Informacion"
@@ -9602,13 +9609,13 @@ msgstr "Nuk mund të rezervohet"
 #. For the first occurrence,
 #. %1$s:  item.checkout.date_due | $KohaDates as_due_date => 1 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:131
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:445
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:447
 #, c-format
 msgid "Due %s"
 msgstr "Afati %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:136
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:451
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:453
 #, c-format
 msgid "Unavailable (lost or missing)"
 msgstr "I padisponueshëm (humbur ose dëmtuar)"
@@ -9616,7 +9623,7 @@ msgstr "I padisponueshëm (humbur ose dëmtuar)"
 #. For the first occurrence,
 #. %1$s:  item.notforloan | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:139
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:455
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:457
 #, c-format
 msgid "Not for loan (%s)"
 msgstr "Nuk mund të huazohet (%s)"
@@ -10340,7 +10347,7 @@ msgid "Note: Library policy does not allow hold/pickup of an item available loca
 msgstr ""
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:286
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 #, c-format
 msgid "Show more options"
 msgstr "Shfaq më shumë opsione"
@@ -10350,115 +10357,115 @@ msgstr "Shfaq më shumë opsione"
 msgid "Hold starts on date:"
 msgstr "Aktivizimi fillon në datën:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:300
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:301
 #, c-format
 msgid "Hold not needed after:"
 msgstr "Kopja nuk nevojitet pas:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:307
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:309
 #, c-format
 msgid "Request specific item type:"
 msgstr "Kërko lloj materiali specifik:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:320
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:322
 #, fuzzy, c-format
 msgid "Request specific item group:"
 msgstr "Kërko lloj materiali specifik:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:322
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:324
 #, fuzzy, c-format
 msgid "Any item group"
 msgstr "Çdo tip"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:334
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:336
 #, c-format
 msgid "Hold notes:"
 msgstr "Shënime:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:344
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:346
 #, c-format
 msgid "Next available item"
 msgstr "Titulli i rradhës në gjendje"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:352
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:354
 #, c-format
 msgid "A specific item"
 msgstr "Një titull specifik"
 
 #. INPUT type=radio name=checkitem
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:408
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:410
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:412
 msgid "Cannot be put on hold"
 msgstr "Nuk mund të rezervohet"
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
 #. %2$s:  itemLoo.waitingdate | $KohaDates 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:461
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:463
 #, fuzzy, c-format
 msgid "Waiting for patron at %s since %s"
 msgstr "Në tranzit nga %s tek %s që më %s"
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
 #. %2$s:  itemLoo.reservedate | $KohaDates 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:463
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:465
 #, fuzzy, c-format
 msgid "On hold for patron expected at %s since %s"
 msgstr "Në tranzit nga %s tek %s që më %s"
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:465
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:467
 #, fuzzy, c-format
 msgid "On hold for patron expected at %s"
 msgstr "Në tranzit nga %s tek %s që më %s"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:469
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:471
 #, c-format
 msgid "Not on hold"
 msgstr "Nuk gjendet në inventar"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:477
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:479
 #, fuzzy, c-format
 msgid "Show unholdable items"
 msgstr "Shfaq të gjithë titujt"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:478
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:480
 #, fuzzy, c-format
 msgid "Hide unholdable items"
 msgstr "Titulli i rradhës në gjendje"
 
 #. INPUT type=submit
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:490
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:492
 #, fuzzy
 msgid "Confirm hold"
 msgstr "Konfirmo fjalëkalimin"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Expecting a specific item selection."
 msgstr "Në pritje të përzgjedhjes së një titulli specifik."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hide options"
 msgstr "Fshih opsionet"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hold expiration date should be filled."
 msgstr ""
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hold start date should be filled."
 msgstr ""
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Place a hold on"
 msgstr "Vendos një rezervim mbi"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Place a hold on: "
 msgstr "Vendos një rezervim mbi: "
 
@@ -14377,6 +14384,10 @@ msgstr "000 "
 #, fuzzy
 #~ msgid "Serial collection "
 #~ msgstr "Koleksioni i serialeve"
+
+#, c-format
+#~ msgid "Shibboleth Login"
+#~ msgstr "Autentikim Shibboleth"
 
 #~ msgid "The current subscription began on %s and is issued %s twice per day %s %s every day %s %s three times per week %s %s every week %s %s every 2 weeks %s %s every 3 weeks %s %s every month %s %s every 2 months %s %s every quarter %s %s twice per year %s %s every year %s %s every 2 years %s %s irregularly %s %s on Monday %s %s on Tuesday %s %s on Wednesday %s %s on Thursday %s %s on Friday %s %s on Saturday %s %s on Sunday %s for %s%s issues%s %s%s weeks%s %s%s months%s "
 #~ msgstr "Regjistrimi aktual nisi më %s dhe ka frekuence %s dy herë në ditë %s %s çdo ditë %s %s tre herë në javë %s %s çdo javë %s %s çdo 2 javë %s %s çdo 3 javë %s %s çdo muaj %s %s çdo 2 muaj %s %s çdo çerek viti %s %s dy herë në vit %s %s çdo vit %s %s çdo 2 vjet %s %s në mënyrë të parregullt %s %s të Hënën %s %s të Martën %s %s të Mërkurën %s %s të Enjten %s %s të Premten %s %s të Shtunën %s %s të Dielën %s për %s%s botimet%s %s%s javët%s %s%s muajt%s "

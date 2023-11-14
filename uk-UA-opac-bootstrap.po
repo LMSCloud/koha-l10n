@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2023-11-13 16:16+0000\n"
 "Last-Translator: Serhij Dubyk <dubyk@ukr.net>\n"
 "Language-Team: Koha Translation Team\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.1.1\n"
 "X-Pootle-Path: /uk/22.11/uk-UA-opac-bootstrap.po\n"
 "X-Pootle-Revision: 1\n"
@@ -1147,7 +1146,7 @@ msgstr "RecallItem "
 #. %3$s:  transfertwhen | $KohaDates 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/item-status.inc:74
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:133
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:447
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:449
 #, c-format
 msgid "In transit from %s to %s since %s"
 msgstr "На переміщенні від: %s до: %s, починаючи з %s "
@@ -1418,7 +1417,7 @@ msgstr "Серія"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:124
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:105
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:193
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:380
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:382
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:303
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:591
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:593
@@ -1580,6 +1579,7 @@ msgid "Sorry, your Shibboleth identity does not match a valid library identity. 
 msgstr "На жаль, Ваш профіль Шібболет не відповідає чинному профілю у бібліотеці. Якщо у Вас є локальний вхід в систему, Ви можете скористатися ним нижче. "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:380
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:106
 #, c-format
 msgid "Shibboleth login"
 msgstr "Вхід через Шібболет"
@@ -4557,6 +4557,11 @@ msgstr "не"
 msgid "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s and %s "
 msgstr "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s та %s "
 
+#. SELECT name=idx
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:60
+msgid "Choose search type for field %s"
+msgstr ""
+
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:61
 #, c-format
 msgid "Keyword"
@@ -4669,7 +4674,7 @@ msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISSN"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:106
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:99
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:191
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:372
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:374
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:330
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:667
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:718
@@ -4681,8 +4686,8 @@ msgstr "Штрих-код"
 
 #. INPUT type=text name=q
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:115
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:290
-msgid "Enter search terms"
+#, fuzzy
+msgid "Enter field %s search terms"
 msgstr "Введіть пошукові терміни"
 
 #. A
@@ -4711,7 +4716,7 @@ msgstr ""
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:123
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:98
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:190
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:370
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:372
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:91
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:116
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:327
@@ -4725,7 +4730,7 @@ msgstr "Тип одиниці зберігання"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:70
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1197
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:104
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:378
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:380
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:92
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:120
 #, c-format
@@ -4789,6 +4794,11 @@ msgstr "Сортувати за:"
 #, c-format
 msgid "Publication date range"
 msgstr "Діапазон дат публікації: "
+
+#. INPUT type=text name=limit-yr
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:290
+msgid "Enter search terms"
+msgstr "Введіть пошукові терміни"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:291
 #, c-format
@@ -5252,7 +5262,7 @@ msgstr "Ресурси он-лайн: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-curbside-pickups.tt:180
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1217
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt:134
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:384
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:386
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:927
 #, c-format
 msgid "Notes"
@@ -5336,11 +5346,6 @@ msgstr "Якщо у Вас є обліковий запис CAS, можете в
 #, c-format
 msgid "If you have a local account, you may use that below."
 msgstr "Якщо у Вас є локальний обліковий запис, можете використовувати його нижче."
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:106
-#, c-format
-msgid "Shibboleth Login"
-msgstr "Вхід через Шібболет"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:107
 #, c-format
@@ -5901,7 +5906,7 @@ msgstr "%s Цей запис не має жодного примірника. %s
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:368
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:589
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:806
 #, fuzzy
@@ -6094,7 +6099,7 @@ msgstr "Розташування"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:72
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1213
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:106
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:368
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:370
 #, c-format
 msgid "Copy number"
 msgstr "Порядковий номер комплекту/примірника"
@@ -6345,7 +6350,8 @@ msgstr ""
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:122
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:138
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:149
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:296
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:304
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:571
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:93
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:107
@@ -7170,7 +7176,7 @@ msgstr "Поточна бібліотека"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1194
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:101
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:192
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:374
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:376
 #, c-format
 msgid "Home library"
 msgstr "Джерельна бібліотека"
@@ -7183,7 +7189,7 @@ msgstr "Зазначення матеріалів"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1207
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:125
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:107
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:382
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:384
 #, c-format
 msgid "Vol info"
 msgstr "Дані про том"
@@ -7579,7 +7585,7 @@ msgid "Requested item type"
 msgstr "Запитуваний примірник: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:146
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:309
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:311
 #, c-format
 msgid "Any item type"
 msgstr "Усі типи примірників"
@@ -9644,19 +9650,19 @@ msgstr "Виберіть конкретний примірник: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:95
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:186
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:365
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:367
 #, c-format
 msgid "Select a specific item:"
 msgstr "Виберіть конкретний примірник: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:102
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:375
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:377
 #, c-format
 msgid "Last location"
 msgstr "Останнє розташування"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:108
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:385
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:387
 #, c-format
 msgid "Information"
 msgstr "Інформація"
@@ -9670,13 +9676,13 @@ msgstr "Не вдається вилучити"
 #. For the first occurrence,
 #. %1$s:  item.checkout.date_due | $KohaDates as_due_date => 1 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:131
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:445
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:447
 #, c-format
 msgid "Due %s"
 msgstr "Повернення %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:136
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:451
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:453
 #, c-format
 msgid "Unavailable (lost or missing)"
 msgstr "Недоступно (загублено або відсутнє)"
@@ -9684,7 +9690,7 @@ msgstr "Недоступно (загублено або відсутнє)"
 #. For the first occurrence,
 #. %1$s:  item.notforloan | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:139
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:455
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:457
 #, c-format
 msgid "Not for loan (%s)"
 msgstr "Не для випозичання (%s)"
@@ -10412,7 +10418,7 @@ msgid "Note: Library policy does not allow hold/pickup of an item available loca
 msgstr "Примітка: бібліотечні правила не дозволяють замовляти / забирати з собою примірник, що доступний локально. Будь ласка, приходьте у бібліотеку, щоб отримати ці примірники"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:286
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 #, c-format
 msgid "Show more options"
 msgstr "Показати більше параметрів"
@@ -10422,115 +10428,115 @@ msgstr "Показати більше параметрів"
 msgid "Hold starts on date:"
 msgstr "Замовлення починається з дати: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:300
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:301
 #, c-format
 msgid "Hold not needed after:"
 msgstr "Замовлене не буде потрібне після: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:307
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:309
 #, c-format
 msgid "Request specific item type:"
 msgstr "Запит визначеного типу примірника: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:320
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:322
 #, fuzzy, c-format
 msgid "Request specific item group:"
 msgstr "Запит визначеного типу примірника: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:322
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:324
 #, fuzzy, c-format
 msgid "Any item group"
 msgstr "Будь-який примірник "
 
 # http://www.loc.gov/marc/holdings/hd866868.html
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:334
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:336
 #, c-format
 msgid "Hold notes:"
 msgstr "Примітка щодо замовлення: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:344
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:346
 #, c-format
 msgid "Next available item"
 msgstr "Наступний доступний примірник."
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:352
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:354
 #, c-format
 msgid "A specific item"
 msgstr "Конкретний примірник "
 
 #. INPUT type=radio name=checkitem
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:408
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:410
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:412
 msgid "Cannot be put on hold"
 msgstr "Неможливо встановити замовлення"
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
 #. %2$s:  itemLoo.waitingdate | $KohaDates 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:461
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:463
 #, fuzzy, c-format
 msgid "Waiting for patron at %s since %s"
 msgstr "Очікує: \"%s\" від %s."
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
 #. %2$s:  itemLoo.reservedate | $KohaDates 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:463
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:465
 #, fuzzy, c-format
 msgid "On hold for patron expected at %s since %s"
 msgstr "Очікує: \"%s\" від %s."
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:465
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:467
 #, c-format
 msgid "On hold for patron expected at %s"
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:469
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:471
 #, c-format
 msgid "Not on hold"
 msgstr "Не замовлено"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:477
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:479
 #, fuzzy, c-format
 msgid "Show unholdable items"
 msgstr "Показати усі примірники"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:478
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:480
 #, fuzzy, c-format
 msgid "Hide unholdable items"
 msgstr "Додати кілька примірників"
 
 #. INPUT type=submit
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:490
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:492
 msgid "Confirm hold"
 msgstr "Підтвердити замовлення"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Expecting a specific item selection."
 msgstr "Очікується вибір конкретного примірника."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hide options"
 msgstr "Приховати опції"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hold expiration date should be filled."
 msgstr ""
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hold start date should be filled."
 msgstr ""
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Place a hold on"
 msgstr "Встановити замовлення на "
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Place a hold on: "
 msgstr "Встановити замовлення на: "
 
@@ -14455,6 +14461,10 @@ msgstr "000 "
 #, fuzzy
 #~ msgid "Serial collection "
 #~ msgstr "Зібрання серіального видання"
+
+#, c-format
+#~ msgid "Shibboleth Login"
+#~ msgstr "Вхід через Шібболет"
 
 #~ msgid "Sign in to view availability and checkout items or place holds"
 #~ msgstr "Увійдіть, щоб переглянути доступні та видані примірники чи зробити замовлення"

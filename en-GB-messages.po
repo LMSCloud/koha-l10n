@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2023-09-26 14:55+0000\n"
 "Last-Translator: Aude Charillon <aude.charillon@ptfs-europe.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -25,7 +25,7 @@ msgstr "Error: could not retrieve availability for this ID"
 msgid "unknown"
 msgstr "unknown"
 
-#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:231
+#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:211
 msgid "Not for loan"
 msgstr "Not for loan"
 
@@ -1591,7 +1591,7 @@ msgstr "Budgeted cost, tax incl."
 msgid "Budgeted cost"
 msgstr "Budgeted cost"
 
-#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:252
+#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:263
 msgid "Creation date"
 msgstr "Creation date"
 
@@ -1611,7 +1611,7 @@ msgstr "Line item ID (EDIFACT)"
 msgid "Vendor price"
 msgstr "Vendor price"
 
-#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:223
+#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:225
 msgid "Internal note"
 msgstr "Internal note"
 
@@ -1631,7 +1631,7 @@ msgstr "Order status"
 msgid "Parent order number (internal)"
 msgstr "Parent order number (internal)"
 
-#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:320
+#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:331
 msgid "Quantity"
 msgstr "Quantity"
 
@@ -1639,7 +1639,7 @@ msgstr "Quantity"
 msgid "Quantity received"
 msgstr "Quantity received"
 
-#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:236
+#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:206
 msgid "Replacement price"
 msgstr "Replacement price"
 
@@ -1707,8 +1707,8 @@ msgstr "Tax amount on order"
 msgid "Tax amount on receive"
 msgstr "Tax amount on receive"
 
-#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:242
-#: Koha/Database/Columns.pm:284
+#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:295
 msgid "Timestamp"
 msgstr "Timestamp"
 
@@ -1828,7 +1828,8 @@ msgstr "Alternate address: Postcode"
 msgid "Circulation note"
 msgstr "Circulation note"
 
-#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:292
+#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:303
 msgid "Borrower number"
 msgstr "Borrowernumber"
 
@@ -1840,7 +1841,7 @@ msgstr "Home library"
 msgid "Card number"
 msgstr "Card number"
 
-#: Koha/Database/Columns.pm:144
+#: Koha/Database/Columns.pm:144 Koha/Database/Columns.pm:256
 msgid "Patron category"
 msgstr "User category"
 
@@ -2049,368 +2050,376 @@ msgid "ZIP/Postal code"
 msgstr "Postcode"
 
 #: Koha/Database/Columns.pm:200
-msgid "Barcode"
-msgstr "Barcode"
-
-#: Koha/Database/Columns.pm:201
 msgid "Biblioitem number (internal)"
 msgstr "Biblioitem number (internal)"
 
+#: Koha/Database/Columns.pm:201
+msgid "Barcode"
+msgstr "Barcode"
+
 #: Koha/Database/Columns.pm:202
-msgid "Biblio number (internal)"
-msgstr "Biblio number (internal)"
+msgid "Date acquired"
+msgstr "Date acquired"
 
 #: Koha/Database/Columns.pm:203
 msgid "Source of acquisition"
 msgstr "Source of acquisition"
 
 #: Koha/Database/Columns.pm:204
-msgid "Collection"
-msgstr "Collection"
-
-#: Koha/Database/Columns.pm:205
-msgid "Koha normalized classification for sorting"
-msgstr "Koha normalised classification for sorting"
-
-#: Koha/Database/Columns.pm:206
-msgid "Source of classification / shelving scheme"
-msgstr "Classnumber classification scheme"
-
-#: Koha/Database/Columns.pm:207
-msgid "Coded location qualifier"
-msgstr "Coded location qualifier"
-
-#: Koha/Database/Columns.pm:208
-msgid "Copy number"
-msgstr "Copy number"
-
-#: Koha/Database/Columns.pm:209
-msgid "Damaged on"
-msgstr "Damaged on"
-
-#: Koha/Database/Columns.pm:210
-msgid "Damaged status"
-msgstr "Damaged status"
-
-#: Koha/Database/Columns.pm:211
-msgid "Date acquired"
-msgstr "Date acquired"
-
-#: Koha/Database/Columns.pm:212
-msgid "Date last checked out"
-msgstr "Date last issued"
-
-#: Koha/Database/Columns.pm:213
-msgid "Date last seen"
-msgstr "Date last seen"
-
-#: Koha/Database/Columns.pm:214
-msgid "Date of deletion"
-msgstr "Date of deletion"
-
-#: Koha/Database/Columns.pm:215
-msgid "Serial enumeraton/chronology"
-msgstr "Serial enumeraton"
-
-#: Koha/Database/Columns.pm:216
-msgid "Exclude from local holds priority"
-msgstr "Exclude from local reservations priority"
-
-#: Koha/Database/Columns.pm:217
-msgid "Current library"
-msgstr "Current library"
-
-#: Koha/Database/Columns.pm:218
 msgid "Permanent library"
 msgstr "Permanent library"
 
-#: Koha/Database/Columns.pm:219
-msgid "Total checkouts"
-msgstr "Total loans"
+#: Koha/Database/Columns.pm:205
+msgid "Price"
+msgstr "Price"
 
-#: Koha/Database/Columns.pm:220 Koha/Database/Columns.pm:303
-msgid "Call number"
-msgstr "Class number"
+#: Koha/Database/Columns.pm:207
+msgid "Price effective from"
+msgstr "Price effective from"
 
-#: Koha/Database/Columns.pm:221
+#: Koha/Database/Columns.pm:208
+msgid "Date last checked out"
+msgstr "Date last issued"
+
+#: Koha/Database/Columns.pm:209
+msgid "Date last seen"
+msgstr "Date last seen"
+
+#: Koha/Database/Columns.pm:210
+msgid "Shelving control number"
+msgstr "Shelving control number"
+
+#: Koha/Database/Columns.pm:212
+msgid "Damaged status"
+msgstr "Damaged status"
+
+#: Koha/Database/Columns.pm:213
+msgid "Damaged on"
+msgstr "Damaged on"
+
+#: Koha/Database/Columns.pm:214
+msgid "Lost status"
+msgstr "Lost status"
+
+#: Koha/Database/Columns.pm:215
 msgid "Lost on"
 msgstr "Lost on"
 
+#: Koha/Database/Columns.pm:216
+msgid "Withdrawn status"
+msgstr "Withdrawn status"
+
+#: Koha/Database/Columns.pm:217
+msgid "Withdrawn on"
+msgstr "Withdrawn on"
+
+#: Koha/Database/Columns.pm:218 Koha/Database/Columns.pm:314
+msgid "Call number"
+msgstr "Class number"
+
+#: Koha/Database/Columns.pm:219
+msgid "Coded location qualifier"
+msgstr "Coded location qualifier"
+
+#: Koha/Database/Columns.pm:220
+msgid "Total checkouts"
+msgstr "Total loans"
+
+#: Koha/Database/Columns.pm:221
+msgid "Total renewals"
+msgstr "Total renewals"
+
 #: Koha/Database/Columns.pm:222
-msgid "Lost status"
-msgstr "Lost status"
+msgid "Total holds"
+msgstr "Total reservations"
+
+#: Koha/Database/Columns.pm:223
+msgid "Use restrictions"
+msgstr "Use restrictions"
 
 #: Koha/Database/Columns.pm:224
 msgid "Public note"
 msgstr "Public note"
 
-#: Koha/Database/Columns.pm:225
-msgid "Item number (internal)"
-msgstr "Item number (internal)"
-
 #: Koha/Database/Columns.pm:226
-msgid "Koha item type"
-msgstr "Koha item type"
+msgid "Current library"
+msgstr "Current library"
 
-#: Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:228
+#, fuzzy
+msgid "Deleted on"
+msgstr "Damaged on"
+
+#: Koha/Database/Columns.pm:229 Koha/Database/Columns.pm:253
 msgid "Shelving location"
 msgstr "Shelving location"
 
-#: Koha/Database/Columns.pm:228
-msgid "Materials specified"
-msgstr "Materials specified"
-
-#: Koha/Database/Columns.pm:229
-msgid "Additional subfields (XML)"
-msgstr "Additional subfields (XML)"
-
 #: Koha/Database/Columns.pm:230
-msgid "New status"
-msgstr "New status"
-
-#: Koha/Database/Columns.pm:232
-msgid "Due date"
-msgstr "Due date"
-
-#: Koha/Database/Columns.pm:233
 msgid "Permanent shelving location"
 msgstr "Permanent shelving location"
 
-#: Koha/Database/Columns.pm:234
-msgid "Price"
-msgstr "Price"
+#: Koha/Database/Columns.pm:231
+msgid "Due date"
+msgstr "Due date"
+
+#: Koha/Database/Columns.pm:232
+msgid "Source of classification / shelving scheme"
+msgstr "Classnumber classification scheme"
+
+#: Koha/Database/Columns.pm:233
+msgid "Koha normalized classification for sorting"
+msgstr "Koha normalised classification for sorting"
+
+#: Koha/Database/Columns.pm:234 Koha/Database/Columns.pm:255
+msgid "Collection"
+msgstr "Collection"
 
 #: Koha/Database/Columns.pm:235
-msgid "Total renewals"
-msgstr "Total renewals"
+msgid "Materials specified"
+msgstr "Materials specified"
+
+#: Koha/Database/Columns.pm:236
+#, fuzzy
+msgid "Uniform Resource Identifier"
+msgstr "Uniform resource identifier"
 
 #: Koha/Database/Columns.pm:237
-msgid "Price effective from"
-msgstr "Price effective from"
+#, fuzzy
+msgid "Koha itemtype"
+msgstr "Koha item type"
 
 #: Koha/Database/Columns.pm:238
-msgid "Total holds"
-msgstr "Total reservations"
+msgid "Additional subfields (XML)"
+msgstr "Additional subfields (XML)"
 
 #: Koha/Database/Columns.pm:239
-msgid "Use restrictions"
-msgstr "Use restrictions"
+msgid "Serial enumeraton/chronology"
+msgstr "Serial enumeraton"
 
 #: Koha/Database/Columns.pm:240
-msgid "Shelving control number"
-msgstr "Shelving control number"
+msgid "Copy number"
+msgstr "Copy number"
 
 #: Koha/Database/Columns.pm:241
 msgid "Inventory number"
 msgstr "Inventory number"
 
+#: Koha/Database/Columns.pm:242
+msgid "New status"
+msgstr "New status"
+
 #: Koha/Database/Columns.pm:243
-msgid "Uniform resource identifier"
-msgstr "Uniform resource identifier"
+msgid "Exclude from local holds priority"
+msgstr "Exclude from local reservations priority"
 
-#: Koha/Database/Columns.pm:244
-msgid "Withdrawn on"
-msgstr "Withdrawn on"
-
-#: Koha/Database/Columns.pm:245
-msgid "Withdrawn status"
-msgstr "Withdrawn status"
-
-#: Koha/Database/Columns.pm:248
-msgid "Abstract"
-msgstr "Abstract"
-
-#: Koha/Database/Columns.pm:249 Koha/Database/Columns.pm:310
-msgid "Author"
-msgstr "Author"
-
-#: Koha/Database/Columns.pm:250 Koha/Database/Columns.pm:268
-msgid "Biblio number"
-msgstr "Biblio number"
-
-#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:313
-msgid "Copyright date"
-msgstr "Copyright date"
-
-#: Koha/Database/Columns.pm:253
-msgid "Framework code"
-msgstr "Framework code"
-
-#: Koha/Database/Columns.pm:254
-msgid "Medium"
-msgstr "Medium"
-
-#: Koha/Database/Columns.pm:255 Koha/Database/Columns.pm:276
-msgid "Notes"
-msgstr "Notes"
-
-#: Koha/Database/Columns.pm:256
-msgid "Name of part/section of a work"
-msgstr "Name of part/section of a work"
-
-#: Koha/Database/Columns.pm:257
-msgid "Number of part/section of a work"
-msgstr "Number of part/section of a work"
-
-#: Koha/Database/Columns.pm:258
-msgid "Is a serial?"
-msgstr "Is a serial?"
-
-#: Koha/Database/Columns.pm:259
-msgid "Series title"
-msgstr "Series title"
-
-#: Koha/Database/Columns.pm:260
-msgid "Remainder of title"
-msgstr "Remainder of title"
-
-#: Koha/Database/Columns.pm:261
-msgid "Modification date"
-msgstr "Modification date"
-
-#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:285
-#: Koha/Database/Columns.pm:321
-msgid "Title"
-msgstr "Title"
-
-#: Koha/Database/Columns.pm:263
-msgid "Uniform title"
-msgstr "Uniform title"
-
-#: Koha/Database/Columns.pm:266
-msgid "Age restriction"
-msgstr "Age restriction"
-
-#: Koha/Database/Columns.pm:267
-msgid "Biblioitem number"
-msgstr "Biblioitem number"
-
-#: Koha/Database/Columns.pm:269
-msgid "Classification"
-msgstr "Classification"
-
-#: Koha/Database/Columns.pm:270
-msgid "Dewey/classification"
-msgstr "Classification"
-
-#: Koha/Database/Columns.pm:271
-msgid "Illustrations"
-msgstr "Illustrations"
-
-#: Koha/Database/Columns.pm:272 Koha/Database/Columns.pm:314
-msgid "ISBN"
-msgstr "ISBN"
-
-#: Koha/Database/Columns.pm:273
-msgid "ISSN"
-msgstr "ISSN"
-
-#: Koha/Database/Columns.pm:274
-msgid "Biblio-level item type"
-msgstr "Biblio-level item type"
-
-#: Koha/Database/Columns.pm:275
-msgid "LCCN"
-msgstr "LCCN"
-
-#: Koha/Database/Columns.pm:277
-msgid "Number"
-msgstr "Number"
-
-#: Koha/Database/Columns.pm:278
-msgid "Number of pages"
-msgstr "Number of pages"
-
-#: Koha/Database/Columns.pm:279 Koha/Database/Columns.pm:318
-msgid "Place of publication"
-msgstr "Place of publication"
-
-#: Koha/Database/Columns.pm:280
-msgid "Publication date"
-msgstr "Publication date"
-
-#: Koha/Database/Columns.pm:281 Koha/Database/Columns.pm:319
-msgid "Publisher"
-msgstr "Publisher"
-
-#: Koha/Database/Columns.pm:282
-msgid "Size"
-msgstr "Size"
-
-#: Koha/Database/Columns.pm:283
-msgid "Sub classification"
-msgstr "Sub classification"
-
-#: Koha/Database/Columns.pm:286
-msgid "URL"
-msgstr "URL"
-
-#: Koha/Database/Columns.pm:287
-msgid "Volume number"
-msgstr "Volume number"
-
-#: Koha/Database/Columns.pm:288
-msgid "Volume date"
-msgstr "Volume date"
-
-#: Koha/Database/Columns.pm:289
-msgid "Volume information"
-msgstr "Volume information"
-
-#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:302
-#: Koha/Database/Columns.pm:311
-msgid "Library"
-msgstr "Library"
-
-#: Koha/Database/Columns.pm:294
+#: Koha/Database/Columns.pm:246 Koha/Database/Columns.pm:305
 msgid "Statistics date and time"
 msgstr "Statistics date and time"
 
-#: Koha/Database/Columns.pm:295
-msgid "Item number"
-msgstr "Item number"
+#: Koha/Database/Columns.pm:247 Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:313 Koha/Database/Columns.pm:322
+msgid "Library"
+msgstr "Library"
 
-#: Koha/Database/Columns.pm:296
-msgid "Itemtype"
-msgstr "Itemtype"
-
-#: Koha/Database/Columns.pm:298
-msgid "Type"
-msgstr "Type"
-
-#: Koha/Database/Columns.pm:299
+#: Koha/Database/Columns.pm:248 Koha/Database/Columns.pm:310
 msgid "Value"
 msgstr "Value"
 
-#: Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:249
+#, fuzzy
+msgid "Transaction type"
+msgstr "Creation date"
+
+#: Koha/Database/Columns.pm:250
+msgid "SIP mode"
+msgstr ""
+
+#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:306
+msgid "Item number"
+msgstr "Item number"
+
+#: Koha/Database/Columns.pm:252
+msgid "Koha item type"
+msgstr "Koha item type"
+
+#: Koha/Database/Columns.pm:259
+msgid "Abstract"
+msgstr "Abstract"
+
+#: Koha/Database/Columns.pm:260 Koha/Database/Columns.pm:321
+msgid "Author"
+msgstr "Author"
+
+#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:279
+msgid "Biblio number"
+msgstr "Biblio number"
+
+#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:324
+msgid "Copyright date"
+msgstr "Copyright date"
+
+#: Koha/Database/Columns.pm:264
+msgid "Framework code"
+msgstr "Framework code"
+
+#: Koha/Database/Columns.pm:265
+msgid "Medium"
+msgstr "Medium"
+
+#: Koha/Database/Columns.pm:266 Koha/Database/Columns.pm:287
+msgid "Notes"
+msgstr "Notes"
+
+#: Koha/Database/Columns.pm:267
+msgid "Name of part/section of a work"
+msgstr "Name of part/section of a work"
+
+#: Koha/Database/Columns.pm:268
+msgid "Number of part/section of a work"
+msgstr "Number of part/section of a work"
+
+#: Koha/Database/Columns.pm:269
+msgid "Is a serial?"
+msgstr "Is a serial?"
+
+#: Koha/Database/Columns.pm:270
+msgid "Series title"
+msgstr "Series title"
+
+#: Koha/Database/Columns.pm:271
+msgid "Remainder of title"
+msgstr "Remainder of title"
+
+#: Koha/Database/Columns.pm:272
+msgid "Modification date"
+msgstr "Modification date"
+
+#: Koha/Database/Columns.pm:273 Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:332
+msgid "Title"
+msgstr "Title"
+
+#: Koha/Database/Columns.pm:274
+msgid "Uniform title"
+msgstr "Uniform title"
+
+#: Koha/Database/Columns.pm:277
+msgid "Age restriction"
+msgstr "Age restriction"
+
+#: Koha/Database/Columns.pm:278
+msgid "Biblioitem number"
+msgstr "Biblioitem number"
+
+#: Koha/Database/Columns.pm:280
+msgid "Classification"
+msgstr "Classification"
+
+#: Koha/Database/Columns.pm:281
+msgid "Dewey/classification"
+msgstr "Classification"
+
+#: Koha/Database/Columns.pm:282
+msgid "Illustrations"
+msgstr "Illustrations"
+
+#: Koha/Database/Columns.pm:283 Koha/Database/Columns.pm:325
+msgid "ISBN"
+msgstr "ISBN"
+
+#: Koha/Database/Columns.pm:284
+msgid "ISSN"
+msgstr "ISSN"
+
+#: Koha/Database/Columns.pm:285
+msgid "Biblio-level item type"
+msgstr "Biblio-level item type"
+
+#: Koha/Database/Columns.pm:286
+msgid "LCCN"
+msgstr "LCCN"
+
+#: Koha/Database/Columns.pm:288
+msgid "Number"
+msgstr "Number"
+
+#: Koha/Database/Columns.pm:289
+msgid "Number of pages"
+msgstr "Number of pages"
+
+#: Koha/Database/Columns.pm:290 Koha/Database/Columns.pm:329
+msgid "Place of publication"
+msgstr "Place of publication"
+
+#: Koha/Database/Columns.pm:291
+msgid "Publication date"
+msgstr "Publication date"
+
+#: Koha/Database/Columns.pm:292 Koha/Database/Columns.pm:330
+msgid "Publisher"
+msgstr "Publisher"
+
+#: Koha/Database/Columns.pm:293
+msgid "Size"
+msgstr "Size"
+
+#: Koha/Database/Columns.pm:294
+msgid "Sub classification"
+msgstr "Sub classification"
+
+#: Koha/Database/Columns.pm:297
+msgid "URL"
+msgstr "URL"
+
+#: Koha/Database/Columns.pm:298
+msgid "Volume number"
+msgstr "Volume number"
+
+#: Koha/Database/Columns.pm:299
+msgid "Volume date"
+msgstr "Volume date"
+
+#: Koha/Database/Columns.pm:300
+msgid "Volume information"
+msgstr "Volume information"
+
+#: Koha/Database/Columns.pm:307
+msgid "Itemtype"
+msgstr "Itemtype"
+
+#: Koha/Database/Columns.pm:309
+msgid "Type"
+msgstr "Type"
+
+#: Koha/Database/Columns.pm:315
 msgid "End date"
 msgstr "End date"
 
-#: Koha/Database/Columns.pm:305
+#: Koha/Database/Columns.pm:316
 msgid "Location"
 msgstr "Location"
 
-#: Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:317
 msgid "Periodicity"
 msgstr "Periodicity"
 
-#: Koha/Database/Columns.pm:307
+#: Koha/Database/Columns.pm:318
 msgid "Start date"
 msgstr "Start date"
 
-#: Koha/Database/Columns.pm:312
+#: Koha/Database/Columns.pm:323
 msgid "Collection title"
 msgstr "Collection title"
 
-#: Koha/Database/Columns.pm:315
+#: Koha/Database/Columns.pm:326
 msgid "Item type"
 msgstr "Item type"
 
-#: Koha/Database/Columns.pm:316
+#: Koha/Database/Columns.pm:327
 msgid "Note"
 msgstr "Note"
 
-#: Koha/Database/Columns.pm:317
+#: Koha/Database/Columns.pm:328
 msgid "Patron reason"
 msgstr "User reason"
 
@@ -2945,7 +2954,7 @@ msgstr "Techniques (print) 3"
 msgid "Overdues at {library}"
 msgstr "Overdues at {library}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:773
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:781
 #, perl-brace-format
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
@@ -3129,6 +3138,15 @@ msgid "message"
 msgid_plural "messages"
 msgstr[0] "message"
 msgstr[1] "messages"
+
+#~ msgid "Biblio number (internal)"
+#~ msgstr "Biblio number (internal)"
+
+#~ msgid "Date of deletion"
+#~ msgstr "Date of deletion"
+
+#~ msgid "Item number (internal)"
+#~ msgstr "Item number (internal)"
 
 #, fuzzy
 #~ msgctxt "citations"

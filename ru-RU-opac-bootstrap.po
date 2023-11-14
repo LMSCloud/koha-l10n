@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2023-11-13 16:16+0000\n"
 "Last-Translator: \"Igor A. Sychev\" <Igor.A.Sychev@mail.ru>\n"
 "Language-Team: Koha Translation Team\n"
@@ -11,8 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.1.1\n"
 "X-Pootle-Path: /ru/22.11/ru-RU-opac-bootstrap.po\n"
 "X-Pootle-Revision: 1\n"
@@ -1146,7 +1145,7 @@ msgstr "Запрос"
 #. %3$s:  transfertwhen | $KohaDates 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/item-status.inc:74
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:133
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:447
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:449
 #, c-format
 msgid "In transit from %s to %s since %s"
 msgstr "В пути от %s к %s с %s"
@@ -1416,7 +1415,7 @@ msgstr "Серия"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:124
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:105
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:193
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:380
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:382
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:303
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:591
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:593
@@ -1577,6 +1576,7 @@ msgid "Sorry, your Shibboleth identity does not match a valid library identity. 
 msgstr "К сожалению, ваша учётная запись Shibboleth не соответствует учётной записи библиотеки. Если у вас есть местная учётная запись, вы можете воспользоваться ей ниже."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:380
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:106
 #, c-format
 msgid "Shibboleth login"
 msgstr "Вход в Shibboleth"
@@ -4547,6 +4547,11 @@ msgstr "нет"
 msgid "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s and %s "
 msgstr "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s и %s "
 
+#. SELECT name=idx
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:60
+msgid "Choose search type for field %s"
+msgstr ""
+
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:61
 #, c-format
 msgid "Keyword"
@@ -4659,7 +4664,7 @@ msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISSN"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:106
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:99
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:191
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:372
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:374
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:330
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:667
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:718
@@ -4671,8 +4676,8 @@ msgstr "Штрих-код"
 
 #. INPUT type=text name=q
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:115
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:290
-msgid "Enter search terms"
+#, fuzzy
+msgid "Enter field %s search terms"
 msgstr "Введите поисковые термины"
 
 #. A
@@ -4701,7 +4706,7 @@ msgstr "Включены заголовки «См. из» (непредпочт
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:123
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:98
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:190
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:370
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:372
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:91
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:116
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:327
@@ -4715,7 +4720,7 @@ msgstr "Тип единицы"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:70
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1197
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:104
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:378
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:380
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:92
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:120
 #, c-format
@@ -4779,6 +4784,11 @@ msgstr "Сортировать по:"
 #, c-format
 msgid "Publication date range"
 msgstr "Диапазон дат публикации: "
+
+#. INPUT type=text name=limit-yr
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:290
+msgid "Enter search terms"
+msgstr "Введите поисковые термины"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:291
 #, c-format
@@ -5241,7 +5251,7 @@ msgstr "Ресурсы он-лайн: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-curbside-pickups.tt:180
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1217
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt:134
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:384
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:386
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:927
 #, c-format
 msgid "Notes"
@@ -5325,11 +5335,6 @@ msgstr "Если у вас есть учётная запись CAS, вы мож
 #, c-format
 msgid "If you have a local account, you may use that below."
 msgstr "Если у вас есть местная учётная запись, вы можете воспользоваться ей ниже."
-
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:106
-#, c-format
-msgid "Shibboleth Login"
-msgstr "Вход с помощью Shibboleth"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:107
 #, c-format
@@ -5890,7 +5895,7 @@ msgstr "%s Эта запись не имеет ни одного экземпл�
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:368
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:589
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:806
 #, fuzzy
@@ -6082,7 +6087,7 @@ msgstr "Расположение"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:72
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1213
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:106
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:368
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:370
 #, c-format
 msgid "Copy number"
 msgstr "Номер копии"
@@ -6332,7 +6337,8 @@ msgstr "У вас уже запланировано получение в это
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:122
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:138
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:149
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:296
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:304
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:571
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:93
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:107
@@ -7151,7 +7157,7 @@ msgstr "Текущая библиотека"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1194
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:101
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:192
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:374
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:376
 #, c-format
 msgid "Home library"
 msgstr "Домашняя библиотека"
@@ -7164,7 +7170,7 @@ msgstr "Указание материалов"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1207
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:125
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:107
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:382
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:384
 #, c-format
 msgid "Vol info"
 msgstr "Данные о томе"
@@ -7555,7 +7561,7 @@ msgid "Requested item type"
 msgstr "Запрошенный класс экземпляра"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:146
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:309
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:311
 #, c-format
 msgid "Any item type"
 msgstr "Любой тип единицы"
@@ -9617,19 +9623,19 @@ msgstr "Запрос конкретного экземпляра"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:95
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-request-article.tt:186
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:365
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:367
 #, c-format
 msgid "Select a specific item:"
 msgstr "Выбрать конкретный экземпляр:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:102
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:375
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:377
 #, c-format
 msgid "Last location"
 msgstr "Последнее расположение"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:108
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:385
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:387
 #, c-format
 msgid "Information"
 msgstr "Информация"
@@ -9642,13 +9648,13 @@ msgstr "Не может быть запрошено"
 #. For the first occurrence,
 #. %1$s:  item.checkout.date_due | $KohaDates as_due_date => 1 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:131
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:445
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:447
 #, c-format
 msgid "Due %s"
 msgstr "Возвращение %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:136
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:451
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:453
 #, c-format
 msgid "Unavailable (lost or missing)"
 msgstr "Недоступно (утеряно или отсутствует)"
@@ -9656,7 +9662,7 @@ msgstr "Недоступно (утеряно или отсутствует)"
 #. For the first occurrence,
 #. %1$s:  item.notforloan | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:139
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:455
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:457
 #, c-format
 msgid "Not for loan (%s)"
 msgstr "Не для ссуды (%s)"
@@ -10382,7 +10388,7 @@ msgid "Note: Library policy does not allow hold/pickup of an item available loca
 msgstr "Примечание: Правила библиотеки не позволяют резервировать/получать экземпляр, доступный локально. Пожалуйста, зайдите в библиотеку, чтобы получить эти экземпляры"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:286
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 #, c-format
 msgid "Show more options"
 msgstr "Показать больше параметров"
@@ -10392,115 +10398,115 @@ msgstr "Показать больше параметров"
 msgid "Hold starts on date:"
 msgstr "Резервирование начинается на дату:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:300
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:301
 #, c-format
 msgid "Hold not needed after:"
 msgstr "Резервирование не потребуется после:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:307
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:309
 #, c-format
 msgid "Request specific item type:"
 msgstr "Выберите конкретный тип единиц:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:320
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:322
 #, c-format
 msgid "Request specific item group:"
 msgstr "Запросить конкретную группу экземпляра:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:322
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:324
 #, c-format
 msgid "Any item group"
 msgstr "Любая группа экземпляров"
 
 # http://www.loc.gov/marc/holdings/hd866868.html
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:334
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:336
 #, c-format
 msgid "Hold notes:"
 msgstr "Примечание о резервировании:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:344
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:346
 #, c-format
 msgid "Next available item"
 msgstr "Следующая доступная единица"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:352
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:354
 #, c-format
 msgid "A specific item"
 msgstr "Конкретный экземпляр"
 
 #. INPUT type=radio name=checkitem
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:408
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:410
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:412
 msgid "Cannot be put on hold"
 msgstr "Невозможно установить резервирование"
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
 #. %2$s:  itemLoo.waitingdate | $KohaDates 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:461
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:463
 #, c-format
 msgid "Waiting for patron at %s since %s"
 msgstr "Ожидается в %s с %s"
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
 #. %2$s:  itemLoo.reservedate | $KohaDates 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:463
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:465
 #, c-format
 msgid "On hold for patron expected at %s since %s"
 msgstr "На удержании ожидается в %s с %s"
 
 #. %1$s:  Branches.GetName( itemLoo.ExpectedAtLibrary ) | html 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:465
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:467
 #, c-format
 msgid "On hold for patron expected at %s"
 msgstr "На удержании ожидается в %s"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:469
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:471
 #, c-format
 msgid "Not on hold"
 msgstr "Не зарезервировано"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:477
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:479
 #, c-format
 msgid "Show unholdable items"
 msgstr "Показать все экземпляры"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:478
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:480
 #, c-format
 msgid "Hide unholdable items"
 msgstr "Скрыть экземпляры"
 
 #. INPUT type=submit
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:490
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:492
 msgid "Confirm hold"
 msgstr "Подтвердить резервирование"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Expecting a specific item selection."
 msgstr "Ожидается выбор конкретного экземпляра."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hide options"
 msgstr "Скрыть параметры"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hold expiration date should be filled."
 msgstr "Дата окончания брони должна быть заполнена."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Hold start date should be filled."
 msgstr "Дата начала брони должна быть заполнена."
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Place a hold on"
 msgstr "Зарезервировать"
 
 #. SCRIPT
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:502
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:504
 msgid "Place a hold on: "
 msgstr "Зарезервировать: "
 
@@ -14408,6 +14414,10 @@ msgstr "000 "
 
 #~ msgid "Serial collection "
 #~ msgstr "Коллекция продолжающихся изданий"
+
+#, c-format
+#~ msgid "Shibboleth Login"
+#~ msgstr "Вход с помощью Shibboleth"
 
 #~ msgid "Sign in to view availability and checkout items or place holds"
 #~ msgstr "Авторизуйтесь, чтобы просмотреть наличие и выданные экземпляры или разместить резервирования"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2022-05-01 11:43-0300\n"
 "Language-Team: Koha Translation Team \n"
 "Language: ro\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "unknown"
 msgstr "necunoscut"
 
-#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:231
+#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:211
 #, fuzzy
 msgid "Not for loan"
 msgstr "Nu este pentru împrumut (%s)"
@@ -1613,7 +1613,7 @@ msgstr ""
 msgid "Budgeted cost"
 msgstr ""
 
-#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:252
+#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:263
 #, fuzzy
 msgid "Creation date"
 msgstr "Data expirării"
@@ -1634,7 +1634,7 @@ msgstr ""
 msgid "Vendor price"
 msgstr ""
 
-#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:223
+#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:225
 #, fuzzy
 msgid "Internal note"
 msgstr "Notă de cuprins: "
@@ -1658,7 +1658,7 @@ msgstr "Etichetă nouă"
 msgid "Parent order number (internal)"
 msgstr "Număr_bibliografic:"
 
-#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:320
+#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:331
 msgid "Quantity"
 msgstr ""
 
@@ -1666,7 +1666,7 @@ msgstr ""
 msgid "Quantity received"
 msgstr ""
 
-#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:236
+#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:206
 msgid "Replacement price"
 msgstr ""
 
@@ -1735,8 +1735,8 @@ msgstr ""
 msgid "Tax amount on receive"
 msgstr ""
 
-#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:242
-#: Koha/Database/Columns.pm:284
+#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:295
 msgid "Timestamp"
 msgstr ""
 
@@ -1871,7 +1871,8 @@ msgstr "Modificaţi adresa"
 msgid "Circulation note"
 msgstr "Circulaţie"
 
-#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:292
+#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:303
 #, fuzzy
 msgid "Borrower number"
 msgstr "borrowernumber"
@@ -1885,7 +1886,7 @@ msgstr "Alegeţi biblioteca:"
 msgid "Card number"
 msgstr "Numărul cardului"
 
-#: Koha/Database/Columns.pm:144
+#: Koha/Database/Columns.pm:144 Koha/Database/Columns.pm:256
 #, fuzzy
 msgid "Patron category"
 msgstr "Definiţi categoriile de client."
@@ -2118,17 +2119,17 @@ msgid "ZIP/Postal code"
 msgstr ""
 
 #: Koha/Database/Columns.pm:200
-msgid "Barcode"
-msgstr "Cod_de_bare"
-
-#: Koha/Database/Columns.pm:201
 msgid "Biblioitem number (internal)"
 msgstr ""
 
+#: Koha/Database/Columns.pm:201
+msgid "Barcode"
+msgstr "Cod_de_bare"
+
 #: Koha/Database/Columns.pm:202
 #, fuzzy
-msgid "Biblio number (internal)"
-msgstr "Număr_bibliografic:"
+msgid "Date acquired"
+msgstr "Data primită"
 
 #: Koha/Database/Columns.pm:203
 #, fuzzy
@@ -2136,396 +2137,401 @@ msgid "Source of acquisition"
 msgstr "Achiziţii"
 
 #: Koha/Database/Columns.pm:204
-msgid "Collection"
-msgstr "Colecţie"
-
-#: Koha/Database/Columns.pm:205
-msgid "Koha normalized classification for sorting"
+msgid "Permanent library"
 msgstr ""
 
-#: Koha/Database/Columns.pm:206
-msgid "Source of classification / shelving scheme"
+#: Koha/Database/Columns.pm:205
+msgid "Price"
 msgstr ""
 
 #: Koha/Database/Columns.pm:207
-msgid "Coded location qualifier"
+msgid "Price effective from"
 msgstr ""
 
 #: Koha/Database/Columns.pm:208
 #, fuzzy
-msgid "Copy number"
-msgstr "număr de Apel"
+msgid "Date last checked out"
+msgstr ": articolul este verificat."
 
 #: Koha/Database/Columns.pm:209
-#, fuzzy
-msgid "Damaged on"
-msgstr "Deteriorat ("
+msgid "Date last seen"
+msgstr "Data vizualizată recent"
 
 #: Koha/Database/Columns.pm:210
+msgid "Shelving control number"
+msgstr ""
+
+#: Koha/Database/Columns.pm:212
 #, fuzzy
 msgid "Damaged status"
 msgstr "Deteriorat ("
 
-#: Koha/Database/Columns.pm:211
-#, fuzzy
-msgid "Date acquired"
-msgstr "Data primită"
-
-#: Koha/Database/Columns.pm:212
-#, fuzzy
-msgid "Date last checked out"
-msgstr ": articolul este verificat."
-
 #: Koha/Database/Columns.pm:213
-msgid "Date last seen"
-msgstr "Data vizualizată recent"
+#, fuzzy
+msgid "Damaged on"
+msgstr "Deteriorat ("
 
 #: Koha/Database/Columns.pm:214
 #, fuzzy
-msgid "Date of deletion"
-msgstr "Data naşterii"
+msgid "Lost status"
+msgstr "05 Starea înregistrării"
 
 #: Koha/Database/Columns.pm:215
-msgid "Serial enumeraton/chronology"
-msgstr ""
-
-#: Koha/Database/Columns.pm:216
-msgid "Exclude from local holds priority"
-msgstr ""
-
-#: Koha/Database/Columns.pm:217
-#, fuzzy
-msgid "Current library"
-msgstr "Alegeţi biblioteca:"
-
-#: Koha/Database/Columns.pm:218
-msgid "Permanent library"
-msgstr ""
-
-#: Koha/Database/Columns.pm:219
-#, fuzzy
-msgid "Total checkouts"
-msgstr "0 Verificări"
-
-#: Koha/Database/Columns.pm:220 Koha/Database/Columns.pm:303
-msgid "Call number"
-msgstr "număr de Apel"
-
-#: Koha/Database/Columns.pm:221
 #, fuzzy
 msgid "Lost on"
 msgstr "Pierdut ("
 
+#: Koha/Database/Columns.pm:216
+#, fuzzy
+msgid "Withdrawn status"
+msgstr "Retrasă ("
+
+#: Koha/Database/Columns.pm:217
+#, fuzzy
+msgid "Withdrawn on"
+msgstr "Retrasă ("
+
+#: Koha/Database/Columns.pm:218 Koha/Database/Columns.pm:314
+msgid "Call number"
+msgstr "număr de Apel"
+
+#: Koha/Database/Columns.pm:219
+msgid "Coded location qualifier"
+msgstr ""
+
+#: Koha/Database/Columns.pm:220
+#, fuzzy
+msgid "Total checkouts"
+msgstr "0 Verificări"
+
+#: Koha/Database/Columns.pm:221
+#, fuzzy
+msgid "Total renewals"
+msgstr "%s Nu se poate reînnoi "
+
 #: Koha/Database/Columns.pm:222
 #, fuzzy
-msgid "Lost status"
-msgstr "05 Starea înregistrării"
+msgid "Total holds"
+msgstr "Total datorat"
+
+#: Koha/Database/Columns.pm:223
+#, fuzzy
+msgid "Use restrictions"
+msgstr "Descrieri"
 
 #: Koha/Database/Columns.pm:224
 #, fuzzy
 msgid "Public note"
 msgstr "Public"
 
-#: Koha/Database/Columns.pm:225
-msgid "Item number (internal)"
-msgstr ""
-
 #: Koha/Database/Columns.pm:226
 #, fuzzy
-msgid "Koha item type"
-msgstr "Orice tip de articol"
+msgid "Current library"
+msgstr "Alegeţi biblioteca:"
 
-#: Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:228
+#, fuzzy
+msgid "Deleted on"
+msgstr "Deteriorat ("
+
+#: Koha/Database/Columns.pm:229 Koha/Database/Columns.pm:253
 #, fuzzy
 msgid "Shelving location"
 msgstr "Locaţia filtrului"
 
-#: Koha/Database/Columns.pm:228
+#: Koha/Database/Columns.pm:230
+msgid "Permanent shelving location"
+msgstr ""
+
+#: Koha/Database/Columns.pm:231
+msgid "Due date"
+msgstr "Data taxei"
+
+#: Koha/Database/Columns.pm:232
+msgid "Source of classification / shelving scheme"
+msgstr ""
+
+#: Koha/Database/Columns.pm:233
+msgid "Koha normalized classification for sorting"
+msgstr ""
+
+#: Koha/Database/Columns.pm:234 Koha/Database/Columns.pm:255
+msgid "Collection"
+msgstr "Colecţie"
+
+#: Koha/Database/Columns.pm:235
 #, fuzzy
 msgid "Materials specified"
 msgstr "Nici o etichetă nu a fost specificată"
 
-#: Koha/Database/Columns.pm:229
+#: Koha/Database/Columns.pm:236
+#, fuzzy
+msgid "Uniform Resource Identifier"
+msgstr "identificatorul de înregistrări_video"
+
+#: Koha/Database/Columns.pm:237
+#, fuzzy
+msgid "Koha itemtype"
+msgstr "Orice tip de articol"
+
+#: Koha/Database/Columns.pm:238
 msgid "Additional subfields (XML)"
 msgstr ""
 
-#: Koha/Database/Columns.pm:230
-#, fuzzy
-msgid "New status"
-msgstr "Etichetă nouă"
-
-#: Koha/Database/Columns.pm:232
-msgid "Due date"
-msgstr "Data taxei"
-
-#: Koha/Database/Columns.pm:233
-msgid "Permanent shelving location"
-msgstr ""
-
-#: Koha/Database/Columns.pm:234
-msgid "Price"
-msgstr ""
-
-#: Koha/Database/Columns.pm:235
-#, fuzzy
-msgid "Total renewals"
-msgstr "%s Nu se poate reînnoi "
-
-#: Koha/Database/Columns.pm:237
-msgid "Price effective from"
-msgstr ""
-
-#: Koha/Database/Columns.pm:238
-#, fuzzy
-msgid "Total holds"
-msgstr "Total datorat"
-
 #: Koha/Database/Columns.pm:239
-#, fuzzy
-msgid "Use restrictions"
-msgstr "Descrieri"
+msgid "Serial enumeraton/chronology"
+msgstr ""
 
 #: Koha/Database/Columns.pm:240
-msgid "Shelving control number"
-msgstr ""
+#, fuzzy
+msgid "Copy number"
+msgstr "număr de Apel"
 
 #: Koha/Database/Columns.pm:241
 #, fuzzy
 msgid "Inventory number"
 msgstr "Număr eronat etichetă"
 
+#: Koha/Database/Columns.pm:242
+#, fuzzy
+msgid "New status"
+msgstr "Etichetă nouă"
+
 #: Koha/Database/Columns.pm:243
-#, fuzzy
-msgid "Uniform resource identifier"
-msgstr "identificatorul de înregistrări_video"
-
-#: Koha/Database/Columns.pm:244
-#, fuzzy
-msgid "Withdrawn on"
-msgstr "Retrasă ("
-
-#: Koha/Database/Columns.pm:245
-#, fuzzy
-msgid "Withdrawn status"
-msgstr "Retrasă ("
-
-#: Koha/Database/Columns.pm:248
-msgid "Abstract"
+msgid "Exclude from local holds priority"
 msgstr ""
 
-#: Koha/Database/Columns.pm:249 Koha/Database/Columns.pm:310
-msgid "Author"
-msgstr "Autor"
-
-#: Koha/Database/Columns.pm:250 Koha/Database/Columns.pm:268
-#, fuzzy
-msgid "Biblio number"
-msgstr "Număr_bibliografic:"
-
-#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:313
-#, fuzzy
-msgid "Copyright date"
-msgstr "Data_de_când_drepturile_de_autor_sunt_valabile:"
-
-#: Koha/Database/Columns.pm:253
-msgid "Framework code"
-msgstr "Codul cadrului"
-
-#: Koha/Database/Columns.pm:254
-msgid "Medium"
-msgstr ""
-
-#: Koha/Database/Columns.pm:255 Koha/Database/Columns.pm:276
-msgid "Notes"
-msgstr "Note"
-
-#: Koha/Database/Columns.pm:256
-msgid "Name of part/section of a work"
-msgstr ""
-
-#: Koha/Database/Columns.pm:257
-msgid "Number of part/section of a work"
-msgstr ""
-
-#: Koha/Database/Columns.pm:258
-msgid "Is a serial?"
-msgstr ""
-
-#: Koha/Database/Columns.pm:259
-msgid "Series title"
-msgstr ""
-
-#: Koha/Database/Columns.pm:260
-msgid "Remainder of title"
-msgstr ""
-
-#: Koha/Database/Columns.pm:261
-#, fuzzy
-msgid "Modification date"
-msgstr "Data expirării"
-
-#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:285
-#: Koha/Database/Columns.pm:321
-msgid "Title"
-msgstr "Titlu"
-
-#: Koha/Database/Columns.pm:263
-msgid "Uniform title"
-msgstr ""
-
-#: Koha/Database/Columns.pm:266
-#, fuzzy
-msgid "Age restriction"
-msgstr "Descriere"
-
-#: Koha/Database/Columns.pm:267
-#, fuzzy
-msgid "Biblioitem number"
-msgstr "Număr_bibliografic:"
-
-#: Koha/Database/Columns.pm:269
-msgid "Classification"
-msgstr "Clasificare"
-
-#: Koha/Database/Columns.pm:270
-#, fuzzy
-msgid "Dewey/classification"
-msgstr "Clasificare"
-
-#: Koha/Database/Columns.pm:271
-#, fuzzy
-msgid "Illustrations"
-msgstr "Ilustrație"
-
-#: Koha/Database/Columns.pm:272 Koha/Database/Columns.pm:314
-msgid "ISBN"
-msgstr "ISBN"
-
-#: Koha/Database/Columns.pm:273
-msgid "ISSN"
-msgstr "ISSN"
-
-#: Koha/Database/Columns.pm:274
-#, fuzzy
-msgid "Biblio-level item type"
-msgstr "Toate tipurile de articole"
-
-#: Koha/Database/Columns.pm:275
-msgid "LCCN"
-msgstr "LCCN"
-
-#: Koha/Database/Columns.pm:277
-msgid "Number"
-msgstr "Număr"
-
-#: Koha/Database/Columns.pm:278
-msgid "Number of pages"
-msgstr ""
-
-#: Koha/Database/Columns.pm:279 Koha/Database/Columns.pm:318
-#, fuzzy
-msgid "Place of publication"
-msgstr "Publicații:"
-
-#: Koha/Database/Columns.pm:280
-#, fuzzy
-msgid "Publication date"
-msgstr "Publicații:"
-
-#: Koha/Database/Columns.pm:281 Koha/Database/Columns.pm:319
-msgid "Publisher"
-msgstr "Editura"
-
-#: Koha/Database/Columns.pm:282
-msgid "Size"
-msgstr ""
-
-#: Koha/Database/Columns.pm:283
-#, fuzzy
-msgid "Sub classification"
-msgstr "Clasificare"
-
-#: Koha/Database/Columns.pm:286
-#, fuzzy
-msgid "URL"
-msgstr "URL(s)"
-
-#: Koha/Database/Columns.pm:287
-#, fuzzy
-msgid "Volume number"
-msgstr "număr de Apel"
-
-#: Koha/Database/Columns.pm:288
-#, fuzzy
-msgid "Volume date"
-msgstr "Data taxei"
-
-#: Koha/Database/Columns.pm:289
-#, fuzzy
-msgid "Volume information"
-msgstr "Informaţii calendarului"
-
-#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:302
-#: Koha/Database/Columns.pm:311
-msgid "Library"
-msgstr "Bibliotecă"
-
-#: Koha/Database/Columns.pm:294
+#: Koha/Database/Columns.pm:246 Koha/Database/Columns.pm:305
 msgid "Statistics date and time"
 msgstr ""
 
-#: Koha/Database/Columns.pm:295
-#, fuzzy
-msgid "Item number"
-msgstr "număr de Apel"
+#: Koha/Database/Columns.pm:247 Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:313 Koha/Database/Columns.pm:322
+msgid "Library"
+msgstr "Bibliotecă"
 
-#: Koha/Database/Columns.pm:296
-#, fuzzy
-msgid "Itemtype"
-msgstr "Tip de articol"
-
-#: Koha/Database/Columns.pm:298
-msgid "Type"
-msgstr "Tip"
-
-#: Koha/Database/Columns.pm:299
+#: Koha/Database/Columns.pm:248 Koha/Database/Columns.pm:310
 #, fuzzy
 msgid "Value"
 msgstr "valoarea"
 
-#: Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:249
+#, fuzzy
+msgid "Transaction type"
+msgstr "Data expirării"
+
+#: Koha/Database/Columns.pm:250
+msgid "SIP mode"
+msgstr ""
+
+#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:306
+#, fuzzy
+msgid "Item number"
+msgstr "număr de Apel"
+
+#: Koha/Database/Columns.pm:252
+#, fuzzy
+msgid "Koha item type"
+msgstr "Orice tip de articol"
+
+#: Koha/Database/Columns.pm:259
+msgid "Abstract"
+msgstr ""
+
+#: Koha/Database/Columns.pm:260 Koha/Database/Columns.pm:321
+msgid "Author"
+msgstr "Autor"
+
+#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:279
+#, fuzzy
+msgid "Biblio number"
+msgstr "Număr_bibliografic:"
+
+#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:324
+#, fuzzy
+msgid "Copyright date"
+msgstr "Data_de_când_drepturile_de_autor_sunt_valabile:"
+
+#: Koha/Database/Columns.pm:264
+msgid "Framework code"
+msgstr "Codul cadrului"
+
+#: Koha/Database/Columns.pm:265
+msgid "Medium"
+msgstr ""
+
+#: Koha/Database/Columns.pm:266 Koha/Database/Columns.pm:287
+msgid "Notes"
+msgstr "Note"
+
+#: Koha/Database/Columns.pm:267
+msgid "Name of part/section of a work"
+msgstr ""
+
+#: Koha/Database/Columns.pm:268
+msgid "Number of part/section of a work"
+msgstr ""
+
+#: Koha/Database/Columns.pm:269
+msgid "Is a serial?"
+msgstr ""
+
+#: Koha/Database/Columns.pm:270
+msgid "Series title"
+msgstr ""
+
+#: Koha/Database/Columns.pm:271
+msgid "Remainder of title"
+msgstr ""
+
+#: Koha/Database/Columns.pm:272
+#, fuzzy
+msgid "Modification date"
+msgstr "Data expirării"
+
+#: Koha/Database/Columns.pm:273 Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:332
+msgid "Title"
+msgstr "Titlu"
+
+#: Koha/Database/Columns.pm:274
+msgid "Uniform title"
+msgstr ""
+
+#: Koha/Database/Columns.pm:277
+#, fuzzy
+msgid "Age restriction"
+msgstr "Descriere"
+
+#: Koha/Database/Columns.pm:278
+#, fuzzy
+msgid "Biblioitem number"
+msgstr "Număr_bibliografic:"
+
+#: Koha/Database/Columns.pm:280
+msgid "Classification"
+msgstr "Clasificare"
+
+#: Koha/Database/Columns.pm:281
+#, fuzzy
+msgid "Dewey/classification"
+msgstr "Clasificare"
+
+#: Koha/Database/Columns.pm:282
+#, fuzzy
+msgid "Illustrations"
+msgstr "Ilustrație"
+
+#: Koha/Database/Columns.pm:283 Koha/Database/Columns.pm:325
+msgid "ISBN"
+msgstr "ISBN"
+
+#: Koha/Database/Columns.pm:284
+msgid "ISSN"
+msgstr "ISSN"
+
+#: Koha/Database/Columns.pm:285
+#, fuzzy
+msgid "Biblio-level item type"
+msgstr "Toate tipurile de articole"
+
+#: Koha/Database/Columns.pm:286
+msgid "LCCN"
+msgstr "LCCN"
+
+#: Koha/Database/Columns.pm:288
+msgid "Number"
+msgstr "Număr"
+
+#: Koha/Database/Columns.pm:289
+msgid "Number of pages"
+msgstr ""
+
+#: Koha/Database/Columns.pm:290 Koha/Database/Columns.pm:329
+#, fuzzy
+msgid "Place of publication"
+msgstr "Publicații:"
+
+#: Koha/Database/Columns.pm:291
+#, fuzzy
+msgid "Publication date"
+msgstr "Publicații:"
+
+#: Koha/Database/Columns.pm:292 Koha/Database/Columns.pm:330
+msgid "Publisher"
+msgstr "Editura"
+
+#: Koha/Database/Columns.pm:293
+msgid "Size"
+msgstr ""
+
+#: Koha/Database/Columns.pm:294
+#, fuzzy
+msgid "Sub classification"
+msgstr "Clasificare"
+
+#: Koha/Database/Columns.pm:297
+#, fuzzy
+msgid "URL"
+msgstr "URL(s)"
+
+#: Koha/Database/Columns.pm:298
+#, fuzzy
+msgid "Volume number"
+msgstr "număr de Apel"
+
+#: Koha/Database/Columns.pm:299
+#, fuzzy
+msgid "Volume date"
+msgstr "Data taxei"
+
+#: Koha/Database/Columns.pm:300
+#, fuzzy
+msgid "Volume information"
+msgstr "Informaţii calendarului"
+
+#: Koha/Database/Columns.pm:307
+#, fuzzy
+msgid "Itemtype"
+msgstr "Tip de articol"
+
+#: Koha/Database/Columns.pm:309
+msgid "Type"
+msgstr "Tip"
+
+#: Koha/Database/Columns.pm:315
 msgid "End date"
 msgstr "Data de sfârşit"
 
-#: Koha/Database/Columns.pm:305
+#: Koha/Database/Columns.pm:316
 msgid "Location"
 msgstr "Locaţie"
 
-#: Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:317
 msgid "Periodicity"
 msgstr "Periodicitate"
 
-#: Koha/Database/Columns.pm:307
+#: Koha/Database/Columns.pm:318
 #, fuzzy
 msgid "Start date"
 msgstr "Porneşte căutarea"
 
-#: Koha/Database/Columns.pm:312
+#: Koha/Database/Columns.pm:323
 #, fuzzy
 msgid "Collection title"
 msgstr "Colecţie"
 
-#: Koha/Database/Columns.pm:315
+#: Koha/Database/Columns.pm:326
 #, fuzzy
 msgid "Item type"
 msgstr "Tip de articol"
 
-#: Koha/Database/Columns.pm:316
+#: Koha/Database/Columns.pm:327
 #, fuzzy
 msgid "Note"
 msgstr "Note"
 
-#: Koha/Database/Columns.pm:317
+#: Koha/Database/Columns.pm:328
 #, fuzzy
 msgid "Patron reason"
 msgstr "Necunoscut"
@@ -3078,7 +3084,7 @@ msgstr ""
 msgid "Overdues at {library}"
 msgstr "Alegeţi biblioteca:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:773
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:781
 #, fuzzy, perl-brace-format
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
@@ -3274,6 +3280,14 @@ msgid "message"
 msgid_plural "messages"
 msgstr[0] "esee"
 msgstr[1] "esee"
+
+#, fuzzy
+#~ msgid "Biblio number (internal)"
+#~ msgstr "Număr_bibliografic:"
+
+#, fuzzy
+#~ msgid "Date of deletion"
+#~ msgstr "Data naşterii"
 
 #, fuzzy
 #~ msgctxt "citations"

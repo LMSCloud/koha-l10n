@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2022-10-24 07:56+0000\n"
 "Last-Translator: s.pierros <s.pierros@thessaloniki.gr>\n"
 "Language-Team: Koha Translation Team\n"
@@ -25,7 +25,7 @@ msgstr "Σφάλμα: Δεν έγινε ανάκτηση διαθεσιμότη�
 msgid "unknown"
 msgstr "άγνωστο"
 
-#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:231
+#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:211
 msgid "Not for loan"
 msgstr "Δε δανείζεται"
 
@@ -1623,7 +1623,7 @@ msgstr ""
 msgid "Budgeted cost"
 msgstr ""
 
-#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:252
+#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:263
 msgid "Creation date"
 msgstr "Χρονολογία δημιουργίας"
 
@@ -1644,7 +1644,7 @@ msgstr ""
 msgid "Vendor price"
 msgstr ""
 
-#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:223
+#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:225
 msgid "Internal note"
 msgstr "Εσωτερική σημείωση"
 
@@ -1667,7 +1667,7 @@ msgstr "Ρύθμιση κατάστασης"
 msgid "Parent order number (internal)"
 msgstr "Αριθμός τεκμηρίου (εσωτερικός)"
 
-#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:320
+#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:331
 #, fuzzy
 msgid "Quantity"
 msgstr "Ποσότητα"
@@ -1676,7 +1676,7 @@ msgstr "Ποσότητα"
 msgid "Quantity received"
 msgstr ""
 
-#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:236
+#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:206
 msgid "Replacement price"
 msgstr "Τιμή αντικατάστασης"
 
@@ -1746,8 +1746,8 @@ msgstr ""
 msgid "Tax amount on receive"
 msgstr ""
 
-#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:242
-#: Koha/Database/Columns.pm:284
+#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:295
 msgid "Timestamp"
 msgstr "Χρονοσφραγίδα"
 
@@ -1867,7 +1867,8 @@ msgstr "Εναλλακτική διεύθυνση: Ταχυδρομικός κώ
 msgid "Circulation note"
 msgstr "Σημείωση κυκλοφορίας υλικού"
 
-#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:292
+#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:303
 msgid "Borrower number"
 msgstr "Αριθμός μέλους"
 
@@ -1879,7 +1880,7 @@ msgstr "Οικεία βιβλιοθήκη"
 msgid "Card number"
 msgstr "Αριθμός κάρτας"
 
-#: Koha/Database/Columns.pm:144
+#: Koha/Database/Columns.pm:144 Koha/Database/Columns.pm:256
 msgid "Patron category"
 msgstr "Κατηγορία μέλους"
 
@@ -2093,378 +2094,384 @@ msgid "ZIP/Postal code"
 msgstr "Ταχυδρομικός κώδικας"
 
 #: Koha/Database/Columns.pm:200
-msgid "Barcode"
-msgstr "Barcode"
-
-#: Koha/Database/Columns.pm:201
 msgid "Biblioitem number (internal)"
 msgstr "Αριθμός εγγραφής τεκμηρίου (εσωτερικός)"
 
+#: Koha/Database/Columns.pm:201
+msgid "Barcode"
+msgstr "Barcode"
+
 #: Koha/Database/Columns.pm:202
-msgid "Biblio number (internal)"
-msgstr "Αριθμός biblio (εσωτερικός)"
+msgid "Date acquired"
+msgstr "Χρονολογία απόκτησης"
 
 #: Koha/Database/Columns.pm:203
 msgid "Source of acquisition"
 msgstr "Πηγή πρόσκτησης"
 
 #: Koha/Database/Columns.pm:204
-msgid "Collection"
-msgstr "Συλλογή"
-
-#: Koha/Database/Columns.pm:205
-msgid "Koha normalized classification for sorting"
-msgstr "Τροποποιημένη"
-
-#: Koha/Database/Columns.pm:206
-msgid "Source of classification / shelving scheme"
-msgstr "Πηγή ταξινόμησης / σχήμα ταξιθέτησης"
-
-#: Koha/Database/Columns.pm:207
-msgid "Coded location qualifier"
-msgstr ""
-
-#: Koha/Database/Columns.pm:208
-msgid "Copy number"
-msgstr "Αριθμός αντιτύπου"
-
-#: Koha/Database/Columns.pm:209
-msgid "Damaged on"
-msgstr "Φθαρμένο"
-
-#: Koha/Database/Columns.pm:210
-msgid "Damaged status"
-msgstr "Κατάσταση φθαρμένου"
-
-#: Koha/Database/Columns.pm:211
-msgid "Date acquired"
-msgstr "Χρονολογία απόκτησης"
-
-#: Koha/Database/Columns.pm:212
-msgid "Date last checked out"
-msgstr "Χρονολογία τελευταίου δανεισμού"
-
-#: Koha/Database/Columns.pm:213
-msgid "Date last seen"
-msgstr "Ημερομηνία τελευταίας εμφάνισης"
-
-#: Koha/Database/Columns.pm:214
-#, fuzzy
-msgid "Date of deletion"
-msgstr "Ημερομηνία γέννησης"
-
-#: Koha/Database/Columns.pm:215
-msgid "Serial enumeraton/chronology"
-msgstr "Αρίθμηση/χρονολόγηση περιοδικής έκδοσης"
-
-#: Koha/Database/Columns.pm:216
-msgid "Exclude from local holds priority"
-msgstr ""
-
-#: Koha/Database/Columns.pm:217
-msgid "Current library"
-msgstr "Τρέχουσα βιβλιοθήκη"
-
-#: Koha/Database/Columns.pm:218
 msgid "Permanent library"
 msgstr "Μόνιμη Βιβλιοθήκη"
 
-#: Koha/Database/Columns.pm:219
-msgid "Total checkouts"
-msgstr "Συνολικοί δανεισμοί"
+#: Koha/Database/Columns.pm:205
+msgid "Price"
+msgstr "Τιμή"
 
-#: Koha/Database/Columns.pm:220 Koha/Database/Columns.pm:303
-msgid "Call number"
-msgstr "Ταξιθετικός αριθμός"
+#: Koha/Database/Columns.pm:207
+msgid "Price effective from"
+msgstr "Η τιμή ισχύει από"
 
-#: Koha/Database/Columns.pm:221
+#: Koha/Database/Columns.pm:208
+msgid "Date last checked out"
+msgstr "Χρονολογία τελευταίου δανεισμού"
+
+#: Koha/Database/Columns.pm:209
+msgid "Date last seen"
+msgstr "Ημερομηνία τελευταίας εμφάνισης"
+
+#: Koha/Database/Columns.pm:210
+msgid "Shelving control number"
+msgstr "Αριθμός ελέγχου ραφιού"
+
+#: Koha/Database/Columns.pm:212
+msgid "Damaged status"
+msgstr "Κατάσταση φθαρμένου"
+
+#: Koha/Database/Columns.pm:213
+msgid "Damaged on"
+msgstr "Φθαρμένο"
+
+#: Koha/Database/Columns.pm:214
+msgid "Lost status"
+msgstr "Κατάσταση χαμένου:"
+
+#: Koha/Database/Columns.pm:215
 msgid "Lost on"
 msgstr "Χάθηκε στις"
 
+#: Koha/Database/Columns.pm:216
+msgid "Withdrawn status"
+msgstr "Κατάσταση αποσυρμένου"
+
+#: Koha/Database/Columns.pm:217
+#, fuzzy
+msgid "Withdrawn on"
+msgstr "Αποσυρμένο στις:"
+
+#: Koha/Database/Columns.pm:218 Koha/Database/Columns.pm:314
+msgid "Call number"
+msgstr "Ταξιθετικός αριθμός"
+
+#: Koha/Database/Columns.pm:219
+msgid "Coded location qualifier"
+msgstr ""
+
+#: Koha/Database/Columns.pm:220
+msgid "Total checkouts"
+msgstr "Συνολικοί δανεισμοί"
+
+#: Koha/Database/Columns.pm:221
+msgid "Total renewals"
+msgstr "Συνολικές ανανεώσεις"
+
 #: Koha/Database/Columns.pm:222
-msgid "Lost status"
-msgstr "Κατάσταση χαμένου:"
+msgid "Total holds"
+msgstr "Συνολικές κρατήσεις"
+
+#: Koha/Database/Columns.pm:223
+msgid "Use restrictions"
+msgstr "Χρήση περιορισμών"
 
 #: Koha/Database/Columns.pm:224
 msgid "Public note"
 msgstr "Δημόσια σημείωση"
 
-#: Koha/Database/Columns.pm:225
-msgid "Item number (internal)"
-msgstr "Αριθμός τεκμηρίου (εσωτερικός)"
-
 #: Koha/Database/Columns.pm:226
-#, fuzzy
-msgid "Koha item type"
-msgstr "Τύπος τεκμηρίου συστήματος"
+msgid "Current library"
+msgstr "Τρέχουσα βιβλιοθήκη"
 
-#: Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:228
+#, fuzzy
+msgid "Deleted on"
+msgstr "Φθαρμένο"
+
+#: Koha/Database/Columns.pm:229 Koha/Database/Columns.pm:253
 msgid "Shelving location"
 msgstr "Τοποθεσία στο ράφι"
 
-#: Koha/Database/Columns.pm:228
-msgid "Materials specified"
-msgstr "Προσδιοριμένα υλικά"
-
-#: Koha/Database/Columns.pm:229
-msgid "Additional subfields (XML)"
-msgstr "Πρόσθετα υποπεδία (XML)"
-
 #: Koha/Database/Columns.pm:230
-#, fuzzy
-msgid "New status"
-msgstr "Ρύθμιση κατάστασης"
-
-#: Koha/Database/Columns.pm:232
-msgid "Due date"
-msgstr "Ημερομηνία λήξης"
-
-#: Koha/Database/Columns.pm:233
 #, fuzzy
 msgid "Permanent shelving location"
 msgstr "Όλες οι τοποθεσίες ραφιών"
 
-#: Koha/Database/Columns.pm:234
-msgid "Price"
-msgstr "Τιμή"
+#: Koha/Database/Columns.pm:231
+msgid "Due date"
+msgstr "Ημερομηνία λήξης"
+
+#: Koha/Database/Columns.pm:232
+msgid "Source of classification / shelving scheme"
+msgstr "Πηγή ταξινόμησης / σχήμα ταξιθέτησης"
+
+#: Koha/Database/Columns.pm:233
+msgid "Koha normalized classification for sorting"
+msgstr "Τροποποιημένη"
+
+#: Koha/Database/Columns.pm:234 Koha/Database/Columns.pm:255
+msgid "Collection"
+msgstr "Συλλογή"
 
 #: Koha/Database/Columns.pm:235
-msgid "Total renewals"
-msgstr "Συνολικές ανανεώσεις"
+msgid "Materials specified"
+msgstr "Προσδιοριμένα υλικά"
+
+#: Koha/Database/Columns.pm:236
+#, fuzzy
+msgid "Uniform Resource Identifier"
+msgstr "Uniform Resource Identifier"
 
 #: Koha/Database/Columns.pm:237
-msgid "Price effective from"
-msgstr "Η τιμή ισχύει από"
+#, fuzzy
+msgid "Koha itemtype"
+msgstr "Τύπος τεκμηρίου συστήματος"
 
 #: Koha/Database/Columns.pm:238
-msgid "Total holds"
-msgstr "Συνολικές κρατήσεις"
+msgid "Additional subfields (XML)"
+msgstr "Πρόσθετα υποπεδία (XML)"
 
 #: Koha/Database/Columns.pm:239
-msgid "Use restrictions"
-msgstr "Χρήση περιορισμών"
+msgid "Serial enumeraton/chronology"
+msgstr "Αρίθμηση/χρονολόγηση περιοδικής έκδοσης"
 
 #: Koha/Database/Columns.pm:240
-msgid "Shelving control number"
-msgstr "Αριθμός ελέγχου ραφιού"
+msgid "Copy number"
+msgstr "Αριθμός αντιτύπου"
 
 #: Koha/Database/Columns.pm:241
 msgid "Inventory number"
 msgstr "Αριθμός απογραφής"
 
+#: Koha/Database/Columns.pm:242
+#, fuzzy
+msgid "New status"
+msgstr "Ρύθμιση κατάστασης"
+
 #: Koha/Database/Columns.pm:243
+msgid "Exclude from local holds priority"
+msgstr ""
+
+#: Koha/Database/Columns.pm:246 Koha/Database/Columns.pm:305
+msgid "Statistics date and time"
+msgstr "Στατιστικά ημερομηνίας και ώρας"
+
+#: Koha/Database/Columns.pm:247 Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:313 Koha/Database/Columns.pm:322
+msgid "Library"
+msgstr "Βιβλιοθήκη"
+
+#: Koha/Database/Columns.pm:248 Koha/Database/Columns.pm:310
+msgid "Value"
+msgstr "Τιμή"
+
+#: Koha/Database/Columns.pm:249
 #, fuzzy
-msgid "Uniform resource identifier"
-msgstr "Uniform Resource Identifier"
+msgid "Transaction type"
+msgstr "Χρονολογία δημιουργίας"
 
-#: Koha/Database/Columns.pm:244
+#: Koha/Database/Columns.pm:250
+msgid "SIP mode"
+msgstr ""
+
+#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:306
+msgid "Item number"
+msgstr "Αριθμός τεκμηρίου"
+
+#: Koha/Database/Columns.pm:252
 #, fuzzy
-msgid "Withdrawn on"
-msgstr "Αποσυρμένο στις:"
+msgid "Koha item type"
+msgstr "Τύπος τεκμηρίου συστήματος"
 
-#: Koha/Database/Columns.pm:245
-msgid "Withdrawn status"
-msgstr "Κατάσταση αποσυρμένου"
-
-#: Koha/Database/Columns.pm:248
+#: Koha/Database/Columns.pm:259
 msgid "Abstract"
 msgstr ""
 
-#: Koha/Database/Columns.pm:249 Koha/Database/Columns.pm:310
+#: Koha/Database/Columns.pm:260 Koha/Database/Columns.pm:321
 msgid "Author"
 msgstr "Συγγραφέας"
 
-#: Koha/Database/Columns.pm:250 Koha/Database/Columns.pm:268
+#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:279
 msgid "Biblio number"
 msgstr "Αριθμός biblio:"
 
-#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:313
+#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:324
 #, fuzzy
 msgid "Copyright date"
 msgstr "Ημερομηνία κατοχύρωσης πνευματικής ιδιοκτησίας"
 
-#: Koha/Database/Columns.pm:253
+#: Koha/Database/Columns.pm:264
 msgid "Framework code"
 msgstr "Κωδικός Πλαισίου"
 
-#: Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:265
 msgid "Medium"
 msgstr ""
 
-#: Koha/Database/Columns.pm:255 Koha/Database/Columns.pm:276
+#: Koha/Database/Columns.pm:266 Koha/Database/Columns.pm:287
 msgid "Notes"
 msgstr "Σημειώσεις"
 
-#: Koha/Database/Columns.pm:256
+#: Koha/Database/Columns.pm:267
 msgid "Name of part/section of a work"
 msgstr ""
 
-#: Koha/Database/Columns.pm:257
+#: Koha/Database/Columns.pm:268
 msgid "Number of part/section of a work"
 msgstr ""
 
-#: Koha/Database/Columns.pm:258
+#: Koha/Database/Columns.pm:269
 msgid "Is a serial?"
 msgstr ""
 
-#: Koha/Database/Columns.pm:259
+#: Koha/Database/Columns.pm:270
 msgid "Series title"
 msgstr ""
 
-#: Koha/Database/Columns.pm:260
+#: Koha/Database/Columns.pm:271
 msgid "Remainder of title"
 msgstr ""
 
-#: Koha/Database/Columns.pm:261
+#: Koha/Database/Columns.pm:272
 msgid "Modification date"
 msgstr "Ημερομηνία τροποποίησης"
 
-#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:285
-#: Koha/Database/Columns.pm:321
+#: Koha/Database/Columns.pm:273 Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:332
 msgid "Title"
 msgstr "Τίτλος"
 
-#: Koha/Database/Columns.pm:263
+#: Koha/Database/Columns.pm:274
 msgid "Uniform title"
 msgstr ""
 
-#: Koha/Database/Columns.pm:266
+#: Koha/Database/Columns.pm:277
 msgid "Age restriction"
 msgstr "Περιορισμός ηλικίας"
 
-#: Koha/Database/Columns.pm:267
+#: Koha/Database/Columns.pm:278
 msgid "Biblioitem number"
 msgstr "Αριθμός εγγραφής τεκμηρίου"
 
-#: Koha/Database/Columns.pm:269
+#: Koha/Database/Columns.pm:280
 msgid "Classification"
 msgstr "Ταξινόμηση"
 
-#: Koha/Database/Columns.pm:270
+#: Koha/Database/Columns.pm:281
 msgid "Dewey/classification"
 msgstr "Dewey/ταξινόμηση"
 
-#: Koha/Database/Columns.pm:271
+#: Koha/Database/Columns.pm:282
 msgid "Illustrations"
 msgstr "Εικονογραφήσεις"
 
-#: Koha/Database/Columns.pm:272 Koha/Database/Columns.pm:314
+#: Koha/Database/Columns.pm:283 Koha/Database/Columns.pm:325
 msgid "ISBN"
 msgstr "ISBN"
 
-#: Koha/Database/Columns.pm:273
+#: Koha/Database/Columns.pm:284
 msgid "ISSN"
 msgstr "ISSN"
 
-#: Koha/Database/Columns.pm:274
+#: Koha/Database/Columns.pm:285
 msgid "Biblio-level item type"
 msgstr "Τύπος τεκμηρίου σε επίπεδο εγγραφής"
 
-#: Koha/Database/Columns.pm:275
+#: Koha/Database/Columns.pm:286
 msgid "LCCN"
 msgstr "LCCN"
 
-#: Koha/Database/Columns.pm:277
+#: Koha/Database/Columns.pm:288
 msgid "Number"
 msgstr "Αριθμός"
 
-#: Koha/Database/Columns.pm:278
+#: Koha/Database/Columns.pm:289
 msgid "Number of pages"
 msgstr "Αριθμός σελίδων"
 
-#: Koha/Database/Columns.pm:279 Koha/Database/Columns.pm:318
+#: Koha/Database/Columns.pm:290 Koha/Database/Columns.pm:329
 msgid "Place of publication"
 msgstr "Τόπος δημοσίευσης"
 
-#: Koha/Database/Columns.pm:280
+#: Koha/Database/Columns.pm:291
 msgid "Publication date"
 msgstr "Ημερομηνία δημοσίευσης"
 
-#: Koha/Database/Columns.pm:281 Koha/Database/Columns.pm:319
+#: Koha/Database/Columns.pm:292 Koha/Database/Columns.pm:330
 msgid "Publisher"
 msgstr "Εκδότης"
 
-#: Koha/Database/Columns.pm:282
+#: Koha/Database/Columns.pm:293
 msgid "Size"
 msgstr "Μέγεθος"
 
-#: Koha/Database/Columns.pm:283
+#: Koha/Database/Columns.pm:294
 msgid "Sub classification"
 msgstr "Υποταξινόμηση"
 
-#: Koha/Database/Columns.pm:286
+#: Koha/Database/Columns.pm:297
 msgid "URL"
 msgstr "URL"
 
-#: Koha/Database/Columns.pm:287
+#: Koha/Database/Columns.pm:298
 msgid "Volume number"
 msgstr "Αριθμός τόμου"
 
-#: Koha/Database/Columns.pm:288
+#: Koha/Database/Columns.pm:299
 msgid "Volume date"
 msgstr "Χρονολογία τόμου"
 
-#: Koha/Database/Columns.pm:289
+#: Koha/Database/Columns.pm:300
 msgid "Volume information"
 msgstr "Πληροφορίες τόμου"
 
-#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:302
-#: Koha/Database/Columns.pm:311
-msgid "Library"
-msgstr "Βιβλιοθήκη"
-
-#: Koha/Database/Columns.pm:294
-msgid "Statistics date and time"
-msgstr "Στατιστικά ημερομηνίας και ώρας"
-
-#: Koha/Database/Columns.pm:295
-msgid "Item number"
-msgstr "Αριθμός τεκμηρίου"
-
-#: Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:307
 msgid "Itemtype"
 msgstr "Τύπος τεκμηρίου"
 
-#: Koha/Database/Columns.pm:298
+#: Koha/Database/Columns.pm:309
 msgid "Type"
 msgstr "Τύπος"
 
-#: Koha/Database/Columns.pm:299
-msgid "Value"
-msgstr "Τιμή"
-
-#: Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:315
 msgid "End date"
 msgstr "Ημερομηνία λήξης"
 
-#: Koha/Database/Columns.pm:305
+#: Koha/Database/Columns.pm:316
 msgid "Location"
 msgstr "Τοποθεσία"
 
-#: Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:317
 msgid "Periodicity"
 msgstr "Περιοδικότητα"
 
-#: Koha/Database/Columns.pm:307
+#: Koha/Database/Columns.pm:318
 msgid "Start date"
 msgstr "Ημερομηνία έναρξης"
 
-#: Koha/Database/Columns.pm:312
+#: Koha/Database/Columns.pm:323
 #, fuzzy
 msgid "Collection title"
 msgstr "Τίτλος συλλογής:"
 
-#: Koha/Database/Columns.pm:315
+#: Koha/Database/Columns.pm:326
 #, fuzzy
 msgid "Item type"
 msgstr "Τύπος τεκμηρίου"
 
-#: Koha/Database/Columns.pm:316
+#: Koha/Database/Columns.pm:327
 #, fuzzy
 msgid "Note"
 msgstr "Σημειώσεις"
 
-#: Koha/Database/Columns.pm:317
+#: Koha/Database/Columns.pm:328
 #, fuzzy
 msgid "Patron reason"
 msgstr "μέλη σε "
@@ -3008,7 +3015,7 @@ msgstr ""
 msgid "Overdues at {library}"
 msgstr "Μόνιμη Βιβλιοθήκη"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:773
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:781
 #, fuzzy, perl-brace-format
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
@@ -3195,6 +3202,16 @@ msgid "message"
 msgid_plural "messages"
 msgstr[0] "μήνυμα"
 msgstr[1] "μηνύματα"
+
+#~ msgid "Biblio number (internal)"
+#~ msgstr "Αριθμός biblio (εσωτερικός)"
+
+#, fuzzy
+#~ msgid "Date of deletion"
+#~ msgstr "Ημερομηνία γέννησης"
+
+#~ msgid "Item number (internal)"
+#~ msgstr "Αριθμός τεκμηρίου (εσωτερικός)"
 
 #, fuzzy
 #~ msgctxt "citations"

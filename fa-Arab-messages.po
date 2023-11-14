@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2023-11-13 16:16+0000\n"
 "Last-Translator: Soghra Golmaghani <soghragolmaghani@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -25,7 +25,7 @@ msgstr "خطا: نمی توان در دسترس بودن این شناسه را 
 msgid "unknown"
 msgstr "نامشخص"
 
-#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:231
+#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:211
 msgid "Not for loan"
 msgstr "ليس للاعارة"
 
@@ -1592,7 +1592,7 @@ msgstr "بودجه بندی شده با مالیات بر هزینه."
 msgid "Budgeted cost"
 msgstr "هزینه بودجه شده"
 
-#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:252
+#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:263
 msgid "Creation date"
 msgstr "تاریخ ایجاد"
 
@@ -1612,7 +1612,7 @@ msgstr "شناسه رده منبع (اثر)"
 msgid "Vendor price"
 msgstr "قیمت فروشنده"
 
-#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:223
+#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:225
 msgid "Internal note"
 msgstr "یادداشت داخلی"
 
@@ -1632,7 +1632,7 @@ msgstr "وضعیت سفارش"
 msgid "Parent order number (internal)"
 msgstr "شماره سفارش منبع (داخلی)"
 
-#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:320
+#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:331
 msgid "Quantity"
 msgstr "تعداد"
 
@@ -1640,7 +1640,7 @@ msgstr "تعداد"
 msgid "Quantity received"
 msgstr "تعداد دریافت شده"
 
-#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:236
+#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:206
 msgid "Replacement price"
 msgstr "سعر الاستبدال"
 
@@ -1708,8 +1708,8 @@ msgstr "مبلغ مالیات بر سفارش"
 msgid "Tax amount on receive"
 msgstr "مبلغ مالیات بر دریافت"
 
-#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:242
-#: Koha/Database/Columns.pm:284
+#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:295
 msgid "Timestamp"
 msgstr "مهر زمان"
 
@@ -1829,7 +1829,8 @@ msgstr "آدرس جایگزین: ZIP/کد پستی"
 msgid "Circulation note"
 msgstr "یادداشت گردش امانت"
 
-#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:292
+#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:303
 msgid "Borrower number"
 msgstr "رقم المستعير"
 
@@ -1841,7 +1842,7 @@ msgstr "کتابخانه خانگی"
 msgid "Card number"
 msgstr "رقم البطاقة:"
 
-#: Koha/Database/Columns.pm:144
+#: Koha/Database/Columns.pm:144 Koha/Database/Columns.pm:256
 msgid "Patron category"
 msgstr "فئه مستخدم"
 
@@ -2051,369 +2052,377 @@ msgid "ZIP/Postal code"
 msgstr "کد پستی/ZIP"
 
 #: Koha/Database/Columns.pm:200
-msgid "Barcode"
-msgstr "بارکد"
-
-#: Koha/Database/Columns.pm:201
 msgid "Biblioitem number (internal)"
 msgstr "شماره کتابشناسی آیتم(داخلی)"
 
+#: Koha/Database/Columns.pm:201
+msgid "Barcode"
+msgstr "بارکد"
+
 #: Koha/Database/Columns.pm:202
-msgid "Biblio number (internal)"
-msgstr "شماره کتابشناسی (داخلی)"
+msgid "Date acquired"
+msgstr "تاریخ دریافت"
 
 #: Koha/Database/Columns.pm:203
 msgid "Source of acquisition"
 msgstr "منبع فراهم آوری"
 
 #: Koha/Database/Columns.pm:204
-msgid "Collection"
-msgstr "مجموعه"
-
-#: Koha/Database/Columns.pm:205
-msgid "Koha normalized classification for sorting"
-msgstr "طبقه بندی عادی شده کوهابرای مرتب سازی"
-
-#: Koha/Database/Columns.pm:206
-msgid "Source of classification / shelving scheme"
-msgstr "رده بندی منبع / جدول قفسه بندی"
-
-#: Koha/Database/Columns.pm:207
-msgid "Coded location qualifier"
-msgstr "توصیف محل کدگذاری شده"
-
-#: Koha/Database/Columns.pm:208
-msgid "Copy number"
-msgstr "رقم النسخة"
-
-#: Koha/Database/Columns.pm:209
-msgid "Damaged on"
-msgstr "آسیب دیده در"
-
-#: Koha/Database/Columns.pm:210
-msgid "Damaged status"
-msgstr "وضعیت از بین رفته"
-
-#: Koha/Database/Columns.pm:211
-msgid "Date acquired"
-msgstr "تاریخ دریافت"
-
-#: Koha/Database/Columns.pm:212
-msgid "Date last checked out"
-msgstr "تاریخ آخرین امانت"
-
-#: Koha/Database/Columns.pm:213
-msgid "Date last seen"
-msgstr "تاريخ آخر رؤية"
-
-#: Koha/Database/Columns.pm:214
-msgid "Date of deletion"
-msgstr "تاريخ حذف"
-
-#: Koha/Database/Columns.pm:215
-msgid "Serial enumeraton/chronology"
-msgstr "شمارش سریال/گاهشماری"
-
-#: Koha/Database/Columns.pm:216
-msgid "Exclude from local holds priority"
-msgstr "حذف از اولویت های محلی"
-
-#: Koha/Database/Columns.pm:217
-msgid "Current library"
-msgstr "المكتبة الحالية"
-
-#: Koha/Database/Columns.pm:218
 msgid "Permanent library"
 msgstr "کتابخانه همیشگی"
 
-#: Koha/Database/Columns.pm:219
-msgid "Total checkouts"
-msgstr "مجموع امانت ها"
+#: Koha/Database/Columns.pm:205
+msgid "Price"
+msgstr "سعر"
 
-#: Koha/Database/Columns.pm:220 Koha/Database/Columns.pm:303
-msgid "Call number"
-msgstr "شماره بازیابی"
+#: Koha/Database/Columns.pm:207
+msgid "Price effective from"
+msgstr "جریمه قابل اجرا از"
 
-#: Koha/Database/Columns.pm:221
+#: Koha/Database/Columns.pm:208
+msgid "Date last checked out"
+msgstr "تاریخ آخرین امانت"
+
+#: Koha/Database/Columns.pm:209
+msgid "Date last seen"
+msgstr "تاريخ آخر رؤية"
+
+#: Koha/Database/Columns.pm:210
+msgid "Shelving control number"
+msgstr "شماره کنترل قفسه بندی"
+
+#: Koha/Database/Columns.pm:212
+msgid "Damaged status"
+msgstr "وضعیت از بین رفته"
+
+#: Koha/Database/Columns.pm:213
+msgid "Damaged on"
+msgstr "آسیب دیده در"
+
+#: Koha/Database/Columns.pm:214
+msgid "Lost status"
+msgstr "وضعیت گم شده"
+
+#: Koha/Database/Columns.pm:215
 msgid "Lost on"
 msgstr "گم شده در"
 
+#: Koha/Database/Columns.pm:216
+msgid "Withdrawn status"
+msgstr "وضعیت پس گرفته شده"
+
+#: Koha/Database/Columns.pm:217
+msgid "Withdrawn on"
+msgstr "پس گرفته شده:"
+
+#: Koha/Database/Columns.pm:218 Koha/Database/Columns.pm:314
+msgid "Call number"
+msgstr "شماره بازیابی"
+
+#: Koha/Database/Columns.pm:219
+msgid "Coded location qualifier"
+msgstr "توصیف محل کدگذاری شده"
+
+#: Koha/Database/Columns.pm:220
+msgid "Total checkouts"
+msgstr "مجموع امانت ها"
+
+#: Koha/Database/Columns.pm:221
+msgid "Total renewals"
+msgstr "مجموع تمدیدها"
+
 #: Koha/Database/Columns.pm:222
-msgid "Lost status"
-msgstr "وضعیت گم شده"
+msgid "Total holds"
+msgstr "مجموع رزرو ها"
+
+#: Koha/Database/Columns.pm:223
+msgid "Use restrictions"
+msgstr "از محدودیت ها استفاده کنید"
 
 #: Koha/Database/Columns.pm:224
 msgid "Public note"
 msgstr "یادداشت همگانی"
 
-#: Koha/Database/Columns.pm:225
-msgid "Item number (internal)"
-msgstr "شماره آیتم(داخلی)"
-
 #: Koha/Database/Columns.pm:226
-msgid "Koha item type"
-msgstr "نوع منبع كوها"
+msgid "Current library"
+msgstr "المكتبة الحالية"
 
-#: Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:228
+#, fuzzy
+msgid "Deleted on"
+msgstr "آسیب دیده در"
+
+#: Koha/Database/Columns.pm:229 Koha/Database/Columns.pm:253
 msgid "Shelving location"
 msgstr "محل قفسه"
 
-#: Koha/Database/Columns.pm:228
-msgid "Materials specified"
-msgstr "المواد المحددة"
-
-#: Koha/Database/Columns.pm:229
-msgid "Additional subfields (XML)"
-msgstr "زیرشاخه های اضافی (XML)"
-
 #: Koha/Database/Columns.pm:230
-msgid "New status"
-msgstr "وضعیت جدید"
-
-#: Koha/Database/Columns.pm:232
-msgid "Due date"
-msgstr "تاريخ الإستحقاق"
-
-#: Koha/Database/Columns.pm:233
 msgid "Permanent shelving location"
 msgstr "محل قفسه بندی همیشگی"
 
-#: Koha/Database/Columns.pm:234
-msgid "Price"
-msgstr "سعر"
+#: Koha/Database/Columns.pm:231
+msgid "Due date"
+msgstr "تاريخ الإستحقاق"
+
+#: Koha/Database/Columns.pm:232
+msgid "Source of classification / shelving scheme"
+msgstr "رده بندی منبع / جدول قفسه بندی"
+
+#: Koha/Database/Columns.pm:233
+msgid "Koha normalized classification for sorting"
+msgstr "طبقه بندی عادی شده کوهابرای مرتب سازی"
+
+#: Koha/Database/Columns.pm:234 Koha/Database/Columns.pm:255
+msgid "Collection"
+msgstr "مجموعه"
 
 #: Koha/Database/Columns.pm:235
-msgid "Total renewals"
-msgstr "مجموع تمدیدها"
+msgid "Materials specified"
+msgstr "المواد المحددة"
+
+#: Koha/Database/Columns.pm:236
+#, fuzzy
+msgid "Uniform Resource Identifier"
+msgstr "تعیین کننده منابع یکسان"
 
 #: Koha/Database/Columns.pm:237
-msgid "Price effective from"
-msgstr "جریمه قابل اجرا از"
+#, fuzzy
+msgid "Koha itemtype"
+msgstr "نوع منبع كوها"
 
 #: Koha/Database/Columns.pm:238
-msgid "Total holds"
-msgstr "مجموع رزرو ها"
+msgid "Additional subfields (XML)"
+msgstr "زیرشاخه های اضافی (XML)"
 
 #: Koha/Database/Columns.pm:239
-msgid "Use restrictions"
-msgstr "از محدودیت ها استفاده کنید"
+msgid "Serial enumeraton/chronology"
+msgstr "شمارش سریال/گاهشماری"
 
 #: Koha/Database/Columns.pm:240
-msgid "Shelving control number"
-msgstr "شماره کنترل قفسه بندی"
+msgid "Copy number"
+msgstr "رقم النسخة"
 
 #: Koha/Database/Columns.pm:241
 msgid "Inventory number"
 msgstr "تعداد موجودی"
 
+#: Koha/Database/Columns.pm:242
+msgid "New status"
+msgstr "وضعیت جدید"
+
 #: Koha/Database/Columns.pm:243
-msgid "Uniform resource identifier"
-msgstr "تعیین کننده منابع یکسان"
+msgid "Exclude from local holds priority"
+msgstr "حذف از اولویت های محلی"
 
-#: Koha/Database/Columns.pm:244
-msgid "Withdrawn on"
-msgstr "پس گرفته شده:"
-
-#: Koha/Database/Columns.pm:245
-msgid "Withdrawn status"
-msgstr "وضعیت پس گرفته شده"
-
-#: Koha/Database/Columns.pm:248
-msgid "Abstract"
-msgstr "چکیده"
-
-#: Koha/Database/Columns.pm:249 Koha/Database/Columns.pm:310
-msgid "Author"
-msgstr "پدیدآور"
-
-#: Koha/Database/Columns.pm:250 Koha/Database/Columns.pm:268
-msgid "Biblio number"
-msgstr "شماره کتابشناسی"
-
-#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:313
-msgid "Copyright date"
-msgstr "تاريخ حق چاپ"
-
-#: Koha/Database/Columns.pm:253
-msgid "Framework code"
-msgstr "رمز الاطار"
-
-#: Koha/Database/Columns.pm:254
-msgid "Medium"
-msgstr "متوسط"
-
-#: Koha/Database/Columns.pm:255 Koha/Database/Columns.pm:276
-msgid "Notes"
-msgstr "یادداشت ها"
-
-#: Koha/Database/Columns.pm:256
-msgid "Name of part/section of a work"
-msgstr "نام قسمت/بخش یک اثر"
-
-#: Koha/Database/Columns.pm:257
-msgid "Number of part/section of a work"
-msgstr "تعداد قسمت/بخش یک اثر"
-
-#: Koha/Database/Columns.pm:258
-msgid "Is a serial?"
-msgstr "یک سریال است؟"
-
-#: Koha/Database/Columns.pm:259
-msgid "Series title"
-msgstr "عنوان فروست"
-
-#: Koha/Database/Columns.pm:260
-msgid "Remainder of title"
-msgstr "ترتیب براساس عنوان"
-
-#: Koha/Database/Columns.pm:261
-msgid "Modification date"
-msgstr "تاریخ تغییر"
-
-#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:285
-#: Koha/Database/Columns.pm:321
-msgid "Title"
-msgstr "عنوان"
-
-#: Koha/Database/Columns.pm:263
-msgid "Uniform title"
-msgstr "عنوان قراردادی"
-
-#: Koha/Database/Columns.pm:266
-msgid "Age restriction"
-msgstr "محدودیت سنی"
-
-#: Koha/Database/Columns.pm:267
-msgid "Biblioitem number"
-msgstr "شماره کتابشناسی آیتم"
-
-#: Koha/Database/Columns.pm:269
-msgid "Classification"
-msgstr "رده بندی"
-
-#: Koha/Database/Columns.pm:270
-msgid "Dewey/classification"
-msgstr "دیویی/رده بندی"
-
-#: Koha/Database/Columns.pm:271
-msgid "Illustrations"
-msgstr "تصاویر"
-
-#: Koha/Database/Columns.pm:272 Koha/Database/Columns.pm:314
-msgid "ISBN"
-msgstr "شابک"
-
-#: Koha/Database/Columns.pm:273
-msgid "ISSN"
-msgstr "شماره استاندارد بین المللی پیایندها (شاپا)"
-
-#: Koha/Database/Columns.pm:274
-msgid "Biblio-level item type"
-msgstr "سطح کتابشناسی نوع آیتم"
-
-#: Koha/Database/Columns.pm:275
-msgid "LCCN"
-msgstr "LCCN"
-
-#: Koha/Database/Columns.pm:277
-msgid "Number"
-msgstr "عدد"
-
-#: Koha/Database/Columns.pm:278
-msgid "Number of pages"
-msgstr "تعداد صفحه ها"
-
-#: Koha/Database/Columns.pm:279 Koha/Database/Columns.pm:318
-msgid "Place of publication"
-msgstr "محل انتشار"
-
-#: Koha/Database/Columns.pm:280
-msgid "Publication date"
-msgstr "تاريخ النشر"
-
-#: Koha/Database/Columns.pm:281 Koha/Database/Columns.pm:319
-msgid "Publisher"
-msgstr "ناشر"
-
-#: Koha/Database/Columns.pm:282
-msgid "Size"
-msgstr "اندازه"
-
-#: Koha/Database/Columns.pm:283
-msgid "Sub classification"
-msgstr "رده بندی فرعی"
-
-#: Koha/Database/Columns.pm:286
-msgid "URL"
-msgstr "عنوان"
-
-#: Koha/Database/Columns.pm:287
-msgid "Volume number"
-msgstr "شماره جلد"
-
-#: Koha/Database/Columns.pm:288
-msgid "Volume date"
-msgstr "تاریخ جلد"
-
-#: Koha/Database/Columns.pm:289
-msgid "Volume information"
-msgstr "اطلاعات جلد"
-
-#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:302
-#: Koha/Database/Columns.pm:311
-msgid "Library"
-msgstr "کتابخانه"
-
-#: Koha/Database/Columns.pm:294
+#: Koha/Database/Columns.pm:246 Koha/Database/Columns.pm:305
 msgid "Statistics date and time"
 msgstr "تاریخ و ساعت آماری"
 
-#: Koha/Database/Columns.pm:295
-msgid "Item number"
-msgstr "شماره آیتم"
+#: Koha/Database/Columns.pm:247 Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:313 Koha/Database/Columns.pm:322
+msgid "Library"
+msgstr "کتابخانه"
 
-#: Koha/Database/Columns.pm:296
-msgid "Itemtype"
-msgstr "نوع المادة"
-
-#: Koha/Database/Columns.pm:298
-msgid "Type"
-msgstr "نوع"
-
-#: Koha/Database/Columns.pm:299
+#: Koha/Database/Columns.pm:248 Koha/Database/Columns.pm:310
 msgid "Value"
 msgstr "قيمة"
 
-#: Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:249
+#, fuzzy
+msgid "Transaction type"
+msgstr "تاریخ ایجاد"
+
+#: Koha/Database/Columns.pm:250
+msgid "SIP mode"
+msgstr ""
+
+#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:306
+msgid "Item number"
+msgstr "شماره آیتم"
+
+#: Koha/Database/Columns.pm:252
+msgid "Koha item type"
+msgstr "نوع منبع كوها"
+
+#: Koha/Database/Columns.pm:259
+msgid "Abstract"
+msgstr "چکیده"
+
+#: Koha/Database/Columns.pm:260 Koha/Database/Columns.pm:321
+msgid "Author"
+msgstr "پدیدآور"
+
+#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:279
+msgid "Biblio number"
+msgstr "شماره کتابشناسی"
+
+#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:324
+msgid "Copyright date"
+msgstr "تاريخ حق چاپ"
+
+#: Koha/Database/Columns.pm:264
+msgid "Framework code"
+msgstr "رمز الاطار"
+
+#: Koha/Database/Columns.pm:265
+msgid "Medium"
+msgstr "متوسط"
+
+#: Koha/Database/Columns.pm:266 Koha/Database/Columns.pm:287
+msgid "Notes"
+msgstr "یادداشت ها"
+
+#: Koha/Database/Columns.pm:267
+msgid "Name of part/section of a work"
+msgstr "نام قسمت/بخش یک اثر"
+
+#: Koha/Database/Columns.pm:268
+msgid "Number of part/section of a work"
+msgstr "تعداد قسمت/بخش یک اثر"
+
+#: Koha/Database/Columns.pm:269
+msgid "Is a serial?"
+msgstr "یک سریال است؟"
+
+#: Koha/Database/Columns.pm:270
+msgid "Series title"
+msgstr "عنوان فروست"
+
+#: Koha/Database/Columns.pm:271
+msgid "Remainder of title"
+msgstr "ترتیب براساس عنوان"
+
+#: Koha/Database/Columns.pm:272
+msgid "Modification date"
+msgstr "تاریخ تغییر"
+
+#: Koha/Database/Columns.pm:273 Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:332
+msgid "Title"
+msgstr "عنوان"
+
+#: Koha/Database/Columns.pm:274
+msgid "Uniform title"
+msgstr "عنوان قراردادی"
+
+#: Koha/Database/Columns.pm:277
+msgid "Age restriction"
+msgstr "محدودیت سنی"
+
+#: Koha/Database/Columns.pm:278
+msgid "Biblioitem number"
+msgstr "شماره کتابشناسی آیتم"
+
+#: Koha/Database/Columns.pm:280
+msgid "Classification"
+msgstr "رده بندی"
+
+#: Koha/Database/Columns.pm:281
+msgid "Dewey/classification"
+msgstr "دیویی/رده بندی"
+
+#: Koha/Database/Columns.pm:282
+msgid "Illustrations"
+msgstr "تصاویر"
+
+#: Koha/Database/Columns.pm:283 Koha/Database/Columns.pm:325
+msgid "ISBN"
+msgstr "شابک"
+
+#: Koha/Database/Columns.pm:284
+msgid "ISSN"
+msgstr "شماره استاندارد بین المللی پیایندها (شاپا)"
+
+#: Koha/Database/Columns.pm:285
+msgid "Biblio-level item type"
+msgstr "سطح کتابشناسی نوع آیتم"
+
+#: Koha/Database/Columns.pm:286
+msgid "LCCN"
+msgstr "LCCN"
+
+#: Koha/Database/Columns.pm:288
+msgid "Number"
+msgstr "عدد"
+
+#: Koha/Database/Columns.pm:289
+msgid "Number of pages"
+msgstr "تعداد صفحه ها"
+
+#: Koha/Database/Columns.pm:290 Koha/Database/Columns.pm:329
+msgid "Place of publication"
+msgstr "محل انتشار"
+
+#: Koha/Database/Columns.pm:291
+msgid "Publication date"
+msgstr "تاريخ النشر"
+
+#: Koha/Database/Columns.pm:292 Koha/Database/Columns.pm:330
+msgid "Publisher"
+msgstr "ناشر"
+
+#: Koha/Database/Columns.pm:293
+msgid "Size"
+msgstr "اندازه"
+
+#: Koha/Database/Columns.pm:294
+msgid "Sub classification"
+msgstr "رده بندی فرعی"
+
+#: Koha/Database/Columns.pm:297
+msgid "URL"
+msgstr "عنوان"
+
+#: Koha/Database/Columns.pm:298
+msgid "Volume number"
+msgstr "شماره جلد"
+
+#: Koha/Database/Columns.pm:299
+msgid "Volume date"
+msgstr "تاریخ جلد"
+
+#: Koha/Database/Columns.pm:300
+msgid "Volume information"
+msgstr "اطلاعات جلد"
+
+#: Koha/Database/Columns.pm:307
+msgid "Itemtype"
+msgstr "نوع المادة"
+
+#: Koha/Database/Columns.pm:309
+msgid "Type"
+msgstr "نوع"
+
+#: Koha/Database/Columns.pm:315
 msgid "End date"
 msgstr "تاريخ الإنتهاء"
 
-#: Koha/Database/Columns.pm:305
+#: Koha/Database/Columns.pm:316
 msgid "Location"
 msgstr "محل نگهداری"
 
-#: Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:317
 msgid "Periodicity"
 msgstr "بشكل دوري"
 
-#: Koha/Database/Columns.pm:307
+#: Koha/Database/Columns.pm:318
 msgid "Start date"
 msgstr "تاريخ البدء"
 
-#: Koha/Database/Columns.pm:312
+#: Koha/Database/Columns.pm:323
 msgid "Collection title"
 msgstr "عنوان مجموعه"
 
-#: Koha/Database/Columns.pm:315
+#: Koha/Database/Columns.pm:326
 msgid "Item type"
 msgstr "نوع منبع"
 
-#: Koha/Database/Columns.pm:316
+#: Koha/Database/Columns.pm:327
 msgid "Note"
 msgstr "یادداشت"
 
 # Patrons
-#: Koha/Database/Columns.pm:317
+#: Koha/Database/Columns.pm:328
 msgid "Patron reason"
 msgstr "عنوان عضو"
 
@@ -2952,7 +2961,7 @@ msgstr ""
 msgid "Overdues at {library}"
 msgstr "معوقات در {library}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:773
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:781
 #, perl-brace-format
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
@@ -3138,6 +3147,15 @@ msgid "message"
 msgid_plural "messages"
 msgstr[0] "پیام"
 msgstr[1] "پیام ها"
+
+#~ msgid "Biblio number (internal)"
+#~ msgstr "شماره کتابشناسی (داخلی)"
+
+#~ msgid "Date of deletion"
+#~ msgstr "تاريخ حذف"
+
+#~ msgid "Item number (internal)"
+#~ msgstr "شماره آیتم(داخلی)"
 
 #~ msgctxt "citations"
 #~ msgid "Quotes"

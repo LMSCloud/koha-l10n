@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2023-11-13 16:16+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
@@ -52,7 +52,7 @@ msgid "Edit"
 msgstr "Bearbeiten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:94
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1022
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1024
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:11
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:105
 msgid "Delete"
@@ -603,151 +603,156 @@ msgid "on hold"
 msgstr "Vorgemerkt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:201
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:501
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:503
 msgid "Not allowed: patron restricted"
 msgstr "Nicht möglich: Benutzer ist gesperrt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:203
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:508
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:510
 msgid "Not allowed: overdue"
 msgstr "Nicht möglich: überfällig"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:207
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:205
+#, fuzzy
+msgid "Unable to find an open day"
+msgstr "Nicht möglich als zurückgegeben zu reklamieren"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:209
 msgid "reason unknown"
 msgstr "Grund unbekannt"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:276
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:278
 msgid "Loading... you may continue scanning."
 msgstr "Lädt... Sie können das Einlesen fortsetzen."
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:293
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:674
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:295
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:676
 msgid "Today's checkouts"
 msgstr "Heutige Ausleihen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:295
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:676
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:297
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:678
 msgid "Previous checkouts"
 msgstr "Vorherige Ausleihen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:349
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:754
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:351
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:756
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
 msgid "by _AUTHOR_"
 msgstr "von _AUTHOR_"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:370
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:775
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:372
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:777
 msgid "On-site checkout"
 msgstr "Vor-Ort-Ausleihe"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:374
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:376
 msgid "This item has been recalled and the due date updated"
 msgstr "Dieses Exemplar wurde zurückgerufen und das Fälligkeitsdatum aktualisiert"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:475
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:609
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:477
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:611
 msgid "Recalled"
 msgstr "Zurückgerufen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:482
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:611
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:484
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:613
 #: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:313
 msgid "On hold"
 msgstr "Vorgemerkt"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:489
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:491
 msgid "Not renewable"
 msgstr "Nicht verlängerbar"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:496
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:498
 msgid "Must be renewed at the library"
 msgstr "Muss in der Bibliothek verlängert werden"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:515
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:517
 #, javascript-format
 msgid "No renewal before %s"
 msgstr "Keine Verlängerung vor %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:522
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:550
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:524
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:552
 msgid "Scheduled for automatic renewal"
 msgstr "Automatische Verlängerung geplant"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:529
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:531
 msgid "Can no longer be auto-renewed - number of checkout days exceeded"
 msgstr "Keine weitere automatische Verlängerung möglich - Anzahl der Ausleihtage überschritten"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:536
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:538
 msgid "Automatic renewal failed, patron has unpaid fines"
 msgstr "Automatische Verlängerung nicht möglich, Benutzer hat ausstehende Gebühren"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:543
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:545
 msgid "Automatic renewal failed, account expired"
 msgstr "Automatische Verlängerung nicht möglich, Konto abgelaufen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:559
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:561
 msgid "Renewal denied by syspref"
 msgstr "Verlängerung durch Systemparameter verhindert"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:594
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:596
 #, javascript-format
 msgid "%s of %s renewals remaining"
 msgstr "%s von %s Verlängerungen verbleiben"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:596
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
 #, javascript-format
 msgid " and %s of %s unseen renewals remaining"
 msgstr " und %s von %s Verlängerungen ohne Vorlage verbleiben"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:628
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:630
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:632
 msgid "Claim returned"
 msgstr "Angeblich zurückgegeben"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
 msgid "No itemtype"
 msgstr "Kein Medientyp"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
 msgid "Number of checkouts by item type"
 msgstr "Anzahl Ausleihen nach Medientyp"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:977
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:979
 msgid "Double click to edit"
 msgstr "Doppelklicken zum Bearbeiten"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1025
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1027
 msgid "Resolve"
 msgstr "Beilegen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1030
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1032
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:104
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:85
 msgid "Actions"
 msgstr "Aktionen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1033
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1035
 msgid "Edit notes"
 msgstr "Notizen bearbeiten"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1096
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1098
 msgid "Show 1 claim"
 msgid_plural "Show all {count} claims"
 msgstr[0] "Zeige 1 Reklamation"
 msgstr[1] "Zeige alle {count} Reklamationen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1101
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1103
 msgid "Show 1 unresolved claim"
 msgid_plural "Show {count} unresolved claims"
 msgstr[0] "Zeige 1 ungelöste Reklamation"
 msgstr[1] "Zeige {count} ungelöste Reklamationen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1122
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1124
 msgid "Update"
 msgstr "Aktualisieren"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1123
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1125
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:407
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:165
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:78
@@ -756,7 +761,7 @@ msgstr "Aktualisieren"
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1162
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1164
 msgid "Are you sure you want to delete this return claim?"
 msgstr "Sind Sie sicher, dass Sie diese Rückgabebehauptung löschen möchten?"
 
@@ -1001,8 +1006,7 @@ msgstr "Wiederaufnahme nicht möglich, Vormerkung nicht gefunden"
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:345
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:431
 msgid "Your request could not be processed. Check the logs"
-msgstr ""
-"Ihre Vormerkung konnte nicht eingetragen werden, bitte prüfen Sie die Logs"
+msgstr "Ihre Vormerkung konnte nicht eingetragen werden, bitte prüfen Sie die Logs"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:392
 msgid "Suspend hold on"
@@ -1523,11 +1527,7 @@ msgstr "Die Erscheinungsweise und die Abonnementlänge stimmen nicht überein. E
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:51
 msgid "If you wish to claim late or missing issues you must link this subscription to a vendor. Click OK to ignore or Cancel to return and enter a vendor"
-msgstr ""
-"Wenn Sie verspätete oder fehlende Hefte reklamieren möchten, müssen Sie "
-"dieses Abonnement mit einem Lieferanten verknüpfen. Klicken Sie auf OK, um "
-"das zu ignorieren, oder auf Abbrechen, um zurückzugehen und einen "
-"Lieferanten einzugeben."
+msgstr "Wenn Sie verspätete oder fehlende Hefte reklamieren möchten, müssen Sie dieses Abonnement mit einem Lieferanten verknüpfen. Klicken Sie auf OK, um das zu ignorieren, oder auf Abbrechen, um zurückzugehen und einen Lieferanten einzugeben."
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:58
 msgid "The vendor does not exist"
@@ -1596,15 +1596,11 @@ msgstr "Ein Muster mit diesem Namen existiert bereits. Möchten Sie es bearbeite
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:370
 msgid "Warning: This will modify the pattern for all subscriptions that are using it."
-msgstr ""
-"Warnung: Sie verändern hiermit das Erscheinungsmuster für alle damit "
-"verknüpften Abonnements."
+msgstr "Warnung: Sie verändern hiermit das Erscheinungsmuster für alle damit verknüpften Abonnements."
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:400
 msgid "Something went wrong. Unable to create a new numbering pattern."
-msgstr ""
-"Etwas ist schief gelaufen. Es kann kein neues Nummerierungsmuster angelegt "
-"werden."
+msgstr "Etwas ist schief gelaufen. Es kann kein neues Nummerierungsmuster angelegt werden."
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:421
 msgid "Searching for subscription in Mana Knowledge Base"
@@ -1744,7 +1740,7 @@ msgstr "Speichert..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:149
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:35
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:81
 msgid "Licenses"
 msgstr "Lizenzen"
 
@@ -2092,7 +2088,8 @@ msgstr "Rolle"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:236
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:3
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:87
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:124
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:226
 msgid "Packages"
 msgstr "Pakete"
 
@@ -2507,7 +2504,7 @@ msgstr "Zugriffsart"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:69
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:27
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:50
 msgid "Agreements"
 msgstr "Vereinbarungen"
 
@@ -2618,6 +2615,7 @@ msgid "There are no packages created yet"
 msgstr "Es wurden noch keine Pakete angelegt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:204
 msgid "Import from a list"
 msgstr "Import aus einer Liste"
 
@@ -2723,27 +2721,7 @@ msgstr "Beendet am"
 msgid "License #%s"
 msgstr "Lizenz %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:20
-msgid "E-resource management"
-msgstr "ERM"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:44
-msgid "eHoldings"
-msgstr "eHoldings"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:63
-msgid "Local"
-msgstr "Lokal"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:75
-msgid "EBSCO"
-msgstr "EBSCO"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:99
-msgid "Titles"
-msgstr "Titel"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:232
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:135
 msgid "The e-resource management module is disabled, turn on <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=ERMModule\">ERMModule</a> to use it"
 msgstr "Das Modul zur Verwaltung elektronischer Ressourcen (ERM) ist deaktiviert, aktivieren Sie den Systemparameter <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=ERMModule\">ERMModule</a>, um es zu verwenden"
 
@@ -2762,6 +2740,95 @@ msgstr "Benutzer auswählen"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:62
 msgid "Add new user"
 msgstr "Neuen Nutzer hinzufügen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:40
+msgid "E-resource management"
+msgstr "ERM"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:63
+#, fuzzy
+msgid "Show agreement"
+msgstr "Neue Vereinbarung"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:69
+#, fuzzy
+msgid "Add agreement"
+msgstr "Neue Vereinbarung"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:75
+#, fuzzy
+msgid "Edit agreement"
+msgstr "Vereinbarung %s bearbeiten"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:94
+#, fuzzy
+msgid "Show license"
+msgstr "Neue Lizenz"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:100
+#, fuzzy
+msgid "Add license"
+msgstr "Neue Lizenz"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:106
+#, fuzzy
+msgid "Edit license"
+msgstr "Lizenz %s bearbeiten"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:112
+msgid "eHoldings"
+msgstr "eHoldings"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:118
+msgid "Local"
+msgstr "Lokal"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:141
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:243
+#, fuzzy
+msgid "Show package"
+msgstr "Neues Paket"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:149
+#, fuzzy
+msgid "Add package"
+msgstr "Neues Paket"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:157
+#, fuzzy
+msgid "Edit package"
+msgstr "Paket %s bearbeiten"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:163
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
+msgid "Titles"
+msgstr "Titel"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:180
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:266
+#, fuzzy
+msgid "Show title"
+msgstr "Neuer Titel"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:188
+#, fuzzy
+msgid "Add title"
+msgstr "Exemplar hinzufügen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:196
+#, fuzzy
+msgid "Edit title"
+msgstr "Titel %s bearbeiten"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:212
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:274
+#, fuzzy
+msgid "Resource"
+msgstr "Ressource %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:220
+msgid "EBSCO"
+msgstr "EBSCO"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:14
 msgid "supersedes"
@@ -2966,6 +3033,3 @@ msgstr "Durchschnittsbewertung: %s (%s Wertungen)"
 
 #~ msgid "Table settings"
 #~ msgstr "Tabellenkonfiguration"
-
-#~ msgid "Unable to claim as returned"
-#~ msgstr "Nicht möglich als zurückgegeben zu reklamieren"

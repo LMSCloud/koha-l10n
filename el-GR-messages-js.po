@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2023-08-25 08:42+0000\n"
 "Last-Translator: Eugenios Papadopoulos <eugenios.papadopoulos@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -53,7 +53,7 @@ msgid "Edit"
 msgstr "Επεξεργασία"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:94
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1022
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1024
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:11
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:105
 msgid "Delete"
@@ -609,153 +609,158 @@ msgid "on hold"
 msgstr "σε κράτηση"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:201
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:501
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:503
 msgid "Not allowed: patron restricted"
 msgstr "Δεν επιτρέπεται: μέλος υπό περιορισμένο"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:203
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:508
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:510
 msgid "Not allowed: overdue"
 msgstr "Δεν επιτρέπεται: ληξιπρόθεσμα"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:207
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:205
+#, fuzzy
+msgid "Unable to find an open day"
+msgstr "Αδυναμία ορισμού ότι έχει επιστραφεί"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:209
 msgid "reason unknown"
 msgstr "άγνωστη αιτία"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:276
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:278
 msgid "Loading... you may continue scanning."
 msgstr "Φόρτωση... μπορείτε να συνεχίσετε με τη σάρωση."
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:293
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:674
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:295
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:676
 msgid "Today's checkouts"
 msgstr "Σημερινοί δανεισμοί"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:295
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:676
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:297
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:678
 msgid "Previous checkouts"
 msgstr "Προηγούμενοι δανεισμοί"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:349
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:754
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:351
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:756
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
 msgid "by _AUTHOR_"
 msgstr "από _AUTHOR_"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:370
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:775
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:372
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:777
 msgid "On-site checkout"
 msgstr "Επιτόπιος δανεισμός"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:374
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:376
 #, fuzzy
 msgid "This item has been recalled and the due date updated"
 msgstr "Αυτό το τεκμήριο προστέθηκε στο καλάθι σας"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:475
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:609
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:477
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:611
 #, fuzzy
 msgid "Recalled"
 msgstr "ΑνάκλησηΤεκμηρίου "
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:482
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:611
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:484
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:613
 #: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:313
 msgid "On hold"
 msgstr "Σε κράτηση"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:489
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:491
 msgid "Not renewable"
 msgstr "Δεν ανανεώνεται"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:496
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:498
 msgid "Must be renewed at the library"
 msgstr "Πρέπει να ανανεωθεί στη βιβλιοθήκη"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:515
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:517
 #, javascript-format
 msgid "No renewal before %s"
 msgstr "Δεν επιτρέπεται ανανέωση πριν από %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:522
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:550
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:524
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:552
 msgid "Scheduled for automatic renewal"
 msgstr "Προγραμματισμένο για αυτόματη ανανέωση"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:529
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:531
 msgid "Can no longer be auto-renewed - number of checkout days exceeded"
 msgstr "Δε γίνει να οριστεί άλλη αυτό-ανανέωση - ο αριθμός των ημερών δανεισμού έχει λήξη"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:536
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:538
 msgid "Automatic renewal failed, patron has unpaid fines"
 msgstr "Η αυτόματη ανανέωση απέτυχε, το μέλος έχει απλήρωτα πρόστιμα"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:543
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:545
 msgid "Automatic renewal failed, account expired"
 msgstr "Η αυτόματη ανανέωση απέτυχε, ο λογαριασμός έχει λήξει"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:559
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:561
 msgid "Renewal denied by syspref"
 msgstr "Η ανανέωση απορρίφθηκε από τις προτιμήσεις συστήματος"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:594
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:596
 #, javascript-format
 msgid "%s of %s renewals remaining"
 msgstr "απομένουν %s από %s ανανεώσεις"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:596
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
 #, fuzzy, javascript-format
 msgid " and %s of %s unseen renewals remaining"
 msgstr "απομένουν %s από %s ανεπίβλεπτες ανανεώσεις"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:628
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:630
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:632
 msgid "Claim returned"
 msgstr "Αξίωση επεστράφη"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
 msgid "No itemtype"
 msgstr "Χωρίς τύπο τεκμηρίου"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
 msgid "Number of checkouts by item type"
 msgstr "Αριθμός χρεώσεων ανά τύπο τεκμηρίου"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:977
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:979
 msgid "Double click to edit"
 msgstr "Διπλό πάτημα για επεξεργασία"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1025
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1027
 msgid "Resolve"
 msgstr "Επίλυση"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1030
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1032
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:104
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:85
 msgid "Actions"
 msgstr "Ενέργειες"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1033
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1035
 msgid "Edit notes"
 msgstr "Επεξεργασία σημειώσεων"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1096
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1098
 msgid "Show 1 claim"
 msgid_plural "Show all {count} claims"
 msgstr[0] "Προβολή 1 αξίωσης"
 msgstr[1] "Προβολή όλων {count} αξιώσεων"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1101
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1103
 msgid "Show 1 unresolved claim"
 msgid_plural "Show {count} unresolved claims"
 msgstr[0] "Εμφάνιση 1 "
 msgstr[1] "Εμφάνιση {count} ανεπίλυτων αξιώσεων"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1122
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1124
 msgid "Update"
 msgstr "Ενημέρωση"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1123
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1125
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:407
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:165
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:78
@@ -764,7 +769,7 @@ msgstr "Ενημέρωση"
 msgid "Cancel"
 msgstr "Ακύρωση"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1162
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1164
 msgid "Are you sure you want to delete this return claim?"
 msgstr "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε την αξίωση επιστροφής;"
 
@@ -1768,7 +1773,7 @@ msgstr "Γίνεται Αποθήκευση..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:149
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:35
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:81
 msgid "Licenses"
 msgstr ""
 
@@ -2126,7 +2131,8 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:236
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:3
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:87
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:124
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:226
 msgid "Packages"
 msgstr ""
 
@@ -2556,7 +2562,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:69
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:27
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:50
 msgid "Agreements"
 msgstr ""
 
@@ -2671,6 +2677,7 @@ msgid "There are no packages created yet"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:2
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:204
 msgid "Import from a list"
 msgstr ""
 
@@ -2781,28 +2788,7 @@ msgstr ""
 msgid "License #%s"
 msgstr "Όνομα αρχείου:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:20
-msgid "E-resource management"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:44
-#, fuzzy
-msgid "eHoldings"
-msgstr "Κρατήσεις"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:63
-msgid "Local"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:75
-msgid "EBSCO"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:99
-msgid "Titles"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:232
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:135
 msgid "The e-resource management module is disabled, turn on <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=ERMModule\">ERMModule</a> to use it"
 msgstr ""
 
@@ -2822,6 +2808,96 @@ msgstr "Επιλογή όλων"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:62
 msgid "Add new user"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:40
+msgid "E-resource management"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:63
+#, fuzzy
+msgid "Show agreement"
+msgstr "Αφαίρεση όλων των τεκμηρίων"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:69
+#, fuzzy
+msgid "Add agreement"
+msgstr "Αφαίρεση όλων των τεκμηρίων"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:75
+#, fuzzy
+msgid "Edit agreement"
+msgstr "Επεξεργασία ενέργειας %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:94
+#, fuzzy
+msgid "Show license"
+msgstr "Ενεργοποίηση φίλτρων"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:100
+#, fuzzy
+msgid "Add license"
+msgstr "Επεξεργασία ενέργειας %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:106
+#, fuzzy
+msgid "Edit license"
+msgstr "Επεξεργασία ενέργειας %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:112
+#, fuzzy
+msgid "eHoldings"
+msgstr "Κρατήσεις"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:118
+msgid "Local"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:141
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:243
+#, fuzzy
+msgid "Show package"
+msgstr "Διαγραφή"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:149
+#, fuzzy
+msgid "Add package"
+msgstr "Επεξεργασία ενέργειας %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:157
+#, fuzzy
+msgid "Edit package"
+msgstr "Επεξεργασία ενέργειας %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:163
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
+msgid "Titles"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:180
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:266
+#, fuzzy
+msgid "Show title"
+msgstr "Ενεργοποίηση φίλτρων"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:188
+#, fuzzy
+msgid "Add title"
+msgstr "Προσθήκη αντιτύπου"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:196
+#, fuzzy
+msgid "Edit title"
+msgstr "Επεξεργασία ενέργειας %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:212
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:274
+#, fuzzy
+msgid "Resource"
+msgstr "Όνομα αρχείου:"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:220
+msgid "EBSCO"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:14
@@ -3012,10 +3088,6 @@ msgstr ""
 #~ msgstr "Αφαίρεση όλων των τεκμηρίων"
 
 #, fuzzy
-#~ msgid "Delete package"
-#~ msgstr "Διαγραφή"
-
-#, fuzzy
 #~ msgid "Delete title"
 #~ msgstr "Διαγραφή"
 
@@ -3026,6 +3098,3 @@ msgstr ""
 #, fuzzy
 #~ msgid "Table settings"
 #~ msgstr "Ρυθμίσεις στηλών"
-
-#~ msgid "Unable to claim as returned"
-#~ msgstr "Αδυναμία ορισμού ότι έχει επιστραφεί"

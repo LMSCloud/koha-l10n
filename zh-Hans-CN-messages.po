@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2022-05-01 12:52-0300\n"
 "Language-Team: Koha Translation Team \n"
 "Language: zh\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "unknown"
 msgstr "不明"
 
-#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:231
+#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:211
 msgid "Not for loan"
 msgstr "不外借"
 
@@ -1611,7 +1611,7 @@ msgstr ""
 msgid "Budgeted cost"
 msgstr ""
 
-#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:252
+#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:263
 msgid "Creation date"
 msgstr "登记日期"
 
@@ -1632,7 +1632,7 @@ msgstr ""
 msgid "Vendor price"
 msgstr ""
 
-#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:223
+#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:225
 msgid "Internal note"
 msgstr "内部说明"
 
@@ -1655,7 +1655,7 @@ msgstr "设置状态"
 msgid "Parent order number (internal)"
 msgstr "馆藏号(内部)"
 
-#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:320
+#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:331
 #, fuzzy
 msgid "Quantity"
 msgstr "数量"
@@ -1664,7 +1664,7 @@ msgstr "数量"
 msgid "Quantity received"
 msgstr ""
 
-#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:236
+#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:206
 msgid "Replacement price"
 msgstr "重置价格"
 
@@ -1734,8 +1734,8 @@ msgstr ""
 msgid "Tax amount on receive"
 msgstr ""
 
-#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:242
-#: Koha/Database/Columns.pm:284
+#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:295
 msgid "Timestamp"
 msgstr "时间戳记"
 
@@ -1858,7 +1858,8 @@ msgstr "其它地址：连络说明"
 msgid "Circulation note"
 msgstr "流通说明"
 
-#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:292
+#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:303
 msgid "Borrower number"
 msgstr "借阅者号码"
 
@@ -1870,7 +1871,7 @@ msgstr "所属图书馆"
 msgid "Card number"
 msgstr "读者证号码"
 
-#: Koha/Database/Columns.pm:144
+#: Koha/Database/Columns.pm:144 Koha/Database/Columns.pm:256
 msgid "Patron category"
 msgstr "读者证类型"
 
@@ -2085,377 +2086,383 @@ msgid "ZIP/Postal code"
 msgstr "邮递区号："
 
 #: Koha/Database/Columns.pm:200
-msgid "Barcode"
-msgstr "条码"
-
-#: Koha/Database/Columns.pm:201
 msgid "Biblioitem number (internal)"
 msgstr "书目馆藏号(内部)"
 
+#: Koha/Database/Columns.pm:201
+msgid "Barcode"
+msgstr "条码"
+
 #: Koha/Database/Columns.pm:202
-msgid "Biblio number (internal)"
-msgstr "书目号码(内部)"
+msgid "Date acquired"
+msgstr "到馆日期"
 
 #: Koha/Database/Columns.pm:203
 msgid "Source of acquisition"
 msgstr "采访来源"
 
 #: Koha/Database/Columns.pm:204
-msgid "Collection"
-msgstr "馆藏"
+msgid "Permanent library"
+msgstr "永久图书馆"
 
 #: Koha/Database/Columns.pm:205
-msgid "Koha normalized classification for sorting"
-msgstr "Koha正常化分类法供排序之用"
-
-#: Koha/Database/Columns.pm:206
-msgid "Source of classification / shelving scheme"
-msgstr "分类法来源 / 排架结构"
+msgid "Price"
+msgstr "价格"
 
 #: Koha/Database/Columns.pm:207
-msgid "Coded location qualifier"
-msgstr ""
+msgid "Price effective from"
+msgstr "售价启用自"
 
 #: Koha/Database/Columns.pm:208
-msgid "Copy number"
-msgstr "复本号"
+msgid "Date last checked out"
+msgstr "最后借出日期"
 
 #: Koha/Database/Columns.pm:209
+msgid "Date last seen"
+msgstr "最后出现的日期"
+
+#: Koha/Database/Columns.pm:210
+msgid "Shelving control number"
+msgstr "排架控制码"
+
+#: Koha/Database/Columns.pm:212
+msgid "Damaged status"
+msgstr "破坏状态"
+
+#: Koha/Database/Columns.pm:213
 #, fuzzy
 msgid "Damaged on"
 msgstr "破坏("
 
-#: Koha/Database/Columns.pm:210
-msgid "Damaged status"
-msgstr "破坏状态"
-
-#: Koha/Database/Columns.pm:211
-msgid "Date acquired"
-msgstr "到馆日期"
-
-#: Koha/Database/Columns.pm:212
-msgid "Date last checked out"
-msgstr "最后借出日期"
-
-#: Koha/Database/Columns.pm:213
-msgid "Date last seen"
-msgstr "最后出现的日期"
-
 #: Koha/Database/Columns.pm:214
-#, fuzzy
-msgid "Date of deletion"
-msgstr "生日"
+msgid "Lost status"
+msgstr "遗失状态"
 
 #: Koha/Database/Columns.pm:215
-msgid "Serial enumeraton/chronology"
-msgstr "期刊编号/年份"
-
-#: Koha/Database/Columns.pm:216
-msgid "Exclude from local holds priority"
-msgstr ""
-
-#: Koha/Database/Columns.pm:217
-msgid "Current library"
-msgstr "活动图书馆"
-
-#: Koha/Database/Columns.pm:218
-msgid "Permanent library"
-msgstr "永久图书馆"
-
-#: Koha/Database/Columns.pm:219
-msgid "Total checkouts"
-msgstr "全部借出"
-
-#: Koha/Database/Columns.pm:220 Koha/Database/Columns.pm:303
-msgid "Call number"
-msgstr "索书号"
-
-#: Koha/Database/Columns.pm:221
 msgid "Lost on"
 msgstr "遗失于"
 
+#: Koha/Database/Columns.pm:216
+msgid "Withdrawn status"
+msgstr "注销状态"
+
+#: Koha/Database/Columns.pm:217
+msgid "Withdrawn on"
+msgstr "注销"
+
+#: Koha/Database/Columns.pm:218 Koha/Database/Columns.pm:314
+msgid "Call number"
+msgstr "索书号"
+
+#: Koha/Database/Columns.pm:219
+msgid "Coded location qualifier"
+msgstr ""
+
+#: Koha/Database/Columns.pm:220
+msgid "Total checkouts"
+msgstr "全部借出"
+
+#: Koha/Database/Columns.pm:221
+msgid "Total renewals"
+msgstr "总计续借"
+
 #: Koha/Database/Columns.pm:222
-msgid "Lost status"
-msgstr "遗失状态"
+msgid "Total holds"
+msgstr "总计馆藏"
+
+#: Koha/Database/Columns.pm:223
+msgid "Use restrictions"
+msgstr "使用限制"
 
 #: Koha/Database/Columns.pm:224
 msgid "Public note"
 msgstr "公开说明"
 
-#: Koha/Database/Columns.pm:225
-msgid "Item number (internal)"
-msgstr "馆藏号(内部)"
-
 #: Koha/Database/Columns.pm:226
-#, fuzzy
-msgid "Koha item type"
-msgstr "Koha馆藏类型"
+msgid "Current library"
+msgstr "活动图书馆"
 
-#: Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:228
+#, fuzzy
+msgid "Deleted on"
+msgstr "破坏("
+
+#: Koha/Database/Columns.pm:229 Koha/Database/Columns.pm:253
 msgid "Shelving location"
 msgstr "排架位置"
 
-#: Koha/Database/Columns.pm:228
-msgid "Materials specified"
-msgstr "指定的数据"
-
-#: Koha/Database/Columns.pm:229
-msgid "Additional subfields (XML)"
-msgstr "编辑分栏(XML)"
-
 #: Koha/Database/Columns.pm:230
-#, fuzzy
-msgid "New status"
-msgstr "设置状态"
-
-#: Koha/Database/Columns.pm:232
-msgid "Due date"
-msgstr "到期日"
-
-#: Koha/Database/Columns.pm:233
 msgid "Permanent shelving location"
 msgstr "永欠排架位置"
 
-#: Koha/Database/Columns.pm:234
-msgid "Price"
-msgstr "价格"
+#: Koha/Database/Columns.pm:231
+msgid "Due date"
+msgstr "到期日"
+
+#: Koha/Database/Columns.pm:232
+msgid "Source of classification / shelving scheme"
+msgstr "分类法来源 / 排架结构"
+
+#: Koha/Database/Columns.pm:233
+msgid "Koha normalized classification for sorting"
+msgstr "Koha正常化分类法供排序之用"
+
+#: Koha/Database/Columns.pm:234 Koha/Database/Columns.pm:255
+msgid "Collection"
+msgstr "馆藏"
 
 #: Koha/Database/Columns.pm:235
-msgid "Total renewals"
-msgstr "总计续借"
+msgid "Materials specified"
+msgstr "指定的数据"
+
+#: Koha/Database/Columns.pm:236
+#, fuzzy
+msgid "Uniform Resource Identifier"
+msgstr "唯一辨识码"
 
 #: Koha/Database/Columns.pm:237
-msgid "Price effective from"
-msgstr "售价启用自"
+#, fuzzy
+msgid "Koha itemtype"
+msgstr "Koha馆藏类型"
 
 #: Koha/Database/Columns.pm:238
-msgid "Total holds"
-msgstr "总计馆藏"
+msgid "Additional subfields (XML)"
+msgstr "编辑分栏(XML)"
 
 #: Koha/Database/Columns.pm:239
-msgid "Use restrictions"
-msgstr "使用限制"
+msgid "Serial enumeraton/chronology"
+msgstr "期刊编号/年份"
 
 #: Koha/Database/Columns.pm:240
-msgid "Shelving control number"
-msgstr "排架控制码"
+msgid "Copy number"
+msgstr "复本号"
 
 #: Koha/Database/Columns.pm:241
 msgid "Inventory number"
 msgstr "登录簿发票号码"
 
-#: Koha/Database/Columns.pm:243
+#: Koha/Database/Columns.pm:242
 #, fuzzy
-msgid "Uniform resource identifier"
-msgstr "唯一辨识码"
+msgid "New status"
+msgstr "设置状态"
 
-#: Koha/Database/Columns.pm:244
-msgid "Withdrawn on"
-msgstr "注销"
+#: Koha/Database/Columns.pm:243
+msgid "Exclude from local holds priority"
+msgstr ""
 
-#: Koha/Database/Columns.pm:245
-msgid "Withdrawn status"
-msgstr "注销状态"
+#: Koha/Database/Columns.pm:246 Koha/Database/Columns.pm:305
+msgid "Statistics date and time"
+msgstr "统计的曰期与时间"
 
-#: Koha/Database/Columns.pm:248
+#: Koha/Database/Columns.pm:247 Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:313 Koha/Database/Columns.pm:322
+msgid "Library"
+msgstr "图书馆"
+
+#: Koha/Database/Columns.pm:248 Koha/Database/Columns.pm:310
+msgid "Value"
+msgstr "值"
+
+#: Koha/Database/Columns.pm:249
+#, fuzzy
+msgid "Transaction type"
+msgstr "登记日期"
+
+#: Koha/Database/Columns.pm:250
+msgid "SIP mode"
+msgstr ""
+
+#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:306
+msgid "Item number"
+msgstr "馆藏号"
+
+#: Koha/Database/Columns.pm:252
+#, fuzzy
+msgid "Koha item type"
+msgstr "Koha馆藏类型"
+
+#: Koha/Database/Columns.pm:259
 msgid "Abstract"
 msgstr ""
 
-#: Koha/Database/Columns.pm:249 Koha/Database/Columns.pm:310
+#: Koha/Database/Columns.pm:260 Koha/Database/Columns.pm:321
 msgid "Author"
 msgstr "著者"
 
-#: Koha/Database/Columns.pm:250 Koha/Database/Columns.pm:268
+#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:279
 msgid "Biblio number"
 msgstr "书目号码"
 
-#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:313
+#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:324
 #, fuzzy
 msgid "Copyright date"
 msgstr "着作权年"
 
-#: Koha/Database/Columns.pm:253
+#: Koha/Database/Columns.pm:264
 msgid "Framework code"
 msgstr "框架代码"
 
-#: Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:265
 msgid "Medium"
 msgstr ""
 
-#: Koha/Database/Columns.pm:255 Koha/Database/Columns.pm:276
+#: Koha/Database/Columns.pm:266 Koha/Database/Columns.pm:287
 msgid "Notes"
 msgstr "说明"
 
-#: Koha/Database/Columns.pm:256
+#: Koha/Database/Columns.pm:267
 msgid "Name of part/section of a work"
 msgstr ""
 
-#: Koha/Database/Columns.pm:257
+#: Koha/Database/Columns.pm:268
 msgid "Number of part/section of a work"
 msgstr ""
 
-#: Koha/Database/Columns.pm:258
+#: Koha/Database/Columns.pm:269
 msgid "Is a serial?"
 msgstr ""
 
-#: Koha/Database/Columns.pm:259
+#: Koha/Database/Columns.pm:270
 msgid "Series title"
 msgstr ""
 
-#: Koha/Database/Columns.pm:260
+#: Koha/Database/Columns.pm:271
 msgid "Remainder of title"
 msgstr ""
 
-#: Koha/Database/Columns.pm:261
+#: Koha/Database/Columns.pm:272
 msgid "Modification date"
 msgstr "修改日期"
 
-#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:285
-#: Koha/Database/Columns.pm:321
+#: Koha/Database/Columns.pm:273 Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:332
 msgid "Title"
 msgstr "题名"
 
-#: Koha/Database/Columns.pm:263
+#: Koha/Database/Columns.pm:274
 msgid "Uniform title"
 msgstr ""
 
-#: Koha/Database/Columns.pm:266
+#: Koha/Database/Columns.pm:277
 msgid "Age restriction"
 msgstr "年龄限制"
 
-#: Koha/Database/Columns.pm:267
+#: Koha/Database/Columns.pm:278
 msgid "Biblioitem number"
 msgstr "书目馆藏号"
 
-#: Koha/Database/Columns.pm:269
+#: Koha/Database/Columns.pm:280
 msgid "Classification"
 msgstr "分类法"
 
-#: Koha/Database/Columns.pm:270
+#: Koha/Database/Columns.pm:281
 msgid "Dewey/classification"
 msgstr "杜威/分类法"
 
-#: Koha/Database/Columns.pm:271
+#: Koha/Database/Columns.pm:282
 msgid "Illustrations"
 msgstr "插图"
 
-#: Koha/Database/Columns.pm:272 Koha/Database/Columns.pm:314
+#: Koha/Database/Columns.pm:283 Koha/Database/Columns.pm:325
 msgid "ISBN"
 msgstr "ISBN"
 
-#: Koha/Database/Columns.pm:273
+#: Koha/Database/Columns.pm:284
 msgid "ISSN"
 msgstr "ISSN"
 
-#: Koha/Database/Columns.pm:274
+#: Koha/Database/Columns.pm:285
 msgid "Biblio-level item type"
 msgstr "书目层级的馆藏类型"
 
-#: Koha/Database/Columns.pm:275
+#: Koha/Database/Columns.pm:286
 msgid "LCCN"
 msgstr "LCCN"
 
-#: Koha/Database/Columns.pm:277
+#: Koha/Database/Columns.pm:288
 msgid "Number"
 msgstr "数字"
 
-#: Koha/Database/Columns.pm:278
+#: Koha/Database/Columns.pm:289
 msgid "Number of pages"
 msgstr "页数"
 
-#: Koha/Database/Columns.pm:279 Koha/Database/Columns.pm:318
+#: Koha/Database/Columns.pm:290 Koha/Database/Columns.pm:329
 msgid "Place of publication"
 msgstr "出版地"
 
-#: Koha/Database/Columns.pm:280
+#: Koha/Database/Columns.pm:291
 msgid "Publication date"
 msgstr "出版年"
 
-#: Koha/Database/Columns.pm:281 Koha/Database/Columns.pm:319
+#: Koha/Database/Columns.pm:292 Koha/Database/Columns.pm:330
 msgid "Publisher"
 msgstr "出版者"
 
-#: Koha/Database/Columns.pm:282
+#: Koha/Database/Columns.pm:293
 msgid "Size"
 msgstr "尺寸"
 
-#: Koha/Database/Columns.pm:283
+#: Koha/Database/Columns.pm:294
 msgid "Sub classification"
 msgstr "次分类法"
 
-#: Koha/Database/Columns.pm:286
+#: Koha/Database/Columns.pm:297
 msgid "URL"
 msgstr "网址"
 
-#: Koha/Database/Columns.pm:287
+#: Koha/Database/Columns.pm:298
 msgid "Volume number"
 msgstr "册编号"
 
-#: Koha/Database/Columns.pm:288
+#: Koha/Database/Columns.pm:299
 msgid "Volume date"
 msgstr "容量曰期"
 
-#: Koha/Database/Columns.pm:289
+#: Koha/Database/Columns.pm:300
 msgid "Volume information"
 msgstr "容量信息"
 
-#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:302
-#: Koha/Database/Columns.pm:311
-msgid "Library"
-msgstr "图书馆"
-
-#: Koha/Database/Columns.pm:294
-msgid "Statistics date and time"
-msgstr "统计的曰期与时间"
-
-#: Koha/Database/Columns.pm:295
-msgid "Item number"
-msgstr "馆藏号"
-
-#: Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:307
 msgid "Itemtype"
 msgstr "馆藏类型"
 
-#: Koha/Database/Columns.pm:298
+#: Koha/Database/Columns.pm:309
 msgid "Type"
 msgstr "类型"
 
-#: Koha/Database/Columns.pm:299
-msgid "Value"
-msgstr "值"
-
-#: Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:315
 msgid "End date"
 msgstr "终止日期"
 
-#: Koha/Database/Columns.pm:305
+#: Koha/Database/Columns.pm:316
 msgid "Location"
 msgstr "位置"
 
-#: Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:317
 msgid "Periodicity"
 msgstr "定期"
 
-#: Koha/Database/Columns.pm:307
+#: Koha/Database/Columns.pm:318
 msgid "Start date"
 msgstr "开始日期"
 
-#: Koha/Database/Columns.pm:312
+#: Koha/Database/Columns.pm:323
 #, fuzzy
 msgid "Collection title"
 msgstr "馆藏题名："
 
-#: Koha/Database/Columns.pm:315
+#: Koha/Database/Columns.pm:326
 #, fuzzy
 msgid "Item type"
 msgstr "馆藏类型"
 
-#: Koha/Database/Columns.pm:316
+#: Koha/Database/Columns.pm:327
 #, fuzzy
 msgid "Note"
 msgstr "说明"
 
-#: Koha/Database/Columns.pm:317
+#: Koha/Database/Columns.pm:328
 #, fuzzy
 msgid "Patron reason"
 msgstr "读者至 "
@@ -3012,7 +3019,7 @@ msgstr ""
 msgid "Overdues at {library}"
 msgstr "永久图书馆"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:773
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:781
 #, fuzzy, perl-brace-format
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
@@ -3211,6 +3218,16 @@ msgid "message"
 msgid_plural "messages"
 msgstr[0] "消息"
 msgstr[1] "消息"
+
+#~ msgid "Biblio number (internal)"
+#~ msgstr "书目号码(内部)"
+
+#, fuzzy
+#~ msgid "Date of deletion"
+#~ msgstr "生日"
+
+#~ msgid "Item number (internal)"
+#~ msgstr "馆藏号(内部)"
 
 #, fuzzy
 #~ msgctxt "citations"

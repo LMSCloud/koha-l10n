@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2022-05-01 10:43-0300\n"
 "Language-Team: Koha Translation Team \n"
 "Language: mi\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "unknown"
 msgstr "kāore i te mōhiotia"
 
-#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:231
+#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:211
 #, fuzzy
 msgid "Not for loan"
 msgstr "Kāore e taea te houtu taurewa %s"
@@ -1610,7 +1610,7 @@ msgstr ""
 msgid "Budgeted cost"
 msgstr ""
 
-#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:252
+#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:263
 #, fuzzy
 msgid "Creation date"
 msgstr "Rā mōnehu:"
@@ -1631,7 +1631,7 @@ msgstr ""
 msgid "Vendor price"
 msgstr ""
 
-#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:223
+#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:225
 #, fuzzy
 msgid "Internal note"
 msgstr "Tuhipoka whakapā:"
@@ -1654,7 +1654,7 @@ msgstr "Rārangi hou"
 msgid "Parent order number (internal)"
 msgstr ""
 
-#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:320
+#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:331
 #, fuzzy
 msgid "Quantity"
 msgstr "Tautohu"
@@ -1663,7 +1663,7 @@ msgstr "Tautohu"
 msgid "Quantity received"
 msgstr ""
 
-#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:236
+#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:206
 msgid "Replacement price"
 msgstr ""
 
@@ -1731,8 +1731,8 @@ msgstr ""
 msgid "Tax amount on receive"
 msgstr ""
 
-#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:242
-#: Koha/Database/Columns.pm:284
+#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:295
 msgid "Timestamp"
 msgstr ""
 
@@ -1874,7 +1874,8 @@ msgstr "Wāhinoho kē"
 msgid "Circulation note"
 msgstr "Ngā tuhipoka kōrero paki:"
 
-#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:292
+#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:303
 #, fuzzy
 msgid "Borrower number"
 msgstr "taukaimimo"
@@ -1888,7 +1889,7 @@ msgstr "Whare pukapuka kāinga"
 msgid "Card number"
 msgstr "Tau kāri:"
 
-#: Koha/Database/Columns.pm:144
+#: Koha/Database/Columns.pm:144 Koha/Database/Columns.pm:256
 msgid "Patron category"
 msgstr ""
 
@@ -2130,410 +2131,416 @@ msgid "ZIP/Postal code"
 msgstr "ZIP/Waehere poutāpeta:"
 
 #: Koha/Database/Columns.pm:200
-msgid "Barcode"
-msgstr "Waeherepae"
-
-#: Koha/Database/Columns.pm:201
 msgid "Biblioitem number (internal)"
 msgstr ""
 
+#: Koha/Database/Columns.pm:201
+msgid "Barcode"
+msgstr "Waeherepae"
+
 #: Koha/Database/Columns.pm:202
-msgid "Biblio number (internal)"
-msgstr ""
+#, fuzzy
+msgid "Date acquired"
+msgstr "Rā i tāpiritia"
 
 #: Koha/Database/Columns.pm:203
 msgid "Source of acquisition"
 msgstr ""
 
 #: Koha/Database/Columns.pm:204
-msgid "Collection"
-msgstr "Kohinga"
-
-#: Koha/Database/Columns.pm:205
-msgid "Koha normalized classification for sorting"
-msgstr ""
-
-#: Koha/Database/Columns.pm:206
-msgid "Source of classification / shelving scheme"
-msgstr ""
-
-#: Koha/Database/Columns.pm:207
-msgid "Coded location qualifier"
-msgstr ""
-
-#: Koha/Database/Columns.pm:208
-msgid "Copy number"
-msgstr "Tau tārua"
-
-#: Koha/Database/Columns.pm:209
-#, fuzzy
-msgid "Damaged on"
-msgstr "Pakaru ("
-
-#: Koha/Database/Columns.pm:210
-#, fuzzy
-msgid "Damaged status"
-msgstr "Pakaru ("
-
-#: Koha/Database/Columns.pm:211
-#, fuzzy
-msgid "Date acquired"
-msgstr "Rā i tāpiritia"
-
-#: Koha/Database/Columns.pm:212
-#, fuzzy
-msgid "Date last checked out"
-msgstr "Tē taea te tuemi te taki atu."
-
-#: Koha/Database/Columns.pm:213
-msgid "Date last seen"
-msgstr ""
-
-#: Koha/Database/Columns.pm:214
-#, fuzzy
-msgid "Date of deletion"
-msgstr "Rā whānau:"
-
-#: Koha/Database/Columns.pm:215
-msgid "Serial enumeraton/chronology"
-msgstr ""
-
-#: Koha/Database/Columns.pm:216
-msgid "Exclude from local holds priority"
-msgstr ""
-
-#: Koha/Database/Columns.pm:217
-msgid "Current library"
-msgstr "Tauwāhi onāianei"
-
-#: Koha/Database/Columns.pm:218
 #, fuzzy
 msgid "Permanent library"
 msgstr "Tauwāhi onāianei"
 
+#: Koha/Database/Columns.pm:205
+msgid "Price"
+msgstr ""
+
+#: Koha/Database/Columns.pm:207
+msgid "Price effective from"
+msgstr ""
+
+#: Koha/Database/Columns.pm:208
+#, fuzzy
+msgid "Date last checked out"
+msgstr "Tē taea te tuemi te taki atu."
+
+#: Koha/Database/Columns.pm:209
+msgid "Date last seen"
+msgstr ""
+
+#: Koha/Database/Columns.pm:210
+msgid "Shelving control number"
+msgstr ""
+
+#: Koha/Database/Columns.pm:212
+#, fuzzy
+msgid "Damaged status"
+msgstr "Pakaru ("
+
+#: Koha/Database/Columns.pm:213
+#, fuzzy
+msgid "Damaged on"
+msgstr "Pakaru ("
+
+#: Koha/Database/Columns.pm:214
+#, fuzzy
+msgid "Lost status"
+msgstr "Tauwāhi (Tūnga)"
+
+#: Koha/Database/Columns.pm:215
+msgid "Lost on"
+msgstr ""
+
+#: Koha/Database/Columns.pm:216
+msgid "Withdrawn status"
+msgstr ""
+
+#: Koha/Database/Columns.pm:217
+#, fuzzy
+msgid "Withdrawn on"
+msgstr "Kua kounu te tuemi"
+
+#: Koha/Database/Columns.pm:218 Koha/Database/Columns.pm:314
+msgid "Call number"
+msgstr "Tau karanga"
+
 #: Koha/Database/Columns.pm:219
+msgid "Coded location qualifier"
+msgstr ""
+
+#: Koha/Database/Columns.pm:220
 #, fuzzy
 msgid "Total checkouts"
 msgstr "Ngā taki atu ā-pae"
 
-#: Koha/Database/Columns.pm:220 Koha/Database/Columns.pm:303
-msgid "Call number"
-msgstr "Tau karanga"
-
 #: Koha/Database/Columns.pm:221
-msgid "Lost on"
-msgstr ""
+#, fuzzy
+msgid "Total renewals"
+msgstr "%s Kāore e taea te whakahou "
 
 #: Koha/Database/Columns.pm:222
 #, fuzzy
-msgid "Lost status"
-msgstr "Tauwāhi (Tūnga)"
+msgid "Total holds"
+msgstr "Ngā puringa katoa: %s"
+
+#: Koha/Database/Columns.pm:223
+#, fuzzy
+msgid "Use restrictions"
+msgstr "Whakaahuatanga kaupapa"
 
 #: Koha/Database/Columns.pm:224
 #, fuzzy
 msgid "Public note"
 msgstr "Tāpae tuhipoka"
 
-#: Koha/Database/Columns.pm:225
-msgid "Item number (internal)"
-msgstr ""
-
 #: Koha/Database/Columns.pm:226
-#, fuzzy
-msgid "Koha item type"
-msgstr "Tētahi momo tuemi"
-
-#: Koha/Database/Columns.pm:227
-#, fuzzy
-msgid "Shelving location"
+msgid "Current library"
 msgstr "Tauwāhi onāianei"
 
 #: Koha/Database/Columns.pm:228
 #, fuzzy
-msgid "Materials specified"
-msgstr "Kāore tētahi tūtohu i tautuhia."
+msgid "Deleted on"
+msgstr "Pakaru ("
 
-#: Koha/Database/Columns.pm:229
-msgid "Additional subfields (XML)"
-msgstr ""
+#: Koha/Database/Columns.pm:229 Koha/Database/Columns.pm:253
+#, fuzzy
+msgid "Shelving location"
+msgstr "Tauwāhi onāianei"
 
 #: Koha/Database/Columns.pm:230
-#, fuzzy
-msgid "New status"
-msgstr "Rārangi hou"
-
-#: Koha/Database/Columns.pm:232
-#, fuzzy
-msgid "Due date"
-msgstr "Ūkui rā"
-
-#: Koha/Database/Columns.pm:233
 #, fuzzy
 msgid "Permanent shelving location"
 msgstr "Tauwāhi onāianei"
 
-#: Koha/Database/Columns.pm:234
-msgid "Price"
+#: Koha/Database/Columns.pm:231
+#, fuzzy
+msgid "Due date"
+msgstr "Ūkui rā"
+
+#: Koha/Database/Columns.pm:232
+msgid "Source of classification / shelving scheme"
 msgstr ""
+
+#: Koha/Database/Columns.pm:233
+msgid "Koha normalized classification for sorting"
+msgstr ""
+
+#: Koha/Database/Columns.pm:234 Koha/Database/Columns.pm:255
+msgid "Collection"
+msgstr "Kohinga"
 
 #: Koha/Database/Columns.pm:235
 #, fuzzy
-msgid "Total renewals"
-msgstr "%s Kāore e taea te whakahou "
+msgid "Materials specified"
+msgstr "Kāore tētahi tūtohu i tautuhia."
+
+#: Koha/Database/Columns.pm:236
+msgid "Uniform Resource Identifier"
+msgstr ""
 
 #: Koha/Database/Columns.pm:237
-msgid "Price effective from"
-msgstr ""
+#, fuzzy
+msgid "Koha itemtype"
+msgstr "Tētahi momo tuemi"
 
 #: Koha/Database/Columns.pm:238
-#, fuzzy
-msgid "Total holds"
-msgstr "Ngā puringa katoa: %s"
+msgid "Additional subfields (XML)"
+msgstr ""
 
 #: Koha/Database/Columns.pm:239
-#, fuzzy
-msgid "Use restrictions"
-msgstr "Whakaahuatanga kaupapa"
+msgid "Serial enumeraton/chronology"
+msgstr ""
 
 #: Koha/Database/Columns.pm:240
-msgid "Shelving control number"
-msgstr ""
+msgid "Copy number"
+msgstr "Tau tārua"
 
 #: Koha/Database/Columns.pm:241
 #, fuzzy
 msgid "Inventory number"
 msgstr "Tau tārua"
 
+#: Koha/Database/Columns.pm:242
+#, fuzzy
+msgid "New status"
+msgstr "Rārangi hou"
+
 #: Koha/Database/Columns.pm:243
-msgid "Uniform resource identifier"
+msgid "Exclude from local holds priority"
 msgstr ""
 
-#: Koha/Database/Columns.pm:244
-#, fuzzy
-msgid "Withdrawn on"
-msgstr "Kua kounu te tuemi"
-
-#: Koha/Database/Columns.pm:245
-msgid "Withdrawn status"
-msgstr ""
-
-#: Koha/Database/Columns.pm:248
-msgid "Abstract"
-msgstr ""
-
-#: Koha/Database/Columns.pm:249 Koha/Database/Columns.pm:310
-msgid "Author"
-msgstr "Kaituhi"
-
-#: Koha/Database/Columns.pm:250 Koha/Database/Columns.pm:268
-#, fuzzy
-msgid "Biblio number"
-msgstr "Ngā pūkete pukapuka"
-
-#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:313
-#, fuzzy
-msgid "Copyright date"
-msgstr "Rā manatārua"
-
-#: Koha/Database/Columns.pm:253
-msgid "Framework code"
-msgstr ""
-
-#: Koha/Database/Columns.pm:254
-msgid "Medium"
-msgstr ""
-
-#: Koha/Database/Columns.pm:255 Koha/Database/Columns.pm:276
-msgid "Notes"
-msgstr "Ngā tuhipoka"
-
-#: Koha/Database/Columns.pm:256
-msgid "Name of part/section of a work"
-msgstr ""
-
-#: Koha/Database/Columns.pm:257
-msgid "Number of part/section of a work"
-msgstr ""
-
-#: Koha/Database/Columns.pm:258
-msgid "Is a serial?"
-msgstr ""
-
-#: Koha/Database/Columns.pm:259
-msgid "Series title"
-msgstr ""
-
-#: Koha/Database/Columns.pm:260
-msgid "Remainder of title"
-msgstr ""
-
-#: Koha/Database/Columns.pm:261
-#, fuzzy
-msgid "Modification date"
-msgstr "Rā mōnehu:"
-
-#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:285
-#: Koha/Database/Columns.pm:321
-msgid "Title"
-msgstr "Taitara"
-
-#: Koha/Database/Columns.pm:263
-msgid "Uniform title"
-msgstr ""
-
-#: Koha/Database/Columns.pm:266
-#, fuzzy
-msgid "Age restriction"
-msgstr "Whakaahuatanga"
-
-#: Koha/Database/Columns.pm:267
-#, fuzzy
-msgid "Biblioitem number"
-msgstr "Tau karanga tuemi"
-
-#: Koha/Database/Columns.pm:269
-msgid "Classification"
-msgstr "Whakarōpūtanga"
-
-#: Koha/Database/Columns.pm:270
-#, fuzzy
-msgid "Dewey/classification"
-msgstr "Whakarōpūtanga"
-
-#: Koha/Database/Columns.pm:271
-#, fuzzy
-msgid "Illustrations"
-msgstr "whakaahua"
-
-#: Koha/Database/Columns.pm:272 Koha/Database/Columns.pm:314
-msgid "ISBN"
-msgstr "ISBN"
-
-#: Koha/Database/Columns.pm:273
-msgid "ISSN"
-msgstr "ISSN"
-
-#: Koha/Database/Columns.pm:274
-#, fuzzy
-msgid "Biblio-level item type"
-msgstr "Momo mea katoa"
-
-#: Koha/Database/Columns.pm:275
-msgid "LCCN"
-msgstr "LCCN"
-
-#: Koha/Database/Columns.pm:277
-msgid "Number"
-msgstr "Tau"
-
-#: Koha/Database/Columns.pm:278
-#, fuzzy
-msgid "Number of pages"
-msgstr "Maha o ngā puringa: "
-
-#: Koha/Database/Columns.pm:279 Koha/Database/Columns.pm:318
-#, fuzzy
-msgid "Place of publication"
-msgstr "Whakaputanga:"
-
-#: Koha/Database/Columns.pm:280
-#, fuzzy
-msgid "Publication date"
-msgstr "Awhe rā whakaputa"
-
-#: Koha/Database/Columns.pm:281 Koha/Database/Columns.pm:319
-msgid "Publisher"
-msgstr "Kaiwhakaputa"
-
-#: Koha/Database/Columns.pm:282
-msgid "Size"
-msgstr ""
-
-#: Koha/Database/Columns.pm:283
-#, fuzzy
-msgid "Sub classification"
-msgstr "Whakarōpūtanga"
-
-#: Koha/Database/Columns.pm:286
-msgid "URL"
-msgstr "URL"
-
-#: Koha/Database/Columns.pm:287
-#, fuzzy
-msgid "Volume number"
-msgstr "Tau akoranga:"
-
-#: Koha/Database/Columns.pm:288
-#, fuzzy
-msgid "Volume date"
-msgstr "Pukapuka"
-
-#: Koha/Database/Columns.pm:289
-#, fuzzy
-msgid "Volume information"
-msgstr "Mōhiohio whakapā"
-
-#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:302
-#: Koha/Database/Columns.pm:311
-msgid "Library"
-msgstr "Whare pukapuka"
-
-#: Koha/Database/Columns.pm:294
+#: Koha/Database/Columns.pm:246 Koha/Database/Columns.pm:305
 msgid "Statistics date and time"
 msgstr ""
 
-#: Koha/Database/Columns.pm:295
+#: Koha/Database/Columns.pm:247 Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:313 Koha/Database/Columns.pm:322
+msgid "Library"
+msgstr "Whare pukapuka"
+
+#: Koha/Database/Columns.pm:248 Koha/Database/Columns.pm:310
+msgid "Value"
+msgstr ""
+
+#: Koha/Database/Columns.pm:249
+#, fuzzy
+msgid "Transaction type"
+msgstr "Rā mōnehu:"
+
+#: Koha/Database/Columns.pm:250
+msgid "SIP mode"
+msgstr ""
+
+#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:306
 #, fuzzy
 msgid "Item number"
 msgstr "Tau karanga tuemi"
 
-#: Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:252
+#, fuzzy
+msgid "Koha item type"
+msgstr "Tētahi momo tuemi"
+
+#: Koha/Database/Columns.pm:259
+msgid "Abstract"
+msgstr ""
+
+#: Koha/Database/Columns.pm:260 Koha/Database/Columns.pm:321
+msgid "Author"
+msgstr "Kaituhi"
+
+#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:279
+#, fuzzy
+msgid "Biblio number"
+msgstr "Ngā pūkete pukapuka"
+
+#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:324
+#, fuzzy
+msgid "Copyright date"
+msgstr "Rā manatārua"
+
+#: Koha/Database/Columns.pm:264
+msgid "Framework code"
+msgstr ""
+
+#: Koha/Database/Columns.pm:265
+msgid "Medium"
+msgstr ""
+
+#: Koha/Database/Columns.pm:266 Koha/Database/Columns.pm:287
+msgid "Notes"
+msgstr "Ngā tuhipoka"
+
+#: Koha/Database/Columns.pm:267
+msgid "Name of part/section of a work"
+msgstr ""
+
+#: Koha/Database/Columns.pm:268
+msgid "Number of part/section of a work"
+msgstr ""
+
+#: Koha/Database/Columns.pm:269
+msgid "Is a serial?"
+msgstr ""
+
+#: Koha/Database/Columns.pm:270
+msgid "Series title"
+msgstr ""
+
+#: Koha/Database/Columns.pm:271
+msgid "Remainder of title"
+msgstr ""
+
+#: Koha/Database/Columns.pm:272
+#, fuzzy
+msgid "Modification date"
+msgstr "Rā mōnehu:"
+
+#: Koha/Database/Columns.pm:273 Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:332
+msgid "Title"
+msgstr "Taitara"
+
+#: Koha/Database/Columns.pm:274
+msgid "Uniform title"
+msgstr ""
+
+#: Koha/Database/Columns.pm:277
+#, fuzzy
+msgid "Age restriction"
+msgstr "Whakaahuatanga"
+
+#: Koha/Database/Columns.pm:278
+#, fuzzy
+msgid "Biblioitem number"
+msgstr "Tau karanga tuemi"
+
+#: Koha/Database/Columns.pm:280
+msgid "Classification"
+msgstr "Whakarōpūtanga"
+
+#: Koha/Database/Columns.pm:281
+#, fuzzy
+msgid "Dewey/classification"
+msgstr "Whakarōpūtanga"
+
+#: Koha/Database/Columns.pm:282
+#, fuzzy
+msgid "Illustrations"
+msgstr "whakaahua"
+
+#: Koha/Database/Columns.pm:283 Koha/Database/Columns.pm:325
+msgid "ISBN"
+msgstr "ISBN"
+
+#: Koha/Database/Columns.pm:284
+msgid "ISSN"
+msgstr "ISSN"
+
+#: Koha/Database/Columns.pm:285
+#, fuzzy
+msgid "Biblio-level item type"
+msgstr "Momo mea katoa"
+
+#: Koha/Database/Columns.pm:286
+msgid "LCCN"
+msgstr "LCCN"
+
+#: Koha/Database/Columns.pm:288
+msgid "Number"
+msgstr "Tau"
+
+#: Koha/Database/Columns.pm:289
+#, fuzzy
+msgid "Number of pages"
+msgstr "Maha o ngā puringa: "
+
+#: Koha/Database/Columns.pm:290 Koha/Database/Columns.pm:329
+#, fuzzy
+msgid "Place of publication"
+msgstr "Whakaputanga:"
+
+#: Koha/Database/Columns.pm:291
+#, fuzzy
+msgid "Publication date"
+msgstr "Awhe rā whakaputa"
+
+#: Koha/Database/Columns.pm:292 Koha/Database/Columns.pm:330
+msgid "Publisher"
+msgstr "Kaiwhakaputa"
+
+#: Koha/Database/Columns.pm:293
+msgid "Size"
+msgstr ""
+
+#: Koha/Database/Columns.pm:294
+#, fuzzy
+msgid "Sub classification"
+msgstr "Whakarōpūtanga"
+
+#: Koha/Database/Columns.pm:297
+msgid "URL"
+msgstr "URL"
+
+#: Koha/Database/Columns.pm:298
+#, fuzzy
+msgid "Volume number"
+msgstr "Tau akoranga:"
+
+#: Koha/Database/Columns.pm:299
+#, fuzzy
+msgid "Volume date"
+msgstr "Pukapuka"
+
+#: Koha/Database/Columns.pm:300
+#, fuzzy
+msgid "Volume information"
+msgstr "Mōhiohio whakapā"
+
+#: Koha/Database/Columns.pm:307
 #, fuzzy
 msgid "Itemtype"
 msgstr "Momo tuemi"
 
-#: Koha/Database/Columns.pm:298
+#: Koha/Database/Columns.pm:309
 msgid "Type"
 msgstr "Momo"
 
-#: Koha/Database/Columns.pm:299
-msgid "Value"
-msgstr ""
-
-#: Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:315
 #, fuzzy
 msgid "End date"
 msgstr "Rā pupuri"
 
-#: Koha/Database/Columns.pm:305
+#: Koha/Database/Columns.pm:316
 msgid "Location"
 msgstr "Tauwāhi"
 
-#: Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:317
 msgid "Periodicity"
 msgstr "Riterite tonutanga"
 
-#: Koha/Database/Columns.pm:307
+#: Koha/Database/Columns.pm:318
 #, fuzzy
 msgid "Start date"
 msgstr "Ūkui rā"
 
-#: Koha/Database/Columns.pm:312
+#: Koha/Database/Columns.pm:323
 #, fuzzy
 msgid "Collection title"
 msgstr "Taitara kohinga:"
 
-#: Koha/Database/Columns.pm:315
+#: Koha/Database/Columns.pm:326
 #, fuzzy
 msgid "Item type"
 msgstr "Momo tuemi"
 
-#: Koha/Database/Columns.pm:316
+#: Koha/Database/Columns.pm:327
 #, fuzzy
 msgid "Note"
 msgstr "Ngā tuhipoka"
 
-#: Koha/Database/Columns.pm:317
+#: Koha/Database/Columns.pm:328
 #, fuzzy
 msgid "Patron reason"
 msgstr "Kāore i te mōhiotia"
@@ -3087,7 +3094,7 @@ msgstr ""
 msgid "Overdues at {library}"
 msgstr "Tauwāhi onāianei"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:773
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:781
 #, perl-brace-format
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
@@ -3286,6 +3293,10 @@ msgid "message"
 msgid_plural "messages"
 msgstr[0] "I tukuna te karere"
 msgstr[1] "I tukuna te karere"
+
+#, fuzzy
+#~ msgid "Date of deletion"
+#~ msgstr "Rā whānau:"
 
 #, fuzzy
 #~ msgctxt "citations"

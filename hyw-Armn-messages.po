@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2022-05-01 10:04-0300\n"
 "Language-Team: Koha Translation Team \n"
 "Language: hyw\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "unknown"
 msgstr "անհայտ"
 
-#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:231
+#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:211
 msgid "Not for loan"
 msgstr "Դուրս տրման համար չէ"
 
@@ -1612,7 +1612,7 @@ msgstr ""
 msgid "Budgeted cost"
 msgstr ""
 
-#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:252
+#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:263
 msgid "Creation date"
 msgstr "Ստեղծման ամսաթիվ"
 
@@ -1633,7 +1633,7 @@ msgstr ""
 msgid "Vendor price"
 msgstr ""
 
-#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:223
+#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:225
 msgid "Internal note"
 msgstr "Ներքին նշում"
 
@@ -1656,7 +1656,7 @@ msgstr "Չկա կարգավիճակ"
 msgid "Parent order number (internal)"
 msgstr "Նյութի համար (ներքին)"
 
-#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:320
+#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:331
 #, fuzzy
 msgid "Quantity"
 msgstr "Քանակ"
@@ -1665,7 +1665,7 @@ msgstr "Քանակ"
 msgid "Quantity received"
 msgstr ""
 
-#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:236
+#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:206
 msgid "Replacement price"
 msgstr "Փոխարինման գին"
 
@@ -1735,8 +1735,8 @@ msgstr ""
 msgid "Tax amount on receive"
 msgstr ""
 
-#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:242
-#: Koha/Database/Columns.pm:284
+#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:295
 msgid "Timestamp"
 msgstr "Ժամանակի կնիք"
 
@@ -1857,7 +1857,8 @@ msgstr "Այլընտրանքային հասցե։ Փոստային կոդ"
 msgid "Circulation note"
 msgstr "Տացքի նշում"
 
-#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:292
+#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:303
 msgid "Borrower number"
 msgstr "Պատվիրատուի նամար"
 
@@ -1869,7 +1870,7 @@ msgstr "Տնային գրադարան"
 msgid "Card number"
 msgstr "Քարտի համար"
 
-#: Koha/Database/Columns.pm:144
+#: Koha/Database/Columns.pm:144 Koha/Database/Columns.pm:256
 msgid "Patron category"
 msgstr "Հաճախորդի դաս"
 
@@ -2083,376 +2084,382 @@ msgid "ZIP/Postal code"
 msgstr "Զիպ/փոստային կոդ"
 
 #: Koha/Database/Columns.pm:200
-msgid "Barcode"
-msgstr "Շտրիխկոդ"
-
-#: Koha/Database/Columns.pm:201
 msgid "Biblioitem number (internal)"
 msgstr "Բիբլիոնյութի համար (ներքին)"
 
+#: Koha/Database/Columns.pm:201
+msgid "Barcode"
+msgstr "Շտրիխկոդ"
+
 #: Koha/Database/Columns.pm:202
-msgid "Biblio number (internal)"
-msgstr "Բիբլիո համար (ներքին)"
+msgid "Date acquired"
+msgstr "Ձեռք բերման ամսաթիվ"
 
 #: Koha/Database/Columns.pm:203
 msgid "Source of acquisition"
 msgstr "Համալրման աղբյուր"
 
 #: Koha/Database/Columns.pm:204
-msgid "Collection"
-msgstr "Հավաքածու"
-
-#: Koha/Database/Columns.pm:205
-msgid "Koha normalized classification for sorting"
-msgstr "Կոհա նորմալացված դասակարգում տեսակավորման համար"
-
-#: Koha/Database/Columns.pm:206
-msgid "Source of classification / shelving scheme"
-msgstr "Դասակարգման աղբյուր / դասավորման սխեմա"
-
-#: Koha/Database/Columns.pm:207
-msgid "Coded location qualifier"
-msgstr ""
-
-#: Koha/Database/Columns.pm:208
-msgid "Copy number"
-msgstr "Պատճենի համար"
-
-#: Koha/Database/Columns.pm:209
-msgid "Damaged on"
-msgstr "Վնասված է"
-
-#: Koha/Database/Columns.pm:210
-msgid "Damaged status"
-msgstr "Վնասված վիճակ"
-
-#: Koha/Database/Columns.pm:211
-msgid "Date acquired"
-msgstr "Ձեռք բերման ամսաթիվ"
-
-#: Koha/Database/Columns.pm:212
-msgid "Date last checked out"
-msgstr "վերջին սպասարկման ամսաթիվ"
-
-#: Koha/Database/Columns.pm:213
-msgid "Date last seen"
-msgstr "Վերջին տեսած ամսաթիվ"
-
-#: Koha/Database/Columns.pm:214
-#, fuzzy
-msgid "Date of deletion"
-msgstr "Ծննդյան ամսաթիվ"
-
-#: Koha/Database/Columns.pm:215
-msgid "Serial enumeraton/chronology"
-msgstr "Պարբերականի թվարկում/ժամանակագրություն"
-
-#: Koha/Database/Columns.pm:216
-msgid "Exclude from local holds priority"
-msgstr ""
-
-#: Koha/Database/Columns.pm:217
-msgid "Current library"
-msgstr "Ընթացիկ գրադարան"
-
-#: Koha/Database/Columns.pm:218
 msgid "Permanent library"
 msgstr "Մշտական գրադարան"
 
-#: Koha/Database/Columns.pm:219
-msgid "Total checkouts"
-msgstr "Գումարային դուրս տրումներ"
+#: Koha/Database/Columns.pm:205
+msgid "Price"
+msgstr "Գին"
 
-#: Koha/Database/Columns.pm:220 Koha/Database/Columns.pm:303
-msgid "Call number"
-msgstr "Դասիչ"
+#: Koha/Database/Columns.pm:207
+msgid "Price effective from"
+msgstr "Գինը իրական է սկսած"
 
-#: Koha/Database/Columns.pm:221
+#: Koha/Database/Columns.pm:208
+msgid "Date last checked out"
+msgstr "վերջին սպասարկման ամսաթիվ"
+
+#: Koha/Database/Columns.pm:209
+msgid "Date last seen"
+msgstr "Վերջին տեսած ամսաթիվ"
+
+#: Koha/Database/Columns.pm:210
+msgid "Shelving control number"
+msgstr "Դարակի ստուգիչ համար"
+
+#: Koha/Database/Columns.pm:212
+msgid "Damaged status"
+msgstr "Վնասված վիճակ"
+
+#: Koha/Database/Columns.pm:213
+msgid "Damaged on"
+msgstr "Վնասված է"
+
+#: Koha/Database/Columns.pm:214
+msgid "Lost status"
+msgstr "Կորածի կարգավիճակ"
+
+#: Koha/Database/Columns.pm:215
 msgid "Lost on"
 msgstr "Կորած"
 
+#: Koha/Database/Columns.pm:216
+msgid "Withdrawn status"
+msgstr "Դուրս գրվածի կարգավիճակ"
+
+#: Koha/Database/Columns.pm:217
+msgid "Withdrawn on"
+msgstr "Դուրս է գրված"
+
+#: Koha/Database/Columns.pm:218 Koha/Database/Columns.pm:314
+msgid "Call number"
+msgstr "Դասիչ"
+
+#: Koha/Database/Columns.pm:219
+msgid "Coded location qualifier"
+msgstr ""
+
+#: Koha/Database/Columns.pm:220
+msgid "Total checkouts"
+msgstr "Գումարային դուրս տրումներ"
+
+#: Koha/Database/Columns.pm:221
+msgid "Total renewals"
+msgstr "Ընդամենը թարմացումներ"
+
 #: Koha/Database/Columns.pm:222
-msgid "Lost status"
-msgstr "Կորածի կարգավիճակ"
+msgid "Total holds"
+msgstr "Ընդամենը պահումներ"
+
+#: Koha/Database/Columns.pm:223
+msgid "Use restrictions"
+msgstr "Օգտագործիր արգելանքները"
 
 #: Koha/Database/Columns.pm:224
 msgid "Public note"
 msgstr "Հանրային նշում"
 
-#: Koha/Database/Columns.pm:225
-msgid "Item number (internal)"
-msgstr "Նյութի համար (ներքին)"
-
 #: Koha/Database/Columns.pm:226
-#, fuzzy
-msgid "Koha item type"
-msgstr "Կոհա նյութի տեսակ"
+msgid "Current library"
+msgstr "Ընթացիկ գրադարան"
 
-#: Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:228
+#, fuzzy
+msgid "Deleted on"
+msgstr "Վնասված է"
+
+#: Koha/Database/Columns.pm:229 Koha/Database/Columns.pm:253
 msgid "Shelving location"
 msgstr "Դարակի վրա տեղաբաշխում"
 
-#: Koha/Database/Columns.pm:228
-msgid "Materials specified"
-msgstr "Նյութերը որոշված են"
-
-#: Koha/Database/Columns.pm:229
-msgid "Additional subfields (XML)"
-msgstr "Լրացուցիչ ենթադաշտեր (XML)"
-
 #: Koha/Database/Columns.pm:230
-#, fuzzy
-msgid "New status"
-msgstr "Չկա կարգավիճակ"
-
-#: Koha/Database/Columns.pm:232
-msgid "Due date"
-msgstr "Վերադարձի ամսաթիվ"
-
-#: Koha/Database/Columns.pm:233
 msgid "Permanent shelving location"
 msgstr "Ժամանակավոր դարակային տեղաբաշխում"
 
-#: Koha/Database/Columns.pm:234
-msgid "Price"
-msgstr "Գին"
+#: Koha/Database/Columns.pm:231
+msgid "Due date"
+msgstr "Վերադարձի ամսաթիվ"
+
+#: Koha/Database/Columns.pm:232
+msgid "Source of classification / shelving scheme"
+msgstr "Դասակարգման աղբյուր / դասավորման սխեմա"
+
+#: Koha/Database/Columns.pm:233
+msgid "Koha normalized classification for sorting"
+msgstr "Կոհա նորմալացված դասակարգում տեսակավորման համար"
+
+#: Koha/Database/Columns.pm:234 Koha/Database/Columns.pm:255
+msgid "Collection"
+msgstr "Հավաքածու"
 
 #: Koha/Database/Columns.pm:235
-msgid "Total renewals"
-msgstr "Ընդամենը թարմացումներ"
+msgid "Materials specified"
+msgstr "Նյութերը որոշված են"
+
+#: Koha/Database/Columns.pm:236
+#, fuzzy
+msgid "Uniform Resource Identifier"
+msgstr "Պաշարի համընդհանուր բնութագրիչ"
 
 #: Koha/Database/Columns.pm:237
-msgid "Price effective from"
-msgstr "Գինը իրական է սկսած"
+#, fuzzy
+msgid "Koha itemtype"
+msgstr "Կոհա նյութի տեսակ"
 
 #: Koha/Database/Columns.pm:238
-msgid "Total holds"
-msgstr "Ընդամենը պահումներ"
+msgid "Additional subfields (XML)"
+msgstr "Լրացուցիչ ենթադաշտեր (XML)"
 
 #: Koha/Database/Columns.pm:239
-msgid "Use restrictions"
-msgstr "Օգտագործիր արգելանքները"
+msgid "Serial enumeraton/chronology"
+msgstr "Պարբերականի թվարկում/ժամանակագրություն"
 
 #: Koha/Database/Columns.pm:240
-msgid "Shelving control number"
-msgstr "Դարակի ստուգիչ համար"
+msgid "Copy number"
+msgstr "Պատճենի համար"
 
 #: Koha/Database/Columns.pm:241
 msgid "Inventory number"
 msgstr "Գույքահամար"
 
-#: Koha/Database/Columns.pm:243
+#: Koha/Database/Columns.pm:242
 #, fuzzy
-msgid "Uniform resource identifier"
-msgstr "Պաշարի համընդհանուր բնութագրիչ"
+msgid "New status"
+msgstr "Չկա կարգավիճակ"
 
-#: Koha/Database/Columns.pm:244
-msgid "Withdrawn on"
-msgstr "Դուրս է գրված"
+#: Koha/Database/Columns.pm:243
+msgid "Exclude from local holds priority"
+msgstr ""
 
-#: Koha/Database/Columns.pm:245
-msgid "Withdrawn status"
-msgstr "Դուրս գրվածի կարգավիճակ"
+#: Koha/Database/Columns.pm:246 Koha/Database/Columns.pm:305
+msgid "Statistics date and time"
+msgstr "Վիճակագրության ամսաթիվ և ժամանակ"
 
-#: Koha/Database/Columns.pm:248
+#: Koha/Database/Columns.pm:247 Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:313 Koha/Database/Columns.pm:322
+msgid "Library"
+msgstr "Գրադարան"
+
+#: Koha/Database/Columns.pm:248 Koha/Database/Columns.pm:310
+msgid "Value"
+msgstr "Արժեք"
+
+#: Koha/Database/Columns.pm:249
+#, fuzzy
+msgid "Transaction type"
+msgstr "Ստեղծման ամսաթիվ"
+
+#: Koha/Database/Columns.pm:250
+msgid "SIP mode"
+msgstr ""
+
+#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:306
+msgid "Item number"
+msgstr "Նյութի համար"
+
+#: Koha/Database/Columns.pm:252
+#, fuzzy
+msgid "Koha item type"
+msgstr "Կոհա նյութի տեսակ"
+
+#: Koha/Database/Columns.pm:259
 msgid "Abstract"
 msgstr ""
 
-#: Koha/Database/Columns.pm:249 Koha/Database/Columns.pm:310
+#: Koha/Database/Columns.pm:260 Koha/Database/Columns.pm:321
 msgid "Author"
 msgstr "Հեղինակ"
 
-#: Koha/Database/Columns.pm:250 Koha/Database/Columns.pm:268
+#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:279
 msgid "Biblio number"
 msgstr "Բիբլիո համար"
 
-#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:313
+#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:324
 #, fuzzy
 msgid "Copyright date"
 msgstr "Հեղինակային իրավունքի ամսաթիվ"
 
-#: Koha/Database/Columns.pm:253
+#: Koha/Database/Columns.pm:264
 msgid "Framework code"
 msgstr "Կառուցվածքի կոդ"
 
-#: Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:265
 msgid "Medium"
 msgstr ""
 
-#: Koha/Database/Columns.pm:255 Koha/Database/Columns.pm:276
+#: Koha/Database/Columns.pm:266 Koha/Database/Columns.pm:287
 msgid "Notes"
 msgstr "Նշումներ"
 
-#: Koha/Database/Columns.pm:256
+#: Koha/Database/Columns.pm:267
 msgid "Name of part/section of a work"
 msgstr ""
 
-#: Koha/Database/Columns.pm:257
+#: Koha/Database/Columns.pm:268
 msgid "Number of part/section of a work"
 msgstr ""
 
-#: Koha/Database/Columns.pm:258
+#: Koha/Database/Columns.pm:269
 msgid "Is a serial?"
 msgstr ""
 
-#: Koha/Database/Columns.pm:259
+#: Koha/Database/Columns.pm:270
 msgid "Series title"
 msgstr ""
 
-#: Koha/Database/Columns.pm:260
+#: Koha/Database/Columns.pm:271
 msgid "Remainder of title"
 msgstr ""
 
-#: Koha/Database/Columns.pm:261
+#: Koha/Database/Columns.pm:272
 msgid "Modification date"
 msgstr "Ձևափոխման ամսաթիվ"
 
-#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:285
-#: Koha/Database/Columns.pm:321
+#: Koha/Database/Columns.pm:273 Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:332
 msgid "Title"
 msgstr "Վերնագիր"
 
-#: Koha/Database/Columns.pm:263
+#: Koha/Database/Columns.pm:274
 msgid "Uniform title"
 msgstr ""
 
-#: Koha/Database/Columns.pm:266
+#: Koha/Database/Columns.pm:277
 msgid "Age restriction"
 msgstr "Տարիքի սահմանափակում"
 
-#: Koha/Database/Columns.pm:267
+#: Koha/Database/Columns.pm:278
 msgid "Biblioitem number"
 msgstr "Բիբլիոնյութի համար"
 
-#: Koha/Database/Columns.pm:269
+#: Koha/Database/Columns.pm:280
 msgid "Classification"
 msgstr "Դասակարգում"
 
-#: Koha/Database/Columns.pm:270
+#: Koha/Database/Columns.pm:281
 msgid "Dewey/classification"
 msgstr "Դյուի/դասակարգում"
 
-#: Koha/Database/Columns.pm:271
+#: Koha/Database/Columns.pm:282
 msgid "Illustrations"
 msgstr "Ձևավորումներ"
 
-#: Koha/Database/Columns.pm:272 Koha/Database/Columns.pm:314
+#: Koha/Database/Columns.pm:283 Koha/Database/Columns.pm:325
 msgid "ISBN"
 msgstr "ISBN"
 
-#: Koha/Database/Columns.pm:273
+#: Koha/Database/Columns.pm:284
 msgid "ISSN"
 msgstr "ISSN"
 
-#: Koha/Database/Columns.pm:274
+#: Koha/Database/Columns.pm:285
 msgid "Biblio-level item type"
 msgstr "Բիբլիո մակարդակի նյութի տեսակ"
 
-#: Koha/Database/Columns.pm:275
+#: Koha/Database/Columns.pm:286
 msgid "LCCN"
 msgstr "LCCN"
 
-#: Koha/Database/Columns.pm:277
+#: Koha/Database/Columns.pm:288
 msgid "Number"
 msgstr "Թիվ"
 
-#: Koha/Database/Columns.pm:278
+#: Koha/Database/Columns.pm:289
 msgid "Number of pages"
 msgstr "Էջերի քանակ"
 
-#: Koha/Database/Columns.pm:279 Koha/Database/Columns.pm:318
+#: Koha/Database/Columns.pm:290 Koha/Database/Columns.pm:329
 msgid "Place of publication"
 msgstr "Հրատարակության վայր"
 
-#: Koha/Database/Columns.pm:280
+#: Koha/Database/Columns.pm:291
 msgid "Publication date"
 msgstr "Հրատարակման տարեթիվ"
 
-#: Koha/Database/Columns.pm:281 Koha/Database/Columns.pm:319
+#: Koha/Database/Columns.pm:292 Koha/Database/Columns.pm:330
 msgid "Publisher"
 msgstr "Հրատարակիչ"
 
-#: Koha/Database/Columns.pm:282
+#: Koha/Database/Columns.pm:293
 msgid "Size"
 msgstr "Չափ"
 
-#: Koha/Database/Columns.pm:283
+#: Koha/Database/Columns.pm:294
 msgid "Sub classification"
 msgstr "Ենթադասակարգում"
 
-#: Koha/Database/Columns.pm:286
+#: Koha/Database/Columns.pm:297
 msgid "URL"
 msgstr "URL"
 
-#: Koha/Database/Columns.pm:287
+#: Koha/Database/Columns.pm:298
 msgid "Volume number"
 msgstr "Հատորի համար"
 
-#: Koha/Database/Columns.pm:288
+#: Koha/Database/Columns.pm:299
 msgid "Volume date"
 msgstr "Հատորի ամսաթիվ"
 
-#: Koha/Database/Columns.pm:289
+#: Koha/Database/Columns.pm:300
 msgid "Volume information"
 msgstr "Հատորի տեղեկատվություն"
 
-#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:302
-#: Koha/Database/Columns.pm:311
-msgid "Library"
-msgstr "Գրադարան"
-
-#: Koha/Database/Columns.pm:294
-msgid "Statistics date and time"
-msgstr "Վիճակագրության ամսաթիվ և ժամանակ"
-
-#: Koha/Database/Columns.pm:295
-msgid "Item number"
-msgstr "Նյութի համար"
-
-#: Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:307
 msgid "Itemtype"
 msgstr "Նյութի տեսակ"
 
-#: Koha/Database/Columns.pm:298
+#: Koha/Database/Columns.pm:309
 msgid "Type"
 msgstr "Տեսակ"
 
-#: Koha/Database/Columns.pm:299
-msgid "Value"
-msgstr "Արժեք"
-
-#: Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:315
 msgid "End date"
 msgstr "Ամսաթվի վերջ"
 
-#: Koha/Database/Columns.pm:305
+#: Koha/Database/Columns.pm:316
 msgid "Location"
 msgstr "Տեղաբաշխում"
 
-#: Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:317
 msgid "Periodicity"
 msgstr "Պարբերականություն"
 
-#: Koha/Database/Columns.pm:307
+#: Koha/Database/Columns.pm:318
 msgid "Start date"
 msgstr "Սկզբի ամսաթիվ"
 
-#: Koha/Database/Columns.pm:312
+#: Koha/Database/Columns.pm:323
 #, fuzzy
 msgid "Collection title"
 msgstr "Հավաքածուի վերնագիր"
 
-#: Koha/Database/Columns.pm:315
+#: Koha/Database/Columns.pm:326
 #, fuzzy
 msgid "Item type"
 msgstr "Նյութի տեսակ"
 
-#: Koha/Database/Columns.pm:316
+#: Koha/Database/Columns.pm:327
 #, fuzzy
 msgid "Note"
 msgstr "Նշումներ"
 
-#: Koha/Database/Columns.pm:317
+#: Koha/Database/Columns.pm:328
 #, fuzzy
 msgid "Patron reason"
 msgstr "հաճախորդներ դեպի "
@@ -2996,7 +3003,7 @@ msgstr ""
 msgid "Overdues at {library}"
 msgstr "Մշտական գրադարան"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:773
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:781
 #, fuzzy, perl-brace-format
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
@@ -3192,6 +3199,16 @@ msgid "message"
 msgid_plural "messages"
 msgstr[0] "Հաղորդում"
 msgstr[1] "Հաղորդում"
+
+#~ msgid "Biblio number (internal)"
+#~ msgstr "Բիբլիո համար (ներքին)"
+
+#, fuzzy
+#~ msgid "Date of deletion"
+#~ msgstr "Ծննդյան ամսաթիվ"
+
+#~ msgid "Item number (internal)"
+#~ msgstr "Նյութի համար (ներքին)"
 
 #~ msgid "author"
 #~ msgstr "հեղինակ"

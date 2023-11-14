@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 12:00+0000\n"
+"POT-Creation-Date: 2023-11-14 08:21+0000\n"
 "PO-Revision-Date: 2022-05-01 12:45-0300\n"
 "Language-Team: Koha Translation Team \n"
 "Language: ur\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "unknown"
 msgstr "--- - نامعلوم"
 
-#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:231
+#: C4/ILSDI/Services.pm:958 Koha/Database/Columns.pm:211
 #, fuzzy
 msgid "Not for loan"
 msgstr "اجراء کے لئےدستیاب نہیں %s"
@@ -1603,7 +1603,7 @@ msgstr ""
 msgid "Budgeted cost"
 msgstr ""
 
-#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:252
+#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:263
 #, fuzzy
 msgid "Creation date"
 msgstr "بنانے تاریخ: "
@@ -1625,7 +1625,7 @@ msgstr ""
 msgid "Vendor price"
 msgstr ""
 
-#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:223
+#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:225
 msgid "Internal note"
 msgstr ""
 
@@ -1648,7 +1648,7 @@ msgstr "رسائی کی حیثیت"
 msgid "Parent order number (internal)"
 msgstr "کتابی نمبرز:"
 
-#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:320
+#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:331
 msgid "Quantity"
 msgstr ""
 
@@ -1656,7 +1656,7 @@ msgstr ""
 msgid "Quantity received"
 msgstr ""
 
-#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:236
+#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:206
 msgid "Replacement price"
 msgstr ""
 
@@ -1725,8 +1725,8 @@ msgstr ""
 msgid "Tax amount on receive"
 msgstr ""
 
-#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:242
-#: Koha/Database/Columns.pm:284
+#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:295
 msgid "Timestamp"
 msgstr ""
 
@@ -1847,7 +1847,8 @@ msgstr ""
 msgid "Circulation note"
 msgstr "بنانے تاریخ: "
 
-#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:292
+#: Koha/Database/Columns.pm:141 Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:303
 #, fuzzy
 msgid "Borrower number"
 msgstr "صارف نمبر: %s"
@@ -1862,7 +1863,7 @@ msgstr "لائبریری سے تفصیلات"
 msgid "Card number"
 msgstr "صارف نمبر: "
 
-#: Koha/Database/Columns.pm:144
+#: Koha/Database/Columns.pm:144 Koha/Database/Columns.pm:256
 #, fuzzy
 msgid "Patron category"
 msgstr "07 مستعمل پلیٹ فارم کی قسم"
@@ -2083,397 +2084,401 @@ msgstr ""
 
 #: Koha/Database/Columns.pm:200
 #, fuzzy
-msgid "Barcode"
-msgstr "آئٹم بارکوڈ"
-
-#: Koha/Database/Columns.pm:201
-#, fuzzy
 msgid "Biblioitem number (internal)"
 msgstr "کتابی نمبرز:"
 
-#: Koha/Database/Columns.pm:202
+#: Koha/Database/Columns.pm:201
 #, fuzzy
-msgid "Biblio number (internal)"
-msgstr "کتابی نمبرز:"
+msgid "Barcode"
+msgstr "آئٹم بارکوڈ"
+
+#: Koha/Database/Columns.pm:202
+msgid "Date acquired"
+msgstr ""
 
 #: Koha/Database/Columns.pm:203
 msgid "Source of acquisition"
 msgstr ""
 
 #: Koha/Database/Columns.pm:204
-#, fuzzy
-msgid "Collection"
-msgstr "عمل"
-
-#: Koha/Database/Columns.pm:205
-msgid "Koha normalized classification for sorting"
+msgid "Permanent library"
 msgstr ""
 
-#: Koha/Database/Columns.pm:206
-msgid "Source of classification / shelving scheme"
+#: Koha/Database/Columns.pm:205
+msgid "Price"
 msgstr ""
 
 #: Koha/Database/Columns.pm:207
-msgid "Coded location qualifier"
+msgid "Price effective from"
 msgstr ""
 
 #: Koha/Database/Columns.pm:208
 #, fuzzy
-msgid "Copy number"
-msgstr "کتابی نمبرز:"
-
-#: Koha/Database/Columns.pm:209
-msgid "Damaged on"
-msgstr ""
-
-#: Koha/Database/Columns.pm:210
-msgid "Damaged status"
-msgstr ""
-
-#: Koha/Database/Columns.pm:211
-msgid "Date acquired"
-msgstr ""
-
-#: Koha/Database/Columns.pm:212
-#, fuzzy
 msgid "Date last checked out"
 msgstr "آئٹم کا اجراء ہوگیاہے"
 
-#: Koha/Database/Columns.pm:213
+#: Koha/Database/Columns.pm:209
 msgid "Date last seen"
+msgstr ""
+
+#: Koha/Database/Columns.pm:210
+msgid "Shelving control number"
+msgstr ""
+
+#: Koha/Database/Columns.pm:212
+msgid "Damaged status"
+msgstr ""
+
+#: Koha/Database/Columns.pm:213
+msgid "Damaged on"
 msgstr ""
 
 #: Koha/Database/Columns.pm:214
 #, fuzzy
-msgid "Date of deletion"
-msgstr "ریکارڈ نمبر "
+msgid "Lost status"
+msgstr "رسائی کی حیثیت"
 
 #: Koha/Database/Columns.pm:215
-msgid "Serial enumeraton/chronology"
+msgid "Lost on"
 msgstr ""
 
 #: Koha/Database/Columns.pm:216
-msgid "Exclude from local holds priority"
+msgid "Withdrawn status"
 msgstr ""
 
 #: Koha/Database/Columns.pm:217
-msgid "Current library"
+msgid "Withdrawn on"
 msgstr ""
 
-#: Koha/Database/Columns.pm:218
-msgid "Permanent library"
-msgstr ""
-
-#: Koha/Database/Columns.pm:219
-#, fuzzy
-msgid "Total checkouts"
-msgstr "کوئی اجراء نہیں"
-
-#: Koha/Database/Columns.pm:220 Koha/Database/Columns.pm:303
+#: Koha/Database/Columns.pm:218 Koha/Database/Columns.pm:314
 #, fuzzy
 msgid "Call number"
 msgstr "کتابی نمبرز:"
 
-#: Koha/Database/Columns.pm:221
-msgid "Lost on"
+#: Koha/Database/Columns.pm:219
+msgid "Coded location qualifier"
 msgstr ""
 
-#: Koha/Database/Columns.pm:222
+#: Koha/Database/Columns.pm:220
 #, fuzzy
-msgid "Lost status"
-msgstr "رسائی کی حیثیت"
+msgid "Total checkouts"
+msgstr "کوئی اجراء نہیں"
+
+#: Koha/Database/Columns.pm:221
+#, fuzzy
+msgid "Total renewals"
+msgstr "%s نا قابل تجدید"
+
+#: Koha/Database/Columns.pm:222
+msgid "Total holds"
+msgstr ""
+
+#: Koha/Database/Columns.pm:223
+#, fuzzy
+msgid "Use restrictions"
+msgstr "رپورٹ پلگ ان استعمال کریں "
 
 #: Koha/Database/Columns.pm:224
 msgid "Public note"
 msgstr ""
 
-#: Koha/Database/Columns.pm:225
-msgid "Item number (internal)"
-msgstr ""
-
 #: Koha/Database/Columns.pm:226
-#, fuzzy
-msgid "Koha item type"
-msgstr " آئٹم کے اقسام کی تنظیم"
-
-#: Koha/Database/Columns.pm:227
-msgid "Shelving location"
+msgid "Current library"
 msgstr ""
 
 #: Koha/Database/Columns.pm:228
-#, fuzzy
-msgid "Materials specified"
-msgstr "مواد کی وضاحت"
+msgid "Deleted on"
+msgstr ""
 
-#: Koha/Database/Columns.pm:229
-#, fuzzy
-msgid "Additional subfields (XML)"
-msgstr "اضافی فیلڈز کی تنظیم"
+#: Koha/Database/Columns.pm:229 Koha/Database/Columns.pm:253
+msgid "Shelving location"
+msgstr ""
 
 #: Koha/Database/Columns.pm:230
-#, fuzzy
-msgid "New status"
-msgstr "رسائی کی حیثیت"
+msgid "Permanent shelving location"
+msgstr ""
 
-#: Koha/Database/Columns.pm:232
+#: Koha/Database/Columns.pm:231
 #, fuzzy
 msgid "Due date"
 msgstr "فعال تاریخ"
 
-#: Koha/Database/Columns.pm:233
-msgid "Permanent shelving location"
+#: Koha/Database/Columns.pm:232
+msgid "Source of classification / shelving scheme"
 msgstr ""
 
-#: Koha/Database/Columns.pm:234
-msgid "Price"
+#: Koha/Database/Columns.pm:233
+msgid "Koha normalized classification for sorting"
 msgstr ""
+
+#: Koha/Database/Columns.pm:234 Koha/Database/Columns.pm:255
+#, fuzzy
+msgid "Collection"
+msgstr "عمل"
 
 #: Koha/Database/Columns.pm:235
 #, fuzzy
-msgid "Total renewals"
-msgstr "%s نا قابل تجدید"
+msgid "Materials specified"
+msgstr "مواد کی وضاحت"
+
+#: Koha/Database/Columns.pm:236
+msgid "Uniform Resource Identifier"
+msgstr ""
 
 #: Koha/Database/Columns.pm:237
-msgid "Price effective from"
-msgstr ""
+#, fuzzy
+msgid "Koha itemtype"
+msgstr " آئٹم کے اقسام کی تنظیم"
 
 #: Koha/Database/Columns.pm:238
-msgid "Total holds"
-msgstr ""
+#, fuzzy
+msgid "Additional subfields (XML)"
+msgstr "اضافی فیلڈز کی تنظیم"
 
 #: Koha/Database/Columns.pm:239
-#, fuzzy
-msgid "Use restrictions"
-msgstr "رپورٹ پلگ ان استعمال کریں "
+msgid "Serial enumeraton/chronology"
+msgstr ""
 
 #: Koha/Database/Columns.pm:240
-msgid "Shelving control number"
-msgstr ""
+#, fuzzy
+msgid "Copy number"
+msgstr "کتابی نمبرز:"
 
 #: Koha/Database/Columns.pm:241
 msgid "Inventory number"
 msgstr ""
 
+#: Koha/Database/Columns.pm:242
+#, fuzzy
+msgid "New status"
+msgstr "رسائی کی حیثیت"
+
 #: Koha/Database/Columns.pm:243
-msgid "Uniform resource identifier"
+msgid "Exclude from local holds priority"
 msgstr ""
 
-#: Koha/Database/Columns.pm:244
-msgid "Withdrawn on"
-msgstr ""
-
-#: Koha/Database/Columns.pm:245
-msgid "Withdrawn status"
-msgstr ""
-
-#: Koha/Database/Columns.pm:248
-msgid "Abstract"
-msgstr ""
-
-#: Koha/Database/Columns.pm:249 Koha/Database/Columns.pm:310
-msgid "Author"
-msgstr ""
-
-#: Koha/Database/Columns.pm:250 Koha/Database/Columns.pm:268
-#, fuzzy
-msgid "Biblio number"
-msgstr "کتابی نمبرز:"
-
-#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:313
-msgid "Copyright date"
-msgstr ""
-
-#: Koha/Database/Columns.pm:253
-msgid "Framework code"
-msgstr ""
-
-#: Koha/Database/Columns.pm:254
-msgid "Medium"
-msgstr ""
-
-#: Koha/Database/Columns.pm:255 Koha/Database/Columns.pm:276
-msgid "Notes"
-msgstr ""
-
-#: Koha/Database/Columns.pm:256
-msgid "Name of part/section of a work"
-msgstr ""
-
-#: Koha/Database/Columns.pm:257
-msgid "Number of part/section of a work"
-msgstr ""
-
-#: Koha/Database/Columns.pm:258
-msgid "Is a serial?"
-msgstr ""
-
-#: Koha/Database/Columns.pm:259
-msgid "Series title"
-msgstr ""
-
-#: Koha/Database/Columns.pm:260
-msgid "Remainder of title"
-msgstr ""
-
-#: Koha/Database/Columns.pm:261
-#, fuzzy
-msgid "Modification date"
-msgstr "بنانے تاریخ: "
-
-#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:285
-#: Koha/Database/Columns.pm:321
-#, fuzzy
-msgid "Title"
-msgstr "title"
-
-#: Koha/Database/Columns.pm:263
-msgid "Uniform title"
-msgstr ""
-
-#: Koha/Database/Columns.pm:266
-msgid "Age restriction"
-msgstr ""
-
-#: Koha/Database/Columns.pm:267
-#, fuzzy
-msgid "Biblioitem number"
-msgstr "کتابی نمبرز:"
-
-#: Koha/Database/Columns.pm:269
-msgid "Classification"
-msgstr ""
-
-#: Koha/Database/Columns.pm:270
-msgid "Dewey/classification"
-msgstr ""
-
-#: Koha/Database/Columns.pm:271
-msgid "Illustrations"
-msgstr ""
-
-#: Koha/Database/Columns.pm:272 Koha/Database/Columns.pm:314
-msgid "ISBN"
-msgstr ""
-
-#: Koha/Database/Columns.pm:273
-msgid "ISSN"
-msgstr ""
-
-#: Koha/Database/Columns.pm:274
-msgid "Biblio-level item type"
-msgstr ""
-
-#: Koha/Database/Columns.pm:275
-msgid "LCCN"
-msgstr ""
-
-#: Koha/Database/Columns.pm:277
-msgid "Number"
-msgstr ""
-
-#: Koha/Database/Columns.pm:278
-msgid "Number of pages"
-msgstr ""
-
-#: Koha/Database/Columns.pm:279 Koha/Database/Columns.pm:318
-#, fuzzy
-msgid "Place of publication"
-msgstr "ریکارڈ نمبر "
-
-#: Koha/Database/Columns.pm:280
-#, fuzzy
-msgid "Publication date"
-msgstr "بنانے تاریخ: "
-
-#: Koha/Database/Columns.pm:281 Koha/Database/Columns.pm:319
-msgid "Publisher"
-msgstr ""
-
-#: Koha/Database/Columns.pm:282
-msgid "Size"
-msgstr ""
-
-#: Koha/Database/Columns.pm:283
-msgid "Sub classification"
-msgstr ""
-
-#: Koha/Database/Columns.pm:286
-msgid "URL"
-msgstr ""
-
-#: Koha/Database/Columns.pm:287
-#, fuzzy
-msgid "Volume number"
-msgstr "درخواست نمبر:"
-
-#: Koha/Database/Columns.pm:288
-msgid "Volume date"
-msgstr ""
-
-#: Koha/Database/Columns.pm:289
-msgid "Volume information"
-msgstr ""
-
-#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:302
-#: Koha/Database/Columns.pm:311
-msgid "Library"
-msgstr ""
-
-#: Koha/Database/Columns.pm:294
+#: Koha/Database/Columns.pm:246 Koha/Database/Columns.pm:305
 msgid "Statistics date and time"
 msgstr ""
 
-#: Koha/Database/Columns.pm:295
+#: Koha/Database/Columns.pm:247 Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:313 Koha/Database/Columns.pm:322
+msgid "Library"
+msgstr ""
+
+#: Koha/Database/Columns.pm:248 Koha/Database/Columns.pm:310
+msgid "Value"
+msgstr ""
+
+#: Koha/Database/Columns.pm:249
+#, fuzzy
+msgid "Transaction type"
+msgstr "بنانے تاریخ: "
+
+#: Koha/Database/Columns.pm:250
+msgid "SIP mode"
+msgstr ""
+
+#: Koha/Database/Columns.pm:251 Koha/Database/Columns.pm:306
 #, fuzzy
 msgid "Item number"
 msgstr "رسائی نمبر"
 
-#: Koha/Database/Columns.pm:296
-msgid "Itemtype"
+#: Koha/Database/Columns.pm:252
+#, fuzzy
+msgid "Koha item type"
+msgstr " آئٹم کے اقسام کی تنظیم"
+
+#: Koha/Database/Columns.pm:259
+msgid "Abstract"
+msgstr ""
+
+#: Koha/Database/Columns.pm:260 Koha/Database/Columns.pm:321
+msgid "Author"
+msgstr ""
+
+#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:279
+#, fuzzy
+msgid "Biblio number"
+msgstr "کتابی نمبرز:"
+
+#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:324
+msgid "Copyright date"
+msgstr ""
+
+#: Koha/Database/Columns.pm:264
+msgid "Framework code"
+msgstr ""
+
+#: Koha/Database/Columns.pm:265
+msgid "Medium"
+msgstr ""
+
+#: Koha/Database/Columns.pm:266 Koha/Database/Columns.pm:287
+msgid "Notes"
+msgstr ""
+
+#: Koha/Database/Columns.pm:267
+msgid "Name of part/section of a work"
+msgstr ""
+
+#: Koha/Database/Columns.pm:268
+msgid "Number of part/section of a work"
+msgstr ""
+
+#: Koha/Database/Columns.pm:269
+msgid "Is a serial?"
+msgstr ""
+
+#: Koha/Database/Columns.pm:270
+msgid "Series title"
+msgstr ""
+
+#: Koha/Database/Columns.pm:271
+msgid "Remainder of title"
+msgstr ""
+
+#: Koha/Database/Columns.pm:272
+#, fuzzy
+msgid "Modification date"
+msgstr "بنانے تاریخ: "
+
+#: Koha/Database/Columns.pm:273 Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:332
+#, fuzzy
+msgid "Title"
+msgstr "title"
+
+#: Koha/Database/Columns.pm:274
+msgid "Uniform title"
+msgstr ""
+
+#: Koha/Database/Columns.pm:277
+msgid "Age restriction"
+msgstr ""
+
+#: Koha/Database/Columns.pm:278
+#, fuzzy
+msgid "Biblioitem number"
+msgstr "کتابی نمبرز:"
+
+#: Koha/Database/Columns.pm:280
+msgid "Classification"
+msgstr ""
+
+#: Koha/Database/Columns.pm:281
+msgid "Dewey/classification"
+msgstr ""
+
+#: Koha/Database/Columns.pm:282
+msgid "Illustrations"
+msgstr ""
+
+#: Koha/Database/Columns.pm:283 Koha/Database/Columns.pm:325
+msgid "ISBN"
+msgstr ""
+
+#: Koha/Database/Columns.pm:284
+msgid "ISSN"
+msgstr ""
+
+#: Koha/Database/Columns.pm:285
+msgid "Biblio-level item type"
+msgstr ""
+
+#: Koha/Database/Columns.pm:286
+msgid "LCCN"
+msgstr ""
+
+#: Koha/Database/Columns.pm:288
+msgid "Number"
+msgstr ""
+
+#: Koha/Database/Columns.pm:289
+msgid "Number of pages"
+msgstr ""
+
+#: Koha/Database/Columns.pm:290 Koha/Database/Columns.pm:329
+#, fuzzy
+msgid "Place of publication"
+msgstr "ریکارڈ نمبر "
+
+#: Koha/Database/Columns.pm:291
+#, fuzzy
+msgid "Publication date"
+msgstr "بنانے تاریخ: "
+
+#: Koha/Database/Columns.pm:292 Koha/Database/Columns.pm:330
+msgid "Publisher"
+msgstr ""
+
+#: Koha/Database/Columns.pm:293
+msgid "Size"
+msgstr ""
+
+#: Koha/Database/Columns.pm:294
+msgid "Sub classification"
+msgstr ""
+
+#: Koha/Database/Columns.pm:297
+msgid "URL"
 msgstr ""
 
 #: Koha/Database/Columns.pm:298
+#, fuzzy
+msgid "Volume number"
+msgstr "درخواست نمبر:"
+
+#: Koha/Database/Columns.pm:299
+msgid "Volume date"
+msgstr ""
+
+#: Koha/Database/Columns.pm:300
+msgid "Volume information"
+msgstr ""
+
+#: Koha/Database/Columns.pm:307
+msgid "Itemtype"
+msgstr ""
+
+#: Koha/Database/Columns.pm:309
 msgid "Type"
 msgstr ""
 
-#: Koha/Database/Columns.pm:299
-msgid "Value"
-msgstr ""
-
-#: Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:315
 #, fuzzy
 msgid "End date"
 msgstr "%s %s آخری تاریخ: "
 
-#: Koha/Database/Columns.pm:305
+#: Koha/Database/Columns.pm:316
 #, fuzzy
 msgid "Location"
 msgstr "عمل"
 
-#: Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:317
 msgid "Periodicity"
 msgstr ""
 
-#: Koha/Database/Columns.pm:307
+#: Koha/Database/Columns.pm:318
 #, fuzzy
 msgid "Start date"
 msgstr "تلاش کریں"
 
-#: Koha/Database/Columns.pm:312
+#: Koha/Database/Columns.pm:323
 #, fuzzy
 msgid "Collection title"
 msgstr "عمل"
 
-#: Koha/Database/Columns.pm:315
+#: Koha/Database/Columns.pm:326
 #, fuzzy
 msgid "Item type"
 msgstr " آئٹم کے اقسام کی تنظیم"
 
-#: Koha/Database/Columns.pm:316
+#: Koha/Database/Columns.pm:327
 msgid "Note"
 msgstr ""
 
-#: Koha/Database/Columns.pm:317
+#: Koha/Database/Columns.pm:328
 #, fuzzy
 msgid "Patron reason"
 msgstr "صارف کا پروفائل جلد ہی ختم ہوجاتا ہے"
@@ -3016,7 +3021,7 @@ msgstr ""
 msgid "Overdues at {library}"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:773
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:781
 #, fuzzy, perl-brace-format
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
@@ -3206,6 +3211,14 @@ msgid "message"
 msgid_plural "messages"
 msgstr[0] ""
 msgstr[1] ""
+
+#, fuzzy
+#~ msgid "Biblio number (internal)"
+#~ msgstr "کتابی نمبرز:"
+
+#, fuzzy
+#~ msgid "Date of deletion"
+#~ msgstr "ریکارڈ نمبر "
 
 #, fuzzy
 #~ msgid "title"
