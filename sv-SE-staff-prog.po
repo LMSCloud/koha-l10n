@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-10 21:07+0100\n"
 "PO-Revision-Date: 2023-11-14 11:08+0000\n"
-"Last-Translator: \"Tomas.jiglind\" <tomas.jiglind@mariestad.se>\n"
+"Last-Translator: \"marie.hedbom\" <marie.hedbom@musikverket.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
 "MIME-Version: 1.0\n"
@@ -1786,7 +1786,7 @@ msgstr "Upphämtning"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:186
-#, fuzzy, c-format
+#, c-format
 msgid "Patron restriction types"
 msgstr "Låntagarbegränsningar"
 
@@ -2724,9 +2724,8 @@ msgstr "Avbryt"
 
 #. INPUT type=reset
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:182
-#, fuzzy
 msgid "Clear form"
-msgstr "Ta bort formatering"
+msgstr "Rensa formulär"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:4
 #, c-format
@@ -3698,9 +3697,9 @@ msgid "successfully added"
 msgstr "Fält har lagts till"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:93
-#, fuzzy, c-format
+#, c-format
 msgid "could not be processed - please check the logs"
-msgstr "Ett problem uppstod, kontrollera loggarna"
+msgstr "kunde inte köras - kontrollera loggarna"
 
 #. %1$s:  m.message | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:95
@@ -3728,7 +3727,7 @@ msgstr "Vänligen försök på nytt senare"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:101
 #, c-format
 msgid "SUSHI returned: %s %s"
-msgstr ""
+msgstr "SUSHI returnerade: %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/marc_import_commit_batch.inc:7
 #, c-format
@@ -5151,9 +5150,12 @@ msgstr "Sökindex"
 #. %48$s:  item.checkout.date_due | $KohaDates | $raw 
 #. %49$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/catalogue/itemsearch_item.csv.inc:1
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s %s %s %s %s %s \"%s %sby %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
-msgstr "%s %s %s %s %s %s %s %s %s \"%s %sav %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
+msgstr ""
+"%s %s %s %s %s %s %s %s %s \"%s %sby %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s "
+"\"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" "
+"%s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
 
 #. %1$s:  IF ( Koha.Preference( 'marcflavour' ) == 'UNIMARC' && biblio.author ) 
 #. %2$s:  END 
@@ -5884,9 +5886,10 @@ msgstr "Ett problem uppstod, kontrollera loggarna"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
-#, fuzzy
 msgid "This will retrieve macros stored in the browser, save them in the database, and delete them from the browser. Proceed?"
-msgstr "Det här hämtar makron som finns lagrade i webbläsaren, sparar dem i databasen och tar bort dem från webbläsaren. Vill du fortsätta?"
+msgstr ""
+"Det här hämtar makron som finns lagrade i webbläsaren, sparar dem i "
+"databasen och tar bort dem från webbläsaren. Vill du fortsätta?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
@@ -6084,7 +6087,7 @@ msgstr "Visa lån"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:13
 #, c-format
 msgid "Checkouts table will show automatically in %s seconds..."
-msgstr ""
+msgstr "Utlån kommer att visas automatiskt o, %s sekunder..."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:24
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:25
@@ -6429,9 +6432,9 @@ msgid "Check in selected items"
 msgstr "Låna om eller återlämna valda exemplar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:66
-#, fuzzy, c-format
+#, c-format
 msgid "Renew selected items"
-msgstr "Ta bort markerade artiklar"
+msgstr "Låna om valda exemplar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:67
 #, c-format
@@ -6467,9 +6470,9 @@ msgid "CSV"
 msgstr "CSV"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:89
-#, fuzzy, c-format
+#, c-format
 msgid "Export items bundle contents"
-msgstr "Exportera förkomna exemplar i rapport"
+msgstr "Exportera innehåll i exemplarspaket"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:90
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:154
@@ -7892,9 +7895,9 @@ msgid "Agreement search"
 msgstr "Sök efter avtal"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/erm-search.inc:20
-#, fuzzy, c-format
+#, c-format
 msgid "License search"
-msgstr "Förfina sökning"
+msgstr "Licenssökning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/erm-search.inc:32
 #, c-format
@@ -7961,7 +7964,7 @@ msgid "Show all records"
 msgstr "Visa alla poster"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:39
-#, fuzzy, c-format
+#, c-format
 msgid "Limit to records with available items"
 msgstr "Visa bara tillgängliga exemplar"
 
@@ -9346,7 +9349,7 @@ msgstr "Modul "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:435
 #, c-format
 msgid "Module page "
-msgstr "Modulsida "
+msgstr "Modulsida: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:430
 #, c-format
@@ -50227,9 +50230,9 @@ msgid "Alert subscriptions"
 msgstr "Ta bort prenumeration"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:74
-#, fuzzy, c-format
+#, c-format
 msgid "Unsubscribe from email alerts"
-msgstr "Saknas från epostadress"
+msgstr "Avprenumerera från epostnotiser"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:84
 #, fuzzy, c-format
