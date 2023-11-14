@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:06-0300\n"
-"PO-Revision-Date: 2023-11-14 03:01+0000\n"
+"PO-Revision-Date: 2023-11-14 09:52+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -479,7 +479,7 @@ msgstr "Поддръжка"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:104
 msgid "Outage"
-msgstr ""
+msgstr "Прекъсване"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:1
 msgid "Andorra"
@@ -4339,9 +4339,8 @@ msgid "Account expiration"
 msgstr "Изтичане на акаунта"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52
-#, fuzzy
 msgid "Account renewal"
-msgstr "Такса за подновяване на акаунт"
+msgstr "Подновяване на акаунт"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53
 msgid "OPAC self-registration verification email"
@@ -4440,7 +4439,6 @@ msgid "Hold available for pickup at <<branches.branchname>>"
 msgstr "Налична резервация за вземане от <<branches.branchname>>"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67
-#, fuzzy
 msgid "Hold(s) available for pickup"
 msgstr "Налична резервация за вземане"
 
@@ -4611,11 +4609,11 @@ msgstr "Трансферен фиш"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
 msgid "Hold is confirmed"
-msgstr ""
+msgstr "Резервацията е потвърдена"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
 msgid "Your hold on [% hold.biblio.title %] is confirmed"
-msgstr ""
+msgstr "Резервацията за [% hold.biblio.title %] е потвърдена"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:1
 msgid "Dear %s %s (%s),"
@@ -5011,20 +5009,21 @@ msgstr "Библиотекар"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:4
 msgid "Your library account has been renewed. The new expiry date is: %s."
-msgstr ""
+msgstr "Вашият библиотечен акаунт е подновен. Новият срок е: %s."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:5
-#, fuzzy
 msgid ""
 "%s\n"
 "An enrollment fee of %s has been applied.\n"
 "%s"
-msgstr "За Вашия акаунт е приложено плащане в размер на %s."
+msgstr ""
+"%s\n"
+"Приложена е такса за записване от %s.\n"
+"%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:8
-#, fuzzy
 msgid "Your library,"
-msgstr "Библиотеката"
+msgstr "Библиотеката,"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53:mul:1
 msgid "Hello!"
@@ -5095,14 +5094,12 @@ msgid "In case you are not a patron in our library or do not want to accept this
 msgstr "В случай, че не сте читател в нашата библиотека или не искате да приемете тази покана, моля, игнорирайте този имейл. Покана изтича в рамките на две седмици."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:2
-#, fuzzy
 msgid "Hello %s %s %s.%s"
-msgstr "Здравейте %s %s %s."
+msgstr "Здравейте %s %s. %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:4
-#, fuzzy
 msgid "Thank you for joining %s%s%sthe library%s%s"
-msgstr "Благодарим ви, че се присъединихте към %s%s%sбиблиотека%s"
+msgstr "Благодарим ви, че се присъединихте към %s%s%sбиблиотека%s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:6
 msgid "You can search for all our materials in our %scatalog%s.%s"
@@ -5249,18 +5246,16 @@ msgid "You have a hold available for pickup as of %s:"
 msgstr "Имате налична резервация за вземане от %s:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:1
-#, fuzzy
 msgid "You have one or more holds available for pickup:"
-msgstr "Имате налична резервация за вземане от %s:"
+msgstr "Имате налична резервация за вземане от:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:6
 msgid "Waiting since: %s"
 msgstr "Очаква се от: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:7
-#, fuzzy
 msgid "Waiting at: %s"
-msgstr "Очаква се от: %s"
+msgstr "Очаква се при: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:3
 msgid "Your hold for %s is available for pickup."
@@ -5553,13 +5548,16 @@ msgid "The following item, %s, has correctly been renewed and is now due on %s"
 msgstr "Следният екземпляр, %s, е правилно презаписан и сега е изискуем %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:4
-#, fuzzy
 msgid "This item has reached the maximum number of automatic renewals and will no longer be renewed."
-msgstr "Имате просрочени екземпляри. Достигнахте максималния брой възможни презаписвания."
+msgstr ""
+"Този екземпляр е достигнал максималния брой автоматични презаписвания и "
+"повече няма да бъде презаписан."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:7
 msgid "This item has reached the maximum number of unseen renewals and will need to be renewed at the library."
 msgstr ""
+"Този екземпляр е достигнал максималния брой онлайн презаписвания и ще трябва "
+"да бъде презаписан в библиотеката."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:9
 msgid "The following item, %s, has not been renewed because:"
@@ -5802,34 +5800,28 @@ msgid "%sView in online catalog%s"
 msgstr "%sИзглед в онлайн каталог%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:4
-#, fuzzy
 msgid "Train name: %s"
-msgstr "Потребителско име: %s"
+msgstr "Име на ползвателя: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:5
-#, fuzzy
 msgid "Sent on: %s"
-msgstr "За заемане?: %s"
+msgstr "Изпратено на: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:9
-#, fuzzy
 msgid "Item number #%s"
-msgstr "Сигнатура: %s"
+msgstr "Екземплярен номер #%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:1
-#, fuzzy
 msgid "Hello %s %s (%s),"
-msgstr "Здравейте %s %s %s."
+msgstr "Здравейте %s %s (%s),"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:2
-#, fuzzy
 msgid "Your hold on %s (%s) has been confirmed."
-msgstr " Поръчката %s (%s) е получена."
+msgstr "Вашето презаписване за %s (%s) е потвърдено."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:3
-#, fuzzy
 msgid "You will be notified by the library when your item is available for pickup."
-msgstr "Ще бъдете уведомени отново, когато книгата е налична."
+msgstr "Ще бъдете уведомени, когато книгата е налична."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:9:mul:2
 msgid "An account writeoff of %s has been applied to your account."
@@ -6629,14 +6621,13 @@ msgstr "За подробности посетете https://www.niso.org/public
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:1
 msgid "Abridger"
-msgstr ""
+msgstr "Съкращение"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:2
 msgid "Art copyist"
 msgstr "Художествен копист"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:4
-#, fuzzy
 msgid "Art director"
 msgstr "Художествен ръководител"
 
@@ -6646,7 +6637,7 @@ msgstr "Автор на послеслов, надпис в края на кни
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:7
 msgid "Announcer"
-msgstr ""
+msgstr "Говорител"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:8
 msgid "Analyst"
