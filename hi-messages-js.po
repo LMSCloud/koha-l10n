@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-10 21:07+0100\n"
-"PO-Revision-Date: 2023-10-18 12:06+0000\n"
+"PO-Revision-Date: 2023-11-15 07:40+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hi\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.8\n"
+"X-Generator: Weblate 5.1.1\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /hi/22.11/hi-messages-js.po\n"
 "X-POOTLE-MTIME: 1697630809.332628\n"
@@ -636,9 +636,8 @@ msgid "Not allowed: overdue"
 msgstr "अनुमति नहीं: अतिदेय"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:228
-#, fuzzy
 msgid "Unable to find an open day"
-msgstr "लौटे के रूप में दावा करने में असमर्थ"
+msgstr "एक खुला दिन खोजने में असमर्थ"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:232
 msgid "reason unknown"
@@ -1260,12 +1259,14 @@ msgstr "इस श्रेणी के लिए डिफ़ॉल्ट क�
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:38
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:55
 msgid "Your concern was sucessfully submitted."
-msgstr ""
+msgstr "आपका मामला सफलतापूर्वक प्रस्तुत की गई।"
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:46
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:60
 msgid "There was an error when submitting your concern, please contact a librarian."
 msgstr ""
+"अपना मामला प्रस्तुत करते समय एक त्रुटि थी, कृपया एक लाइब्रेरियन से संपर्क "
+"करें।"
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:23
 msgid "Loading updates . . ."
@@ -2204,7 +2205,7 @@ msgstr "पर"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:27
 msgid "Show mine only"
-msgstr ""
+msgstr "केवल मेरा दिखाओ"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:53
 msgid "There are no agreements defined"
@@ -2463,7 +2464,7 @@ msgstr "पैकेज को होल्डिंग्स से हटा�
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:40
 msgid "External ID"
-msgstr ""
+msgstr "बाहरी आईडी"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:59
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:43
@@ -3265,7 +3266,7 @@ msgstr "प्रदाता संपादित करें %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersSummary.vue:82
 msgid "Provider"
-msgstr ""
+msgstr "प्रदाता"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersSummary.vue:96
 #, fuzzy
@@ -4038,34 +4039,28 @@ msgid "E-resource management"
 msgstr "ई-संसाधन प्रबंधन"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:69
-#, fuzzy
 msgid "Show agreement"
-msgstr "नया अनुबंध"
+msgstr "अनुबंध दिखाए"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:75
-#, fuzzy
 msgid "Add agreement"
-msgstr "नया अनुबंध जोड़ें"
+msgstr "समझौता जोड़ें"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:81
-#, fuzzy
 msgid "Edit agreement"
-msgstr "समझौता संपादित करें #%s"
+msgstr "समझौता संपादित करें"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:100
-#, fuzzy
 msgid "Show license"
-msgstr "नया अनुबंध"
+msgstr "लाइसेंस दिखाए"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:106
-#, fuzzy
 msgid "Add license"
-msgstr "नया लाइसेंस जोड़ें"
+msgstr "लाइसेंस जोड़ें"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:112
-#, fuzzy
 msgid "Edit license"
-msgstr "लाइसेंस संपादित करें %s"
+msgstr "लाइसेंस संपादित करें"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:118
 msgid "eHoldings"
@@ -4077,19 +4072,16 @@ msgstr "स्थानीय"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:147
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
-#, fuzzy
 msgid "Show package"
-msgstr "नया पैकेज"
+msgstr "पैकेज दिखाएँ"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:155
-#, fuzzy
 msgid "Add package"
-msgstr "नया पैकेज"
+msgstr "पैकेज जोड़े"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:163
-#, fuzzy
 msgid "Edit package"
-msgstr "पैकेज संपादित करें #%s"
+msgstr "पैकेज संपादित करें"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:169
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:255
@@ -4098,25 +4090,21 @@ msgstr "शीर्षक"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:186
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:272
-#, fuzzy
 msgid "Show title"
-msgstr "नया शीर्षक"
+msgstr "शीर्षक दिखाएँ"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:194
-#, fuzzy
 msgid "Add title"
-msgstr "आइटम जोड़ें"
+msgstr "शीर्षक जोड़ें"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:202
-#, fuzzy
 msgid "Edit title"
-msgstr "शीर्षक संपादित करें #%s"
+msgstr "शीर्षक संपादित करें"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:218
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:280
-#, fuzzy
 msgid "Resource"
-msgstr "संसाधन #%s"
+msgstr "संसाधन"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:226
 msgid "EBSCO"
