@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-10 21:07+0100\n"
+"POT-Creation-Date: 2023-11-15 07:57+0000\n"
 "PO-Revision-Date: 2023-11-13 16:21+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
@@ -3689,9 +3689,7 @@ msgstr "Jährliche Nutzung hinzugefügt"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:89
 #, c-format
 msgid "already exists in this data provider and was not created. New usage statistics were verified anyway"
-msgstr ""
-"existiert bereits in diesem Datenprovider und wurde nicht angelegt. Neue "
-"Nutzungsstatistiken wurden trotzdem verifiziert"
+msgstr "existiert bereits in diesem Datenprovider und wurde nicht angelegt. Neue Nutzungsstatistiken wurden trotzdem verifiziert"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:91
 #, c-format
@@ -3707,16 +3705,12 @@ msgstr "konnten nicht verarbeitet werden - bitte überprüfen Sie die Logs"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:95
 #, c-format
 msgid "COUNTER report file size exceeds limit defined by the database. Limit is %s MB."
-msgstr ""
-"Die Dateigröße des COUNTER-Berichts übresteigt das in der Datenbank "
-"definierte Maximum. Die Begrenzung liegt bei %s MB."
+msgstr "Die Dateigröße des COUNTER-Berichts übresteigt das in der Datenbank definierte Maximum. Die Begrenzung liegt bei %s MB."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:96
 #, c-format
 msgid "Please increase this limit or harvest a shorter period."
-msgstr ""
-"Bitte erhöhen Sie diese Begrenzung oder harvesten Sie einen kürzeren "
-"Zeitraum."
+msgstr "Bitte erhöhen Sie diese Begrenzung oder harvesten Sie einen kürzeren Zeitraum."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:98
 #, c-format
@@ -5158,10 +5152,7 @@ msgstr "Suchindex"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/catalogue/itemsearch_item.csv.inc:1
 #, c-format
 msgid "%s %s %s %s %s %s %s %s %s \"%s %sby %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
-msgstr ""
-"%s %s %s %s %s %s %s %s %s \"%s %svon %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" "
-"%s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%"
-"s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
+msgstr "%s %s %s %s %s %s %s %s %s \"%s %svon %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
 
 #. %1$s:  IF ( Koha.Preference( 'marcflavour' ) == 'UNIMARC' && biblio.author ) 
 #. %2$s:  END 
@@ -5624,7 +5615,7 @@ msgstr "Lädt"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:154
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:159
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/transfer_limits.tt:68
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:272
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/patron-lists-tab.tt:106
@@ -8779,7 +8770,7 @@ msgid "Pickup library"
 msgstr "Abholbibliothek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:19
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:206
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:211
 #, c-format
 msgid "Set lowest priority"
 msgstr "Auf niedrigste Priorität setzen"
@@ -8846,8 +8837,13 @@ msgstr "Vormerkung ans Ende verschieben"
 msgid "Move hold down"
 msgstr "Vormerkung nach hinten verschieben"
 
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:133
+#, c-format
+msgid "Expired:"
+msgstr "Abgelaufen:"
+
 #. %1$s: - IF ( hold.atdestination ) -
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:134
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:139
 #, c-format
 msgid "%s Item waiting at "
 msgstr "%s Exemplar abholbereit in "
@@ -8857,19 +8853,19 @@ msgstr "%s Exemplar abholbereit in "
 #. %3$s:  END 
 #. %4$s:  hold.waiting_date | $KohaDates 
 #. %5$s: - ELSIF (hold.intransit) -
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:136
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:141
 #, c-format
 msgid "%s, %s,%s since %s %s Item being transferred to "
 msgstr "%s, %s %s seit %s %s Exemplar unterwegs nach "
 
 #. %1$s: - ELSIF (hold.inprocessing) -
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:138
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:143
 #, c-format
 msgid "%s Item being processed at "
 msgstr "%s Exemplar wird bearbeitet in "
 
 #. %1$s: - ELSE -
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:140
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:145
 #, c-format
 msgid "%s Hold expected at "
 msgstr "%s Vormerkung erwartet in "
@@ -8878,52 +8874,52 @@ msgstr "%s Vormerkung erwartet in "
 #. %2$s: - ELSE -
 #. %3$s: - IF Koha.Preference('IndependentBranches') && Branches.all().size == 1 -
 #. %4$s:  Branches.GetName(hold.branchcode) | html 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:142
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:147
 #, c-format
 msgid ", please checkin to verify status %s %s %s %s "
 msgstr ", bitte zurückbuchen, um Status zu verifizieren %s %s %s %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:167
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:179
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:172
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:184
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:333
 #, c-format
 msgid "No barcode"
 msgstr "Kein Barcode"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:173
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:178
 #, c-format
 msgid "Only item"
 msgstr "Nur Exemplar"
 
 #. %1$s:  ItemTypes.GetDescription( hold.itemtype ) | html 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:185
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:190
 #, c-format
 msgid "Next available %s item"
 msgstr "Nächstes verfügbares Exemplar (%s)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:187
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:192
 #, c-format
 msgid "Next available item from group "
 msgstr "Nächstes verfügbares Exemplar der Gruppe "
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:189
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:194
 #, c-format
 msgid "Next available"
 msgstr "Nächstes verfügbares"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:196
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:201
 #, c-format
 msgid "Non priority hold"
 msgstr "Vormerkung ohne Priorität"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:203
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:208
 msgid "Remove lowest priority"
 msgstr "Niedrigste Priorität entfernen"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:216
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:217
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:221
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:222
 #: koha-tmpl/intranet-tmpl/prog/en/includes/waiting_holds.inc:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:283
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:289
@@ -8936,13 +8932,13 @@ msgid "Cancel hold"
 msgstr "Vormerkung stornieren"
 
 #. %1$s:  ELSE 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:225
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:230
 #, c-format
 msgid "Unsuspend %s "
 msgstr "Wiederaufnehmen %s "
 
 #. %1$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:227
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:232
 #, c-format
 msgid "Suspend %s "
 msgstr "Aussetzen %s "
@@ -8950,18 +8946,18 @@ msgstr "Aussetzen %s "
 #. %1$s:  IF ( hold.suspend ) 
 #. %2$s:  ELSE 
 #. %3$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:232
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:237
 #, c-format
 msgid "%s on %s until %s"
 msgstr "%s am %s bis %s"
 
 #. INPUT type=button
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:240
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:245
 msgid "%sRevert transit status%sRevert waiting status%s"
 msgstr "%sTransportstatus entfernen%sVormerkung zurücksetzen%s"
 
 #. INPUT type=button name=printholdslip
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:244
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:249
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:170
 #, c-format
@@ -8971,38 +8967,27 @@ msgstr "Quittung drucken"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:1
 #, c-format
 msgid "This content will be shown to an OPAC user before they can place an article request. "
-msgstr ""
-"Dieser Inhalt wird einem OPAC-Nutzer angezeigt, bevor eine Artikelbestellung "
-"eingetragen werden kann. "
+msgstr "Dieser Inhalt wird einem OPAC-Nutzer angezeigt, bevor eine Artikelbestellung eingetragen werden kann. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:5
 #, c-format
 msgid "Include this content on the form shown in the OPAC when the user submits a catalog concern report. "
-msgstr ""
-"Dieser Inhalt ist Teil des Formulars, wenn im OPAC ein Katalogproblem "
-"gemeldet wird. "
+msgstr "Dieser Inhalt ist Teil des Formulars, wenn im OPAC ein Katalogproblem gemeldet wird. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:9
 #, c-format
 msgid "Prefill the OPAC catalog concern form with this content as a template for the user's submission. "
-msgstr ""
-"Vorlage für das OPAC-Formular für die Meldung von Katalogproblemen durch die "
-"Benutzer*innnen. "
+msgstr "Vorlage für das OPAC-Formular für die Meldung von Katalogproblemen durch die Benutzer*innnen. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:13
 #, c-format
 msgid "Include this content in the cookie consent footer which is displayed in the OPAC when the CookieConsent system preference is enabled. "
-msgstr ""
-"Inhalt für das Cookie-Banner, welches im OPAC angezeigt wird, wenn der "
-"Systemparameter CookieConsent aktiviert ist. "
+msgstr "Inhalt für das Cookie-Banner, welches im OPAC angezeigt wird, wenn der Systemparameter CookieConsent aktiviert ist. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:17
 #, c-format
 msgid "Include this content in the popup message which is displayed in the OPAC when the CookieConsent system preference is enabled and the user clicks the \"Your cookies\" menu item in the header. "
-msgstr ""
-"Inhalt für die Popup-Meldung, die angezeigt wird, wenn der Systemparameter "
-"CookieConsent aktiviert ist und der Menüeintrag \"Ihre Cookies\" in der "
-"Kopfzeile aufgerufen wird. "
+msgstr "Inhalt für die Popup-Meldung, die angezeigt wird, wenn der Systemparameter CookieConsent aktiviert ist und der Menüeintrag \"Ihre Cookies\" in der Kopfzeile aufgerufen wird. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:21
 #, c-format
@@ -9027,15 +9012,12 @@ msgstr "Inhalt für die Information zur Bibliothek im OPAC. "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:37
 #, c-format
 msgid "Show this content on the OPAC login form when a patron is not logged in. "
-msgstr ""
-"Inhalt für die Anmeldemaske im OPAC, wenn man noch nicht angemeldet ist. "
+msgstr "Inhalt für die Anmeldemaske im OPAC, wenn man noch nicht angemeldet ist. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:41
 #, c-format
 msgid "Show this content on the OPAC when the OpacMaintenance system preference is enabled. "
-msgstr ""
-"Inhalt für die Wartungsseite im OPAC, wenn der Systemparameter "
-"OpacMaintenance aktiviert wurde. "
+msgstr "Inhalt für die Wartungsseite im OPAC, wenn der Systemparameter OpacMaintenance aktiviert wurde. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:45
 #, c-format
@@ -9045,9 +9027,7 @@ msgstr "Inhalt für den Hauptbereich auf der Startseite des OPACs. "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:49
 #, c-format
 msgid "Add additional elements to the \"More Searches\" bar on the OPAC, with this content (leave blank to disable). "
-msgstr ""
-"Weitere Elemente für die Navigationsleiste unterhalb der einfachen Suche im "
-"OPAC (frei lassen, um es zu deaktivieren). "
+msgstr "Weitere Elemente für die Navigationsleiste unterhalb der einfachen Suche im OPAC (frei lassen, um es zu deaktivieren). "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:53
 #, c-format
@@ -27742,10 +27722,7 @@ msgstr "Prüft die MARC-Struktur. Haben Sie das MARC-Framework geändert, ist es
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:182
 #, c-format
 msgid "Create and manage Authorities frameworks that define the characteristics of your MARC Records (field and subfield definitions)"
-msgstr ""
-"Erstellen und Verwalten von Normdaten-Frameworks, welche die "
-"Charakteristiken Ihrer MARC-Datensätze definieren (Definition der Felder und "
-"Unterfelder)"
+msgstr "Erstellen und Verwalten von Normdaten-Frameworks, welche die Charakteristiken Ihrer MARC-Datensätze definieren (Definition der Felder und Unterfelder)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:186
 #, c-format
@@ -42249,10 +42226,7 @@ msgstr "Neuer MARC-Datensatz"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:857
 #, c-format
 msgid "This record had encoding issues, non-xml characters have been stripped in order to allow editing. Please be cautious when saving that some data may have been removed from the record."
-msgstr ""
-"Dieser Datensatz hat Zeichensatzfehler, Nicht-XML-Zeichen wurden entfernt, "
-"um das Bearbeiten zu erlauben. Bitte seien Sie vorsichtig, bevor Sie "
-"speichern, da ggf. einige Daten aus dem Datensatz entfernt wurden."
+msgstr "Dieser Datensatz hat Zeichensatzfehler, Nicht-XML-Zeichen wurden entfernt, um das Bearbeiten zu erlauben. Bitte seien Sie vorsichtig, bevor Sie speichern, da ggf. einige Daten aus dem Datensatz entfernt wurden."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:864
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:47
@@ -44368,9 +44342,7 @@ msgstr "Exemplar wurde zurückgerufen und ist im Transport nach %s."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:587
 #, c-format
 msgid "No open days found while calculating the due date. Check the library calendar."
-msgstr ""
-"Es konnten bei der Berechnung des Fälligkeitsdatum keine Öffnungstage "
-"gefunden werden. Bitte überprüfen Sie den Bibliothekskalender."
+msgstr "Es konnten bei der Berechnung des Fälligkeitsdatum keine Öffnungstage gefunden werden. Bitte überprüfen Sie den Bibliothekskalender."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:592
 #, c-format
@@ -70152,10 +70124,6 @@ msgstr "_blank"
 #, c-format
 #~ msgid "Existing recalls &rsaquo; Recalls &rsaquo; Koha"
 #~ msgstr "Vorhandene Rückrufe &rsaquo; Rückrufe &rsaquo; Koha"
-
-#, c-format
-#~ msgid "Expired:"
-#~ msgstr "Abgelaufen:"
 
 #~ msgid "Export bibliographic, holdings, and authority records"
 #~ msgstr "Titel-, Bestands- und Normdaten aus Koha exportieren"

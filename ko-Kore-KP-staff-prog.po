@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-10 21:07+0100\n"
+"POT-Creation-Date: 2023-11-15 07:57+0000\n"
 "PO-Revision-Date: 2022-05-01 10:33-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -5643,7 +5643,7 @@ msgstr "불러오는 중"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:154
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:159
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/transfer_limits.tt:68
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:272
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/patron-lists-tab.tt:106
@@ -8845,7 +8845,7 @@ msgid "Pickup library"
 msgstr "도서관 선택"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:19
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:206
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:211
 #, fuzzy, c-format
 msgid "Set lowest priority"
 msgstr "낮은 우선순위 설정"
@@ -8912,8 +8912,13 @@ msgstr "예약순위 맨 아래로 이동"
 msgid "Move hold down"
 msgstr "예약순위 아래로 이동"
 
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:133
+#, fuzzy, c-format
+msgid "Expired:"
+msgstr "만료됨"
+
 #. %1$s: - IF ( hold.atdestination ) -
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:134
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:139
 #, fuzzy, c-format
 msgid "%s Item waiting at "
 msgstr "%s %s %s 항목 대기 "
@@ -8923,19 +8928,19 @@ msgstr "%s %s %s 항목 대기 "
 #. %3$s:  END 
 #. %4$s:  hold.waiting_date | $KohaDates 
 #. %5$s: - ELSIF (hold.intransit) -
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:136
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:141
 #, fuzzy, c-format
 msgid "%s, %s,%s since %s %s Item being transferred to "
 msgstr "%s %s 항목이 ~로 전송됨"
 
 #. %1$s: - ELSIF (hold.inprocessing) -
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:138
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:143
 #, fuzzy, c-format
 msgid "%s Item being processed at "
 msgstr "%s %s 항목이 ~로 전송됨"
 
 #. %1$s: - ELSE -
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:140
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:145
 #, fuzzy, c-format
 msgid "%s Hold expected at "
 msgstr "%s %s %s %s 없음 %s "
@@ -8944,53 +8949,53 @@ msgstr "%s %s %s %s 없음 %s "
 #. %2$s: - ELSE -
 #. %3$s: - IF Koha.Preference('IndependentBranches') && Branches.all().size == 1 -
 #. %4$s:  Branches.GetName(hold.branchcode) | html 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:142
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:147
 #, fuzzy, c-format
 msgid ", please checkin to verify status %s %s %s %s "
 msgstr "대출할 수 없습니다! %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:167
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:179
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:172
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:184
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:333
 #, fuzzy, c-format
 msgid "No barcode"
 msgstr "%s 바코드가 없습니다 %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:173
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:178
 #, fuzzy, c-format
 msgid "Only item"
 msgstr "항목만"
 
 #. %1$s:  ItemTypes.GetDescription( hold.itemtype ) | html 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:185
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:190
 #, fuzzy, c-format
 msgid "Next available %s item"
 msgstr "다음 이용가능자료"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:187
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:192
 #, fuzzy, c-format
 msgid "Next available item from group "
 msgstr "다음 이용가능자료"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:189
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:194
 #, c-format
 msgid "Next available"
 msgstr "다음의 사용 가능한것"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:196
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:201
 #, fuzzy, c-format
 msgid "Non priority hold"
 msgstr "내 우선예약:"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:203
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:208
 #, fuzzy
 msgid "Remove lowest priority"
 msgstr "토글 낮은 우선순위"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:216
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:217
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:221
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:222
 #: koha-tmpl/intranet-tmpl/prog/en/includes/waiting_holds.inc:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:283
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:289
@@ -9003,13 +9008,13 @@ msgid "Cancel hold"
 msgstr "예약 취소"
 
 #. %1$s:  ELSE 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:225
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:230
 #, fuzzy, c-format
 msgid "Unsuspend %s "
 msgstr "사용법: %s"
 
 #. %1$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:227
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:232
 #, fuzzy, c-format
 msgid "Suspend %s "
 msgstr "일시 중지"
@@ -9017,19 +9022,19 @@ msgstr "일시 중지"
 #. %1$s:  IF ( hold.suspend ) 
 #. %2$s:  ELSE 
 #. %3$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:232
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:237
 #, c-format
 msgid "%s on %s until %s"
 msgstr "%s 위에 %s 까지 %s"
 
 #. INPUT type=button
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:240
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:245
 #, fuzzy
 msgid "%sRevert transit status%sRevert waiting status%s"
 msgstr "대기 상태로 되돌림"
 
 #. INPUT type=button name=printholdslip
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:244
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:249
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:170
 #, c-format
@@ -71059,10 +71064,6 @@ msgstr ""
 #, fuzzy, c-format
 #~ msgid "Existing recalls &rsaquo; Recalls &rsaquo; Koha"
 #~ msgstr "Koha &rsaquo; 연속간행물 &rsaquo; 청구"
-
-#, fuzzy, c-format
-#~ msgid "Expired:"
-#~ msgstr "만료됨"
 
 #~ msgid "Export bibliographic, holdings, and authority records"
 #~ msgstr "서지레코드, 예약레코드, 전거레코드 출력"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: koha-translate@lists.koha-community.org\n"
-"POT-Creation-Date: 2023-11-10 21:07+0100\n"
+"POT-Creation-Date: 2023-11-15 07:57+0000\n"
 "PO-Revision-Date: 2023-11-13 13:37+0000\n"
 "Last-Translator: chrisc <chris@bigballofwax.co.nz>\n"
 "Language-Team: Koha Translation Team\n"
@@ -5626,7 +5626,7 @@ msgstr "Loading"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:154
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:159
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/transfer_limits.tt:68
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:272
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/patron-lists-tab.tt:106
@@ -8806,7 +8806,7 @@ msgid "Pickup library"
 msgstr "Pickup library"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:19
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:206
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:211
 #, fuzzy, c-format
 msgid "Set lowest priority"
 msgstr "Set to lowest priority"
@@ -8873,8 +8873,13 @@ msgstr "Move reserve to bottom"
 msgid "Move hold down"
 msgstr "Move reserve down"
 
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:133
+#, fuzzy, c-format
+msgid "Expired:"
+msgstr "expired"
+
 #. %1$s: - IF ( hold.atdestination ) -
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:134
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:139
 #, c-format
 msgid "%s Item waiting at "
 msgstr "%s Item waiting at "
@@ -8884,19 +8889,19 @@ msgstr "%s Item waiting at "
 #. %3$s:  END 
 #. %4$s:  hold.waiting_date | $KohaDates 
 #. %5$s: - ELSIF (hold.intransit) -
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:136
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:141
 #, fuzzy, c-format
 msgid "%s, %s,%s since %s %s Item being transferred to "
 msgstr "%s %s Item being transferred to "
 
 #. %1$s: - ELSIF (hold.inprocessing) -
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:138
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:143
 #, fuzzy, c-format
 msgid "%s Item being processed at "
 msgstr "%s %s Item being transferred to "
 
 #. %1$s: - ELSE -
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:140
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:145
 #, fuzzy, c-format
 msgid "%s Hold expected at "
 msgstr "would be entered as "
@@ -8905,53 +8910,53 @@ msgstr "would be entered as "
 #. %2$s: - ELSE -
 #. %3$s: - IF Koha.Preference('IndependentBranches') && Branches.all().size == 1 -
 #. %4$s:  Branches.GetName(hold.branchcode) | html 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:142
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:147
 #, fuzzy, c-format
 msgid ", please checkin to verify status %s %s %s %s "
 msgstr "Cannot check out! %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:167
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:179
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:172
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:184
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:333
 #, fuzzy, c-format
 msgid "No barcode"
 msgstr "%s No barcode"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:173
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:178
 #, fuzzy, c-format
 msgid "Only item"
 msgstr "Only item "
 
 #. %1$s:  ItemTypes.GetDescription( hold.itemtype ) | html 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:185
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:190
 #, c-format
 msgid "Next available %s item"
 msgstr "Next available %s item"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:187
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:192
 #, fuzzy, c-format
 msgid "Next available item from group "
 msgstr "Next available %s item"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:189
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:194
 #, c-format
 msgid "Next available"
 msgstr "Next available"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:196
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:201
 #, fuzzy, c-format
 msgid "Non priority hold"
 msgstr "Your priority: "
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:203
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:208
 #, fuzzy
 msgid "Remove lowest priority"
 msgstr "Toggle lowest priority"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:216
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:217
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:221
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:222
 #: koha-tmpl/intranet-tmpl/prog/en/includes/waiting_holds.inc:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:283
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:289
@@ -8964,13 +8969,13 @@ msgid "Cancel hold"
 msgstr "Cancel reserve"
 
 #. %1$s:  ELSE 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:225
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:230
 #, fuzzy, c-format
 msgid "Unsuspend %s "
 msgstr "Usage: %s "
 
 #. %1$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:227
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:232
 #, fuzzy, c-format
 msgid "Suspend %s "
 msgstr "Suspend"
@@ -8978,19 +8983,19 @@ msgstr "Suspend"
 #. %1$s:  IF ( hold.suspend ) 
 #. %2$s:  ELSE 
 #. %3$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:232
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:237
 #, c-format
 msgid "%s on %s until %s"
 msgstr "%s on %s until %s"
 
 #. INPUT type=button
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:240
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:245
 #, fuzzy
 msgid "%sRevert transit status%sRevert waiting status%s"
 msgstr "Revert waiting status"
 
 #. INPUT type=button name=printholdslip
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:244
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:249
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:170
 #, c-format
@@ -70838,10 +70843,6 @@ msgstr ""
 #, fuzzy, c-format
 #~ msgid "Existing recalls &rsaquo; Recalls &rsaquo; Koha"
 #~ msgstr "plugin for links &rsaquo; Cataloguing &rsaquo; Koha"
-
-#, fuzzy, c-format
-#~ msgid "Expired:"
-#~ msgstr "expired"
 
 #~ msgid "Export bibliographic, holdings, and authority records"
 #~ msgstr "Export bibliographic, holdings, and authority records"
