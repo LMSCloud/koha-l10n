@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "POT-Creation-Date: 2023-11-15 08:54+0000\n"
-"PO-Revision-Date: 2023-11-15 08:50+0000\n"
+"PO-Revision-Date: 2023-11-16 03:06+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -2838,7 +2838,7 @@ msgstr "Търсене в основно заглавие"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:190
 #, c-format
 msgid "Search all headings"
-msgstr "Търсене във всички под полета:"
+msgstr "Търсене във всички подполета"
 
 #. INPUT type=text name=value
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:140
@@ -9030,7 +9030,7 @@ msgstr "Модул страница"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/process_koc.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:22
 msgid "Breadcrumb"
-msgstr "Breadcrumb"
+msgstr "Навигация"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:449
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:20
@@ -11505,9 +11505,9 @@ msgstr "Читателят има промени в очакване на одо
 
 #. %1$s:  patron.dateexpiry | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:24
-#, fuzzy, c-format
+#, c-format
 msgid "Patron's card expires on %s."
-msgstr "Читателската карата е изтекла на %s"
+msgstr "Читателската карата е изтекла на %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:25
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:42
@@ -25087,7 +25087,7 @@ msgstr "не е наличен"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/result.tt:55
 #, c-format
 msgid "&lt;&lt; Previous"
-msgstr "&lt;&lt; Предишен"
+msgstr "&lt;&lt; Предишна"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcels.tt:134
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/result.tt:58
@@ -42499,9 +42499,8 @@ msgstr "Добавяне на екземпляр"
 
 #. INPUT type=submit name=add_duplicate_submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:271
-#, fuzzy
 msgid "Add and duplicate"
-msgstr "Добавете & дубликат"
+msgstr "Добавете и дублирайте"
 
 #. INPUT type=button name=add_multiple_copies
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:274
@@ -43767,7 +43766,7 @@ msgid "Staff members are not allowed to discharge borrowers, nor borrowers to re
 msgstr "Служителите нямат право да издават сертификати за читатели и читателите нямат право да искат сертификат."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:98
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron, so circulation is disabled."
 msgstr "Това е анонимен читател, така че историята на резервациите не се показва."
 
@@ -44056,7 +44055,7 @@ msgid "Yes, check out (Y)"
 msgstr "Да (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:375
-#, fuzzy, c-format
+#, c-format
 msgid "Don't check out, confirm hold, and print slip (P)"
 msgstr "Не издавайте и отпечатвайте фиш (P)"
 
@@ -44240,7 +44239,7 @@ msgstr "Екземплярът, е изтеглен и е в движение з
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:530
 #, c-format
 msgid "No open days found while calculating the due date. Check the library calendar."
-msgstr ""
+msgstr "Няма работни дни при изчисляване на крайната дата. Проверете календара на библиотеката."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:535
 #, c-format
@@ -53372,9 +53371,9 @@ msgid "%s Patron details for %s %s &rsaquo; Patrons &rsaquo; Koha "
 msgstr "%s Детайли за %s %s &rsaquo; Читатели &rsaquo; Коха "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron."
-msgstr "Този екземпляр е в очакване на друг читател."
+msgstr "Това е анонимен читател."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:62
 #, c-format
@@ -65134,9 +65133,9 @@ msgid "Renew existing patrons"
 msgstr "Подновете съществуващите покровители"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:317
-#, fuzzy, c-format
+#, c-format
 msgid "using the dateexpiry value in the file, if present"
-msgstr "използвайки стойността на dateexpiry във файла, ако има такава"
+msgstr "използвайки стойността на dateexpiry във файла, ако има такъв"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:318
 #, c-format
