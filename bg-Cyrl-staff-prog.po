@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 07:57+0000\n"
-"PO-Revision-Date: 2023-11-15 07:51+0000\n"
+"PO-Revision-Date: 2023-11-16 08:23+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -2940,7 +2940,7 @@ msgstr "Търсене в основно под поле (само $a)"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:190
 #, c-format
 msgid "Search all headings"
-msgstr "Търсене във всички под полета: "
+msgstr "Търсене във всички подполета"
 
 #. INPUT type=text name=value
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:140
@@ -3621,16 +3621,15 @@ msgstr "Заглавието за eБиблиотека не може да бъ�
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:11
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:56
-#, fuzzy, c-format
+#, c-format
 msgid "Usage data provider"
-msgstr "Управление на доставчиците на идентичност "
+msgstr "Доставчик на статистика за използването"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:12
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:57
-#, fuzzy
 msgid "Visit usage data provider"
-msgstr "Читатели, използващи този доставчик"
+msgstr "Посетете доставчика на данни"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:15
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:60
@@ -9378,7 +9377,7 @@ msgstr "Модул страница"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/process_koc.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:30
 msgid "Breadcrumb"
-msgstr "Breadcrumb"
+msgstr "Навигация"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:455
@@ -9968,9 +9967,9 @@ msgid "View patron details"
 msgstr "Детайли за читател"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-list-table.inc:11
-#, fuzzy, c-format
+#, c-format
 msgid "Batch"
-msgstr "Група: "
+msgstr "Група"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-list-table.inc:19
 #, c-format
@@ -10079,14 +10078,14 @@ msgid "List requests "
 msgstr "Списък на заявките "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-toolbar.inc:40
-#, fuzzy, c-format
+#, c-format
 msgid "New ILL requests batch "
-msgstr "Нова заявка за МБЗ "
+msgstr "Нова група заявки за ILL "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-toolbar.inc:49
-#, fuzzy, c-format
+#, c-format
 msgid "Batch requests"
-msgstr "заявки за статии"
+msgstr "Група заявки"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/installer-strings.inc:2
@@ -10298,12 +10297,12 @@ msgstr "Последен читател"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/last-borrower.inc:9
 #, fuzzy, c-format
 msgid "Toggle Dropdown"
-msgstr "Превключване на клавиатурата"
+msgstr "Превключване на падащото меню"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/last-borrower.inc:13
-#, fuzzy, c-format
+#, c-format
 msgid "Clear list"
-msgstr "Изчистване на всичко"
+msgstr "Изчистване на списък"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/letters-search.inc:8
@@ -10910,9 +10909,9 @@ msgstr "Отпечатайте фиш за връщане"
 
 #. %1$s:  notice.name | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:36
-#, fuzzy, c-format
+#, c-format
 msgid "Print %s"
-msgstr "Отпечатване "
+msgstr "Отпечатване %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:43
 #, c-format
@@ -10993,7 +10992,7 @@ msgstr "Изпратете нулиране на паролата"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:92
 #, fuzzy
 msgid "Patron is protected"
-msgstr "Читателят има ограничения"
+msgstr "Читателят е защитен"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:97
@@ -11397,14 +11396,14 @@ msgid "Barcode"
 msgstr "Баркод"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cancel_booking.inc:8
-#, fuzzy, c-format
+#, c-format
 msgid "Cancel booking"
-msgstr "Отказ "
+msgstr "Отказ от резервация"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cancel_booking.inc:13
-#, fuzzy, c-format
+#, c-format
 msgid "Are you sure you want to cancel this booking?"
-msgstr "Наистина ли искате да отмените резервацията?"
+msgstr "Наистина ли искате да анулирате резервацията?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cancel_booking.inc:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:125
@@ -11918,9 +11917,9 @@ msgid "Patron has no current article requests."
 msgstr "Читателят няма текущи заявки за статии."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:7
-#, fuzzy, c-format
+#, c-format
 msgid "Checkouts ("
-msgstr "Заемания "
+msgstr "Заемания ("
 
 #. %1$s:  relatives_issues_count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:12
@@ -11977,9 +11976,9 @@ msgstr "Клубове (%s/%s)"
 
 #. %1$s:  patron_lists_count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:83
-#, fuzzy, c-format
+#, c-format
 msgid "Patron lists (%s)"
-msgstr "Читателски списъци "
+msgstr "Читателски списъци (%s)"
 
 #. %1$s:  fines | $Price 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:100
@@ -12028,9 +12027,9 @@ msgstr "Обща дължима сума"
 #. %15$s:  WRAPPER tab_panel tabname="holds" 
 #. %16$s:  IF ( holds_count ) 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:129
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s Loading... %s %s %s %s Loading... %s %s %s %s %s %s %s %s "
-msgstr "%s %s %s %s Зареждане... %s %s %s %s %s %s %s %s "
+msgstr "%s%s%s%s Зареждане...%s%s%s%s Зареждане...%s%s%s%s%s%s%s%s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:157
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/holdshistory.tt:65
@@ -12568,9 +12567,9 @@ msgstr "Читателят има промени в очакване на одо
 
 #. %1$s:  patron.dateexpiry | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:24
-#, fuzzy, c-format
+#, c-format
 msgid "Patron's card expires on %s."
-msgstr "Читателската карата е изтекла на %s"
+msgstr "Читателската карата е изтекла на %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:25
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:42
@@ -12814,15 +12813,15 @@ msgstr "Направена резервация за %s."
 #. %3$s:  expires_on | $KohaDates 
 #. %4$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:216
-#, fuzzy, c-format
+#, c-format
 msgid "%s Waiting here %s until %s%s. "
-msgstr "%s Изчакване в %s до %s %s "
+msgstr "%s Изчакване в %s до %s %s. "
 
 #. %1$s:  w.waitingdate | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:220
-#, fuzzy, c-format
+#, c-format
 msgid "Waiting here since %s. "
-msgstr "Очаква се в %s от %s"
+msgstr "Очаква се от %s. "
 
 #. %1$s:  waiting_elsewhere | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:230
@@ -13694,9 +13693,9 @@ msgid "Allow staff to change logged in library"
 msgstr "Позволете на персонала да промени влизането в библиотеката"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:88
-#, fuzzy, c-format
+#, c-format
 msgid "Manage the preservation module"
-msgstr "Управление на модул за електронни ресурси"
+msgstr "Управление на модул за резервации"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:96
 #, c-format
@@ -13724,9 +13723,9 @@ msgid "Override blocked renewals "
 msgstr "Отмяна на блокирани презаписвания "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:121
-#, fuzzy, c-format
+#, c-format
 msgid "Manage item bookings "
-msgstr "Управление на библиотечни документи "
+msgstr "Управлявайте резервациите на екземпляри "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:126
 #, c-format
@@ -14625,37 +14624,36 @@ msgid "Web services"
 msgstr "Уеб услуги"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/preservation-menu.inc:6
-#, fuzzy, c-format
+#, c-format
 msgid "Preservation home"
-msgstr "Заемане начало"
+msgstr "Запазване начало"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/preservation-menu.inc:7
-#, fuzzy, c-format
+#, c-format
 msgid "Waiting list"
-msgstr "В очакване "
+msgstr "Списък на чакащи"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/preservation-menu.inc:8
-#, c-format
+#, c-format, fuzzy
 msgid "Trains"
-msgstr ""
+msgstr "Ред"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/preservation-search.inc:7
 #: koha-tmpl/intranet-tmpl/prog/en/includes/preservation-search.inc:18
-#, fuzzy, c-format
+#, c-format
 msgid "Preservation search"
-msgstr "Търсене на читател: "
+msgstr "Търсене за запазване"
 
 #. INPUT type=text name=supplier
 #: koha-tmpl/intranet-tmpl/prog/en/includes/preservation-search.inc:11
-#, fuzzy
 msgid "Search preservation"
-msgstr "Навигация в резултатите от търсенето"
+msgstr "Търсене на запазеното"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/preservation-toolbar.inc:4
 #, fuzzy, c-format
 msgid "New train"
-msgstr "Нов маркер"
+msgstr "Нов ред"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:56
@@ -15088,9 +15086,9 @@ msgid "Run report "
 msgstr "Изпълнете отчет "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:70
-#, fuzzy, c-format
+#, c-format
 msgid "Run with template "
-msgstr "Шаблон за клуб "
+msgstr "Изпълнение с шаблон "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:85
 #, c-format
@@ -15153,7 +15151,7 @@ msgstr "Електронната таблица за документи"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:138
 #, fuzzy, c-format
 msgid "Rendered template (%s)"
-msgstr "Споделени шаблони"
+msgstr "Изобразен шаблон (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:141
 #, c-format
@@ -15911,13 +15909,12 @@ msgstr "Добавяте %s екземпляри. Продължавате ли?
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/erm_sushi_harvester.inc:2
 msgid "Creating COUNTER file and processing data"
-msgstr ""
+msgstr "Създаване на COUNTER файл и обработка на данни"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/erm_sushi_harvester.inc:2
-#, fuzzy
 msgid "Requesting SUSHI service"
-msgstr "Заявка"
+msgstr "Заявка за услуга SUSHI"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -19831,9 +19828,9 @@ msgid "System preference 'AnonSuggestions' set, but AnonymousPatron preference i
 msgstr "Системната настройка „AnonSuggestions“ е зададена, но настройката за AnonymousPatron е зададена на „0“. Задайте валиден номер на читател, ако искате тази функция да работи правилно."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:447
-#, fuzzy, c-format
+#, c-format
 msgid "Some patrons have requested a privacy on returning item, but the AnonymousPatron preference is not set correctly. Set it to a valid borrower number or checkins for these patrons will fail."
-msgstr "Някои читатели са поискали поверителност при връщане на екземпляр, но параметърът AnonymousPatron не е зададен правилно. Задайте валиден номер на читател или връщанията за тези читатели ще се провали."
+msgstr "Някои читатели са поискали историите на четене да бъдат изтрит при връщане на екземпляр, но параметърът AnonymousPatron не е зададен правилно. Задайте валиден номер на читател или връщанията за тези читатели няма да е възможно."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:453
 #, c-format
@@ -19854,7 +19851,7 @@ msgstr "Системните настройки 'OpacHiddenItems' генерир
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:468
 #, c-format
 msgid "System preference 'PatronSelfRegistration' is set, but 'PatronSelfRegistrationDefaultCategory' does not contain a valid patron category code. Patron self-registration is disabled."
-msgstr ""
+msgstr "Системната настройка „PatronSelfRegistration“ е зададена, но „PatronSelfRegistrationDefaultCategory“ не съдържа валиден код на категория читател. Саморегистрирането на читатели е деактивирано."
 
 #. %1$s:  p.syspref | html 
 #. %2$s:  p.value | html 
@@ -19916,15 +19913,15 @@ msgid "The ILL module is enabled, but there are no backends available. "
 msgstr "Модулът МБЗ е активиран, но сървърните модули не са налични. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:534
-#, fuzzy, c-format
+#, c-format
 msgid "The ILL module is enabled, but ILLPartnerCode system preference is empty. Falling back to the hardcoded 'IL'. "
-msgstr "Модулът МБЗ е включен, но в koha-conf.xml не е дефиниран 'partner_code'. Връщане към твърдо програмирани 'IL'. "
+msgstr "ILL модулът е активиран, но полето на системната настройка ILLPartnerCode е празно. Връщане към твърдо кодирания „IL“. "
 
 #. %1$s:  ill_partner_code_no_patrons | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:542
 #, c-format
 msgid "The ILL module is enabled and ILLPartnerCode system preference configured, but there are no patrons in %s category. "
-msgstr ""
+msgstr "Модулът ILL е активиран и системната настройка ILLPartnerCode са конфигурирана, но няма потребители в категория %s. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:550
 #, c-format
@@ -19933,9 +19930,9 @@ msgstr "МБЗ модулът е включен, но блокът 'branch' не
 
 #. %1$s:  ill_partner_code_doesnt_exist | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:558
-#, fuzzy, c-format
+#, c-format
 msgid "The ILL module is enabled, but the configured ILLPartnerCode (%s) is not defined on the system. "
-msgstr "Модулът МБЗ е активиран, но конфигурираният 'partner_code' (%s) не е дефиниран в системата. "
+msgstr "ILL модулът е активиран, но зададеният ILLPartnerCode (%s) не е дефиниран в системата. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:566
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:756
@@ -22950,14 +22947,14 @@ msgid "Estimated delivery date"
 msgstr "Очаквана дата за доставка"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:479
-#, fuzzy, c-format
+#, c-format
 msgid "Statistic 1"
-msgstr "Статистика 1: "
+msgstr "Статистика 1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:480
-#, fuzzy, c-format
+#, c-format
 msgid "Statistic 2"
-msgstr "Статистика 2: "
+msgstr "Статистика 2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:481
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:193
@@ -23499,9 +23496,8 @@ msgstr "Добавете към група"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:358
-#, fuzzy
 msgid "Are you sure you want to delete this basket group?"
-msgstr "Сигурни ли сте, че искате да изтриете тази кошница?"
+msgstr "Сигурни ли сте, че искате да изтриете тази група кошници?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:358
@@ -24812,9 +24808,9 @@ msgid "Total cost"
 msgstr "Пълна цена"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:84
-#, fuzzy, c-format
+#, c-format
 msgid "Basket date"
-msgstr "Име на кошница"
+msgstr "Дата на кошница"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:87
 #, c-format
@@ -26204,7 +26200,7 @@ msgstr "не е наличен"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/result.tt:55
 #, c-format
 msgid "&lt;&lt; Previous"
-msgstr "&lt;&lt; Предишен"
+msgstr "&lt;&lt; Предишна"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcels.tt:139
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/result.tt:58
@@ -27117,9 +27113,9 @@ msgid "There are no issues defined. "
 msgstr "Няма дефинирани правила. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:204
-#, fuzzy, c-format
+#, c-format
 msgid "Create a new issue"
-msgstr "Създаване на списък"
+msgstr "Създайте нов брой"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:69
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:73
@@ -27307,9 +27303,9 @@ msgid "New field"
 msgstr "Ново поле"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:93
-#, fuzzy, c-format
+#, c-format
 msgid "The field has been added"
-msgstr "Полето е изтрито"
+msgstr "Полето е добавено"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:95
 #, fuzzy, c-format
@@ -42591,9 +42587,8 @@ msgstr "Добавяне на екземпляр"
 
 #. INPUT type=submit name=add_duplicate_submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:290
-#, fuzzy
 msgid "Add and duplicate"
-msgstr "Добавете & дубликат"
+msgstr "Добавете и дублирайте"
 
 #. INPUT type=button name=add_multiple_copies
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:293
@@ -43774,7 +43769,7 @@ msgid "Staff members are not allowed to discharge borrowers, nor borrowers to re
 msgstr "Служителите нямат право да издават сертификати за читатели и читателите нямат право да искат сертификат."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:106
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron, so circulation is disabled."
 msgstr "Това е анонимен читател, така че историята на резервациите не се показва."
 
@@ -44085,7 +44080,7 @@ msgid "Yes, check out (Y)"
 msgstr "Да (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:407
-#, fuzzy, c-format
+#, c-format
 msgid "Don't check out, confirm hold, and print slip (P)"
 msgstr "Не издавайте и отпечатвайте фиш (P)"
 
@@ -44296,7 +44291,7 @@ msgstr "Екземплярът, е изтеглен и е в движение з
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:587
 #, c-format
 msgid "No open days found while calculating the due date. Check the library calendar."
-msgstr ""
+msgstr "Няма работни дни при изчисляване на крайната дата. Проверете календара на библиотеката."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:592
 #, c-format
@@ -52556,9 +52551,9 @@ msgid "%s Total due: "
 msgstr "%s Общата дължима сума: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:59
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron."
-msgstr "Този екземпляр е в очакване на друг читател."
+msgstr "Това е анонимен читател."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:65
 #, c-format
@@ -63768,9 +63763,9 @@ msgid "Renew existing patrons"
 msgstr "Подновете съществуващите покровители"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:342
-#, fuzzy, c-format
+#, c-format
 msgid "using the dateexpiry value in the file, if present"
-msgstr "използвайки стойността на dateexpiry във файла, ако има такава"
+msgstr "използвайки стойността на dateexpiry във файла, ако има такъв"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:343
 #, c-format
