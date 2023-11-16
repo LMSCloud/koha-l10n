@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-16 08:26+0000\n"
-"PO-Revision-Date: 2023-11-16 08:23+0000\n"
-"Last-Translator: \"Tomas.jiglind\" <tomas.jiglind@mariestad.se>\n"
+"PO-Revision-Date: 2023-11-17 03:01+0000\n"
+"Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
 "MIME-Version: 1.0\n"
@@ -1255,7 +1255,7 @@ msgstr "(Auktoriserade värden för %s)"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/additional-fields-entry.inc:58
 #, c-format
 msgid "%s %s This value will be filled with the %s subfield of the selected bibliographic record. %s This value will be saved to the %s subfield of the selected bibliographic record. %s "
-msgstr ""
+msgstr "%s %s Detta värde kommer att bli ifyllt med %s delfältet från den valda bibliografiska posten. %s Detta värde kommer att sparas till %s delfältet i den valda bibliografiska posten. %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-icon-selection.inc:10
 #, c-format
@@ -2945,9 +2945,8 @@ msgstr "Sök alla rubriker"
 
 #. INPUT type=text name=value
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:140
-#, fuzzy
 msgid "Search any heading"
-msgstr "Sök huvudrubrik"
+msgstr "Sök efter ämne"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:163
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:193
@@ -4164,9 +4163,9 @@ msgid "ILL request not found."
 msgstr "Fjärrlånebeställning hittades inte."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:19
-#, fuzzy, c-format
+#, c-format
 msgid "This order cannot be edited, the basket is closed or the order was already received."
-msgstr "Ordern kan inte redigeras. Korgen är stängd."
+msgstr "Ordern kan inte redigeras, korgen är stängd eller så är leveransen redan mottagen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:21
 #, c-format
@@ -9311,9 +9310,9 @@ msgid "%s %s %s %s [%% # [ WRAPPER tab_item tabname= \"tab_name_1\" bt_active= 1
 msgstr "%s %s %s %s [%% # [ WRAPPER tab_item tabname= \"tab_name_1\" bt_active= 1 ] "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:363
-#, fuzzy, c-format
+#, c-format
 msgid "Tab text 1"
-msgstr "Dölj text"
+msgstr "Tabbtext 1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:363
 #, c-format
@@ -9321,9 +9320,9 @@ msgid "[ END ] %%] [%% # [ WRAPPER tab_item tabname= \"tab_name_2\" ] "
 msgstr "[ END ] %%] [%% # [ WRAPPER tab_item tabname= \"tab_name_2\" ] "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:364
-#, fuzzy, c-format
+#, c-format
 msgid "Tab text 2"
-msgstr "Dölj text"
+msgstr "Tabbtext 2"
 
 #. %1$s:  #             ...                                                                                     
 #. %2$s:  #         [ END ]                                                                                     
@@ -12470,15 +12469,13 @@ msgstr "med kategori "
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:254
-#, fuzzy
 msgid "with sort1 "
-msgstr "med kategori "
+msgstr "med sort1 "
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:254
-#, fuzzy
 msgid "with sort2 "
-msgstr "med kategori "
+msgstr "med sort2 "
 
 #. %1$s: - USE raw -
 #. %2$s: - USE Koha -
@@ -19485,7 +19482,7 @@ msgstr "Ingenstans"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:165
 #, c-format
 msgid "Effective caching method:"
-msgstr ""
+msgstr "Effektiv cachningsmetod:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:170
 #, c-format
@@ -20171,9 +20168,9 @@ msgid "EMN (Ecole des Mines de Nantes)"
 msgstr "EMN (Ecole des Mines de Nantes)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:770
-#, fuzzy, c-format
+#, c-format
 msgid ", France (bibliographic frameworks, MARC authorities, OPAC basket, Serials sponsorship) "
-msgstr ", Frankrike (biblio frameworks, MARC authorities, OPAC basket, Serials sponsorship) "
+msgstr ", Frankrike (bibliografiska ramverk, MARC-auktoriteter, OPAC-korg, periodika) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:770
 #, c-format
@@ -21076,9 +21073,9 @@ msgid "controls for column visiblity in DataTables"
 msgstr "styrning av synlighet för kolumner i DataTables"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1021
-#, fuzzy, c-format
+#, c-format
 msgid "jQuery Multiple Select Plugin"
-msgstr "jQuery plugin för val av flera poster"
+msgstr "jQuery-plugin för val av flera poster"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1023
 #, c-format
@@ -21086,9 +21083,9 @@ msgid "by Zhixin Wen is licensed under the MIT license. "
 msgstr "av Zhixin Wen är licensierad under MIT-licensen. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1023
-#, fuzzy, c-format
+#, c-format
 msgid "jQuery Multiple Select plugin"
-msgstr "jQuery plugin för val av flera poster"
+msgstr "jQuery-plugin för val av flera poster"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1026
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1028
@@ -26749,9 +26746,8 @@ msgstr "E-postadress:"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:520
-#, fuzzy
 msgid "Add another interface"
-msgstr "Lägg till ytterligare kontakt"
+msgstr "Lägg till gränssnitt"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:520
@@ -26760,15 +26756,13 @@ msgstr "Bekräfta borttagning av denna leverantör ?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:520
-#, fuzzy
 msgid "Delete interface"
-msgstr "Ta bort exemplar"
+msgstr "Ta bort gränssnitt"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:520
-#, fuzzy
 msgid "Interface details"
-msgstr "Exemplarinformation"
+msgstr "Detaljer för gränssnitt"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:520
@@ -27380,9 +27374,9 @@ msgid "Order baskets"
 msgstr "Beställningskorgar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:125
-#, fuzzy, c-format
+#, c-format
 msgid "Order lines"
-msgstr "Beställningsrad"
+msgstr "Beställningsrader"
 
 #. %1$s:  END 
 #. %2$s:  END 
@@ -27430,9 +27424,9 @@ msgid "MARC field"
 msgstr "MARC-fält"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:153
-#, fuzzy, c-format
+#, c-format
 msgid "MARC field mode"
-msgstr "MARC-fält: "
+msgstr "MARC-läge"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:156
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:363
@@ -27475,9 +27469,9 @@ msgid "Example: 942$c"
 msgstr "Exempel: 942$c"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:220
-#, fuzzy, c-format
+#, c-format
 msgid "MARC field mode: "
-msgstr "MARC-fält: "
+msgstr "MARC-läge: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:223
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:225
