@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2023-11-17 09:45+0000\n"
+"PO-Revision-Date: 2023-11-17 13:55+0000\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -5438,10 +5438,9 @@ msgstr "låntagare från att låna ett exemplar vars hyresavgift får dem att ö
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 msgid "circulation.pref#ItemsDeniedRenewal# <br /><strong>Configuration:</strong> <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=CCODE'>Collections (CCODE)</a> | <a href='/cgi-bin/koha/admin/itemtypes.pl'>Item types</a>"
-msgstr ""
+msgstr "<br /><strong>Konfiguration:</strong> <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=CCODE'>Avdelningar (CCODE)</a> | <a href='/cgi-bin/koha/admin/itemtypes.pl'>Exemplartyper</a>"
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
-#, fuzzy
 msgid "circulation.pref#ItemsDeniedRenewal# <br /><strong>NOTE:</strong> The word 'NULL' can be used to block renewal on undefined fields, while an empty string \"\" will block on an empty (but defined) field."
 msgstr "<br /> <strong>OBS:</strong> Ordet 'NULL' kan användas för att blockera förnyelse av odefinierade fält, medan en tom sträng \"\" kommer att blockera ett tomt (men definierat) fält."
 
@@ -5452,7 +5451,6 @@ msgstr "<br /> Kan skriva vilket fält som helst i exemplartabellen följt av et
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#ItemsDeniedRenewal# <br />ccode: [NEWFIC,NULL,DVD]"
 msgstr "<br />ccode: [NEWFIC,NULL,DVD]"
 
@@ -6199,19 +6197,16 @@ msgstr "låntagare att återlämna exemplar via det webbaserade självutlånings
 
 # Circulation > Interface > ShowAllCheckins
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#SCOLoadCheckoutsByDefault# Don't show"
 msgstr "Visa inte"
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#SCOLoadCheckoutsByDefault# Show"
-msgstr "Tillåt"
+msgstr "Visa"
 
 # Circulation > Self check-out module > ShowPatronImageInWebBasedSelfCheck
 # Circulation > Self check-out module
-#, fuzzy
 msgid "circulation.pref#SCOLoadCheckoutsByDefault# the patron's list of current checkouts by default when they log in to the self checkout module."
 msgstr "låntagarens bild (om en sådan lagts till) när de använder den webbaserade självutlåningen."
 
