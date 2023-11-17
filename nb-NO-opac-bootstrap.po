@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-10 21:07+0100\n"
-"PO-Revision-Date: 2023-11-17 09:45+0000\n"
+"PO-Revision-Date: 2023-11-18 03:01+0000\n"
 "Last-Translator: Magnus Enger <magnus@enger.priv.no>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nb-NO\n"
@@ -1655,9 +1655,9 @@ msgid "Submit "
 msgstr "Send "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:15
-#, fuzzy, c-format
+#, c-format
 msgid "Enter item barcode: "
-msgstr "Skann et nytt eksemplar, eller legg inn strekkoden:"
+msgstr "Oppgi strekkode: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:21
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:106
@@ -1683,9 +1683,9 @@ msgid "Due date"
 msgstr "Forfallsdato"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:31
-#, fuzzy, c-format
+#, c-format
 msgid "items checked out"
-msgstr "Eksemplaret er utlånt"
+msgstr "Eksemplar utlånt"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:37
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-topissues.inc:90
@@ -1987,19 +1987,19 @@ msgid "Availability"
 msgstr "Tilgjengelighet"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:33
-#, fuzzy, c-format
+#, c-format
 msgid "Show all records"
-msgstr "Vis alle nyheter"
+msgstr "Vis alle poster"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:33
-#, fuzzy, c-format
+#, c-format
 msgid "Showing only records with available items"
-msgstr "Viser kun tilgjengelige eksemplarer"
+msgstr "Viser kun poster med tilgjengelige eksemplar"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:35
-#, fuzzy, c-format
+#, c-format
 msgid "Limit to records with available items"
-msgstr "Avgrens til tilgjengelige eksemplarer"
+msgstr "Avgrens til poster med tilgjengelige eksemplar"
 
 #. %1$s:  FOREACH relate IN related 
 #. %2$s:  relate.related_search | html 
@@ -2571,9 +2571,8 @@ msgstr "Omslagsbilde"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:7
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:10
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:14
-#, fuzzy
 msgid "Place a hold on %s"
-msgstr "Legg inn en reservasjon på "
+msgstr "Legg til en reservasjon på %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:32
 #, c-format
@@ -2632,9 +2631,8 @@ msgstr "Lagre til lister"
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:66
-#, fuzzy
 msgid "Add %s to the cart"
-msgstr "Legg i handlekurv"
+msgstr "Legg %s i kurven"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:66
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:365
@@ -2767,9 +2765,9 @@ msgstr "Henting utenfor biblioteket"
 
 #. %1$s:  logged_in_user.alert_subscriptions.count | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/usermenu.inc:167
-#, fuzzy, c-format
+#, c-format
 msgid "Alert subscriptions (%s)"
-msgstr "Abonnementer ( %s )"
+msgstr "Abonnement på varsler ( %s )"
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/validator-strings.inc:2
@@ -2970,9 +2968,9 @@ msgid "An error has occurred &rsaquo; %s%s%sKoha online%s catalog"
 msgstr "Det har oppstått en feil &rsaquo; %s%s%sKoha %s katalog"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/errors/errorpage.tt:16
-#, fuzzy, c-format
+#, c-format
 msgid "An error has occurred"
-msgstr "Det har oppstått en feil."
+msgstr "Det har oppstått en feil"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/errors/errorpage.tt:33
 #, c-format
@@ -3630,9 +3628,9 @@ msgid "ilsdi.pl?service=GetPatronInfo&amp;patron_id=1&amp;show_contact=0&amp;sho
 msgstr "ilsdi.pl?service=GetPatronInfo&amp;patron_id=1&amp;show_contact=0&amp;show_loans=1 "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:599
-#, fuzzy, c-format
+#, c-format
 msgid "&lt;?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?&gt; &lt;GetPatronInfo&gt; &lt;category_type&gt;A&lt;/category_type&gt; &lt;categorycode&gt;ADUEXT&lt;/categorycode&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;lost&gt;0&lt;/lost&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;amountoutstanding&gt;6&lt;/amountoutstanding&gt; &lt;description&gt;Adulte extérieur&lt;/description&gt; &lt;title&gt;M&lt;/title&gt; &lt;enrolmentperiod&gt;12&lt;/enrolmentperiod&gt; &lt;charges&gt;6.00&lt;/charges&gt; &lt;dateenrolled&gt;2009-03-04&lt;/dateenrolled&gt; &lt;borrowernotes&gt;&lt;/borrowernotes&gt; &lt;dateexpiry&gt;2010-03-04&lt;/dateexpiry&gt; &lt;is_expired&gt;0&lt;/is_expired&gt; &lt;firstname&gt;Jean-André&lt;/firstname&gt; &lt;gonenoaddress&gt;0&lt;/gonenoaddress&gt; &lt;dateofbirth&gt;1984-06-08&lt;/dateofbirth&gt; &lt;debarred&gt;0&lt;/debarred&gt; &lt;branchname&gt;Bibliothèque Jean Prunier&lt;/branchname&gt; &lt;surname&gt;SANTONI&lt;/surname&gt; &lt;cardnumber&gt;815&lt;/cardnumber&gt; &lt;initials&gt;JAS&lt;/initials&gt; &lt;sort1&gt;CSP5&lt;/sort1&gt; &lt;sex&gt;M&lt;/sex&gt; &lt;loans&gt; &lt;loan&gt; &lt;lastreneweddate&gt;2009-04-03&lt;/lastreneweddate&gt; &lt;isbn&gt;2253003689&lt;/isbn&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;itemnumber&gt;4454&lt;/itemnumber&gt; &lt;date_due&gt;2009-05-06&lt;/date_due&gt; &lt;barcode&gt;4765476&lt;/barcode&gt; &lt;datelastseen&gt;2008-08-23&lt;/datelastseen&gt; &lt;issuedate&gt;2008-08-23&lt;/issuedate&gt; &lt;title&gt;L'Île au trésor&lt;/title&gt; &lt;itemtype&gt;LITT&lt;/itemtype&gt; &lt;author&gt;Robert Louis Stevenson&lt;/author&gt; &lt;timestamp&gt;2009-04-03 14:46:10&lt;/timestamp&gt; &lt;publishercode&gt;Librairie générale française&lt;/publishercode&gt; &lt;datecreated&gt;2008-08-23&lt;/datecreated&gt; &lt;totalrenewals&gt;11&lt;/totalrenewals&gt; &lt;dateaccessioned&gt;2008-08-23&lt;/dateaccessioned&gt; &lt;onloan&gt;2008-09-17&lt;/onloan&gt; &lt;biblioitemnumber&gt;4483&lt;/biblioitemnumber&gt; &lt;withdrawn&gt;0&lt;/withdrawn&gt; &lt;notforloan&gt;0&lt;/notforloan&gt; &lt;replacementpricedate&gt;2008-08-23&lt;/replacementpricedate&gt; &lt;itemcallnumber&gt;RO STE&lt;/itemcallnumber&gt; &lt;location&gt;Salle de lecture&lt;/location&gt; &lt;itemlost&gt;0&lt;/itemlost&gt; &lt;publicationyear&gt;1985&lt;/publicationyear&gt; &lt;holds_on_record&gt;0&lt;/holds_on_record&gt; &lt;holds_on_item&gt;0&lt;/holds_on_item&gt; &lt;issues&gt;1&lt;/issues&gt; &lt;homebranch&gt;BIB&lt;/homebranch&gt; &lt;holdingbranch&gt;BIB&lt;/holdingbranch&gt; &lt;biblionumber&gt;4483&lt;/biblionumber&gt; &lt;renewals&gt;3&lt;/renewals&gt; &lt;damaged&gt;0&lt;/damaged&gt; &lt;cn_sort&gt;RO_STE&lt;/cn_sort&gt; &lt;frameworkcode&gt;&lt;/frameworkcode&gt; &lt;datelastborrowed&gt;2008-08-23&lt;/datelastborrowed&gt; &lt;/loan&gt; &lt;loan&gt; &lt;lastreneweddate&gt;2009-03-17&lt;/lastreneweddate&gt; &lt;isbn&gt;9782700017823&lt;/isbn&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;itemnumber&gt;4456&lt;/itemnumber&gt; &lt;date_due&gt;2009-04-18&lt;/date_due&gt; &lt;barcode&gt;2700017UUU&lt;/barcode&gt; &lt;datelastseen&gt;2008-08-23&lt;/datelastseen&gt; &lt;issuedate&gt;2008-08-23&lt;/issuedate&gt; &lt;title&gt;La guitare en 10 leçons&lt;/title&gt; &lt;itemtype&gt;LITT&lt;/itemtype&gt; &lt;author&gt;Jon Buck&lt;/author&gt; &lt;timestamp&gt;2009-03-17 16:48:14&lt;/timestamp&gt; &lt;publishercode&gt;Gründ&lt;/publishercode&gt; &lt;datecreated&gt;2008-08-23&lt;/datecreated&gt; &lt;totalrenewals&gt;6&lt;/totalrenewals&gt; &lt;dateaccessioned&gt;2008-08-23&lt;/dateaccessioned&gt; &lt;notes&gt;La couv. porte en plus : \"un guide simple et facile pour apprendre la guitare\" | Glossaire. Index&lt;/notes&gt; &lt;onloan&gt;2008-09-25&lt;/onloan&gt; &lt;biblioitemnumber&gt;4486&lt;/biblioitemnumber&gt; &lt;withdrawn&gt;0&lt;/withdrawn&gt; &lt;notforloan&gt;0&lt;/notforloan&gt; &lt;replacementpricedate&gt;2008-08-23&lt;/replacementpricedate&gt; &lt;itemcallnumber&gt;787.87 BUC&lt;/itemcallnumber&gt; &lt;location&gt;Salle de lecture&lt;/location&gt; &lt;itemlost&gt;0&lt;/itemlost&gt; &lt;publicationyear&gt;2007&lt;/publicationyear&gt; &lt;holds_on_record&gt;1&lt;/holds_on_record&gt; &lt;holds_on_item&gt;1&lt;/holds_on_item&gt; &lt;issues&gt;1&lt;/issues&gt; &lt;homebranch&gt;BIB&lt;/homebranch&gt; &lt;holdingbranch&gt;BIB&lt;/holdingbranch&gt; &lt;biblionumber&gt;4486&lt;/biblionumber&gt; &lt;renewals&gt;3&lt;/renewals&gt; &lt;damaged&gt;0&lt;/damaged&gt; &lt;cn_sort&gt;78787_BUC&lt;/cn_sort&gt; &lt;volume&gt;une méthode simple et facile pour apprendre la guitare&lt;/volume&gt; &lt;frameworkcode&gt;&lt;/frameworkcode&gt; &lt;datelastborrowed&gt;2008-08-23&lt;/datelastborrowed&gt; &lt;/loan&gt; &lt;/loans&gt; &lt;/GetPatronInfo&gt;"
-msgstr "&lt;?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?&gt; &lt;GetPatronInfo&gt; &lt;category_type&gt;A&lt;/category_type&gt; &lt;categorycode&gt;ADUEXT&lt;/categorycode&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;lost&gt;0&lt;/lost&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;amountoutstanding&gt;6&lt;/amountoutstanding&gt; &lt;description&gt;Adulte extérieur&lt;/description&gt; &lt;title&gt;M&lt;/title&gt; &lt;enrolmentperiod&gt;12&lt;/enrolmentperiod&gt; &lt;charges&gt;6.00&lt;/charges&gt; &lt;dateenrolled&gt;2009-03-04&lt;/dateenrolled&gt; &lt;borrowernotes&gt;&lt;/borrowernotes&gt; &lt;dateexpiry&gt;2010-03-04&lt;/dateexpiry&gt; &lt;is_expired&gt;0&lt;/is_expired&gt; &lt;firstname&gt;Jean-André&lt;/firstname&gt; &lt;gonenoaddress&gt;0&lt;/gonenoaddress&gt; &lt;dateofbirth&gt;1984-06-08&lt;/dateofbirth&gt; &lt;debarred&gt;0&lt;/debarred&gt; &lt;branchname&gt;Bibliothèque Jean Prunier&lt;/branchname&gt; &lt;surname&gt;SANTONI&lt;/surname&gt; &lt;cardnumber&gt;815&lt;/cardnumber&gt; &lt;initials&gt;JAS&lt;/initials&gt; &lt;sort1&gt;CSP5&lt;/sort1&gt; &lt;sex&gt;M&lt;/sex&gt; &lt;loans&gt; &lt;loan&gt; &lt;lastreneweddate&gt;2009-04-03&lt;/lastreneweddate&gt; &lt;isbn&gt;2253003689&lt;/isbn&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;itemnumber&gt;4454&lt;/itemnumber&gt; &lt;date_due&gt;2009-05-06&lt;/date_due&gt; &lt;barcode&gt;4765476&lt;/barcode&gt; &lt;datelastseen&gt;2008-08-23&lt;/datelastseen&gt; &lt;issuedate&gt;2008-08-23&lt;/issuedate&gt; &lt;title&gt;L'Île au trésor&lt;/title&gt; &lt;itemtype&gt;LITT&lt;/itemtype&gt; &lt;author&gt;Robert Louis Stevenson&lt;/author&gt; &lt;timestamp&gt;2009-04-03 14:46:10&lt;/timestamp&gt; &lt;publishercode&gt;Librairie générale française&lt;/publishercode&gt; &lt;datecreated&gt;2008-08-23&lt;/datecreated&gt; &lt;totalrenewals&gt;11&lt;/totalrenewals&gt; &lt;dateaccessioned&gt;2008-08-23&lt;/dateaccessioned&gt; &lt;onloan&gt;2008-09-17&lt;/onloan&gt; &lt;biblioitemnumber&gt;4483&lt;/biblioitemnumber&gt; &lt;withdrawn&gt;0&lt;/withdrawn&gt; &lt;notforloan&gt;0&lt;/notforloan&gt; &lt;replacementpricedate&gt;2008-08-23&lt;/replacementpricedate&gt; &lt;itemcallnumber&gt;RO STE&lt;/itemcallnumber&gt; &lt;location&gt;Salle de lecture&lt;/location&gt; &lt;itemlost&gt;0&lt;/itemlost&gt; &lt;publicationyear&gt;1985&lt;/publicationyear&gt; &lt;issues&gt;1&lt;/issues&gt; &lt;homebranch&gt;BIB&lt;/homebranch&gt; &lt;holdingbranch&gt;BIB&lt;/holdingbranch&gt; &lt;biblionumber&gt;4483&lt;/biblionumber&gt; &lt;renewals&gt;3&lt;/renewals&gt; &lt;damaged&gt;0&lt;/damaged&gt; &lt;cn_sort&gt;RO_STE&lt;/cn_sort&gt; &lt;frameworkcode&gt;&lt;/frameworkcode&gt; &lt;datelastborrowed&gt;2008-08-23&lt;/datelastborrowed&gt; &lt;/loan&gt; &lt;loan&gt; &lt;lastreneweddate&gt;2009-03-17&lt;/lastreneweddate&gt; &lt;isbn&gt;9782700017823&lt;/isbn&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;itemnumber&gt;4456&lt;/itemnumber&gt; &lt;date_due&gt;2009-04-18&lt;/date_due&gt; &lt;barcode&gt;2700017UUU&lt;/barcode&gt; &lt;datelastseen&gt;2008-08-23&lt;/datelastseen&gt; &lt;issuedate&gt;2008-08-23&lt;/issuedate&gt; &lt;title&gt;La guitare en 10 leçons&lt;/title&gt; &lt;itemtype&gt;LITT&lt;/itemtype&gt; &lt;author&gt;Jon Buck&lt;/author&gt; &lt;timestamp&gt;2009-03-17 16:48:14&lt;/timestamp&gt; &lt;publishercode&gt;Gründ&lt;/publishercode&gt; &lt;datecreated&gt;2008-08-23&lt;/datecreated&gt; &lt;totalrenewals&gt;6&lt;/totalrenewals&gt; &lt;dateaccessioned&gt;2008-08-23&lt;/dateaccessioned&gt; &lt;notes&gt;La couv. porte en plus : \"un guide simple et facile pour apprendre la guitare\" | Glossaire. Index&lt;/notes&gt; &lt;onloan&gt;2008-09-25&lt;/onloan&gt; &lt;biblioitemnumber&gt;4486&lt;/biblioitemnumber&gt; &lt;withdrawn&gt;0&lt;/withdrawn&gt; &lt;notforloan&gt;0&lt;/notforloan&gt; &lt;replacementpricedate&gt;2008-08-23&lt;/replacementpricedate&gt; &lt;itemcallnumber&gt;787.87 BUC&lt;/itemcallnumber&gt; &lt;location&gt;Salle de lecture&lt;/location&gt; &lt;itemlost&gt;0&lt;/itemlost&gt; &lt;publicationyear&gt;2007&lt;/publicationyear&gt; &lt;issues&gt;1&lt;/issues&gt; &lt;homebranch&gt;BIB&lt;/homebranch&gt; &lt;holdingbranch&gt;BIB&lt;/holdingbranch&gt; &lt;biblionumber&gt;4486&lt;/biblionumber&gt; &lt;renewals&gt;3&lt;/renewals&gt; &lt;damaged&gt;0&lt;/damaged&gt; &lt;cn_sort&gt;78787_BUC&lt;/cn_sort&gt; &lt;volume&gt;une méthode simple et facile pour apprendre la guitare&lt;/volume&gt; &lt;frameworkcode&gt;&lt;/frameworkcode&gt; &lt;datelastborrowed&gt;2008-08-23&lt;/datelastborrowed&gt; &lt;/loan&gt; &lt;/loans&gt; &lt;/GetPatronInfo&gt;"
+msgstr "&lt;?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?&gt; &lt;GetPatronInfo&gt; &lt;category_type&gt;A&lt;/category_type&gt; &lt;categorycode&gt;ADUEXT&lt;/categorycode&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;lost&gt;0&lt;/lost&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;amountoutstanding&gt;6&lt;/amountoutstanding&gt; &lt;description&gt;Adulte extérieur&lt;/description&gt; &lt;title&gt;M&lt;/title&gt; &lt;enrolmentperiod&gt;12&lt;/enrolmentperiod&gt; &lt;charges&gt;6.00&lt;/charges&gt; &lt;dateenrolled&gt;2009-03-04&lt;/dateenrolled&gt; &lt;borrowernotes&gt;&lt;/borrowernotes&gt; &lt;dateexpiry&gt;2010-03-04&lt;/dateexpiry&gt; &lt;is_expired&gt;0&lt;/is_expired&gt; &lt;firstname&gt;Jean-André&lt;/firstname&gt; &lt;gonenoaddress&gt;0&lt;/gonenoaddress&gt; &lt;dateofbirth&gt;1984-06-08&lt;/dateofbirth&gt; &lt;debarred&gt;0&lt;/debarred&gt; &lt;branchname&gt;Bibliothèque Jean Prunier&lt;/branchname&gt; &lt;surname&gt;SANTONI&lt;/surname&gt; &lt;cardnumber&gt;815&lt;/cardnumber&gt; &lt;initials&gt;JAS&lt;/initials&gt; &lt;sort1&gt;CSP5&lt;/sort1&gt; &lt;sex&gt;M&lt;/sex&gt; &lt;loans&gt; &lt;loan&gt; &lt;lastreneweddate&gt;2009-04-03&lt;/lastreneweddate&gt; &lt;isbn&gt;2253003689&lt;/isbn&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;itemnumber&gt;4454&lt;/itemnumber&gt; &lt;date_due&gt;2009-05-06&lt;/date_due&gt; &lt;barcode&gt;4765476&lt;/barcode&gt; &lt;datelastseen&gt;2008-08-23&lt;/datelastseen&gt; &lt;issuedate&gt;2008-08-23&lt;/issuedate&gt; &lt;title&gt;L'Île au trésor&lt;/title&gt; &lt;itemtype&gt;LITT&lt;/itemtype&gt; &lt;author&gt;Robert Louis Stevenson&lt;/author&gt; &lt;timestamp&gt;2009-04-03 14:46:10&lt;/timestamp&gt; &lt;publishercode&gt;Librairie générale française&lt;/publishercode&gt; &lt;datecreated&gt;2008-08-23&lt;/datecreated&gt; &lt;totalrenewals&gt;11&lt;/totalrenewals&gt; &lt;dateaccessioned&gt;2008-08-23&lt;/dateaccessioned&gt; &lt;onloan&gt;2008-09-17&lt;/onloan&gt; &lt;biblioitemnumber&gt;4483&lt;/biblioitemnumber&gt; &lt;withdrawn&gt;0&lt;/withdrawn&gt; &lt;notforloan&gt;0&lt;/notforloan&gt; &lt;replacementpricedate&gt;2008-08-23&lt;/replacementpricedate&gt; &lt;itemcallnumber&gt;RO STE&lt;/itemcallnumber&gt; &lt;location&gt;Salle de lecture&lt;/location&gt; &lt;itemlost&gt;0&lt;/itemlost&gt; &lt;publicationyear&gt;1985&lt;/publicationyear&gt; &lt;holds_on_record&gt;0&lt;/holds_on_record&gt; &lt;holds_on_item&gt;0&lt;/holds_on_item&gt; &lt;issues&gt;1&lt;/issues&gt; &lt;homebranch&gt;BIB&lt;/homebranch&gt; &lt;holdingbranch&gt;BIB&lt;/holdingbranch&gt; &lt;biblionumber&gt;4483&lt;/biblionumber&gt; &lt;renewals&gt;3&lt;/renewals&gt; &lt;damaged&gt;0&lt;/damaged&gt; &lt;cn_sort&gt;RO_STE&lt;/cn_sort&gt; &lt;frameworkcode&gt;&lt;/frameworkcode&gt; &lt;datelastborrowed&gt;2008-08-23&lt;/datelastborrowed&gt; &lt;/loan&gt; &lt;loan&gt; &lt;lastreneweddate&gt;2009-03-17&lt;/lastreneweddate&gt; &lt;isbn&gt;9782700017823&lt;/isbn&gt; &lt;borrowernumber&gt;419&lt;/borrowernumber&gt; &lt;branchcode&gt;BIB&lt;/branchcode&gt; &lt;itemnumber&gt;4456&lt;/itemnumber&gt; &lt;date_due&gt;2009-04-18&lt;/date_due&gt; &lt;barcode&gt;2700017UUU&lt;/barcode&gt; &lt;datelastseen&gt;2008-08-23&lt;/datelastseen&gt; &lt;issuedate&gt;2008-08-23&lt;/issuedate&gt; &lt;title&gt;La guitare en 10 leçons&lt;/title&gt; &lt;itemtype&gt;LITT&lt;/itemtype&gt; &lt;author&gt;Jon Buck&lt;/author&gt; &lt;timestamp&gt;2009-03-17 16:48:14&lt;/timestamp&gt; &lt;publishercode&gt;Gründ&lt;/publishercode&gt; &lt;datecreated&gt;2008-08-23&lt;/datecreated&gt; &lt;totalrenewals&gt;6&lt;/totalrenewals&gt; &lt;dateaccessioned&gt;2008-08-23&lt;/dateaccessioned&gt; &lt;notes&gt;La couv. porte en plus : \"un guide simple et facile pour apprendre la guitare\" | Glossaire. Index&lt;/notes&gt; &lt;onloan&gt;2008-09-25&lt;/onloan&gt; &lt;biblioitemnumber&gt;4486&lt;/biblioitemnumber&gt; &lt;withdrawn&gt;0&lt;/withdrawn&gt; &lt;notforloan&gt;0&lt;/notforloan&gt; &lt;replacementpricedate&gt;2008-08-23&lt;/replacementpricedate&gt; &lt;itemcallnumber&gt;787.87 BUC&lt;/itemcallnumber&gt; &lt;location&gt;Salle de lecture&lt;/location&gt; &lt;itemlost&gt;0&lt;/itemlost&gt; &lt;publicationyear&gt;2007&lt;/publicationyear&gt; &lt;holds_on_record&gt;1&lt;/holds_on_record&gt; &lt;holds_on_item&gt;1&lt;/holds_on_item&gt; &lt;issues&gt;1&lt;/issues&gt; &lt;homebranch&gt;BIB&lt;/homebranch&gt; &lt;holdingbranch&gt;BIB&lt;/holdingbranch&gt; &lt;biblionumber&gt;4486&lt;/biblionumber&gt; &lt;renewals&gt;3&lt;/renewals&gt; &lt;damaged&gt;0&lt;/damaged&gt; &lt;cn_sort&gt;78787_BUC&lt;/cn_sort&gt; &lt;volume&gt;une méthode simple et facile pour apprendre la guitare&lt;/volume&gt; &lt;frameworkcode&gt;&lt;/frameworkcode&gt; &lt;datelastborrowed&gt;2008-08-23&lt;/datelastborrowed&gt; &lt;/loan&gt; &lt;/loans&gt; &lt;/GetPatronInfo&gt;"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:712
 #, c-format
@@ -3988,9 +3986,9 @@ msgstr "ISBD-visning &rsaquo; %s%s%sKoha %s katalog"
 
 #. %1$s:  biblio.title | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-ISBDdetail.tt:14
-#, fuzzy, c-format
+#, c-format
 msgid "ISBD view for: %s"
-msgstr "ISBD-visning"
+msgstr "ISBD-visning for: %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-ISBDdetail.tt:25
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-MARCdetail.tt:26
@@ -4437,9 +4435,8 @@ msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISSN"
 
 #. INPUT type=text name=q
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:110
-#, fuzzy
 msgid "Enter field %s search terms"
-msgstr "Legg inn søkeord"
+msgstr "Legg inn felt %s søkeord"
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:114
@@ -4929,14 +4926,14 @@ msgstr "Bekreft at du ikke vil motta e-post når det kommer en ny utgave for det
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:8
-#, fuzzy, c-format
+#, c-format
 msgid "Your alert subscriptions &rsaquo; %s%s%sKoha online%s catalog"
-msgstr "Utgaver for abonnement &rsaquo; %s%s%sKoha %s katalog"
+msgstr "Dine abonnement på varslinger &rsaquo; %s%s%sKoha %s katalog"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:25
-#, fuzzy, c-format
+#, c-format
 msgid "Your alert subscriptions"
-msgstr "Utgaver for et abonnement"
+msgstr "Dine abonnement på varslinger"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:40
 #, fuzzy, c-format
