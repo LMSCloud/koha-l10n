@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-10 21:07+0100\n"
-"PO-Revision-Date: 2023-11-16 08:23+0000\n"
+"PO-Revision-Date: 2023-11-17 09:45+0000\n"
 "Last-Translator: Magnus Enger <magnus@enger.priv.no>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nb-NO\n"
@@ -675,9 +675,9 @@ msgstr "Reservert eksemplar: %s"
 #. %4$s:  END 
 #. %5$s:  ELSE 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:72
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s Never expires %s %s "
-msgstr "Utløper aldri %s %s "
+msgstr "%s %s %s Utløper aldri %s %s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:88
 #, c-format
@@ -911,19 +911,19 @@ msgstr "Modul "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:116
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:124
-#, fuzzy, c-format
+#, c-format
 msgid "Module page "
-msgstr "Resultater per side: "
+msgstr "Module-side: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:119
-#, fuzzy, c-format
+#, c-format
 msgid "Add form"
-msgstr "Alle formater"
+msgstr "Legg til skjema"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:127
-#, fuzzy, c-format
+#, c-format
 msgid "Confirm deletion"
-msgstr "Bekreft forslaget"
+msgstr "Bekreft sletting"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:132
 #, c-format
@@ -1235,9 +1235,8 @@ msgstr "Logg på for å opprette dine egne lister"
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:91
-#, fuzzy
 msgid "Self check out"
-msgstr "Hjelp til selvbetjent utlån"
+msgstr "Selvbetjent utlån"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:92
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:6
@@ -7382,7 +7381,7 @@ msgstr "Vis fjernlånsønske"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:45
 #, c-format
 msgid "Ill request disclaimer"
-msgstr ""
+msgstr "Fjernlån ansvarsfraskrivelse"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:72
 #, c-format
@@ -7554,7 +7553,7 @@ msgstr "avbryt forespørselen"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:283
 #, c-format
 msgid "ILL request disclaimer"
-msgstr ""
+msgstr "Fjernlån ansvarsfraskrivelse"
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #. %2$s:  IF ( LibraryNameTitle ) 
@@ -7765,7 +7764,7 @@ msgstr "Dine personopplysninger"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry-update-submitted.tt:24
 #, c-format
 msgid "Updates submitted"
-msgstr ""
+msgstr "Oppdateringer innsendt"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry-update-submitted.tt:38
 #, c-format
@@ -8469,12 +8468,12 @@ msgstr "Ukjent"
 #. SELECT name=[% messaging_preference.message_attribute_id | html %]-DAYS
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:81
 msgid "Choose how many days in advance you wish to receive notice"
-msgstr ""
+msgstr "Velg hvor mange dager i forkant du ønsker å bli varslet"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:97
 msgid "Unselect sms messaging"
-msgstr ""
+msgstr "Av-velg SMS-meldinger"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:99
@@ -8498,12 +8497,12 @@ msgstr "Avbryt varsling pr e-post "
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:133
 msgid "Unselect itiva messaging"
-msgstr ""
+msgstr "Av-velg itiva-meldinger"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:156
 msgid "Unselect email messaging"
-msgstr ""
+msgstr "Av-velg epost-meldinger"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:158
@@ -9060,7 +9059,7 @@ msgstr "For at du skal kunne fortsette å være logget inn trenger vi ditt samty
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:45
 #, c-format
 msgid "If you choose to withdraw your consent we will "
-msgstr ""
+msgstr "Dersom du trekker samtykket ditt tilbake vil vi "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:45
 #, fuzzy, c-format
@@ -9070,7 +9069,7 @@ msgstr "Din konto"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:45
 #, c-format
 msgid "within a reasonable time and you should log out now."
-msgstr ""
+msgstr "innen en rimelig tid, og du bør logge ut nå."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:47
 #, c-format
@@ -9086,7 +9085,7 @@ msgstr "og samtykker til deres behandling av mine persondata som beskrevet."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:56
 #, c-format
 msgid "Do you agree?"
-msgstr ""
+msgstr "Er du enig?"
 
 #. %1$s:  consent_type | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:55
@@ -9119,7 +9118,7 @@ msgstr "Ditt samtykke ble registrert den %s."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:72
 #, c-format
 msgid "We registered that you did not consent on %s."
-msgstr ""
+msgstr "Vi registrerte at du ikke samtykket den %s."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:82
 #, fuzzy, c-format
@@ -9791,12 +9790,12 @@ msgstr "Raporter et problem &rsaquo; %s%s%sKoha %s katalog"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reportproblem.tt:21
 #, c-format
 msgid "Report submitted"
-msgstr ""
+msgstr "Rapport sendt inn"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reportproblem.tt:23
 #, c-format
 msgid "Error submitting report"
-msgstr ""
+msgstr "Feil ved innsending av rapport"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reportproblem.tt:53
 #, c-format
