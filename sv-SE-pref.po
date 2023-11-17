@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2023-10-03 06:37+0000\n"
+"PO-Revision-Date: 2023-11-17 09:45+0000\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
-"Language: sv\n"
+"Language: sv-SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.1.1\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-pref.po\n"
 "X-POOTLE-MTIME: 1696315079.348994\n"
@@ -158,7 +158,7 @@ msgstr "avgifter till närmaste krona när en mottar betalning. Att aktivera den
 # Accounting > Features > UseCashRegisters
 # Accounting > Features
 msgid "accounting.pref#UseCashRegisters#  cash registers with the accounting system to track payments."
-msgstr "  kassaregister med bokföringssystemet för att spåra betalningar."
+msgstr "kassaregister med bokföringssystemet för att spåra betalningar."
 
 # Accounting > Features > UseCashRegisters
 msgid "accounting.pref#UseCashRegisters# <p class='text-danger'><strong>Warning:</strong> Enabling this setting will make the register a required field for all CASH type transactions; This includes SIP00 transactions, so please ensure your SIP configurations are updated to map a register to your SIP device.</p>"
@@ -279,24 +279,21 @@ msgid "acquisitions.pref#AcqWarnOnDuplicateInvoice# when the librarian tries to 
 msgstr "när bibliotekarien försöker skapa en faktura med ett duplicerat nummer."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
-#, fuzzy
 msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Om det här lämnas tomt så kommer meddelandet gå till den första e-postadressen i följande lista: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> och <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "Om det här lämnas tomt så kommer meddelandet gå till den första e-postadressen i följande lista: bibliotekets e-post, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> och <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
 
 # Acquisitions > Policy > AcquisitionsDefaultEMailAddress
 msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# Use the from email address"
-msgstr ""
+msgstr "Använd från-adressen"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# when sending acquisitions order and claim notices."
-msgstr "dold kopia (BCC) till inloggad användare vid skickande av kravbrev för tidskrifter eller inköp."
+msgstr "när meddelanden om beställningar och reklamationer skickas."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
-#, fuzzy
 msgid "acquisitions.pref#AcquisitionsDefaultReplyTo# <br>If left empty, it will fall back to the first defined address in the following list: library reply-to, library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Om det här lämnas tomt så kommer meddelandet gå till den första e-postadressen i följande lista: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> och <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "Om det här lämnas tomt så kommer meddelandet gå till den första e-postadressen i följande lista: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> och <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Acquisitions > Policy > AcquisitionsDefaultReplyTo
 msgid "acquisitions.pref#AcquisitionsDefaultReplyTo# Use the reply-to email address"
@@ -304,9 +301,8 @@ msgstr ""
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#AcquisitionsDefaultReplyTo# when sending acquisitions order and claim notices."
-msgstr "dold kopia (BCC) till inloggad användare vid skickande av kravbrev för tidskrifter eller inköp."
+msgstr "när meddelanden om beställningar och reklamationer skickas."
 
 # Acquisitions > Policy > BasketConfirmations
 # Acquisitions > Policy
@@ -325,15 +321,13 @@ msgstr "be inte om bekräftelse."
 
 # Circulation > Checkin policy > CalculateFinesOnBackdate
 # Circulation > Checkin policy
-#, fuzzy
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# Exclude"
-msgstr "Beräkna och uppdatera"
+msgstr "Exkludera"
 
 # Acquisitions > Policy > EmailPurchaseSuggestions
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# Include"
-msgstr "ingen"
+msgstr "Inkludera"
 
 # Acquisitions > Policy > CalculateFundValuesIncludingTax
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# tax in the calculated fund values (spent, ordered). Note this rule applies to all vendors regardless of their configuration"
@@ -341,19 +335,17 @@ msgstr ""
 
 # Acquisitions > Policy > AcqViewBaskets
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# Allow"
-msgstr "Visa korgar"
+msgstr "Tillåt"
 
 # Acquisitions > Policy > AcqEnableFiles
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# Don't allow"
-msgstr "Aktivera inte"
+msgstr "Tillåt inte att"
 
 # Acquisitions > Policy > CancelOrdersInClosedBaskets
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# cancelling order lines in closed baskets."
-msgstr ""
+msgstr "beställningsrader avbryts i stängda korgar."
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
@@ -573,9 +565,8 @@ msgid "acquisitions.pref#PurgeSuggestionsOlderThan# days. Example: [30] Sets pur
 msgstr "dagar. Exempel: [30] Rensar förslag som är äldre än 30 dagar."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Om det här lämnas tomt så kommer meddelandet gå till den första e-postadressen i följande lista: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> och <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "Om det här lämnas tomt så kommer meddelandet gå till den första e-postadressen i följande lista: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> och <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Administration > Interface options > ReplytoDefault
 # Administration > Interface options
@@ -585,9 +576,8 @@ msgstr "E-postadress som ska sättas som svarsadress i e-postmeddelanden: "
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# when sending serial claim notices."
-msgstr "dold kopia (BCC) till inloggad användare vid skickande av kravbrev för tidskrifter eller inköp."
+msgstr "när reklamationsmeddelanden för prenumerationer skickas."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 #, fuzzy
@@ -600,9 +590,8 @@ msgstr ""
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultReplyTo# when sending serial claim notices."
-msgstr "dold kopia (BCC) till inloggad användare vid skickande av kravbrev för tidskrifter eller inköp."
+msgstr "när reklamationsmeddelanden för prenumerationer skickas."
 
 # Acquisitions > Policy > TaxRates
 # Acquisitions > Policy
@@ -872,21 +861,18 @@ msgstr "förseningsmeddelanden för låntagare utan e-postadress till personalen
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# Don't force"
-msgstr "Visa inte"
+msgstr "Tvinga inte"
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# Force"
-msgstr "Visa"
+msgstr "Tvinga"
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# library selection when logging into the staff interface."
-msgstr "en lista med val av bibliotek för nyheter i OPAC:en."
+msgstr "användaren att välja bibliotek när man loggar in i personalklienten."
 
 # Administration > Google OpenID Connect > GoogleOAuth2ClientID
 # OPAC > Appearance
@@ -2373,13 +2359,11 @@ msgid "authorities.pref Linker"
 msgstr "Länkmodul"
 
 # Cataloging > Importing > AdditionalFieldsInZ3950ResultSearch
-#, fuzzy
 msgid "authorities.pref#AdditionalFieldsInZ3950ResultAuthSearch#  in the 'Additional fields' column of Z39.50 search results (use comma as delimiter e.g.: \"<code>001, 035$a</code>\")"
-msgstr "  i kolumnen \"Ytterligare fält\" i Z39.50 sökresultat (använd kommatecken som avgränsare t.ex.: \"<code>001, 082$ab, 090$ab</code>\")"
+msgstr "i kolumnen \"Ytterligare fält\" i Z39.50 sökresultat (använd kommatecken som avgränsare t.ex.: \"<code>001, 035$a</code>\")"
 
 # Cataloging > Importing > AdditionalFieldsInZ3950ResultSearch
 # Cataloging > Importing
-#, fuzzy
 msgid "authorities.pref#AdditionalFieldsInZ3950ResultAuthSearch# Display the MARC field/subfields"
 msgstr "Visa MARC-fält/delfält"
 
@@ -2496,63 +2480,53 @@ msgstr "automatiskt återskapa länkar för rubriker som tidigare var länkade n
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 0XX"
-msgstr "Använd"
+msgstr "0XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 1XX"
-msgstr "Använd"
+msgstr "1XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 2XX"
-msgstr "Använd"
+msgstr "2XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 3XX"
-msgstr "Använd"
+msgstr "3XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 4XX"
-msgstr "Använd"
+msgstr "4XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 5XX"
-msgstr "Använd"
+msgstr "5XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 6XX"
-msgstr "Använd"
+msgstr "6XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 7XX"
-msgstr "Använd"
+msgstr "7XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 8XX"
-msgstr "Använd"
+msgstr "8XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 9XX"
-msgstr "Använd"
+msgstr "9XX"
 
 # Authorities > General > AutoCreateAuthorities
 # Authorities > General
