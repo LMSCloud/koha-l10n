@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:16-0300\n"
-"PO-Revision-Date: 2023-11-19 03:01+0000\n"
+"PO-Revision-Date: 2023-11-20 03:01+0000\n"
 "Last-Translator: tigran <tigran@flib.sci.am>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hy-Armn\n"
@@ -406,9 +406,8 @@ msgid "IR - Item master report"
 msgstr "IR - Նյութի գլխավոր հաշվետվություն"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:66
-#, fuzzy
 msgid "IR_A1 - Journal article requests"
-msgstr "Հոդվածի հարցում"
+msgstr "IR_A1 - Ամսագրային հոդվածի հարցում"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:67
 msgid "IR_M1 - Multimedia item requests"
@@ -423,28 +422,24 @@ msgid "Total item investigations"
 msgstr "Նյութերի ընդհանուր հետազոտություն"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:70
-#, fuzzy
 msgid "Total item requests"
-msgstr "Հոդվածի հարցում"
+msgstr "Նյութերի ընդհանուր հարցումները"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:71
-#, fuzzy
 msgid "Unique item investigations"
-msgstr "Ժամկետանց նյութի տուգանքի նկարագրություն"
+msgstr "Եզակի նյութի հետաքննություն"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:72
-#, fuzzy
 msgid "Unique item requests"
-msgstr "Սպասվող հոդվածի հարցում"
+msgstr "Եզակի նյութի հարցումներ"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:73
 msgid "Unique title investigations"
 msgstr "Եզակի վերնագրերի հետաքննություններ"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:74
-#, fuzzy
 msgid "Unique title requests"
-msgstr "Սպասվող հոդվածի հարցում"
+msgstr "Եզակի վերնագրի հարցումներ"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:75
 msgid "Searches automated"
@@ -455,14 +450,12 @@ msgid "Searches federated"
 msgstr "Որոնումները միավորված են"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:77
-#, fuzzy
 msgid "Searches regular"
-msgstr "Անկանոն"
+msgstr "Փնտրումներ կանոնավոր"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:84
-#, fuzzy
 msgid "No license"
-msgstr "Արտոնագիր"
+msgstr "Չկա արտոնագիր"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:85
 msgid "Limit exceeded"
@@ -4029,9 +4022,8 @@ msgid "Default classification sources and filing rules for Koha."
 msgstr "Դասակարգման լռակյաց աղբյուրները և Կոհայի համար լրացման օրենքները:"
 
 #: installer/data/mysql/en/mandatory/illbatch_statuses.yml:description:1
-#, fuzzy
 msgid "ILL batch statuses used in Koha"
-msgstr "Կոհայում օգտագործված դեբիտի տեսակներ"
+msgstr "ՄԳԲ խմբաքանակի կարգավիճակներ, որոնք օգտագործվում են Կոհայում"
 
 #: installer/data/mysql/en/mandatory/patron_restriction_types.yml:description:1
 msgid "Default Koha system patron restriction types"
@@ -4346,9 +4338,8 @@ msgid "Account expiration"
 msgstr "Հաշվի ժամկետը լրանում է"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52
-#, fuzzy
 msgid "Account renewal"
-msgstr "Հաշվի թարմացման վճար"
+msgstr "Հաշվի թարմացում"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53
 msgid "OPAC self-registration verification email"
@@ -4447,9 +4438,8 @@ msgid "Hold available for pickup at <<branches.branchname>>"
 msgstr "Պահումը հասանելի է վերցնելու համար <<branches.branchname>> -ից"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67
-#, fuzzy
 msgid "Hold(s) available for pickup"
-msgstr "Պահումը հասանելի է վերցնելու համար"
+msgstr "Պահում(ներ)ը հասանելի է/են վերցնելու համար"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
 msgid "Hold available for pickup (print notice)"
@@ -4612,17 +4602,16 @@ msgid "Your cart"
 msgstr "Քո սայլակը"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96
-#, fuzzy
 msgid "Train item slip"
-msgstr "Փոխանցման թերթիկ"
+msgstr "Գնացքի նյութի թերթիկ"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
 msgid "Hold is confirmed"
-msgstr ""
+msgstr "Պահումը հաստատված է"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
 msgid "Your hold on [% hold.biblio.title %] is confirmed"
-msgstr ""
+msgstr "Ձեր պահումը [% hold.biblio.title %] հաստատված է"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:1
 msgid "Dear %s %s (%s),"
@@ -5018,7 +5007,7 @@ msgstr "Գրադարանավար"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:4
 msgid "Your library account has been renewed. The new expiry date is: %s."
-msgstr ""
+msgstr "Գրադարանի ձեր հաշիվը թարմացվել է: Պիտանելիության նոր ժամկետն է՝ %s:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:5
 msgid ""
@@ -5031,9 +5020,8 @@ msgstr ""
 "%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:8
-#, fuzzy
 msgid "Your library,"
-msgstr "Ձեր գրադարանը"
+msgstr "Ձեր գրադարանը,"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53:mul:1
 msgid "Hello!"
@@ -5256,18 +5244,16 @@ msgid "You have a hold available for pickup as of %s:"
 msgstr "Ունեք վերցնելու ենթակա պահում, %s դրությամբ :"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:1
-#, fuzzy
 msgid "You have one or more holds available for pickup:"
-msgstr "Ունեք վերցնելու ենթակա պահում, %s դրությամբ :"
+msgstr "Դուք ունեք վերցնելու ենթակա մեկ կամ ավելի պահում:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:6
 msgid "Waiting since: %s"
 msgstr "Սպասում է սկսած: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:7
-#, fuzzy
 msgid "Waiting at: %s"
-msgstr "Սպասում է սկսած: %s"
+msgstr "Սպասում է՝ %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:3
 msgid "Your hold for %s is available for pickup."
@@ -5560,13 +5546,12 @@ msgid "The following item, %s, has correctly been renewed and is now due on %s"
 msgstr "Հետևյալ նյութը %s, ճիշտ է նորացվել և այս ամսաթվին %s ենթակա է վերադարձի"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:4
-#, fuzzy
 msgid "This item has reached the maximum number of automatic renewals and will no longer be renewed."
-msgstr "Դուք հասել եք թույլատրելի թարմացումների առավելագույնին։"
+msgstr "Այս նյութը հասել է ինքնաշխատ երկարաձգումների առավելագույն թվին և այլևս չի երկարաձգվի."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:7
 msgid "This item has reached the maximum number of unseen renewals and will need to be renewed at the library."
-msgstr ""
+msgstr "Այս նյութը հասել է առանց տեսնելու թարմացումների առավելագույն քանակին և պետք է թարմացվի գրադարանում."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:9
 msgid "The following item, %s, has not been renewed because:"
@@ -5809,19 +5794,16 @@ msgid "%sView in online catalog%s"
 msgstr "%sՏեսքը առցանց քարտարանում%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:4
-#, fuzzy
 msgid "Train name: %s"
-msgstr "Օգտվողի անուն․ %s"
+msgstr "Գնացքի անուն՝ %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:5
-#, fuzzy
 msgid "Sent on: %s"
-msgstr "Տրվա՞ծ: %s"
+msgstr "Ուղարկված՝ %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:9
-#, fuzzy
 msgid "Item number #%s"
-msgstr "Դասիչ: %s"
+msgstr "Նյութի թիվը՝ #%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:1
 msgid "Hello %s %s (%s),"
@@ -5832,9 +5814,8 @@ msgid "Your hold on %s (%s) has been confirmed."
 msgstr "ՁԵր %s (%s) պահումը հաստատվել է:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:3
-#, fuzzy
 msgid "You will be notified by the library when your item is available for pickup."
-msgstr "Ձեզ նորից կտեղեկացնեք, երբ գիրքը հասանելի լինի:"
+msgstr "Գրադարանը ձեզ կտեղեկացնի, երբ ձեր նյութը հասանելի լինի վերցնելու համար:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:9:mul:2
 msgid "An account writeoff of %s has been applied to your account."
@@ -6634,14 +6615,13 @@ msgstr "Մանրամասների համար դիմիր https://www.niso.org/publ
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:1
 msgid "Abridger"
-msgstr ""
+msgstr "Կրճատող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:2
 msgid "Art copyist"
 msgstr "Արվեստի պատճենող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:4
-#, fuzzy
 msgid "Art director"
 msgstr "Արտիստական տնօրեն"
 
@@ -6651,21 +6631,19 @@ msgstr "Վերջաբանի, վերջնագրի և այլն հեղինակ."
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:7
 msgid "Announcer"
-msgstr ""
+msgstr "Հաղորդավար"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:8
 msgid "Analyst"
 msgstr "Վերլուծող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:12
-#, fuzzy
 msgid "Appellee"
-msgstr "Kpelle"
+msgstr "Դիմող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:13
-#, fuzzy
 msgid "Appellant"
-msgstr "Պատասխանող-հայց ներկայացնող"
+msgstr "Բողոքարկող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:14
 msgid "Applicant"
@@ -6684,9 +6662,8 @@ msgid "Artistic director"
 msgstr "Արտիստական տնօրեն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:22
-#, fuzzy
 msgid "Autographer"
-msgstr "Քարտեզագրող"
+msgstr "Ինքնագիր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:23
 msgid "Attributed name"
@@ -6697,23 +6674,20 @@ msgid "Author of dialog"
 msgstr "Երկխոսության հեղինակ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:26
-#, fuzzy
 msgid "Audio engineer"
-msgstr "Ձայնագրման ճարտարագետ"
+msgstr "Ձայնի ճարտարագետ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:28
-#, fuzzy
 msgid "Audio producer"
-msgstr "Գրքի թողարկող"
+msgstr "Ձայնի թողարկող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:29
 msgid "Screenwriter"
-msgstr ""
+msgstr "Սցենարիստ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:33
-#, fuzzy
 msgid "Book artist"
-msgstr "Գրքի քարտ"
+msgstr "Գրքի նկարիչ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:35
 msgid "Book producer"
@@ -6729,20 +6703,19 @@ msgstr "Կազմարար"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:39
 msgid "Broadcaster"
-msgstr ""
+msgstr "Հեռարձակող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:40
 msgid "Braille embosser"
-msgstr ""
+msgstr "Բրայլի դաջիչ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:42
-#, fuzzy
 msgid "Casting director"
-msgstr "Հրատարակության տնօրեն"
+msgstr "Քասթինգի տնօրեն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:43
 msgid "Caster"
-msgstr ""
+msgstr "Քասթեր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:46
 msgid "Client"
@@ -6761,9 +6734,8 @@ msgid "Cinematographer"
 msgstr "Կինեմատոգրաֆ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:56
-#, fuzzy
 msgid "Contestant-appellee"
-msgstr "Մրցույթ -պատասխանորդ"
+msgstr "Վիճող-բողոքավոր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:57
 msgid "Collector"
@@ -6774,27 +6746,24 @@ msgid "Conservator"
 msgstr "Կոնսերվատոր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:60
-#, fuzzy
 msgid "Camera operator"
-msgstr "Ստեղծող"
+msgstr "Տեսախցիկի օպերատոր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:61
-#, fuzzy
 msgid "Collection registrar"
-msgstr "Հավաքող"
+msgstr "Հավաքածուի գրանցող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:62
 msgid "Contestant"
 msgstr "Հակառակորդ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:63
-#, fuzzy
 msgid "Contestant-appellant"
-msgstr "Մրցույթ -պատասխանող"
+msgstr "Վիճարկող-բողոքարկող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:64
 msgid "Court governed"
-msgstr ""
+msgstr "Դատարանը կառավարեց"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:65
 msgid "Cover designer"
@@ -6825,9 +6794,8 @@ msgid "Correspondent"
 msgstr "Բաժանորդ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:74
-#, fuzzy
 msgid "Court reporter"
-msgstr "Դուք հայտնել եք: %s"
+msgstr "Դատարանի լրագրող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:75
 msgid "Consultant"
@@ -6862,9 +6830,8 @@ msgid "Curator"
 msgstr "Խնամակալ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:86
-#, fuzzy
 msgid "Dubbing director"
-msgstr "Հրատարակության տնօրեն"
+msgstr "Կրկնօրինակման տնօրեն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:87
 msgid "Distribution place"
@@ -6884,21 +6851,19 @@ msgstr "Պատասխանող-բողոքարկող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:91
 msgid "Degree committee member"
-msgstr ""
+msgstr "Աստիճան շնորհող հանձնաժողովի անդամ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:92
-#, fuzzy
 msgid "Degree granting institution"
-msgstr "Կոչում շնորհող"
+msgstr "Աստիճան շնորհող հաստատություն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:93
-#, fuzzy
 msgid "Degree supervisor"
-msgstr "Կոչում շնորհող"
+msgstr "Գիտական աստիճանի ղեկավար"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:95
 msgid "DJ"
-msgstr ""
+msgstr "DJ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:96
 msgid "Delineator"
@@ -6930,17 +6895,15 @@ msgstr "Տվյալների կառավարիչ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:110
 msgid "Editor of compilation"
-msgstr ""
+msgstr "Կազմման խմբագիր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:111
-#, fuzzy
 msgid "Editorial director"
-msgstr "Երգչախմբային ղեկավար"
+msgstr "Խմբագրական տնօրեն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:112
-#, fuzzy
 msgid "Editor of moving image work"
-msgstr "Հիմնական երաժշտական աշխատանքի ձևավորող"
+msgstr "Շարժվող պատկերների աշխատանքի խմբագիր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:115
 msgid "Electrician"
@@ -6956,7 +6919,7 @@ msgstr "Ճարտարագետ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:118
 msgid "Enacting jurisdiction"
-msgstr ""
+msgstr "Գործող իրավասություն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:120
 msgid "Event place"
@@ -6967,28 +6930,24 @@ msgid "Facsimilist"
 msgstr "ֆաքսիմիլիստ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:123
-#, fuzzy
 msgid "Film distributor"
-msgstr "Բաշխող"
+msgstr "Ֆիլմերի դիստրիբյուտոր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:124
 msgid "Field director"
 msgstr "Դաշտային տնօրեն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:126
-#, fuzzy
 msgid "Film director"
-msgstr "Դաշտային տնօրեն"
+msgstr "Ֆիլմի տնօրեն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:127
-#, fuzzy
 msgid "Filmmaker"
-msgstr "Պատրաստող"
+msgstr "Ֆիլմ պատրաստող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:129
-#, fuzzy
 msgid "Film producer"
-msgstr "Գրքի թողարկող"
+msgstr "Ֆիլմ թողարկող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:131
 msgid "First party"
@@ -7000,7 +6959,7 @@ msgstr "Աշխարհագրական տեղեկատվության մասնագետ
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:135
 msgid "Host institution"
-msgstr ""
+msgstr "Հյուրընկալ հաստատություն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:137
 msgid "Host"
@@ -7016,12 +6975,11 @@ msgstr "Գործիքավար"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:146
 msgid "Judge"
-msgstr ""
+msgstr "Դատավոր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:147
-#, fuzzy
 msgid "Jurisdiction governed"
-msgstr "Համալրման պատվեր"
+msgstr "Իրավասությունը կառավարվում է"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:148
 msgid "Laboratory"
@@ -7077,7 +7035,7 @@ msgstr "Երաժշտությունը ընդօրինակող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:166
 msgid "Medium"
-msgstr ""
+msgstr "Միջին"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:167
 msgid "Manufacture place"
@@ -7092,9 +7050,8 @@ msgid "Metadata contact"
 msgstr "Մետատվյալների կոնտակտ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:170
-#, fuzzy
 msgid "Makeup artist"
-msgstr "Մնջախաղի դերասան"
+msgstr "Դիմահարդար"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:171
 msgid "Moderator"
@@ -7113,37 +7070,32 @@ msgid "Musical director"
 msgstr "Երաժշտական տնօրեն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:177
-#, fuzzy
 msgid "Minute taker"
-msgstr "Տպագրիչ պատրաստող"
+msgstr "Րոպե վերցնող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:178
-#, fuzzy
 msgid "Music programmer"
-msgstr "Ծրագրավորող"
+msgstr "Երաժշտության ծրագրավորող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:180
-#, fuzzy
 msgid "Mixing engineer"
-msgstr "Ձայնագրման ճարտարագետ"
+msgstr "Խառնելու ճարտարագետ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:181
-#, fuzzy
 msgid "News anchor"
-msgstr "Թերթ"
+msgstr "Լրատվական հաղորդավար"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:183
 msgid "Onscreen participant"
-msgstr ""
+msgstr "Էկրանի մասնակից"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:186
-#, fuzzy
 msgid "Organizer"
 msgstr "Կազմակերպիչ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:187
 msgid "Onscreen presenter"
-msgstr ""
+msgstr "Էկրանային հաղորդավար"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:189
 msgid "Owner"
@@ -7151,12 +7103,11 @@ msgstr "Սեփականատեր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:190
 msgid "Place of address"
-msgstr ""
+msgstr "Հասցեի տեղը"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:191
-#, fuzzy
 msgid "Panelist"
-msgstr "Վոկալիստ"
+msgstr "Պանելիստ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:192
 msgid "Patron"
@@ -7184,7 +7135,7 @@ msgstr "Թողարկման կառավարիչ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:204
 msgid "Praeses"
-msgstr ""
+msgstr "Պրեսես"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:205
 msgid "Process contact"
@@ -7203,27 +7154,24 @@ msgid "Printmaker"
 msgstr "Տպագրիչ պատրաստող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:211
-#, fuzzy
 msgid "Production company"
-msgstr "Թողարկման կառավարիչ"
+msgstr "Թողարկող կազմակերպություն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:213
 msgid "Production place"
 msgstr "Թողարկման վայր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:214
-#, fuzzy
 msgid "Production designer"
-msgstr "Թողարկող անձնակազմ"
+msgstr "Թողարկման դիզայներ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:216
 msgid "Provider"
-msgstr ""
+msgstr "Մատակարար"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:218
-#, fuzzy
 msgid "Plaintiff-appellee"
-msgstr "Հայցվոր բողոքարկու"
+msgstr "Հայցվոր-բողոքաբեր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:219
 msgid "Plaintiff"
@@ -7242,26 +7190,22 @@ msgid "Publication place"
 msgstr "Հրատարակման վայր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:223
-#, fuzzy
 msgid "Rapporteur"
-msgstr "Լրագրող"
+msgstr "Զեկուցող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:225
 msgid "Recordist"
-msgstr ""
+msgstr "Գրանցող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:227
-#, fuzzy
 msgid "Addressee"
-msgstr "Հասցեի նշումներ"
+msgstr "Հասցեատեր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:228
-#, fuzzy
 msgid "Radio director"
-msgstr "Դաշտային տնօրեն"
+msgstr "Ռադիո տնօրեն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:229
-#, fuzzy
 msgid "Redaktor"
 msgstr "Խմբագիր"
 
@@ -7274,9 +7218,8 @@ msgid "Researcher"
 msgstr "Հետազոտող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:233
-#, fuzzy
 msgid "Radio producer"
-msgstr "Գրանցման թողարկող"
+msgstr "Ռադիո թողարկող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:234
 msgid "Repository"
@@ -7307,19 +7250,16 @@ msgid "Respondent-appellant"
 msgstr "Պատասխանող բողոքարկու"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:244
-#, fuzzy
 msgid "Remix artist"
-msgstr "Մնջախաղի դերասան"
+msgstr "Ռեմիքսի դերասան"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:249
-#, fuzzy
 msgid "Sound engineer"
-msgstr "Ձայնի նախագծող"
+msgstr "Ձայնի ճարտարագետ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:250
-#, fuzzy
 msgid "Stage director"
-msgstr "Դաշտային տնօրեն"
+msgstr "Բեմի տնօրեն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:251
 msgid "Sound designer"
@@ -7327,16 +7267,15 @@ msgstr "Ձայնի նախագծող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:253
 msgid "Special effects provider"
-msgstr ""
+msgstr "Հատուկ էֆեկտների մատակարար"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:255
 msgid "Supporting host"
 msgstr "Աջակցող հյուրընկալող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:256
-#, fuzzy
 msgid "Seller"
-msgstr "Հեքիաթասաց"
+msgstr "Վաճառող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:258
 msgid "Speaker"
@@ -7356,7 +7295,7 @@ msgstr "Դիզայների կարգաբերում"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:263
 msgid "Setting"
-msgstr ""
+msgstr "Կարգաբերում"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:264
 msgid "Storyteller"
@@ -7372,11 +7311,11 @@ msgstr "Ստերեոգրառող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:268
 msgid "Software developer"
-msgstr ""
+msgstr "Ծրագրավորող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:269
 msgid "Television writer"
-msgstr ""
+msgstr "Հեռուստատեսային գրող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:270
 msgid "Technical director"
@@ -7387,22 +7326,20 @@ msgid "Teacher"
 msgstr "Ուսուցիչ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:273
-#, fuzzy
 msgid "Television director"
-msgstr "Հրատարակության տնօրեն"
+msgstr "Հեռուստատեսային տնօրեն"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:274
 msgid "Television guest"
-msgstr ""
+msgstr "Հեռուստատեսային հյուր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:275
 msgid "Television host"
-msgstr ""
+msgstr "Հեռուստահաղորդավար"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:276
-#, fuzzy
 msgid "Television producer"
-msgstr "Գրանցման թողարկող"
+msgstr "Հեռուստատեսային թողարկող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:277
 msgid "Transcriber"
@@ -7413,9 +7350,8 @@ msgid "University place"
 msgstr "Համալսարանի վայր"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:282
-#, fuzzy
 msgid "Voice actor"
-msgstr "Խմբագիր"
+msgstr "Ձայնային դերասան"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:283
 msgid "Videographer"
@@ -7423,33 +7359,29 @@ msgstr "Տեսաձայնագրող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:284
 msgid "Visual effects provider"
-msgstr ""
+msgstr "Տեսողական էֆեկտների մատակարար"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:285
 msgid "Writer of added commentary"
-msgstr ""
+msgstr "Ավելացված մեկնաբանության հեղինակ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:286
-#, fuzzy
 msgid "Writer of added lyrics"
-msgstr "Ափսեների տպագրող"
+msgstr "Ավելացված բառերի հեղինակ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:288
-#, fuzzy
 msgid "Writer of added text"
-msgstr "Ափսեների տպագրող"
+msgstr "Ավելացված տեքստի հեղինակ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:289
 msgid "Woodcutter"
 msgstr "Փայտ ձևավորող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:290
-#, fuzzy
 msgid "Wood engraver"
 msgstr "Փայտի վրա փորագրող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:291
-#, fuzzy
 msgid "Writer of introduction"
 msgstr "Ներածության հեղինակ"
 
@@ -7458,13 +7390,12 @@ msgid "Witness"
 msgstr "Ականատես"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:293
-#, fuzzy
 msgid "Writer of preface"
-msgstr "Ափսեների տպագրող"
+msgstr "Նախաբանի հեղինակ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:294
 msgid "Writer of supplementary textual content"
-msgstr ""
+msgstr "Լրացուցիչ տեքստային բովանդակություն գրող"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:description:1
 msgid "MARC code list for relators, as of http://www.loc.gov/marc/relators/relaterm.html"
