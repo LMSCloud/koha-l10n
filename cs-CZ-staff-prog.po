@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "POT-Creation-Date: 2023-11-15 08:54+0000\n"
-"PO-Revision-Date: 2023-11-18 03:15+0000\n"
+"PO-Revision-Date: 2023-11-20 03:10+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
@@ -6112,7 +6112,7 @@ msgstr "Přepsat limit prodloužení:"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:55
 #, c-format
 msgid "Renew as &quot;unseen&quot; if appropriate:"
-msgstr ""
+msgstr "Případně prodloužit jako &quot;nespatřeno&quot;:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:58
 #, c-format
@@ -6132,7 +6132,7 @@ msgstr "Exportovat výpůjčky ve formátu:"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:67
 #, c-format
 msgid "MARC with items"
-msgstr "MARCs informacemi o jednotkách"
+msgstr "MARC s informacemi o jednotkách"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:68
 #, c-format
@@ -20664,13 +20664,12 @@ msgstr "K tomuto fondu existují dceřiné fondy."
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/acqui-home.tt:174
 msgid "Spent from this fund"
-msgstr ""
+msgstr "Utraceno z tohoto fondu"
 
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/acqui-home.tt:177
-#, fuzzy
 msgid "Spent from this fund and children"
-msgstr "K tomuto fondu existují dceřiné fondy."
+msgstr "Utraceno z tohoto a dceřiných fondů"
 
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/acqui-home.tt:186
@@ -20776,7 +20775,7 @@ msgstr "Přidat objednávky z %s (%s připravené dne %s) "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:92
 #, c-format
 msgid "Select to import"
-msgstr "Vyberte záznamy k importu a objednání"
+msgstr "Vyberte k importu:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:94
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:403
@@ -20932,12 +20931,12 @@ msgstr "Jednotkový záznam %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:242
 #, c-format
 msgid "homebranch"
-msgstr "Domovská knihovna (homebranch)"
+msgstr "domovská knihovna"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:255
 #, c-format
 msgid "holdingbranch"
-msgstr "Aktuální umístění (holdingbranch)"
+msgstr "domovská knihovna"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:267
 #, c-format
@@ -20992,7 +20991,7 @@ msgstr "Cena (price)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:363
 #, c-format
 msgid "replacement price"
-msgstr "Cena náhrady (replacement price)"
+msgstr "cena náhrady"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:367
 #, c-format
@@ -22209,9 +22208,9 @@ msgid "Export basket group as CSV"
 msgstr "Exportovat skupinu košíků jako CSV"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:138
-#, fuzzy, c-format
+#, c-format
 msgid "Print basket group in PDF"
-msgstr "Vytisknout tuto skupinu košíků v PDF"
+msgstr "Vytisknout skupinu košíků v PDF"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:409
@@ -22607,9 +22606,9 @@ msgid "View all baskets"
 msgstr "Nový košík"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/cancelorder.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "Cancel order &rsaquo; Acquisition &rsaquo; Koha"
-msgstr "Faktura &rsaquo; Akvizice &rsaquo; Koha"
+msgstr "Zrušit objednávku &rsaquo; Aakvizice &rsaquo; Koha"
 
 #. %1$s:  ordernumber | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/cancelorder.tt:34
@@ -22650,9 +22649,9 @@ msgid "An error has occurred. %s "
 msgstr "Došlo k chybě. %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/cancelorder.tt:65
-#, fuzzy, c-format
+#, c-format
 msgid "The order has been cancelled already."
-msgstr "Objednávka byla úspěšně zrušena."
+msgstr "Objednávka byla již zrušena."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/cancelorder.tt:67
 #, c-format
@@ -23454,9 +23453,9 @@ msgid "Closed invoices"
 msgstr "Uzavřené faktury"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:147
-#, fuzzy, c-format
+#, c-format
 msgid "Your search returned no open invoices."
-msgstr "Výsledkům hledání neodpovídá žádné aktivní předpatné."
+msgstr "Výsledkům hledání neodpovídá žádná otevřená faktura."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:157
 #, fuzzy, c-format
@@ -24380,7 +24379,7 @@ msgstr "Vytvořit nový záznam importováním externího (duplicitního) zázna
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty_duplicate.tt:70
 #, fuzzy
 msgid "Create new"
-msgstr "Vytvořit nový"
+msgstr "Vytvořit novou"
 
 #. For the first occurrence,
 #. %1$s:  biblionumber | html 
@@ -24598,9 +24597,9 @@ msgstr "Celkem "
 #. %3$s:  invoice | html 
 #. %4$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:11
-#, c-format, fuzzy
+#, c-format
 msgid "Receipt summary for : %s %sinvoice, %s%s &rsaquo; Acquisitions &rsaquo; Koha"
-msgstr "Přehled dokladu pro : %s %sfaktura, %s%s &rsaquo; Akvizice &rsaquo; Koha"
+msgstr "Rekapitulace dokladu pro : %s %sfaktura, %s%s &rsaquo; Akvizice &rsaquo; Koha"
 
 #. %1$s:  name | html 
 #. %2$s:  invoice | html 
@@ -24749,9 +24748,8 @@ msgstr "Datum přijetí: "
 
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:296
-#, fuzzy
 msgid "Current"
-msgstr "Měna"
+msgstr "Aktuální"
 
 #. %1$s:  order.fund.budget_name | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:297
@@ -24842,9 +24840,8 @@ msgstr "%sNeznámé číslo objednávky.%s "
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:468
-#, fuzzy
 msgid "You must receive at least one item"
-msgstr "Je nutné vybrat alespoň jednu položku. "
+msgstr "Je nutné vybrat alespoň jednu položku"
 
 #. %1$s:  IF ( invoiceclosedate ) 
 #. %2$s:  name | html 
@@ -24863,7 +24860,7 @@ msgstr "%s %sUpravit košík '%s'%sVložit košík do %s %s %s &rsaquo; Akvizice
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:66
 #, c-format
 msgid "Receipt summary for "
-msgstr "Seznam objednaných položek k příjmu od "
+msgstr "Rekapitulace účtenky pro "
 
 #. For the first occurrence,
 #. %1$s:  name | html 
@@ -24931,7 +24928,7 @@ msgstr "Doklad je uzavřený, již není možné přijímat další objednávky.
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:137
 #, c-format
 msgid "Reopen it"
-msgstr "Otevřít to znovu"
+msgstr "Znovu otevřít"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:143
 #, c-format
@@ -65357,9 +65354,9 @@ msgid "Hide preserve value fields"
 msgstr "Skrýt výchozí hodnoty polí"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:292
-#, c-format, fuzzy
+#, c-format
 msgid "Selected fields will be preserved from original patron record when overwriting existing patron."
-msgstr "Vybraná pole se převezmou ze záznamu původního čtenáře a přepíši existujícího čtenáře."
+msgstr "Při přepisování existujícího čtenáře budou vybraná pole převzata z původního záznamu čtenáře."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:304
 #, c-format
