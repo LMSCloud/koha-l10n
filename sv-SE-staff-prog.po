@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-16 08:26+0000\n"
-"PO-Revision-Date: 2023-11-20 12:57+0000\n"
-"Last-Translator: \"jessica.andersson\" <jessica.andersson@alingsas.se>\n"
+"PO-Revision-Date: 2023-11-21 03:01+0000\n"
+"Last-Translator: \"Tomas.jiglind\" <tomas.jiglind@mariestad.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
 "MIME-Version: 1.0\n"
@@ -3717,9 +3717,9 @@ msgid "SUSHI response returned no items."
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:99
-#, fuzzy, c-format
+#, c-format
 msgid "Please try a different harvest period."
-msgstr "Vänligen försök på nytt senare"
+msgstr "Vänligen försök på nytt senare."
 
 #. %1$s:  m.message | html 
 #. %2$s:  m.code | html 
@@ -12577,9 +12577,9 @@ msgstr "Låntagaren har väntande ändringar"
 
 #. %1$s:  patron.dateexpiry | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:24
-#, fuzzy, c-format
+#, c-format
 msgid "Patron's card expires on %s."
-msgstr "Låntagarens kort går ut den %s"
+msgstr "Låntagarens kort går ut den %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:25
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:42
@@ -14849,7 +14849,7 @@ msgstr "Inget matchande exemplar hittades"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:5
 #, c-format
 msgid "Item is not checked out"
-msgstr "Exemplaret är inte utlånat."
+msgstr "Exemplaret är inte utlånat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:7
 #, c-format
@@ -14889,7 +14889,7 @@ msgstr "Har schemalagts för automatiskt omlån och kan inte lånas om, eftersom
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:21
 #, c-format
 msgid "On hold for another patron"
-msgstr "Exemplaret är reserverat för en annan låntagare."
+msgstr "Exemplaret är reserverat för en annan låntagare"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:23
 #, c-format
@@ -17768,7 +17768,7 @@ msgstr "Specialtecken"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 msgid "Special character..."
-msgstr "Specialtecken"
+msgstr "Specialtecken..."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -19927,9 +19927,9 @@ msgid "The PO directory has not been found. See "
 msgstr "Katalog för beställningar kunde inte hittas "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:526
-#, fuzzy, c-format
+#, c-format
 msgid "for more information. "
-msgstr "Mer information"
+msgstr "för mer information. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:526
 #, c-format
@@ -22867,13 +22867,13 @@ msgstr "Nr."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:742
 #, c-format
 msgid "RRP tax exc."
-msgstr "RRP exklusive skatt"
+msgstr "RRP exklusive moms"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:466
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:320
 #, c-format
 msgid "Actual cost tax exc."
-msgstr "Verklig kostnad, exklusive skatt"
+msgstr "Verklig kostnad, exklusive moms"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:467
 #, c-format
@@ -22884,13 +22884,13 @@ msgstr "Budgeterad kostnad, exkl moms"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:744
 #, c-format
 msgid "RRP tax inc."
-msgstr "RRP inklusive skatt"
+msgstr "RRP inklusive moms"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:469
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:321
 #, c-format
 msgid "Actual cost tax inc."
-msgstr "Verklig kostnad, inklusive skatt"
+msgstr "Verklig kostnad, inklusive moms"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:470
 #, c-format
@@ -23236,12 +23236,12 @@ msgstr "Annullerade beställningar"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:743
 #, c-format
 msgid "ecost tax exc."
-msgstr "ekost exklusive skatt"
+msgstr "ekost exklusive moms"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:745
 #, c-format
 msgid "ecost tax inc."
-msgstr "ekost inklusive skatt"
+msgstr "ekost inklusive moms"
 
 #. %1$s:  END 
 #. %2$s:  IF (order.title) 
@@ -26045,7 +26045,7 @@ msgstr "Subtotal för"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:190
 #, c-format
 msgid "Total tax exc."
-msgstr "Totalt exklusive skatt"
+msgstr "Totalt exklusive moms"
 
 #. %1$s:  book_foot.tax_rate * 100 | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:196
@@ -26056,7 +26056,7 @@ msgstr "Totalt (GST %s%%)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:202
 #, c-format
 msgid "Total tax inc."
-msgstr "Totalt inklusive skatt"
+msgstr "Totalt inklusive moms"
 
 #. %1$s:  ELSE 
 #. %2$s:  END 
@@ -28239,7 +28239,7 @@ msgstr "Nytt budgetställe"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:122
 #, c-format
 msgid "You are not authorized to modify this fund"
-msgstr "Du har inte behörighet att modifiera detta budgetställe."
+msgstr "Du har inte behörighet att modifiera detta budgetställe"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:158
 #, c-format
@@ -29803,17 +29803,17 @@ msgstr "Kategorier att tilldelas fil som laddas upp. Utan kategori kan en upplad
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:510
 #, c-format
 msgid "Values that can be entered to fill in the 'Vendor type' field in the acquisitions module, that can be used for statistical purposes"
-msgstr "Värden som kan anges i fältet \"Leverantörtyp\" i inköpsmodulen, för att användas i statistiksyfte."
+msgstr "Värden som kan anges i fältet \"Leverantörtyp\" i inköpsmodulen, för att användas i statistiksyfte"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:512
 #, fuzzy, c-format
 msgid "Values that can be entered to fill in the 'Vendor interface type' field in the acquisitions module"
-msgstr "Värden som kan anges i fältet \"Leverantörtyp\" i inköpsmodulen, för att användas i statistiksyfte."
+msgstr "Värden som kan anges i fältet \"Leverantörtyp\" i inköpsmodulen, för att användas i statistiksyfte"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:514
 #, fuzzy, c-format
 msgid "Values that can be entered to fill in the 'Vendor issue type' field in the acquisitions module"
-msgstr "Värden som kan anges i fältet \"Leverantörtyp\" i inköpsmodulen, för att användas i statistiksyfte."
+msgstr "Värden som kan anges i fältet \"Leverantörtyp\" i inköpsmodulen, för att användas i statistiksyfte"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:516
 #, c-format
@@ -32500,7 +32500,7 @@ msgstr "23:55"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:157
 #, c-format
 msgid "Invalid format for this new slot, must be '00:00 to 23:59'."
-msgstr "Ogiltigt format för detta tidsspann, det måste vara '00:00 till 23:59'"
+msgstr "Ogiltigt format för detta tidsspann, det måste vara '00:00 till 23:59'."
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:171
@@ -32615,7 +32615,7 @@ msgstr "Ny valuta"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:82
 #, c-format
 msgid "An error occurred when updating this currency. Perhaps it already exists"
-msgstr "Ett fel inträffade när denna valuta uppdaterades. Kanske finns den redan."
+msgstr "Ett fel inträffade när denna valuta uppdaterades. Kanske finns den redan"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:84
 #, c-format
@@ -32897,7 +32897,7 @@ msgstr "Bekräfta borttagning av informationsdisk"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:74
 #, c-format
 msgid "An error occurred when updating this desk. Perhaps it already exists"
-msgstr "Ett fel inträffade när denna disk lades till. Kanske finns den redan i systemet."
+msgstr "Ett fel inträffade när denna disk lades till. Kanske finns den redan i systemet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:76
 #, c-format
@@ -33503,7 +33503,7 @@ msgstr "Ett fel uppstod när identitetsleverantören skulle redigeras. Det id so
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:66
 #, c-format
 msgid "An error occurred when adding a new identity provider."
-msgstr "Ett fel uppstod när identitetsleverantören skulle läggas till"
+msgstr "Ett fel uppstod när identitetsleverantören skulle läggas till."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:68
 #, c-format
@@ -33539,7 +33539,7 @@ msgstr "Kod: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:248
 #, c-format
 msgid "Code that identifies this provider. Only alphanumeric and \"_\" characters are allowed"
-msgstr "Kod som identifierar denna leverantör. Endast alfanumeriska tecken samt \"_\" är tillåtna."
+msgstr "Kod som identifierar denna leverantör. Endast alfanumeriska tecken samt \"_\" är tillåtna"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:99
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:254
@@ -34051,7 +34051,7 @@ msgstr "Ny exemplartyp"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:123
 #, c-format
 msgid "An error occurred when updating this item type. Perhaps the value already exists"
-msgstr "Ett fel inträffade när denna exemplartyp uppdaterades. Namnet kanske redan finns."
+msgstr "Ett fel inträffade när denna exemplartyp uppdaterades. Namnet kanske redan finns"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:125
 #, c-format
@@ -35830,9 +35830,9 @@ msgid "%s No limitation %s "
 msgstr "%s Ingen begränsning %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:361
-#, fuzzy, c-format
+#, c-format
 msgid "Searched by default"
-msgstr "Förvald (söks som standard)."
+msgstr "Förvald (söks som standard)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:366
 #, c-format
@@ -37488,7 +37488,7 @@ msgstr "Från alla bibliotek"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1371
 #, c-format
 msgid "From local hold group"
-msgstr "Från lokal reservationsgrupp:"
+msgstr "Från lokal reservationsgrupp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1325
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1372
@@ -37623,7 +37623,7 @@ msgstr "Ett fel inträffade när servern lades till. Biblioteket har redan en SM
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:67
 #, c-format
 msgid "Server updated successfully."
-msgstr "Server har uppdaterats"
+msgstr "Server har uppdaterats."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:69
 #, c-format
@@ -37873,7 +37873,7 @@ msgstr "Författare (möte/konferens): "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:48
 #, c-format
 msgid "Subject sub-division: "
-msgstr "Uppdelning för ämne:"
+msgstr "Uppdelning för ämne: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:49
@@ -38104,7 +38104,7 @@ msgstr "Eftersom systeminställningen \"UseTransportCostMatrix\" inte är aktive
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/transport-cost-matrix.tt:45
 #, c-format
 msgid "UseTransportCostMatrix"
-msgstr "Eftersom systeminställningen \"UseTransportCostMatrix\" inte är aktiverad, används inte fraktkostnadstabellen. "
+msgstr "UseTransportCostMatrix"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/transport-cost-matrix.tt:49
 #, c-format
@@ -38155,12 +38155,12 @@ msgstr "Användningsstatistik"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:43
 #, c-format
 msgid "An error occurred when updating this patron category. Perhaps it already exists"
-msgstr "Ett fel inträffade när denna låntagarkategori uppdaterades. Kanske finns den redan i systemet."
+msgstr "Ett fel inträffade när denna låntagarkategori uppdaterades. Kanske finns den redan i systemet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:45
 #, c-format
 msgid "An error occurred when inserting this patron category. The patron category might already exist"
-msgstr "Ett fel inträffade när låntagarkategorin lades till. Låntagarkategorin kanske redan finns."
+msgstr "Ett fel inträffade när låntagarkategorin lades till. Låntagarkategorin kanske redan finns"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:47
 #, c-format
@@ -38175,7 +38175,7 @@ msgstr "Låntagarkategorin har uppdaterats"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:51
 #, c-format
 msgid "Patron category inserted successfully"
-msgstr "Låntagarkategori har lagts till."
+msgstr "Låntagarkategori har lagts till"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:53
 #, c-format
@@ -38443,7 +38443,7 @@ msgstr "Attribut: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:136
 #, c-format
 msgid "Additional PQF attributes added to each query."
-msgstr "Attribut (PQF-attribut som varje fråga utökas med): "
+msgstr "Ytterligare PQF-attribut som varje fråga utökas med."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:141
 #, c-format
@@ -38559,7 +38559,7 @@ msgstr "sekunder "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:176
 #, c-format
 msgid "Enter 0 to disable."
-msgstr "0 för att inaktivera"
+msgstr "0 för att inaktivera."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:180
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:232
@@ -41106,7 +41106,7 @@ msgstr "Utlånad"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1247
 #, c-format
 msgid "Not checked out"
-msgstr "Inte utlånad."
+msgstr "Inte utlånad"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:222
 #, c-format
@@ -41791,9 +41791,9 @@ msgid "You did not specify any search criteria."
 msgstr "Du angav inte sökkriterier."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:396
-#, fuzzy, c-format
+#, c-format
 msgid "Scan index"
-msgstr "Indexsökning:"
+msgstr "Indexsökning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:398
 #, c-format
@@ -44184,7 +44184,7 @@ msgstr "Exemplaret hade dragits tillbaka, kan inte återlämnas."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:479
 #, c-format
 msgid "Item was withdrawn"
-msgstr "Exemplar har dragits tillbaka."
+msgstr "Exemplar har återkallats"
 
 #. %1$s:  INVALID_DATE | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:484
@@ -45326,7 +45326,7 @@ msgstr "Markera som förlorat och meddela låntagare"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:244
 #, c-format
 msgid "Biblio level hold."
-msgstr "Reservation på postnivå"
+msgstr "Reservation på postnivå."
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:255
@@ -45389,9 +45389,9 @@ msgstr "%s%s%sIngen kvittomall hittades%s "
 #. %6$s:  END 
 #. %7$s:  IF slips.size > 1 && !loop.last
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s%s%sNo slip template found%s %s %s"
-msgstr "%s %s%s%sNo ingen kvitteringsmall hittad%s %s %s "
+msgstr "%s %s%s%sIngen kvitteringsmall hittad%s %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:48
 #, c-format
@@ -47890,7 +47890,7 @@ msgstr "Skicka fjärrlåneförfrågan till ett partnerbibliotek"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:304
 #, c-format
 msgid "No target email addresses found. Either select at least one partner or check your ILL partner library records. "
-msgstr "Inga mottagaradresser hittades. Välj antingen minst ett utlånande bibliotek, eller kontrollera bibliotekets registrerade uppgifter."
+msgstr "Inga mottagaradresser hittades. Välj antingen minst ett utlånande bibliotek, eller kontrollera bibliotekets registrerade uppgifter. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:309
 #, c-format
@@ -50182,13 +50182,13 @@ msgstr "Reverserad"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/accountline-details.tt:235
 #, c-format
 msgid "Account not found "
-msgstr "Kontoraden hittades ej."
+msgstr "Konto hittades ej "
 
 #. %1$s:  INCLUDE 'patron-title.inc' no_html = 1 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:7
-#, fuzzy, c-format
+#, c-format
 msgid "Alert subscriptions for %s &rsaquo; Patrons &rsaquo; Koha"
-msgstr "Ställ in rättigheter för %s &rsaquo; Låntagare &rsaquo; Koha "
+msgstr "Påminnelser för %s &rsaquo; Låntagare &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:36
@@ -50202,9 +50202,9 @@ msgid "Unsubscribe from email alerts"
 msgstr "Avprenumerera från epostnotiser"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:84
-#, fuzzy, c-format
+#, c-format
 msgid "This patron has not subscribed to email alerts for any subscriptions."
-msgstr "Denna låntagare har inte gjort några inköpsförslag"
+msgstr "Denna låntagare har inte aktiverat e-postvarning för någon prenumeration."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:28
 #, c-format
@@ -55354,7 +55354,7 @@ msgstr "%s i %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_to_pull.tt:142
 #, c-format
 msgid "There are no recalls to pull."
-msgstr "Det finns inga återkrav att dra"
+msgstr "Det finns inga återkrav att plocka."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_to_pull.tt:165
@@ -57570,7 +57570,7 @@ msgstr "av typen \"SQL\" med användarvalet \"Exportera förlorade exemplar i en
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:78
 #, c-format
 msgid "To enable the export of selected items, your administrator must create a CSV profile of the type \"SQL\" with usage option \"Export lost items in report.\""
-msgstr "För att exportera markerade exemplar måste administratören skapa en CSV-profil av typen \"SQL\" med alternativet \"Exportera förkomna exemplar i rapport\"."
+msgstr "För att exportera markerade exemplar måste administratören skapa en CSV-profil av typen \"SQL\" med alternativet \"Exportera förkomna exemplar i rapport.\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:94
 #, c-format
@@ -58438,7 +58438,7 @@ msgstr "Ej för utlån: (%s)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:903
 #, c-format
 msgid "Not for loan (Itemtype not for loan)"
-msgstr "Exemplartyp ej för utlån."
+msgstr "Ej för utlån (Exemplartyp ej för utlån)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1046
 #, c-format
@@ -61517,7 +61517,7 @@ msgstr "Lägg till ytterligare innehåll"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:130
 #, c-format
 msgid "An error occurred when updating this content. Perhaps it already exists"
-msgstr "Ett fel inträffade när detta innehåll uppdaterades. Kanske finns det redan."
+msgstr "Ett fel inträffade när detta innehåll uppdaterades. Kanske finns det redan"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:132
 #, c-format
@@ -62701,7 +62701,7 @@ msgstr "Ny CSV-profil"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:69
 #, c-format
 msgid "An error occurred when updating this CSV profile. Perhaps it already exists"
-msgstr "Ett fel inträffade när CSV-profilen uppdaterades. Kanske finns den redan."
+msgstr "Ett fel inträffade när CSV-profilen uppdaterades. Kanske finns den redan"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:71
 #, c-format
@@ -65776,7 +65776,7 @@ msgstr "Bara uppladdning av csv tillåts. Felaktig filtyp: %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:59
 #, c-format
 msgid "An error occurred when updating this quote. Perhaps it already exists"
-msgstr "Ett fel uppstod när citatet skulle uppdateras. Det kanske redan finns."
+msgstr "Ett fel uppstod när citatet skulle uppdateras. Det kanske redan finns"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:61
 #, c-format
