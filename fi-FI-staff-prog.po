@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-16 08:26+0000\n"
-"PO-Revision-Date: 2023-11-17 13:55+0000\n"
+"PO-Revision-Date: 2023-11-20 12:57+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -11803,7 +11803,7 @@ msgstr "Asiakastietoa ei ole luotu liian heikon salasanan takia. Salasanassa on 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:34
 #, c-format
 msgid "The patron has not been created the entered password contained whitespaces"
-msgstr "Asiakasta ei ole lisätty, salasana sisältää tyhjiä merkkejä."
+msgstr "Asiakasta ei lisätty, salasana sisältää tyhjiä merkkejä."
 
 # Onkohan "tietueita" tässä hyvä termi? Tämähän näkyy OPAC:issa. Kyse on hakutuloksen sivutuksesta / sivunumeroinnista, voisiko parempi termi olla "...nähdäksesi muita tuloksia" ?
 #. %1$s:  hits_to_paginate | html 
@@ -12020,7 +12020,7 @@ msgstr "Ei maksuja"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:111
 #, c-format
 msgid "Guarantee"
-msgstr "Taattavat:"
+msgstr "Taattavat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/pay.tt:97
@@ -12067,7 +12067,7 @@ msgstr "Varauspvm"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:162
 #, c-format
 msgid "Pickup at"
-msgstr "Noutopaikka:"
+msgstr "Noutopaikka"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:166
 #, c-format
@@ -12288,12 +12288,12 @@ msgstr "Tämä haku näyttää vain pääkäyttäjät tai hankintaehdotusten hal
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:115
 #, c-format
 msgid "Only staff with superlibrarian or acquisitions permissions (or order_manage permission if granular permissions are enabled) are returned in the search results"
-msgstr "Tämä näyttää vain pääkäyttäjän tai hankintaoikeuksin varustetut virkailijat."
+msgstr "Tämä näyttää vain pääkäyttäjän tai hankintaoikeuksin varustetut tunnukset"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:117
 #, c-format
 msgid "Only staff with superlibrarian or acquisitions permissions (or budget_modify permission if granular permissions are enabled) are returned in the search results"
-msgstr "Haku näyttää vain pääkäyttäjän tai hankintaoikeuksin varustetut virkailijat (tai virkailijat, joilla on budget_modify -oikeudet, jos yksityiskohtaisempia oikeuksia on annettu)."
+msgstr "Haku näyttää vain pääkäyttäjän tai hankintaoikeuksin varustetut tunnukset (tai budget_modify -oikeudet, jos yksityiskohtaisempia oikeuksia on annettu)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:119
 #, c-format
@@ -13022,7 +13022,7 @@ msgstr "Tapahtui virhe. "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patroncards-errors.inc:35
 #, c-format
 msgid "A non-existent or invalid library code was supplied. Please verify that you have a library set. "
-msgstr "Kirjaston tunnusta ei löytynyt tai se oli väärä. Tarkista, että kirjasto on valittuna."
+msgstr "Kirjaston tunnusta ei löytynyt tai se oli väärä. Tarkista, että kirjasto on valittuna. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patroncards-errors.inc:37
 #, c-format
@@ -13073,7 +13073,7 @@ msgstr "Tapahtui virhe ja erää %s ei poistettu. "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patroncards-errors.inc:53
 #, c-format
 msgid "An error has occurred and batch %s was not fully de-duplicated. "
-msgstr "Tapahtui virhe ja erän %s tietueita ei täysin täysin käsitelty. "
+msgstr "Tapahtui virhe ja erän %s tietueita ei täysin käsitelty. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patroncards-toolbar.inc:6
 #, c-format
@@ -13473,7 +13473,7 @@ msgstr "Lajittelu 2"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:62
 #, c-format
 msgid "Alternate contact first name"
-msgstr "Vaihtoehtoinen yhteystieto: Etunimi "
+msgstr "Vaihtoehtoinen yhteystieto: Etunimi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:63
 #, c-format
@@ -13503,7 +13503,7 @@ msgstr "Vaihtoehtoinen yhteystieto: Osavaltio"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:68
 #, c-format
 msgid "Alternate contact ZIP/postal code"
-msgstr "Vaihtoehtoinen yhteys: Postinro "
+msgstr "Vaihtoehtoinen yhteys: Postinro"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:69
 #, c-format
@@ -13762,7 +13762,7 @@ msgstr "Merkata lainahuomautukset nähdyksi/näkemättömiksi "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:131
 #, c-format
 msgid "Manage account debit and credit types "
-msgstr "Hallinnoida maksu- ja hyvitystyyppejä"
+msgstr "Hallinnoida maksu- ja credit-tyyppejä "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:136
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:151
@@ -13778,7 +13778,7 @@ msgstr "Hallinnoida lainasääntöjä kaikille kirjastoille. Jos ei asetettu, ki
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:146
 #, c-format
 msgid "Remaining system parameters permissions "
-msgstr "Järjestelmäasetusten jäljelle jäävät oikeudet"
+msgstr "Järjestelmäasetusten jäljelle jäävät oikeudet "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:156
 #, c-format
@@ -13803,7 +13803,7 @@ msgstr "Määritellä auktorisoitujen arvojen luokkia ja auktorisoituja arvoja "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:176
 #, c-format
 msgid "Manage patron categories "
-msgstr "Hallinnoida asiakastyyppejä"
+msgstr "Hallinnoida asiakastyyppejä "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:181
 #, c-format
@@ -13818,7 +13818,7 @@ msgstr "Hallinnoida asiakasmääreitä "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:191
 #, c-format
 msgid "Manage library transfer limits and transport cost matrix "
-msgstr "Hallinnoida kuljetusten rajoituksia ja painomatriisia"
+msgstr "Hallinnoida kuljetusten rajoituksia ja painomatriisia "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:196
 #, c-format
@@ -13913,7 +13913,7 @@ msgstr "Hallinnoida käyttötilastojen asetuksia "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:286
 #, c-format
 msgid "Manage Mana KB content sharing "
-msgstr "Hallinnoida Mana-tietämyskannan sisällön jakoa"
+msgstr "Hallinnoida Mana-tietämyskannan sisällön jakoa "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:291
 #, c-format
@@ -13943,7 +13943,7 @@ msgstr "Lisätä, muokata ja katsoa asiakastietoja "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:316
 #, c-format
 msgid "View patron infos from any libraries. If not set the logged in user could only access patron infos from its own library or group of libraries. "
-msgstr "Katsoa asiakastietoja kaikista kirjastoista. Jos tämä ei ole valittuna, käyttäjällä on pääsy vain oman kirjastonsa tai kirjastoryhmänsä asiakastietoihin."
+msgstr "Katsoa asiakastietoja kaikista kirjastoista. Jos tämä ei ole valittuna, käyttäjällä on pääsy vain oman kirjastonsa tai kirjastoryhmänsä asiakastietoihin. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:321
 #, c-format
@@ -13963,12 +13963,12 @@ msgstr "Poistaa kaikki niteet kerralla "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:336
 #, c-format
 msgid "Edit catalog (Modify bibliographic/holdings data) "
-msgstr "Muokata luetteloa (Muokata nimeke/kokoelmatietoa)"
+msgstr "Muokata luetteloa (Muokata nimeke/kokoelmatietoa) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:341
 #, c-format
 msgid "Use the advanced cataloging editor (requires edit_catalogue) "
-msgstr "Käyttää edistynyttä kuvailueditoria (vaatii edit_catalogue)"
+msgstr "Käyttää edistynyttä kuvailueditoria (vaatii edit_catalogue) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:346
 #, c-format
@@ -13993,7 +13993,7 @@ msgstr "Muokata mitä tahansa nidettä mukaan lukien niteitä, jotka olisi muuto
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:366
 #, c-format
 msgid "Limit item modification to subfields defined in the SubfieldsToAllowForRestrictedEditing preference (please note that edit_item is still required) "
-msgstr "Rajoita niteiden muokkaus osakenttiin, jotka on määritelty SubfieldsToAllowForRestrictedEditing-asetuksessa (huomaa, että edit_item vaaditaan lisäksi)"
+msgstr "Rajoita niteiden muokkaus osakenttiin, jotka on määritelty SubfieldsToAllowForRestrictedEditing-asetuksessa (huomaa, että edit_item vaaditaan lisäksi) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:371
 #, c-format
@@ -14029,7 +14029,7 @@ msgstr "Antaa asiakkaan hyvitykset takaisin rahana "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:401
 #, c-format
 msgid "Refund payments to patrons "
-msgstr "Hyvittää maksuja asiakkaille"
+msgstr "Hyvittää maksuja asiakkaille "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:406
 #, c-format
@@ -14086,7 +14086,7 @@ msgstr "Hallinnoida tilausryhmiä "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:456
 #, c-format
 msgid "Manage basket and order lines "
-msgstr "Hallinnoida tilauskoreja ja tilauksia"
+msgstr "Hallinnoida tilauskoreja ja tilauksia "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:461
 #, c-format
@@ -14171,7 +14171,7 @@ msgstr "Muokata sitaatteja "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:541
 #, c-format
 msgid "Export bibliographic and holdings data "
-msgstr "Viedä bibliografisia ja kokoelmatietoja"
+msgstr "Viedä bibliografisia ja kokoelmatietoja "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:546
 #, c-format
@@ -14474,7 +14474,7 @@ msgstr "Lisätä, muokata ja arkistoida kassoja "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:838
 #, c-format
 msgid "Access the point of sale page and take payments "
-msgstr "Pääsy myyntipisteeseen ja maksujen vastaanotto"
+msgstr "Pääsy myyntipisteeseen ja maksujen vastaanotto "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:843
 #, c-format
@@ -14494,7 +14494,7 @@ msgstr "Hallinnoida verkkokirjaston vikailmoituksia "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:860
 #, c-format
 msgid "Manage recalls for patrons "
-msgstr "Hallinnoida asiakkaiden palautuspyyntöjä"
+msgstr "Hallinnoida asiakkaiden palautuspyyntöjä "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:866
 #, c-format
@@ -14693,7 +14693,7 @@ msgstr "Uusi kenttä"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:104
 #, c-format
 msgid "Requested by"
-msgstr "Palautuspyynnön tekijä:"
+msgstr "Palautuspyynnön tekijä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:344
@@ -14814,7 +14814,7 @@ msgstr "Peruuta palautuspyyntö ja palauta kirjastoon: %s"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:127
 #, c-format
 msgid "Patron has no recalls."
-msgstr "Asiakkaalla ei ole palautuspyyntöjä"
+msgstr "Asiakkaalla ei ole palautuspyyntöjä."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:129
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_overdue.tt:54
@@ -16247,7 +16247,7 @@ msgstr "Solun ominaisuudet"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 msgid "Cell spacing"
-msgstr "Solujen väli:"
+msgstr "Solujen väli"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -19488,7 +19488,7 @@ msgstr "Huomaa, että memcached määritellään $KOHA_CONF-tiedostossa"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:160
 #, c-format
 msgid "ENV and koha-conf.xml"
-msgstr "ENV and koha-conf.xml"
+msgstr "ENV ja koha-conf.xml"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:160
 #, c-format
@@ -19945,7 +19945,7 @@ msgstr "Itsepalvelulainausta asiakasliittymän puolella käyttäneellä asiakkaa
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:516
 #, c-format
 msgid "You are missing the &lt;template_cache_dir&gt; entry in your koha-conf.xml file. That will bring a performance boost to enable it. "
-msgstr "Sinulta puuttuu &lt;template_cache_dir&gt; -määritys  koha-conf.xml-tiedostosta. Sen käyttöönotto tehostaa toimintaa."
+msgstr "Sinulta puuttuu &lt;template_cache_dir&gt; -määritys koha-conf.xml-tiedostosta. Sen käyttöönotto tehostaa toimintaa. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:525
 #, fuzzy, c-format
@@ -19981,7 +19981,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:558
 #, c-format
 msgid "The ILL module is enabled, but no 'branch' block is defined in koha-conf.xml. You must define this block before use. "
-msgstr "Kaukolainamoduli on käytössä, mutta mitään kirjastojoukkoa ei ole määritelty koha-conf.xml-asetuksessa. Nämä täytyy määritellä ennen käyttöä."
+msgstr "Kaukolainamoduli on käytössä, mutta mitään kirjasto-osiota ei ole määritelty koha-conf.xml-asetuksessa. Nämä täytyy määritellä ennen käyttöä. "
 
 #. %1$s:  ill_partner_code_doesnt_exist | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:566
@@ -20119,7 +20119,7 @@ msgstr "koha-conf.xml-tiedostostasi puuttuu &lt;upload_path&gt; -muuttuja. Lisä
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:707
 #, c-format
 msgid "You are missing the &lt;encryption_key&gt; entry in your koha-conf.xml file. Please generate a key. We recommend one of at least 32 bytes. (You might use 'pwgen 32' to do so.) "
-msgstr "Sinulta puuttuu &lt;encryption_key&gt; merkintä koha-conf.xml-tiedostosta. Luo avain. Suosituksena vähintään 32 tavun avain. (Voit käyttää 'pwgen 32' luodaksesi sen)."
+msgstr "Sinulta puuttuu &lt;encryption_key&gt; merkintä koha-conf.xml-tiedostosta. Luo avain. Suosituksena vähintään 32 tavun avain. (Voit käyttää 'pwgen 32' luodaksesi sen.) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:719
 #, c-format
@@ -20201,7 +20201,7 @@ msgstr ", Ranska (kuvailupohjat, MARC-auktoriteetit, verkkokirjaston kori, kausi
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:770
 #, c-format
 msgid "Mines Paristech (previously Ecole Nationale Supérieure des Mines de Paris)"
-msgstr "Mines Paristech (previously Ecole Nationale Supérieure des Mines de Paris)"
+msgstr "Mines Paristech (aiemmin Ecole Nationale Supérieure des Mines de Paris)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:773
 #, c-format
