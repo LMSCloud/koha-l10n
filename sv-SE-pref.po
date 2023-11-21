@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2023-11-21 03:01+0000\n"
-"Last-Translator: \"marie.hedbom\" <marie.hedbom@musikverket.se>\n"
+"PO-Revision-Date: 2023-11-22 03:01+0000\n"
+"Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
 "MIME-Version: 1.0\n"
@@ -297,7 +297,7 @@ msgstr "Om det här lämnas tomt så kommer meddelandet gå till den första e-p
 
 # Acquisitions > Policy > AcquisitionsDefaultReplyTo
 msgid "acquisitions.pref#AcquisitionsDefaultReplyTo# Use the reply-to email address"
-msgstr ""
+msgstr "Använd reply-to-adressen"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
@@ -570,9 +570,8 @@ msgstr "Om det här lämnas tomt så kommer meddelandet gå till den första e-p
 
 # Administration > Interface options > ReplytoDefault
 # Administration > Interface options
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# Use the from email address"
-msgstr "E-postadress som ska sättas som svarsadress i e-postmeddelanden: "
+msgstr "Använd svarsadressen"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
@@ -580,13 +579,12 @@ msgid "acquisitions.pref#SerialsDefaultEMailAddress# when sending serial claim n
 msgstr "när reklamationsmeddelanden för prenumerationer skickas."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultReplyTo# <br>If left empty, it will fall back to the first defined address in the following list: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Om det här lämnas tomt så kommer meddelandet gå till den första e-postadressen i följande lista: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> och <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "<br>Om det här lämnas tomt så kommer meddelandet gå till den första e-postadressen i följande lista: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> och <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Acquisitions > Policy > SerialsDefaultReplyTo
 msgid "acquisitions.pref#SerialsDefaultReplyTo# Use the reply-to email address"
-msgstr ""
+msgstr "Använd svarsadressen"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
@@ -2986,18 +2984,15 @@ msgstr "den avancerade katalogredigeraren."
 
 # Circulation > Holds policy > EnableItemGroups
 # Circulation > Article requests
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# Don't enable"
 msgstr "Aktivera inte"
 
 # Circulation > Holds policy > EnableItemGroups
 # Circulation > Checkout policy
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# Enable"
 msgstr "Aktivera"
 
 # Circulation > Holds policy > EnableItemGroups
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# the item groups feature to allow collecting groups of items on a record together."
 msgstr "exemplargruppsfunktionen som tillåter dig att att samla grupper av exemplar under en post."
 
@@ -3160,9 +3155,8 @@ msgstr "visar:"
 
 # Cataloging > Record structure > NewItemsDefaultLocation
 # Cataloging > Record structure
-#, fuzzy
 msgid "cataloguing.pref#NewItemsDefaultLocation# (should be a <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC\">location code</a>, or blank to disable)."
-msgstr "(bör vara en platskod eller tomt för att avaktivera)."
+msgstr "(bör vara en <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC\">placeringskod</a>, eller blank för att inaktivera)."
 
 # Cataloging > Record structure > NewItemsDefaultLocation
 # Cataloging > Record structure
@@ -4331,31 +4325,27 @@ msgstr "Följande format för artikelbeställningar stöds:"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# When returning items"
-msgstr "Tillåt inte"
+msgstr "När exemplar returneras"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# don't"
-msgstr "Tillåt inte"
+msgstr "ta inte bort"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining items that is cause for debarment"
-msgstr "Tillåt inte"
+msgstr "om låntagaren inte har kvarvarande exemplar som leder till avstängning"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining overdue items"
-msgstr "Tillåt inte"
+msgstr "om låntagaren inte har kvarvarande försenade exemplar"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# remove OVERDUES restriction triggered by sent notices. The difference between removing restriction when no remaining overdue items exists and doing so only when any of the items would result in debarment is that the latter option will respect possible grace periods of overdue rules also on returns and not only when generating overdue notices."
-msgstr ""
+msgstr "OVERDUES-begränsningen som utlöses av skickade meddelanden. Skillnaden mellan att ta bort begränsningen när inga kvarvarande sena exemplar finns, och att göra det när något exemplar leder till avstängning är att det senare alternativet tar hänsyns till respittider hos övertidsregler även för återlämningar och inte bara när övertidsmeddelanden genereras."
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
 # Circulation > Holds policy
@@ -4444,27 +4434,23 @@ msgstr "automatisk omdirigering till låntagarsökningen när ett kortnummer ska
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/automatic_checkin.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>OBS:</strong> Denna systeminställning kräver cronjobbet <code>misc/cronjobs/holds/auto_unsuspend_holds.pl</code>. Be din systemadministratör att schemalägga det."
+msgstr "<br><strong>OBS:</strong> Denna systeminställning kräver cronjobbet <code>misc/cronjobs/automatic_checkin.pl</code>. Be din systemadministratör att schemalägga det."
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# Allow"
 msgstr "Tillåt"
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# Don't allow"
 msgstr "Tillåt inte"
 
 # Circulation > Checkout policy > AutomaticItemReturn
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# holds to be automatically filled after being automatically checked in."
-msgstr "att automatiskt överföra exemplar till sitt hembibliotek när de återlämnas."
+msgstr "att reservationer automatiskt fångas in efter automatisk återlämning."
 
 # Circulation > Checkin policy > AutomaticConfirmTransfer
 # Circulation > Checkout policy
@@ -4923,9 +4909,8 @@ msgstr "<br>Lämna det här fältet tomt om du inte vill ta ut en avgift för f�
 
 # Circulation > Checkout policy > DefaultLongOverdueChargeValue
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueChargeValue# Charge a lost item to the patron's account when the <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a> value of the item changes to:"
-msgstr "Lägg på en avgift för förkommet material på låntagarens konto om LOST-värdet på ett exemplar ändras till:"
+msgstr "Lägg på en avgift för förkommet material på låntagarens konto om <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a>-värdet på ett exemplar ändras till:"
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -4939,9 +4924,8 @@ msgstr "<br><strong>NOTERA:</strong> Den här systeminställningen kräver cronj
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueLostValue# <br>Example: [1] [30] Sets an item to the <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a> value 1 when it has been overdue for more than 30 days."
-msgstr "<br>Exempel: [1] [30] Ger ett exemplar LOST-värde 1 när det är mer än 30 dagar försenat."
+msgstr "<br>Exempel: [1] [30] Ger ett exemplar <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a>-värde 1 när det är mer än 30 dagar försenat."
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -4950,9 +4934,8 @@ msgstr "<br>VARNING — Dessa alternativ aktiverar den automatiska processen fö
 
 # Circulation > Item bundles > BundleLostValue
 # Circulation > Return claims
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueLostValue# By default, set the <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> value of an item to"
-msgstr "Använd det auktoriserade <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>-värdet"
+msgstr "Använd som standard det auktoriserade <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>-värdet"
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -4971,9 +4954,8 @@ msgstr "."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# <br>Leave this field empty if you don't want to skip any <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> statuses."
-msgstr "<br>Lämna det här fältet tomt om du inte vill hoppa över några förlorad-statusar."
+msgstr "<br>Lämna det här fältet tomt om du inte vill hoppa över några <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">Förlorad</a>-statusar."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
@@ -4982,9 +4964,8 @@ msgstr "<br>Ange som lista med kommaavgränsade värden, t.ex. <em>5,6,7</em>."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# When using the automatic item loss process, skip items with <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> values matching any of"
-msgstr "När du använder den automatiska processen för förlorade exemplar, hoppa över objekt med förlorade värden som matchar något av"
+msgstr "När du använder den automatiska processen för förlorade exemplar, hoppa över exemplar med <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>-värden som matchar något av"
 
 # Circulation > Interface > DisplayClearScreenButton
 # Circulation > Interface
@@ -5023,21 +5004,18 @@ msgstr "möjligheten att i träfflistan välja flera poster för reservation"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Don't email"
-msgstr "Skicka inte"
+msgstr "Skicka inte e-post"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Email"
-msgstr "Skicka"
+msgstr "Skicka e-post"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# a patron when they have placed a hold."
-msgstr "Skicka inte"
+msgstr "när en låntagare har lagt en reservation."
 
 # Circulation > Holds policy > EnableItemGroupHolds
 # Circulation > Holds policy
@@ -5050,9 +5028,8 @@ msgid "circulation.pref#EnableItemGroupHolds# Enable"
 msgstr "Aktivera"
 
 # Circulation > Checkin policy > CalculateFinesOnReturn
-#, fuzzy
 msgid "circulation.pref#EnableItemGroupHolds# the ability to place holds on item groups. <br><strong>NOTE:</strong> This system preference requires that <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EnableItemGroups'>EnableItemGroups</a> to be set to 'Enable'."
-msgstr "<br /><strong>NOTERA:</strong> Den här systeminställningen kräver att <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=FinesMode\">FinesMode</a> är inställd på \"Beräkna och debitera.\""
+msgstr "möjligheten att reservera exemplargrupper. <br><strong>OBS:</strong></br> Denna systeminställning kräver att <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EnableItemGroups'>EnableItemGroups</a> är inställt på 'Aktivera'."
 
 # Circulation > Holds policy > ExcludeHolidaysFromMaxPickUpDelay
 # Circulation > Holds policy
@@ -5154,9 +5131,8 @@ msgstr "Visa inte"
 
 # Circulation > Interface > ExportCircHistory
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#ExportCircHistory# the option to export patron checkouts."
-msgstr "alternativen för låntagarens utlåningshistorik."
+msgstr "alternativet att exportera låntagares utlåningshistorik."
 
 # Circulation > Interface > ExportRemoveFields
 # Circulation > Interface
@@ -6794,74 +6770,62 @@ msgstr "PROC: FIC - gör att ett exemplar med placeringen Processing Center änd
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# PROC: _PERM_ - causes an item that is in the Processing Center to be updated to it's permanent location.<br/><br/>"
 msgstr "PROC: _PERM_ - gör att ett exemplar som är i Processing Center kommer att flyttas till dess permanenta placering.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# The special term _ALL_ is used on the left side of the colon (:) to affect all items, <strong>and overrides all other rules.</strong>"
-msgstr "Specialtermen _ALL_ används på vänster sida om kolonet (:) för att påverka alla exemplar, <strong>och det åtsidosätter alla andra regler.</strong>"
+msgstr "Specialtermen _ALL_ används på vänster sida om kolonet (:) för att påverka alla exemplar, <strong>och det åsidosätter alla andra regler.</strong>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# The special term _BLANK_ may be used on either side of a value pair to update or remove the location from items with no location assigned.<br/>"
 msgstr "Specialtermen _BLANK_ kan användas på båda sidorna för att flytta till eller ta bort en placering från exemplar som saknar en placering.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# This is a list of value pairs. The first value is followed immediately by colon space then the second value.<br/><br/>"
 msgstr "Det här är en lista med värdepar. Ett korrekt par ser ut så här: 'värde 1: värde 2' (värde 1 kolon mellanslag värde 2).<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# _ALL_: FIC - causes all items to be updated into the Fiction location on check out.<br/>"
-msgstr "_ALL_: FIC - gör att alla exemplar flyttas till placeringen Fiction vid återlämning.<br/>"
+msgstr "_ALL_: FIC - gör att alla exemplar flyttas till placeringen Fiction vid utlån.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# _BLANK_: FIC - causes an item that has no location to be updated into the Fiction location on check out.<br/>"
-msgstr "_BLANK_: FIC - gör att ett exemplar som saknas placering flyttas till placeringen Fiction vid återlämning.<br/>"
+msgstr "_BLANK_: FIC - gör att ett exemplar som saknas placering flyttas till placeringen Fiction vid utlån.<br/>"
 
 # Circulation > Holds policy > UpdateItemWhenLostFromHoldList
 # Circulation > Fines Policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemWhenLostFromHoldList# A list of values to update an item's values with when it is marked as <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> from the 'Holds to pull' page."
-msgstr "En lista med värden för att uppdatera ett exemplar när det markeras som förlorat på sida 'Plocklista reservationer'."
+msgstr "En lista med värden för att uppdatera ett exemplar när det markeras som <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">förlorat</a> på sidan 'Plocklista reservationer'."
 
 # Circulation > Holds policy > UpdateItemWhenLostFromHoldList
-#, fuzzy
 msgid "circulation.pref#UpdateItemWhenLostFromHoldList# Example: \"itemlost: 1\" to set items.itemlost to 1 when the item is marked as <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>. (Requires <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
 msgstr "Exempel: \"itemlost: 1\" sätter items.itemlost till 1 när ett exemplar är markerat som förkommet. (Kräver <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Can be used for showing only the not for loan description. E.g. '-1: ONLYMESSAGE'.<br>"
 msgstr "Kan användas för visa \"Ej för utlån\"-beskrivningen. T.ex. \"-1\": ONLYMESSAGE\"."
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Each pair of values should be on a separate line.<br>"
-msgstr "Varje värdepar ska vara på en separat rad."
+msgstr "Varje värdepar ska vara på en separat rad.<br>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# For example, '-1: 0' will cause an item that was set to 'Ordered' to now be available for loan."
-msgstr "kommer det att uppdateras till värdet på höger sida. Exempelvis kommer \"-1: 0\" att göra så att ett exemplar som var inställt på \"Beställd\" nu kommer att vara tillgängligt för lån."
+msgstr "Till exempel kommer \"-1: 0\" att göra så att ett exemplar som var inställt på \"Beställd\" nu kommer att vara tillgängligt för lån."
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of value pairs. When an item is checked in, if the not for loan value on the left matches the items not for loan value it will be updated to the right-hand value."
-msgstr "Detta är en lista med värdepar. När ett exemplar återlämnas, om \"Ej för utlån\"-värdet till vänster matchar exemplarens \"Ej för utlån\"-värde"
+msgstr "Detta är en lista med värdepar. Vid återlämning: om \"Ej för utlån\"-värdet till vänster matchar exemplarets \"Ej för utlån\"-värde kommer det att uppdateras till värdet till höger."
 
 # Circulation > Item bundles > BundleNotLoanValue
 # Circulation > Return claims
