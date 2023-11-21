@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:29-0300\n"
-"PO-Revision-Date: 2023-11-15 03:01+0000\n"
+"PO-Revision-Date: 2023-11-22 03:01+0000\n"
 "Last-Translator: vfernandes <vfernandes@keep.pt>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: pt-PT\n"
@@ -414,7 +414,7 @@ msgstr "Ativar"
 # Acquisitions > EDIFACT > EdifactInvoiceImport
 # Acquisitions > EDIFACT
 msgid "acquisitions.pref#EdifactInvoiceImport#  automatically import EDIFACT invoice message files when they are downloaded."
-msgstr " importar automaticamente os ficheiros de mensagens de faturas EDIFACT quando são descarregados."
+msgstr "importar automaticamente os ficheiros de mensagens de faturas EDIFACT quando são descarregados."
 
 # Acquisitions > EDIFACT > EdifactInvoiceImport
 # Acquisitions > EDIFACT
@@ -429,7 +429,7 @@ msgstr "Não"
 # Acquisitions > EDIFACT > EdifactLSQ
 # Acquisitions > EDIFACT
 msgid "acquisitions.pref#EdifactLSQ#  in items."
-msgstr " nos exemplares."
+msgstr "nos exemplares."
 
 # Acquisitions > EDIFACT > EdifactLSQ
 msgid "acquisitions.pref#EdifactLSQ# Map sequence code (GIR:LSQ) field to "
@@ -448,7 +448,7 @@ msgstr "localização"
 # Acquisitions > Policy > EmailPurchaseSuggestions
 # Acquisitions > Policy
 msgid "acquisitions.pref#EmailPurchaseSuggestions# <br>If you choose <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EmailAddressForSuggestions\">EmailAddressForSuggestions</a> you have to enter a valid email address:"
-msgstr "<br>Se escolheu <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EmailAddressForSuggestions\">EmailAddressForSuggestions</a> insira um endereço de email válido: "
+msgstr "<br>Se escolheu <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EmailAddressForSuggestions\">EmailAddressForSuggestions</a> insira um endereço de email válido:"
 
 # Acquisitions > Policy > EmailPurchaseSuggestions
 # Acquisitions > Policy
@@ -645,7 +645,7 @@ msgstr "As seguintes <a href='http://schema.koha-community.org/__VERSION__/table
 # Acquisitions > Policy > UseACQFrameworkForBiblioRecords
 # Acquisitions > Policy
 msgid "acquisitions.pref#UseACQFrameworkForBiblioRecords#  the framework 'ACQ' for bibliographic records fields."
-msgstr "  o modelo 'ACQ' para os registos bibliográficos."
+msgstr "o modelo 'ACQ' para os registos bibliográficos."
 
 # Acquisitions > Policy > UseACQFrameworkForBiblioRecords
 # Acquisitions > Policy
@@ -2202,7 +2202,7 @@ msgstr "as informações das bibliotecas (nome, URL, país)."
 # Administration > Share anonymous usage statistics > UsageStatsLibraryName
 # Administration > Share anonymous usage statistics
 msgid "admin.pref#UsageStatsLibraryName# . If this field is empty the data will be sent anonymously."
-msgstr ". Se este campo estiver a vazio, os dados serão enviado anonimamente"
+msgstr ". Se este campo estiver a vazio, os dados serão enviado anonimamente."
 
 # Administration > Share anonymous usage statistics > UsageStatsLibraryName
 # Administration > Share anonymous usage statistics
@@ -2911,7 +2911,7 @@ msgstr "que os técnicos reportem problemas/preocupações sobre os registos bib
 
 # Cataloging > Interface > CatalogerEmails
 msgid "cataloguing.pref#CatalogerEmails#  as the notification address for catalog concerns."
-msgstr " como o endereço para a notificação dos problemas de catalogação."
+msgstr "como o endereço para a notificação dos problemas de catalogação."
 
 # Cataloging > Interface > CatalogerEmails
 msgid "cataloguing.pref#CatalogerEmails# Use "
@@ -3301,7 +3301,7 @@ msgstr "o novo exemplar não será pré-preenchido com os valores do último exe
 # Cataloging > Record structure > PrefillItem
 # Cataloging > Record structure
 msgid "cataloguing.pref#PrefillItem# the new item is prefilled with last created item values."
-msgstr "o novo exemplar é preenchido com os valores do último exemplar criado"
+msgstr "o novo exemplar é preenchido com os valores do último exemplar criado."
 
 # Cataloging > Exporting > RisExportAdditionalFields
 # Cataloging > Exporting
@@ -4368,7 +4368,7 @@ msgstr "Volume"
 
 # Circulation > Article requests > ArticleRequestsOpacHostRedirection
 msgid "circulation.pref#ArticleRequestsOpacHostRedirection#  redirection from child to host based on MARC21 773$w when the child has no items when requesting articles on the Opac."
-msgstr " o redirecionamento no OPAC para o registo hospedeiro de acordo com o subcampo 773$w do MARC21 quando o registo filho não tem exemplares para os pedidos de artigos."
+msgstr "o redirecionamento no OPAC para o registo hospedeiro de acordo com o subcampo 773$w do MARC21 quando o registo filho não tem exemplares para os pedidos de artigos."
 
 # Circulation > Article requests > ArticleRequestsOpacHostRedirection
 # Circulation > Article requests
@@ -4401,19 +4401,17 @@ msgstr "não"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining items that is cause for debarment"
-msgstr "se o leitor não tiver mais empréstimos que provoquem um impedi"
+msgstr "e se o leitor não tiver mais empréstimos que provoquem um impedimento"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining overdue items"
-msgstr "Não"
+msgstr "e se o leitor não tem mais empréstimos em atraso"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# remove OVERDUES restriction triggered by sent notices. The difference between removing restriction when no remaining overdue items exists and doing so only when any of the items would result in debarment is that the latter option will respect possible grace periods of overdue rules also on returns and not only when generating overdue notices."
-msgstr ""
+msgstr "o sistema deve remover a restrição de ATRASO adicionada pelo envio dos avisos de atraso. A diferença entre remover a restrição quando não existem empréstimos em atraso e fazê-lo apenas quando qualquer empréstimo provocar uma restrição é que a última hipótese vai respeitar os períodos de tolerância das regras de empréstimo nas devoluções e não apenas na geração dos avisos de atraso."
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
 # Circulation > Holds policy
@@ -4644,7 +4642,7 @@ msgstr "<br /><strong>NOTA:</strong> Se está a efectuar empréstimos por horas 
 # Circulation > Checkin policy > CalculateFinesOnReturn
 # Circulation > Checkin policy
 msgid "circulation.pref#CalculateFinesOnReturn# <br /><strong>NOTE:</strong> This system preference requires <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=FinesMode\">FinesMode</a> to be set to \"Calculate and charge.\""
-msgstr "<br /><strong>NOTA:</strong> Esta preferência de sistema necessita que a preferência <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=FinesMode\">FinesMode</a> esteja definida como 'Calcular e cobrar'."
+msgstr "<br /><strong>NOTA:</strong> Esta preferência de sistema necessita que a preferência <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=FinesMode\">FinesMode</a> esteja definida como \"Calcular e cobrar.\""
 
 # Circulation > Checkin policy > CalculateFinesOnReturn
 # Circulation > Checkin policy
@@ -5018,7 +5016,7 @@ msgstr ""
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
 msgid "circulation.pref#DefaultLongOverdueLostValue# days."
-msgstr "dias"
+msgstr "dias."
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -5032,9 +5030,8 @@ msgstr "."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# <br>Leave this field empty if you don't want to skip any <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> statuses."
-msgstr "<br>Deixe este campo vazio se você não quiser saltar nenhum status perdido."
+msgstr "<br>Deixe este campo vazio se você não quiser saltar qualquer estado de <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
@@ -5043,9 +5040,8 @@ msgstr "<br>Definir uma lista de valores separados por vírgulas, por exemplo <e
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# When using the automatic item loss process, skip items with <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> values matching any of"
-msgstr "Ao usar o processo automático de perda de exemplares, saltar os exemplares com valores de perdido que correspondam a qualquer um dos"
+msgstr "Ao usar o processo automático de perda de exemplares, saltar os exemplares com valores de <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> que correspondam a qualquer um dos"
 
 # Circulation > Interface > DisplayClearScreenButton
 # Circulation > Interface
@@ -5084,21 +5080,18 @@ msgstr "a funcionalidade de reservar múltiplos registos dos resultados de pesqu
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Don't email"
-msgstr "Não activar"
+msgstr "Não enviar email"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Email"
-msgstr "Activar"
+msgstr "Enviar email"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# a patron when they have placed a hold."
-msgstr "Não activar"
+msgstr "ao leitor quando eles efetuarem uma reserva."
 
 # Circulation > Holds policy > EnableItemGroupHolds
 # Circulation > Holds policy
@@ -5112,9 +5105,8 @@ msgstr "Ativar"
 
 # Circulation > Checkin policy > CalculateFinesOnReturn
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#EnableItemGroupHolds# the ability to place holds on item groups. <br><strong>NOTE:</strong> This system preference requires that <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EnableItemGroups'>EnableItemGroups</a> to be set to 'Enable'."
-msgstr "<br /><strong>NOTA:</strong> Esta preferência de sistema necessita que a preferência <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=FinesMode\">FinesMode</a> esteja definida como 'Calcular e cobrar'."
+msgstr "a capacidade de adicionar reservas a grupos de exemplares.<br /><strong>NOTA:</strong> Esta preferência de sistema necessita que a preferência <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EnableItemGroups'>EnableItemGroups</a> esteja ativa."
 
 # Circulation > Holds policy > ExcludeHolidaysFromMaxPickUpDelay
 # Circulation > Holds policy
@@ -5217,9 +5209,8 @@ msgstr "Mostrar"
 
 # Circulation > Interface > ExportCircHistory
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#ExportCircHistory# the option to export patron checkouts."
-msgstr "as opções de exportação do histórico de empréstimo do leitor."
+msgstr "as opções de exportação dos empréstimos do leitor."
 
 # Circulation > Interface > ExportRemoveFields
 # Circulation > Interface
@@ -5228,9 +5219,8 @@ msgstr "(separar os campos com espaço, por exemplo, 100a 200b 300c)."
 
 # Circulation > Interface > ExportRemoveFields
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#ExportRemoveFields# The following fields should be excluded from the patron checkout CSV or MARC (ISO 2709) export:"
-msgstr "Os campos seguintes devem ser excluídos da exportação para CSV or MARC (ISO 2709) do histórico de empréstimos do leitor:"
+msgstr "Os campos seguintes devem ser excluídos da exportação para CSV or MARC (ISO 2709) dos empréstimos do leitor:"
 
 # Circulation > Interface > FilterBeforeOverdueReport
 # Circulation > Interface
@@ -5503,13 +5493,12 @@ msgstr "que os técnicos emprestem um exemplar cuja taxa de empréstimo faça o 
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 msgid "circulation.pref#ItemsDeniedRenewal# <br /><strong>Configuration:</strong> <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=CCODE'>Collections (CCODE)</a> | <a href='/cgi-bin/koha/admin/itemtypes.pl'>Item types</a>"
-msgstr ""
+msgstr "<br /><strong>Configuração:</strong><a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=CCODE'>Coleções (CCODE)</a> | <a href='/cgi-bin/koha/admin/itemtypes.pl'>Tipos de documentos</a>"
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#ItemsDeniedRenewal# <br /><strong>NOTE:</strong> The word 'NULL' can be used to block renewal on undefined fields, while an empty string \"\" will block on an empty (but defined) field."
-msgstr "<br /> <strong>NOTA:</strong> A palavra 'null' pode ser usada para bloquear a renovação em campos indefinidos, enquanto a expressão vazia \"\" vai bloquear as renovações num campo em branco (mas definido)."
+msgstr "<br /> <strong>NOTA:</strong> A palavra 'NULL' pode ser usada para bloquear a renovação em campos indefinidos, enquanto a expressão vazia \"\" vai bloquear as renovações num campo em branco (mas definido)."
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
@@ -5518,9 +5507,8 @@ msgstr "<br />Pode introduzir qualquer campo da tabela items seguido de dois pon
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#ItemsDeniedRenewal# <br />ccode: [NEWFIC,NULL,DVD]"
-msgstr "<br />ccode: [NEWFIC,null,DVD]"
+msgstr "<br />ccode: [NEWFIC,NULL,DVD]"
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
@@ -5544,11 +5532,11 @@ msgstr "uma lista de valores separados entre vírgulas e entre parêntesis recto
 
 # Circulation > Checkout policy > LoadCheckoutsTableDelay
 msgid "circulation.pref#LoadCheckoutsTableDelay# Delay the automatic loading of the checkouts table on the checkouts page by"
-msgstr ""
+msgstr "Atrasar o carregamento automático da tabela de empréstimos na página de empréstimo por"
 
 # Circulation > Checkout policy > LoadCheckoutsTableDelay
 msgid "circulation.pref#LoadCheckoutsTableDelay# seconds when \"Always show checkouts automatically\" is enabled."
-msgstr ""
+msgstr "segundos quando a opção \"Mostrar empréstimos automaticamente\" estiver ativa."
 
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
@@ -5593,7 +5581,7 @@ msgstr "."
 # Circulation > Checkout policy > MarkLostItemsAsReturned
 # Circulation > Checkout policy
 msgid "circulation.pref#MarkLostItemsAsReturned# Mark items as returned when flagged as lost "
-msgstr "Marcar os exemplares como devolvidos quando forem marcados como perdidos"
+msgstr "Marcar os exemplares como devolvidos quando forem marcados como perdidos "
 
 # Circulation > Checkout policy > MarkLostItemsAsReturned
 # Circulation > Checkout policy
@@ -5907,9 +5895,8 @@ msgstr "a biblioteca de origem do exemplar"
 
 # Circulation > Checkout policy > OverdueNoticeFrom
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#OverdueNoticeFrom# patron home library"
-msgstr "a biblioteca de origem do exemplar"
+msgstr "a biblioteca do leitor"
 
 # Circulation > Checkout policy > OverduesBlockCirc
 # Circulation > Checkout policy
@@ -6268,21 +6255,18 @@ msgstr "que os leitores devolvam exemplares pelo sistema de auto-devolução."
 
 # Circulation > Interface > ShowAllCheckins
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#SCOLoadCheckoutsByDefault# Don't show"
 msgstr "Não mostrar"
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#SCOLoadCheckoutsByDefault# Show"
-msgstr "Permitir"
+msgstr "Mostrar"
 
 # Circulation > Self check-out module > ShowPatronImageInWebBasedSelfCheck
 # Circulation > Self check-out module
-#, fuzzy
 msgid "circulation.pref#SCOLoadCheckoutsByDefault# the patron's list of current checkouts by default when they log in to the self checkout module."
-msgstr "a imagem do leitor (se alguma foi adicionada) quando o mesmo estiver a usar o sistema de auto-requisição."
+msgstr "a lista dos empréstimos do leitor quando o mesmo estiver a usar o sistema de auto-requisição."
 
 # Circulation > Self check-out module > SCOUserCSS
 # Circulation > Self check-out module
@@ -6296,25 +6280,22 @@ msgstr "Incluir o seguinte JavaScript em todas as páginas do sistema de auto-re
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Do"
-msgstr "Permitir"
+msgstr "Enviar"
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't"
-msgstr "Não permitir"
+msgstr "Não enviar"
 
 # Circulation > Course reserves > UseCourseReserves
 # Circulation > Course reserves
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Use"
-msgstr "Usar"
+msgstr " "
 
 # Circulation > SIP2 > SIP2AddOpacMessagesToScreenMessage
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# send OPAC patron messages in the SIP2 screen message field."
-msgstr ""
+msgstr "as mensagens de OPAC do leitor para o campo de mensagens do ecrã SIP2."
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# - 'branchcode' is the location where the checkin is being performed (i.e. branch assigned to SIP user)<br/>"
@@ -6337,23 +6318,20 @@ msgid "circulation.pref#SIP2SortBinMapping# - 'sort bin number' is the expected 
 msgstr "- 'sort bin number' é o valor de devolução esperado no campo CL da resposta SIP para um exemplar que corresponda à regra<br/><br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# CPL:homebranch:ne:\\$holdingbranch:X - Will return sort bin 'X' for an item returned to CPL where the holdingbranch is not equal to the homebranch (i.e. any item belonging to a different branch than CPL).<br/>"
-msgstr "CPL:homebranch:ne:\\$holdingbranch:X - Vai retornar 'X' para um exemplar devolvido à biblioteca CPL onde a holdingbranch não é igual à homebranch (qualquer exemplar que não pertença à CPL).<br/><br/>"
+msgstr "CPL:homebranch:ne:\\$holdingbranch:X - Vai retornar 'X' para um exemplar devolvido à biblioteca CPL onde a holdingbranch não é igual à homebranch (qualquer exemplar que não pertença à CPL).<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# CPL:itemcallnumber:<:339.6:3 - Will return sort bin 3 for an item with a callnumber less than 339.6 returned to CPL.<br/>"
-msgstr "CPL:itemcallnumber:<:339.6:3 - Vai retornar '3' para um exemplar com a cota inferior que 339.6 e que seja devolvido à CPL.<:339.6:3 - Will return sort bin 3 for an item with a callnumber less than 339.6 returned to CPL .<br/>"
+msgstr "CPL:itemcallnumber:<:339.6:3 - Vai retornar '3' para um exemplar com a cota inferior que 339.6 e que seja devolvido à CPL.<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# CPL:itype:eq:BOOK:1 - Will return sort bin 1 for an item of itemtype 'BOOK' returned to CPL.<br/>"
 msgstr "CPL:itype:eq:BOOK:1 - Vai retornar '1' para um exemplar do tipo de documento 'BOOK' devolvido à CPL.<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# CPL:itype:eq:BOOK:ccode:eq:TEEN:5 - Will return sort bin 5 for an item of itemtype 'BOOK' and a ccode 'TEEN' returned to CPL.<br/><br/>"
-msgstr "CPL:itype:eq:BOOK:1 - Vai retornar '1' para um exemplar do tipo de documento 'BOOK' devolvido à CPL.<br/>"
+msgstr "CPL:itype:eq:BOOK:1 - Vai retornar '1' para um exemplar do tipo de documento 'BOOK' devolvido à CPL.<br/><br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 # Circulation > Checkin policy
@@ -6365,9 +6343,8 @@ msgid "circulation.pref#SIP2SortBinMapping# NOTE: Specifying 'item_field_value' 
 msgstr "NOTA: Ao especificar um 'item_field_value' com o prefixo '\\$' e um nome de um campo do exemplar, será usado o valor desse campo no exemplar para a comparação:<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# The field comparison triplet, 'item field:comparator:item field value', is repeatable within a single line to allow for more complex cases"
-msgstr "O mapeamento deve na forma 'branchcode:item field:comparator:item field value:sort bin number', usando um mapeamento por linha.<br/>"
+msgstr "O triplete de comparação de campo, 'item field:comparator:item field value', é repetível dentro de uma única linha para permitir casos mais complexos"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# The mapping should be of the form 'branchcode:item field:comparator:item field value:sort bin number', with one mapping per line.<br/>"
@@ -6501,14 +6478,12 @@ msgid "circulation.pref#ShowPatronImageInWebBasedSelfCheck# the patron's picture
 msgstr "a imagem do leitor (se alguma foi adicionada) quando o mesmo estiver a usar o sistema de auto-requisição."
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#SkipHoldTrapOnNotForLoanValue# (list of <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>not for loan</a> authorized values separated with a pipe '|')"
-msgstr "Usar o seguinte valor autorizado <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>"
+msgstr "(lista de valores autorizados <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>não emprestáveis</a> separados por uma barra '|')"
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#SkipHoldTrapOnNotForLoanValue# Never trap items with <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">'not for loan'</a> authorized values of"
-msgstr "Usar o seguinte valor autorizado <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>"
+msgstr "Nunca bloquear os exemplares com os valores autorizados <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">não emprestáveis</a>"
 
 # Circulation > Checkin policy > SkipHoldTrapOnNotForLoanValue
 # Circulation > Checkin policy
@@ -6786,15 +6761,13 @@ msgstr "Nota: os valores PROC e CART são valores especiais, para estas localiza
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# PROC: FIC - causes an item in the Processing center location to be updated into the Fiction location on check in.<br/>"
-msgstr "PROC: FIC - alterar um exemplar que está localizado em PROC (centro de processamento) para a localização FIC na devolução.<br/>"
+msgstr "PROC: FIC - alterar um exemplar que está localizado no Centro de processamento para a localização Ficção na devolução.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# PROC: _PERM_ - causes an item that is in the Processing center to be updated to it's permanent location.<br/><br/>"
-msgstr "PROC: _PERM_ - alterar um exemplar que está localizado em PROC (centro de processamento) para a localização permanente.<br/><br/>"
+msgstr "PROC: _PERM_ - alterar um exemplar que está localizado no Centro de processamento para a localização permanente.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
@@ -6808,14 +6781,12 @@ msgstr "circulation.pref#UpdateItemLocationOnCheckin# O termo especial _BLANK_ p
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# This is a list of value pairs. The first value is followed immediately by colon space then the second value."
-msgstr "Esta é uma lista de pares, onde o primeiro valor é seguido imediatamente de dois pontos, um espaço e o segundo valor.<br/><br/>"
+msgstr "Esta é uma lista de pares. O primeiro valor é seguido imediatamente de dois pontos e depois o segundo valor."
 
 # Circulation > Item bundles > BundleLostValue
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC'>LOC</a> authorised values, _BLANK_, _PERM_, and _ALL_.<br><br>"
-msgstr "Usar o seguinte valor autorizado <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>"
+msgstr "Os valores válidos são os valores autorizados <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC'>LOC</a>, _BLANK_, _PERM_, e _ALL_.<br><br>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
@@ -6829,75 +6800,63 @@ msgstr "_BLANK_: FIC - alterar um exemplar que não tem localizado definida para
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# Examples:<br/>"
 msgstr "Exemplos:<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# FIC: GEN - causes an item in the Fiction location to be updated into the General stacks location on check out.<br/>"
-msgstr "FIC: GEN - alterar um exemplar que está localizado em FIC para a localização GEN na devolução.<br/>"
+msgstr "FIC: GEN - alterar um exemplar que está localizado em Ficção para a localização Geral na devolução.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# FIC: _BLANK_ - causes an item in location FIC to be updated to a blank location on check out.<br/>"
-msgstr "FIC: _BLANK_ - alterar um exemplar que está localizado em FIC para uma localização vazia na devolução.<br/>"
+msgstr "FIC: _BLANK_ - alterar um exemplar que está localizado em Ficação para uma localização vazia na devolução.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# General rule: if the location value on the left of the colon (:) matches the item's current location, it will be updated to match the location value on the right of the colon (:).<br/>"
 msgstr "Regra geral: se a localização à esquerda dos dois pontos (:) corresponde à localização corrente do exemplar, este será atualizado para a localização que aparece à direita dos dois pontos (:).<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# Note: PROC and CART are special values, for these locations the location and permanent_location can differ, in all other cases an update will affect both. Items in the CART location will be returned to their permanent location on checkout.<br/>"
 msgstr "Nota: os valores PROC e CART são valores especiais, para estas localizações apenas a localização e a localização permanente podem diferir, para todos os outros casos uma actualização afecta os dois valores. Os exemplares na localização CART serão devolvidos à sua localização permanente na devolução.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# PROC: FIC - causes an item in the Processing Center location to be updated into the Fiction location on check out.<br/>"
-msgstr "PROC: FIC - alterar um exemplar que está localizado em PROC (centro de processamento) para a localização FIC na devolução.<br/>"
+msgstr "PROC: FIC - alterar um exemplar que está localizado no Centro de processamento para a localização Ficção no empréstimo.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# PROC: _PERM_ - causes an item that is in the Processing Center to be updated to it's permanent location.<br/><br/>"
-msgstr "PROC: _PERM_ - alterar um exemplar que está localizado em PROC (centro de processamento) para a localização permanente.<br/><br/>"
+msgstr "PROC: _PERM_ - alterar um exemplar que está localizado no Centro de processamento para a localização permanente.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# The special term _ALL_ is used on the left side of the colon (:) to affect all items, <strong>and overrides all other rules.</strong>"
 msgstr "O termo especial _ALL_ é usado no lado esquerdo dos dois pontos (:) para afectar todos os exemplares <strong>e sobrepor todas as outras regras.</strong>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# The special term _BLANK_ may be used on either side of a value pair to update or remove the location from items with no location assigned.<br/>"
-msgstr "circulation.pref#UpdateItemLocationOnCheckin# O termo especial _BLANK_ pode ser usado em quaisquer dos lados de um par de valores para atualizar ou remover a localização dos exemplares sem localização atribuída.<br/>"
+msgstr "O termo especial _BLANK_ pode ser usado em quaisquer dos lados de um par de valores para atualizar ou remover a localização dos exemplares sem localização atribuída.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# This is a list of value pairs. The first value is followed immediately by colon space then the second value.<br/><br/>"
-msgstr "Esta é uma lista de pares, onde o primeiro valor é seguido imediatamente de dois pontos, um espaço e o segundo valor.<br/><br/>"
+msgstr "Esta é uma lista de pares. O primeiro valor é seguido imediatamente de dois pontos, um espaço e o segundo valor.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# _ALL_: FIC - causes all items to be updated into the Fiction location on check out.<br/>"
-msgstr "_ALL_: FIC - alterar todos os exemplar para a localização FIC na devolução.<br/>"
+msgstr "_ALL_: FIC - alterar todos os exemplar para a localização Ficção no empréstimo.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# _BLANK_: FIC - causes an item that has no location to be updated into the Fiction location on check out.<br/>"
-msgstr "_BLANK_: FIC - alterar um exemplar que não tem localizado definida para a localização FIC na devolução.<br/>"
+msgstr "_BLANK_: FIC - alterar um exemplar que não tem localizado definida para a localização Ficção no empréstimo.<br/>"
 
 # Circulation > Holds policy > UpdateItemWhenLostFromHoldList
 # Circulation > Holds policy
@@ -6913,15 +6872,13 @@ msgstr "Exemplo: \"itemlost: 1\" para definir items.itemlost igual a 1 quando o 
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Can be used for showing only the not for loan description. E.g. '-1: ONLYMESSAGE'.<br>"
-msgstr "Pode ser usado para mostrar apenas a descrição de não emprestável. Exemplo: '-1: ONLYMESSAGE'."
+msgstr "Pode ser usado para mostrar apenas a descrição de não emprestável. Exemplo: '-1: ONLYMESSAGE'.<br>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Each pair of values should be on a separate line.<br>"
-msgstr "Cada para de valores deve ser colocado numa linha diferente."
+msgstr "Cada par de valores deve ser colocado numa linha diferente.<br>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
@@ -6931,9 +6888,8 @@ msgstr "o exemplar será actualizado com o valor à direita. Por exemplo, '-1: 0
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of value pairs. When an item is checked in, if the not for loan value on the left matches the items not for loan value it will be updated to the right-hand value."
-msgstr "É uma lista de pares de valores. Quando um exemplar é devolvido, se o valor de tipo de circulação à esquerda corresponde ao tipo de circulação do exemplar"
+msgstr "É uma lista de pares de valores. Quando um exemplar é devolvido, se o valor de tipo de circulação à esquerda corresponde ao tipo de circulação do exemplar, o exemplar será atualizado com o valor à direita."
 
 # Circulation > Item bundles > BundleNotLoanValue
 #, fuzzy
@@ -8920,15 +8876,15 @@ msgstr "Adicionar texto irá ativar a etapa de autorização de direitos de auto
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;h2&gt;HTML title&lt;/h2&gt;<br>"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;h2&gt;Título HTML&lt;/h2&gt;<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;p&gt;This is an HTML paragraph&lt;/p&gt;<br>"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;p&gt;Isto é um parágrafo HTML&lt;/p&gt;<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;p&gt;This is another HTML paragraph&lt;/p&gt;<br>"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;p&gt;Isto é outro parágrafo HTML&lt;/p&gt;<br>"
 
 # Interlibrary loans > Features > ILLModuleUnmediated
 # Circulation > Interlibrary loans
@@ -8944,7 +8900,7 @@ msgstr "Ativar"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;text: copyright text for all article type requests<br>"
-msgstr ""
+msgstr "&nbsp;texto: texto de direitos de autor para todas as solicitações de tipo de artigo<br>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
@@ -8966,15 +8922,15 @@ msgstr "Desativar"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# <li><code>av_category_code</code> is the authorised values category that will be used for the options being presented at the disclaimer stage.</li>"
-msgstr ""
+msgstr "<li><code>av_category_code</code> é a categoria de valores autorizados que será usada para as opções apresentadas na fase do aviso de responsabilidade.</li>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# <li><code>bypass</code> allows for a specific request type to skip the disclaimer stage.</li></ul>"
-msgstr ""
+msgstr "<li><code>bypass</code> permite passar a fase do aviso de responsabilidade para um tipo de pedido específico.</li></ul>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# <li><code>text</code> is the HTML that will be visible for the specified request type.</li>"
-msgstr ""
+msgstr "<li><code>text</code> é o HTML que será mostrado para o tipo de pedido específico.</li>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
@@ -8984,11 +8940,11 @@ msgstr "o módulo de empréstimo inter-bibliotecas."
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# For each request type, you can have 3 configuration options: <code>text</code>, <code>av_category_code</code> and <code>bypass</code><ul>"
-msgstr ""
+msgstr "Para cada tipo de pedido, pode ter 3 opções de configuração: <code>text</code>, <code>av_category_code</code> e <code>bypass</code><ul>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# If the ILL backend supports it, adding YAML will enable the request type disclaimer stage in request creation, prompting the user with a request type specific disclaimer as defined (staff interface and OPAC)."
-msgstr ""
+msgstr "Se o backend dos empréstimos inter-bibliotecas suportar, adicionar YAML ativará a fase do aviso de responsabilidade do tipo de pedido na criação da solicitação, mostrando ao utilizador um aviso de responsabilidade do tipo de pedido específico conforme definido (interface dos técnicos e OPAC)."
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
@@ -10300,7 +10256,7 @@ msgstr "o website numa nova janela."
 
 # OPAC > Appearance > OPACUserCSS
 msgid "opac.pref#OPACUserCSS# <br><strong>NOTE:</strong> Library specific CSS can be defined from <a href='/cgi-bin/koha/admin/branches.pl'>here</a>."
-msgstr ""
+msgstr "<br><strong>NOTA:</strong> Os CSS específicos por biblioteca podem ser definidos <a href='/cgi-bin/koha/admin/branches.pl'>aqui</a>."
 
 # OPAC > Appearance > OPACUserCSS
 # OPAC > Appearance
@@ -10309,7 +10265,7 @@ msgstr "Inclui o seguinte CSS em todas as páginas do OPAC:"
 
 # OPAC > Appearance > OPACUserJS
 msgid "opac.pref#OPACUserJS# <br><strong>NOTE:</strong> Library specific JS can be defined from <a href='/cgi-bin/koha/admin/branches.pl'>here</a>."
-msgstr ""
+msgstr "<br><strong>NOTA:</strong> Os JS específicos por biblioteca podem ser definidos <a href='/cgi-bin/koha/admin/branches.pl'>aqui</a>."
 
 # OPAC > Appearance > OPACUserJS
 # OPAC > Appearance
@@ -12025,7 +11981,7 @@ msgstr "Quando adicionar novos leitores ou modificar os leitores existentes, os 
 
 # Patrons > Privacy > CookieConsent
 msgid "patrons.pref#CookieConsent# <br><strong>NOTE:</strong> The cookie banner can be customised using the <a href=\"/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations\" target=\"_blank\">CookieConsentBar</a> html customisation."
-msgstr ""
+msgstr "<br><strong>NOTA:</strong> O banner dos cookies pode ser personalizado usando a personalização HTML <a href=\"/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations\" target=\"_blank\">CookieConsentBar</a>."
 
 # Patrons > Security > RequireStrongPassword
 # Patrons > Security
@@ -12046,11 +12002,11 @@ msgstr "resultados por página no interface dos técnicos."
 
 # Patrons > Privacy > CookieConsentedJS
 msgid "patrons.pref#CookieConsentedJS# <br><strong>NOTE:</strong> The cookie consent modal can be customised using the <a href=\"/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations\" target=\"_blank\">CookieConsentPopup</a> html customisation."
-msgstr ""
+msgstr "<br><strong>NOTA:</strong> A janela dos cokies pode ser personalizada usando a personalização HTML <a href=\"/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations\" target=\"_blank\">CookieConsentPopup</a>."
 
 # Patrons > Privacy > CookieConsentedJS
 msgid "patrons.pref#CookieConsentedJS# Run the following JavaScript if cookie consent is provided (e.g. tracking code)."
-msgstr ""
+msgstr "Executar o seguinte JavaScript se o consentimento do cookie for fornecido (por exemplo, código de rastreamento)."
 
 # Patrons > General > DefaultPatronSearchFields
 # Patrons > General
@@ -12820,7 +12776,7 @@ msgstr "Apelido"
 
 # Patrons > Patron relationships > RedirectGuaranteeEmail
 msgid "patrons.pref#RedirectGuaranteeEmail# sending emails to both guarantees and their guarantor. This does not affect patrons without guarantors."
-msgstr ""
+msgstr "o envio dos emails para os fiadores e para o leitor. Não afeta os leitores sem fiadores."
 
 # Patrons > Security > RequireStrongPassword
 # Patrons > Security
@@ -13130,7 +13086,7 @@ msgstr "Usar o seguinte valor autorizado <a href=\"/cgi-bin/koha/admin/authorise
 
 # Preservation > Interface > PreservationNotForLoanDefaultTrainIn
 msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# to apply to items added to a train"
-msgstr ""
+msgstr "para aplicar aos exemplares adicionados ao comboio"
 
 # Circulation > Item bundles > BundleNotLoanValue
 #, fuzzy
@@ -13139,7 +13095,7 @@ msgstr "Usar o seguinte valor autorizado <a href=\"/cgi-bin/koha/admin/authorise
 
 # Preservation > Interface > PreservationNotForLoanWaitingListIn
 msgid "preservation.pref#PreservationNotForLoanWaitingListIn# to apply to items added to the waiting list"
-msgstr ""
+msgstr "para aplicar aos exemplares adicionados à lista de espera"
 
 # Searching
 msgid "searching.pref"
@@ -13197,49 +13153,42 @@ msgstr "(valores separados por |). Os separadores aparecem na ordem da lista.<br
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# ,"
 msgstr ","
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# ."
-msgstr ","
+msgstr "."
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# By default, sort search results from author links in MARC21 detail pages and result lists by"
-msgstr "Por omissão, ordenar os resultados de pesquisa no interface dos técnicos por"
+msgstr "Por omissão, ordenar os resultados de pesquisa após usar os links dos autores nas páginas de detalhes e de resultados MARC21 por"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# ascending"
-msgstr "ascendente."
+msgstr "ascendente"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# call number"
 msgstr "cota"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# date added"
 msgstr "data de adição"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# date of publication"
 msgstr "data de publicação"
 
 # Searching > Results display > AuthorLinkSortBy
 msgid "searching.pref#AuthorLinkSortBy# default sort field and order specified in defaultSortField or OPACdefaultSortField"
-msgstr ""
+msgstr "omissão de ordenação das preferências defaultSortField e OPACdefaultSortField"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
@@ -14097,7 +14046,7 @@ msgstr "Mostrar os"
 
 # Serials > Features > SerialsSearchResultsLimit
 msgid "serials.pref#SerialsSearchResultsLimit# first serials when performing an advanced serials search."
-msgstr ""
+msgstr "primeiros periódicos quando for efetuada uma pesquisa avançada de periódicos."
 
 # Serials > Features > StaffSerialIssueDisplayCount
 # Serials
