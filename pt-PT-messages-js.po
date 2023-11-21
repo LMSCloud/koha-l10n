@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 08:54+0000\n"
-"PO-Revision-Date: 2023-11-13 16:16+0000\n"
+"PO-Revision-Date: 2023-11-22 07:56+0000\n"
 "Last-Translator: vfernandes <vfernandes@keep.pt>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: pt-PT\n"
@@ -177,7 +177,7 @@ msgstr "Por favor selecione um ficheiro CSV (.csv) ou folha de cálculo ODS (.od
 
 #: koha-tmpl/intranet-tmpl/prog/js/authtype.js:59
 msgid "Do you really want to import the authority type fields and subfields? This will overwrite the current configuration. For safety reasons please use the export option to make a backup"
-msgstr "Deseja importar os campo e subcampos do tipo de autoridade? Isto irá sobrepor a configuração corrente. Por razões de segurança use a opção de exportação para criar uma cópia."
+msgstr "Deseja importar os campo e subcampos do tipo de autoridade? Isto irá sobrepor a configuração corrente. Por razões de segurança use a opção de exportação para criar uma cópia"
 
 #: koha-tmpl/intranet-tmpl/prog/js/authtype.js:61
 #, javascript-format
@@ -614,9 +614,8 @@ msgid "Not allowed: overdue"
 msgstr "Não permitido: atraso"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:205
-#, fuzzy
 msgid "Unable to find an open day"
-msgstr "Não é possível reclamar como devolvido"
+msgstr "Não é possível encontrar um dia aberto"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:209
 msgid "reason unknown"
@@ -654,7 +653,7 @@ msgstr "Este exemplar foi reclamado e a data de término atualizada"
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:477
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:611
 msgid "Recalled"
-msgstr "Reclamado "
+msgstr "Reclamado"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:484
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:613
@@ -1517,7 +1516,7 @@ msgstr "Tem certeza de que deseja apagar %s?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:444
 msgid "An error occurred. Check the logs"
-msgstr "Ocorreu um erro. Verifique os registos do sistema."
+msgstr "Ocorreu um erro. Verifique os registos do sistema"
 
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:501
 msgid "years"
@@ -1529,7 +1528,7 @@ msgstr "Frequência e duração da assinatura não combinam bem. Tente antes con
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:51
 msgid "If you wish to claim late or missing issues you must link this subscription to a vendor. Click OK to ignore or Cancel to return and enter a vendor"
-msgstr "Se pretende reclamar todos os números em falta ou em atraso, deve ligar esta assinatura ao fornecedor. Clique sobre OK para ignorar ou Cancele para voltar atrás e digitar um fornecedor."
+msgstr "Se pretende reclamar todos os números em falta ou em atraso, deve ligar esta assinatura ao fornecedor. Clique sobre OK para ignorar ou Cancele para voltar atrás e digitar um fornecedor"
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:58
 msgid "The vendor does not exist"
@@ -1663,7 +1662,7 @@ msgstr "A diretoria para os carregamento não está definida"
 # Traduzido por Ricardo Dias Marques (em 28-Mai-2009)
 #: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:109
 msgid "Temporary directory for uploads not defined"
-msgstr "Diretoria temporária para os carregamentos não definida."
+msgstr "Diretoria temporária para os carregamentos não definida"
 
 #: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:113
 msgid "Upload status: "
@@ -2749,34 +2748,28 @@ msgid "E-resource management"
 msgstr "Gestão de recursos electrónicos"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:63
-#, fuzzy
 msgid "Show agreement"
-msgstr "Novo contrato"
+msgstr "Mostrar contrato"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:69
-#, fuzzy
 msgid "Add agreement"
-msgstr "Adicionar novo contrato"
+msgstr "Adicionar contrato"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:75
-#, fuzzy
 msgid "Edit agreement"
-msgstr "Editar contrato #%s"
+msgstr "Editar contrato"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:94
-#, fuzzy
 msgid "Show license"
-msgstr "Nova licença"
+msgstr "Mostrar licença"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:100
-#, fuzzy
 msgid "Add license"
-msgstr "Adicionar nova licença"
+msgstr "Adicionar licença"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:106
-#, fuzzy
 msgid "Edit license"
-msgstr "Editar licença %s"
+msgstr "Editar licença"
 
 # Alterado por Ricardo Dias Marques em 28-Mai-2009. Alterado de "Exemplar" para "Reservas", dado que, no ficheiro opac-user.tmpl está a seguir a variável reserves_count
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:112
@@ -2789,19 +2782,16 @@ msgstr "Local"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:141
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:243
-#, fuzzy
 msgid "Show package"
-msgstr "Novo pacote"
+msgstr "Mostrar pacote"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:149
-#, fuzzy
 msgid "Add package"
-msgstr "Novo pacote"
+msgstr "Adicionar pacote"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:157
-#, fuzzy
 msgid "Edit package"
-msgstr "Editar pacote #%s"
+msgstr "Editar pacote"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:163
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
@@ -2810,25 +2800,21 @@ msgstr "Títulos"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:180
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:266
-#, fuzzy
 msgid "Show title"
-msgstr "Novo título"
+msgstr "Mostrar título"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:188
-#, fuzzy
 msgid "Add title"
-msgstr "Adicionar item"
+msgstr "Adicionar título"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:196
-#, fuzzy
 msgid "Edit title"
-msgstr "Editar título #%s"
+msgstr "Editar título"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:212
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:274
-#, fuzzy
 msgid "Resource"
-msgstr "Recurso #%s"
+msgstr "Recurso"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:220
 msgid "EBSCO"
@@ -3004,7 +2990,7 @@ msgstr "Tem a certeza que pretende cancelar esta reserva?"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:385
 msgid "Item cannot be checked out. There are no available formats"
-msgstr "O exemplar não pode ser emprestado. Não existem formatos disponíveis."
+msgstr "O exemplar não pode ser emprestado. Não existem formatos disponíveis"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/ratings.js:35
 #, javascript-format
