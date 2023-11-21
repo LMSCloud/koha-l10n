@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "POT-Creation-Date: 2023-11-15 08:54+0000\n"
-"PO-Revision-Date: 2023-11-15 08:50+0000\n"
+"PO-Revision-Date: 2023-11-22 07:57+0000\n"
 "Last-Translator: vfernandes <vfernandes@keep.pt>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: pt-PT\n"
@@ -10930,12 +10930,12 @@ msgstr "A palavra-passe contêm espaços no início ou no fim da mesma"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/password_check.inc:3
 msgid "Password must contain at least %s characters"
-msgstr "A palavra-passe deve ter pelo menos %s caracteres."
+msgstr "A palavra-passe deve ter pelo menos %s caracteres"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/password_check.inc:3
 msgid "Password must contain at least %s characters, including UPPERCASE, lowercase and numbers"
-msgstr "A palavra-passe deve ter pelo menos %s caracteres, incluindo uma maiúscula, uma minúscula e um dígito. "
+msgstr "A palavra-passe deve ter pelo menos %s caracteres, incluindo uma maiúscula, uma minúscula e um dígito"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/password_check.inc:3
@@ -11010,7 +11010,7 @@ msgstr "Pendente"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/holdshistory.tt:107
 #, c-format
 msgid "Processing"
-msgstr "A processar"
+msgstr "Processamento"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-article-requests.inc:89
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:314
@@ -11523,9 +11523,9 @@ msgstr "O leitor tem modificações pendentes"
 
 #. %1$s:  patron.dateexpiry | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:24
-#, fuzzy, c-format
+#, c-format
 msgid "Patron's card expires on %s."
-msgstr "O cartão de leitor expira em %s"
+msgstr "O cartão de leitor expira em %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:25
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:42
@@ -30518,7 +30518,7 @@ msgstr "Verificação MARC: Configuração OK!"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:190
 #, c-format
 msgid "Test"
-msgstr "Teste"
+msgstr "Testar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/picture-upload.tt:68
@@ -42583,9 +42583,8 @@ msgstr "Adicionar item"
 
 #. INPUT type=submit name=add_duplicate_submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:271
-#, fuzzy
 msgid "Add and duplicate"
-msgstr "Adicionar & duplicar"
+msgstr "Adicionar e duplicar"
 
 #. INPUT type=button name=add_multiple_copies
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:274
@@ -43852,9 +43851,9 @@ msgid "Staff members are not allowed to discharge borrowers, nor borrowers to re
 msgstr "Os bibliotecários não podem perdoar multas aos leitores, nem os leitores podem fazer um pedido de quitação."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:98
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron, so circulation is disabled."
-msgstr "Este é o leitor anónimo, portanto nenhum histórico de circulação é mostrado."
+msgstr "Este é o leitor anónimo, portanto a circulação não está ativa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:304
@@ -44141,9 +44140,9 @@ msgid "Yes, check out (Y)"
 msgstr "Sim, emprestar (S)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:375
-#, fuzzy, c-format
+#, c-format
 msgid "Don't check out, confirm hold, and print slip (P)"
-msgstr "Não emprestar e imprimir talão (P)"
+msgstr "Não emprestar, confirmar a reserva e imprimir talão (P)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:381
 #, c-format
@@ -44325,7 +44324,7 @@ msgstr "Exemplar em espera para preencher uma reserva e está em trânsito para 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:530
 #, c-format
 msgid "No open days found while calculating the due date. Check the library calendar."
-msgstr ""
+msgstr "Não foram encontrados dias abertos no cálculo da data de término. Verifique o calendário da biblioteca."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:535
 #, c-format
@@ -48665,7 +48664,7 @@ msgstr "Última atualização:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:646
 #, c-format
 msgid "Request type:"
-msgstr "Tipo de pedido"
+msgstr "Tipo de pedido:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:436
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:440
@@ -53482,9 +53481,9 @@ msgid "%s Patron details for %s %s &rsaquo; Patrons &rsaquo; Koha "
 msgstr "%s Detalhes do leitor %s %s &rsaquo; Leitores &rsaquo; Koha "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron."
-msgstr "O exemplar encontra-se em espera para outro leitor."
+msgstr "Este é o leitor anónimo."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:62
 #, c-format
@@ -54614,7 +54613,7 @@ msgstr "A diretoria para os carregamento não está definida"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/process_koc.tt:105
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:258
 msgid "Temporary directory for uploads not defined"
-msgstr "Diretoria temporária para os carregamentos não definida."
+msgstr "Diretoria temporária para os carregamentos não definida"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -65260,9 +65259,9 @@ msgid "Renew existing patrons"
 msgstr "Renovar leitores existentes"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:317
-#, fuzzy, c-format
+#, c-format
 msgid "using the dateexpiry value in the file, if present"
-msgstr "usando a data de término do ficheiro, caso exista"
+msgstr "usando a data de término presente no ficheiro, caso exista"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:318
 #, c-format
