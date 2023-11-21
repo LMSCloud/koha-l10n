@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:13-0300\n"
 "PO-Revision-Date: 2023-11-22 03:01+0000\n"
-"Last-Translator: Caroline Cyr-La-Rose <caroline.cyr-la-rose@inlibro.com>\n"
+"Last-Translator: marieluce <marie-luce.laflamme@inLibro.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-CA\n"
 "MIME-Version: 1.0\n"
@@ -485,8 +485,9 @@ msgid "Maintenance"
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:104
+#, fuzzy
 msgid "Outage"
-msgstr ""
+msgstr "Panne"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:1
 msgid "Andorra"
@@ -4606,9 +4607,8 @@ msgid "Account expiration"
 msgstr "Échéance de l'abonnement"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52
-#, fuzzy
 msgid "Account renewal"
-msgstr "Frais de renouvellement d'abonnement"
+msgstr "Renouvellement d'abonnement"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53
 msgid "OPAC self-registration verification email"
@@ -4707,9 +4707,8 @@ msgid "Hold available for pickup at <<branches.branchname>>"
 msgstr "Réservation en attente de retrait à <<branches.branchname>>"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67
-#, fuzzy
 msgid "Hold(s) available for pickup"
-msgstr "Réservation en attente de retrait"
+msgstr "Réservation(s) en attente de retrait"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
 msgid "Hold available for pickup (print notice)"
@@ -4878,11 +4877,11 @@ msgstr "Ticket de transfert"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
 msgid "Hold is confirmed"
-msgstr ""
+msgstr "La réservation est confirmée"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
 msgid "Your hold on [% hold.biblio.title %] is confirmed"
-msgstr ""
+msgstr "Votre réservation de [% hold.biblio.title %] est confirmée"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:1
 msgid "Dear %s %s (%s),"
@@ -5278,20 +5277,21 @@ msgstr "Bibliothécaire"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:4
 msgid "Your library account has been renewed. The new expiry date is: %s."
-msgstr ""
+msgstr "Votre abonnement à la bibliothèque a été renouvelé. Ce dossier expirera le: %s."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:5
-#, fuzzy
 msgid ""
 "%s\n"
 "An enrollment fee of %s has been applied.\n"
 "%s"
-msgstr "Vous avez fait un paiement de %s."
+msgstr ""
+"%s\n"
+"Un frais d'abonnement de %s a été facturé au dossier.\n"
+"%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:8
-#, fuzzy
 msgid "Your library,"
-msgstr "Votre bibliothèque"
+msgstr "Votre bibliothèque,"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53:mul:1
 msgid "Hello!"
@@ -5368,17 +5368,15 @@ msgstr "Bonjour %s %s %s.%s"
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:4
 #, fuzzy
 msgid "Thank you for joining %s%s%sthe library%s%s"
-msgstr "Merci de vous être inscrit à %s%s%sla bibliothèque%s"
+msgstr "Merci de vous être inscrit à %s%s%sla bibliothèque%s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:6
-#, fuzzy
 msgid "You can search for all our materials in our %scatalog%s.%s"
-msgstr "Vous pouvez faire des recherches dans nos collections à partir de notre %scatalogue%s."
+msgstr "Vous pouvez chercher parmi toutes nos collections à partir de notre %scatalogue%s.%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:8
-#, fuzzy
 msgid "Your library card number is %s%s"
-msgstr "Votre numéro de carte de bibliothèque est le %s"
+msgstr "Votre numéro de carte de bibliothèque est le %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:10
 msgid "If you have any problems or questions regarding your account, please contact the library."
@@ -5526,9 +5524,8 @@ msgid "Waiting since: %s"
 msgstr "En attente depuis: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:7
-#, fuzzy
 msgid "Waiting at: %s"
-msgstr "En attente depuis: %s"
+msgstr "En attente à: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:3
 msgid "Your hold for %s is available for pickup."
@@ -5821,9 +5818,8 @@ msgid "The following item, %s, has correctly been renewed and is now due on %s"
 msgstr "Le prêt de l'exemplaire %s a bien été renouvelé et la nouvelle date d'échéance est le %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:4
-#, fuzzy
 msgid "This item has reached the maximum number of automatic renewals and will no longer be renewed."
-msgstr "Vous avez atteint le nombre maximum de renouvellements possibles."
+msgstr "Ce prêt a atteint le nombre maximum de renouvellements automatiques, il ne sera plus possible de le renouveler."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:7
 msgid "This item has reached the maximum number of unseen renewals and will need to be renewed at the library."
@@ -6075,29 +6071,25 @@ msgid "Train name: %s"
 msgstr "Identifiant : %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:5
-#, fuzzy
 msgid "Sent on: %s"
-msgstr "Prêté? %s"
+msgstr "Envoyé le: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:9
 #, fuzzy
 msgid "Item number #%s"
-msgstr "Cote: %s"
+msgstr "Numéro de l'exemplaire #%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:1
-#, fuzzy
 msgid "Hello %s %s (%s),"
-msgstr "Bonjour %s %s %s."
+msgstr "Bonjour %s %s (%s),"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:2
-#, fuzzy
 msgid "Your hold on %s (%s) has been confirmed."
-msgstr " La commande %s (%s) a été reçue."
+msgstr "Votre réservation du %s (%s) est confirmée."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:3
-#, fuzzy
 msgid "You will be notified by the library when your item is available for pickup."
-msgstr "Vous recevrez une nouvelle notification quand le document sera disponible à bibliothèque."
+msgstr "Un avis vous sera envoyé lorsque le document sera disponible à bibliothèque."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:9:mul:2
 msgid "An account writeoff of %s has been applied to your account."
