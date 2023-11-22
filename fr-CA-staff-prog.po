@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 08:54+0000\n"
-"PO-Revision-Date: 2023-11-22 07:56+0000\n"
+"PO-Revision-Date: 2023-11-23 04:00+0000\n"
 "Last-Translator: Caroline Cyr-La-Rose <caroline.cyr-la-rose@inlibro.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-CA\n"
@@ -883,7 +883,7 @@ msgstr "Comptes EDI"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:153
 #, c-format
 msgid "Library EANs"
-msgstr "EAN de bibliothèque"
+msgstr "EAN de bibliothèques"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/acquisitions-menu.inc:45
 #, fuzzy, c-format
@@ -1604,7 +1604,7 @@ msgstr "Catégories d'utilisateurs"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:42
 #, c-format
 msgid "Circulation and fine rules"
-msgstr "Règles de circulation et d'amendes"
+msgstr "Règles de circulation"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:99
@@ -1613,7 +1613,7 @@ msgstr "Règles de circulation et d'amendes"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:264
 #, c-format
 msgid "Patron attribute types"
-msgstr "Attributs utilisateur"
+msgstr "Types d'attributs d'utilisateurs"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:103
@@ -1797,7 +1797,7 @@ msgstr "Types d'autorités"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:329
 #, c-format
 msgid "Classification configuration"
-msgstr "Paramétrage du classement"
+msgstr "Paramétrage de la classification"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:105
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:186
@@ -1807,7 +1807,7 @@ msgstr "Paramétrage du classement"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:438
 #, c-format
 msgid "Record matching rules"
-msgstr "Règles de concordance"
+msgstr "Règles de correspondance"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:108
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:190
@@ -1842,7 +1842,7 @@ msgstr "Champs de recherche des exemplaires"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/search_filters.tt:32
 #, c-format
 msgid "Search filters"
-msgstr "Rechercher les filtres"
+msgstr "Filtres de recherche"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:120
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:206
@@ -1881,7 +1881,7 @@ msgstr "Paramètres divers"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:350
 #, c-format
 msgid "Identity providers"
-msgstr "Fournisseurs d'identités"
+msgstr "Fournisseurs d'identité"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:151
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:246
@@ -31098,12 +31098,12 @@ msgstr "Tester les expressions régulières :"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:325
 #, c-format
 msgid "New classification source"
-msgstr "Ajouter une source de classification"
+msgstr "Nouvelle source de classification"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:326
 #, c-format
 msgid "New filing rule"
-msgstr "Ajouter des règles de classement"
+msgstr "Nouvelle règle de classement"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:327
 #, c-format
@@ -31172,9 +31172,9 @@ msgid "Clone circulation and fine rules &rsaquo; Circulation and fine rules &rsa
 msgstr "Cloner les règles de circulation et d'amendes &rsaquo; Règles de circulation et d'amendes &rsaquo; Administration &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/clone-rules.tt:23
-#, fuzzy, c-format
+#, c-format
 msgid "Clone circulation and fine rules"
-msgstr "Cloner les règles de circulation et d'amendes "
+msgstr "Cloner les règles de circulation"
 
 #. %1$s:  IF frombranch == "*" 
 #. %2$s:  ELSIF frombranch 
@@ -31851,7 +31851,7 @@ msgstr "Modifier la devise '%s'"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:96
 #, c-format
 msgid "New currency"
-msgstr "Ajouter une devise"
+msgstr "Nouvelle devise"
 
 #. For the first occurrence,
 #. %1$s:  currency.currency | $HtmlTags tag='span' attributes=>'class="ex"' 
@@ -32040,7 +32040,7 @@ msgstr "Modifier le type de débit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:147
 #, c-format
 msgid "New debit type"
-msgstr "Ajouter un type de frais"
+msgstr "Nouveau type de frais"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:60
 #, c-format
@@ -32156,9 +32156,9 @@ msgid "%s %s Modify desk %s New desk %s &rsaquo; %s %s Confirm deletion of desk 
 msgstr "%s %s Modifier le comptoir %s Nouveau comptoir %s &rsaquo; %s %s Confirmer la suppression du comptoir &rsaquo; %s %s Comptoirs &rsaquo; Administration &rsaquo; Koha "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "Modify desk"
-msgstr "Modifier un comptoir"
+msgstr "Modifier le comptoir"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:92
@@ -32168,9 +32168,9 @@ msgid "New desk"
 msgstr "Nouveau comptoir"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:53
-#, fuzzy, c-format
+#, c-format
 msgid "Confirm deletion of desk"
-msgstr "Confirmer la suppression du comptoir "
+msgstr "Confirmer la suppression du comptoir"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:69
 #, c-format
@@ -32887,9 +32887,9 @@ msgstr "%s Nouveau serveur SMTP &rsaquo; %s Modifier le serveur SMTP &rsaquo; %s
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:32
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:347
-#, fuzzy, c-format
+#, c-format
 msgid "New identity provider"
-msgstr "Nouveau fournisseur SMS"
+msgstr "Nouveau fournisseur d'identité"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:232
@@ -33444,7 +33444,7 @@ msgstr "Gestion des types de document"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:110
 #, c-format
 msgid "New item type"
-msgstr "Ajouter un type de document"
+msgstr "Nouveau type de document"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:117
 #, c-format
@@ -34752,13 +34752,13 @@ msgstr "Valeur par défaut héritée"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:107
 #, c-format
 msgid "Modify record matching rule"
-msgstr "Modifier règle de concordance"
+msgstr "Modifier la règle de correspondance"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:80
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:109
 #, c-format
 msgid "Add record matching rule"
-msgstr "Ajouter une règle de concordance"
+msgstr "Ajouter une règle de correspondance"
 
 #. %1$s:  code | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:89
@@ -35402,7 +35402,7 @@ msgstr "Oui, supprimer le type d'attribut utilisateur"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:261
 #, c-format
 msgid "New patron attribute type"
-msgstr "Ajout d'un attribut d'utilisateur"
+msgstr "Nouveau type d'attribut d'utilisateur"
 
 #. %1$s:  added_attribute_type | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:266
@@ -38476,7 +38476,7 @@ msgstr "Vous devez communiquer avec la bibliothèque pour réinitialiser votre m
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/auth.tt:33
 #, c-format
 msgid "Invalid username or password"
-msgstr "Nom d'utilisateur ou mot de passe invalide"
+msgstr "Identifiant ou mot de passe invalide"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:72
 #, c-format
