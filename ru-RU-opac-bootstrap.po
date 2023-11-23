@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-10 21:07+0100\n"
-"PO-Revision-Date: 2023-11-20 12:57+0000\n"
-"Last-Translator: \"Igor A. Sychev\" <Igor.A.Sychev@mail.ru>\n"
+"PO-Revision-Date: 2023-11-24 03:02+0000\n"
+"Last-Translator: PolinaMolchanova <pum2014@tpu.ru>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: ru-RU\n"
 "MIME-Version: 1.0\n"
@@ -56,7 +56,7 @@ msgstr "Описание"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:640
 #, c-format
 msgid "Amount"
-msgstr "Количество "
+msgstr "Количество"
 
 # Объем неуплат
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:14
@@ -512,7 +512,7 @@ msgstr "%s(MM/DD/YYYY)%s(DD/MM/YYYY)%s(YYYY-MM-DD)%s"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/display-library-address.inc:1
 #, c-format
 msgid "%s %s %s [%%~ SET line_break = \""
-msgstr "%s %s %s [%%~ SET line_break = \""
+msgstr "%s %s %s [%%~ КОМПЛЕКТ line_break = \""
 
 #. META http-equiv=Content-Type
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/doc-head-close.inc:6
@@ -534,7 +534,7 @@ msgstr "Koha %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/doc-head-close.inc:8
 msgid "width=device-width, initial-scale=1"
-msgstr "width=device-width, initial-scale=1"
+msgstr "ширина=ширина-устройства, начальный-масштаб=1"
 
 # Search — ../../koha-tmpl/opac-tmpl/prog/en/modules/ilsdi.tmpl (название функции в ILS-DI)
 #. LINK
@@ -2255,7 +2255,7 @@ msgstr "Перейти на предыдущую страницу"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt:77
 #, c-format
 msgid "Previous"
-msgstr "Пред."
+msgstr "Предыдущий"
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/page-numbers.inc:19
@@ -4389,7 +4389,7 @@ msgstr "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s и %s "
 #. SELECT name=idx
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:55
 msgid "Choose search type for field %s"
-msgstr ""
+msgstr "Выберите тип поиска для поля %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:56
 #, c-format
@@ -4500,9 +4500,8 @@ msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISSN"
 
 #. INPUT type=text name=q
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:110
-#, fuzzy
 msgid "Enter field %s search terms"
-msgstr "Введите поисковые термины"
+msgstr "Введите в поле %s условия поиска"
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:114
@@ -7565,7 +7564,7 @@ msgstr "Библиотека коллекции:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:882
 #, c-format
 msgid "Status:"
-msgstr "Состояние: "
+msgstr "Состояние:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:207
 #, c-format
@@ -9717,7 +9716,7 @@ msgstr "Дата запроса:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:872
 #, c-format
 msgid "Expiration:"
-msgstr "Срок действия: "
+msgstr "Срок действия:"
 
 #. SPAN
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recalls.tt:72
@@ -13995,14 +13994,14 @@ msgstr "%s Заказы (%s) "
 #. %6$s:  END 
 #. %7$s:  new_issue.date_due | $KohaDates as_due_date => 1 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:322
-#, fuzzy, c-format
+#, c-format
 msgid "%s (%s). %s %s %s. %s Due on %s "
-msgstr "%s %s / %s %s %s %s "
+msgstr "%s (%s). %s %s %s. %s Выполнить к %s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:322
-#, fuzzy, c-format
+#, c-format
 msgid "Checked out: "
-msgstr "Выдано"
+msgstr "Выдано: "
 
 #. %1$s:  borrowername | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:337
@@ -14060,9 +14059,9 @@ msgid "%sYes%sNo%s "
 msgstr "%sДа%sНет%s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:427
-#, fuzzy, c-format
+#, c-format
 msgid "Show your checkouts"
-msgstr "Нет книговыдач"
+msgstr "Показать ваши книговыдачи"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:430
 #, c-format
