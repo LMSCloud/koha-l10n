@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 08:54+0000\n"
-"PO-Revision-Date: 2023-11-22 07:56+0000\n"
+"PO-Revision-Date: 2023-11-24 03:16+0000\n"
 "Last-Translator: Caroline Cyr-La-Rose <caroline.cyr-la-rose@inlibro.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-CA\n"
@@ -613,9 +613,8 @@ msgid "Not allowed: overdue"
 msgstr "Interdit : en retard"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:205
-#, fuzzy
 msgid "Unable to find an open day"
-msgstr "Impossible de déclarer retourné"
+msgstr "Impossible de trouver une journée d'ouverture"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:209
 msgid "reason unknown"
@@ -1329,7 +1328,7 @@ msgstr "Rejeter"
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:114
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:117
 msgid "Approved"
-msgstr "Approuvés&nbsp;"
+msgstr "Approuvés"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:133
 msgid "Approve"
@@ -1338,7 +1337,7 @@ msgstr "Approuver"
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:135
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:138
 msgid "Rejected"
-msgstr "Rejetés&nbsp;"
+msgstr "Rejetés"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:148
 msgid "Testing..."
@@ -1468,7 +1467,7 @@ msgstr "Vous ne pouvez sélectionner que %s document(s)"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:24
 msgid "No results found"
-msgstr "Aucun résultat!"
+msgstr "Aucun résultat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:25
 msgid "Searching…"
@@ -1999,7 +1998,7 @@ msgstr "le"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:21
 msgid "Show mine only"
-msgstr ""
+msgstr "Afficher les miens seulement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:47
 msgid "There are no agreements defined"
@@ -2253,7 +2252,7 @@ msgstr "Retirer le forfait du fonds"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:40
 msgid "External ID"
-msgstr ""
+msgstr "Identifiant externe"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:59
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:43
@@ -2746,34 +2745,28 @@ msgid "E-resource management"
 msgstr "Gestion des ressources électroniques"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:63
-#, fuzzy
 msgid "Show agreement"
-msgstr "Nouvelle entente"
+msgstr "Afficher l'entente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:69
-#, fuzzy
 msgid "Add agreement"
-msgstr "Ajouter une nouvelle entente"
+msgstr "Ajouter une entente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:75
-#, fuzzy
 msgid "Edit agreement"
-msgstr "Modifier l'entente no %s"
+msgstr "Modifier l'entente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:94
-#, fuzzy
 msgid "Show license"
-msgstr "Nouvelle licence"
+msgstr "Afficher la licence"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:100
-#, fuzzy
 msgid "Add license"
-msgstr "Ajouter une nouvelle licence"
+msgstr "Ajouter une licence"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:106
-#, fuzzy
 msgid "Edit license"
-msgstr "Modifier la licence %s"
+msgstr "Modifier la licence"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:112
 msgid "eHoldings"
@@ -2785,19 +2778,16 @@ msgstr "Local"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:141
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:243
-#, fuzzy
 msgid "Show package"
-msgstr "Nouveau forfait"
+msgstr "Afficher le forfait"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:149
-#, fuzzy
 msgid "Add package"
-msgstr "Nouveau forfait"
+msgstr "Ajouter un forfait"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:157
-#, fuzzy
 msgid "Edit package"
-msgstr "Modifier le forfait no %s"
+msgstr "Modifier le forfait"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:163
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
@@ -2806,25 +2796,21 @@ msgstr "Titres"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:180
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:266
-#, fuzzy
 msgid "Show title"
-msgstr "Nouveau titre"
+msgstr "Afficher le titre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:188
-#, fuzzy
 msgid "Add title"
-msgstr "Ajouter l'exemplaire"
+msgstr "Ajouter un titre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:196
-#, fuzzy
 msgid "Edit title"
-msgstr "Modifier le titre no %s"
+msgstr "Modifier le titre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:212
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:274
-#, fuzzy
 msgid "Resource"
-msgstr "Ressource no %s"
+msgstr "Ressource"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:220
 msgid "EBSCO"
@@ -2894,7 +2880,7 @@ msgstr "Rechercher Google Livres"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/autofill.js:84
 msgid "Sorry, nothing found."
-msgstr "Désolé, rien trouvé"
+msgstr "Aucun résultat."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/basket.js:111
 msgctxt "Bibliographic record"
@@ -2904,7 +2890,7 @@ msgstr "Ce document est déjà dans votre panier"
 #: koha-tmpl/opac-tmpl/bootstrap/js/basket.js:128
 msgctxt "Bibliographic record"
 msgid "The item has been added to your cart"
-msgstr "Ce document a été ajouté à votre panier "
+msgstr "Ce document a été ajouté à votre panier"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/basket.js:166
 #: koha-tmpl/opac-tmpl/bootstrap/js/basket.js:169
