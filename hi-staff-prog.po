@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-16 08:26+0000\n"
-"PO-Revision-Date: 2023-11-15 07:40+0000\n"
+"PO-Revision-Date: 2023-11-24 03:02+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hi\n"
@@ -3702,29 +3702,29 @@ msgstr "संसाधित नहीं किया जा सकता ह�
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:95
 #, c-format
 msgid "COUNTER report file size exceeds limit defined by the database. Limit is %s MB."
-msgstr ""
+msgstr "COUNTER रिपोर्ट फ़ाइल का आकार डेटाबेस द्वारा निर्धारित सीमा से अधिक है। सीमा %s MB है।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:96
 #, c-format
 msgid "Please increase this limit or harvest a shorter period."
-msgstr ""
+msgstr "कृपया इस सीमा को बढ़ाएं या कम अवधि में फसल लें।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:98
 #, c-format
 msgid "SUSHI response returned no items."
-msgstr ""
+msgstr "SUSHI प्रत्युत्तर में कोई आइटम नहीं लौटाया गया।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:99
-#, fuzzy, c-format
+#, c-format
 msgid "Please try a different harvest period."
-msgstr "कृपया फिर कोशिश करें"
+msgstr "कृपया एक भिन्न फ़सल अवधि आज़माएँ।"
 
 #. %1$s:  m.message | html 
 #. %2$s:  m.code | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:101
 #, c-format
 msgid "SUSHI returned: %s %s"
-msgstr ""
+msgstr "SUSHI वापस आ गई: %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/marc_import_commit_batch.inc:7
 #, c-format
@@ -4014,9 +4014,9 @@ msgid "Items"
 msgstr "आइटम"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/biblio-view-menu.inc:59
-#, fuzzy, c-format
+#, c-format
 msgid "Bookings ("
-msgstr "होल्डिंग्स (%s)"
+msgstr "बुकिंग ("
 
 #. For the first occurrence,
 #. %1$s:  Biblio.HoldsCount( biblio_object_id ) | html 
@@ -4156,9 +4156,9 @@ msgid "Vendor not found."
 msgstr "विक्रेता नहीं मिला."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:17
-#, fuzzy, c-format
+#, c-format
 msgid "ILL request not found."
-msgstr "आईएलएल अनुरोध लॉग"
+msgstr "आईएलएल अनुरोध नही मिला"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:19
 #, c-format
@@ -5027,9 +5027,9 @@ msgid "Place hold for %s"
 msgstr "स्थान धारण करना %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:199
-#, fuzzy, c-format
+#, c-format
 msgid "Place booking"
-msgstr "पर रखा"
+msgstr "बुकिंग पर रखा"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:203
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:585
@@ -5147,9 +5147,9 @@ msgstr "खोज सूचकांक"
 #. %48$s:  item.checkout.date_due | $KohaDates | $raw 
 #. %49$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/catalogue/itemsearch_item.csv.inc:1
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s %s %s %s %s %s \"%s %sby %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
-msgstr "%s %s %s %s %s %s %s %s %s \"%s %sद्वारा %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
+msgstr "%s %s %s %s %s %s %s %s %s \"%s %sby %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
 
 #. %1$s:  IF ( Koha.Preference( 'marcflavour' ) == 'UNIMARC' && biblio.author ) 
 #. %2$s:  END 
@@ -6419,14 +6419,14 @@ msgid "Renew as &quot;unseen&quot; if appropriate:"
 msgstr "के रूप में नवीनीकृत &quot;अनदेखा&quot;अगर उचित:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:65
-#, fuzzy, c-format
+#, c-format
 msgid "Check in selected items"
-msgstr "नवीनीकृत या चयनित मदों में जाँच"
+msgstr "चयनित आइटमों की चैंकइन"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:66
-#, fuzzy, c-format
+#, c-format
 msgid "Renew selected items"
-msgstr "हटाएँ चयनित आइटम"
+msgstr "चयनित आइटम नवीनीकृत करें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:67
 #, c-format
@@ -6708,9 +6708,9 @@ msgstr "रिकॉल इतिहास"
 
 #. %1$s:  patron.alert_subscriptions.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:189
-#, fuzzy, c-format
+#, c-format
 msgid "Alert subscriptions (%s)"
-msgstr "सदस्यताएँ ( %s )"
+msgstr "अलर्ट सदस्यताएँ (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:204
 #, c-format
@@ -7941,32 +7941,32 @@ msgid "[x]"
 msgstr "[x]"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:29
-#, fuzzy, c-format
+#, c-format
 msgid "Availability "
-msgstr "उपलब्धता"
+msgstr "उपलब्धता "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:34
-#, fuzzy, c-format
+#, c-format
 msgid "Showing only records with available items"
-msgstr "प्रतियों में उपलब्ध है:"
+msgstr "केवल उपलब्ध आइटमों वाले रिकॉर्ड दिखाए जा रहे हैं"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:37
-#, fuzzy, c-format
+#, c-format
 msgid "Show all records"
-msgstr "सभी आदेश दिखाएँ"
+msgstr "सभी रिकार्ड दिखाएँ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:39
-#, fuzzy, c-format
+#, c-format
 msgid "Limit to records with available items"
-msgstr "वर्तमान उपलब्ध आइटमो की सीमा"
+msgstr "उपलब्ध आइटमो के साथ रिकॉर्ड तक सीमित रहें"
 
 #. %1$s:  FOREACH relate IN related 
 #. %2$s:  relate.related_search | html 
 #. %3$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:44
-#, fuzzy, c-format
+#, c-format
 msgid "(related searches: %s%s%s) "
-msgstr "(संबधित खोजे: %s%s%s)"
+msgstr "(संबधित खोजे:  %s%s%s) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:55
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:474
@@ -8217,9 +8217,9 @@ msgstr "रद्द छोड़कर किसी भी स्थिति"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/filter-orders.inc:57
 #: koha-tmpl/intranet-tmpl/prog/en/includes/filter-orders.inc:59
-#, fuzzy, c-format
+#, c-format
 msgid "Any status"
-msgstr "कोई स्थिति नही"
+msgstr "कोई स्थिति"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/filter-orders.inc:62
 #: koha-tmpl/intranet-tmpl/prog/en/includes/filter-orders.inc:64
@@ -8556,9 +8556,9 @@ msgstr "पाठयक्रम आरक्षित"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:232
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:404
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:406
-#, fuzzy, c-format
+#, c-format
 msgid "Preservation"
-msgstr "प्रीसेट"
+msgstr "संरक्षण"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:68
 #: koha-tmpl/intranet-tmpl/prog/en/includes/pos-menu.inc:8
@@ -8649,9 +8649,9 @@ msgid "My checkouts"
 msgstr "मेरे चेकआउटस"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:211
-#, fuzzy, c-format
+#, c-format
 msgid "My consents"
-msgstr "कोई सामग्री"
+msgstr "मेरी सहमति"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:215
 #, c-format
@@ -8680,9 +8680,9 @@ msgid "Priority"
 msgstr "प्राथमिकता"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:10
-#, fuzzy, c-format
+#, c-format
 msgid "Change priority"
-msgstr "लाइब्रेरी बदले"
+msgstr "प्राथमिकता बदले"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:12
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch.inc:14
@@ -8964,37 +8964,37 @@ msgstr "प्रिंट पर्ची"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:1
 #, c-format
 msgid "This content will be shown to an OPAC user before they can place an article request. "
-msgstr ""
+msgstr "यह सामग्री ओपेक उपयोगकर्ता को लेख अनुरोध करने से पहले दिखाई जाएगी. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:5
 #, c-format
 msgid "Include this content on the form shown in the OPAC when the user submits a catalog concern report. "
-msgstr ""
+msgstr "जब उपयोगकर्ता कैटलॉग संबंधित रिपोर्ट सबमिट करता है तो इस सामग्री को ओपेक में दिखाए गए फॉर्म में शामिल करें. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:9
 #, c-format
 msgid "Prefill the OPAC catalog concern form with this content as a template for the user's submission. "
-msgstr ""
+msgstr "उपयोगकर्ता की प्रस्तुति के लिए एक टेम्पलेट के रूप में इस सामग्री के साथ ओपेक कैटलॉग कंसर्न फॉर्म को पहले से भरें. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:13
 #, c-format
 msgid "Include this content in the cookie consent footer which is displayed in the OPAC when the CookieConsent system preference is enabled. "
-msgstr ""
+msgstr "इस सामग्री को कुकी सहमति पाद लेख में शामिल करें जो कुकी सहमति प्रणाली प्राथमिकता सक्षम होने पर ओपेक में प्रदर्शित होता है. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:17
 #, c-format
 msgid "Include this content in the popup message which is displayed in the OPAC when the CookieConsent system preference is enabled and the user clicks the \"Your cookies\" menu item in the header. "
-msgstr ""
+msgstr "इस सामग्री को पॉपअप संदेश में शामिल करें जो कुकी कंसेंट सिस्टम प्राथमिकता सक्षम होने पर ओपेक में प्रदर्शित होता है और उपयोगकर्ता हेडर में \"आपकी कुकीज़\" मेनू आइटम पर क्लिक करता है. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:21
 #, c-format
 msgid "Include this content in the footer of all pages in the OPAC. "
-msgstr ""
+msgstr "इस सामग्री को ओपेक के सभी पृष्ठों के पाद लेख में शामिल करें. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:25
 #, c-format
 msgid "Replace the search box at the top of OPAC pages with this content. "
-msgstr ""
+msgstr "ओपेक पृष्ठों के शीर्ष पर स्थित खोज बॉक्स को इस सामग्री से बदलें. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:29
 #, c-format
@@ -12579,7 +12579,7 @@ msgstr "संरक्षक लंबित संशोधनों है "
 
 #. %1$s:  patron.dateexpiry | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:24
-#, fuzzy, c-format
+#, c-format
 msgid "Patron's card expires on %s."
 msgstr "संरक्षक का कार्ड समाप्त हो रहा है %s"
 
@@ -19923,19 +19923,19 @@ msgid "You are missing the &lt;template_cache_dir&gt; entry in your koha-conf.xm
 msgstr "आप याद कर रहे हैं &lt;template_cache_dir&gt; अपने Koha-conf.xml फ़ाइल में प्रवेश। यही कारण है कि इसे सक्षम करने के लिए एक प्रदर्शन को बढ़ावा लाएगा।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:525
-#, fuzzy, c-format
+#, c-format
 msgid "The PO directory has not been found. See "
-msgstr "आदेश नहीं मिल सका।"
+msgstr "पीओ निर्देशिका नहीं मिली है. देखें "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:526
-#, fuzzy, c-format
+#, c-format
 msgid "for more information. "
-msgstr "सर्वर जानकारी"
+msgstr "अधिक जानकारी के लिए. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:526
 #, c-format
 msgid "the dedicated wiki page"
-msgstr ""
+msgstr "समर्पित विकि पृष्ठ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:534
 #, c-format
@@ -42207,7 +42207,7 @@ msgstr "मार्क रिकार्ड जोड़े"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:857
 #, c-format
 msgid "This record had encoding issues, non-xml characters have been stripped in order to allow editing. Please be cautious when saving that some data may have been removed from the record."
-msgstr ""
+msgstr "इस रिकॉर्ड में एन्कोडिंग समस्याएं थीं, संपादन की अनुमति देने के लिए गैर-एक्सएमएल वर्ण हटा दिए गए हैं। कृपया सहेजते समय सावधान रहें कि हो सकता है कि कुछ डेटा रिकॉर्ड से हटा दिया गया हो।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:864
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:47
@@ -42618,9 +42618,8 @@ msgstr "आइटम जोड़ें"
 
 #. INPUT type=submit name=add_duplicate_submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:290
-#, fuzzy
 msgid "Add and duplicate"
-msgstr "डुप्लीकेट &जोड़ें"
+msgstr "जोड़ें और डुप्लिकेट करें"
 
 #. INPUT type=button name=add_multiple_copies
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:293
@@ -43749,9 +43748,9 @@ msgstr "संरक्षक स्वचालित रूप से जा�
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:76
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:160
-#, fuzzy, c-format
+#, c-format
 msgid "Note about the accompanying materials: "
-msgstr "टिप्पणी साथ सामग्री के बारे में:  %s"
+msgstr "संलग्न सामग्री के बारे में ध्यान दें: "
 
 #. %1$s:  alert.ITEM_LOST | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:82
@@ -43801,9 +43800,9 @@ msgid "Staff members are not allowed to discharge borrowers, nor borrowers to re
 msgstr "स्टाफ के सदस्यों को ऋण लेने वालों का निर्वहन करने के लिए ऋण लेने वालों को एक छुट्टी का अनुरोध करने की अनुमति नहीं है, और न ही।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:106
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron, so circulation is disabled."
-msgstr "यह गुमनाम संरक्षक है, इसलिए कोई भी इतिहास प्रदर्शित नहीं होता है."
+msgstr "यह अज्ञात संरक्षक है, इसलिए संचलन अक्षम है।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:321
@@ -44112,9 +44111,9 @@ msgid "Yes, check out (Y)"
 msgstr "हाँ, चेक आउट (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:407
-#, fuzzy, c-format
+#, c-format
 msgid "Don't check out, confirm hold, and print slip (P)"
-msgstr "बाहर की जाँच करें और न प्रिंट पर्ची (पी)"
+msgstr "चेक आउट न करें, होल्ड की पुष्टि न करें और पर्ची प्रिंट न करें (पी)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:413
 #, c-format
@@ -44150,29 +44149,29 @@ msgstr "स्थानीय इस्तेमाल रिकॉर्डे�
 
 #. %1$s:  INCLUDE 'patron-title.inc' patron=BORROWER 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:457
-#, fuzzy, c-format
+#, c-format
 msgid "Item checked in from: %s"
-msgstr "से प्राप्त आइटम%s"
+msgstr "आइटम से चेक इन किया गया: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:460
-#, fuzzy, c-format
+#, c-format
 msgid "Item on hold, please checkin."
-msgstr "आइटम गुम हो गया है, चेक इन नहीं किया जा सकता है।"
+msgstr "आइटम होल्ड पर है, कृपया चेक इन करें।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:463
-#, fuzzy, c-format
+#, c-format
 msgid "Item claimed returned, please checkin."
-msgstr "आइटम को वापस करने का दावा किया गया है."
+msgstr "दावा किया गया आइटम वापस आ गया, कृपया चैकइन करें।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:466
 #, c-format
 msgid "Item can fill a recall, please checkin."
-msgstr ""
+msgstr "आइटम एक रिकॉल भर सकता है, कृपया चैकइन करें।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:470
-#, fuzzy, c-format
+#, c-format
 msgid "Item was lost, cannot be returned."
-msgstr "आइटम गुम हो गया है, चेक इन नहीं किया जा सकता है।"
+msgstr "आइटम गुम हो गया है, वापिस नहीं किया जा सकता है।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:472
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:340
@@ -44181,14 +44180,14 @@ msgid "Item was lost, now found."
 msgstr "आइटम, अब मिल गया खो गया था."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:477
-#, fuzzy, c-format
+#, c-format
 msgid "Item was withdrawn, cannot be returned."
-msgstr "वस्तु ऋण पर थी। वापस नहीं किया जा सका।"
+msgstr "आइटम वापस ले लिया गया, वापस नहीं किया जा सकता।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:479
-#, fuzzy, c-format
+#, c-format
 msgid "Item was withdrawn"
-msgstr "आइटम वापस ले लिया"
+msgstr "आइटम वापस ले लिया गया"
 
 #. %1$s:  INVALID_DATE | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:484
@@ -44323,7 +44322,7 @@ msgstr "आइटम को वापस बुला लिया गया ह
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:587
 #, c-format
 msgid "No open days found while calculating the due date. Check the library calendar."
-msgstr ""
+msgstr "नियत तिथि की गणना करते समय कोई खुला दिन नहीं मिला। पुस्तकालय कैलेंडर की जाँच करें।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:592
 #, c-format
@@ -52585,9 +52584,9 @@ msgid "%s Total due: "
 msgstr "%s कुल देयः"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:59
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron."
-msgstr "यह आइटम एक और संरक्षक के लिए इंतज़ार कर रही है।"
+msgstr "यह गुमनाम संरक्षक है।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:65
 #, c-format
@@ -62766,17 +62765,17 @@ msgstr "खाली जगह ( )"
 #. %1$s:  tab_char | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:116
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:118
-#, fuzzy, c-format
+#, c-format
 msgid "Tabulation (%s)"
-msgstr "सारणीकरण (\\t)"
+msgstr "सारणीकरण  (%s)"
 
 #. For the first occurrence,
 #. %1$s:  new_line_char | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:122
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:124
-#, fuzzy, c-format
+#, c-format
 msgid "New line (%s)"
-msgstr "नई लाइन (\\ n)"
+msgstr "नई लाइन (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:130
 #, c-format
@@ -63797,9 +63796,9 @@ msgid "Renew existing patrons"
 msgstr "मौजूदा संरक्षकों को नवीनीकृत करें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:342
-#, fuzzy, c-format
+#, c-format
 msgid "using the dateexpiry value in the file, if present"
-msgstr "यदि मौजूद हो तो फ़ाइल में डेटएक्सपायरी मान का उपयोग करना"
+msgstr "यदि मौजूद है तो फ़ाइल में dateexpiry मान का उपयोग करें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:343
 #, c-format
