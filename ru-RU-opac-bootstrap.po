@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 08:54+0000\n"
-"PO-Revision-Date: 2023-11-22 07:56+0000\n"
-"Last-Translator: \"Igor A. Sychev\" <Igor.A.Sychev@mail.ru>\n"
+"PO-Revision-Date: 2023-11-24 03:16+0000\n"
+"Last-Translator: PolinaMolchanova <pum2014@tpu.ru>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: ru-RU\n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr "Описание"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:643
 #, c-format
 msgid "Amount"
-msgstr "Количество "
+msgstr "Количество"
 
 # Объем неуплат
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:14
@@ -590,7 +590,7 @@ msgstr "Нажмите клавишу <i>Ctrl</i> или <i>⌘</i> + <i>С</i> 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-overdrive-search.tt:74
 #, c-format
 msgid "Previous"
-msgstr "Предыдущее"
+msgstr "Предыдущий"
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/datatables.inc:5
@@ -632,7 +632,7 @@ msgstr "%s(MM/DD/YYYY)%s(DD/MM/YYYY)%s(YYYY-MM-DD)%s"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/display-library-address.inc:1
 #, c-format
 msgid "%s %s %s [%%~ SET line_break = \""
-msgstr "%s %s %s [%%~ SET line_break = \""
+msgstr "%s %s %s [%%~ КОМПЛЕКТ line_break = \""
 
 #. META http-equiv=Content-Type
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/doc-head-close.inc:5
@@ -654,7 +654,7 @@ msgstr "Koha %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/doc-head-close.inc:7
 msgid "width=device-width, initial-scale=1"
-msgstr "width=device-width, initial-scale=1"
+msgstr "ширина=ширина-устройства, начальный-масштаб=1"
 
 # Search — ../../koha-tmpl/opac-tmpl/prog/en/modules/ilsdi.tmpl (название функции в ILS-DI)
 #. LINK
@@ -791,7 +791,7 @@ msgstr "Дата резервирования:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:871
 #, c-format
 msgid "Expiration:"
-msgstr "Срок действия: "
+msgstr "Срок действия:"
 
 #. %1$s:  END 
 #. %2$s:  ELSE 
@@ -891,7 +891,7 @@ msgstr "Отмена"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:127
 #, c-format
 msgid "Priority:"
-msgstr "Приоритет: "
+msgstr "Приоритет:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:132
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:201
@@ -900,7 +900,7 @@ msgstr "Приоритет: "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:881
 #, c-format
 msgid "Status:"
-msgstr "Состояние: "
+msgstr "Состояние:"
 
 #. %1$s:  IF ( HOLD.is_at_destination ) 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:134
@@ -1007,7 +1007,7 @@ msgstr "Восстановить все приостановленые резе�
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:22
 #, c-format
 msgid "%s %s %s %s %s %s %s %s %s %s %s%s %s %s %s %s [%% # [ WRAPPER tab_item tabname= \"tab_name_1\" bt_active= 1 ] "
-msgstr ""
+msgstr "%s %s %s %s %s %s %s %s %s %s %s%s %s %s %s %s [%% # [ WRAPPER tab_item tabname= \"tab_name_1\" bt_active= 1 ] "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:40
 #, fuzzy, c-format
@@ -4550,7 +4550,7 @@ msgstr "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s и %s "
 #. SELECT name=idx
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:60
 msgid "Choose search type for field %s"
-msgstr ""
+msgstr "Выберите тип поиска для поля %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:61
 #, c-format
@@ -4676,9 +4676,8 @@ msgstr "Штрих-код"
 
 #. INPUT type=text name=q
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:115
-#, fuzzy
 msgid "Enter field %s search terms"
-msgstr "Введите поисковые термины"
+msgstr "Введите в поле %s условия поиска"
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:119
