@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-23 03:06+0000\n"
-"PO-Revision-Date: 2023-11-23 03:01+0000\n"
+"PO-Revision-Date: 2023-11-24 03:02+0000\n"
 "Last-Translator: Tomás Cohen Arazi <tomascohen@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: es-ES\n"
@@ -1560,7 +1560,7 @@ msgstr "Aprobar"
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:135
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:138
 msgid "Rejected"
-msgstr "Rechazado"
+msgstr "Rechazada"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:148
 msgid "Testing..."
@@ -3443,40 +3443,40 @@ msgstr "Eliminar este procesamiento"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:32
 msgid "Edit this processing"
-msgstr "Editar este procesamiento"
+msgstr "Editar esta cola de procesamiento"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:42
 msgid "Add new processing"
-msgstr "Agregar nuevo procesamiento"
+msgstr "Nueva cola de procesamiento"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:77
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:141
 msgid "Are you sure you want to remove this processing?"
-msgstr "¿Está seguro de querer eliminar este procesamiento?"
+msgstr "¿Está seguro de querer eliminar esta cola de procesamiento?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:88
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:154
 #, javascript-format
 msgid "Processing %s deleted"
-msgstr "Procesamiento %s eliminado"
+msgstr "Cola de procesamiento %s eliminada"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:105
 msgid "This processing cannot be deleted, it is already in used."
-msgstr "Este procesamiento no puede ser eliminado, está siendo utilizado."
+msgstr "Esta cola de procesamiento no puede ser eliminado, está siendo utilizada."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:5
 #, javascript-format
 msgid "Edit processing #%s"
-msgstr "Editar procesamiento %s"
+msgstr "Editar cola de procesamiento %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:7
 msgid "New processing"
-msgstr "Nuevo procesamiento"
+msgstr "Nueva cola procesamiento"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:14
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:22
 msgid "Processing name"
-msgstr "Nombre de procesamiento"
+msgstr "Nombre de cola de procesamiento"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:27
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:30
@@ -3490,7 +3490,7 @@ msgstr "Atributos"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:49
 msgid "Be careful removing attribute to this processing, the items using it will be impacted as well!"
-msgstr "Tenga cuidado al eliminar atributos de este procesamiento, ¡los ítems que lo usan se verán afectados también!"
+msgstr "Tenga cuidado al eliminar atributos de esta cola de procesamiento, ¡los ítems que lo usan se verán afectados también!"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:60
 #, javascript-format
@@ -3531,16 +3531,16 @@ msgstr "Columna de la base de datos"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:293
 msgid "Processing updated"
-msgstr "Procesamiento actualizado"
+msgstr "Cola de procesamiento actualizada"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:301
 msgid "Processing created"
-msgstr "Procesamiento creado"
+msgstr "Cola de procesamiento creada"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:5
 #, javascript-format
 msgid "Processing #%s"
-msgstr "Procesamiento #%s"
+msgstr "Cola de procesamiento #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:38
 msgid "Edit this template"
@@ -3575,7 +3575,7 @@ msgstr "Estado para ítem agregado a este tren"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:57
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:147
 msgid "Default processing"
-msgstr "Procesamiento predeterminado"
+msgstr "Cola de procesamiento predeterminada"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:179
 msgid "Train updated"
@@ -3602,7 +3602,7 @@ msgstr "Itemnumber"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:20
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:16
 msgid "Processing"
-msgstr "Procesando"
+msgstr "Cola de procesamiento"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:113
 msgid "barcode"
@@ -3610,31 +3610,29 @@ msgstr "código de barras"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:233
 msgid "Cannot find item with this barcode. It must be in the waiting list."
-msgstr ""
+msgstr "No se pudo encontrar un ítem con ese código de barras. Debe estar en la lista de espera."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:356
-#, fuzzy
 msgid "Item updated"
-msgstr "Título actualizado"
+msgstr "Ítem actualizado"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:367
 msgid "Item added to train"
 msgstr "Ítem agregado al tren"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:4
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Add new items to %s"
-msgstr "Nueva licencia"
+msgstr "Agregar nuevos ítems a %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:10
-#, fuzzy
 msgid "Itemnumbers"
-msgstr "Septiembre"
+msgstr "Números de ítem"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:61
 #, javascript-format
 msgid "Cannot be edited now, the value will be retrieved from %s"
-msgstr ""
+msgstr "No puede ser editado ahora, el valor será tomado de %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:264
 #, javascript-format
@@ -3646,14 +3644,12 @@ msgid "No items have been added to the train."
 msgstr "No se agregado ítems al tren."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:12
-#, fuzzy
 msgid "Filter by"
-msgstr "Filtro"
+msgstr "Filtrar por"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:24
-#, fuzzy
 msgid "Closed"
-msgstr "Cerrar"
+msgstr "Cerrado"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:30
 msgid "Sent"
@@ -3822,7 +3818,6 @@ msgid "Author"
 msgstr "Autor"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:289
-#, fuzzy
 msgid "Call number"
 msgstr "Signatura topográfica"
 
@@ -3908,40 +3903,35 @@ msgstr "EBSCO"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:291
 msgid "eUsage"
-msgstr ""
+msgstr "Uso-e"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:297
-#, fuzzy
 msgid "Data providers"
-msgstr "Editar proveedor %s"
+msgstr "Proveedores de datos"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:314
-#, fuzzy
 msgid "Show provider"
-msgstr "Mostrar filtros"
+msgstr "Mostrar proveedor"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:322
-#, fuzzy
 msgid "Add data provider"
-msgstr "Agregar un proveedor telefonía móvil SMS"
+msgstr "Agregar proveedor de datos"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:330
-#, fuzzy
 msgid "Edit data provider"
-msgstr "Editar proveedor %s"
+msgstr "Editar proveedor de datos"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:359
 msgid "View report"
-msgstr ""
+msgstr "Ver informe"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:28
-#, fuzzy
 msgid "Preservation"
-msgstr "Descripción"
+msgstr "Preservaciçon"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:34
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:39
 msgid "Trains"
@@ -3973,27 +3963,23 @@ msgstr "Editar tren"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:100
 msgid "Waiting list"
-msgstr ""
+msgstr "En espera"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:113
-#, fuzzy
 msgid "Settings"
 msgstr "Configuración"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:129
-#, fuzzy
 msgid "Show processing"
-msgstr "Procesando..."
+msgstr "Mostrar cola de procesamiento"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:135
-#, fuzzy
 msgid "Add processing"
-msgstr "Procesando..."
+msgstr "Agregar cola de procesamiento"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:141
-#, fuzzy
 msgid "Edit processing"
-msgstr "Editar proveedor %s"
+msgstr "Editar cola de procesamiento"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:14
 msgid "supersedes"
