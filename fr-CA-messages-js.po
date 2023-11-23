@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-23 03:06+0000\n"
-"PO-Revision-Date: 2023-11-22 03:01+0000\n"
+"PO-Revision-Date: 2023-11-24 03:02+0000\n"
 "Last-Translator: Caroline Cyr-La-Rose <caroline.cyr-la-rose@inlibro.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-CA\n"
@@ -636,9 +636,8 @@ msgid "Not allowed: overdue"
 msgstr "Interdit : en retard"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:228
-#, fuzzy
 msgid "Unable to find an open day"
-msgstr "Impossible de déclarer retourné"
+msgstr "Impossible de trouver une journée d'ouverture"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:232
 msgid "reason unknown"
@@ -1261,12 +1260,12 @@ msgstr "Réinitialiser les préférences de message pour cette catégorie d'util
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:38
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:55
 msgid "Your concern was sucessfully submitted."
-msgstr ""
+msgstr "Le problème a été envoyé avec succès."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:46
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:60
 msgid "There was an error when submitting your concern, please contact a librarian."
-msgstr ""
+msgstr "Une erreur est survenue lors de l'envoi du problème, veuillez communiquer avec un membre du personnel."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:23
 msgid "Loading updates . . ."
@@ -1326,9 +1325,8 @@ msgid "You have made changes to system preferences."
 msgstr "Vous avez modifié des préférences système."
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:156
-#, fuzzy
 msgid "Are you sure you want to delete this consent item?"
-msgstr "Voulez-vous vraiment supprimer cette image de couverture?"
+msgstr "Voulez-vous vraiment supprimer ce consentement?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:214
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:224
@@ -1432,50 +1430,47 @@ msgstr "Description"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:386
 msgid "Requires consent in OPAC"
-msgstr ""
+msgstr "Requiert un consentement dans l'OPAC"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:390
 msgid "Requires consent in staff interface"
-msgstr ""
+msgstr "Requiert un consentement dans l'intranet"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:394
 msgid "String used to identify cookie name"
-msgstr ""
+msgstr "Chaîne utilisée pour identifier le nom d'un témoin"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:398
 msgid "Cookie domain"
-msgstr ""
+msgstr "Domaine de témoin"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:402
 msgid "Cookie path"
-msgstr ""
+msgstr "Chemin du témoin"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:409
-#, fuzzy
 msgid "Click to expand"
-msgstr "Cliquez pour déplier cette section"
+msgstr "Cliquez pour déplier"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:410
-#, fuzzy
 msgid "Click to collapse"
-msgstr "Cliquer pour plier cette section"
+msgstr "Cliquer pour plier"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:426
 msgid "You must complete all fields"
-msgstr ""
+msgstr "Vous dever remplir tous les champs"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:472
 msgid "Unable to Base64 decode value stored in CookieConsentedJS syspref: "
-msgstr ""
+msgstr "Impossible de décoder la valeur dans la préférence système CookieConsentedJS à l'aide de Base64 : "
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:480
 msgid "Unable to JSON parse decoded value stored in CookieConsentedJS syspref: "
-msgstr ""
+msgstr "Impossible de décoder la valeur dans la préférence système CookieConsentedJS à l'aide de JSON : "
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:490
-#, fuzzy
 msgid "Add new code"
-msgstr "Ajouter une nouvelle période"
+msgstr "Ajouter un nouveau code"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:57
 msgid "Coce image from Amazon.com"
@@ -1555,7 +1550,7 @@ msgstr "Rejeter"
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:114
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:117
 msgid "Approved"
-msgstr "Approuvé"
+msgstr "Approuvés"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:133
 msgid "Approve"
@@ -1564,7 +1559,7 @@ msgstr "Approuver"
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:135
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:138
 msgid "Rejected"
-msgstr "Rejeté"
+msgstr "Rejetés"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:148
 msgid "Testing..."
@@ -1700,7 +1695,7 @@ msgstr "Vous ne pouvez sélectionner que %s document(s)"
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:24
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:49
 msgid "No results found"
-msgstr "Aucun résultat!"
+msgstr "Aucun résultat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:25
 msgid "Searching…"
@@ -2205,7 +2200,7 @@ msgstr "le"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:27
 msgid "Show mine only"
-msgstr ""
+msgstr "Afficher les miens seulement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:53
 msgid "There are no agreements defined"
@@ -2464,7 +2459,7 @@ msgstr "Retirer le forfait du fonds"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:40
 msgid "External ID"
-msgstr ""
+msgstr "Identifiant externe"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:59
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:43
@@ -2936,99 +2931,91 @@ msgstr "Le module de gestion des ressources électroniques est désactivé, acti
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:14
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsViewer.vue:169
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/usage-reports.js:27
-#, fuzzy
 msgid "Data provider"
-msgstr "Modifier le fournisseur %s"
+msgstr "Fournisseur de données"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:6
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:21
-#, fuzzy
 msgid "Data provider name"
-msgstr "Modifier le fournisseur %s"
+msgstr "Nom du fournisseur de données"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:24
 msgid "Service Type"
-msgstr ""
+msgstr "Type de service"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:30
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:118
 msgid "Report types"
-msgstr ""
+msgstr "Types de rapports"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:37
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:164
 msgid "Sushi credentials"
-msgstr ""
+msgstr "Identifiants Sushi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:41
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:175
 msgid "Service URL"
-msgstr ""
+msgstr "URL du service"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:47
 msgid "Report Release"
-msgstr ""
+msgstr "Relâche du rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:221
 msgid "Customer Id"
-msgstr ""
+msgstr "Identifiant de client"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:59
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:244
-#, fuzzy
 msgid "Requestor Id"
-msgstr "Obligatoire"
+msgstr "Identifiant du requérant"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:65
 msgid "API Key"
-msgstr ""
+msgstr "Clé API"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:71
 msgid "Requestor Name"
-msgstr ""
+msgstr "Nom du requérant"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:77
 msgid "Requestor Email"
-msgstr ""
+msgstr "Courriel du requérant"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:13
-#, fuzzy
 msgid "There are no import logs defined"
-msgstr "Il n'y a présentement aucun titre"
+msgstr "Il n'y a présentement aucun registre d'importation"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:53
 msgid "Download"
-msgstr ""
+msgstr "Télécharger"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:93
-#, fuzzy
 msgid "Are you sure you want to remove this file?"
-msgstr "Voulez-vous vraiment retirer ce titre?"
+msgstr "Voulez-vous vraiment retirer ce fichier?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:106
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "File %s deleted"
-msgstr "Licence %s supprimée"
+msgstr "Fichier %s supprimé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:121
-#, fuzzy
 msgid "Filename"
 msgstr "Nom du fichier"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:128
-#, fuzzy
 msgid "Import date"
-msgstr "Importer"
+msgstr "Date d'importation"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:138
-#, fuzzy
 msgid "Imported by"
-msgstr "Importer"
+msgstr "Importé par"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFileImport.vue:4
 msgid "Manual upload:"
-msgstr ""
+msgstr "Téléversement manuel :"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFileImport.vue:30
 #: koha-tmpl/opac-tmpl/bootstrap/js/autofill.js:30
@@ -3038,401 +3025,362 @@ msgstr "Effacer le formulaire"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFileImport.vue:93
 #, javascript-format
 msgid "<li>Job for uploaded file has been queued, <a href=\"/cgi-bin/koha/admin/background_jobs.pl?op=view&id=%s\" target=\"_blank\">click here</a> to check its progress.</li>"
-msgstr ""
+msgstr "<li>La tâche pour l'importation du fichier a été mise dans la file d'attente, <a href=\"/cgi-bin/koha/admin/background_jobs.pl?op=view&id=%s\" target=\"_blank\">cliquez ici</a> pour voir la progression.</li>"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:6
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit usage data provider #%s"
-msgstr "Modifier le fournisseur %s"
+msgstr "Modifier le fournisseur de données d'utilisations no %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:11
 msgid "New usage data provider"
-msgstr ""
+msgstr "Nouveau fournisseur de données d'utilisation"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:41
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:204
 msgid "Type at least two characters to search"
-msgstr ""
+msgstr "Veuillez entrer au moins deux caractères pour rechercher"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:46
-#, fuzzy
 msgid "Searching..."
-msgstr "Enregistrement en cours..."
+msgstr "Recherche en cours..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:67
-#, fuzzy
 msgid "Create manually"
-msgstr "manuellement"
+msgstr "Créer manuellement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:75
-#, fuzzy
 msgid "Create from registry"
-msgstr "Importer à partir de la liste"
+msgstr "Créer à partir du registre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:93
 msgid "Harvester status"
-msgstr ""
+msgstr "Statut du moissonneur"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:106
-#, fuzzy
 msgid "Service type"
-msgstr "Type de fichier"
+msgstr "Type de service"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:145
-#, fuzzy
 msgid "Unselect all"
-msgstr "Tout sélectionner"
+msgstr "Tout désélectionner"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:198
 msgid "Report release"
-msgstr ""
+msgstr "Relâche du rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:269
 msgid "API key"
-msgstr ""
+msgstr "Clé API"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:286
 msgid "Requestor name"
-msgstr ""
+msgstr "Nom du requérant"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:297
 msgid "Requestor email"
-msgstr ""
+msgstr "Courriel du requérant"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:308
-#, fuzzy
 msgid "Credentials information"
-msgstr "Information de la ressource"
+msgstr "Informations de connexion"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:311
 msgid "Customer id info"
-msgstr ""
+msgstr "Identifiant du client"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:321
 msgid "Requestor id info"
-msgstr ""
+msgstr "Identifiant du requérant"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:331
 msgid "API key info"
-msgstr ""
+msgstr "Clé API"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:340
-#, fuzzy
 msgid "Please refer to the "
-msgstr "Veuillez entrer un terme de recherche"
+msgstr "Veuillez vous référer au "
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:342
 msgid "counter registry"
-msgstr ""
+msgstr "registre COUNTER"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:344
-#, fuzzy
 msgid "for more information."
-msgstr "Information de la ressource"
+msgstr "pour plus d'informations."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:500
 msgid "This provider does not currently support any counter 5 reports via SUSHI."
-msgstr ""
+msgstr "Ce fournisseur ne supporte pas les rapports de type COUNTER 5 via SUSHI."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:572
-#, fuzzy
 msgid "Data provider updated"
-msgstr "Forfait mis à jour"
+msgstr "Fournisseur de données mis à jour"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:588
-#, fuzzy
 msgid "Data provider created"
-msgstr "Forfait créé"
+msgstr "Fournisseur de données créé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:16
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:338
-#, fuzzy
 msgid "Data providers summary"
-msgstr "Modifier le fournisseur %s"
+msgstr "Détails du fournisseur de données"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:32
-#, fuzzy
 msgid "There are no usage data providers defined"
-msgstr "Il n'y a présentement aucun titre"
+msgstr "Il n'y a présentement aucun fournisseur de données d'utilisation"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:78
 msgid "Run now"
-msgstr ""
+msgstr "Exécuter maintenant"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:84
-#, fuzzy
 msgid "Test"
-msgstr " Test"
+msgstr "Test"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:134
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:199
-#, fuzzy
 msgid "Are you sure you want to remove this data provider?"
-msgstr "Voulez-vous vraiment retirer ce titre?"
+msgstr "Voulez-vous vraiment retirer ce fournisseur de données?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:147
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Data provider %s deleted"
-msgstr "Titre local %s supprimé"
+msgstr "Le fournisseur de données %s a été supprimé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:166
 msgid "This data provider is set to 'Inactive', do you wish to update the status to 'Active'?"
-msgstr ""
+msgstr "Ce fournisseur de données est inactif, voulez-vous mettre à jour son statut pour 'Actif'?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:169
 msgid "Yes, update status"
-msgstr ""
+msgstr "Oui, mettre à jour le statut"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:170
-#, fuzzy
 msgid "No, do not update status"
-msgstr "Non, ne pas supprimer"
+msgstr "Non, ne pas mettre à jour le statut"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:192
 #, javascript-format
 msgid "Updated status for usage data provider %s"
-msgstr ""
+msgstr "Le statut du fournisseur de données %s a été mis à jour"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:209
-#, fuzzy
 msgid "Are you sure you want to run the harvester for this data provider?"
-msgstr "Voulez-vous vraiment retirer ce titre?"
+msgstr "Voulez-vous vraiment exécuter le moissonneur pour ce fournisseur de données?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:212
 msgid "Yes, run"
-msgstr ""
+msgstr "Oui, exécuter"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:213
-#, fuzzy
 msgid "No, do not run"
-msgstr "Non, ne pas supprimer"
+msgstr "Non, ne pas exécuter"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:220
-#, fuzzy
 msgid "Begin date"
-msgstr "Date de fin"
+msgstr "Date de début"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:249
 #, javascript-format
 msgid "<li>Job for report type <strong>%s</strong> has been queued, <a href=\"/cgi-bin/koha/admin/background_jobs.pl?op=view&id=%s\" target=\"_blank\">click here</a> to check its progress.</li>"
-msgstr ""
+msgstr "<li>La tâche pour le type de rapport <strong>%s</strong> a été mise en file d'attente, <a href=\"/cgi-bin/koha/admin/background_jobs.pl?op=view&id=%s\" target=\"_blank\">cliquez ici</a> pour voir la progression.</li>"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:270
 #, javascript-format
 msgid "Harvester connection was successful for usage data provider %s"
-msgstr ""
+msgstr "Le moissonneur pour le fournisseur de données %s s'est connecté avec succès"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:277
 #, javascript-format
 msgid "No connection for usage data provider %s, please check your credentials and try again."
-msgstr ""
+msgstr "Aucune connection au fournisseur de données %s, veuillez vérifier vos informations de connexion et réessayer."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:288
 msgid "This data provider is inactive - connection testing is not possible"
-msgstr ""
+msgstr "Ce fournisseur de données est inactif - impossible de tester la connexion"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:329
-#, fuzzy
 msgid "Last run"
-msgstr "Dernier"
+msgstr "Dernière exécution"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:6
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Data provider #%s"
-msgstr "Modifier le fournisseur %s"
+msgstr "Fournisseur de données no %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:44
 msgid "Detail"
-msgstr ""
+msgstr "Détails"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:72
 msgid "Manual upload"
-msgstr ""
+msgstr "Téléversement manuel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:84
-#, fuzzy
 msgid "Import logs"
-msgstr "Importer"
+msgstr "Registres d'importation"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:213
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Usage data provider %s deleted"
-msgstr "Titre local %s supprimé"
+msgstr "Le fournisseur de données d'utilisation %s a été supprimé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersSummary.vue:13
-#, fuzzy
 msgid "Data providers list"
-msgstr "Modifier le fournisseur %s"
+msgstr "Liste des fournisseurs de données"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersSummary.vue:82
 msgid "Provider"
-msgstr ""
+msgstr "Fournisseur"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersSummary.vue:96
-#, fuzzy
 msgid "Start"
 msgstr "Date de début"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersSummary.vue:108
 msgid "End"
-msgstr ""
+msgstr "Date de fin"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersToolbar.vue:7
-#, fuzzy
 msgid "New data provider"
-msgstr "Modifier le fournisseur %s"
+msgstr "Nouveau fournisseur de données"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:3
 msgid "Build a custom report"
-msgstr ""
+msgstr "Contruire un rapport personnalisé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:7
-#, fuzzy
 msgid "Select report data"
-msgstr "Sélectionner un utilisateur"
+msgstr "Sélectionner les données du rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:11
 msgid "Data display"
-msgstr ""
+msgstr "Affichage des données"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:53
-#, fuzzy
 msgid "Choose data provider"
-msgstr "Modifier le fournisseur %s"
+msgstr "Choisir le fournisseur de données"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:72
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:21
 msgid "Choose report"
-msgstr ""
+msgstr "Choisir le rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:98
-#, fuzzy
 msgid "Choose metric type"
-msgstr "Type de contenu"
+msgstr "Choisir le type de mesure"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:114
-#, fuzzy
 msgid "Choose access type"
-msgstr "Type d'accès"
+msgstr "Choisir le type d'accès"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:129
-#, fuzzy
 msgid "Start year"
-msgstr "Date de début"
+msgstr "Année de début"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:136
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:168
-#, fuzzy
 msgid "Please enter year in format YYYY"
-msgstr "Veuillez entrer un terme de recherche"
+msgstr "Veuillez entrer l'année au format AAAA"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:144
-#, fuzzy
 msgid "Start month"
-msgstr "Commencée le"
+msgstr "Mois de début"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:162
-#, fuzzy
 msgid "End year"
-msgstr "%s ans"
+msgstr "Année de fin"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:176
-#, fuzzy
 msgid "End month"
-msgstr "%s mois"
+msgstr "Mois de fin"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:194
 msgid "Keyword"
-msgstr ""
+msgstr "Mot-clé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:212
 msgid "Select report columns"
-msgstr ""
+msgstr "Sélectionner les colonnes du rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:245
-#, fuzzy
 msgid "Select date display method"
-msgstr "Sélectionner un fichier"
+msgstr "Sélectionner la méthode d'affichage de la date"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:250
 msgid "Display data filtered by year"
-msgstr ""
+msgstr "Afficher les données filtrées par année"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:265
 msgid "Yes - Table will be limited to 12 columns (Jan-Dec) with the option to switch between years"
-msgstr ""
+msgstr "Oui - Le tableau est limité à 12 colonnes (Janvier à Décembre), avec l'option de basculer entre les différentes années"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:284
 msgid "No - Table will include one column for every month of data selected"
-msgstr ""
+msgstr "Non - Le tableau incluera une colonne pour chaque mois sélectionné"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:291
 msgid "Select which months to display"
-msgstr ""
+msgstr "Sélectionner les mois à afficher"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:346
 msgid "Save report"
-msgstr ""
+msgstr "Enregistrer le rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsHome.vue:4
 msgid "Usage statistics reports"
-msgstr ""
+msgstr "Rapport de statistiques d'utilisation"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsHome.vue:18
-#, fuzzy
 msgid "Saved reports"
-msgstr "Sauvegarder la préférence %s"
+msgstr "Rapports sauvegardés"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsHome.vue:32
-#, fuzzy
 msgid "Create report"
-msgstr "Créé le"
+msgstr "Créer un rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsHome.vue:93
 msgid "No data providers have been created -  no report data will be available"
-msgstr ""
+msgstr "Il n'y a aucun fournisseur de données - aucun rapport ne sera disponible"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsViewer.vue:5
 msgid "Display by year"
-msgstr ""
+msgstr "Afficher par année"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsViewer.vue:142
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsViewer.vue:269
 msgid "YOP"
-msgstr ""
+msgstr "YOP"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsViewer.vue:158
 msgid "Metric"
-msgstr ""
+msgstr "Métrique"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsViewer.vue:175
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportsViewer.vue:332
-#, fuzzy
 msgid "Period total"
-msgstr "Notes pour la période"
+msgstr "Total pour la période"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:7
 msgid "You have not saved any reports yet, please create a report."
-msgstr ""
+msgstr "Il n'y a présentement aucun rapport sauvegardé, veuillez créer un rapport."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:16
-#, fuzzy
 msgid "Select saved report"
-msgstr "Sélectionner un utilisateur"
+msgstr "Sélectionner un rapport sauvegardé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:51
-#, fuzzy
 msgid "Delete report"
-msgstr "Supprimer l'entente"
+msgstr "Supprimer le rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:100
-#, fuzzy
 msgid "Report deleted successfully"
-msgstr "Problème #%s mis à jour avec succès."
+msgstr "Le rapport a été supprimé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:112
 msgid "No report was selected - could not delete"
-msgstr ""
+msgstr "Aucun rapport sélectionné - suppression impossible"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:13
 msgid "Remove this user"
@@ -3454,511 +3402,455 @@ msgstr "Ajouter un nouvel utilisateur"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:91
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:85
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:634
-#, fuzzy
 msgid "Remove"
-msgstr "Supprimer l'élément"
+msgstr "Retirer"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Main.vue:87
-#, fuzzy
 msgid "The preservation module is disabled, turn on <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=PreservationModule\">PreservationModule</a> to use it"
-msgstr "Le module de gestion des ressources électroniques est désactivé, activez <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=ERMModule\">ERMModule</a> pour l'utiliser"
+msgstr "Le module de conservation est désactivé, activez <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=PreservationModule\">PreservationModule</a> pour l'utiliser"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:5
-#, fuzzy
 msgid "Edit preservation settings"
-msgstr "Modifier l'action %s"
+msgstr "Modifier les paramètres de la conservation"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:13
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:79
-#, fuzzy
 msgid "General settings"
-msgstr "Configuration des tableaux"
+msgstr "Paramètres généraux"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:21
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:84
 msgid "Status for item added to waiting list"
-msgstr ""
+msgstr "Statut des exemplaires ajoutés à la liste d'attente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:51
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:97
 msgid "Default status for item added to train"
-msgstr ""
+msgstr "Statut par défaut des exemplaires ajoutés au train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:169
-#, fuzzy
 msgid "Settings updated"
-msgstr "Licence mise à jour"
+msgstr "Paramètres mis à jour"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:3
-#, fuzzy
 msgid "Processings"
-msgstr "En traitement..."
+msgstr "Traitements"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:23
-#, fuzzy
 msgid "Remove this processing"
-msgstr "Retirer ce document"
+msgstr "Retirer ce traitement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:32
 msgid "Edit this processing"
-msgstr ""
+msgstr "Modifier ce traitement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:42
-#, fuzzy
 msgid "Add new processing"
-msgstr "Ajouter un nouveau document"
+msgstr "Ajouter un nouveau traitement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:77
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:141
-#, fuzzy
 msgid "Are you sure you want to remove this processing?"
-msgstr "Voulez-vous vraiment retirer ce forfait?"
+msgstr "Voulez-vous vraiment retirer ce traitement?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:88
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:154
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Processing %s deleted"
-msgstr "Licence %s supprimée"
+msgstr "Le traitement %s a été supprimé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:105
 msgid "This processing cannot be deleted, it is already in used."
-msgstr ""
+msgstr "Ce traitement ne peut pas être supprimé, il est présentement utilisé."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit processing #%s"
-msgstr "Modifier le fournisseur %s"
+msgstr "Modifier le traitement no %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:7
-#, fuzzy
 msgid "New processing"
-msgstr "En traitement..."
+msgstr "Nouveau traitement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:14
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:22
-#, fuzzy
 msgid "Processing name"
-msgstr "En traitement..."
+msgstr "Nom du traitement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:27
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:30
 msgid "Letter template for printing slip"
-msgstr ""
+msgstr "Modèle de lettre pour l'impression du reçu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:41
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:45
-#, fuzzy
 msgid "Attributes"
-msgstr "Contributeurs"
+msgstr "Attributs"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:49
 msgid "Be careful removing attribute to this processing, the items using it will be impacted as well!"
-msgstr ""
+msgstr "Prenez garde lors du retrait d'attributs de ce traitement, les exemplaires qui l'utilisent seront également affectés!"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:60
 #, javascript-format
 msgid "Attribute %s"
-msgstr ""
+msgstr "Attribut %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:65
-#, fuzzy
 msgid "Remove this attribute"
-msgstr "Retirer cet utilisateur"
+msgstr "Retirer cet attribut"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:118
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:153
-#, fuzzy
 msgid "Options"
-msgstr "Actions"
+msgstr "Options"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:132
 msgid "DOES NOT EXIST!"
-msgstr ""
+msgstr "N'EXISTE PAS!"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:178
-#, fuzzy
 msgid "Add new attribute"
-msgstr "Ajouter un nouvel utilisateur"
+msgstr "Ajouter un nouvel attribut"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:228
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:53
 msgid "Authorized value"
-msgstr ""
+msgstr "Valeur autorisée"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:232
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:56
 msgid "Free text"
-msgstr ""
+msgstr "Texte libre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:236
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:59
 msgid "Database column"
-msgstr ""
+msgstr "Colonne de la base de données"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:293
-#, fuzzy
 msgid "Processing updated"
-msgstr "Licence mise à jour"
+msgstr "Traitement mis à jour"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:301
-#, fuzzy
 msgid "Processing created"
-msgstr "Licence créée"
+msgstr "Traitement créé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Processing #%s"
-msgstr "En traitement..."
+msgstr "Traitement no %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:38
-#, fuzzy
 msgid "Edit this template"
-msgstr "Modifier le titre no %s"
+msgstr "Modifier ce modèle"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:62
 msgid "Unknown"
-msgstr ""
+msgstr "Inconnu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:69
-#, fuzzy
 msgid "There are no attributes defined for this processing."
-msgstr "Il n'y a présentement aucun titre"
+msgstr "Il n'y a présentement aucun attribut pour ce traitement."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit train #%s"
-msgstr "Modifier le titre no %s"
+msgstr "Modifier le train no %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:7
-#, fuzzy
 msgid "New train"
-msgstr "Nouveau titre"
+msgstr "Nouveau train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:14
-#, fuzzy
 msgid "name"
-msgstr "Nom du fichier"
+msgstr "nom"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:41
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:139
 msgid "Status for item added to this train"
-msgstr ""
+msgstr "Statut des exemplaires ajoutés à ce train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:57
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:147
 msgid "Default processing"
-msgstr ""
+msgstr "Traitement par défaut"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:179
-#, fuzzy
 msgid "Train updated"
-msgstr "Titre mis à jour"
+msgstr "Train mis à jour"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:187
-#, fuzzy
 msgid "Train created"
-msgstr "Titre créé"
+msgstr "Train créé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit item #%s"
-msgstr "Modifier le titre no %s"
+msgstr "Modifier l'exemplaire no %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:7
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Add new item to %s"
-msgstr "Ajouter une nouvelle licence"
+msgstr "Ajouter un nouvel exemplaire à %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:14
-#, fuzzy
 msgid "Itemnumber"
-msgstr "Septembre"
+msgstr "Numéro d'exemplaire"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:20
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:16
-#, fuzzy
 msgid "Processing"
-msgstr "En traitement..."
+msgstr "Traitement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:113
 msgid "barcode"
-msgstr ""
+msgstr "code-barres"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:233
 msgid "Cannot find item with this barcode. It must be in the waiting list."
-msgstr ""
+msgstr "Impossible de trouver l'exemplaire ayant ce code-barres. Il est peut-être dans la liste d'attente."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:356
-#, fuzzy
 msgid "Item updated"
-msgstr "Titre mis à jour"
+msgstr "Exemplaire mis à jour"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:367
-#, fuzzy
 msgid "Item added to train"
-msgstr " document(s) ajouté(s) au panier"
+msgstr "Exemplaire ajouté au train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:4
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Add new items to %s"
-msgstr "Ajouter une nouvelle licence"
+msgstr "Ajouter des exemplaires à %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:10
-#, fuzzy
 msgid "Itemnumbers"
-msgstr "Septembre"
+msgstr "Numéros d'exemplaires"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:61
 #, javascript-format
 msgid "Cannot be edited now, the value will be retrieved from %s"
-msgstr ""
+msgstr "Impossible de modifier cette valeur, elle sera tirée de %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:264
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "%s items have been added to train %s."
-msgstr "Document ajouté au panier"
+msgstr "%s exemplaires ont été ajoutés au train %s."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:273
-#, fuzzy
 msgid "No items have been added to the train."
-msgstr "Ce document a été ajouté à votre panier "
+msgstr "Aucun exemplaire n'a été ajouté au train."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:12
-#, fuzzy
 msgid "Filter by"
-msgstr "Filtrer"
+msgstr "Filtrer par"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:24
-#, fuzzy
 msgid "Closed"
-msgstr "Fermer"
+msgstr "Fermé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:30
 msgid "Sent"
-msgstr ""
+msgstr "Envoyé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:36
 msgid "Received"
-msgstr ""
+msgstr "Reçu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:56
-#, fuzzy
 msgid "There are no trains defined"
-msgstr "Il n'y a présentement aucun titre"
+msgstr "Il n'y a présentement aucun train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:113
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:67
-#, fuzzy
 msgid "Add items"
-msgstr "Ajouter l'exemplaire"
+msgstr "Ajouter des exemplaires"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:156
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:394
-#, fuzzy
 msgid "Are you sure you want to remove this train?"
-msgstr "Voulez-vous vraiment retirer ce titre?"
+msgstr "Voulez-vous vraiment retirer ce train?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:167
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:405
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Train %s deleted"
-msgstr "Licence %s supprimée"
+msgstr "Le train %s a été supprimé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:179
 msgid "Cannot add items to a closed train"
-msgstr ""
+msgstr "Impossible d'ajouter des exemplaires à un train fermé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:247
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:119
-#, fuzzy
 msgid "Closed on"
-msgstr "Fermer"
+msgstr "Fermé le"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:256
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:125
 msgid "Sent on"
-msgstr ""
+msgstr "Envoyé le"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:265
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:131
 msgid "Received on"
-msgstr ""
+msgstr "Reçu le"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:4
 msgid "Copy item to the following train"
-msgstr ""
+msgstr "Copier l'exemplaire vers le train suivant"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:11
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:45
-#, fuzzy
 msgid "Select a train"
-msgstr "Sélectionner un fichier"
+msgstr "Sélectionner un train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:91
 msgid "Send"
-msgstr ""
+msgstr "Envoyer"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:97
 msgid "Receive"
-msgstr ""
+msgstr "Recevoir"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:101
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Train #%s"
-msgstr "Titre no %s"
+msgstr "Train no %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:155
 msgid "Items"
-msgstr ""
+msgstr "Exemplaires"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:166
-#, fuzzy
 msgid "Actions: "
-msgstr "Actions"
+msgstr "Actions : "
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:171
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:174
-#, fuzzy
 msgid "Print slips"
-msgstr "Imprimer"
+msgstr "Imprimer les reçus"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:351
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:461
-#, fuzzy
 msgid "Are you sure you want to remove this item?"
-msgstr "Voulez-vous vraiment retirer ce titre?"
+msgstr "Voulez-vous vraiment retirer cet exemplaire?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:463
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:251
-#, fuzzy
 msgid "Yes, remove"
-msgstr "Oui, supprimer"
+msgstr "Oui, retirer"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:464
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:252
-#, fuzzy
 msgid "No, do not remove"
-msgstr "Non, ne pas supprimer"
+msgstr "Non, ne pas retirer"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:472
 msgid "Item removed"
-msgstr ""
+msgstr "Exemplaire retiré"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:507
-#, fuzzy
 msgid "Item copied successfully."
-msgstr "Problème #%s mis à jour avec succès."
+msgstr "L'exemplaire a été copié."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:513
 msgid "Item cannot be copied to a train, it is already in a non-received train."
-msgstr ""
+msgstr "L'exemplaire ne peut pas être copié dans un train, il est déjà dans un train non-reçu."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:678
-#, fuzzy
 msgid "Print slip"
-msgstr "Imprimer"
+msgstr "Imprimer le reçu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:4
-#, fuzzy
 msgid "Add items to waiting list"
-msgstr "Ajouter un titre au fonds"
+msgstr "Ajouter des exemplaires à la liste d'attente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:11
 msgid "Barcode list"
-msgstr ""
+msgstr "Liste de codes-barres"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:38
-#, fuzzy
 msgid "Add items to a train"
-msgstr "Ajouter un titre au fonds"
+msgstr "Ajouter des exemplaires au train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:88
 msgid "You need to configure this module first."
-msgstr ""
+msgstr "Vous devez d'abord configurer ce module."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:96
-#, fuzzy
 msgid "Add to waiting list"
-msgstr "Ajouter au panier"
+msgstr "Ajouter à la liste d'atttente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:104
 #, javascript-format
 msgid "Add last %s items to a train"
-msgstr ""
+msgstr "Ajouter les %s derniers exemplaires à un train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:118
-#, fuzzy
 msgid "There are no items in the waiting list"
-msgstr "Il n'y a présentement aucun titre"
+msgstr "Il n'y a présentement aucun exemplaire dans la liste d'attente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:217
 #, javascript-format
 msgid "%s new items added."
-msgstr ""
+msgstr "%s nouveaux exemplaires ajoutés."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:231
-#, fuzzy
 msgid "No items added"
-msgstr "Nombre d'exemplaires à ajouter"
+msgstr "Aucun exemplaire ajouté"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:248
-#, fuzzy
 msgid "Are you sure you want to remove this item from the waiting list?"
-msgstr "Voulez-vous vraiment retirer ce titre?"
+msgstr "Voulez-vous vraiment retirer cet exemplaire de la liste d'attente?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:259
 msgid "Item removed from the waiting list"
-msgstr ""
+msgstr "L'exemplaire a été retiré de la liste d'attente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:283
-#, fuzzy
 msgid "Author"
-msgstr "Autorité"
+msgstr "Auteur"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:289
 msgid "Call number"
-msgstr ""
+msgstr "Cote"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:295
 msgid "Barcode"
-msgstr ""
+msgstr "Code-barres"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:46
 msgid "E-resource management"
 msgstr "Gestion des ressources électroniques"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:69
-#, fuzzy
 msgid "Show agreement"
-msgstr "Nouvelle entente"
+msgstr "Afficher l'entente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:75
-#, fuzzy
 msgid "Add agreement"
-msgstr "Ajouter une nouvelle entente"
+msgstr "Ajouter une entente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:81
-#, fuzzy
 msgid "Edit agreement"
-msgstr "Modifier l'entente no %s"
+msgstr "Modifier l'entente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:100
-#, fuzzy
 msgid "Show license"
-msgstr "Nouvelle licence"
+msgstr "Afficher la licence"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:106
-#, fuzzy
 msgid "Add license"
-msgstr "Ajouter une nouvelle licence"
+msgstr "Ajouter une licence"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:112
-#, fuzzy
 msgid "Edit license"
-msgstr "Modifier la licence %s"
+msgstr "Modifier la licence"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:118
 msgid "eHoldings"
@@ -3970,19 +3862,16 @@ msgstr "Local"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:147
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
-#, fuzzy
 msgid "Show package"
-msgstr "Nouveau forfait"
+msgstr "Afficher le forfait"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:155
-#, fuzzy
 msgid "Add package"
-msgstr "Nouveau forfait"
+msgstr "Ajouter un forfait"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:163
-#, fuzzy
 msgid "Edit package"
-msgstr "Modifier le forfait no %s"
+msgstr "Modifier le forfait"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:169
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:255
@@ -3991,25 +3880,21 @@ msgstr "Titres"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:186
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:272
-#, fuzzy
 msgid "Show title"
-msgstr "Nouveau titre"
+msgstr "Afficher le titre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:194
-#, fuzzy
 msgid "Add title"
-msgstr "Ajouter l'exemplaire"
+msgstr "Ajouter un titre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:202
-#, fuzzy
 msgid "Edit title"
-msgstr "Modifier le titre no %s"
+msgstr "Modifier le titre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:218
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:280
-#, fuzzy
 msgid "Resource"
-msgstr "Ressource no %s"
+msgstr "Ressource"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:226
 msgid "EBSCO"
@@ -4017,97 +3902,83 @@ msgstr "EBSCO"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:291
 msgid "eUsage"
-msgstr ""
+msgstr "Utilisation"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:297
-#, fuzzy
 msgid "Data providers"
-msgstr "Modifier le fournisseur %s"
+msgstr "Fournisseurs de données"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:314
-#, fuzzy
 msgid "Show provider"
-msgstr "Afficher les filtres"
+msgstr "Afficher le fournisseur"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:322
-#, fuzzy
 msgid "Add data provider"
-msgstr "Ajouter un fournisseur de SMS"
+msgstr "Ajouter un fournisseur de données"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:330
-#, fuzzy
 msgid "Edit data provider"
-msgstr "Modifier le fournisseur %s"
+msgstr "Modifier le fournisseur de données"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:359
 msgid "View report"
-msgstr ""
+msgstr "Afficher le rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:28
-#, fuzzy
 msgid "Preservation"
-msgstr "Description"
+msgstr "Conservation"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:34
 msgid "Home"
-msgstr ""
+msgstr "Accueil"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:39
 msgid "Trains"
-msgstr ""
+msgstr "Trains"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:50
-#, fuzzy
 msgid "Show train"
-msgstr "Afficher 1 déclaration"
+msgstr "Afficher le train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:66
-#, fuzzy
 msgid "Add item to train"
-msgstr "Ajouter un titre au fonds"
+msgstr "Ajouter un exemplaire au train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:72
-#, fuzzy
 msgid "Add items to train"
-msgstr "Ajouter un titre au fonds"
+msgstr "Ajouter des exemplaires au train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:78
 msgid "Edit item in train"
-msgstr ""
+msgstr "Modifier l'exemplaire dans le train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:88
-#, fuzzy
 msgid "Add train"
-msgstr "Ajouter au panier"
+msgstr "Ajouter un train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:94
-#, fuzzy
 msgid "Edit train"
-msgstr "Modifier l'action %s"
+msgstr "Modifier le train"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:100
 msgid "Waiting list"
-msgstr ""
+msgstr "Liste d'attente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:113
-#, fuzzy
 msgid "Settings"
-msgstr "Configuration des tableaux"
+msgstr "Paramètres"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:129
-#, fuzzy
 msgid "Show processing"
-msgstr "En traitement..."
+msgstr "Afficher le traitement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:135
-#, fuzzy
 msgid "Add processing"
-msgstr "En traitement..."
+msgstr "Ajouter un traitement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:141
-#, fuzzy
 msgid "Edit processing"
-msgstr "Modifier le fournisseur %s"
+msgstr "Modifier le traitement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:14
 msgid "supersedes"
@@ -4146,32 +4017,28 @@ msgid "related to"
 msgstr "lié à"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/usage-reports.js:39
-#, fuzzy
 msgid "Publisher"
-msgstr "Nom de l'éditeur"
+msgstr "Éditeur"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/usage-reports.js:51
-#, fuzzy
 msgid "Platform"
-msgstr "Effacer le formulaire"
+msgstr "Plateforme"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/usage-reports.js:63
-#, fuzzy
 msgid "Publisher ID"
-msgstr "Nom de l'éditeur"
+msgstr "ID de l'éditeur"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/usage-reports.js:75
 msgid "Online ISSN"
-msgstr ""
+msgstr "ISSN en ligne"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/usage-reports.js:87
-#, fuzzy
 msgid "Print ISSN"
-msgstr "Imprimer"
+msgstr "ISSN imprimé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/usage-reports.js:99
 msgid "DOI"
-msgstr ""
+msgstr "DOI"
 
 #: koha-tmpl/intranet-tmpl/prog/js/xmlControlfield.js:215
 #, javascript-format
@@ -4197,7 +4064,7 @@ msgstr "Rechercher Google Livres"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/autofill.js:84
 msgid "Sorry, nothing found."
-msgstr "Désolé, rien trouvé"
+msgstr "Aucun résultat."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/basket.js:111
 msgctxt "Bibliographic record"
@@ -4207,7 +4074,7 @@ msgstr "Ce document est déjà dans votre panier"
 #: koha-tmpl/opac-tmpl/bootstrap/js/basket.js:128
 msgctxt "Bibliographic record"
 msgid "The item has been added to your cart"
-msgstr "Ce document a été ajouté à votre panier "
+msgstr "Ce document a été ajouté à votre panier"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/basket.js:166
 #: koha-tmpl/opac-tmpl/bootstrap/js/basket.js:169
@@ -4305,7 +4172,7 @@ msgstr "Le document ne peut pas être emprunté. Il n'y a de formats disponibles
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/privacy.js:4
 msgid "Warning: Cannot be undone. Please confirm once again"
-msgstr ""
+msgstr "Attention: Cette action est irréversible. Veuillez confirmer à nouveau"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/ratings.js:35
 #, javascript-format
@@ -4320,58 +4187,56 @@ msgstr "Classement moyen: %s (%s votes)"
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:42
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:96
 msgid "Tags added: "
-msgstr ""
+msgstr "Mots clés ajoutés : "
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:43
-#, fuzzy
 msgid "Tags deleted: "
-msgstr "Oui, supprimer"
+msgstr "Mots-clés supprimés : "
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:106
-#, fuzzy
 msgid "Errors: "
-msgstr "Erreur&nbsp;: "
+msgstr "Erreurs&nbsp;: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:60
 msgid "Sorry, tags are not enabled on this system."
-msgstr ""
+msgstr "Désolé, les mots-clés ne sont pas activés dans ce système."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:61
 msgid "Error! Your tag was entirely markup code.  It was NOT added.  Please try again with plain text."
-msgstr ""
+msgstr "Erreur! Votre mot-clé contenait uniquement du code. Il n'a PAS été ajouté. Veuillez réessayer avec du texte brut."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:62
 msgid "Error! Illegal parameter"
-msgstr ""
+msgstr "Erreur! Paramètre illégal"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:63
 msgid "Note: your tag contained markup code that was removed. The tag was added as "
-msgstr ""
+msgstr "Note: votre mot-clé contenait du code qui a été retiré. Le mot-clé a été ajouté comme "
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
 msgid "Error! Adding tags failed at"
-msgstr ""
+msgstr "Erreur! L'ajout de mots-clés a échoué à"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
 msgid "Note: you can only tag an item with a given term once.  Check 'Tags' to see your current tags."
-msgstr ""
+msgstr "Note : vous ne pouvez utiliser un terme qu'une seule fois par exemplaire. Allez dans 'Mots-clés' pour voir vos mots-clés."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
 msgid "Error! You cannot delete the tag"
-msgstr ""
+msgstr "Erreur! Vous ne pouvez pas supprimer le mot-clé"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
 msgid "Note: you can only delete your own tags."
-msgstr ""
+msgstr "Note : vous ne pouvez supprimer que vos propres mots-clés."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
 msgid "You must be logged in to add tags."
-msgstr ""
+msgstr "Vous devez être connecté pour ajouter des mots-clés."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:126
 msgid "Unable to add one or more tags."
-msgstr ""
+msgstr "Impossible d'ajouter un ou plusieurs mots-clés."
 
 #~ msgid "Agreement user"
 #~ msgstr "Utilisateur de l'entente"
