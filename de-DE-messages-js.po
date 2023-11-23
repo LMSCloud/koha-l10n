@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-23 03:06+0000\n"
-"PO-Revision-Date: 2023-11-22 03:01+0000\n"
+"PO-Revision-Date: 2023-11-24 03:02+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de-DE\n"
@@ -637,7 +637,7 @@ msgstr "Nicht möglich: überfällig"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:228
 msgid "Unable to find an open day"
-msgstr "Kann keinen Öffnungstag ermitteln"
+msgstr "Es konnte kein Öffnungstag gefunden werden"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:232
 msgid "reason unknown"
@@ -3563,181 +3563,165 @@ msgid "New train"
 msgstr "Neuer Stapel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:14
-#, fuzzy
 msgid "name"
-msgstr "Dateiname"
+msgstr "Name"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:41
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:139
 msgid "Status for item added to this train"
-msgstr ""
+msgstr "Status für das Exemplar in diesem Stapel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:57
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:147
 msgid "Default processing"
-msgstr ""
+msgstr "Standard-Bearbeitung"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:179
-#, fuzzy
 msgid "Train updated"
-msgstr "Titel aktualisiert"
+msgstr "Stapel wurde aktualisiert"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:187
-#, fuzzy
 msgid "Train created"
-msgstr "Titel angelegt"
+msgstr "Stapel wurde angelegt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit item #%s"
-msgstr "Titel %s bearbeiten"
+msgstr "Exemplar %s bearbeiten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:7
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Add new item to %s"
-msgstr "Neue Lizenz"
+msgstr "Neues Exemplar zu %s hinzufügen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:14
-#, fuzzy
 msgid "Itemnumber"
-msgstr "September"
+msgstr "Exemplarnummer"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:20
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:16
-#, fuzzy
 msgid "Processing"
-msgstr "Lädt..."
+msgstr "Bearbeitung"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:113
 msgid "barcode"
-msgstr ""
+msgstr "Barcode"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:233
 msgid "Cannot find item with this barcode. It must be in the waiting list."
-msgstr ""
+msgstr "Es kann kein Exemplar mit diesem Barcode gefunden werden. Es muss in der Warteliste sein."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:356
-#, fuzzy
 msgid "Item updated"
-msgstr "Titel aktualisiert"
+msgstr "Exemplar wurde aktualisiert"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:367
-#, fuzzy
 msgid "Item added to train"
-msgstr " Exemplar(e) zum Korb hinzugefügt"
+msgstr "Exemplar wurde zum Stapel hinzugefügt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:4
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Add new items to %s"
-msgstr "Neue Lizenz"
+msgstr "Neue Exemplare zu %s hinzufügen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:10
-#, fuzzy
 msgid "Itemnumbers"
-msgstr "September"
+msgstr "Exemplarnummern"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:61
 #, javascript-format
 msgid "Cannot be edited now, the value will be retrieved from %s"
-msgstr ""
+msgstr "Kann jetzt nicht bearbeitet werden, der Wert wird aus %s übernommen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:264
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "%s items have been added to train %s."
-msgstr "Dieser Titel wurde Ihrem Korb hinzugefügt"
+msgstr "%s Exemplare wurden dem Stapel %s hinzugefügt."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:273
-#, fuzzy
 msgid "No items have been added to the train."
-msgstr "Dieser Titel wurde Ihrem Korb hinzugefügt"
+msgstr "Dem Stapel wurden keine Exemplare hinzugefügt."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:12
-#, fuzzy
 msgid "Filter by"
-msgstr "Filter"
+msgstr "Gefiltert nach"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:24
-#, fuzzy
 msgid "Closed"
-msgstr "Schließen"
+msgstr "Geschlossen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:30
 msgid "Sent"
-msgstr ""
+msgstr "Gesendet"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:36
 msgid "Received"
-msgstr ""
+msgstr "Erhalten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:56
-#, fuzzy
 msgid "There are no trains defined"
-msgstr "Es wurden keine Titel angelegt"
+msgstr "Es wurden keine Stapel angelegt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:113
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:67
-#, fuzzy
 msgid "Add items"
-msgstr "Exemplar hinzufügen"
+msgstr "Exemplare hinzufügen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:156
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:394
-#, fuzzy
 msgid "Are you sure you want to remove this train?"
-msgstr "Sind Sie sicher, dass Sie diesen Titel entfernen möchten?"
+msgstr "Sind Sie sicher, dass Sie diesen Stapel löschen möchten?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:167
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:405
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Train %s deleted"
-msgstr "Lizenz %s gelöscht"
+msgstr "Stapel %s wurde gelöscht"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:179
 msgid "Cannot add items to a closed train"
-msgstr ""
+msgstr "Es können keine Exemplare zu einem geschlossenen Stapel hinzugefügt werden"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:247
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:119
-#, fuzzy
 msgid "Closed on"
-msgstr "Schließen"
+msgstr "Geschlossen am"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:256
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:125
 msgid "Sent on"
-msgstr ""
+msgstr "Gesendet am"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:265
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:131
 msgid "Received on"
-msgstr ""
+msgstr "Erhalten am"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:4
 msgid "Copy item to the following train"
-msgstr ""
+msgstr "Kopiere Exemplare in den folgenden Stapel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:11
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:45
-#, fuzzy
 msgid "Select a train"
-msgstr "Datei auswählen"
+msgstr "Stapel auswählen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:91
 msgid "Send"
-msgstr ""
+msgstr "Senden"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:97
 msgid "Receive"
-msgstr ""
+msgstr "Erhalten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:101
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Train #%s"
-msgstr "Titel %s"
+msgstr "Stapel %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:155
 msgid "Items"
-msgstr ""
+msgstr "Exemplare"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:166
 msgid "Actions: "
@@ -3833,7 +3817,6 @@ msgid "Author"
 msgstr "Verfasser"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:289
-#, fuzzy
 msgid "Call number"
 msgstr "Signatur"
 
@@ -3847,7 +3830,7 @@ msgstr "ERM"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:69
 msgid "Show agreement"
-msgstr "Zeige Vereinbarung"
+msgstr "Vereinbarung anzeigen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:75
 msgid "Add agreement"
@@ -4189,7 +4172,7 @@ msgstr "Exemplar kann nicht ausgeliehen werden. Es sind keine Formate verfügbar
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/privacy.js:4
 msgid "Warning: Cannot be undone. Please confirm once again"
-msgstr ""
+msgstr "Warnung: Dies kann nicht rückgängig gemacht werden, bitte bestätigen Sie erneut."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/ratings.js:35
 #, javascript-format
@@ -4204,34 +4187,32 @@ msgstr "Durchschnittsbewertung: %s (%s Wertungen)"
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:42
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:96
 msgid "Tags added: "
-msgstr ""
+msgstr "Hinzugefügte Tags: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:43
-#, fuzzy
 msgid "Tags deleted: "
-msgstr "Ja, löschen"
+msgstr "Gelöschte Tags: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:106
-#, fuzzy
 msgid "Errors: "
-msgstr "Fehler:"
+msgstr "Fehler: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:60
 msgid "Sorry, tags are not enabled on this system."
-msgstr ""
+msgstr "Entschuldigung, die Funktion Tagging ist in diesem System nicht aktiviert."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:61
 msgid "Error! Your tag was entirely markup code.  It was NOT added.  Please try again with plain text."
-msgstr ""
+msgstr "Fehler! Ihr Tag bestand nur aus Markup-Code. Es wurde nicht hinzugefügt. Bitte versuchen Sie es erneut mit Klartext."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:62
 msgid "Error! Illegal parameter"
-msgstr ""
+msgstr "Fehler! Ungültiger Parameter"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:63
 msgid "Note: your tag contained markup code that was removed. The tag was added as "
-msgstr ""
+msgstr "Hinweis: Ihr Tag enthielt Markup-Code, der entfernt wurde. Das Tag wurde hinzugefügt als: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
 msgid "Error! Adding tags failed at"
@@ -4239,23 +4220,23 @@ msgstr "Fehler! Hinzufügen von Tags fehlgeschlagen für"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
 msgid "Note: you can only tag an item with a given term once.  Check 'Tags' to see your current tags."
-msgstr ""
+msgstr "Hinweis: Sie können ein Tag nur einmal zu einem Titel hinzufügen. Prüfen Sie die bereits vergebenen Tags."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
 msgid "Error! You cannot delete the tag"
-msgstr ""
+msgstr "Fehler! Sie können das Tag nicht löschen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
 msgid "Note: you can only delete your own tags."
-msgstr ""
+msgstr "Hinweis: Sie können nur Ihre eigenen Tags löschen."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
 msgid "You must be logged in to add tags."
-msgstr ""
+msgstr "Sie müssen angemeldet sein, um Tags zu vergeben."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:126
 msgid "Unable to add one or more tags."
-msgstr ""
+msgstr "Ein oder mehrere Tags können nicht hinzugefügt werden."
 
 #~ msgid ""
 #~ "\n"
