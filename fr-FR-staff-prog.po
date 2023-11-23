@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "POT-Creation-Date: 2023-11-23 04:03+0000\n"
-"PO-Revision-Date: 2023-11-18 03:15+0000\n"
+"PO-Revision-Date: 2023-11-24 03:16+0000\n"
 "Last-Translator: \"ManuB.\" <e.betemps@ville-caluire.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
@@ -3942,9 +3942,9 @@ msgid "Vendor not found."
 msgstr "Fournisseur non trouvé"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:17
-#, fuzzy, c-format
+#, c-format
 msgid "This order cannot be edited, the basket is closed or the order was already received."
-msgstr "Cette commande ne peut être modifiée, le panier est fermé."
+msgstr "Cette commande ne peut être modifiée, le panier est clôturé ou la commande a déjà été réceptionnée."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:19
 #, c-format
@@ -5566,9 +5566,8 @@ msgstr "Un problème est survenu, vérifiez les logs"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
-#, fuzzy
 msgid "This will retrieve macros stored in the browser, save them in the database, and delete them from the browser. Proceed?"
-msgstr "Cela va récupérer les macros stockées dans le navigateur, les sauvegarder en base de données et les supprimer de votre navigateur. Souhaitez-vous continuer ?"
+msgstr "Cela va récupérer les macros stockées dans le navigateur, les sauvegarder dans la base de données et les supprimer de votre navigateur. Souhaitez-vous continuer ?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
@@ -8645,9 +8644,9 @@ msgid "Move hold down"
 msgstr "Déplacer la réservation vers le bas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:131
-#, fuzzy, c-format
+#, c-format
 msgid "Expired:"
-msgstr "Expiré"
+msgstr "Expirées :"
 
 #. %1$s: - IF ( hold.atdestination ) -
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:136
@@ -11512,9 +11511,9 @@ msgstr "L'adhérent a des modifications en attente"
 
 #. %1$s:  patron.dateexpiry | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:24
-#, fuzzy, c-format
+#, c-format
 msgid "Patron's card expires on %s."
-msgstr "La carte d'adhérent expire le %s"
+msgstr "La carte de l'adhérent expire le %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:25
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:42
@@ -13079,9 +13078,9 @@ msgid "Add, edit and delete patron lists and their contents "
 msgstr "Ajouter, modifier ou supprimer des listes d'adhérents et leur contenu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:565
-#, fuzzy, c-format
+#, c-format
 msgid "Manage staged MARC records, including completing and reversing imports "
-msgstr "Gérer les notices téléchargées, importation dans le catalogue ou annulation de l'importation"
+msgstr "Gestion des notices MARC téléchargées, dont leur importation dans le catalogue ou annulation de l'importation "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:570
 #, c-format
