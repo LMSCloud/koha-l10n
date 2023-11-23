@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "POT-Creation-Date: 2023-11-15 08:54+0000\n"
-"PO-Revision-Date: 2023-11-13 16:16+0000\n"
+"PO-Revision-Date: 2023-11-24 03:16+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de-DE\n"
@@ -1856,12 +1856,12 @@ msgstr "Fehler! Hinzufügen von Tags fehlgeschlagen für"
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-bottom.inc:134
 msgid "Error! Illegal parameter"
-msgstr "FEHLER: unerlauber Parameter"
+msgstr "Fehler! Ungültiger Parameter"
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-bottom.inc:134
 msgid "Error! You cannot delete the tag"
-msgstr "FEHLER: Sie können das Tag nicht löschen"
+msgstr "Fehler! Sie können das Tag nicht löschen"
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-bottom.inc:134
@@ -1925,7 +1925,7 @@ msgstr "Sie können einem Titel ein Tag nur einmal zuweisen. Unter 'Meine Tags' 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-bottom.inc:134
 msgid "Note: your tag contained markup code that was removed. The tag was added as "
-msgstr "Hinweis: Ihr Kommentar enthielt Code, der entfernt wurde. Das Tag wurde hinzugefügt als "
+msgstr "Hinweis: Ihr Tag enthielt Markup-Code, der entfernt wurde. Das Tag wurde hinzugefügt als: "
 
 #. For the first occurrence,
 #. SCRIPT
@@ -1949,7 +1949,7 @@ msgstr "Suche in %s..."
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-bottom.inc:134
 msgid "Sorry, tags are not enabled on this system."
-msgstr "Entschuldigen Sie, aber Tags sind in diesem System nicht zugelassen."
+msgstr "Entschuldigung, die Funktion Tagging ist in diesem System nicht aktiviert."
 
 #. For the first occurrence,
 #. SCRIPT
@@ -1960,17 +1960,17 @@ msgstr "Hinzugefügte Tags: "
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-bottom.inc:134
 msgid "Unable to add one or more tags."
-msgstr "Es können keine weiteren Tags hinzugefügt werden."
+msgstr "Ein oder mehrere Tags können nicht hinzugefügt werden."
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-bottom.inc:134
 msgid "Warning: Cannot be undone. Please confirm once again"
-msgstr "Vorsicht: Dies kann nicht rückgängig gemacht werden. Bitte bestätigen Sie nochmals"
+msgstr "Warnung: Dies kann nicht rückgängig gemacht werden, bitte bestätigen Sie erneut."
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-bottom.inc:134
 msgid "You must be logged in to add tags."
-msgstr "Sie müssen angemeldet sein um Tags hinzuzufügen."
+msgstr "Sie müssen angemeldet sein, um Tags zu vergeben."
 
 #. For the first occurrence,
 #. SCRIPT
@@ -4489,7 +4489,7 @@ msgstr "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s und %s "
 #. SELECT name=idx
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:60
 msgid "Choose search type for field %s"
-msgstr ""
+msgstr "Art der Suche für Feld %s auswählen"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:61
 #, c-format
@@ -4615,9 +4615,8 @@ msgstr "Barcode"
 
 #. INPUT type=text name=q
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:115
-#, fuzzy
 msgid "Enter field %s search terms"
-msgstr "Suchbegriffe eingeben"
+msgstr "Suchbegriffe für Feld %s eingeben"
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:119
@@ -5205,7 +5204,7 @@ msgstr "%s Anmeldung im Benutzerkonto %s Anmeldung im Katalog deaktiviert %s &rs
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:172
 #, c-format
 msgid "Access denied"
-msgstr "Zugang verwehrt"
+msgstr "Zugriff verweigert"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:45
 #, c-format
@@ -5522,7 +5521,7 @@ msgstr "Ergebnisse"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-authoritiessearchresultlist.tt:96
 #, c-format
 msgid "Authority search results"
-msgstr "Resultate der Normdatensuche"
+msgstr "Suchergebnisse in Normdaten"
 
 #. %1$s:  resultcount | html 
 #. %2$s:  total | html 
@@ -5606,7 +5605,7 @@ msgstr "Weitere Details"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shareshelf.tt:97
 #, c-format
 msgid "Send"
-msgstr "Abschicken"
+msgstr "Senden"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:34
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:226
@@ -11163,7 +11162,7 @@ msgstr "Beim Versand des Korbes ist ein Fehler aufgetreten."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-sendbasketform.tt:32
 #, c-format
 msgid "Sending your cart"
-msgstr "Ihren Korb versenden"
+msgstr "Korb versenden"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-sendbasketform.tt:33
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-sendshelfform.tt:36
@@ -13460,7 +13459,7 @@ msgstr "Scan"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:992
 #, c-format
 msgid "Processing"
-msgstr "In Bearbeitung"
+msgstr "Bearbeitung"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:996
 #, c-format
