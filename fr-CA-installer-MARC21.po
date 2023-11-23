@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:13-0300\n"
-"PO-Revision-Date: 2023-11-22 03:01+0000\n"
+"PO-Revision-Date: 2023-11-24 03:01+0000\n"
 "Last-Translator: Caroline Cyr-La-Rose <caroline.cyr-la-rose@inlibro.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-CA\n"
@@ -1524,7 +1524,7 @@ msgstr "Type de format électronique"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1765
 msgid "Settings"
-msgstr "Classement du matériel"
+msgstr "Paramètres"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1766
 msgid "File size"
@@ -2772,9 +2772,8 @@ msgid "Number of fixed field character positions coded"
 msgstr "Zones fixes - nombres de positions codées"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:193
-#, fuzzy
 msgid "Data provenance"
-msgstr "Provenance des documents"
+msgstr "Provenance des données"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:195
 msgid "Language code of text/sound track or separate title"
@@ -2985,9 +2984,8 @@ msgid "Canceled/invalid GPO item number"
 msgstr "Numéro de document annulé/invalide du GPO"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:337
-#, fuzzy
 msgid "Edition information"
-msgstr "Informations supplémentaires"
+msgstr "Information relative à l'édition"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:343
 msgid "Standard or optional designation"
@@ -3454,24 +3452,20 @@ msgid "Dates of former publication frequency"
 msgstr "Dates de la périodicité antérieure de la publication"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:786
-#, fuzzy
 msgid "Mode of issuance term"
-msgstr "Terme du médium d’exécution"
+msgstr "Terme du mode de parution"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:787
-#, fuzzy
 msgid "Mode of issuance code"
-msgstr "Code de la période de temps"
+msgstr "Code du mode de parution"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:795
-#, fuzzy
 msgid "Extension plan term"
-msgstr "Terme explicatif"
+msgstr "Terme du plan d'extension"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:796
-#, fuzzy
 msgid "Extension plan code"
-msgstr "Date d'échéance du prêt"
+msgstr "Code du plan d'extension"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:812
 msgid "Media type term"
@@ -3506,9 +3500,8 @@ msgid "Support"
 msgstr "Support"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:834
-#, fuzzy
 msgid "Reduction ratio value"
-msgstr "Vitesse/facteur de production"
+msgstr "Valeur de facteur de réduction"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:835
 msgid "Color content"
@@ -3531,9 +3524,8 @@ msgid "Layout"
 msgstr "Format"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:840
-#, fuzzy
 msgid "Binding"
-msgstr "Note au sujet de la reliure"
+msgstr "Reliure"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:841
 msgid "Book format"
@@ -3548,14 +3540,12 @@ msgid "Polarity"
 msgstr "Polarité"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:844
-#, fuzzy
 msgid "Illustrative content"
-msgstr "Couleur du contenu"
+msgstr "Contenu illustratif"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:845
-#, fuzzy
 msgid "Reduction ratio designator"
-msgstr "Vitesse/facteur de production"
+msgstr "Désignateur de facteur de réduction"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:850
 msgid "Content access mode"
@@ -3742,13 +3732,12 @@ msgid "Special playback characteristics"
 msgstr "Caractéristiques spéciales de lecture"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:906
-#, fuzzy
 msgid "Sound content"
-msgstr "Couleur du contenu"
+msgstr "Contenu sonore"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:907
 msgid "Original capture and storage technique"
-msgstr ""
+msgstr "Technique de captage et de stockage d'origine"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:915
 msgid "Projection speed"
@@ -3756,12 +3745,11 @@ msgstr "Vitesse de projection"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:916
 msgid "Aspect ratio value"
-msgstr ""
+msgstr "Valeur de rapport hauteur/largeur"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:917
-#, fuzzy
 msgid "Aspect ratio designator"
-msgstr "Désignateur de facette"
+msgstr "Désignateur de rapport hauteur/largeur"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:924
 msgid "Video format"
@@ -3792,14 +3780,12 @@ msgid "Encoded bitrate"
 msgstr "Débit binaire codé"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:947
-#, fuzzy
 msgid "Form of musical notation term"
-msgstr "Code de forme musicale"
+msgstr "Terme pour la forme de la notation musicale"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:948
-#, fuzzy
 msgid "Form of musical notation code"
-msgstr "Code de forme musicale"
+msgstr "Code de la forme de la notation musicale"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:950
 msgid "Price"
@@ -3854,14 +3840,12 @@ msgid "Format of the digital image"
 msgstr "Support de l'image numérique"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:975
-#, fuzzy
 msgid "Supplementary content term"
-msgstr "Note de supplément"
+msgstr "Terme relatif au matériel supplémentaire"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:976
-#, fuzzy
 msgid "Supplementary content code"
-msgstr "Note de supplément"
+msgstr "Code relatif au matériel supplémentaire"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:979
 msgid "Security classification"
@@ -3917,24 +3901,23 @@ msgstr "Coût de location"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1003
 msgid "Ownership and custodial history evidence term"
-msgstr ""
+msgstr "Terme témoignant de la propriété et de l'historique de la conservation"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1004
-#, fuzzy
 msgid "Formatted date"
-msgstr "Date/heure structurée"
+msgstr "Date structurée"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1006
 msgid "Type of ownership and custodial history information"
-msgstr ""
+msgstr "Information sur le type de propriété et d'historique de la conservation"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1007
 msgid "Shelf mark of copy described"
-msgstr ""
+msgstr "Indice de classification de l'exemplaire décrit"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1010
 msgid "Identifier of the copy described"
-msgstr ""
+msgstr "Identifiant de l'exemplaire décrit"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1018
 msgid "First level of enumeration"
@@ -4070,47 +4053,43 @@ msgstr "Identification de l'agence"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1171
 msgid "Aspect ratio of representative expression"
-msgstr ""
+msgstr "Rapport hauteur/largeur de l'expression représentative"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1172
 msgid "Color content of representative expression"
-msgstr ""
+msgstr "Contenu de couleur de l'expression représentative"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1173
 msgid "Content type of representative expression"
-msgstr ""
+msgstr "Type de contenu de l'expression représentative"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1174
 msgid "Date of capture of representative expression"
-msgstr ""
+msgstr "Date de captation de l'expression représentative"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1175
-#, fuzzy
 msgid "Date of representative expression"
-msgstr "Date de reproduction"
+msgstr "Date de l'expression représentative"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1176
 msgid "Duration of representative expression"
-msgstr ""
+msgstr "Durée de l'expression représentative"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1177
-#, fuzzy
 msgid "Intended audience of representative expression"
-msgstr "Public cible (âge)"
+msgstr "Public cible de l'expression représentative"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1178
-#, fuzzy
 msgid "Language of representative expression"
-msgstr "Code de langue de traductions intermédiaires"
+msgstr "Langue de l'expression représentative"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1179
-#, fuzzy
 msgid "Place of capture of representative expression"
-msgstr "Lieu d'origine de l'œuvre ou de l'expression"
+msgstr "Lieu de captation de l'expression représentative"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1180
 msgid "Projection of cartographic content of representative expression"
-msgstr ""
+msgstr "Projection d'un contenu cartographique de l'expression représentative"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1181
 msgid "Scale of representative expression"
