@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:11-0300\n"
-"PO-Revision-Date: 2023-11-24 12:43+0000\n"
+"PO-Revision-Date: 2023-11-25 03:01+0000\n"
 "Last-Translator: Tomás Cohen Arazi <tomascohen@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: es-ES\n"
@@ -5076,9 +5076,8 @@ msgstr "Habilitar"
 
 # Circulation > Checkin policy > CalculateFinesOnReturn
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#EnableItemGroupHolds# the ability to place holds on item groups. <br><strong>NOTE:</strong> This system preference requires that <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EnableItemGroups'>EnableItemGroups</a> to be set to 'Enable'."
-msgstr "<br /><strong>NOTA:</strong> Esta preferencia de sistema requiere que <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=FinesMode\">FinesMode</a> esté configurada en 'Calcular y cobrar.'"
+msgstr "la posibilidad de hacer reservas sobre grupos de ítems. <br /><strong>NOTA:</strong> Esta preferencia de sistema requiere que <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield= EnableItemGroups\"> EnableItemGroups</a> esté habilitada."
 
 # Circulation > Holds policy > ExcludeHolidaysFromMaxPickUpDelay
 # Circulation > Holds policy
@@ -5181,9 +5180,8 @@ msgstr "Mostrar"
 
 # Circulation > Interface > ExportCircHistory
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#ExportCircHistory# the option to export patron checkouts."
-msgstr "las opciones de exportación del historial de préstamos del usuario"
+msgstr "la opción de exportar préstamos de usuario."
 
 # Circulation > Interface > ExportRemoveFields
 # Circulation > Interface
@@ -5192,9 +5190,8 @@ msgstr "(separar campos con espacios, ej. 100a 200b 300c)."
 
 # Circulation > Interface > ExportRemoveFields
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#ExportRemoveFields# The following fields should be excluded from the patron checkout CSV or MARC (ISO 2709) export:"
-msgstr "Los siguientes campos deberían ser excluidos de la exportación del historial de préstamo de usuario tanto en CSV como en MARC (ISO 2709):"
+msgstr "Los siguientes campos deberían ser excluidos de la exportación préstamos de usuario tanto en CSV como en MARC (ISO 2709):"
 
 # Circulation > Interface > FilterBeforeOverdueReport
 # Circulation > Interface
@@ -5467,13 +5464,12 @@ msgstr "a usuarios pedir prestado un ítem cuyo valor de alquiler los lleve sobr
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 msgid "circulation.pref#ItemsDeniedRenewal# <br /><strong>Configuration:</strong> <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=CCODE'>Collections (CCODE)</a> | <a href='/cgi-bin/koha/admin/itemtypes.pl'>Item types</a>"
-msgstr ""
+msgstr "<br /><strong>Configuración:</strong> <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=CCODE'>Colecciones (CCODE)</a> | <a href='/cgi-bin/koha/admin/itemtypes.pl'>Tipos de ítem</a>"
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#ItemsDeniedRenewal# <br /><strong>NOTE:</strong> The word 'NULL' can be used to block renewal on undefined fields, while an empty string \"\" will block on an empty (but defined) field."
-msgstr "<br /><strong>NOTA:</strong> la palabra 'null' se puede usar para bloquear la renovación en campos no definidos, mientras que una cadena vacía \"\" bloqueará un campo vacío (pero definido)."
+msgstr "<br /><strong>NOTA:</strong> la palabra 'NULL' se puede usar para bloquear la renovación en campos no definidos, mientras que una cadena vacía \"\" bloqueará un campo vacío (pero definido)."
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout Policy
@@ -5482,9 +5478,8 @@ msgstr "<br />Puede nombrar cualquier campo en la tabla de ítems seguido de dos
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout Policy
-#, fuzzy
 msgid "circulation.pref#ItemsDeniedRenewal# <br />ccode: [NEWFIC,NULL,DVD]"
-msgstr "<br />ccode: [NEWFIC,null,DVD]"
+msgstr "<br />ccode: [NEWFIC,NULL,DVD]"
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout Policy
@@ -5871,9 +5866,8 @@ msgstr "biblioteca de origen del ítem"
 
 # Circulation > Checkout policy > OverdueNoticeFrom
 # Circulation > Holds Policy
-#, fuzzy
 msgid "circulation.pref#OverdueNoticeFrom# patron home library"
-msgstr "biblioteca de origen del ítem"
+msgstr "biblioteca de origen del usuario"
 
 # Circulation > Checkout policy > OverduesBlockCirc
 # Circulation > Checkout Policy
@@ -6256,25 +6250,22 @@ msgstr "Incluya el siguiente JavaScript en todas las páginas del sistema web de
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Do"
-msgstr "Permitir"
+msgstr "Enviar"
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't"
-msgstr "No permitir"
+msgstr "No enviar"
 
 # Circulation > Course reserves > UseCourseReserves
 # Circulation > Course Reserves
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Use"
-msgstr "Utilizar"
+msgstr " "
 
 # Circulation > SIP2 > SIP2AddOpacMessagesToScreenMessage
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# send OPAC patron messages in the SIP2 screen message field."
-msgstr ""
+msgstr "mensajes de usuario del OPAC en el campo de mensaje en pantalla SIP2."
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# - 'branchcode' is the location where the checkin is being performed (i.e. branch assigned to SIP user)<br/>"
@@ -6297,23 +6288,20 @@ msgid "circulation.pref#SIP2SortBinMapping# - 'sort bin number' is the expected 
 msgstr "- 'sort bin number' es el valor de retorno esperado en el campo CL de la respuesta SIP para un ítem que coincide con una regla<br/><br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# CPL:homebranch:ne:\\$holdingbranch:X - Will return sort bin 'X' for an item returned to CPL where the holdingbranch is not equal to the homebranch (i.e. any item belonging to a different branch than CPL).<br/>"
-msgstr "CPL:homebranch:ne:\\$holdingbranch:X - Devolverá sort bin 'X' para un ítem devuelto en CPL donde la sede depositaria no es igual a la sede de origen (i.e. cualquier ítem que no pertenece a CPL).<br/><br/>"
+msgstr "CPL:homebranch:ne:\\$holdingbranch:X - Devolverá sort bin 'X' para un ítem devuelto en CPL donde la sede depositaria no es igual a la sede de origen (i.e. cualquier ítem que no pertenece a CPL).<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# CPL:itemcallnumber:<:339.6:3 - Will return sort bin 3 for an item with a callnumber less than 339.6 returned to CPL.<br/>"
-msgstr "CPL:itemcallnumber:<:339.6:3 - Devolverá sort bin 3 para un ítem con una signatura menor a 339.6 devuelta en CPL .<br/>"
+msgstr "CPL:itemcallnumber:<:339.6:3 - Devolverá sort bin 3 para un ítem con una signatura menor a 339.6 devuelto en CPL .<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# CPL:itype:eq:BOOK:1 - Will return sort bin 1 for an item of itemtype 'BOOK' returned to CPL.<br/>"
 msgstr "CPL:itype:eq:BOOK:1 - Devolverá sort bin 1 para un ítem de tipo 'BOOK' devuelto a CPL.<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# CPL:itype:eq:BOOK:ccode:eq:TEEN:5 - Will return sort bin 5 for an item of itemtype 'BOOK' and a ccode 'TEEN' returned to CPL.<br/><br/>"
-msgstr "CPL:itype:eq:BOOK:1 - Devolverá sort bin 1 para un ítem de tipo 'BOOK' devuelto a CPL.<br/>"
+msgstr "CPL:itype:eq:BOOK:1 - Devolverá sort bin 1 para un ítem de tipo 'BOOK' devuelto a CPL.<br/><br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 # Circulation > Checkin policy
@@ -6325,9 +6313,8 @@ msgid "circulation.pref#SIP2SortBinMapping# NOTE: Specifying 'item_field_value' 
 msgstr "NOTA: Especificar 'item_field_value' comenzando con '\\$' y un nombre de campo de `ítem utilizará el valor de ese campo para la comparación:<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# The field comparison triplet, 'item field:comparator:item field value', is repeatable within a single line to allow for more complex cases"
-msgstr "El mapeo debería ser de la forma 'branchcode:item_field:comparator:item_field value:sort bin número', con un mapeo por línea.<br/>"
+msgstr "La correspondencia 'campo de ítem:comparador:valor de campo de ítem', es repetible dentro de una línea para permitir casos mas complejos"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# The mapping should be of the form 'branchcode:item field:comparator:item field value:sort bin number', with one mapping per line.<br/>"
@@ -6461,14 +6448,12 @@ msgid "circulation.pref#ShowPatronImageInWebBasedSelfCheck# the patron's picture
 msgstr "la imagen del usuario (si ha sido agregada una) cuando ellos utilizan el sistema Web de auto-préstamo."
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#SkipHoldTrapOnNotForLoanValue# (list of <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>not for loan</a> authorized values separated with a pipe '|')"
-msgstr "Utilizar el valor autorizado <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>"
+msgstr "(lista de valores autorizados <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">no para préstamo</a> separados por '|')"
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#SkipHoldTrapOnNotForLoanValue# Never trap items with <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">'not for loan'</a> authorized values of"
-msgstr "Utilizar el valor autorizado <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>"
+msgstr "Nunca capturar ítems con los siguientes valores de <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">no para préstamo</a>"
 
 # Circulation > Checkin policy > SkipHoldTrapOnNotForLoanValue
 # Circulation > Checkin policy
@@ -6746,13 +6731,11 @@ msgstr "Nota: PROC y CART son valores especiales, para éstas ubicaciones, solo 
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# PROC: FIC - causes an item in the Processing center location to be updated into the Fiction location on check in.<br/>"
-msgstr "PROC: FIC - hace que un ítem en la ubicación Centro de procesamiento sea actualizado a la ubicación de Ficción en la devolución.<br/>"
+msgstr "PROC: FIC - hace que un ítem en la ubicación Centro de procesamiento sea actualizado a la ubicación de Ficción al ser devuelto.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# PROC: _PERM_ - causes an item that is in the Processing center to be updated to it's permanent location.<br/><br/>"
 msgstr "PROC: _PERM_ - hace que un ítem que está en el Centro de procesamiento sea actualizado a la ubicación permanente.<br/><br/>"
 
@@ -6768,9 +6751,8 @@ msgstr "El término especial _BLANK_ se puede usar en cualquier lado de un par d
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# This is a list of value pairs. The first value is followed immediately by colon space then the second value."
-msgstr "Esta es una lista de pares de valores. El primer valor es seguido inmediatamente por dos puntos y un espacio, luego el segundo valor.<br/><br/>"
+msgstr "Esta es una lista de pares de valores. El primer valor es seguido inmediatamente por dos puntos y un espacio, luego el segundo valor."
 
 # Circulation > Item bundles > BundleLostValue
 msgid "circulation.pref#UpdateItemLocationOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC'>LOC</a> authorised values, _BLANK_, _PERM_, and _ALL_.<br><br>"
