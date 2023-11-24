@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-16 08:26+0000\n"
-"PO-Revision-Date: 2023-11-24 11:49+0000\n"
-"Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
+"PO-Revision-Date: 2023-11-24 12:43+0000\n"
+"Last-Translator: paivito <paivi.toikkanen@centria.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
@@ -48007,9 +48007,9 @@ msgstr "Nimeketietueen ID:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:443
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:671
-#, fuzzy, c-format
+#, c-format
 msgid "Batch:"
-msgstr "Erä: "
+msgstr "Erä:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:459
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:678
@@ -48184,9 +48184,9 @@ msgstr "Kaukolainapyynnöt"
 
 #. %1$s:  batch.name | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:812
-#, fuzzy, c-format
+#, c-format
 msgid "View ILL requests for batch \"%s\""
-msgstr "Kaukolainapyynnöt"
+msgstr "Kaukolainapyynnöt \"%s\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:816
 #, c-format
@@ -48300,9 +48300,9 @@ msgstr "Anna käyttäjätunnuksesi ja salasanasi"
 #. %16$s:  t("Koha") | html 
 #. %17$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step1.tt:4
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s Choose your language %s %s %s %s %s %s %s %s %s %s %s %s &rsaquo; %s &rsaquo; %s %s"
-msgstr "%s %s %s Ei nimekettä %s %s %s%s,%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s "
+msgstr "%s %s Valitse kieli %s %s %s %s %s %s %s %s %s %s %s %s &rsaquo; %s &rsaquo; %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step1.tt:32
 #, c-format
@@ -49503,14 +49503,14 @@ msgid "Font size: "
 msgstr "Kirjainkoko: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:197
-#, fuzzy, c-format
+#, c-format
 msgid "Barcode width: "
-msgstr "Kortin leveys:"
+msgstr "Viivakoodin leveys: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:201
-#, fuzzy, c-format
+#, c-format
 msgid "Barcode height: "
-msgstr "Viivakoodin korkeus:"
+msgstr "Viivakoodin korkeus: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:205
 #, c-format
@@ -50231,9 +50231,9 @@ msgid "Unsubscribe from email alerts"
 msgstr "Lopeta saapumisilmoituksen tilaus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:84
-#, fuzzy, c-format
+#, c-format
 msgid "This patron has not subscribed to email alerts for any subscriptions."
-msgstr "Tämä asiakas ei ole tehnyt yhtään hankintaehdotusta"
+msgstr "Tämä asiakas ei ole tilannut sähköposti-ilmoituksia mistään tilauksista."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:28
 #, c-format
@@ -50947,9 +50947,9 @@ msgid "An error occurred, please try again: %s "
 msgstr "Virhetilanne, yritä uudelleen: %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/maninvoice.tt:97
-#, fuzzy, c-format
+#, c-format
 msgid "Cost: "
-msgstr "Hinta:"
+msgstr "Hinta: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/maninvoice.tt:109
 #, c-format
@@ -51318,19 +51318,19 @@ msgid "The alternative email is invalid."
 msgstr "Vaihtoehtoinen sähköpostiosoite on virheellinen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:187
-#, fuzzy, c-format
+#, c-format
 msgid "A child patron needs a guarantor."
-msgstr "Asiakastakaaja"
+msgstr "Lapsiasiakas tarvitsee takaajan."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:190
-#, fuzzy, c-format
+#, c-format
 msgid "A guarantor cannot be a guarantee."
-msgstr "Voi olla taattava"
+msgstr "Takaaja ei voi olla taattava."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:193
 #, c-format
 msgid "Cannot delete guarantor(s). A child patron needs a guarantor."
-msgstr ""
+msgstr "Takaajaa ei voi poistaa. Lapsiasiakas tarvitsee takaajan."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:202
 #, c-format
@@ -51755,9 +51755,9 @@ msgid "No "
 msgstr "Ei "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1040
-#, fuzzy, c-format
+#, c-format
 msgid "Protected:"
-msgstr "Suojaa"
+msgstr "Suojattu:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1067
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1071
@@ -52545,9 +52545,9 @@ msgstr "Automaattinen uusinta: Ei käytössä asiakkaalla"
 
 #. %1$s:  INCLUDE 'patron-title.inc' no_html = 1 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-print.tt:23
-#, fuzzy, c-format
+#, c-format
 msgid "Account summary: %s &rsaquo;"
-msgstr "Tilin yhteenveto: %s %s (%s)"
+msgstr "Tilin yhteenveto: %s &rsaquo;"
 
 #. %1$s:  IF ( patron.phone ) 
 #. %2$s:  patron.phone | html 
@@ -52732,9 +52732,9 @@ msgid "Password expires:"
 msgstr "Salasana vanhenee:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:480
-#, fuzzy, c-format
+#, c-format
 msgid "Protected: "
-msgstr "Suojaa"
+msgstr "Suojattu: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:490
 #, c-format
@@ -52899,9 +52899,9 @@ msgstr "Sähköpostin lähettämisessä tapahtui virhe."
 
 #. %1$s:  QUEUED_MESSAGE.cc_address | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:110
-#, fuzzy, c-format
+#, c-format
 msgid "Notice copied to: %s"
-msgstr "Yhteys palvelimeen %s epäonnistui"
+msgstr "Ilmoitus kopioitu: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:119
 #, c-format
@@ -53468,9 +53468,9 @@ msgid "Offline circulation "
 msgstr "Yhteydettömän tilan lainaus "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:60
-#, fuzzy, c-format
+#, c-format
 msgid "Card number or username"
-msgstr "Kirjastokorttien numeroita ei löytynyt"
+msgstr "Kortin numero tai käyttäjätunnus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:106
 #, c-format
@@ -53972,9 +53972,9 @@ msgid "New patron list"
 msgstr "Uusi asiakaslista"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "Patron list details"
-msgstr "Asiakkaan tiedot"
+msgstr "Asiakaslistan tiedot"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:65
 #, c-format
