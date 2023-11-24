@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-16 08:26+0000\n"
 "PO-Revision-Date: 2023-11-25 03:01+0000\n"
-"Last-Translator: paivito <paivi.toikkanen@centria.fi>\n"
+"Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
@@ -54322,9 +54322,9 @@ msgid "Edit patron card layout %s"
 msgstr "Muokkaa kirjastokortin asettelua %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:65
-#, fuzzy, c-format
+#, c-format
 msgid "Patron card text layout"
-msgstr "Kirjastokorttien luontipohjat"
+msgstr "Kirjastokortin tekstiasettelu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:69
 #, c-format
@@ -54444,9 +54444,9 @@ msgid "Field 3"
 msgstr "3. kenttä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:296
-#, fuzzy, c-format
+#, c-format
 msgid "Patron card graphic layout"
-msgstr "Muokkaa kirjastokortin grafiikka-asettelua"
+msgstr "Kirjastokortin grafiikka-asettelu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:315
 #, c-format
@@ -54499,21 +54499,21 @@ msgstr "Kuva 2"
 #. %1$s:  profile_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-profile.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-profile.tt:54
-#, fuzzy, c-format
+#, c-format
 msgid "Edit printer profile (%s)"
-msgstr "Muokkaa tulostinprofiilia %s"
+msgstr "Muokkaa tulostinprofiilia (%s)"
 
 #. %1$s:  template_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:38
-#, fuzzy, c-format
+#, c-format
 msgid "Edit patron card template (%s)"
-msgstr "Muokkaa kirjastokorttipohjaa"
+msgstr "Muokkaa kirjastokorttipohjaa (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "New patron card template"
-msgstr "Luo kirjastokorttipohja"
+msgstr "Uusi kirjastokorttipohja"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:54
 #, c-format
@@ -54661,7 +54661,7 @@ msgid "Export selected batches"
 msgstr "Vie valitut eräajot"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:122
-#, fuzzy, c-format
+#, c-format
 msgid "Export by patron list"
 msgstr "Vie asiakaslistalta"
 
@@ -54803,12 +54803,12 @@ msgstr "Liitännäiset poistettu käytöstä"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-disabled.tt:33
 #, c-format
 msgid "Plugin upload is restricted to only those plugins listed by your server administrator"
-msgstr ""
+msgstr "Liitännäisten lataaminen on rajoitettu vain niihin liitännäisiin, jotka palvelimen ylläpitäjä on listannut"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-disabled.tt:34
-#, fuzzy, c-format
+#, c-format
 msgid "To enable unrestricted plugin uploads, ask your administrator to unset plugins_restricted in the Koha configuration file"
-msgstr "Liitännäisten käyttö vaatii UseKohaPlugins-järjestelmäasetuksen ja enable_plugins-asetuksen Kohan asetustiedostossa"
+msgstr "Salliaksesi rajoittamattoman liitännäisten lataamisen pyydä ylläpitäjääsi poistamaan plugins_restricted-asetuksen Kohan konfiguraatiostatiedostosta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-disabled.tt:37
 #, c-format
@@ -55027,7 +55027,7 @@ msgstr "Varmista, että Apache-käyttäjä voi kirjoittaa liitännäisten hakemi
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-upload.tt:42
 #, c-format
 msgid "Cannot install plugin from unknown source whilst plugins_restricted is enabled."
-msgstr ""
+msgstr "Ei voida asentaa liitännäistä tuntemattomasta lähteestä, kun plugins_restricted-asetus on päällä."
 
 #. For the first occurrence,
 #. %1$s:  ERROR.CORERR | html 
@@ -55050,9 +55050,9 @@ msgid "Only KPZ file format is supported."
 msgstr "Vain KPZ-tiedostomuoto on tuettu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:55
-#, fuzzy, c-format
+#, c-format
 msgid "Payment received"
-msgstr "Maksu vastaanotettu: "
+msgstr "Maksu vastaanotettu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:57
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/register.tt:110
@@ -56940,9 +56940,8 @@ msgstr "Lähetä näkyvät tulokset asiakkaiden erämuokkaukseen"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1068
-#, fuzzy
 msgid "Send visible results to a new patron card batch"
-msgstr "Lähetä näkyvät tulokset asiakkaiden erämuokkaukseen"
+msgstr "Lähetä näkyvät tulokset uuteen kirjastokorttierään"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1076
@@ -57718,14 +57717,14 @@ msgid "Knowledgebase"
 msgstr "Tietämyskanta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:24
-#, fuzzy, c-format
+#, c-format
 msgid "Filled"
 msgstr "Täytetty"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:25
-#, fuzzy, c-format
+#, c-format
 msgid "Placed"
-msgstr "Paikat"
+msgstr "Tehty"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:45
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:52
@@ -57746,14 +57745,14 @@ msgid "Cancelled "
 msgstr "Peruutettu "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:132
-#, fuzzy, c-format
+#, c-format
 msgid "Filled "
-msgstr "Täytetty"
+msgstr "Täytetty "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:133
-#, fuzzy, c-format
+#, c-format
 msgid "Placed "
-msgstr "Tilattu"
+msgstr "Tehty "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:134
 #, c-format
@@ -59547,7 +59546,7 @@ msgstr "Mana kausijulkaisutilausten haku"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:236
 #, c-format
 msgid "The search originally produced %s results and was limited to %s."
-msgstr ""
+msgstr "Alkuperäinen haku tuotti %s tulosta ja rajattiin %s tulokseen."
 
 #. %1$s:  total | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:239
@@ -59879,9 +59878,9 @@ msgid "Numbering pattern:"
 msgstr "Numerointikaava:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:377
-#, fuzzy, c-format
+#, c-format
 msgid "Publication date template:"
-msgstr "Julkaisuaika:"
+msgstr "Julkaisuaikapohja:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:381
 #, c-format
@@ -60141,9 +60140,9 @@ msgstr "Kausijulkaisutilauksen#%s tiedot &rsaquo; Kausijulkaisut &rsaquo; Koha"
 #. %2$s:  IF closed 
 #. %3$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:46
-#, fuzzy, c-format
+#, c-format
 msgid "Subscription for %s %s(closed)%s"
-msgstr "Kausijulkaisutilaus %s %s %s(suljettu)%s"
+msgstr "Kausijulkaisutilaus %s %s(suljettu)%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:50
 #, c-format
@@ -60207,9 +60206,9 @@ msgid "Librarian identity:"
 msgstr "Virkailijatunnus:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:107
-#, fuzzy, c-format
+#, c-format
 msgid "Bibliographic record:"
-msgstr "Nimeketietue"
+msgstr "Nimeketietue:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:112
 #, c-format
@@ -60904,9 +60903,9 @@ msgstr "Yksikään asiakas ei ole kirjautunut tämän tilauksen hälytyksen seur
 #. %12$s:  t("Koha") | html 
 #. %13$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:11
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s &rsaquo; %s Add suggestion &rsaquo; %s %s %s &rsaquo; %s %s &rsaquo; %s &rsaquo; %s %s"
-msgstr "%s Listan %s sisältö &rsaquo; %s %s Luo uusi lista &rsaquo; %s %s Muokkaa listaa %s &rsaquo; %s Listat &rsaquo; Koha "
+msgstr "%s %s %s %s &rsaquo; %s Lisää hankintaehdotus &rsaquo; %s %s %s &rsaquo; %s %s &rsaquo; %s &rsaquo; %s %s"
 
 #. %1$s:  suggestionid | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:73
@@ -61546,9 +61545,9 @@ msgid "No files found."
 msgstr "Tiedostoja ei löytynyt."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:91
-#, fuzzy, c-format
+#, c-format
 msgid "Additional content"
-msgstr "Lisää lisäsisältöä"
+msgstr "Lisäsisältö"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:130
 #, c-format
@@ -61635,9 +61634,9 @@ msgstr "Luo uusi käyttäen WYSIWYG-editoria"
 #. %6$s:  t("HTML customizations") | html 
 #. %7$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:356
-#, fuzzy, c-format
+#, c-format
 msgid "Additional content: %s %s %s %s %s %s %s "
-msgstr "Julkaisija: %s %s, %s %s %s %s %s "
+msgstr "Lisäsisältö: %s %s %s %s %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:366
 #, c-format
@@ -62013,9 +62012,9 @@ msgstr "Palaa niteiden poiston eräajoon"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:280
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:78
-#, fuzzy, c-format
+#, c-format
 msgid "The job has been enqueued!"
-msgstr "Ilmoitus on jonossa oikein."
+msgstr "Työ on jonossa!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:194
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:64
@@ -62023,9 +62022,9 @@ msgstr "Ilmoitus on jonossa oikein."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:281
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:85
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:79
-#, fuzzy, c-format
+#, c-format
 msgid "It will be processed as soon as possible."
-msgstr "Työ on jonossa! Se käsitellään niin pian kuin mahdollista."
+msgstr "Se käsitellään niin pian kuin mahdollista."
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:196
@@ -62574,9 +62573,9 @@ msgid "whose expiration date is before:"
 msgstr "joiden tili vanhenee ennen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:121
-#, fuzzy, c-format
+#, c-format
 msgid "who have not been active since:"
-msgstr "jotka eivät ole olleet yhteydessä sitten:"
+msgstr "jotka eivät ole olleet aktiivisia sitten:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:127
 #, c-format
@@ -63560,13 +63559,13 @@ msgid "Yearly holiday: %s"
 msgstr "Vuosittainen kiinniolo: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:59
-#, fuzzy, c-format
+#, c-format
 msgid "Import results"
-msgstr "Tuonnin tulos :"
+msgstr "Tuo tulokset"
 
 #. %1$s:  patronlistname | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:68
-#, fuzzy, c-format
+#, c-format
 msgid "Patron list with imported patrons: %s"
 msgstr "Asiakaslista tuoduilla asiakkailla: %s"
 
@@ -63576,9 +63575,9 @@ msgid "Back to Tools"
 msgstr "Takaisin työkaluihin"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:97
-#, fuzzy, c-format
+#, c-format
 msgid "Feedback"
-msgstr "Palaute:"
+msgstr "Palaute"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:102
 #, c-format
@@ -63604,9 +63603,9 @@ msgid "Patron already in database: %s"
 msgstr "Asiakastieto %s on jo olemassa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:122
-#, fuzzy, c-format
+#, c-format
 msgid "Error analysis"
-msgstr "Virheen arviointi:"
+msgstr "Virheen arviointi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:125
 #, c-format
