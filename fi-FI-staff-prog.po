@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-16 08:26+0000\n"
-"PO-Revision-Date: 2023-11-24 03:02+0000\n"
-"Last-Translator: keskital <esa-pekka.keskitalo@helsinki.fi>\n"
+"PO-Revision-Date: 2023-11-24 11:47+0000\n"
+"Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
@@ -15100,9 +15100,9 @@ msgid "Run report "
 msgstr "Aja raportti "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:70
-#, fuzzy, c-format
+#, c-format
 msgid "Run with template "
-msgstr "Kerhopohja "
+msgstr "Aja käyttäen pohjaa "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:85
 #, c-format
@@ -15163,9 +15163,9 @@ msgstr "OpenDocument-taulukkolaskenta"
 
 #. %1$s:  processed_notice_title | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:138
-#, fuzzy, c-format
+#, c-format
 msgid "Rendered template (%s)"
-msgstr "Jaetut pohjat"
+msgstr "Muunnettu pohja (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:141
 #, c-format
@@ -15923,13 +15923,12 @@ msgstr "Olet lisäämässä %s nidettä. Jatketaanko?"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/erm_sushi_harvester.inc:2
 msgid "Creating COUNTER file and processing data"
-msgstr ""
+msgstr "Luodaan COUNTER-tiedosto ja käsitellään tietoja"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/erm_sushi_harvester.inc:2
-#, fuzzy
 msgid "Requesting SUSHI service"
-msgstr "Pyydä artikkelia"
+msgstr "Pyydetään SUSHI-palvelulta"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -19848,9 +19847,9 @@ msgid "System preference 'AnonSuggestions' set, but AnonymousPatron preference i
 msgstr "Järjestelmäasetus 'AnonSuggestions' on asetettu, mutta järjestelmäasetukseen AnonymousPatron on asetettu arvoksi '0'. Aseta siihen kelvollinen asiakkaan ID, jos haluat tämän ominaisuuden toimivan oikein."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:447
-#, fuzzy, c-format
+#, c-format
 msgid "Some patrons have requested a privacy on returning item, but the AnonymousPatron preference is not set correctly. Set it to a valid borrower number or checkins for these patrons will fail."
-msgstr "Jotkut asiakkaat haluavat yksityisyyden niteiden palautuksessa, mutta AnonymousPatron -asetusta ei ole tehty oikein. Aseta siihen kelvollinen asiakkaan ID, jos haluat tämän ominaisuuden toimivan oikein."
+msgstr "Jotkut asiakkaat haluavat yksityisyyden niteiden palautuksessa, mutta AnonymousPatron -asetusta ei ole määritetty oikein. Aseta siihen kelvollinen asiakkaan ID, muuten nämä asiakkaat eivät voi palauttaa lainojaan."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:453
 #, c-format
@@ -19871,7 +19870,7 @@ msgstr "Järjestelmäasetus 'OpacHiddenItems' antaa varoituksen ja tuottaa odott
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:468
 #, c-format
 msgid "System preference 'PatronSelfRegistration' is set, but 'PatronSelfRegistrationDefaultCategory' does not contain a valid patron category code. Patron self-registration is disabled."
-msgstr ""
+msgstr "'PatronSelfRegistration'-järjestelmäasetus on asetettu päälle, mutta 'PatronSelfRegistrationDefaultCategory'-järjestelmäasetukseen ei ole määritetty asiakastyypin tunnusta. Asiakkaiden rekisteröityminen ei toimi."
 
 #. %1$s:  p.syspref | html 
 #. %2$s:  p.value | html 
@@ -19928,19 +19927,19 @@ msgid "You are missing the &lt;template_cache_dir&gt; entry in your koha-conf.xm
 msgstr "Sinulta puuttuu &lt;template_cache_dir&gt; -määritys koha-conf.xml-tiedostosta. Sen käyttöönotto tehostaa toimintaa. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:525
-#, fuzzy, c-format
+#, c-format
 msgid "The PO directory has not been found. See "
-msgstr "Tilausta ei löytynyt."
+msgstr "PO-hakemistoa ei löytynyt. Katso "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:526
-#, fuzzy, c-format
+#, c-format
 msgid "for more information. "
-msgstr "Lisätietoja"
+msgstr "lisätietoja. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:526
 #, c-format
 msgid "the dedicated wiki page"
-msgstr ""
+msgstr "wiki-sivu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:534
 #, c-format
@@ -19948,15 +19947,15 @@ msgid "The ILL module is enabled, but there are no backends available. "
 msgstr "Kaukolainamoduli on käytössä, mutta yhtään kaukolainayhteyttä ei ole saatavissa. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:542
-#, fuzzy, c-format
+#, c-format
 msgid "The ILL module is enabled, but ILLPartnerCode system preference is empty. Falling back to the hardcoded 'IL'. "
-msgstr "Kaukolainamoduli on käytössä, mutta 'partner_code' on määrittelemättä koha-conf.xml-asetuksissa. Käytetään kovakoodattua määritystä 'IL'. "
+msgstr "Kaukolainamoduli on käytössä, mutta ILLPartnerCode-järjestelmäasetus on määrittelemättä. Käytetään kovakoodattua määritystä 'IL'. "
 
 #. %1$s:  ill_partner_code_no_patrons | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:550
 #, c-format
 msgid "The ILL module is enabled and ILLPartnerCode system preference configured, but there are no patrons in %s category. "
-msgstr ""
+msgstr "Kaukolainamoduli on käytössä ja ILLPartnerCode-järjestelmäasetus on määritetty, mutta asiakastyypillä %s ei ole asiakkaita. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:558
 #, c-format
@@ -19965,9 +19964,9 @@ msgstr "Kaukolainamoduli on käytössä, mutta mitään kirjasto-osiota ei ole m
 
 #. %1$s:  ill_partner_code_doesnt_exist | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:566
-#, fuzzy, c-format
+#, c-format
 msgid "The ILL module is enabled, but the configured ILLPartnerCode (%s) is not defined on the system. "
-msgstr "Kaukolainamoduli on käytössä, mutta konfiguroitu 'partner_code' (%s) on määrittelemättä järjestelmässä. "
+msgstr "Kaukolainamoduli on käytössä, mutta määritettyä ILLPartnerCodea (%s) ei ole järjestelmässä. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:574
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:764
@@ -22984,14 +22983,14 @@ msgid "Estimated delivery date"
 msgstr "Arvioitu saapumispvm"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:479
-#, fuzzy, c-format
+#, c-format
 msgid "Statistic 1"
-msgstr "Tilasto 1: "
+msgstr "Tilasto 1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:480
-#, fuzzy, c-format
+#, c-format
 msgid "Statistic 2"
-msgstr "Tilasto 2: "
+msgstr "Tilasto 2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:481
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:193
@@ -23534,9 +23533,8 @@ msgstr "Lisää ryhmään"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:358
-#, fuzzy
 msgid "Are you sure you want to delete this basket group?"
-msgstr "Haluatko varmasti poistaa tämän tilauskorin?"
+msgstr "Haluatko varmasti poistaa tämän tilausryhmän?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:358
@@ -27058,7 +27056,7 @@ msgstr "Alkoi: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:114
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:164
-#, fuzzy, c-format
+#, c-format
 msgid "Ended on: "
 msgstr "Päättyi: "
 
@@ -35731,14 +35729,14 @@ msgid "Check to make this attribute searchable in staff patron searches. If chec
 msgstr "Tällä asiakasmääreellä voi hakea asiakasta virkailijatyökalun asiakashaussa. Jos tässä on valinta, tulee määre näkyville asiakashaun alasvetovalikoihin. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:177
-#, fuzzy, c-format
+#, c-format
 msgid "Search by default: "
-msgstr "Haettu oletusarvon mukaan."
+msgstr "Hae oletuksena: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:183
 #, c-format
 msgid "If checked, this field will be included in 'Standard' patron searches. Requires field to be marked as searchable above "
-msgstr ""
+msgstr "Jos valittuna, tämä kenttä otetaan mukaan Perushakuun asiakashaussa. Vaatii, että kenttä on yllä valittu haettavaksi "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:194
 #, c-format
@@ -35858,14 +35856,14 @@ msgid "%s No limitation %s "
 msgstr "%s Ei tuloksia %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:361
-#, fuzzy, c-format
+#, c-format
 msgid "Searched by default"
-msgstr "Haettu oletusarvon mukaan."
+msgstr "Haetaan Perushaussa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:366
-#, fuzzy, c-format
+#, c-format
 msgid "Not searchable"
-msgstr "Haettavissa"
+msgstr "Ei haettavissa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:380
 #, c-format
@@ -36002,20 +36000,20 @@ msgstr "%s %s Rajoitustyyppi lisätty %s Rajoitustyyppi päivitetty %s Toisella 
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:117
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:144
-#, fuzzy, c-format
+#, c-format
 msgid "Lift after payment: "
-msgstr "Maksa"
+msgstr "Poista maksun jälkeen: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:129
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:151
-#, fuzzy, c-format
+#, c-format
 msgid "Fee limit: "
-msgstr "Ikäraja: "
+msgstr "Maksuraja: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:167
-#, fuzzy, c-format
+#, c-format
 msgid "Confirm restriction type deletion"
-msgstr "Vahvista rajoitustyypin poisto "
+msgstr "Vahvista rajoitustyypin poisto"
 
 #. %1$s:  PROCESS restriction_type_description restriction_type=restriction 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:168
@@ -36024,14 +36022,14 @@ msgid "Are you sure you want to delete '%s'?"
 msgstr "Haluatko varmasti poistaa: '%s'?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:196
-#, fuzzy, c-format
+#, c-format
 msgid "Lift after payment?"
-msgstr "Maksa"
+msgstr "Poistetaanko maksun jälkeen?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:197
-#, fuzzy, c-format
+#, c-format
 msgid "Fee limit"
-msgstr "Ei rajoitusta"
+msgstr "Maksuraja"
 
 #. For the first occurrence,
 #. %1$s:  IF restriction.is_default 
@@ -36291,17 +36289,17 @@ msgstr "Kyllä %s "
 #. %1$s:  IF mapping.filter == 'punctuation' 
 #. %2$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:302
-#, fuzzy, c-format
+#, c-format
 msgid "%sPunctuation%s "
-msgstr "%s Titteli: "
+msgstr "%s Välimerkitys%s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:370
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:373
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:442
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:445
-#, fuzzy, c-format
+#, c-format
 msgid "Punctuation"
-msgstr "Automaatiot"
+msgstr "Välimerkitys"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:456
 #, c-format
@@ -36668,9 +36666,9 @@ msgstr "Ei uusintaa ennen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:593
-#, fuzzy, c-format
+#, c-format
 msgid "No automatic renewal before"
-msgstr "Ei automaattista uusintaa tämän jälkeen"
+msgstr "Ei automaattista uusintaa ennen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:141
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:594
@@ -36723,9 +36721,9 @@ msgstr "Verkkokirjaston nidevaraukset"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:149
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:602
-#, fuzzy, c-format
+#, c-format
 msgid "Holds pickup period (day)"
-msgstr "Palautuspyynnön noutoaika (päivä)"
+msgstr "Varauksen noutoaika (päiviä)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:153
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:606
@@ -36936,7 +36934,7 @@ msgstr "Pakota"
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:377
 msgid "Will use ReservesMaxPickupDelay system preference value (%s)"
-msgstr ""
+msgstr "Käytetään ReservesMaxPickupDelay-järjestelmäasetuksen arvoa (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:389
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:537
@@ -37135,9 +37133,9 @@ msgstr "%s Nide kelluu "
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:793
-#, fuzzy, c-format
+#, c-format
 msgid "%s Item floats by library group "
-msgstr "%s Nide kelluu "
+msgstr "%s Nide kelluu kirjastoryhmän mukaan "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:802
 #, c-format
@@ -37506,7 +37504,7 @@ msgstr "Palautussääntöjä noudatetaan ReservesControBranch-järjestelmäasetu
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1295
 #, c-format
 msgid "When return policy is set to 'item floats by library group' the item's homebranch will be used to find groups."
-msgstr ""
+msgstr "Kun palautussäännöksi on asetettu 'kelluu kirjastoryhmän mukaan', käytetään niteen kotikirjastoa kirjastoryhmän määrittämiseen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1321
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1370
@@ -37579,9 +37577,9 @@ msgstr "Nide kelluu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1351
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1404
-#, fuzzy, c-format
+#, c-format
 msgid "Item floats by library group"
-msgstr "Poista kirjasto ryhmästä"
+msgstr "Nide kelluu kirjastoryhmän mukaan"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1402
 #, c-format
@@ -37809,9 +37807,8 @@ msgstr "Haluatko varmasti muuttaa oletus SMTP-palvelimen?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:324
-#, fuzzy
 msgid "Off"
-msgstr "Ei %s "
+msgstr "Pois päältä"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -37845,7 +37842,7 @@ msgid ": %sYes%sNo%s"
 msgstr ":%sKyllä%sEi%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping.tt:20
-#, fuzzy, c-format
+#, c-format
 msgid "SRU search field mapping for bibliographic records"
 msgstr "Muokkaa SRU-hakukenttien kytköksiä nimeketietueisiin"
 
@@ -37867,9 +37864,9 @@ msgid "Subject: "
 msgstr "Aihe: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:18
-#, fuzzy, c-format
+#, c-format
 msgid "SRU search field mapping for authorities"
-msgstr "Muokkaa SRU-hakukenttien kytköksiä auktoriteeteille"
+msgstr "SRU-hakukenttien kytkökset auktoriteeteille"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:29
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:35
@@ -37921,34 +37918,34 @@ msgstr "Nimeke (yhtenäistetty): "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:72
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:316
-#, fuzzy, c-format
+#, c-format
 msgid "Local use system preferences"
-msgstr "Paikallisten tietojen oletusarvot"
+msgstr "Paikalliset järjestelmäasetukset"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:50
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:309
-#, fuzzy, c-format
+#, c-format
 msgid "New system preference"
-msgstr "Järjestelmäasetus"
+msgstr "Uusi järjestelmäasetus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:66
-#, fuzzy, c-format
+#, c-format
 msgid "System preference deleted"
-msgstr "Järjestelmäasetukset "
+msgstr "Järjestelmäasetus poistettu"
 
 #. %1$s:  IF ( modify ) 
 #. %2$s:  tx("Modify system preference '{searchfield}'", { searchfield = searchfield }) | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:86
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s New local use system preference %s "
-msgstr "%sMuokkaa%sLisää %s järjestelmäasetus "
+msgstr "%s %s %s Uusi paikallinen järjestelmäasetus %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:101
-#, fuzzy, c-format
+#, c-format
 msgid "System preference details"
-msgstr "Järjestelmäasetukset"
+msgstr "Järjestelmäasetusten tiedot"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:103
 #, c-format
@@ -39538,9 +39535,9 @@ msgstr "Lähetetään koriasi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/sendbasketform.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/sendshelfform.tt:37
-#, fuzzy, c-format
+#, c-format
 msgid "Enter message details"
-msgstr "Verkkopalvelu"
+msgstr "Lisää viestin tiedot"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/sendbasketform.tt:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/sendshelfform.tt:39
@@ -39803,24 +39800,24 @@ msgstr "Järjestys"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:107
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:856
-#, fuzzy, c-format
+#, c-format
 msgid "Errors found"
-msgstr "Virheet:"
+msgstr "Löytyi virheitä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:109
-#, fuzzy, c-format
+#, c-format
 msgid "Encoding errors"
-msgstr "Merkistö "
+msgstr "Merkistövirheitä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:110
-#, fuzzy, c-format
+#, c-format
 msgid "There is at least one encoding error with this bibliographic record, the view may be degraded."
-msgstr "Nimeketietueessa on virhe, näkymä voi olla viallinen."
+msgstr "Nimeketietueessa on vähintään yksi merkistövirhe, näkymä voi olla viallinen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:114
-#, fuzzy, c-format
+#, c-format
 msgid "Analytics errors"
-msgstr "Kausijulkaisut"
+msgstr "Osakohdevirheitä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:115
 #, c-format
@@ -40442,14 +40439,13 @@ msgstr "Laskun tiedot"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:869
-#, fuzzy
 msgid "EDI INVOICE message"
-msgstr "EDIFACT-sanoma"
+msgstr "EDI INVOICE -sanoma"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:869
-#, fuzzy, c-format
+#, c-format
 msgid "EDI message"
-msgstr "EDIFACT-sanoma"
+msgstr "EDI-sanoma"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:895
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:360
@@ -40775,9 +40771,8 @@ msgstr "Haluatko varmasti poistaa tämän kansikuvan?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1483
-#, fuzzy
 msgid "Coce image from Amazon.com"
-msgstr "Kansikuva Amazon.comilta"
+msgstr "Coce-kuva Amazon.comilta"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1483
@@ -41204,15 +41199,13 @@ msgstr "Viivakooditiedosto"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
-#, fuzzy
 msgid "Barcode file"
-msgstr "Viivakooditiedosto:"
+msgstr "Viivakooditiedosto"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
-#, fuzzy
 msgid "Batch operations"
-msgstr "Haun asetukset"
+msgstr "Erätoiminnot"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
@@ -41221,9 +41214,8 @@ msgstr "Tyhjennä valinta"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
-#, fuzzy
 msgid "Damaged status"
-msgstr "Vahingoittunut:"
+msgstr "Vahingoittunut-tila"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -41272,15 +41264,13 @@ msgstr "Valitse näkyvillä olevat rivit"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
-#, fuzzy
 msgid "Send selected items to batch item deletion"
-msgstr "Lähetä näkyvät niteet niteiden eräpoistoon"
+msgstr "Vie valitut niteet niteiden eräpoistoon"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
-#, fuzzy
 msgid "Send selected items to batch item modification"
-msgstr "Lähetä näkyvät niteet niteiden erämuokkaukseen"
+msgstr "Vie valitut niteet niteiden erämuokkaukseen"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -41464,9 +41454,9 @@ msgid "Collection:"
 msgstr "Kokoelma:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:140
-#, fuzzy, c-format
+#, c-format
 msgid "Item call number:"
-msgstr "Niteen luokka"
+msgstr "Niteen luokka:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:142
 #, c-format
@@ -41577,7 +41567,7 @@ msgstr "Pankkikelpoinen"
 #. %4$s:  END 
 #. %5$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:366
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s Yes %s No %s %s "
 msgstr "%s %sKyllä%sEi%s %s "
 
@@ -42092,9 +42082,9 @@ msgstr "Valituilla hauilla: "
 #. %3$s:  t("Koha") | html 
 #. %4$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showelastic.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "%s Elasticsearch record &rsaquo; %s &rsaquo; %s %s"
-msgstr "Elasticsearch tietue &rsaquo; Kuvailu &rsaquo; Koha"
+msgstr "%s Elasticsearch-tietue &rsaquo; %s &rsaquo; %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:31
 #, c-format
@@ -42244,9 +42234,9 @@ msgstr "Tässä tietueessa on koodausongelmia, ei-xml-muotoiset merkit on poiste
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:864
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:47
-#, fuzzy, c-format
+#, c-format
 msgid "Advanced editor: "
-msgstr "Kehittynyt editori"
+msgstr "Kehittynyt editori: "
 
 #. %1$s:  IF ( biblionumber ) 
 #. %2$s:  title | $HtmlTags tag="em" 
@@ -44124,14 +44114,14 @@ msgid "Cancel recall"
 msgstr "Peruuta palautuspyyntö"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:347
-#, fuzzy, c-format
+#, c-format
 msgid "Reducing due date to: "
-msgstr "Määrittele eräpäivä %s: "
+msgstr "Eräpäivä lyhennetään tähän päivään: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:353
-#, fuzzy, c-format
+#, c-format
 msgid "Allow early collection? "
-msgstr "Kaikki kokoelmat"
+msgstr "Salli aikainen haku? "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:362
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:387
@@ -44563,14 +44553,14 @@ msgstr "Lista viivakoodeista (koodi per rivi): "
 
 #. %1$s:  INCLUDE 'date-format.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:109
-#, fuzzy, c-format
+#, c-format
 msgid "Hard due date: %s"
-msgstr "Eräpäivä %s:"
+msgstr "Kiinteä eräpäivä: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:116
-#, fuzzy, c-format
+#, c-format
 msgid "On-site checkout:"
-msgstr "On-site -lainat"
+msgstr "On-site -lainaus:"
 
 #. %1$s:  IF patron 
 #. %2$s:  INCLUDE 'patron-title.inc' invert_name = 1 
@@ -45427,9 +45417,9 @@ msgstr "%s%s%sKuittipohjia ei löydy%s "
 #. %6$s:  END 
 #. %7$s:  IF slips.size > 1 && !loop.last
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s%s%sNo slip template found%s %s %s"
-msgstr "%s %s%s%sKuittipohjaa ei löytynyt%s %s %s "
+msgstr "%s %s%s%sKuittipohjaa ei löytynyt%s %s %s"
 
 # sumea arvaus
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:48
@@ -45857,15 +45847,15 @@ msgstr "Siirto peruutettiin kuljetuksen aikana"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:139
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1287
-#, fuzzy, c-format
+#, c-format
 msgid "Recall"
-msgstr "Palautuspyynnöt"
+msgstr "Palautuspyyntö"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1288
-#, fuzzy, c-format
+#, c-format
 msgid "Cancelled recall"
-msgstr "Peruuta palautuspyyntö"
+msgstr "Peruutettu palautuspyyntö"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:153
 #, c-format
@@ -46471,9 +46461,9 @@ msgid "Transfer to"
 msgstr "Kuljeta pisteeseen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1225
-#, fuzzy, c-format
+#, c-format
 msgid "Transfer reason"
-msgstr "Kuljeta pisteeseen"
+msgstr "Kuljetuksen syy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1228
 #, c-format
@@ -46759,7 +46749,7 @@ msgstr "Vain nide:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:197
 #, c-format
 msgid "/strong> "
-msgstr ""
+msgstr "/strong> "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:197
 #, c-format
@@ -46846,9 +46836,9 @@ msgid "Holds waiting:"
 msgstr "Odottavia varauksia:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:102
-#, fuzzy, c-format
+#, c-format
 msgid "Holds waiting past their expiration date:"
-msgstr "Varaukset noudettavissa muista kirjastoista (%s)"
+msgstr "Varaukset, joiden noutoaika on umpeutunut:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:105
 #, c-format
