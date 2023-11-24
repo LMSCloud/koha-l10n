@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-16 08:26+0000\n"
-"PO-Revision-Date: 2023-11-24 03:02+0000\n"
+"PO-Revision-Date: 2023-11-25 03:01+0000\n"
 "Last-Translator: Caroline Cyr-La-Rose <caroline.cyr-la-rose@inlibro.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-CA\n"
@@ -2080,9 +2080,9 @@ msgstr "Raccourcis clavier"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:289
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:30
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:117
-#, fuzzy, c-format
+#, c-format
 msgid "Interlibrary loan batch statuses"
-msgstr "Tables des prêts entre bibliothèques"
+msgstr "Statuts pour les lots de demandes de PEB"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/adv-search.inc:18
@@ -2723,9 +2723,8 @@ msgstr "Annuler"
 
 #. INPUT type=reset
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:182
-#, fuzzy
 msgid "Clear form"
-msgstr "Effacer le formatage"
+msgstr "Vider le formulaire"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:4
 #, c-format
@@ -3628,37 +3627,36 @@ msgstr "Impossible de créer un titre de fonds électronique à partir de la not
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:11
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:56
-#, fuzzy, c-format
+#, c-format
 msgid "Usage data provider"
-msgstr "Gérer les fournisseurs d'identité "
+msgstr "Fournisseurs de données d'utilisation"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:12
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:57
-#, fuzzy
 msgid "Visit usage data provider"
-msgstr "Utilisateurs qui utilisent ce fournisser"
+msgstr "Voir le fournisseur de données d'utilisation"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:15
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:60
-#, fuzzy, c-format
+#, c-format
 msgid "Report type"
-msgstr "Type de la notice "
+msgstr "Type de rapport"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:19
-#, fuzzy, c-format
+#, c-format
 msgid "Report rows processed"
-msgstr "%s répertoires traités."
+msgstr "Lignes de rapports traitées"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:24
-#, fuzzy, c-format
+#, c-format
 msgid "Platforms added"
-msgstr "Exemplaires ajoutés"
+msgstr "Plateformes ajoutées"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:26
-#, fuzzy, c-format
+#, c-format
 msgid "Databases added"
-msgstr "Données ajoutées"
+msgstr "Bases de données ajoutées"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_add_items.tt:164
@@ -3672,29 +3670,29 @@ msgid "Titles added"
 msgstr "Titres ajoutés"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:35
-#, c-format, fuzzy
+#, c-format
 msgid "Monthly usages skipped"
-msgstr "Usages mensuelles ignorées"
+msgstr "Utilisations mensuelles ignorées"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:39
-#, fuzzy, c-format
+#, c-format
 msgid "Monthly usages added"
-msgstr "Données obligatoires ajoutées"
+msgstr "Utilisations mensuelles ajoutées"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:43
 #, c-format
 msgid "Yearly usages skipped"
-msgstr ""
+msgstr "Utilisations annuelles ignorées"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:47
 #, c-format
 msgid "Yearly usages added"
-msgstr ""
+msgstr "Utilisations annuelles ajoutées"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:89
 #, c-format
 msgid "already exists in this data provider and was not created. New usage statistics were verified anyway"
-msgstr ""
+msgstr "existe déjà pour ce fournisseur de données et n'a pas été créé. Les nouvelles statistiques d'utilisation ont tout de même été vérifiées"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:91
 #, c-format
@@ -3720,12 +3718,12 @@ msgstr "Corrigez la situation en augmentant cette limite ou en réduisant la pé
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:98
 #, c-format
 msgid "SUSHI response returned no items."
-msgstr ""
+msgstr "Aucun résultat dans la réponse SUSHI."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:99
-#, fuzzy, c-format
+#, c-format
 msgid "Please try a different harvest period."
-msgstr "Veuillez réessayer plus tard"
+msgstr "Veuillez réessayer avec une période de moissonnage différente."
 
 #. %1$s:  m.message | html 
 #. %2$s:  m.code | html 
@@ -8995,27 +8993,27 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:17
 #, c-format
 msgid "Include this content in the popup message which is displayed in the OPAC when the CookieConsent system preference is enabled and the user clicks the \"Your cookies\" menu item in the header. "
-msgstr ""
+msgstr "Inclure ce contenu dans le message pop-up affiché dans l'OPAC lorsque la préférence système CookieConsent est activée et que l'utilisateur clique sur le lien \"Vos témoins\" dans le menu de l'entête. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:21
 #, c-format
 msgid "Include this content in the footer of all pages in the OPAC. "
-msgstr ""
+msgstr "Inclure ce contenu dans le pied de page de toutes les pages de l'OPAC. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:25
 #, c-format
 msgid "Replace the search box at the top of OPAC pages with this content. "
-msgstr ""
+msgstr "Remplacer la boîte de recherche en haut des pages à l'OPAC avec ce contenu. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:29
 #, c-format
 msgid "Include this content in the header of all pages in the OPAC. "
-msgstr ""
+msgstr "Inclure ce contenu dans l'entête de toutes les pages de l'OPAC. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:33
 #, c-format
 msgid "Include this content on the library information page in the OPAC. "
-msgstr ""
+msgstr "Inclure ce contenu dans la page d'informations sur la bibliothèque dans l'OPAC. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:37
 #, c-format
@@ -14660,7 +14658,7 @@ msgstr "Liste d'attente"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/preservation-menu.inc:8
 #, c-format
 msgid "Trains"
-msgstr "Trains"
+msgstr "Lots"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/preservation-search.inc:7
@@ -14678,7 +14676,7 @@ msgstr "Navigation dans les résultats de recherche"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/preservation-toolbar.inc:4
 #, c-format
 msgid "New train"
-msgstr "Nouveau train"
+msgstr "Nouveau lot"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:56
@@ -38723,7 +38721,7 @@ msgstr "Aucun paramètrage de champ de recherche SRU n'a été défini. Cela sig
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:153
 #, c-format
 msgid "Error:"
-msgstr "Erreur :"
+msgstr "Erreur&nbsp;:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:53
 #, c-format
@@ -39941,7 +39939,7 @@ msgstr "Image provenant de Coce"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:260
 #, c-format
 msgid "No cover image available"
-msgstr "Aucune image de couverture disponible"
+msgstr "Aucune image de couverture"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:254
@@ -53681,7 +53679,7 @@ msgstr "Le répertoire de téléversement temporaire n'a pas été défini"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:265
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:345
 msgid "Upload status: "
-msgstr "Statut du téléversement : "
+msgstr "Statut du téléversement&nbsp;: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep1.tt:18
 #, c-format
@@ -61911,7 +61909,7 @@ msgstr "Liste de règles"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:222
 #, c-format
 msgid "Age"
-msgstr "Age"
+msgstr "Âge"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:235
 #, c-format
