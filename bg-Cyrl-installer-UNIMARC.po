@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:06-0300\n"
-"PO-Revision-Date: 2023-11-24 12:43+0000\n"
+"PO-Revision-Date: 2023-11-26 03:01+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -239,7 +239,7 @@ msgstr "Координати в шестдесетична форма (град�
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:63
 msgid "Co-ordinates in decimal degrees ‒ Westernmost Longitude"
-msgstr "Координати в десетични градуси - най-източната дължина"
+msgstr "Координати в десетични градуси - най-западна географска дължина"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:64
 msgid "Co-ordinates in decimal degrees ‒ Easternmost Longitude"
@@ -523,7 +523,7 @@ msgstr "Други отличителни характеристики на пр
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:196
 msgid "Authority record identifier for the related work."
-msgstr "Идентификатор на запис на класификатор за свързаната работа"
+msgstr "Идентификатор на запис на класификатор за свързаната работа."
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:199
 msgid "Title [Work]"
@@ -623,7 +623,7 @@ msgstr "Име [Произведение]"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:292
 msgid "Addition to Name or Qualifier"
-msgstr "Добавка към име или квалификатор"
+msgstr "Добавка към име или класификатор"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:293
 msgid "Name of the other party"
@@ -859,26 +859,23 @@ msgstr "Филиал/Адрес"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:1085
 msgid "Subdivision (or name if entered under place)"
-msgstr ""
+msgstr "Подразделение (или име, ако е поставено под мястото)"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:1087
 msgid "Number of Meeting and/or Number of Part of a Meeting"
 msgstr "Пореден номер на временната организация и/или пореден номер на нейната част"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:1088
-#, fuzzy
 msgid "Location of Meeting"
 msgstr "Място на провеждане на конференцията, семинара и други"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:1089
-#, fuzzy
 msgid "Date of Meeting"
-msgstr "Време на събитието"
+msgstr "Дата на конференцията, семинара и проч."
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:1090
-#, fuzzy
 msgid "Inverted Element"
-msgstr "Интегриран запис"
+msgstr "Обърнат елемент"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:1091
 msgid "Part of Name other than Entry Element and Inverted Element"
@@ -902,7 +899,7 @@ msgstr "Щат, провинция или област"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:1135
 msgid "Intermediate Political Jurisdiction."
-msgstr "Средно голяма политическа юрисдикция"
+msgstr "Средно голяма политическа юрисдикция."
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:1142
 msgid "Subsection of City, etc."
@@ -1158,7 +1155,7 @@ msgstr "Контролен номер на записа"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:1568
 msgid "Nonpublic note"
-msgstr "Служебна забележка"
+msgstr "Служебна бележка"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_subfield_structure:3:row:1569
 msgid "Access method"
@@ -1294,79 +1291,79 @@ msgstr "Поле с кодирани данни: Форма, жанр или ф�
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:30
 msgid "Authorized Access Point - Personal Name"
-msgstr "Оторизирана точка за достъп - Лично име"
+msgstr "Оторизирана точка за връзка - Лично име"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:31
 msgid "Authorized Access Point - Corporate Body Name"
-msgstr "Оторизирана точка за достъп - Корпоративно име"
+msgstr "Оторизирана точка за връзка - Корпоративно име"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:32
 msgid "Authorized Access Point - Territorial or Geographical Name"
-msgstr "Оторизирана точка за достъп - Териториално или географско име"
+msgstr "Оторизирана точка за връзка - Териториално или географско име"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:33
 msgid "Authorized Access Point - Trademark"
-msgstr "Оторизирана точка за достъп - Търговска марка"
+msgstr "Оторизирана точка за връзка - Търговска марка"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:34
 msgid "Authorized Access Point - Printer/Publisher Device"
-msgstr "Оторизирана точка за достъп - Издател"
+msgstr "Оторизирана точка за връзка - Издател"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:35
 msgid "Authorized Access Point - Family Name"
-msgstr "Оторизирана точка за достъп - Фамилно име"
+msgstr "Оторизирана точка за връзка - Фамилно име"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:36
 msgid "Authorized Access Point - Character"
-msgstr "Оторизирана точка за достъп - символ"
+msgstr "Оторизирана точка за връзка - символ"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:37
 msgid "Authorized Access Point - Title"
-msgstr "Оторизирана точка за достъп - Заглавие"
+msgstr "Оторизирана точка за връзка - Заглавие"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:38
 msgid "Authorized Access Point - Title (Work)"
-msgstr "Оторизирана точка за достъп - Заглавие (творба)"
+msgstr "Оторизирана точка за връзка - Заглавие (творба)"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:39
 msgid "Authorized Access Point - Title (Expression) (Provisional)"
-msgstr "Оторизирана точка за достъп - Заглавие (израз) (условно)"
+msgstr "Оторизирана точка за връзка - Заглавие (израз) (условно)"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:40
 msgid "Authorized Access Point - Collective Title"
-msgstr "Оторизирана точка за достъп - Колективно заглавие"
+msgstr "Оторизирана точка за връзка - Колективно заглавие"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:41
 msgid "Authorized Access Point - Name/Title"
-msgstr "Оторизирана точка за достъп - Име/Заглавие"
+msgstr "Оторизирана точка за връзка - Име/Заглавие"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:42
 msgid "Authorized Access Point - Name/Title (Work)"
-msgstr "Оторизирана точка за достъп - Име/Заглавие (творба)"
+msgstr "Оторизирана точка за връзка - Име/Заглавие (творба)"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:43
 msgid "Authorized Access Point - Name/Title (Expression)"
-msgstr "Оторизирана точка за достъп - Име/Колективно заглавие (израз)"
+msgstr "Оторизирана точка за връзка - Име/Колективно заглавие (израз)"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:44
 msgid "Authorized Access Point - Conventional Name/Title for Legal and Religious Texts"
-msgstr "Оторизирана точка за достъп - Конвенционално име/заглавие за правни и религиозни текстове"
+msgstr "Оторизирана точка за връзка - Конвенционално име/заглавие за правни и религиозни текстове"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:45
 msgid "Authorized Access Point - Name/Collective Title"
-msgstr "Оторизирана точка за достъп - Име/Колективно заглавие"
+msgstr "Оторизирана точка за връзка - Име/Колективно заглавие"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:46
 msgid "Authorized Access Point - Topical Subject"
-msgstr "Оторизирана точка за достъп - Тема"
+msgstr "Оторизирана точка за връзка - Тема"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:47
 msgid "Authorized Access Point - Place and Date of Publication, Performance, Provenance, etc."
-msgstr "Оторизирана точка за достъп - Място и дата на публикуване, изпълнение, произход и др."
+msgstr "Оторизирана точка за връзка - Място и дата на публикуване, изпълнение, произход и др."
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:48
 msgid "Authorized Access Point - Form, Genre or Physical Characteristics"
-msgstr "Оторизирана точка за достъп - Форма, жанр или физически характеристики"
+msgstr "Оторизирана точка за връзка - Форма, жанр или физически характеристики"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:49
 msgid "Information Note"
@@ -1638,75 +1635,75 @@ msgstr "Друг класификационен индекс"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:118
 msgid "Authorized Access Point in Other Language and/or Script - Personal Name"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Лично име"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Лично име"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:119
 msgid "Authorized Access Point in Other Language and/or Script - Corporate Body Name"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Корпоративно име"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Корпоративно име"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:120
 msgid "Authorized Access Point in Other Language and/or Script - Territorial or Geographical Name"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Териториално или географско име"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Териториално или географско име"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:121
 msgid "Authorized Access Point in Other Language and/or Script - Trademark"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Търговска марка"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Търговска марка"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:122
 msgid "Authorized Access Point in Other Language and/or Script - Printer/Publisher Device"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Издател"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Издател"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:123
 msgid "Authorized Access Point in Other Language and/or Script - Family Name"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Фамилно име"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Фамилно име"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:124
 msgid "Authorized Access Point in Other Language and/or Script - Character"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Символ"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Символ"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:125
 msgid "Authorized Access Point in Other Language and/or Script - Title"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Заглавие"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Заглавие"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:126
 msgid "Authorized Access Point in Other Language and/or Script - Title (Work)"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Заглавие (произведение)"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Заглавие (произведение)"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:127
 msgid "Authorized Access Point in Other Language and/or Script - Title (Expression) (Provisional)"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Заглавие (Израз) (Условно)"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Заглавие (Израз) (Условно)"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:128
 msgid "Authorized Access Point in Other Language and/or Script - Name/Title"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Име/Заглавие"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Име/Заглавие"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:129
 msgid "Authorized Access Point in Other Language and/or Script - Name/Title (Work)"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Име/Заглавие (произведение)"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Име/Заглавие (произведение)"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:130
 msgid "Authorized Access Point in Other Language and/or Script - Name/Title (Expression)"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Име/Заглавие (израз)"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Име/Заглавие (израз)"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:131
 msgid "Authorized Access Point in Other Language and/or Script - Conventional Name/Title for Legal and Religious Texts"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Конвенционално име/заглавие за правни и религиозни текстове"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Конвенционално име/заглавие за правни и религиозни текстове"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:132
 msgid "Authorized Access Point in Other Language and/or Script - Name/Collective Title"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Име/Колективно заглавие"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Име/Колективно заглавие"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:133
 msgid "Authorized Access Point in Other Language and/or Script - Topical Subject"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Тема"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Тема"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:134
 msgid "Authorized Access Point in Other Language and/or Script - Place and Date of Publication, Performance, Provenance, etc."
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Място и дата на публикуване, изпълнение, произход и др."
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Място и дата на публикуване, изпълнение, произход и др."
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:135
 msgid "Authorized Access Point in Other Language and/or Script - Form, Genre or Physical Characteristics"
-msgstr "Оторизирана точка за достъп на друг език и/или азбука - Форма, жанр или физически характеристики"
+msgstr "Оторизирана точка за връзка на друг език и/или азбука - Форма, жанр или физически характеристики"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_tag_structure:2:row:136
 msgid "Originating Source"
@@ -1773,12 +1770,10 @@ msgid "[210a ][ (210c)][. 210b][ -- 210d][ ; 210e][ ; 210f][ -- 210x][ -- 210z][
 msgstr "[210a ][ (210c)][. 210b][ -- 210d][ ; 210e][ ; 210f][ -- 210x][ -- 210z][ -- 210y]"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_types:1:row:4
-#, fuzzy
 msgid "Territorial or Geographical Name"
-msgstr "Топоним"
+msgstr "Териториално или географско име"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_types:1:row:4
-#, fuzzy
 msgid "[215a][ -- 215x][ -- 215y][ -- 215z]"
 msgstr "[215a][ -- 215x][ -- 215y][ -- 215z]"
 
@@ -1787,7 +1782,6 @@ msgid "Trademark"
 msgstr "Търговска марка"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/authorities_normal_unimarc.yml:auth_types:1:row:5
-#, fuzzy
 msgid "[216a][  (216f)][ ; 216c][ -- 216j][ -- 216x][ -- 216y][ -- 216z]"
 msgstr "[216a][  (216f)][ ; 216c][ -- 216j][ -- 216x][ -- 216y][ -- 216z]"
 
@@ -2245,7 +2239,7 @@ msgstr "Грешен ISBN"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:13
 msgid "Number (ISSN)"
-msgstr "Номер  (ISSN)"
+msgstr "Номер (ISSN)"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:16
 msgid "ISSN-L or linking ISSN"
@@ -2744,9 +2738,8 @@ msgid "First Statement of Responsibility"
 msgstr "Първи сведения за авторска отговорност"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:203
-#, fuzzy
 msgid "Subsequent Statement of Responsibility"
-msgstr "Сведения за авторската отговорност"
+msgstr "Последващо сведение за авторската отговорност"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:204
 msgid "Number of a Part"
@@ -2766,17 +2759,15 @@ msgstr "Масови дати"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:208
 msgid "Title page information following the title proper (for older monographic publications)"
-msgstr ""
+msgstr "Информация за заглавната страница след основното заглавие (за по-стари монографични публикации)"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:209
-#, fuzzy
 msgid "Volume Designation"
 msgstr "Информация за том"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:210
-#, fuzzy
 msgid "Language of Parallel Title Proper"
-msgstr "Код на езика на преведеното заглавие"
+msgstr "Език на паралелното заглавие"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:211
 msgid "Content form"
@@ -2787,28 +2778,24 @@ msgid "Content qualification"
 msgstr "Квалификация на съдържанието"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:213
-#, fuzzy
 msgid "Media type"
-msgstr "Вид носител: "
+msgstr "Вид носител"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:215
 msgid "Issue Statement"
 msgstr "Сведения за изданиението"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:216
-#, fuzzy
 msgid "Parallel Edition Statement"
-msgstr "Тираж"
+msgstr "Заявление за паралелното издание"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:217
-#, fuzzy
 msgid "Statement of Responsibility Relating to Edition"
-msgstr "Сведения за авторската отговорност и проч."
+msgstr "Сведение за отговорност, отнасяща се към изданието"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:219
-#, fuzzy
 msgid "Mathematical Data Statement"
-msgstr "Математически"
+msgstr "Изявление за математически данни"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:220
 msgid "Statement of scale"
@@ -2823,9 +2810,8 @@ msgid "Statement of coordinates"
 msgstr "Сведения за координати"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:223
-#, fuzzy
 msgid "Right ascension and declination"
-msgstr "Ректасцензия – източна граница"
+msgstr "Ректасцензия и деклинация"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:224
 msgid "Statement of equinox"
@@ -2833,23 +2819,21 @@ msgstr "Сведения за равноденствие"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:225
 msgid "Numbering: Dates and Volume Designations"
-msgstr ""
+msgstr "Номерация: дати и означения на томове"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:226
-#, fuzzy
 msgid "Source of Numbering Information"
-msgstr "Източник на информация"
+msgstr "Източник на информация за номериране"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:227
 msgid "Printed Music Specific Statement"
-msgstr ""
+msgstr "Форма на представяне на нотен текст"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:228
 msgid "Parallel Printed Music Specific Statement(s)"
-msgstr ""
+msgstr "Паралелна информация за формата на представяне на нотен текст"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:229
-#, fuzzy
 msgid "Place of Publication, Distribution, etc."
 msgstr "Място на издаване, разпространение и проч."
 
@@ -2858,17 +2842,14 @@ msgid "Address of Publisher, Distributor, etc."
 msgstr "Адрес на издателя, разпространителя и проч."
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:231
-#, fuzzy
 msgid "Name of Publisher, Distributor, etc."
 msgstr "Име на издателя, разпространителя и проч."
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:232
-#, fuzzy
 msgid "Date of Publication, Distribution, etc."
-msgstr "Година на издаване, разпространение и проч."
+msgstr "Дата на издаване, разпространение и проч."
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:233
-#, fuzzy
 msgid "Place of Manufacture"
 msgstr "Място на отпечатване/производство"
 
@@ -2877,25 +2858,22 @@ msgid "Address of Manufacturer"
 msgstr "Адрес на печатницата"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:235
-#, fuzzy
 msgid "Name of Manufacturer"
-msgstr "Дата на производство"
+msgstr "Име на производителя"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:236
-#, fuzzy
 msgid "Date of Manufacture"
 msgstr "Дата на производство"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:237
 msgid "Printing and/or publishing information transcribed as found in the main source of information"
-msgstr ""
+msgstr "Отпечатване и/или публикуване на информация, транскрибирана, която се намира в основния източник на информация"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:238
 msgid "Printing and/or publishing information transcribed as found in the colophon"
-msgstr ""
+msgstr "Отпечатване и/или публикуване на информация, транскрибирана, която се намира в колофона"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:240
-#, fuzzy
 msgid "Place of Publication, Production, Distribution or Manufacture"
 msgstr "Място на издаване, продуциране, разпространение, изработка"
 
@@ -2904,35 +2882,30 @@ msgid "Address of Publisher, Producer, Distributor or Manufacturer"
 msgstr "Адрес на издателя, разпространителя, дистрибутора или печатницата"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:242
-#, fuzzy
 msgid "Name of Publisher, Producer, Distributor or Manufacturer"
-msgstr "Име на издател, разпространител и проч."
+msgstr "Име на издателя, продуцента, дистрибутора или производителя"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:243
-#, fuzzy
 msgid "Date of Publication, Production, Distribution or Manufacture or Copyright Notice"
 msgstr "Дата на издаване, разпространение, изработка и обявяване на авторското право"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:244
 msgid "Printing and/or Publishing Information Transcribed as Found in the Main Source of Information"
-msgstr ""
+msgstr "Отпечатване и/или публикуване на информация, транскрибирана, която се намира в основния източник на информация"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:245
 msgid "Printing and/or Publishing Information Transcribed as Found in the Colophon"
-msgstr ""
+msgstr "Отпечатване и/или публикуване на информация, транскрибирана, която се намира в колофона"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:246
-#, fuzzy
 msgid "Specific Material Designation and Extent of Item"
-msgstr "Специфично обозначение на материала"
+msgstr "Специфично обозначение на материала и обхват на произведението"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:247
-#, fuzzy
 msgid "Materials and Technique display"
-msgstr "Материална основа и форма"
+msgstr "Показване на материали и техника"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:248
-#, fuzzy
 msgid "Other Physical Details"
 msgstr "Други физически данни"
 
@@ -2949,47 +2922,40 @@ msgid "Series Title"
 msgstr "Заглавие на серията"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:253
-#, fuzzy
 msgid "Parallel Series Title"
-msgstr "Заглавие на серията"
+msgstr "Заглавие на паралелната серия"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:255
-#, fuzzy
 msgid "Statement of Responsibility"
 msgstr "Сведения за авторската отговорност"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:259
-#, fuzzy
 msgid "ISSN of Series"
-msgstr "Серия"
+msgstr "ISSN серия"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:260
-#, fuzzy
 msgid "Language of Parallel Title"
-msgstr "Код на езика на преведеното заглавие"
+msgstr "Език на паралелно заглавие"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:261
 msgid "Designation and extent of file"
-msgstr ""
+msgstr "Обозначение и размер на файла"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:264
 msgid "File type"
 msgstr "Тип на файла"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:265
-#, fuzzy
 msgid "Encoding standard"
-msgstr "Кодиране: "
+msgstr "Стандарт на кодировката"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:266
-#, fuzzy
 msgid "Version of encoding standard"
-msgstr "Метод за вертикално кодиране"
+msgstr "Версия на стандарта за кодиране"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:267
-#, fuzzy
 msgid "Details of encoding standard"
-msgstr "Подробности за кредит"
+msgstr "Подробности за стандарта на кодиране"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:269
 msgid "Resolution"
@@ -3013,20 +2979,19 @@ msgstr "Аранжимент"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:274
 msgid "Level"
-msgstr ""
+msgstr "Ниво"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:278
 msgid "Carrier Type Designation"
 msgstr "Обозначаване на вид предназначение"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:294
-#, fuzzy
 msgid "Institution and Copy to Which Field Applies"
-msgstr "Институция, за която се отнася областта"
+msgstr "Институция, за която се отнася полето"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:297
 msgid "Uniform Resource Identifier."
-msgstr "Универсален идентификатор на ресурси (URI)"
+msgstr "Универсален идентификатор на ресурси (URI)."
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:304
 msgid "Action"
@@ -3037,9 +3002,8 @@ msgid "Action Identification"
 msgstr "Идентификация на действието"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:306
-#, fuzzy
 msgid "Time of Action"
-msgstr "Момент на извършване на действието"
+msgstr "Време на извършване на действието"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:307
 msgid "Action Interval"
@@ -3058,12 +3022,10 @@ msgid "Jurisdiction"
 msgstr "Юрисдикция"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:311
-#, fuzzy
 msgid "Method of Action."
-msgstr "Метод на действие"
+msgstr "Метод на действие."
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:312
-#, fuzzy
 msgid "Site of Action"
 msgstr "Място на действие"
 
@@ -3080,28 +3042,24 @@ msgid "Extent"
 msgstr "Обем"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:316
-#, fuzzy
 msgid "Type of Unit"
 msgstr "Вид мерна единица"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:317
-#, fuzzy
 msgid "Non-public Note"
 msgstr "Служебна забележка"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:318
-#, fuzzy
 msgid "Public Note"
-msgstr "Забележка за публиката/Публична бележка"
+msgstr "Публична бележка"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:324
 msgid "Name of source"
 msgstr "Име на използвания източник"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:325
-#, fuzzy
 msgid "Dates of Coverage"
-msgstr "Време на събитието"
+msgstr "Дати на покритие"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:326
 msgid "Location within source"
@@ -3112,14 +3070,12 @@ msgid "Uniform Resource Identifier (URI)"
 msgstr "Универсален идентификатор на ресурси (URI)"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:328
-#, fuzzy
 msgid "International Standard Number"
-msgstr "Международен стандартен номер на книгата (ISBN)"
+msgstr "Международен стандартен номер"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:332
-#, fuzzy
 msgid "Text of Unstructured Note"
-msgstr "Текст на забележката"
+msgstr "Текст на неструктурирана бележка"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:333
 msgid "Type of reproduction"
@@ -3134,14 +3090,12 @@ msgid "Agency Responsible for the Reproduction"
 msgstr "Агенция, отговорна за размножаването"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:336
-#, fuzzy
 msgid "Date of publication for the reproduction"
-msgstr "Страна на издаване или създаване"
+msgstr "Дата на публикуване за възпроизвеждане"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:337
-#, fuzzy
 msgid "Physical description of the reproduction"
-msgstr "Физическа характеристика на копието"
+msgstr "Физическо описание на репродукцията"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:338
 msgid "Series statement for the reproduction"
@@ -3152,9 +3106,8 @@ msgid "Completeness of the reproduction code"
 msgstr "Пълнота на кода за възпроизвеждане"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:340
-#, fuzzy
 msgid "Coverage of the reproduction"
-msgstr "Дата на създаване на копието"
+msgstr "Охват на изпълнение"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:341
 msgid "Terms of access to the reproduction"
@@ -3226,25 +3179,23 @@ msgstr "Заглавие на подвид от ниво 8"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:359
 msgid "Sequence of pages or first page of a subdivision"
-msgstr ""
+msgstr "Последователност от страници или първа страница от подраздел"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:361
 msgid "Other information concerning a subdivision"
-msgstr ""
+msgstr "Друга информация относно подраздел"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:363
 msgid "Dissertation or thesis details and type of degree"
-msgstr ""
+msgstr "Подробности за дисертацията и вид научна степен"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:364
-#, fuzzy
 msgid "Discipline of degree"
-msgstr "Описание на задълженията"
+msgstr "Научна степен дисциплина"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:365
-#, fuzzy
 msgid "Date of degree"
-msgstr "Дата на поръчка"
+msgstr "Дата на получаване на научна степен"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:366
 msgid "Body granting the degree"
@@ -3252,65 +3203,55 @@ msgstr "Орган, издаващ степента"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:367
 msgid "Title of other edition of dissertation or thesis"
-msgstr ""
+msgstr "Заглавие на друго издание на дисертация или тезис"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:368
-#, fuzzy
 msgid "Text preceding or following the note"
-msgstr "Променете записа чрез следния шаблон: "
+msgstr "Текст пред или след бележката"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:370
 msgid "Preferred Citation"
 msgstr "Предпочитан метод за цитиране"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:372
-#, fuzzy
 msgid "Text of awards note"
-msgstr "Текст на забележката"
+msgstr "Текст на бележката за награди"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:373
-#, fuzzy
 msgid "Name of award"
-msgstr "Ден от седмицата"
+msgstr "Име на наградата"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:374
-#, fuzzy
 msgid "Year of award"
-msgstr "Близка инфрачервена"
+msgstr "Година на наградата"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:375
-#, fuzzy
 msgid "Country of award"
-msgstr "Код за страната на издаване"
+msgstr "Държава на наградата"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:378
-#, fuzzy
 msgid "Identification of the Holder"
-msgstr "Служба, осигуряваща данни за полето"
+msgstr "Идентификация на собственика"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:381
 msgid "Control number"
 msgstr "Контролен номер"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:387
-#, fuzzy
 msgid "Funding Organization"
-msgstr "Организация"
+msgstr "Финансираща организация"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:388
-#, fuzzy
 msgid "Program"
-msgstr "Програмист"
+msgstr "Програма"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:389
-#, fuzzy
 msgid "Project Number"
 msgstr "Номер на проекта"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:391
-#, fuzzy
 msgid "Project Name"
-msgstr "Номер на проекта"
+msgstr "Име на проекта"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:392
 msgid "Project Acronym"
@@ -3374,7 +3315,7 @@ msgstr "Международен стандартен номер за музик
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:458
 msgid "Other title information."
-msgstr "Друга информация за заглавието"
+msgstr "Друга информация за заглавието."
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:459
 msgid "Physical description"
@@ -3690,7 +3631,7 @@ msgstr "Низ"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:1852
 msgid "Reference Indicator Number"
-msgstr "Reference Indicator Number"
+msgstr "Номер на референтен индикатор"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_subfield_structure:12:row:1853
 msgid "Language of Terms"
@@ -4233,9 +4174,8 @@ msgid "Summary or Abstract"
 msgstr "Бележки, отнасящи се резюмета или реферати"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_tag_structure:11:row:94
-#, fuzzy
 msgid "Preferred Citation of Described Materials"
-msgstr "Забележка за предпочитания начин, по който се цитира описвания документ"
+msgstr "Предпочитания начин, по който се цитира описвания документ"
 
 #: installer/data/mysql/en/marcflavour/unimarc/mandatory/unimarc_framework_DEFAULT.yml:marc_tag_structure:11:row:96
 msgid "Awards Note"
