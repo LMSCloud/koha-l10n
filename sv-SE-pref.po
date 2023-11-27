@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-20 11:46-0300\n"
-"PO-Revision-Date: 2023-11-27 08:27+0000\n"
+"PO-Revision-Date: 2023-11-28 03:11+0000\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -7150,7 +7150,7 @@ msgstr "Använd"
 
 # Circulation > SIP2 > UseLocationAsAQInSIP
 msgid "circulation.pref#UseLocationAsAQInSIP# for AQ field in SIP protocol."
-msgstr "för AQ-fältet i SIP-protokollet."
+msgstr "för AQ-fält i SIP-protokoll."
 
 # Circulation > Holds policy
 # Circulation > Holds policy
@@ -7159,7 +7159,7 @@ msgstr "hembibliotek"
 
 # Circulation > Checkout policy
 msgid "circulation.pref#UseLocationAsAQInSIP# permanent_location"
-msgstr "permanent plats"
+msgstr "permanent_location"
 
 # Circulation > Course reserves
 msgid "circulation.pref#UseRecalls# Don't use"
@@ -7174,9 +7174,7 @@ msgid ""
 "circulation.pref#UseRecalls# recalls. Make sure you configure <a href=\"/cgi-"
 "bin/koha/admin/smart-rules.pl\">circulation and fine rules</a> for recalls "
 "once enabled."
-msgstr ""
-"återkrav. Konfigurera <a href=\"/cgi-bin/koha/admin/smart-rules.pl"
-"\">cirkulationsregler</a> för återkrav så snart de har aktiverats."
+msgstr "återkrav. Ställ in <a href=\"/cgi-bin/koha/admin/smart-rules.pl\">regler för utlåning och avgifter</a> för återkrav när funktionen har aktiverats."
 
 # Circulation > Checkout policy
 msgid "circulation.pref#UseTransportCostMatrix# Don't use"
@@ -11275,7 +11273,6 @@ msgid "opac.pref#OpacTopissue# Don't allow"
 msgstr "Tillåt inte"
 
 # OPAC > Features
-#, fuzzy
 msgid ""
 "opac.pref#OpacTopissue# patrons to access a list of the most checked out "
 "items on the OPAC. Note that this is somewhat experimental, and should be "
@@ -12823,9 +12820,7 @@ msgid ""
 "patrons.pref#PrefillGuaranteeField# When adding a guarantee to a guarantor "
 "patron fill the following fields in the guarantee's member entry form from "
 "the guarantors record:"
-msgstr ""
-"När vårdnadstagare läggs till ett konto för vårdnadshavare, komplettera "
-"följande fält vårdnadstagares formulär baserat på vårdnadstagares konto:"
+msgstr "När vårdnadstagare läggs till ett konto för vårdnadshavare, komplettera följande fält i vårdnadstagares formulär baserat på vårdnadshavarens konto:"
 
 # Patrons > Privacy
 msgid ""
@@ -13804,12 +13799,7 @@ msgid ""
 "strings. If \"Unescape escaped\" is selected this will allow writing regular "
 "expressions \"\\/like this\\/\" while \"/this/\", \"or/this\" will be "
 "escaped and interpreted as regular strings. (Elasticsearch only.)"
-msgstr ""
-"reguljära uttryck inom söksträngar. Om \"Escape\" är valt kommer \"/\" i "
-"sökfrågor att undvikas, och reguljära uttryck tolkas som vanliga strängar. "
-"Om \"Unescape escaped\" är valt är reguljära uttryck tillåtna \"\\/enligt "
-"detta\\/\" medan \"/detta/\", \"eller/detta\" kommer att escapeas och tolkas "
-"som vanliga strängar. (Endast Elasticsearch.)"
+msgstr "reguljära uttryck inom sökfrågor. Om \"Escape\" välj kommer \"/\" i sökfrågor automatiskt att ignoreras, och reguljära uttryck tolkas som vanliga strängar. Om \"Unescape escaped\" är valt tillåts reguljära uttryck \"\\/som detta\\/\" medan \"/detta/\", \"eller/detta\" kommer att excapeas och tolkas som vanliga söksträngar. (Endast Elasticsearch.)"
 
 # Searching > Features
 msgid "searching.pref#QueryStemming# Don't try"
