@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-16 08:26+0000\n"
-"PO-Revision-Date: 2023-11-25 03:01+0000\n"
+"PO-Revision-Date: 2023-11-27 08:27+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -63884,9 +63884,9 @@ msgid "The first line in the file must be a header row defining which columns yo
 msgstr "Tiedoston ensimmäisellä rivillä täytyy olla niiden kenttien nimet, jotka löytyvät sitä seuraavilta riveiltä."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:399
-#, fuzzy, c-format
+#, c-format
 msgid "Download a Starter CSV file with all the columns."
-msgstr "kaikilla sarakkeilla."
+msgstr "Lataa CSV-malli kaikilla sarakkeilla."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:404
 #, c-format
@@ -64125,7 +64125,7 @@ msgstr "Lisäsuodattimia inventaariolistalle tai viivakoodien vertailuun"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:160
 #, c-format
 msgid "Scanned items are expected to match one of the selected \"not for loan\" criteria if any are checked."
-msgstr ""
+msgstr "Luettuilla niteillä odotetaan olevan valittu \"ei lainata\" -tila."
 
 #. %1$s:  IF ( status.fieldname == 'items.notforloan' && value.authorised_value == 0 && value.lib == '__IGNORE__' ) 
 #. %2$s:  ELSE 
@@ -64189,14 +64189,14 @@ msgstr "Löytyi väärästä paikasta"
 
 #. %1$s:  result.notforloan | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:324
-#, fuzzy, c-format
+#, c-format
 msgid "Item has unselected \"Not for loan\" status \"%s\""
-msgstr "Nide ei ole yleensä lainattava %s(%s)%s."
+msgstr "Niteellä on valitsematon \"Ei lainata\" -tila \"%s\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:326
-#, fuzzy, c-format
+#, c-format
 msgid "Items has no \"not for loan\" status"
-msgstr "Nide ei ole yleensä lainattavissa"
+msgstr "Niteellä ei ole \"Ei lainata\" -tilaa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:329
 #, c-format
@@ -64256,9 +64256,9 @@ msgstr "Muokkaa ilmoitusta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:82
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:288
-#, fuzzy, c-format
+#, c-format
 msgid "New notice"
-msgstr "Uusi ilmoitus "
+msgstr "Uusi ilmoitus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:92
 #, c-format
@@ -64307,9 +64307,9 @@ msgstr "Tilaushankinta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:171
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:231
-#, fuzzy, c-format
+#, c-format
 msgid "Patrons (custom slip)"
-msgstr "Asiakaskerhot "
+msgstr "Asiakkaat (räätälöity kuitti)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:173
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:233
@@ -64358,9 +64358,9 @@ msgstr "Kohan osio:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:399
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:401
-#, fuzzy, c-format
+#, c-format
 msgid "Patron (custom slip)"
-msgstr "Asiakaskerhot "
+msgstr "Asiakas (räätälöity kuitti)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:432
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:436
@@ -65204,7 +65204,7 @@ msgstr "Lisää uusi määre"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:405
 #, c-format
 msgid "NOTE: Attributes set here will replace all attributes of the same type in the patron record."
-msgstr ""
+msgstr "Huomioi: Täällä asetetut määreet korvaavat kaikki saman tyypin määreet asiakkaan tiedoissa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:420
 #, c-format
@@ -65940,9 +65940,9 @@ msgid "Email:"
 msgstr "Sähköpostiosoite:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/scheduler.tt:82
-#, fuzzy, c-format
+#, c-format
 msgid "Scheduled tasks"
-msgstr "Ajasta tehtäviä"
+msgstr "Ajastetut tehtävät"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/scheduler.tt:85
 #, c-format
@@ -66190,9 +66190,9 @@ msgstr "Latauksen tila: Peruutettu "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:334
-#, fuzzy, c-format
+#, c-format
 msgid "New stage"
-msgstr "Uusi kenttä"
+msgstr "Uusi vaihe"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:117
 #, c-format
@@ -66356,12 +66356,12 @@ msgstr "Viivakooditiedosto:"
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:514
 msgid "Rota has a single stage, advancing will have no effect"
-msgstr ""
+msgstr "Kierrolla on yksi vaihe, edistymisellä ei ole vaikutusta"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:518
 msgid "Item is in transit, it will be directed to new stage when checked in"
-msgstr ""
+msgstr "Nide on kuljetettavana, se ohjataan uuteen vaiheeseen, kun se palautetaan"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:530
 #, c-format
@@ -66908,9 +66908,9 @@ msgid "Resume"
 msgstr "Jatka"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:124
-#, fuzzy, c-format
+#, c-format
 msgid "Reset password"
-msgstr "Uusi salasana:"
+msgstr "Uusi salasana"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:125
 #, c-format
@@ -67327,14 +67327,14 @@ msgid "Error adding to list"
 msgstr "Virhe lisättäessä listaan"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:18
-#, fuzzy, c-format
+#, c-format
 msgid "Could not create a new list. Please check the name."
-msgstr "%sUuden listan luonti epäonnistui. Tarkista listan nimi."
+msgstr "Uuden listan luonti epäonnistui. Tarkista listan nimi."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:19
-#, fuzzy, c-format
+#, c-format
 msgid "Sorry, you do not have permission to add items to this list."
-msgstr "%s %sSinulla ei ole oikeuksia lisätä teoksia tähän listaan."
+msgstr "Sinulla ei ole oikeuksia lisätä teoksia tähän listaan."
 
 #. %1$s:  ELSE 
 #. %2$s:  END 
