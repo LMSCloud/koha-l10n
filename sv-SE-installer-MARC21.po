@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2023-11-23 03:01+0000\n"
-"Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
+"PO-Revision-Date: 2023-11-29 03:01+0000\n"
+"Last-Translator: \"maria.t\" <maria.thorgren@boden.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
 "MIME-Version: 1.0\n"
@@ -298,9 +298,8 @@ msgid "Subject heading/thesaurus conventions"
 msgstr "11- Subject heading system/thesaurus"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:92
-#, fuzzy
 msgid "Authentication code"
-msgstr "Autentiserad"
+msgstr "LC Authentication Code (Används ej)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:95
 #, fuzzy
@@ -308,9 +307,8 @@ msgid "Source of local code"
 msgstr "Källkod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:98
-#, fuzzy
 msgid "Geographic area code"
-msgstr "Bibliografisk post"
+msgstr "Kod för geografiskt område"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:99
 #, fuzzy
@@ -414,14 +412,12 @@ msgid "Code source"
 msgstr "källa"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:134
-#, fuzzy
 msgid "Geographic classification area code"
-msgstr "Kod för klassificeringskälla: "
+msgstr "Klassifikationskod för geografiskt område"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:135
-#, fuzzy
 msgid "Geographic classification subarea code"
-msgstr "Ny klassificeringskälla"
+msgstr "Klassifikationskod för geografiskt delområde"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:136
 #, fuzzy
@@ -487,14 +483,12 @@ msgid "Alternate G0 or G1 character set"
 msgstr "c- Skiftföljd till andra teckenuppsättningar"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:196
-#, fuzzy
 msgid "Subject category code"
-msgstr "Ämneskategori "
+msgstr "Kod för ämneskategori"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:197
-#, fuzzy
 msgid "Subject category code subdivision"
-msgstr "Uppdelning för ämne:"
+msgstr "Kod för underavdelning inom ämneskategori"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:200
 #, fuzzy
@@ -517,9 +511,8 @@ msgid "Edition identifier"
 msgstr "Era identifier"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:212
-#, fuzzy
 msgid "Universal Decimal Classification number"
-msgstr "Universella decimalklassifikationen (UDC)"
+msgstr "UDK klassifikationskod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:214
 msgid "Common auxiliary subdivision"
@@ -660,7 +653,7 @@ msgstr "Klassificeringsregel: "
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:320
 msgid "Call number based on other classification scheme"
-msgstr "Hyllsignatur baserat på annat klassificeringsschema"
+msgstr "Call number based on other classification scheme"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:336
 #, fuzzy
@@ -1556,9 +1549,8 @@ msgid "Root number"
 msgstr "Rapportnummer:"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1621
-#, fuzzy
 msgid "Other classification number"
-msgstr "Annan klassifikation: "
+msgstr "Annan klassifikationskod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1630
 msgid "Medium of performance term as entry element"
@@ -1857,11 +1849,11 @@ msgstr "Katalogiserande instans (Obligatorisk)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:16
 msgid "AUTHENTICATION CODE"
-msgstr "AUTENTISERINGSKOD"
+msgstr "Katalog-/bibliografikod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:17
 msgid "GEOGRAPHIC AREA CODE"
-msgstr ""
+msgstr "Kod för geografiskt område (GAC) (Används normalt ej)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:18
 msgid "TIME PERIOD OF HEADING"
@@ -1869,16 +1861,15 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:19
 msgid "SPECIAL CODED DATES"
-msgstr ""
+msgstr "Specialkodade datum/årtal"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:20
-#, fuzzy
 msgid "LIBRARY OF CONGRESS CALL NUMBER"
-msgstr "LIBRARY OF CONGRESS lx2.loc.gov: 210 LCDB"
+msgstr "Library of Congress (LC) klassifikationskod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:21
 msgid "GEOGRAPHIC CLASSIFICATION"
-msgstr ""
+msgstr "Geografisk klassifikation"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:22
 msgid "LC CLASSIFICATION NUMBER"
@@ -1894,7 +1885,7 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:25
 msgid "NATIONAL LIBRARY OF MEDICINE CALL NUMBER"
-msgstr ""
+msgstr "National Library of Medicine (NLM) klassifikationskod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:26
 msgid "NLM CLASSIFICATION NUMBER ASSIGNED BY NLM [OBSOLETE, CAN/MARC]"
@@ -1902,11 +1893,11 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:27
 msgid "OTHER CLASSIFICATION NUMBER"
-msgstr ""
+msgstr "Annan klassifikationskod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:28
 msgid "CHARACTER SETS PRESENT"
-msgstr ""
+msgstr "Teckenuppsättningar (Används f.n. ej)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:29
 msgid "NLM CLASSIFICATION NUMBER ASSIGNED IN CANADA [OBSOLETE, CAN/MARC]"
@@ -1914,12 +1905,11 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:30
 msgid "NATIONAL AGRICULTURAL LIBRARY CALL NUMBER"
-msgstr ""
+msgstr "National Agricultural Library (NAL) klassifikationskod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:31
-#, fuzzy
 msgid "SUBJECT CATEGORY CODE"
-msgstr "AUTENTISERINGSKOD"
+msgstr "Kod för ämneskategori"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:32
 msgid "SUBDIVISION USAGE"
@@ -1931,7 +1921,7 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:34
 msgid "UNIVERSAL DECIMAL CLASSIFICATION NUMBER"
-msgstr ""
+msgstr "UDK klassifikationskod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:35
 msgid "DEWEY DECIMAL CALL NUMBER"
@@ -1939,7 +1929,7 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:36
 msgid "DEWEY DECIMAL CLASSIFICATION NUMBER"
-msgstr "DDK-KLASSIFIKATION"
+msgstr "DDK klassifikationskod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:37
 msgid "CLASSIFICATION SCHEME AND EDITION [CLASSIFICATION FORMAT]"
@@ -1951,7 +1941,7 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:39
 msgid "GOVERNMENT DOCUMENT CLASSIFICATION NUMBER"
-msgstr ""
+msgstr "Klassifikationskod för statliga publikationer"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:40
 msgid "DOCUMENT SHELVING NUMBER (CODOC) [OBSOLETE, CAN/MARC]"
@@ -1959,35 +1949,35 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:41
 msgid "LOCAL CALL NUMBER (SERIES) [OBSOLETE]; LOCALLY ASSIGNED LC-TYPE CALL NUMBER (OCLC); LOCAL CALL NUMBER (RLIN)"
-msgstr ""
+msgstr "Local call number (series) [obsolete]; locally assigned LC-type call number (OCLC); local call number (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:42
 msgid "LOCALLY ASSIGNED LC-TYPE CLASSIFICATION NUMBER (OCLC); LOCAL CLASSIFICATION NUMBER (RLIN)"
-msgstr ""
+msgstr "Locally assigned LC-type classification number (OCLC); local classification number (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:43
 msgid "LOCALLY ASSIGNED DEWEY CALL NUMBER (OCLC)"
-msgstr ""
+msgstr "Locally assigned Dewey call number (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:44
 msgid "LOCALLY ASSIGNED DEWEY CLASSIFICATION NUMBER (OCLC)"
-msgstr ""
+msgstr "Locally assigned Dewey classification number (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:45
 msgid "LOCALLY ASSIGNED NLM-TYPE CALL NUMBER (OCLC)"
-msgstr ""
+msgstr "Locally assigned NLM-type call number (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:46
 msgid "LOCALLY ASSIGNED NLM-TYPE CLASSIFICATION NUMBER (OCLC)"
-msgstr ""
+msgstr "Locally assigned NLM-type classification number (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:47
 msgid "OTHER CLASSIFICATION SCHEMES (OCLC)"
-msgstr ""
+msgstr "Other classification schemes (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:48
 msgid "LOCAL FREE-TEXT CALL NUMBER (OCLC)"
-msgstr ""
+msgstr "Local free-text call number (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:49
 msgid "HEADING--PERSONAL NAME"
@@ -3262,9 +3252,8 @@ msgid "Source of call/class number"
 msgstr "Sök hyllsignatur:"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:327
-#, fuzzy
 msgid "GPO item number"
-msgstr "Exemplarnummer"
+msgstr "GPO uppställningssignum"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:328
 msgid "Canceled/invalid GPO item number"
@@ -3298,18 +3287,16 @@ msgid "Canceled/invalid classification number"
 msgstr "Makulerad/ogiltig klassifikationskod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:387
-#, fuzzy
 msgid "Report number [OBSOLETE, CAN/MARC]"
-msgstr "Medföljande material [UR BRUK, CAN/MARC]"
+msgstr "Report number [obsolete, CAN/MARC]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:388
 msgid "Canceled/invalid report number [OBSOLETE, CAN/MARC]"
 msgstr "Canceled/invalid report number [obsolete, CAN/MARC]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:391
-#, fuzzy
 msgid "Report number"
-msgstr "Rapportnummer:"
+msgstr "Rapportnummer"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:392
 msgid "Canceled/invalid report number"
@@ -3333,9 +3320,8 @@ msgid "Retention, VOL (RLIN)"
 msgstr "Permanent placering (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:406
-#, fuzzy
 msgid "Microfilm shelf location"
-msgstr "Tidigare placering"
+msgstr "Microfilm shelf location"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:432
 #, fuzzy
@@ -6820,83 +6806,83 @@ msgstr "Språkkod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:39
 msgid "COUNTRY OF PUBLISHING/PRODUCING ENTITY CODE"
-msgstr ""
+msgstr "Landkod för utgivande/producerande enhet"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:40
 msgid "TIME PERIOD OF CONTENT"
-msgstr ""
+msgstr "Innehållets tidsperiod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:42
 msgid "FORM OF MUSICAL COMPOSITION CODE"
-msgstr ""
+msgstr "Kod för musikalisk form/genre (Används normalt ej)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:43
 msgid "NUMBER OF MUSICAL INSTRUMENTS OR VOICES CODE"
-msgstr ""
+msgstr "Kod för instrumentnamn och röstlägen (Används normalt ej)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:44
 msgid "LOCAL HOLDINGS (OCLC)"
-msgstr ""
+msgstr "Kontroll och inventering (OCLC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:46
 msgid "LIBRARY OF CONGRESS COPY, ISSUE, OFFPRINT STATEMENT"
-msgstr ""
+msgstr "LC-uppgift rörande annat exemplar, utgåva, tryckning (Används normalt ej)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:48
 msgid "CLASSIFICATION NUMBERS ASSIGNED IN CANADA"
-msgstr ""
+msgstr "Klassifikationskoder från kanadensiskt bibliotek (Används normalt ej)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:50
 msgid "NATIONAL LIBRARY OF MEDICINE COPY STATEMENT"
-msgstr ""
+msgstr "NLM-uppgift rörande annat exemplar (Används normalt ej)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:53
 msgid "NATIONAL AGRICULTURAL LIBRARY COPY STATEMENT"
-msgstr ""
+msgstr "NAL-uppgift rörande annat exemplar (Används normalt ej)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:55
 msgid "GPO ITEM NUMBER"
-msgstr ""
+msgstr "Uppställningssignum inom U.S Government Printing Office (GPO)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:58
 msgid "ADDITIONAL DEWEY DECIMAL CLASSIFICATION NUMBER"
-msgstr ""
+msgstr "Sekundär DDK-klassifikation"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:60
 msgid "SYNTHESIZED CLASSIFICATION NUMBER COMPONENTS"
-msgstr ""
+msgstr "Klassifikationskodens sammansättning"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:62
 msgid "REPORT NUMBER [OBSOLETE, CAN/MARC]"
-msgstr ""
+msgstr "Report number [obsolete, CAN/MARC]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:63
 msgid "REPORT NUMBER"
-msgstr ""
+msgstr "Rapportnummer"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:64
 msgid "LOCALLY ASSIGNED LC-TYPE CALL NUMBER (OCLC); LOCAL CALL NUMBER (RLIN)"
-msgstr ""
+msgstr "Locally assigned LC-type call number (OCLC); local call number (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:65
 msgid "MICROFILM SHELF LOCATION (AM) [OBSOLETE]"
-msgstr ""
+msgstr "Microfilm shelf location (AM) [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:70
 msgid "MAIN ENTRY--PERSONAL NAME"
-msgstr ""
+msgstr "Huvuduppslag - Personnamn"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:71
 msgid "MAIN ENTRY--CORPORATE NAME"
-msgstr ""
+msgstr "Huvuduppslag - Institutionsnamn"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:72
 msgid "MAIN ENTRY--MEETING NAME"
-msgstr ""
+msgstr "Huvuduppslag - Konferensnamn"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:73
 msgid "MAIN ENTRY--UNIFORM TITLE"
-msgstr ""
+msgstr "Huvuduppslag - Uniform titel"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:74
 msgid "ABBREVIATED TITLE"
@@ -7265,7 +7251,7 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:176
 msgid "TIME PERIOD OF CONTENT NOTE (CF) [OBSOLETE]"
-msgstr ""
+msgstr "Time period of content note (CF) [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:177
 msgid "PREFERRED CITATION OF DESCRIBED MATERIALS NOTE"
