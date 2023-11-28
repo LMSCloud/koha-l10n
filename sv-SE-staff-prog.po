@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-16 08:26+0000\n"
-"PO-Revision-Date: 2023-11-27 08:27+0000\n"
+"PO-Revision-Date: 2023-11-28 08:32+0000\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -9795,14 +9795,14 @@ msgid ". Items failed: "
 msgstr ". Exemplar misslyckades: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch-modal.inc:60
-#, fuzzy, c-format
+#, c-format
 msgid "out of "
-msgstr "Innehåll i "
+msgstr "av "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch-modal.inc:63
 #, c-format
 msgid "0%% "
-msgstr ""
+msgstr "0%% "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch-modal.inc:71
 #, c-format
@@ -9894,9 +9894,9 @@ msgid "Batch ID"
 msgstr "Sats-ID"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch.inc:12
-#, fuzzy, c-format
+#, c-format
 msgid "Number of requests"
-msgstr "Antal omlån"
+msgstr "Antal beställningar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch.inc:13
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-list-table.inc:24
@@ -10306,9 +10306,9 @@ msgid "Toggle Dropdown"
 msgstr "Växla tangentbord"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/last-borrower.inc:13
-#, fuzzy, c-format
+#, c-format
 msgid "Clear list"
-msgstr "Rensa alla"
+msgstr "Rensa lista"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/letters-search.inc:8
@@ -10996,9 +10996,8 @@ msgstr "Skicka återställning av lösenord"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:92
-#, fuzzy
 msgid "Patron is protected"
-msgstr "Låntagaren är begränsad"
+msgstr "Låntagaren är skyddad"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:97
@@ -12823,9 +12822,9 @@ msgstr "Reservation lagd på %s."
 #. %3$s:  expires_on | $KohaDates 
 #. %4$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:216
-#, fuzzy, c-format
+#, c-format
 msgid "%s Waiting here %s until %s%s. "
-msgstr "%s Väntar här %s tills %s %s "
+msgstr "%s Väntar här %s tills %s %s. "
 
 #. %1$s:  w.waitingdate | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:220
@@ -15097,9 +15096,9 @@ msgid "Run report "
 msgstr "Kör rapport "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:70
-#, fuzzy, c-format
+#, c-format
 msgid "Run with template "
-msgstr "Klubbmall "
+msgstr "Kör via mall "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:85
 #, c-format
@@ -15160,9 +15159,9 @@ msgstr "OpenDocument-kalkylblad"
 
 #. %1$s:  processed_notice_title | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:138
-#, fuzzy, c-format
+#, c-format
 msgid "Rendered template (%s)"
-msgstr "Delade mallar"
+msgstr "Renderad mall (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:141
 #, c-format
@@ -19934,7 +19933,7 @@ msgstr "för mer information. "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:526
 #, c-format
 msgid "the dedicated wiki page"
-msgstr ""
+msgstr "den dedikerade wiki-sidan"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:534
 #, c-format
@@ -19959,7 +19958,7 @@ msgstr "Fjärrlånemodulen är aktiverad men det finns inget branch-block i koha
 
 #. %1$s:  ill_partner_code_doesnt_exist | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:566
-#, fuzzy, c-format
+#, c-format
 msgid "The ILL module is enabled, but the configured ILLPartnerCode (%s) is not defined on the system. "
 msgstr "Fjärrlånemodulen är aktiverad, men konfigurerad 'partner_code' (%s) är inte definierad i systemet. "
 
@@ -23525,9 +23524,8 @@ msgstr "Lägg till i grupp"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:358
-#, fuzzy
 msgid "Are you sure you want to delete this basket group?"
-msgstr "Är du säker på att du vill ta bort korgen?"
+msgstr "Är du säker på att du vill ta bort korggruppen?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:358
@@ -26974,64 +26972,64 @@ msgstr "Osäkra"
 #. %7$s:  END 
 #. %8$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:7
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
-msgstr "%s %s Redigera informationsdisk %s Ny informationsdisk %s &rsaquo; %s %s Bekräfta borttagning av informationsdisk &rsaquo; %s %s Informationsdiskar &rsaquo; Administration &rsaquo; Koha "
+msgstr "%s %s Redigera leverantörsärende %s Nytt leverantörsärende %s &rsaquo; %s %s Bekräfta borttagning av leverantörsärende &rsaquo; %s %s Leverantörsärende &rsaquo; Inköp &rsaquo; Koha "
 
 #. %1$s:  IF issue 
 #. %2$s:  issue.issue_id| html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:48
-#, fuzzy, c-format
+#, c-format
 msgid "%s Issue #%s %s New issue %s "
-msgstr "%s %s %s %s Inget %s "
+msgstr "%s Ärende #%s %s Nytt ärende %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:70
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when updating this issue."
-msgstr "Ett fel inträffade när denna lista uppdaterades."
+msgstr "Ett fel inträffade när detta ärende uppdaterades."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:72
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when adding this issue"
-msgstr "Ett fel uppstod när citatet skulle läggas till"
+msgstr "Ett fel uppstod när ärendet skulle läggas till"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:74
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when deleting this issue. Check the logs."
-msgstr "Ett fel uppstod när orten skulle tas bort. Titta i loggarna."
+msgstr "Ett fel uppstod när ärendet skulle tas bort. Titta i loggarna."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:76
-#, fuzzy, c-format
+#, c-format
 msgid "Issue updated successfully."
-msgstr "Citat har uppdaterats"
+msgstr "Ärendet har uppdaterats."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:78
-#, fuzzy, c-format
+#, c-format
 msgid "Issue created successfully."
-msgstr "har uppdaterats"
+msgstr "Ärendet har uppdaterats."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:80
-#, fuzzy, c-format
+#, c-format
 msgid "Issue deleted successfully."
-msgstr "Informationsdisken har tagits bort"
+msgstr "Ärendet har tagits bort."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:89
-#, fuzzy, c-format
+#, c-format
 msgid "Modify a vendor issue"
-msgstr "Redigera en beställning"
+msgstr "Redigera ett leverantörsärende"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:91
-#, fuzzy, c-format
+#, c-format
 msgid "New vendor issue"
-msgstr "Ny leverantör"
+msgstr "Nytt leverantörsärende"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:102
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:153
-#, fuzzy, c-format
+#, c-format
 msgid "Issue ID: "
-msgstr "Nummer: "
+msgstr "Ärende-ID: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:109
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:160
@@ -27047,9 +27045,9 @@ msgstr "Slutade: "
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
-#, fuzzy, c-format
+#, c-format
 msgid "Delete issue #%s?"
-msgstr "Ta bort budgetstället %s?"
+msgstr "Ta bort ärende #%s?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:138
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:321
@@ -27109,24 +27107,24 @@ msgstr "Nej, ta inte bort den"
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
-#, fuzzy, c-format
+#, c-format
 msgid "Vendor issue #%s"
-msgstr "Leverantör är: "
+msgstr "Leverantörsärende #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
-#, fuzzy, c-format
+#, c-format
 msgid "New issue"
-msgstr "Ny uppsättning"
+msgstr "Nytt ärende"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:185
-#, fuzzy, c-format
+#, c-format
 msgid "Vendor issues"
-msgstr "Leverantör är:"
+msgstr "Leverantörsärende"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:193
-#, fuzzy, c-format
+#, c-format
 msgid "Issue ID"
-msgstr "Nummer "
+msgstr "Ärende-ID"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:195
 #, c-format
@@ -27139,14 +27137,14 @@ msgid "Ended on"
 msgstr "Slutade den"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:203
-#, fuzzy, c-format
+#, c-format
 msgid "There are no issues defined. "
-msgstr "Inga regler är definierade. "
+msgstr "Inga ärenden är definierade. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:204
-#, fuzzy, c-format
+#, c-format
 msgid "Create a new issue"
-msgstr "Skapa en ny lista"
+msgstr "Skapa ett nytt ärende"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:69
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:73
@@ -27844,7 +27842,7 @@ msgstr "Ange vilka tangenter som aktiverar händelser i den avancerade redigerar
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:290
 #, c-format
 msgid "Manage the statuses that can be assigned to Interlibrary loan batches"
-msgstr ""
+msgstr "Hantera statusar som kan tilldelas fjärrlånebatchar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/adveditorshortcuts.tt:26
 #, c-format
@@ -28042,9 +28040,9 @@ msgid "This budget has funds attached. You must delete all attached funds before
 msgstr "Budgeten är kopplad till budgetställen. Du måste ta bort dessa budgetställen innan du kan ta bort budgeten."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:335
-#, fuzzy, c-format
+#, c-format
 msgid "You cannot move funds of this budget, there is no active budget."
-msgstr "Du kan inte flytta denna budgets budgetställen, det finns ingen aktiv budget. Skapa en ny aktiv budget och försök igen."
+msgstr "Du kan inte flytta denna budgets budgetställen, det finns ingen aktiv budget."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:336
 #, c-format
@@ -29311,9 +29309,9 @@ msgstr "Tagg"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:266
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:268
-#, fuzzy, c-format
+#, c-format
 msgid "Tag description"
-msgstr "Bildbeskrivning"
+msgstr "Taggbeskrivning"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:269
 #, c-format
@@ -29806,14 +29804,14 @@ msgid "Values that can be entered to fill in the 'Vendor type' field in the acqu
 msgstr "Värden som kan anges i fältet \"Leverantörtyp\" i inköpsmodulen, för att användas i statistiksyfte"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:512
-#, fuzzy, c-format
+#, c-format
 msgid "Values that can be entered to fill in the 'Vendor interface type' field in the acquisitions module"
-msgstr "Värden som kan anges i fältet \"Leverantörtyp\" i inköpsmodulen, för att användas i statistiksyfte"
+msgstr "Värden som kan anges för att fylla i fältet 'Gränssnittstyp' i förvärvsmodulen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:514
-#, fuzzy, c-format
+#, c-format
 msgid "Values that can be entered to fill in the 'Vendor issue type' field in the acquisitions module"
-msgstr "Värden som kan anges i fältet \"Leverantörtyp\" i inköpsmodulen, för att användas i statistiksyfte"
+msgstr "Värden som kan anges i fältet \"Ärendetyp\" i inköpsmodulen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:516
 #, c-format
@@ -30565,9 +30563,9 @@ msgid "Set to 'yes' to show this library as a search option and on the libraries
 msgstr "Ändra till 'ja' för att visa det här biblioteket som ett sökalternativ och på Bibliotekssidan i katalogen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:292
-#, fuzzy, c-format
+#, c-format
 msgid "UserJS: "
-msgstr "Användar-id: "
+msgstr "UserJS: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:294
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:302
@@ -30586,9 +30584,9 @@ msgid "Click to collapse"
 msgstr "Klicka för att minimera"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:300
-#, fuzzy, c-format
+#, c-format
 msgid "UserCSS: "
-msgstr "Användar-id: "
+msgstr "UserCSS: "
 
 #. %1$s:  library.branchname | html 
 #. %2$s:  library.branchcode | html 
@@ -31417,9 +31415,9 @@ msgid "The corresponding subfield MUST be in with -1 (ignore) tab"
 msgstr "Motsvarande delfält MÅSTE vara i fliken med -1 (ignorera)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:63
-#, fuzzy, c-format
+#, c-format
 msgid "itemnumber : the field itemnumber is mapped to a field in tab -1"
-msgstr "itemnum : fältet itemnumber är mappat till ett fält i flik -1"
+msgstr "itemnumber : fältet itemnumber är mappat till ett fält i flik -1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:69
 #, c-format
@@ -32643,9 +32641,9 @@ msgid "Currency deleted successfully"
 msgstr "Valutan har tagits bort"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:114
-#, fuzzy, c-format
+#, c-format
 msgid "New currency entry form"
-msgstr "Ny valuta"
+msgstr "Formulär för ny valuta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:118
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:122
@@ -33019,9 +33017,9 @@ msgid "New account "
 msgstr "Nytt konto "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:99
-#, fuzzy, c-format
+#, c-format
 msgid "Account details"
-msgstr "Bokföringsdetaljer"
+msgstr "Kontodetaljer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:116
 #, c-format
@@ -33197,9 +33195,9 @@ msgid "There are no EDI accounts. "
 msgstr "Det finns inga EDI-konton. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:46
-#, fuzzy, c-format
+#, c-format
 msgid "New library EAN"
-msgstr "Nytt bibliotek"
+msgstr "Ny biblioteks-EAN"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:78
 #, c-format
@@ -33212,9 +33210,9 @@ msgid "New EAN"
 msgstr "Ny EAN"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:101
-#, fuzzy, c-format
+#, c-format
 msgid "EAN details"
-msgstr "Redigera detaljer"
+msgstr "EAN-detaljer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:126
 #, c-format
@@ -33228,9 +33226,9 @@ msgstr "Inga biblioteks EAN är definierade. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:275
-#, fuzzy, c-format
+#, c-format
 msgid "New identity provider domain"
-msgstr "Ta bort identitetsleverantörens domän"
+msgstr "Ny domän för identitetsleverantör"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:69
 #, c-format
@@ -33458,9 +33456,9 @@ msgid "Allow staff"
 msgstr "Tillåt personal"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:302
-#, fuzzy, c-format
+#, c-format
 msgid "Confirm deletion of identity provider domain"
-msgstr "Ta bort identitetsleverantörens domän"
+msgstr "Bekräfta borttagande av domän för identitetsleverantör"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -33830,9 +33828,9 @@ msgstr "Redigera satsstatus"
 #. %7$s:  END #/ WRAPPER breadcrumbs 
 #. %8$s:  END #/ WRAPPER sub-header.inc 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:36
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s Interlibrary loan batch statuses %s %s %s %s "
-msgstr "%s %s Resultat %s %s %s Genomsnittlig lånetid %s %s %s %s "
+msgstr "%s %s %s %s Status för fjärrlånebatchar %s %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:73
@@ -33872,19 +33870,19 @@ msgid "Required. Maximum length is 100 letters"
 msgstr "Obligatoriskt. Max 100 tecken"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:90
-#, fuzzy, c-format
+#, c-format
 msgid "Required, specify UPPERCASE LETTERS. Maximum length is 20 letters"
-msgstr "Obligatoriskt. Max 64 tecken"
+msgstr "Obligatoriskt, specificera VERSALER. Maxlängd är 20 bokstäver"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:94
-#, fuzzy, c-format
+#, c-format
 msgid "Is a system status: "
-msgstr "Förlorad-status: "
+msgstr "Är en systemstatus: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:124
-#, fuzzy, c-format
+#, c-format
 msgid "Is system"
-msgstr "System"
+msgstr "Är system"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:145
 #, c-format
@@ -34947,7 +34945,7 @@ msgid "import_lexile.pl"
 msgstr "import_lexile.pl"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:63
-#, fuzzy, c-format
+#, c-format
 msgid "Edit subfield constraints"
 msgstr "Redigera begränsningar för delfält"
 
@@ -36030,9 +36028,8 @@ msgstr "Begränsningskoden används redan"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:252
-#, fuzzy
 msgid "Restriction type label is already in use"
-msgstr "Begränsningskoden används redan"
+msgstr "Begränsningstypen används redan"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/search_filters.tt:44
 #, c-format
@@ -36639,9 +36636,9 @@ msgstr "Kan inte lånas om före"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:593
-#, fuzzy, c-format
+#, c-format
 msgid "No automatic renewal before"
-msgstr "Inget automatiskt omlån efter"
+msgstr "Inget automatiskt omlån före"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:141
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:594
@@ -37105,9 +37102,9 @@ msgstr "%s Exemplar flyter "
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:793
-#, fuzzy, c-format
+#, c-format
 msgid "%s Item floats by library group "
-msgstr "%s Exemplar flyter "
+msgstr "%s Exemplar flyter enligt biblioteksgrupp "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:802
 #, c-format
@@ -37476,7 +37473,7 @@ msgstr "Återlämningspolicyn baseras på systeminställningen CircControlReturn
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1295
 #, c-format
 msgid "When return policy is set to 'item floats by library group' the item's homebranch will be used to find groups."
-msgstr ""
+msgstr "När återlämningspolicyn är inställd på 'exemplar flyter enligt biblioteksgrupp' kommer exemplarets hembibliotek för att hitta grupper."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1321
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1370
@@ -37549,9 +37546,9 @@ msgstr "Exemplar flyter"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1351
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1404
-#, fuzzy, c-format
+#, c-format
 msgid "Item floats by library group"
-msgstr "Ta bort bibliotek från grupp"
+msgstr "Exemplar flyter enligt biblioteksgrupp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1402
 #, c-format
@@ -37910,9 +37907,9 @@ msgstr "Systeminställning borttagen"
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:86
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s New local use system preference %s "
-msgstr "%sRedigera %sLägg till %s en systeminställning "
+msgstr "%s %s %s Ny systeminställning för lokal användning %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:101
 #, c-format
@@ -39787,9 +39784,9 @@ msgid "There is at least one encoding error with this bibliographic record, the 
 msgstr "Det är fel på den här bibliografiska posten, så den kanske inte ser ut som förväntat."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:114
-#, fuzzy, c-format
+#, c-format
 msgid "Analytics errors"
-msgstr "Analys"
+msgstr "Analysfel"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:115
 #, c-format
@@ -40225,6 +40222,8 @@ msgstr "') | $raw %%]"
 #, c-format
 msgid "[%% item.object.itemnotes.replace('\\n','"
 msgstr ""
+"[%% item.object.itemnotes.replace('\\n"
+"','"
 
 #. %1$s:  item.countanalytics | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:611
@@ -40415,9 +40414,9 @@ msgid "EDI INVOICE message"
 msgstr "EDIFACT-meddelande"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:869
-#, fuzzy, c-format
+#, c-format
 msgid "EDI message"
-msgstr "EDIFACT-meddelande"
+msgstr "EDI-meddelande"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:895
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:360
@@ -40743,7 +40742,6 @@ msgstr "Är du säker på att du vill ta bort denna omslagsbild?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1483
-#, fuzzy
 msgid "Coce image from Amazon.com"
 msgstr "Bild från Amazon.com"
 
@@ -41176,9 +41174,8 @@ msgstr "Streckkodsfil"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
-#, fuzzy
 msgid "Batch operations"
-msgstr "Sökalternativ"
+msgstr "Satsåtgärder"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
@@ -43797,9 +43794,9 @@ msgid "Staff members are not allowed to discharge borrowers, nor borrowers to re
 msgstr "Personal kan inte godkänna begäran om borttagning och låntagare kan inte heller begära att bli borttagna."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:106
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron, so circulation is disabled."
-msgstr "Detta är en anonym låntagare, så ingen lånehistorik visas."
+msgstr "Detta är en anonym låntagare, så utlån är inaktiverat."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:321
@@ -46429,9 +46426,9 @@ msgid "Transfer to"
 msgstr "Skicka till"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1225
-#, fuzzy, c-format
+#, c-format
 msgid "Transfer reason"
-msgstr "Skicka till"
+msgstr "Anledning till överföring"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1228
 #, c-format
@@ -46716,7 +46713,7 @@ msgstr "Endast exemplar:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:197
 #, c-format
 msgid "/strong> "
-msgstr ""
+msgstr "/strong> "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:197
 #, c-format
@@ -51294,9 +51291,9 @@ msgid "A child patron needs a guarantor."
 msgstr "Ett barn som låntagare behöver en vårdnadshavare angiven."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:190
-#, fuzzy, c-format
+#, c-format
 msgid "A guarantor cannot be a guarantee."
-msgstr "Kan ha vårdnadshavare"
+msgstr "En vårdnadshavare kan inte vara vårdnadstagare."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:193
 #, c-format
@@ -59843,9 +59840,9 @@ msgid "Numbering pattern:"
 msgstr "Numreringsmönster:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:377
-#, fuzzy, c-format
+#, c-format
 msgid "Publication date template:"
-msgstr "Utgivningsdatum:"
+msgstr "Mall för utgivningsdatum:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:381
 #, c-format
@@ -63848,9 +63845,9 @@ msgid "The first line in the file must be a header row defining which columns yo
 msgstr "Den första raden i filen måste vara en rubrikrad som definierar vilka kolumner som finns i importfilen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:399
-#, fuzzy, c-format
+#, c-format
 msgid "Download a Starter CSV file with all the columns."
-msgstr "som innehåller alla kolumnerna."
+msgstr "Ladda ned en CSV-fil med alla kolumner."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:404
 #, c-format
@@ -64159,9 +64156,9 @@ msgid "Item has unselected \"Not for loan\" status \"%s\""
 msgstr "Exemplaret är normalt ej för utlån %s(%s)%s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:326
-#, fuzzy, c-format
+#, c-format
 msgid "Items has no \"not for loan\" status"
-msgstr "Exemplaret är normalt ej för utlån"
+msgstr "Exemplaret saknar \"Ej för utlån\"-status"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:329
 #, c-format
@@ -66153,9 +66150,9 @@ msgstr "Uppladdningsstatus: Avbruten "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:334
-#, fuzzy, c-format
+#, c-format
 msgid "New stage"
-msgstr "Ny tagg"
+msgstr "Ny förberedd fil"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:117
 #, c-format
@@ -66266,13 +66263,13 @@ msgstr "Är du säker på att du vill ta bort detta rotationsschema?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:389
 #, c-format
 msgid "%s item is still attached to this rota, that item will remain at its current stage libraries."
-msgstr ""
+msgstr "%s exemplar är fortfarande kopplat till detta schema, det exemplaret kommer att stanna hos nuvarande bibliotek."
 
 #. %1$s:  sritemstotal | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:391
 #, c-format
 msgid "%s items are still attached to this rota, those items will remain at their current stage libraries."
-msgstr ""
+msgstr "%s exemplar är fortfarande kopplade till detta schema, de exemplaren kommer att stanna hos nuvarande bibliotek."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:402
 #, c-format
@@ -66324,7 +66321,7 @@ msgstr ""
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:518
 msgid "Item is in transit, it will be directed to new stage when checked in"
-msgstr ""
+msgstr "Exemplaret är på väg och kommer att hamna i rätt fil när det återlämnas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:530
 #, c-format
