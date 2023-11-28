@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:06-0300\n"
-"PO-Revision-Date: 2023-11-28 08:32+0000\n"
+"PO-Revision-Date: 2023-11-29 03:02+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -337,19 +337,17 @@ msgstr "не питайте за потвърждение."
 
 # Circulation > Checkin policy > CalculateFinesOnBackdate
 # Circulation > Checkin policy
-#, fuzzy
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# Exclude"
-msgstr "Изчислявайте и"
+msgstr "Изключи"
 
 # Acquisitions > Policy > EmailPurchaseSuggestions
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# Include"
-msgstr "----"
+msgstr "Включи"
 
 # Acquisitions > Policy > CalculateFundValuesIncludingTax
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# tax in the calculated fund values (spent, ordered). Note this rule applies to all vendors regardless of their configuration"
-msgstr ""
+msgstr "данък в изчислените стойности на фондовете (изразходвани, поръчани). Имайте предвид, че това правило важи за всички доставчици, независимо от тяхната конфигурация"
 
 # Acquisitions > Policy > AcqViewBaskets
 # Acquisitions > Policy
@@ -358,13 +356,12 @@ msgstr "Разрешете"
 
 # Acquisitions > Policy > AcqEnableFiles
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# Don't allow"
-msgstr "Не"
+msgstr "Не разрешавайте"
 
 # Acquisitions > Policy > CancelOrdersInClosedBaskets
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# cancelling order lines in closed baskets."
-msgstr ""
+msgstr "анулиране на редове за поръчки в затворени кошници."
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
@@ -592,23 +589,17 @@ msgstr "дни. Пример: [30] Изтриване на предложени�
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr ""
-"Ако оставите празно, то ще се върне към първия дефиниран адрес в следния "
-"списък: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/"
-"preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> и "
-"<a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield="
-"KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+msgstr "<br>Ако оставите празно, то ще се върне към първия дефиниран адрес в следния списък: Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Administration > Interface options > ReplytoDefault
 # Administration > Interface options
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# Use the from email address"
-msgstr "Имейл адрес, който трябва да бъде зададен за отговор на входящи имейли"
+msgstr "Използвайте следният Имейл адрес"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# when sending serial claim notices."
-msgstr "копие (BCC) на влезлия потребител, когато изпращате известия за серийни заявки или искания за придобиване."
+msgstr "при изпращане на известия за искове за периодични издания."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
@@ -622,13 +613,12 @@ msgstr ""
 
 # Acquisitions > Policy > SerialsDefaultReplyTo
 msgid "acquisitions.pref#SerialsDefaultReplyTo# Use the reply-to email address"
-msgstr ""
+msgstr "Използвайте следният имейл адреса за отговор"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultReplyTo# when sending serial claim notices."
-msgstr "копие (BCC) на влезлия потребител, когато изпращате известия за серийни заявки или искания за придобиване."
+msgstr "при изпращане на известия за иск за периодични издания."
 
 # Acquisitions > Policy > TaxRates
 # Acquisitions > Policy
@@ -907,21 +897,18 @@ msgstr "просрочени известия за клиенти без име�
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# Don't force"
 msgstr "Не показвайте"
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# Force"
-msgstr "Покажете"
+msgstr "Принудителен"
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# library selection when logging into the staff interface."
-msgstr "списък за избор на библиотека за новините в OPAC."
+msgstr "избор на библиотека при влизане в интерфейса на персонала."
 
 # Administration > Google OpenID Connect > GoogleOAuth2ClientID
 msgid "admin.pref#GoogleOAuth2ClientID# Along with <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=GoogleOAuth2ClientSecret\">GoogleOAuth2ClientSecret</a>, enables <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=GoogleOpenIDConnect\">GoogleOpenIDConnect.</a>"
@@ -2431,7 +2418,6 @@ msgstr ""
 
 # Cataloging > Importing > AdditionalFieldsInZ3950ResultSearch
 # Cataloging > Importing
-#, fuzzy
 msgid "authorities.pref#AdditionalFieldsInZ3950ResultAuthSearch# Display the MARC field/subfields"
 msgstr "Показване на MARC поле/подполета"
 
@@ -2562,73 +2548,62 @@ msgstr "автоматично пренасочване на заглавия, �
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 0XX"
-msgstr "Използвайте"
+msgstr "0XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 1XX"
-msgstr "Използвайте"
+msgstr "1XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 2XX"
-msgstr "Използвайте"
+msgstr "2XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 3XX"
-msgstr "Използвайте"
+msgstr "3XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 4XX"
-msgstr "Използвайте"
+msgstr "4XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 5XX"
-msgstr "Използвайте"
+msgstr "5XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 6XX"
-msgstr "Използвайте"
+msgstr "6XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 7XX"
-msgstr "Използвайте"
+msgstr "7XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 8XX"
-msgstr "Използвайте"
+msgstr "8XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 9XX"
-msgstr "Използвайте"
+msgstr "9XX"
 
 # Authorities > General > AutoCreateAuthorities
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# When viewing authority details default to the"
-msgstr "Когато редактирате записи,"
+msgstr "Когато преглеждате подробности за класификатори по подразбиране на"
 
 # Authorities > General > DefaultAuthorityTab
 msgid "authorities.pref#DefaultAuthorityTab# tab. If the selected tab does not exist, the view will default to the first tab."
-msgstr ""
+msgstr "раздел. Ако избраният раздел не съществува, изгледът по подразбиране ще бъде първият раздел."
 
 # Authorities > General > GenerateAuthorityField667
 # OPAC > Privacy > OPACPrivacy
@@ -3103,20 +3078,17 @@ msgstr "разширеният редактор за каталогизиран�
 
 # Circulation > Holds policy > EnableItemGroups
 # Circulation > Article requests
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# Don't enable"
 msgstr "Блокиране"
 
 # Circulation > Holds policy > EnableItemGroups
 # Circulation > Checkout policy
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# Enable"
 msgstr "Активиране"
 
 # Circulation > Holds policy > EnableItemGroups
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# the item groups feature to allow collecting groups of items on a record together."
-msgstr "на функцията за групи екземпляри, за да разрешите събирането на групи от екземпляри в запис заедно."
+msgstr "на функцията за групи екземпляри, която позволява групи от екземпляри в запис да бъдат групирани заедно."
 
 # Cataloging > Display > ISBD
 # Cataloging > Display
@@ -3316,7 +3288,7 @@ msgstr "(Ако не се използва, оставете празно. Оп�
 
 # Cataloging > Display > OpacSuppression
 msgid "cataloguing.pref#OpacSuppression# <br /> A custom message can be shown on the redirect page for suppressed bibliographic records by creating an <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML customization</a> in the OpacSuppressionMessage region."
-msgstr ""
+msgstr "<br /> Персонализирано съобщение може да бъде показано на страницата за пренасочване за потиснати библиографски записи чрез създаване на <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML персонализиране</a> в OpacSuppressionMessage регион."
 
 # Cataloging > Display > OpacSuppression
 # Cataloging > Display
