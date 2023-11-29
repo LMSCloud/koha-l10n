@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.11.000\n"
 "POT-Creation-Date: 2023-11-23 04:03+0000\n"
-"PO-Revision-Date: 2023-11-24 11:50+0000\n"
+"PO-Revision-Date: 2023-11-29 10:32+0000\n"
 "Last-Translator: Magnus Enger <magnus@enger.priv.no>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nb-NO\n"
@@ -11536,9 +11536,9 @@ msgstr "Låneren har ventende endringer. %s "
 
 #. %1$s:  patron.dateexpiry | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:24
-#, fuzzy, c-format
+#, c-format
 msgid "Patron's card expires on %s."
-msgstr "Lånerens kort er utløpt (%s)"
+msgstr "Lånerens kort utløper %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:25
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:42
@@ -29279,9 +29279,8 @@ msgstr "Sett opp MARC-poster for import"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:160
-#, fuzzy
 msgid "Unknown job type '%s'"
-msgstr "Ukjent feil %s."
+msgstr "Ukjent jobbtype \"%s\""
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:160
@@ -40222,7 +40221,7 @@ msgstr "Reservert til:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:533
 #, c-format
 msgid "There is an item level hold on this item (priority = %s)."
-msgstr ""
+msgstr "Det ligger en reservasjon på eksemplarnivå på dette eksemplaret (prioritet = %s)."
 
 #. For the first occurrence,
 #. %1$s:  Branches.GetName( recall.pickup_library_id ) | html 
@@ -49568,7 +49567,7 @@ msgstr "MARC-rammeverk: %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:125
 #, c-format
 msgid "No MARC frameworks are available for your language. Defaulting to the frameworks supplied for English (en)"
-msgstr "Ingen MARC-rammeverk er tilgjengelige på ditt språk. Bruker derfor rammeverket for engelsk (en)."
+msgstr "Ingen MARC-rammeverk er tilgjengelige på ditt språk. Bruker derfor rammeverket for engelsk (en)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:131
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:171
@@ -49590,7 +49589,7 @@ msgstr "Andre data"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:164
 #, c-format
 msgid "No sample data and settings are available for your language. Defaulting to the samples supplied for English (en)"
-msgstr "Ingen prøvedata og -innstillinger er tilgjengelige på ditt språk. Bruker derfor prøvene for engelsk (en)."
+msgstr "Ingen eksempeldata og -innstillinger er tilgjengelige på ditt språk. Bruker derfor eksemplene for engelsk (en)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:198
 #, c-format
@@ -58487,7 +58486,7 @@ msgstr "Parametere"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1446
 #, c-format
 msgid "The label for the field shown when the report is run, e.g. \"Select a library.\""
-msgstr ""
+msgstr "Teksten for feltet som vises når rapporten kjøres, feks \"Velg et bibliotek\"."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1449
 #, c-format
@@ -58998,12 +58997,12 @@ msgstr "Opprett en ny CSV-profil"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:71
 #, c-format
 msgid "of the type \"SQL\" with usage option \"Export lost items in report.\""
-msgstr ""
+msgstr "av typen \"SQL\" med parameter \"Eksportér tapte eksemplar i rapport\"."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:73
 #, c-format
 msgid "To enable the export of selected items, your administrator must create a CSV profile of the type \"SQL\" with usage option \"Export lost items in report.\""
-msgstr ""
+msgstr "For å gjøre det mulig å eksportere valgte eksemplarer må administratoren din opprette en CSV-profil av typen \"SQL\", med valget \"Eksporter tapte eksemplar i rapport\"."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:89
 #, c-format
@@ -64366,9 +64365,9 @@ msgstr "Mellomrom ( )"
 #. %1$s:  tab_char | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:105
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:107
-#, fuzzy, c-format
+#, c-format
 msgid "Tabulation (%s)"
-msgstr "Ordning i tabellform (\t)"
+msgstr "Tabulering (%s)"
 
 #. For the first occurrence,
 #. %1$s:  new_line_char | html 
