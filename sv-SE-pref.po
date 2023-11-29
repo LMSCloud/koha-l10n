@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2023-11-28 08:32+0000\n"
+"PO-Revision-Date: 2023-11-29 13:29+0000\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-pref.po\n"
 "X-POOTLE-MTIME: 1696315079.348994\n"
@@ -6255,9 +6255,8 @@ msgid "circulation.pref#SIP2SortBinMapping# NOTE: Specifying 'item_field_value' 
 msgstr "OBS: Om du anger 'item_field_value' med ett inledande '\\$' och ett exemplarfältnamn används värdet för det fältet i exemplaret för jämförelse:<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# The field comparison triplet, 'item field:comparator:item field value', is repeatable within a single line to allow for more complex cases"
-msgstr "Mappningen bör ha formen 'branchcode:item field:comparator:item field value:sort bin number', med en mappning per rad.<br/>"
+msgstr "Gruppen 'item field:comparator:item field value:' är upprepningsbar inom en enkel rad för att möjliggöra mer komplexa fall"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# The mapping should be of the form 'branchcode:item field:comparator:item field value:sort bin number', with one mapping per line.<br/>"
@@ -7360,9 +7359,8 @@ msgstr "Library Thing"
 
 # Enhanced content
 # Enhanced Content > Local Cover Images
-#, fuzzy
 msgid "enhanced_content.pref Local or remote cover images"
-msgstr "Lokala omslagsbilder"
+msgstr "Lokala eller externa omslagsbilder"
 
 # Enhanced content
 # Enhanced content > All
@@ -8063,7 +8061,7 @@ msgstr "sökresultat från Open Library i OPAC."
 
 # Enhanced content > OverDrive > OverDriveAuthName
 msgid "enhanced_content.pref#OverDriveAuthName# (will be used as fallback if individual branch authname not set in the <a href=\"/cgi-bin/koha/admin/overdrive.pl\">OverDrive library authnames table</a>)."
-msgstr ""
+msgstr "(kommer att användas som standardvärde om 'authname' för den enskilda enheten inte är angivet i <a href=\"/cgi-bin/koha/admin/overdrive.pl\">OverDrive library authnames-tabellen</a>)."
 
 # Enhanced content > OverDrive > OverDriveAuthName
 # Enhanced content > OverDrive
@@ -8471,7 +8469,7 @@ msgstr "modulen för e-resurshantering"
 
 # E-resource management > Interface > ERMProviderEbscoApiKey
 msgid "erm.pref#ERMProviderEbscoApiKey# API key for EBSCO HoldingsIQ"
-msgstr ""
+msgstr "API-nyckel för EBSCO HoldingsIQ"
 
 # E-resource management > Interface > ERMProviderEbscoCustomerID
 msgid "erm.pref#ERMProviderEbscoCustomerID# Customer ID for EBSCO HoldingsIQ"
@@ -9426,7 +9424,7 @@ msgstr "<br/><a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=
 
 # OPAC > Appearance > COinSinOPACResults
 msgid "opac.pref#COinSinOPACResults# <br/>If you want to display a link to an OpenURL resolver, look at the following system preferences:"
-msgstr ""
+msgstr "<br/>Om ni vill visa en länk till en OpenURL-uppslagningstjänst, titta på följande systeminställningar:"
 
 # OPAC > Appearance > COinSinOPACResults
 # OPAC > Appearance
@@ -11026,7 +11024,7 @@ msgstr "Bildadress för OpenURL-länkar:"
 
 # OPAC > OpenURL > OpenURLResolverURL
 msgid "opac.pref#OpenURLResolverURL# Complete URL of OpenURL resolver (starting with <code>http://</code> or <code>https://</code>):"
-msgstr ""
+msgstr "Fyll i URL till OpenURL-uppslagstjänst (börjar med <code>http://</code> eller <code>https://</code>):"
 
 # OPAC > OpenURL > OpenURLText
 # OPAC > Appearance
@@ -13578,7 +13576,7 @@ msgstr "Visa"
 
 # Searching > Results display > ShowHeadingUse
 msgid "searching.pref#ShowHeadingUse# whether an authority record contains an established heading that conforms to descriptive cataloguing rules, and can therefore be used as a main/added entry, or subject, or series title."
-msgstr ""
+msgstr "om en auktoritetspost innehåller en etablerad rubrik som följer deskriptiva katalogiseringsregler, och därför kan användas som huvuduppslag, eller ämne eller serietitel."
 
 # Searching > Features > TraceCompleteSubfields
 # Searching > Features
