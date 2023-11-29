@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2023-11-17 03:01+0000\n"
+"PO-Revision-Date: 2023-11-30 09:12+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-pref.po\n"
 "X-POOTLE-MTIME: 1698392361.707486\n"
@@ -280,35 +280,31 @@ msgstr "jos virkailija yrittää luoda laskua samalle numerolle."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Circulation > Checkin policy > StoreLastBorrower
-#, fuzzy
 msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> ja <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: kirjaston osoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Acquisitions > Policy > AcquisitionsDefaultEMailAddress
 msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# Use the from email address"
-msgstr ""
+msgstr "Käytä lähettäjäosoitteena"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# when sending acquisitions order and claim notices."
-msgstr "piilokopio(ta) (BCC) kirjautuneelle käyttäjälle, kun lähetetään reklamaatioita kausijulkaisuista tai tilauksista."
+msgstr "kun lähetetään tilaus- ja reklamointiviestejä."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Circulation > Checkin policy > StoreLastBorrower
-#, fuzzy
 msgid "acquisitions.pref#AcquisitionsDefaultReplyTo# <br>If left empty, it will fall back to the first defined address in the following list: library reply-to, library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> ja <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: kirjaston vastausosoite, kirjaston sähköpostiosoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> ja <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
 
 # Acquisitions > Policy > AcquisitionsDefaultReplyTo
 msgid "acquisitions.pref#AcquisitionsDefaultReplyTo# Use the reply-to email address"
-msgstr ""
+msgstr "Käytä vastausosoitteena"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#AcquisitionsDefaultReplyTo# when sending acquisitions order and claim notices."
-msgstr "piilokopio(ta) (BCC) kirjautuneelle käyttäjälle, kun lähetetään reklamaatioita kausijulkaisuista tai tilauksista."
+msgstr "kun lähetetään tilaus- ja reklamointiviestejä."
 
 # Acquisitions > Policy > BasketConfirmations
 # Acquisitions > Policy
@@ -327,25 +323,22 @@ msgstr "älä kysy varmistusta."
 
 # Circulation > Checkin policy > CalculateFinesOnBackdate
 # Circulation > Checkin policy
-#, fuzzy
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# Exclude"
-msgstr "Laske"
+msgstr "Älä sisällytä"
 
 # Acquisitions > Policy > EmailPurchaseSuggestions
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# Include"
-msgstr "ei mitään"
+msgstr "Sisällytä"
 
 # Acquisitions > Policy > CalculateFundValuesIncludingTax
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# tax in the calculated fund values (spent, ordered). Note this rule applies to all vendors regardless of their configuration"
-msgstr ""
+msgstr "verot tilien laskettuihin arvoihin (käytetty, tilattu). Huomaa, että tämä sääntö koskee kaikkia toimittajia riippumatta niiden asetuksista"
 
 # Acquisitions > Policy > AcqViewBaskets
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# Allow"
-msgstr "Näytä tilauskorit:"
+msgstr "Salli"
 
 # Acquisitions > Policy > AcqEnableFiles
 # Acquisitions > Policy
@@ -355,7 +348,7 @@ msgstr "Älä salli"
 
 # Acquisitions > Policy > CancelOrdersInClosedBaskets
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# cancelling order lines in closed baskets."
-msgstr ""
+msgstr "suljettujen tilauskorien tilausrivien peruuttamista."
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
@@ -576,21 +569,18 @@ msgstr "päivän ajan. Esimerkki: [30] Tyhjentää hankintaehdotukset, jotka teh
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Circulation > Checkin policy > StoreLastBorrower
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> ja <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: kirjaston sähköpostiosoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Administration > Interface options > ReplytoDefault
 # Administration > Interface options
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# Use the from email address"
-msgstr "Vastaus-sähköpostiosoite: "
+msgstr "Käytä lähettäjäosoitteena"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# when sending serial claim notices."
-msgstr "piilokopio(ta) (BCC) kirjautuneelle käyttäjälle, kun lähetetään reklamaatioita kausijulkaisuista tai tilauksista."
+msgstr "kun lähetetään reklamaatioita kausijulkaisuista."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Circulation > Checkin policy > StoreLastBorrower
@@ -2518,73 +2508,62 @@ msgstr "automaattisesti nimekkeitä, jotka on jo aiemmin linkitetty kuvailtaessa
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 0XX"
-msgstr "Käytä"
+msgstr "0XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 1XX"
-msgstr "Käytä"
+msgstr "1XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 2XX"
-msgstr "Käytä"
+msgstr "2XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 3XX"
-msgstr "Käytä"
+msgstr "3XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 4XX"
-msgstr "Käytä"
+msgstr "4XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 5XX"
-msgstr "Käytä"
+msgstr "5XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 6XX"
-msgstr "Käytä"
+msgstr "6XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 7XX"
-msgstr "Käytä"
+msgstr "7XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 8XX"
-msgstr "Käytä"
+msgstr "8XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 9XX"
-msgstr "Käytä"
+msgstr "9XX"
 
 # Authorities > General > AutoCreateAuthorities
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# When viewing authority details default to the"
-msgstr "Tietueita muokattaessa"
+msgstr "Auktoriteetin tietoja katsottaessa, näytä oletuksena"
 
 # Authorities > General > DefaultAuthorityTab
 msgid "authorities.pref#DefaultAuthorityTab# tab. If the selected tab does not exist, the view will default to the first tab."
-msgstr ""
+msgstr "-välilehti. Jos valittua välilehteä ei ole olemassa, näytetään ensimmäinen välilehti."
 
 # Authorities > General > GenerateAuthorityField667
 # Circulation > Checkin policy > StoreLastBorrower
@@ -3034,20 +3013,17 @@ msgstr "kehittyneen kuvailueditorin käyttö."
 
 # Circulation > Holds policy > EnableItemGroups
 # Circulation > Article requests
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# Don't enable"
 msgstr "Älä ota käyttöön"
 
 # Circulation > Holds policy > EnableItemGroups
 # Circulation > Checkout policy
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# Enable"
 msgstr "Ota käyttöön"
 
 # Circulation > Holds policy > EnableItemGroups
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# the item groups feature to allow collecting groups of items on a record together."
-msgstr "nideryhmä ominaisuus salliaksesi tietueessa olevien niteiden keräämisen yhteen."
+msgstr "nideryhmä-ominaisuus salliaksesi niteiden keräämisen yhteen tietueessa."
 
 # Cataloging > Display > ISBD
 # Cataloging > Display
