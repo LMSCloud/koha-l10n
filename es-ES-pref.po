@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:11-0300\n"
-"PO-Revision-Date: 2023-11-29 03:02+0000\n"
+"PO-Revision-Date: 2023-11-29 13:29+0000\n"
 "Last-Translator: Tomás Cohen Arazi <tomascohen@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: es-ES\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /es/22.11/es-ES-pref.po\n"
 "X-POOTLE-MTIME: 1698434579.302887\n"
@@ -8694,7 +8694,7 @@ msgstr "Utilizar el alfabeto"
 # I18N/L10N > Global > alphabet
 # I18N/L10N
 msgid "i18n_l10n.pref#alphabet# for lists of browsable letters. This should be a space separated list of uppercase letters."
-msgstr "para listas navegables de letras. Debería ser una lista de letras en mayúscula separados por espacios"
+msgstr "para listas navegables de letras. Debería ser una lista de letras en mayúscula separados por espacios."
 
 # I18N/L10N > Global > dateformat
 # I18N/L10N
@@ -10279,7 +10279,7 @@ msgstr "Mostrar listas en el OPAC utilizando las hojas de estilo XSLT en: "
 # OPAC > Appearance > OPACXSLTResultsDisplay
 # Staff Client > Appearance
 msgid "opac.pref#OPACXSLTResultsDisplay# <br />Options:<ul><li>Enter \"<a href=\"#\" class=\"set_syspref\" data-syspref=\"OPACXSLTResultsDisplay\" data-value=\"default\">default</a>\" for the default stylesheet</li><li>Put a path to define an xslt file</li><li>Put a URL for an external specific stylesheet.</li><li>NOTE: The system preference <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=PassItemMarcToXSLT\">PassItemMarcToXSLT</a> must be enabled if your custom stylesheet utilizes data in the item fields</li></ul>If you have multiple stylesheets for different languages the placeholder {langcode} will be replaced with current interface language."
-msgstr "<br />Opciones:<ul><li>Ingrese \"<a href=\"#\" class=\"set_syspref\" data-syspref=\"OPACXSLTResultsDisplay\" data-value=\"default\">default</a>\" para el valor predeterminado</li><li>Ingrese una ruta para definir un archivo xslt</li><li>Ingrese una URL para una hoja de estilo externa específica</li><li>NOTA: La preferencia de sistema <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=PassItemMarcToXSLT\">PassItemMarcToXSLT</a> debe ser habilitada si su hoja de de estilos utiliza datos en los campos de ítems</li></ul>Si tiene múltiples hojas de estilos para diferentes idiomas, {langcode} será reemplazado con el lenguaje actual de la interfaz."
+msgstr "<br />Opciones:<ul><li>Ingrese \"<a href=\"#\" class=\"set_syspref\" data-syspref=\"OPACXSLTResultsDisplay\" data-value=\"default\">default</a>\" para el valor predeterminado</li><li>Ingrese una ruta para definir un archivo xslt</li><li>Ingrese una URL para una hoja de estilo externa específica</li><li>NOTA: La preferencia de sistema <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=PassItemMarcToXSLT\">PassItemMarcToXSLT</a> debe ser habilitada si su hoja de estilos utiliza datos en los campos de ítems</li></ul>Si tiene múltiples hojas de estilos para diferentes idiomas, {langcode} será reemplazado con el lenguaje actual de la interfaz."
 
 # OPAC > Appearance > OPACXSLTResultsDisplay
 # OPAC > Appearance
@@ -10625,7 +10625,7 @@ msgstr "Ocultar"
 # OPAC > Policy > OpacHiddenItemsHidesRecord
 # OPAC > Policy
 msgid "opac.pref#OpacHiddenItemsHidesRecord# the bibliographic record when all its items are hidden by <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=OpacHiddenItems'>OpacHiddenItems</a>."
-msgstr "Lista de categoría de usuarios, separados por |, que pueden ver los ítems de otra manera ocultos por <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=OpacHiddenItems'>OpacHiddenItems</a>:"
+msgstr "Lista de categoría de usuarios, separados por |, que pueden ver los ítems de otra manera ocultos por <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=OpacHiddenItems'>OpacHiddenItems</a>."
 
 # OPAC > Appearance > OpacHighlightedWords
 # OPAC > Appearance
@@ -10940,12 +10940,12 @@ msgstr "la sede de origen del usuario"
 # OPAC > Features > OpacResetPassword
 # OPAC > Features
 msgid "opac.pref#OpacResetPassword#  to recover their password via e-mail in the OPAC."
-msgstr "  recuperar su contraseña por e-mail en el OAPC."
+msgstr "recuperar su contraseña por e-mail en el OAPC."
 
 # OPAC > Features > OpacResetPassword
 # OPAC > Features
 msgid "opac.pref#OpacResetPassword# Library patrons are "
-msgstr "Los usuarios de la biblioteca"
+msgstr "Los usuarios de la biblioteca "
 
 # OPAC > Features > OpacResetPassword
 # OPAC > Features
@@ -11229,7 +11229,7 @@ msgstr "Habilite el auto registro para las siguientes bibliotecas:"
 # OPAC > Self registration and modification > PatronSelfRegistrationLibraryList
 # OPAC > Self registration and modification
 msgid "opac.pref#PatronSelfRegistrationLibraryList# If empty, all libraries will be listed."
-msgstr "Si deja en blanco, todas las bibliotecas serán listadas"
+msgstr "Si deja en blanco, todas las bibliotecas serán listadas."
 
 # OPAC > Self registration and modification > PatronSelfRegistrationPrefillForm
 # OPAC > Self registration and modification
@@ -11794,7 +11794,7 @@ msgstr "caracteres de longitud. La longitud puede ser un solo número para espec
 # Patrons > General > CheckPrevCheckout
 # Patrons > General
 msgid "patrons.pref#CheckPrevCheckout#  check borrower checkout history to see if the current item has been checked out before."
-msgstr "  revise el historial de préstamos del usuario para ver si el ítem actual ha sido prestado anteriormente."
+msgstr "revise el historial de préstamos del usuario para ver si el ítem actual ha sido prestado anteriormente."
 
 # Patrons > General > CheckPrevCheckout
 # Patrons > General
@@ -12543,7 +12543,7 @@ msgstr "Utilice la siguiente URL"
 # Patrons > Privacy > PrivacyPolicyURL
 # Patrons > Privacy
 msgid "patrons.pref#PrivacyPolicyURL# to refer to your local privacy policy in messages about privacy and data protection. (If you enforce a data privacy policy, make sure that this page is not blocked.)"
-msgstr "para consultar su política de privacidad local en los mensajes sobre privacidad y protección de datos. (Si aplica una la política de política de privacidad, asegúrese de que esta página no esté bloqueada)."
+msgstr "para consultar su política de privacidad local en los mensajes sobre privacidad y protección de datos. (Si aplica una la política de política de privacidad, asegúrese de que esta página no esté bloqueada)"
 
 # Patrons > General > ProtectSuperlibrarianPrivileges
 # Patrons > General
@@ -12905,7 +12905,7 @@ msgstr "(ingrese opciones múltiples separadas por |). Dejar en blanco para desa
 # Patrons > Patron relationships > borrowerRelationship
 # Patrons > General
 msgid "patrons.pref#borrowerRelationship# Guarantors can be the following of those they guarantee:"
-msgstr "La función de responsable (responsable es el que tiene a su cargo varios usuarios tutelados) se asigna a:"
+msgstr "Los garantes pueden tener alguna de las siguientes relaciones con sus tutelados:"
 
 # Patrons > General > intranetreadinghistory
 # Patrons > General
@@ -13336,7 +13336,7 @@ msgstr "<br/>Los estados de disponibilidad pueden mostrarse de forma incorrecta 
 # Searching > Results display > MaxSearchResultsItemsPerRecordStatusCheck
 # Searching > Results Display
 msgid "searching.pref#MaxSearchResultsItemsPerRecordStatusCheck# <br/>Leave empty for no limit."
-msgstr " <br/>Deje en blanco para no establecer límite."
+msgstr "<br/>Deje en blanco para no establecer límite."
 
 # Searching > Results display > MaxSearchResultsItemsPerRecordStatusCheck
 # Searching > Results Display
@@ -14050,7 +14050,7 @@ msgstr "Apariencia"
 # Staff interface
 # Administration > CAS authentication
 msgid "staff_interface.pref Authentication"
-msgstr "Autenticación "
+msgstr "Autenticación"
 
 # Staff interface
 # Staff interface > Options
