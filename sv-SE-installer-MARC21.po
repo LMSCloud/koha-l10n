@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2023-11-29 03:01+0000\n"
+"PO-Revision-Date: 2023-11-29 10:29+0000\n"
 "Last-Translator: \"maria.t\" <maria.thorgren@boden.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -27,7 +27,7 @@ msgstr "kontrollfält"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:6
 msgid "Field link and sequence number"
-msgstr ""
+msgstr "Länk- och sekvensnummer"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:7
 msgid "LC control number"
@@ -692,7 +692,7 @@ msgstr "Information om förhållanden"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:343
 msgid "Medium"
-msgstr "Medium"
+msgstr "Allmän medieterm"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:344
 #, fuzzy
@@ -714,18 +714,16 @@ msgid "Medium of performance for music"
 msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:348
-#, fuzzy
 msgid "Number of part/section of a work"
-msgstr "version of a work"
+msgstr "Delbeteckning"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:349
 msgid "Arranged statement for music"
 msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:350
-#, fuzzy
 msgid "Name of part/section of a work"
-msgstr "version of a work"
+msgstr "Deltitel"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:351
 #, fuzzy
@@ -801,7 +799,7 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:406
 msgid "Uniform title"
-msgstr "Föredragen titel"
+msgstr "Uniform titel"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:407
 #, fuzzy
@@ -1372,9 +1370,8 @@ msgid "Title"
 msgstr "Titel"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1317
-#, fuzzy
 msgid "Remainder of title"
-msgstr "Påminnelsedatum"
+msgstr "Övrig titelinformation"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1318
 msgid "Date"
@@ -2085,7 +2082,7 @@ msgstr "ASSOCIERAD PLATS"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:75
 msgid "ADDRESS"
-msgstr "ADRESS"
+msgstr "Adress"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:76
 msgid "FIELD OF ACTIVITY"
@@ -3339,17 +3336,15 @@ msgstr "Förkortad titel"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:517
 msgid "Acronym or shortened title"
-msgstr "Akronym eller förkortad titel"
+msgstr "Acronym or shortened title"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:519
-#, fuzzy
 msgid "Variant access title"
-msgstr "Vårdnadshavare titel"
+msgstr "Variant access title"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:521
-#, fuzzy
 msgid "Augmented title"
-msgstr "Förkortad titel"
+msgstr "Augmented title"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:524
 #, fuzzy
@@ -3357,13 +3352,12 @@ msgid "Key title"
 msgstr "title"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:546
-#, fuzzy
 msgid "Romanized title"
-msgstr "Enhetlig titel"
+msgstr "Romanized title"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:552
 msgid "Statement of responsibility, etc."
-msgstr ""
+msgstr "Upphov och därpå följande del av titelinformation"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:553
 msgid "Designation of section (BK AM MP MU VM SE) [OBSOLETE]"
@@ -3379,26 +3373,23 @@ msgstr "Språkkod för översatt titel"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:581
 msgid "Designation of section/part/series (SE) [OBSOLETE]"
-msgstr ""
+msgstr "Designation of section/part/series (SE) [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:582
 msgid "Name of part/section/series (SE) [OBSOLETE]"
-msgstr ""
+msgstr "Name of part/section/series (SE) [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:583
-#, fuzzy
 msgid "Inclusive dates"
-msgstr "Inklusive datum för samlingen"
+msgstr "Täcknings- eller tillkomsttid, hela innehållet"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:584
-#, fuzzy
 msgid "Bulk dates"
-msgstr "Alla datum"
+msgstr "Täcknings- eller tillkomsttid, huvudparten av innehållet"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:586
-#, fuzzy
 msgid "Form"
-msgstr "Formulär"
+msgstr "Form"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:594
 #, fuzzy
@@ -3566,9 +3557,8 @@ msgid "Matrix and/or take number"
 msgstr "matrisnummer"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:686
-#, fuzzy
 msgid "Projected publication date"
-msgstr "Utgivningsdatum"
+msgstr "Förväntad utgivningstid"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:691
 msgid "Place of production, publication, distribution, manufacture"
@@ -5496,7 +5486,7 @@ msgstr "Länkning (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1707
 msgid "Field link and sequence number (RLIN)"
-msgstr ""
+msgstr "Länk- och sekvensnummer (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1708
 msgid "Local note"
@@ -6886,25 +6876,23 @@ msgstr "Huvuduppslag - Uniform titel"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:74
 msgid "ABBREVIATED TITLE"
-msgstr "FÖRKORTAD TITEL"
+msgstr "Förkortad titel"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:75
 msgid "ACRONYM OR SHORTENED TITLE [OBSOLETE]"
-msgstr "AKRONYM ELLER FÖRKORTAD TITEL [UR BRUK]"
+msgstr "Acronym or shortened title [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:76
-#, fuzzy
 msgid "VARIANT ACCESS TITLE [OBSOLETE]"
-msgstr "AKRONYM ELLER FÖRKORTAD TITEL [UR BRUK]"
+msgstr "Variant access title [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:77
-#, fuzzy
 msgid "AUGMENTED TITLE [OBSOLETE]"
-msgstr "AKRONYM ELLER FÖRKORTAD TITEL [UR BRUK]"
+msgstr "Augmented title [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:78
 msgid "KEY TITLE"
-msgstr ""
+msgstr "Nyckeltitel"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:79
 msgid "UNIFORM TITLE"
@@ -6912,31 +6900,31 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:80
 msgid "ROMANIZED TITLE (BK AM CF MP MU VM) [OBSOLETE]"
-msgstr ""
+msgstr "Romanized title (BK AM CF MP MU VM) [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:81
 msgid "TRANSLATION OF TITLE BY CATALOGING AGENCY"
-msgstr ""
+msgstr "Översatt/normaliserad titel"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:82
 msgid "COLLECTIVE UNIFORM TITLE"
-msgstr ""
+msgstr "Grupptitel (Används normalt ej)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:83
 msgid "TITLE STATEMENT"
-msgstr ""
+msgstr "Titel och upphov"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:84
 msgid "VARYING FORM OF TITLE"
-msgstr ""
+msgstr "Varianttitel"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:85
 msgid "FORMER TITLE"
-msgstr ""
+msgstr "Tidigare titel"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:86
 msgid "EDITION STATEMENT"
-msgstr ""
+msgstr "Upplaga"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:87
 msgid "VERSION INFORMATION"
@@ -6944,47 +6932,47 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:88
 msgid "MUSICAL PRESENTATION STATEMENT"
-msgstr ""
+msgstr "Musikalietypsspecifik uppgift"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:89
 msgid "CARTOGRAPHIC MATHEMATICAL DATA"
-msgstr ""
+msgstr "Kartografiska matematiska uppgifter"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:90
 msgid "COMPUTER FILE CHARACTERISTICS"
-msgstr ""
+msgstr "Filspecifika uppgifter"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:91
 msgid "COUNTRY OF PRODUCING ENTITY"
-msgstr ""
+msgstr "Land för den enhet som producerat arkivfilm"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:92
 msgid "PHILATELIC ISSUE DATA"
-msgstr ""
+msgstr "Filatelistisk utgivning"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:93
 msgid "PUBLICATION, DISTRIBUTION, ETC."
-msgstr ""
+msgstr "Utgivning, distribution etc."
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:94
 msgid "IMPRINT STATEMENT FOR FILMS (Pre-AACR 1 Revised) [OBSOLETE, CAN/MARC], [LOCAL, USA]"
-msgstr ""
+msgstr "Imprint statement for films (pre-AACR 1 revised [obsolete, CAN/MARC], [local, USA]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:95
 msgid "IMPRINT STATEMENT FOR SOUND RECORDINGS (Pre-AACR 2) [LOCAL, USA]"
-msgstr ""
+msgstr "Imprint statement for sound recordings (pre-AACR 2) [local, USA]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:96
 msgid "PROJECTED PUBLICATION DATE"
-msgstr ""
+msgstr "Förväntad utgivningstid"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:97
 msgid "PRODUCTION, PUBLICATION, DISTRIBUTION, MANUFACTURE, AND COPYRIGHT NOTICE"
-msgstr ""
+msgstr "Uppgift om produktion, publicering, distribution, tillverkning och/eller copyright"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:98
 msgid "SOURCE FOR ACQUISITION/SUBSCRIPTION ADDRESS [OBSOLETE]"
-msgstr ""
+msgstr "Source for acquisition/subscription address [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:100
 msgid "PHYSICAL DESCRIPTION"
