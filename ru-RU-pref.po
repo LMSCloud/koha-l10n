@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:30-0300\n"
-"PO-Revision-Date: 2023-11-28 08:32+0000\n"
+"PO-Revision-Date: 2023-11-30 09:12+0000\n"
 "Last-Translator: \"Igor A. Sychev\" <Igor.A.Sychev@mail.ru>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: ru-RU\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /ru/22.11/ru-RU-pref.po\n"
 "X-POOTLE-MTIME: 1698973572.213799\n"
@@ -2759,12 +2759,12 @@ msgstr "Наклейки на корешок"
 # Cataloging > Display > AcquisitionDetails
 # Cataloging > Display
 msgid "cataloguing.pref#AcquisitionDetails# Don't show"
-msgstr "Скрыть"
+msgstr "Не показывать"
 
 # Cataloging > Display > AcquisitionDetails
 # Cataloging > Display
 msgid "cataloguing.pref#AcquisitionDetails# Show"
-msgstr "Показать"
+msgstr "Показывать"
 
 # Cataloging > Display > AcquisitionDetails
 # Cataloging > Display
@@ -2903,7 +2903,7 @@ msgstr "<p><strong>NOTE:</strong> Вы также можете включить 
 
 # Cataloging > Interface > CatalogConcerns
 msgid "cataloguing.pref#CatalogConcerns# Allow"
-msgstr "cataloguing.pref#CatalogConcerns# Разрешить"
+msgstr "Разрешить"
 
 # Cataloging > Interface > CatalogConcerns
 msgid "cataloguing.pref#CatalogConcerns# Don't allow"
@@ -6272,9 +6272,8 @@ msgstr "Скрыть"
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#SCOLoadCheckoutsByDefault# Show"
-msgstr "Разрешить"
+msgstr "Показать"
 
 # Circulation > Self check-out module > ShowPatronImageInWebBasedSelfCheck
 # Circulation > Self check-out module
@@ -9125,42 +9124,42 @@ msgstr "Регистрировать"
 # Logging > Logging > AuthoritiesLog
 # Logging > Logging
 msgid "logs.pref#AuthoritiesLog# Don't log"
-msgstr "Не записывать в журнал "
+msgstr "Не записывать в журнал"
 
 # Logging > Logging > AuthoritiesLog
 # Logging > Logging
 msgid "logs.pref#AuthoritiesLog# Log"
-msgstr "Записывать в журнал "
+msgstr "Записывать в журнал"
 
 # Logging > Logging > AuthoritiesLog
 # Logging > Logging
 msgid "logs.pref#AuthoritiesLog# changes to authority records."
-msgstr " изменения в авторитетных записях."
+msgstr "изменения в авторитетных записях."
 
 # Logging > Logging > BorrowersLog
 # Logging > Logging
 msgid "logs.pref#BorrowersLog# Don't log"
-msgstr "Не записывать в журнал "
+msgstr "Не записывать в журнал"
 
 # Logging > Logging > BorrowersLog
 # Logging > Logging
 msgid "logs.pref#BorrowersLog# Log"
-msgstr "Записывать в журнал "
+msgstr "Записывать в журнал"
 
 # Logging > Logging > BorrowersLog
 # Logging > Logging
 msgid "logs.pref#BorrowersLog# changes to patron records."
-msgstr " изменения в записях посетителей."
+msgstr "изменения в записях читателей."
 
 # Logging > Logging > CataloguingLog
 # Logging > Logging
 msgid "logs.pref#CataloguingLog# Don't log"
-msgstr "Не записывать в журнал "
+msgstr "Не записывать в журнал"
 
 # Logging > Logging > CataloguingLog
 # Logging > Logging
 msgid "logs.pref#CataloguingLog# Log"
-msgstr "Записывать в журнал "
+msgstr "Записывать в журнал"
 
 # Logging > Logging > CataloguingLog
 # Logging > Logging
@@ -9170,12 +9169,12 @@ msgstr "любые изменения в библиографические за
 # Logging > Logging > ClaimsLog
 # Logging > Logging
 msgid "logs.pref#ClaimsLog# Don't log"
-msgstr "Не записывать в журнал "
+msgstr "Не записывать в журнал"
 
 # Logging > Logging > ClaimsLog
 # Logging > Logging
 msgid "logs.pref#ClaimsLog# Log"
-msgstr "Записывать в журнал "
+msgstr "Записывать в журнал"
 
 # Logging > Logging > ClaimsLog
 # Logging > Logging
@@ -10213,18 +10212,16 @@ msgid "opac.pref#OPACShowSavings# Calculate the amount a patron has 'saved' by u
 msgstr "Рассчитайте сумму, которую читатель «сэкономил», пользуясь библиотекой, на основе цен замены, и отобразите:"
 
 # OPAC > Features > OPACShowSavings
-#, fuzzy
 msgid "opac.pref#OPACShowSavings# in user summary box on OPAC homepage (the system preference 'OPACUserSummary' must be enabled)"
-msgstr "в поле сведений о пользователе на главной странице OPAC (системная настройка <em>OPACUserSummary</em> должна быть включена)"
+msgstr "в поле сведений о пользователе на главной странице OPAC (системная настройка 'OPACUserSummary' должна быть включена)"
 
 # OPAC > Features > OPACShowSavings
 msgid "opac.pref#OPACShowSavings# on patron's 'your summary' page"
 msgstr "на странице читателя \"сведения о вас\""
 
 # OPAC > Features > OPACShowSavings
-#, fuzzy
 msgid "opac.pref#OPACShowSavings# on patron's checkout history page (the system preference 'opacreadinghistory' must be enabled)"
-msgstr "на странице истории выдач читателя (системная настройка <em>opacredinghistory</em> должна быть включена)"
+msgstr "на странице истории выдач читателя (системная настройка 'opacredinghistory' должна быть включена)"
 
 # OPAC > Appearance > OPACShowUnusedAuthorities
 # OPAC > Appearance
