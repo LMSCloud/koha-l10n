@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2023-11-29 10:29+0000\n"
+"PO-Revision-Date: 2023-11-30 09:11+0000\n"
 "Last-Translator: \"maria.t\" <maria.thorgren@boden.se>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-installer-MARC21.po\n"
 "X-POOTLE-MTIME: 1695633350.754469\n"
@@ -59,17 +59,15 @@ msgstr "Borttaget eller ogiltigt kontrollnummer"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:18
 msgid "International Standard Book Number"
-msgstr "ISBN"
+msgstr "ISBN, med eventuella kvalifikatorer"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:19
-#, fuzzy
 msgid "Terms of availability"
-msgstr "Tillgänglighet"
+msgstr "Anskaffningsvillkor"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:20
-#, fuzzy
 msgid "Qualifying information"
-msgstr "Beställningsinformation"
+msgstr "Kvalificerande information"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:21
 msgid "Canceled/invalid ISBN"
@@ -393,13 +391,12 @@ msgid "Institution to which field applies"
 msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:126
-#, fuzzy
 msgid "Classification number"
-msgstr "Klassificering:"
+msgstr "Klassifikationskod"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:127
 msgid "Item number"
-msgstr "Exemplarnummer"
+msgstr "Ordningselement i uppställningen"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:128
 #, fuzzy
@@ -519,9 +516,8 @@ msgid "Common auxiliary subdivision"
 msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:215
-#, fuzzy
 msgid "Edition number"
-msgstr "Biblio-nummer"
+msgstr "Upplaga"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:229
 msgid "Table sequence number for internal subarrangement or add table"
@@ -2058,11 +2054,11 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:69
 msgid "CONTENT TYPE"
-msgstr ""
+msgstr "Innehållstyp (RDA)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:70
 msgid "FORMAT OF NOTATED MUSIC"
-msgstr ""
+msgstr "Format för musiktryck (noterad musik)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:71
 msgid "COMPLEX SEE ALSO REFERENCE [CLASSIFICATION FORMAT]"
@@ -2078,7 +2074,7 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:74
 msgid "ASSOCIATED PLACE"
-msgstr "ASSOCIERAD PLATS"
+msgstr "Associerad plats/ort"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:75
 msgid "ADDRESS"
@@ -2106,7 +2102,7 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:81
 msgid "ASSOCIATED LANGUAGE"
-msgstr "ASSOCIERAT SPRÅK"
+msgstr "Associerat språk"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:82
 msgid "FULLER FORM OF PERSONAL NAME"
@@ -2114,19 +2110,19 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:83
 msgid "FORM OF WORK"
-msgstr ""
+msgstr "Verkets genre eller form"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:84
 msgid "OTHER DISTINGUISHING CHARACTERISTICS OF WORK OR EXPRESSION"
-msgstr ""
+msgstr "Andra särskiljande karakteristika för verk eller uttryck"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:85
 msgid "MEDIUM OF PERFORMANCE"
-msgstr ""
+msgstr "Besättning för framförande av musikaliska verk"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:86
 msgid "NUMERIC DESIGNATION OF MUSICAL WORK"
-msgstr ""
+msgstr "Numerisk beteckning för musikaliskt verk"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:87
 msgid "KEY"
@@ -2134,15 +2130,15 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:88
 msgid "AUDIENCE CHARACTERISTICS"
-msgstr ""
+msgstr "Målgruppskategori"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:89
 msgid "CREATOR/CONTRIBUTOR CHARACTERISTICS"
-msgstr ""
+msgstr "Upphovs-/medverkandekategori"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:90
 msgid "TIME PERIOD OF CREATION"
-msgstr ""
+msgstr "Tidsperiod under vilken verket/uttrycket ursprungligen skapades"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:91
 msgid "SEE FROM TRACING--PERSONAL NAME"
@@ -2766,9 +2762,8 @@ msgid "Non-public note"
 msgstr "Intern anmärkning"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:11
-#, fuzzy
 msgid "NUCMC control number"
-msgstr "Kontrollnummer:"
+msgstr "Kontrollnummer (NUCMC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:16
 msgid "Number"
@@ -2806,7 +2801,7 @@ msgstr "Registreringsnummer för copyright"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:36
 msgid "Assigning agency"
-msgstr ""
+msgstr "Instans som tilldelat klassifikationskoden"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:38
 #, fuzzy
@@ -3027,7 +3022,7 @@ msgstr "Språk i sammanfattning(ar)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:197
 msgid "Languages of separate titles (VM) [OBSOLETE] ; Languages of available translation  (SE) [OBSOLETE]"
-msgstr ""
+msgstr "Languages of separate titles (VM) [obsolete] ; Languages of available translation  (SE) [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:198
 msgid "Language code of sung or spoken text"
@@ -3262,9 +3257,8 @@ msgid "Edition information"
 msgstr "Ytterligare information "
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:343
-#, fuzzy
 msgid "Standard or optional designation"
-msgstr "09 - Standard eller valfri beteckning "
+msgstr "Klassifikationskoden följer standard- eller alternativtillämpning"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:368
 msgid "Number where instructions are found-single number or beginning number of span"
@@ -6976,51 +6970,51 @@ msgstr "Source for acquisition/subscription address [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:100
 msgid "PHYSICAL DESCRIPTION"
-msgstr ""
+msgstr "Fysisk beskrivning"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:101
 msgid "PHYSICAL DESCRIPTION FOR FILMS (PRE-AACR 2) (VM) [OBSOLETE, USMARC]"
-msgstr ""
+msgstr "Physical description for films (pre-AACR 2) (VM) [obsolete, USMARC]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:102
 msgid "PAGE OR ITEM COUNT (BK AM) [OBSOLETE]"
-msgstr ""
+msgstr "Page or item count (BK AM) [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:103
 msgid "UNIT COUNT (AM) [OBSOLETE, USMARC]"
-msgstr ""
+msgstr "Unit count (AM) [obsolete, USMARC]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:104
 msgid "LINEAR FOOTAGE (AM) [OBSOLETE, USMARC]"
-msgstr ""
+msgstr "Linear footage (AM) [obsolete, USMARC]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:105
 msgid "PHYSICAL DESCRIPTION FOR SOUND RECORDINGS (Pre-AACR 2) (MU) [OBSOLETE]"
-msgstr ""
+msgstr "Physical description for sound recordings (pre-AACR 2) (MU) [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:106
 msgid "PLAYING TIME"
-msgstr ""
+msgstr "Speltid"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:107
 msgid "HOURS, ETC."
-msgstr ""
+msgstr "Tillgänglighetstider"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:108
 msgid "PHYSICAL DESCRIPTION FOR FILMS (ARCHIVAL) (VM) [OBSOLETE]"
-msgstr ""
+msgstr "Physical description for films (archival) (VM) [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:109
 msgid "CURRENT PUBLICATION FREQUENCY"
-msgstr ""
+msgstr "Nuvarande utgivningsfrekvens"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:110
 msgid "FREQUENCY (CF MP) [OBSOLETE]"
-msgstr ""
+msgstr "Frequency (CF MP) [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:111
 msgid "FORMER PUBLICATION FREQUENCY"
-msgstr ""
+msgstr "Tidigare frekvens"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:112
 msgid "MODE OF ISSUANCE"
@@ -7032,15 +7026,15 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:115
 msgid "MEDIA TYPE"
-msgstr ""
+msgstr "Medietyp (RDA)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:116
 msgid "CARRIER TYPE"
-msgstr "BÄRARTYP"
+msgstr "Bärartyp (RDA)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:117
 msgid "PHYSICAL MEDIUM"
-msgstr ""
+msgstr "Fysiskt medium"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:118
 msgid "ACCESSIBILITY CONTENT"
@@ -7048,15 +7042,15 @@ msgstr "TILLGÄNGLIGHETSINNEHÅLL"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:119
 msgid "GEOSPATIAL REFERENCE DATA"
-msgstr ""
+msgstr "Geodata/landskapsdata/geografiska rumsliga data"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:120
 msgid "PLANAR COORDINATE DATA"
-msgstr ""
+msgstr "Data för plankoordinater"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:121
 msgid "SOUND CHARACTERISTICS"
-msgstr ""
+msgstr "Egenskaper för resursens ljud"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:122
 msgid "MOVING IMAGE CHARACTERISTICS"
@@ -7064,11 +7058,11 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:123
 msgid "VIDEO CHARACTERISTICS"
-msgstr ""
+msgstr "Egenskaper för resursens videokodning"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:124
 msgid "DIGITAL FILE CHARACTERISTICS"
-msgstr ""
+msgstr "Egenskaper för resursens digitala kodning"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:125
 msgid "NOTATED MUSIC CHARACTERISTICS"
@@ -7076,16 +7070,15 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:126
 msgid "PRICE (NR) (BK AM CF MU VM SE) [OBSOLETE]"
-msgstr ""
+msgstr "Price (NR) (BK AM CF MU VM SE) [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:127
 msgid "ORGANIZATION AND ARRANGEMENT OF MATERIALS"
-msgstr ""
+msgstr "Organisation och sorteringsprinciper för en samling objekt"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:128
-#, fuzzy
 msgid "DIGITAL GRAPHIC REPRESENTATION"
-msgstr "ALTERNATIV GRAFISK REPRESENTATION"
+msgstr "Digital grafisk representation"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:129
 msgid "SUPPLEMENTARY CONTENT CHARACTERISTICS"
@@ -7093,15 +7086,15 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:130
 msgid "SECURITY CLASSIFICATION CONTROL"
-msgstr ""
+msgstr "Grad av sekretess"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:131
 msgid "ORIGINATOR DISSEMINATION CONTROL"
-msgstr ""
+msgstr "Upphovsmans bestämmelser för spridning"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:132
 msgid "RENTAL PRICE (VM) [OBSOLETE]"
-msgstr ""
+msgstr "Rental price (VM) [obsolete]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:133
 msgid "STRUCTURED OWNERSHIP AND CUSTODIAL HISTORY"
@@ -7109,19 +7102,19 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:134
 msgid "DATES OF PUBLICATION AND/OR SEQUENTIAL DESIGNATION"
-msgstr ""
+msgstr "Alfanumeriska och/eller kronologiska volymbeteckningar"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:135
 msgid "NORMALIZED DATE AND SEQUENTIAL DESIGNATION"
-msgstr ""
+msgstr "Alfanumeriska och/eller kronologiska volymbeteckningar i normaliserad form"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:136
 msgid "TRADE PRICE"
-msgstr ""
+msgstr "Marknadspris"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:137
 msgid "TRADE AVAILABILITY INFORMATION"
-msgstr ""
+msgstr "Tillgänglighet på marknaden"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:147
 msgid "REPRESENTATIVE EXPRESSION CHARACTERISTICS"
@@ -7129,23 +7122,23 @@ msgstr ""
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:149
 msgid "SERIES STATEMENT/ADDED ENTRY--PERSONAL NAME [OBSOLETE, CAN/MARC], [LOCAL, USA]"
-msgstr ""
+msgstr "Series statement/added entry--Personal name [obsolete, CAN/MARC], [local, USA]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:150
 msgid "SERIES STATEMENT/ADDED ENTRY--CORPORATE NAME [OBSOLETE, CAN/MARC], [LOCAL, USA]"
-msgstr ""
+msgstr "Series statement/added entry--Corporate name [obsolete, CAN/MARC], [local, USA]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:151
 msgid "SERIES STATEMENT/ADDED ENTRY--MEETING NAME [OBSOLETE, CAN/MARC], [LOCAL, USA]"
-msgstr ""
+msgstr "Series statement/added entry--Meeting name [obsolete, CAN/MARC], [local, USA]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:152
 msgid "SERIES STATEMENT/ADDED ENTRY--TITLE"
-msgstr ""
+msgstr "Series statement/added entry--Title"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:153
 msgid "SERIES STATEMENT"
-msgstr ""
+msgstr "Serietitel - ej biuppslagsform"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:154
 msgid "GENERAL NOTE"
