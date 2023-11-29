@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:16-0300\n"
-"PO-Revision-Date: 2023-11-27 14:44+0000\n"
+"PO-Revision-Date: 2023-11-30 09:12+0000\n"
 "Last-Translator: tigran <tigran@flib.sci.am>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hy-Armn\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /hy/22.11/hy-Armn-pref.po\n"
 "X-POOTLE-MTIME: 1697606788.763976\n"
@@ -6809,50 +6809,42 @@ msgstr "circulation.pref#UpdateItemLocationOnCheckout# _ALL_: FIC - հանգեց
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# _BLANK_: FIC - causes an item that has no location to be updated into the Fiction location on check out.<br/>"
-msgstr "circulation.pref#UpdateItemLocationOnCheckin# _BLANK_: FIC - հանգեցնում է նրան, տեղաբաշխում չունեցող նյութը հետ ընդունելիս, տեղաբաշխումը ը թարմացվում է գեղարվեստական գրականության։<br/>"
+msgstr "circulation.pref#UpdateItemLocationOnCheckout# _BLANK_: FIC - հանգեցնում է նրան, տեղաբաշխում չունեցող նյութը դուրս տալուց, տեղաբաշխումը ը թարմացվում է գեղարվեստական գրականության։<br/>"
 
 # Circulation > Holds policy > UpdateItemWhenLostFromHoldList
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemWhenLostFromHoldList# A list of values to update an item's values with when it is marked as <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> from the 'Holds to pull' page."
-msgstr "circulation.pref#UpdateItemWhenLostFromHoldList# Արժեքների ցանկ՝ նյութի արժեքները թարմացնելու համար, երբ այն նշվում է որպես կորած «Պահումները քաշել» էջում:"
+msgstr "circulation.pref#UpdateItemWhenLostFromHoldList# Արժեքների ցանկ՝ նյութի արժեքները թարմացնելու համար, երբ այն նշվում է որպես <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">ԿՈՐԱԾ</a> «Պահումները քաշել» էջում."
 
 # Circulation > Holds policy > UpdateItemWhenLostFromHoldList
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemWhenLostFromHoldList# Example: \"itemlost: 1\" to set items.itemlost to 1 when the item is marked as <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>. (Requires <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
-msgstr "circulation.pref#UpdateItemWhenLostFromHoldList# Օրինակ: \"itemlost: 1\" կարգաբերելու items.itemlost որպես 1 երբ նյութը նշված է որպես կորած։ (Պահանջում է <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
+msgstr "circulation.pref#UpdateItemWhenLostFromHoldList# Օրինակ: \"itemlost: 1\" կարգաբերելու items.itemlost որպես 1 երբ նյութը նշված է որպես <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">ԿՈՐԱԾ</a>։ (Պահանջում է <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Can be used for showing only the not for loan description. E.g. '-1: ONLYMESSAGE'.<br>"
-msgstr "circulation.pref#UpdateNotForLoanStatusOnCheckin# Կարող է օգտագործվել միայն ոչ տրամադրման նկարագրությունը ցուցադրելու համար: օր. '-1: ONLYMESSAGE'."
+msgstr "circulation.pref#UpdateNotForLoanStatusOnCheckin# Կարող է օգտագործվել միայն տրամադրման համար չէ նկարագրությունը ցուցադրելու համար: օր. '-1: ONLYMESSAGE'.<br>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Each pair of values should be on a separate line.<br>"
-msgstr "circulation.pref#UpdateNotForLoanStatusOnCheckin# Արժեքների յուրաքանչյուր զույգ պետք է լինի առանձին տողում։"
+msgstr "circulation.pref#UpdateNotForLoanStatusOnCheckin# Արժեքների յուրաքանչյուր զույգ պետք է լինի առանձին տողում։<br>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# For example, '-1: 0' will cause an item that was set to 'Ordered' to now be available for loan."
-msgstr "circulation.pref#UpdateNotForLoanStatusOnCheckin# այն կթարմացվի աջ մասի արժեքով։ Ասենք '-1: 0' կհանգեցնի նյութի որը կարգաբերված է 'Պատվիրված' և դառնում է հասանելի տացքի համար։"
+msgstr "circulation.pref#UpdateNotForLoanStatusOnCheckin# Ասենք '-1: 0' կհանգեցնի նյութի, որը կարգաբերված է 'Պատվիրված' և դառնում է հասանելի տացքի համար."
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of value pairs. When an item is checked in, if the not for loan value on the left matches the items not for loan value it will be updated to the right-hand value."
-msgstr "circulation.pref#UpdateNotForLoanStatusOnCheckin# Սա արժեքների զույգերի ցուցակն է։ Երբ նյութը հետ է ընդունվում, եթե տացքի համար չէ ձախ մասի արժեքը համընկնում է նյութերը տացքի համար չեն արժեքին"
+msgstr "circulation.pref#UpdateNotForLoanStatusOnCheckin# Սա արժեքների զույգերի ցուցակն է։ Երբ նյութը հետ է ընդունվում, եթե ձախ մասի տացքի համար չէ արժեքը համընկնում է նյութերը տացքի համար չեն արժեքին, այն կթարմացվի աջ մասի արժեքով."
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> authorized values and ONLYMESSAGE."
-msgstr "circulation.pref#BundleNotLoanValue# Օգտագործեք <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a> լիազորված արժեքը"
+msgstr "circulation.pref#UpdateNotForLoanStatusOnCheckin# Վավեր արժեքները <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> լիազորված արժեքներ են և ONLYMESSAGE."
 
 # Circulation > Checkout policy > UpdateNotForLoanStatusOnCheckout
 # Circulation > Checkin policy
@@ -8762,9 +8754,8 @@ msgid "interlibrary_loans.pref OPAC"
 msgstr "interlibrary_loans.pref ՀՕԱՔ"
 
 # Serials
-#, fuzzy
 msgid "interlibrary_loans.pref Workflow"
-msgstr "interlibrary_loans.pref"
+msgstr "interlibrary_loans.pref Աշխատանքային ընթացք"
 
 # Interlibrary loans > Features > CirculateILL
 # Circulation > Interlibrary loans
@@ -8828,87 +8819,79 @@ msgstr "interlibrary_loans.pref#ILLModule# միջգրադարանային բաժ
 
 # Interlibrary loans > Features > ILLModuleCopyrightClearance
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleCopyrightClearance# Adding text will enable the copyright clearance stage in request creation. The text you enter will be the text displayed. OPAC only."
-msgstr "interlibrary_loans.pref#ILLModuleCopyrightClearance# Տեքստի ավելացումը կթույլատրի հարցման ստեղծման պահին հեղինակային իրավունքի մաքրումը։ Քո մուտքագրած տեքստը կարտածվի։"
+msgstr "interlibrary_loans.pref#ILLModuleCopyrightClearance# Տեքստի ավելացումը կթույլատրի հարցման ստեղծման պահին հեղինակային իրավունքի մաքրմանը։ Քո մուտքագրած տեքստը կարտածվի։ Միայն ՀՕԱՔ."
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;h2&gt;HTML title&lt;/h2&gt;<br>"
-msgstr ""
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;h2&gt;HTML title&lt;/h2&gt;<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;p&gt;This is an HTML paragraph&lt;/p&gt;<br>"
-msgstr ""
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;p&gt;Սա HTML պարբերություն է&lt;/p&gt;<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;p&gt;This is another HTML paragraph&lt;/p&gt;<br>"
-msgstr ""
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;p&gt;Սա մեկ այլ HTML պարբերություն է&lt;/p&gt;<br>"
 
 # Interlibrary loans > Features > ILLModuleUnmediated
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;av_category_code: YES_NO<br>"
-msgstr "interlibrary_loans.pref#ILLModuleUnmediated# Միացնել"
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;av_category_code: ԱՅՈ_ՈՉ<br>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;bypass: 1<br>"
-msgstr "interlibrary_loans.pref#ILLModule# Միացնել"
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;շրջանցում: 1<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;text: copyright text for all article type requests<br>"
-msgstr ""
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;text: հեղինակային իրավունքի տեքստ բոլոր տեսակների հոդվածների հարցումների համար<br>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;text: |<br>"
-msgstr "interlibrary_loans.pref#ILLModule# Անջատել"
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;տեքստ: |<br>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# </code>"
-msgstr "interlibrary_loans.pref#ILLModule# Անջատել"
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# </code>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# <code>all:<br>"
-msgstr "interlibrary_loans.pref#ILLModule# Անջատել"
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# <code>all:<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# <li><code>av_category_code</code> is the authorised values category that will be used for the options being presented at the disclaimer stage.</li>"
-msgstr ""
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# <li><code>av_category_code</code> թույլատրված արժեքների դասն է, որը կօգտագործվի պատասխանատվությունից հրաժարվելու փուլում ներկայացված տարբերակների համար.</li>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# <li><code>bypass</code> allows for a specific request type to skip the disclaimer stage.</li></ul>"
-msgstr ""
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# <li><code>bypass</code> թույլ է տալիս կոնկրետ հարցման տեսակի համար բաց թողնել հերքումի փուլը.</li></ul>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# <li><code>text</code> is the HTML that will be visible for the specified request type.</li>"
-msgstr ""
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# <li><code>text</code> HTML-ն է, որը տեսանելի կլինի նշված հարցման տեսակի համար.</li>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# Example (paste the code in the input box): <br>"
-msgstr "interlibrary_loans.pref#ILLModule# միջգրադարանային բաժնույթի մոդուլներ (վարպետ միացում)։"
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# Օրինակ (կոդը տեղադրեք մուտքագրման վանդակում): <br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# For each request type, you can have 3 configuration options: <code>text</code>, <code>av_category_code</code> and <code>bypass</code><ul>"
-msgstr ""
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# Յուրաքանչյուր հարցման տեսակի համար կարող եք ունենալ կազմաձևման 3 տարբերակ: <code>text</code>, <code>av_category_code</code> և <code>bypass</code><ul>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# If the ILL backend supports it, adding YAML will enable the request type disclaimer stage in request creation, prompting the user with a request type specific disclaimer as defined (staff interface and OPAC)."
-msgstr ""
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# Եթե ՄԳԲ backend-ն աջակցում է դրան, ավելացնելով YAML-ը, հնարավորություն կտա հարցումների տիպի մերժման փուլը հարցումների ստեղծման ժամանակ, ինչը օգտվողին հուշում է պահանջի տեսակի հատուկ հերքումը, ինչպես սահմանված է (անձնակազմի միջերես և ՀՕԱՔ)."
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# article:<br>"
-msgstr "interlibrary_loans.pref#ILLModule# Անջատել"
+msgstr "interlibrary_loans.pref#ILLModuleDisclaimerByType# հոդված:<br>"
 
 # Interlibrary loans > Features > ILLModuleUnmediated
 # Circulation > Interlibrary loans
@@ -8937,15 +8920,13 @@ msgstr "interlibrary_loans.pref#ILLOpacbackends# Թույլատրված ՄԳԲ �
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLPartnerCode# Use patrons from category"
-msgstr "interlibrary_loans.pref#ILLModule# Միացնել"
+msgstr "interlibrary_loans.pref#ILLPartnerCode# Օգտագործեք այցելուներին դասից"
 
 # Interlibrary loans > Features > CirculateILL
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLPartnerCode# as partners to place ILL requests with."
-msgstr "interlibrary_loans.pref#CirculateILL# ՄԳԲ-ով պահանջված նյութերի տացք։"
+msgstr "interlibrary_loans.pref#ILLPartnerCode# որպես գործընկերներ՝ ներկայացնելու ՄԳԲ հարցումները."
 
 # Interlibrary loans > Notifications > ILLSendStaffNotices
 # Circulation > Interlibrary loans
@@ -10212,7 +10193,7 @@ msgstr "opac.pref#OPACURLOpenInNewWindow# բացիր կայք էջ նոր պատ
 
 # OPAC > Appearance > OPACUserCSS
 msgid "opac.pref#OPACUserCSS# <br><strong>NOTE:</strong> Library specific CSS can be defined from <a href='/cgi-bin/koha/admin/branches.pl'>here</a>."
-msgstr ""
+msgstr "opac.pref#OPACUserCSS# <br><strong>ՆՇՈՒՄ:</strong> Գրադարանի հատուկ CSS կարելի է սահմանել <a href='/cgi-bin/koha/admin/branches.pl'>այստեղ</a>."
 
 # OPAC > Appearance > OPACUserCSS
 # OPAC > Appearance
@@ -10221,7 +10202,7 @@ msgstr "opac.pref#OPACUserCSS# Ներառի հետևյալ CSS-ը ՀՕԱՔ-ի բ
 
 # OPAC > Appearance > OPACUserJS
 msgid "opac.pref#OPACUserJS# <br><strong>NOTE:</strong> Library specific JS can be defined from <a href='/cgi-bin/koha/admin/branches.pl'>here</a>."
-msgstr ""
+msgstr "opac.pref#OPACUserJS# <br><strong>ՆՇՈՒՄ:</strong> Գրադարանի հատուկ JS-ը կարող է սահմանվել <a href='/cgi-bin/koha/admin/branches.pl'>այստեղ</a>."
 
 # OPAC > Appearance > OPACUserJS
 # OPAC > Appearance
@@ -10806,9 +10787,8 @@ msgstr "opac.pref#OpacMaintenance# Ցուցադրի"
 
 # OPAC > Appearance > OpacMaintenance
 # OPAC > Appearance
-#, fuzzy
 msgid "opac.pref#OpacMaintenance# a warning that the OPAC is under maintenance, instead of the OPAC itself. Note: this shows the same warning as when the database needs to be upgraded, but unconditionally. A custom message can be shown on OPAC maintenance page by creating an <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML customization</a> in the OpacMaintenanceNotice region."
-msgstr "opac.pref#OpacMaintenance# զգուշացում որ ՀՕԱՔ-ը շահագործման մեջ է, հենց իր ՀՕԱՔ-ի փոխարեն։ Նկատի առ որ սա ցույց է տալիս նույն զգուշացումը ինչպիսին է երբ շտեմարանը կարիք ունի կատարելագործման, բայց անվերապահ։"
+msgstr "opac.pref#OpacMaintenance# զգուշացում որ ՀՕԱՔ-ը շահագործման մեջ է, հենց իր ՀՕԱՔ-ի փոխարեն։ Նկատի առ որ սա ցույց է տալիս նույն զգուշացումը ինչպիսին է երբ շտեմարանը կարիք ունի կատարելագործման, բայց անվերապահ։ Անհատականացված հաղորդագրությունը կարող է ցուցադրվել ՀՕԱՔ-ի սպասարկման էջում՝ ստեղծելով <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML անհատականացում</a> OpacMaintenanceNotice տարածքում."
 
 # OPAC > Appearance > OpacMaxItemsToDisplay
 # OPAC > Appearance
@@ -11062,21 +11042,18 @@ msgstr "opac.pref#OpacTopissue# ընթերցողներ որ պետք է մուտ
 
 # OPAC > Features > OpacAuthorities
 # OPAC > Features
-#, fuzzy
 msgid "opac.pref#OpacTrustedCheckout# Allow"
-msgstr "opac.pref#OpacAuthorities# Թույլատրի"
+msgstr "opac.pref#OpacTrustedCheckout# Թույլատրել"
 
 # OPAC > Features > OpacAuthorities
 # OPAC > Features
-#, fuzzy
 msgid "opac.pref#OpacTrustedCheckout# Don't allow"
-msgstr "opac.pref#OpacAuthorities# Մի թույլատրի"
+msgstr "opac.pref#OpacTrustedCheckout# Չթույլատրել"
 
 # OPAC > Policy > OpacAllowPublicListCreation
 # OPAC > Policy
-#, fuzzy
 msgid "opac.pref#OpacTrustedCheckout# OPAC users to checkout to themselves."
-msgstr "opac.pref#OpacAllowPublicListCreation# ՀՕԱՔ օգտվողներ որ ստեղծեն հանրային ցուցակներ․"
+msgstr "opac.pref#OpacTrustedCheckout# ՀՕԱՔ օգտվողներ, որպեսզի իրենք իրենց տացք կազմակերպեն."
 
 # OPAC > OpenURL > OpenURLImageLocation
 # OPAC > OpenURL
@@ -11297,9 +11274,8 @@ msgid "opac.pref#Reference_NFL_Statuses# (Use | as delimiter.)"
 msgstr "opac.pref#Reference_NFL_Statuses# (Օգտագործեք | որպես բաժանարար։)"
 
 # OPAC > Appearance > Reference_NFL_Statuses
-#, fuzzy
 msgid "opac.pref#Reference_NFL_Statuses# List the following <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>not for loan</a> statuses as available for reference in OPAC search results:"
-msgstr "opac.pref#Reference_NFL_Statuses# ՀՕԱՔ-ի որոնման արդյունքներում վկայակոչման համար նշեք հետևյալները որպես տացքի համար ոչ ենթակա."
+msgstr "opac.pref#Reference_NFL_Statuses# Թվարկենք հետևյալ <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>տացքի համար չէ</a> կարգավիճակները, որոնք հասանելի են ՀՕԱՔ-ի որոնման արդյունքներում հղումների համար:"
 
 # OPAC > Restricted page > RestrictedPageContent
 # OPAC > Restricted page
@@ -11838,27 +11814,23 @@ msgid "patrons.pref#CheckPrevCheckoutDelay# days ago."
 msgstr "patrons.pref#CheckPrevCheckoutDelay# օրեր առաջ։"
 
 # Patrons > Notices and notifications > EmailFieldPrimary
-#, fuzzy
 msgid "patrons.pref#ChildNeedsGuarantor# A child patron"
-msgstr "patrons.pref#EmailFieldPrimary# Օգտագործեք այցելուի"
+msgstr "patrons.pref#ChildNeedsGuarantor# Երեխա այցելու"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
-#, fuzzy
 msgid "patrons.pref#ChildNeedsGuarantor# a guarantor when adding the patron."
-msgstr "patrons.pref#CollapseFieldsPatronAddForm# Երաշխավորի տեղեկատվություն"
+msgstr "patrons.pref#ChildNeedsGuarantor# հովանավոր, երբ ավելացվում է այցելու."
 
 # Patrons > Notices and notifications > AutoEmailNewUser
 # Patrons > Notices and notifications
-#, fuzzy
 msgid "patrons.pref#ChildNeedsGuarantor# doesn't need"
-msgstr "patrons.pref#AutoEmailNewUser# Մի ուղարկիր"
+msgstr "patrons.pref#ChildNeedsGuarantor# կարիք չունի"
 
 # Patrons > Patron relationships > PrefillGuaranteeField
 # Patrons > Patron relationships
-#, fuzzy
 msgid "patrons.pref#ChildNeedsGuarantor# must have"
-msgstr "patrons.pref#PrefillGuaranteeField# Ազգանունը"
+msgstr "patrons.pref#ChildNeedsGuarantor# պետք է ունենա"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
