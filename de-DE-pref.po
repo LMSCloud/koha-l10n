@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:08-0300\n"
-"PO-Revision-Date: 2023-11-24 03:02+0000\n"
+"PO-Revision-Date: 2023-11-29 13:29+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de-DE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /de/22.11/de-DE-pref.po\n"
 "X-POOTLE-MTIME: 1697491543.026636\n"
@@ -338,19 +338,17 @@ msgstr "Steuern bei den berechneten Preisen (bestellt, gebunden). Diese Regel gi
 
 # Acquisitions > Policy > AcqViewBaskets
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# Allow"
-msgstr "Zeige die Bestellungen beim Lieferanten,"
+msgstr "Erlaube"
 
 # Acquisitions > Policy > AcqEnableFiles
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# Don't allow"
-msgstr "Deaktiviere"
+msgstr "Erlaube keine"
 
 # Acquisitions > Policy > CancelOrdersInClosedBaskets
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# cancelling order lines in closed baskets."
-msgstr ""
+msgstr "Stornierung von Bestellposten in geschlossenen Bestellungen."
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
@@ -572,37 +570,32 @@ msgstr " Tage. Beispiel: [30] aktiviert die Löschung von Anschaffungsvorschläg
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Wenn das Feld freigelassen wird, wird die erste belegte Adresse aus der folgenden Liste verwendet: ReplyTo-Adresse der Bibliothek, E-Mail-Adresse der Bibliothek, Systemparameter <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> und <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "<br>Wenn das Feld freigelassen wird, wird die erste belegte Adresse aus der folgenden Liste verwendet: E-Mail-Adresse der Bibliothek, Systemparameter <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Administration > Interface options > ReplytoDefault
 # Administration > Interface options
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# Use the from email address"
-msgstr "Antwortadresse für E-Mail-Benachrichtigungen: "
+msgstr "Verwende als Absender die E-Mail-Adresse"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# when sending serial claim notices."
-msgstr "Blindkopien (BCC) von Zeitschriften- oder Erwerbungsreklamationen an den angemeldeten Benutzer"
+msgstr "für den Versand von Reklamationen im Zeitschriftenmodul."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultReplyTo# <br>If left empty, it will fall back to the first defined address in the following list: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Wenn das Feld freigelassen wird, wird die erste belegte Adresse aus der folgenden Liste verwendet: ReplyTo-Adresse der Bibliothek, E-Mail-Adresse der Bibliothek, Systemparameter <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> und <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "<br>Wenn das Feld freigelassen wird, wird die erste belegte Adresse aus der folgenden Liste verwendet: ReplyTo-Adresse der Bibliothek, E-Mail-Adresse der Bibliothek, Systemparameter <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> und <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Acquisitions > Policy > SerialsDefaultReplyTo
 msgid "acquisitions.pref#SerialsDefaultReplyTo# Use the reply-to email address"
-msgstr ""
+msgstr "Verwende als Reply-To die E-Mail-Adresse"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultReplyTo# when sending serial claim notices."
-msgstr "Blindkopien (BCC) von Zeitschriften- oder Erwerbungsreklamationen an den angemeldeten Benutzer"
+msgstr "für den Versand von Reklamationen im Zeitschriftenmodul."
 
 # Acquisitions > Policy > TaxRates
 # Acquisitions > Policy
@@ -873,21 +866,18 @@ msgstr "Mahnbenachrichtigungen für Benutzer ohne hinterlegte E-Mail-Adresse an 
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# Don't force"
-msgstr "Zeige nicht"
+msgstr "Erzwinge keine"
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# Force"
-msgstr "Zeige"
+msgstr "Erzwinge"
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# library selection when logging into the staff interface."
-msgstr "eine Bibliotheksauswahlliste für Nachrichteneinträge im OPAC."
+msgstr "die Auswahl einer Bibliothek bei der Anmeldung in der Dienstoberfläche."
 
 # Administration > Google OpenID Connect > GoogleOAuth2ClientID
 # Patrons > Notices and notifications > PhoneNotification
@@ -2383,9 +2373,8 @@ msgstr "Linker"
 
 # Cataloging > Importing > AdditionalFieldsInZ3950ResultSearch
 # Cataloging > Importing
-#, fuzzy
 msgid "authorities.pref#AdditionalFieldsInZ3950ResultAuthSearch#  in the 'Additional fields' column of Z39.50 search results (use comma as delimiter e.g.: \"<code>001, 035$a</code>\")"
-msgstr " in der Spalte 'Weitere Felder' der Z39.50-Trefferliste (verwende Komma als Trennzeichen, z.B.: \"<code>001, 082$ab, 090$ab</code>\")"
+msgstr "in der Spalte 'Weitere Felder' der Z39.50-Trefferliste (verwende Komma als Trennzeichen, z.B.: \"<code>001, 035$a</code>\")"
 
 # Cataloging > Importing > AdditionalFieldsInZ3950ResultSearch
 # Cataloging > Importing
