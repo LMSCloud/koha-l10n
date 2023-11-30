@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:08-0300\n"
-"PO-Revision-Date: 2023-11-30 09:27+0000\n"
+"PO-Revision-Date: 2023-12-01 03:01+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de-DE\n"
@@ -6802,62 +6802,52 @@ msgstr "Der spezielle Wert _BLANK_ kann auf beiden Seiten des Doppelpunkts (:) v
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# This is a list of value pairs. The first value is followed immediately by colon space then the second value.<br/><br/>"
-msgstr "Es ist eine Liste von Werte-Paaren. Direkt nach dem ersten Wert wird Doppelpunkt Leerzeichen und dann der zweite Wert erfasst.<br/><br/>"
+msgstr "Es ist eine Liste von Werte-Paaren. Auf den ersten Wert folgt direkt ein Doppelpunkt und danach der zweite Wert.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# _ALL_: FIC - causes all items to be updated into the Fiction location on check out.<br/>"
-msgstr "_ALL_: FIC - sorgt dafür, dass alle Exemplare bei Rückgabe auf den Standort Fiktion (FIC) gesetzt werden.<br/>"
+msgstr "_ALL_: FIC - sorgt dafür, dass alle Exemplare bei Ausleihe auf den Standort Fiktion (FIC) gesetzt werden.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# _BLANK_: FIC - causes an item that has no location to be updated into the Fiction location on check out.<br/>"
 msgstr "_BLANK_: FIC - sorgt dafür, dass ein Exemplar, dass bisher keinen Standort hatte auf den Standort Fiktion (FIC) gesetzt wird.<br/>"
 
 # Circulation > Holds policy > UpdateItemWhenLostFromHoldList
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemWhenLostFromHoldList# A list of values to update an item's values with when it is marked as <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> from the 'Holds to pull' page."
-msgstr "Dies ist eine Liste von Exemplarfeldern, die aktualisiert werden, wenn ein Exemplar von der Liste zu bearbeitender Vormerkungen aus als verloren markiert wird."
+msgstr "Dies ist eine Liste von Exemplarfeldern, die aktualisiert werden, wenn ein Exemplar von der Liste zu bearbeitender Vormerkungen aus als <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">verloren</a> markiert wird."
 
 # Circulation > Holds policy > UpdateItemWhenLostFromHoldList
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemWhenLostFromHoldList# Example: \"itemlost: 1\" to set items.itemlost to 1 when the item is marked as <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>. (Requires <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
-msgstr "Beispiel: \"itemlost: 1\" um den Verlust-Status (items.itemlost) auf 1 zu setzen, wenn das Exemplar als Verloren markiert wird. (Erfordert <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
+msgstr "Beispiel: \"itemlost: 1\" um den Verlust-Status (items.itemlost) auf 1 zu setzen, wenn das Exemplar als <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">Verloren</a> markiert wird. (Erfordert <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Can be used for showing only the not for loan description. E.g. '-1: ONLYMESSAGE'.<br>"
-msgstr "Kann verwendet werden, um nur die Beschreibung des normierten Werts anzuzeigen. Z.B. '-1: ONLYMESSAGE'."
+msgstr "Kann verwendet werden, um nur die Beschreibung des normierten Werts anzuzeigen. Z. B. '-1: ONLYMESSAGE'.<br>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Each pair of values should be on a separate line.<br>"
-msgstr "Jedes Wertepaar in einer eigenen Zeile."
+msgstr "Jedes Wertepaar muss in einer eigenen Zeile stehen.<br>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# For example, '-1: 0' will cause an item that was set to 'Ordered' to now be available for loan."
-msgstr "wird dieser zum Wert auf der rechten Seite aktualisiert. Zum Beispiel: -1: 0 erreicht, dass ein Exemplar von 'Bestellt' auf 'Verfügbar' aktualisiert wird."
+msgstr "Zum Beispiel: -1: 0 erreicht, dass ein Exemplar von 'Bestellt' auf 'Verfügbar' aktualisiert wird."
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of value pairs. When an item is checked in, if the not for loan value on the left matches the items not for loan value it will be updated to the right-hand value."
-msgstr "Dies ist eine Liste von Wertepaaren. Wenn ein Exemplar zurückgegeben wird und der Nicht-Ausleihbar-Status links dem Status des Exemplars entspricht,"
+msgstr "Dies ist eine Liste von Wertepaaren. Wenn ein Exemplar zurückgegeben wird und der Nicht-Ausleihbar-Status links dem Status des Exemplars entspricht, wird er auf den rechten Wert aktualisiert."
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> authorized values and ONLYMESSAGE."
-msgstr "Verwenden Sie einen Wert der Normierten-Werte-Kategorie <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>, "
+msgstr "Gültige Werte sind normierte Werte aus <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> und ONLYMESSAGE."
 
 # Circulation > Checkout policy > UpdateNotForLoanStatusOnCheckout
 # Circulation > Checkin policy
@@ -8768,9 +8758,8 @@ msgid "interlibrary_loans.pref OPAC"
 msgstr "OPAC"
 
 # Serials
-#, fuzzy
 msgid "interlibrary_loans.pref Workflow"
-msgstr " "
+msgstr "Workflows"
 
 # Interlibrary loans > Features > CirculateILL
 # Circulation > Interlibrary loans
@@ -8834,87 +8823,79 @@ msgstr "das Fernleihmodul (Hauptschalter)."
 
 # Interlibrary loans > Features > ILLModuleCopyrightClearance
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleCopyrightClearance# Adding text will enable the copyright clearance stage in request creation. The text you enter will be the text displayed. OPAC only."
-msgstr "Eingefügter Text schaltet die 'Copyrightrückfrage' bei Anlegen der Bestellung ein. Der eingefügte Text wird angezeigt."
+msgstr "Eingefügter Text aktiviert einen Zwischenschritt für Copyright-Rückfrage bei Anlegen von Fernleihbestellungen. Der eingefügte Text wird angezeigt. Bezieht sich nur auf den OPAC."
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;h2&gt;HTML title&lt;/h2&gt;<br>"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;h2&gt;HTML-Titel&lt;/h2&gt;<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;p&gt;This is an HTML paragraph&lt;/p&gt;<br>"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;p&gt;HTML-Absatz&lt;/p&gt;<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;p&gt;This is another HTML paragraph&lt;/p&gt;<br>"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;p&gt;Weiterer HTML-Absatz&lt;/p&gt;<br>"
 
 # Interlibrary loans > Features > ILLModuleUnmediated
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;av_category_code: YES_NO<br>"
-msgstr "Aktiviere"
+msgstr "av_category_code: YES_NO<br>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;bypass: 1<br>"
-msgstr "Aktiviere"
+msgstr "&nbsp;bypass: 1<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;text: copyright text for all article type requests<br>"
-msgstr ""
+msgstr "&nbsp;text: Copyrighttext für alle Artikelbestellungen<br>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;text: |<br>"
-msgstr "Deaktiviere"
+msgstr "&nbsp;text: |<br>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# </code>"
-msgstr "Deaktiviere"
+msgstr "</code>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# <code>all:<br>"
-msgstr "Deaktiviere"
+msgstr "<code>all:<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# <li><code>av_category_code</code> is the authorised values category that will be used for the options being presented at the disclaimer stage.</li>"
-msgstr ""
+msgstr "<li><code>av_category_code</code> ist die Nomierte-Werte-Kategorie, die für alle Optionen bei der Copyright-Rückfrage verwendet wird.</li>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# <li><code>bypass</code> allows for a specific request type to skip the disclaimer stage.</li></ul>"
-msgstr ""
+msgstr "<li><code>bypass</code> erlaubt es bei bestimmten Bestellungen den Zwischenschritt zu überspringen.</li></ul>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# <li><code>text</code> is the HTML that will be visible for the specified request type.</li>"
-msgstr ""
+msgstr "<li><code>text</code> ist das HTML, dass für eine bestimmte Bestellart angezeigt wird.</li>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# Example (paste the code in the input box): <br>"
-msgstr "das Fernleihmodul (Hauptschalter)."
+msgstr "Beispiel (kopieren Sie den Code in das Eingabefeld):<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# For each request type, you can have 3 configuration options: <code>text</code>, <code>av_category_code</code> and <code>bypass</code><ul>"
-msgstr ""
+msgstr "Für jede Bestellart können 3 Konfigurationsoptionen angegeben werden: <code>text</code>, <code>av_category_code</code> und <code>bypass</code><ul>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# If the ILL backend supports it, adding YAML will enable the request type disclaimer stage in request creation, prompting the user with a request type specific disclaimer as defined (staff interface and OPAC)."
-msgstr ""
+msgstr "Wenn das Fernleih-Backend dies unterstützt, kann über YAML der Zwishenschritt mit dem Coyprighthinweis aktiviert und dem Benutzer ein für die Bestellart spezifischer Text angezeigt werden (Dienstoberfläche und OPAC)."
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# article:<br>"
-msgstr "Deaktiviere"
+msgstr "article:<br>"
 
 # Interlibrary loans > Features > ILLModuleUnmediated
 # Circulation > Interlibrary loans
@@ -8943,15 +8924,13 @@ msgstr "Aktivierte Fernleih-Backends für Bestellungen aus dem OPAC heraus:"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLPartnerCode# Use patrons from category"
-msgstr "Aktiviere"
+msgstr "Verwende Benutzer vom Benutzertyp"
 
 # Interlibrary loans > Features > CirculateILL
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLPartnerCode# as partners to place ILL requests with."
-msgstr "die Ausleihe von Fernleihexemplaren."
+msgstr "als Fernleihpartner für die Aufgabe von Fernleihbestellungen."
 
 # Interlibrary loans > Notifications > ILLSendStaffNotices
 # Circulation > Interlibrary loans
@@ -10222,7 +10201,7 @@ msgstr "in einem neuen Fenster."
 
 # OPAC > Appearance > OPACUserCSS
 msgid "opac.pref#OPACUserCSS# <br><strong>NOTE:</strong> Library specific CSS can be defined from <a href='/cgi-bin/koha/admin/branches.pl'>here</a>."
-msgstr ""
+msgstr "<br><strong>HINWEIS:</strong> Bibliotheksspezifisches CSS kann unter der <a href='/cgi-bin/koha/admin/branches.pl'>Bibliothek</a> definiert werden."
 
 # OPAC > Appearance > OPACUserCSS
 # OPAC > Appearance
@@ -10231,7 +10210,7 @@ msgstr "Verwende folgendes CSS auf allen Seiten im OPAC:"
 
 # OPAC > Appearance > OPACUserJS
 msgid "opac.pref#OPACUserJS# <br><strong>NOTE:</strong> Library specific JS can be defined from <a href='/cgi-bin/koha/admin/branches.pl'>here</a>."
-msgstr ""
+msgstr "<br><strong>HINWEIS:</strong> Bibliotheksspezifisches CSS kann unter der <a href='/cgi-bin/koha/admin/branches.pl'>Bibliothek</a> definiert werden."
 
 # OPAC > Appearance > OPACUserJS
 # OPAC > Appearance
@@ -10816,9 +10795,8 @@ msgstr "Zeige"
 
 # OPAC > Appearance > OpacMaintenance
 # OPAC > Appearance
-#, fuzzy
 msgid "opac.pref#OpacMaintenance# a warning that the OPAC is under maintenance, instead of the OPAC itself. Note: this shows the same warning as when the database needs to be upgraded, but unconditionally. A custom message can be shown on OPAC maintenance page by creating an <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML customization</a> in the OpacMaintenanceNotice region."
-msgstr "anstelle der normalen OPAC-Startseite eine Nachricht, dass zur Zeit Wartungsarbeiten stattfinden. Beachten Sie dass diese Nachricht auch angezeigt wird wenn die Datenbank aktualisiert werden muss."
+msgstr "anstelle der normalen OPAC-Startseite eine Nachricht, dass zur Zeit Wartungsarbeiten stattfinden. Beachten Sie dass diese Nachricht auch angezeigt wird wenn die Datenbank aktualisiert werden muss. Ein benutzerdefinierter Wartungstext kann durch Anlegen einer  <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML-Anpassung</a> für OpacMaintenanceNote eingerichtet werden."
 
 # OPAC > Appearance > OpacMaxItemsToDisplay
 # OPAC > Appearance
@@ -11072,21 +11050,18 @@ msgstr "dass Benutzer Zugang zu einer Liste der am häufigsten entliehenen Medie
 
 # OPAC > Features > OpacAuthorities
 # OPAC > Features
-#, fuzzy
 msgid "opac.pref#OpacTrustedCheckout# Allow"
-msgstr "Erlaube,"
+msgstr "Aktivere"
 
 # OPAC > Features > OpacAuthorities
 # OPAC > Features
-#, fuzzy
 msgid "opac.pref#OpacTrustedCheckout# Don't allow"
-msgstr "Erlaube nicht,"
+msgstr "Deaktiviere"
 
 # OPAC > Policy > OpacAllowPublicListCreation
 # OPAC > Policy
-#, fuzzy
 msgid "opac.pref#OpacTrustedCheckout# OPAC users to checkout to themselves."
-msgstr "dass Benutzer öffentliche Listen im OPAC erstellen."
+msgstr "die Möglichkeit zur Ausleihe durch Benutzer im OPAC."
 
 # OPAC > OpenURL > OpenURLImageLocation
 # OPAC > OpenURL
@@ -11307,9 +11282,8 @@ msgid "opac.pref#Reference_NFL_Statuses# (Use | as delimiter.)"
 msgstr "(Verwenden Sie | als Trennzeichen.)"
 
 # OPAC > Appearance > Reference_NFL_Statuses
-#, fuzzy
 msgid "opac.pref#Reference_NFL_Statuses# List the following <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>not for loan</a> statuses as available for reference in OPAC search results:"
-msgstr "Zeige die nachfolgenden Nicht-Ausleihbar-Status als Präsenzbestand in der OPAC-Trefferliste an:"
+msgstr "Zeige die nachfolgenden  <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>Nicht-Ausleihbar-Status</a> als Präsenzbestand in der OPAC-Trefferliste an:"
 
 # OPAC > Restricted page > RestrictedPageContent
 # OPAC > Restricted page
@@ -11848,27 +11822,23 @@ msgid "patrons.pref#CheckPrevCheckoutDelay# days ago."
 msgstr "Tagen ausgeliehen war."
 
 # Patrons > Notices and notifications > EmailFieldPrimary
-#, fuzzy
 msgid "patrons.pref#ChildNeedsGuarantor# A child patron"
-msgstr "Verwende die "
+msgstr "Ein Kind-Konto"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
-#, fuzzy
 msgid "patrons.pref#ChildNeedsGuarantor# a guarantor when adding the patron."
-msgstr "Bürgeninformation"
+msgstr "einen Bürgenden, wenn der Datensatz angelegt wird."
 
 # Patrons > Notices and notifications > AutoEmailNewUser
 # Patrons > Notices and notifications
-#, fuzzy
 msgid "patrons.pref#ChildNeedsGuarantor# doesn't need"
-msgstr "Verschicke keine"
+msgstr "benötigt keinen"
 
 # Patrons > Patron relationships > PrefillGuaranteeField
 # Patrons > Patron relationships
-#, fuzzy
 msgid "patrons.pref#ChildNeedsGuarantor# must have"
-msgstr "Vorname"
+msgstr "benötigt einen"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
@@ -11947,45 +11917,40 @@ msgstr "Wenn neue Benutzer angelegt oder existierende Benutzer bearbeitet werden
 
 # Patrons > Privacy > CookieConsent
 msgid "patrons.pref#CookieConsent# <br><strong>NOTE:</strong> The cookie banner can be customised using the <a href=\"/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations\" target=\"_blank\">CookieConsentBar</a> html customisation."
-msgstr ""
+msgstr "<br><strong>HINWEIS:</strong> Das Cookie-Banner kann über die HTML-Anpassung <a href=\"/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations\" target=\"_blank\">CookieConsentBar</a> angepasst werden."
 
 # Patrons > Security > RequireStrongPassword
 # Patrons > Security
-#, fuzzy
 msgid "patrons.pref#CookieConsent# Don't require"
-msgstr "Verlange nicht"
+msgstr "Erfordere keine"
 
 # Patrons > Privacy > GDPR_Policy
 # Patrons > Privacy
-#, fuzzy
 msgid "patrons.pref#CookieConsent# Require"
-msgstr "erzwungen"
+msgstr "Erfordere"
 
 # Patrons > General > PatronsPerPage
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#CookieConsent# cookie consent to be displayed in the OPAC and staff interface."
-msgstr "Treffer pro Seite in der Dienstoberfläche."
+msgstr "Zustimmung zur Verwendung von Cookies im OPAC und der Dienstoberfläche."
 
 # Patrons > Privacy > CookieConsentedJS
 msgid "patrons.pref#CookieConsentedJS# <br><strong>NOTE:</strong> The cookie consent modal can be customised using the <a href=\"/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations\" target=\"_blank\">CookieConsentPopup</a> html customisation."
-msgstr ""
+msgstr "<br><strong>Hinweis:</strong> Das Fenster für die Zustimmung zu Cookies kann über die HTML-Anpassung <a href=\"/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations\" target=\"_blank\">CookieConsentPopup</a> angepasst werden."
 
 # Patrons > Privacy > CookieConsentedJS
 msgid "patrons.pref#CookieConsentedJS# Run the following JavaScript if cookie consent is provided (e.g. tracking code)."
-msgstr ""
+msgstr "Führe den folgenden JavaScript-Code aus, wenn die Zustimmung zum Cookie erfolgt ist (z. B. Tracking-Code)."
 
 # Patrons > General > DefaultPatronSearchFields
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#DefaultPatronSearchFields# If empty Koha will default to \"firstname|middle_name|surname|othernames|cardnumber|userid\". Additional fields added to this preference will be added as search options in the dropdown menu on the patron search page."
-msgstr "Wenn leer, wird die Voreinstellung \"firstname,middle_name,surname,othernames,cardnumber,userid\" verwendet. Wenn diesem Systemparameter weitere Felder hinzugefügt werden, werden diese auch in der Auswahlliste der Suchoptionen im Benutzermodul angezeigt."
+msgstr "Wenn leer, wird die Voreinstellung \"firstname|middle_name|surname|othernames|cardnumber|userid\" verwendet. Wenn diesem Systemparameter weitere Felder hinzugefügt werden, werden diese auch in der Auswahlliste der Suchoptionen im Benutzermodul angezeigt."
 
 # Patrons > General > DefaultPatronSearchFields
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#DefaultPatronSearchFields# Pipe separated list defining the default fields to be used during a patron search using the \"standard\" option in the patrons or circulation module:"
-msgstr "Eine Komma-getrennte Liste der Felder, die mit der Suchoption Standard in der Benutzersuche durchsucht werden:"
+msgstr "Pipe-separierte Liste der voreingestellten Felder für die Suche nach Benutzern mit der \"Standard\"-Suchoption im Benutzer- und Ausleihmodul."
 
 # Searching > Results display > RetainPatronsSearchTerms
 # Searching > Features
@@ -12191,21 +12156,18 @@ msgstr "Benutzungsgebühr, wenn der Benutzertyp geändert wird und für den neue
 
 # Patrons > General > intranetreadinghistory
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#IntranetReadingHistoryHolds# Allow"
-msgstr "Erlaube,"
+msgstr "Erlaube"
 
 # Patrons > General > intranetreadinghistory
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#IntranetReadingHistoryHolds# Don't allow"
-msgstr "Erlaube nicht,"
+msgstr "Erlaube keinen"
 
 # Patrons > General > intranetreadinghistory
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#IntranetReadingHistoryHolds# staff to access a patron's hold history (hold history is still stored, regardless of staff being allowed access or not)."
-msgstr "dass Bibliotheksmitarbeitende die Ausleih- und Vormerkhistorie anzeigen. (Die Ausleihhistorie wird unabhängig von dieser Einstellung immer gespeichert)."
+msgstr "Zugriff des Bibliothekspersonals auf die Vormerkhistorie der Benutzer (die Vormerkhistorie wird trotzdem gespeichert, unabhängig davon, ob das Personal Zugriff hat oder nicht)."
 
 # Patrons > General > ListOwnershipUponPatronDeletion
 msgid "patrons.pref#ListOwnershipUponPatronDeletion# <br/>When changing owner at patron deletion, use borrowernumber "
@@ -12731,19 +12693,17 @@ msgstr "Pseudonymisierung, um Datenschutzregeln und -gesetzen, wie der EU-DSGVO,
 
 # Patrons > Patron relationships > PrefillGuaranteeField
 # Patrons > Patron relationships
-#, fuzzy
 msgid "patrons.pref#RedirectGuaranteeEmail# Disable"
-msgstr "Vorname"
+msgstr "Deaktiviere"
 
 # Patrons > Patron relationships > PrefillGuaranteeField
 # Patrons > Patron relationships
-#, fuzzy
 msgid "patrons.pref#RedirectGuaranteeEmail# Enable"
-msgstr "Vorname"
+msgstr "Aktiviere"
 
 # Patrons > Patron relationships > RedirectGuaranteeEmail
 msgid "patrons.pref#RedirectGuaranteeEmail# sending emails to both guarantees and their guarantor. This does not affect patrons without guarantors."
-msgstr ""
+msgstr "den parallelen Versand von E-Mail-Benachrichtigungen an die Besitzer der Konten und Ihre Bürgenden. Dies betrifft keine Benutzer ohne Bürgenden."
 
 # Patrons > Security > RequireStrongPassword
 # Patrons > Security
@@ -12835,51 +12795,43 @@ msgstr "telefonische Benutzerbenachrichtigungen mit Talking Tech i-tiva (Mahnung
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#TrackLastPatronActivityTriggers# Checking in an item"
-msgstr "Keine Speicherung"
+msgstr "Bei Rückgabe eines Exemplars"
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#TrackLastPatronActivityTriggers# Checking out an item"
-msgstr "Keine Speicherung"
+msgstr "Bei Ausleihe eines Exemplars"
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#TrackLastPatronActivityTriggers# Connecting to Koha via SIP or ILSDI"
-msgstr "Keine Speicherung"
+msgstr "Bei Login über SIP oder ILSDI"
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#TrackLastPatronActivityTriggers# Logging in"
-msgstr "Speicherung"
+msgstr "Bei Login"
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#TrackLastPatronActivityTriggers# Placing a hold on an item"
-msgstr "der letzten Aktivität eines Benutzers."
+msgstr "Bei Eintragen einer Vormerkung"
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#TrackLastPatronActivityTriggers# Placing an article request"
-msgstr "der letzten Aktivität eines Benutzers."
+msgstr "Bei einer Artikelbestellung"
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#TrackLastPatronActivityTriggers# Renewing an item"
-msgstr "Keine Speicherung"
+msgstr "Bei einer Verlängerung"
 
 # Patrons > General > TrackLastPatronActivity
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#TrackLastPatronActivityTriggers# Select which patron activities should be tracked to signify patron activity. Each time that one of these activities occurs, borrowers.lastseen will update with the current date and time."
-msgstr "Das erste Mal an einem Tag, wenn ein Benutzer sich im OPAC, über SIP2 oder ILS-DI anmeldet oder etwas entleiht, wird der Zeitstempel in borrowers.lastseen aktualisiert."
+msgstr "Wählen Sie aus, welche Benutzeraktionen als signifikant für Benutzeraktivität gelten sollen. Jedes Mal wenn eine dieser Aktionen ausgeführt wird, wird borrowers.lastseen auf den aktuellen Zeitstempel aktualisiert."
 
 # Patrons > Privacy > UnsubscribeReflectionDelay
 # Patrons > Privacy
@@ -12958,9 +12910,8 @@ msgstr "Erlaube nicht,"
 
 # Patrons > General > intranetreadinghistory
 # Patrons > General
-#, fuzzy
 msgid "patrons.pref#intranetreadinghistory# staff to access a patron's checkout (checkout history is still stored, regardless of staff being allowed access or not)."
-msgstr "dass Bibliotheksmitarbeitende die Ausleih- und Vormerkhistorie anzeigen. (Die Ausleihhistorie wird unabhängig von dieser Einstellung immer gespeichert)."
+msgstr "Zugriff des Bibliothekspersonals auf die Ausleihhistorie eines Benutzers (die Ausleihhistorie wird trotzdem gespeichert, unabhängig davon, ob das Personal Zugriff hat oder nicht)."
 
 # Patrons > Security > minPasswordLength
 # Patrons > Security
@@ -13018,51 +12969,44 @@ msgid "patrons.pref#useDischarge# librarians to discharge borrowers and borrower
 msgstr "dass Bibliotheksmitarbeiter Entlastungen für Benutzer ausstellen und Benutzer Entlastungen anfordern."
 
 # Patrons
-#, fuzzy
 msgid "preservation.pref"
 msgstr " "
 
 # Circulation
 # Circulation > Interface
-#, fuzzy
 msgid "preservation.pref Interface"
-msgstr "Benutzeroberfläche"
+msgstr "Oberfläche"
 
 # Circulation > Housebound module > HouseboundModule
 # Circulation > Housebound module
-#, fuzzy
 msgid "preservation.pref#PreservationModule# Disable"
 msgstr "Deaktiviere"
 
 # Circulation > Housebound module > HouseboundModule
 # Circulation > Housebound module
-#, fuzzy
 msgid "preservation.pref#PreservationModule# Enable"
 msgstr "Aktiviere"
 
 # Circulation > Housebound module > HouseboundModule
 # Circulation > Housebound module
-#, fuzzy
 msgid "preservation.pref#PreservationModule# the preservation module"
-msgstr "das Modul für aufsuchende Bibliotheksarbeit."
+msgstr "das Modul für Bestandserhaltung."
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# Use the <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a> authorized value"
-msgstr "Verwenden Sie einen Wert der Normierten-Werte-Kategorie <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>, "
+msgstr "Verwende den <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">Nicht-Ausleihbar-Status</a>"
 
 # Preservation > Interface > PreservationNotForLoanDefaultTrainIn
 msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# to apply to items added to a train"
-msgstr ""
+msgstr "für Exemplare, die einem Stapel hinzugefügt werden"
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "preservation.pref#PreservationNotForLoanWaitingListIn# Use the <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a> authorized value"
-msgstr "Verwenden Sie einen Wert der Normierten-Werte-Kategorie <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>, "
+msgstr "Verwende den <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">Nicht-Ausleihbar-Status</a>"
 
 # Preservation > Interface > PreservationNotForLoanWaitingListIn
 msgid "preservation.pref#PreservationNotForLoanWaitingListIn# to apply to items added to the waiting list"
-msgstr ""
+msgstr "wenn Exemplare zu einer Warteliste hinzugefügt werden"
 
 # Searching
 msgid "searching.pref"
@@ -13120,71 +13064,60 @@ msgstr "(Werte mit | trennen). Reiter erscheinen in der angegebenen Reihenfolge.
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# ,"
 msgstr ","
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# ."
-msgstr ","
+msgstr "."
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# By default, sort search results from author links in MARC21 detail pages and result lists by"
-msgstr "Sortiere Trefferlisten in der Dienstoberfläche per Voreinstellung nach"
+msgstr "Sortiere die Trefferlisten für Verfasserlinks in den MARC21-Detailansichten voreingestellt nach"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# ascending"
-msgstr "aufsteigend."
+msgstr "aufsteigend"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# call number"
 msgstr "Signatur"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# date added"
-msgstr "Erwerbungsdatum"
+msgstr "Erfassungsdatum"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# date of publication"
 msgstr "Erscheinungsjahr"
 
 # Searching > Results display > AuthorLinkSortBy
 msgid "searching.pref#AuthorLinkSortBy# default sort field and order specified in defaultSortField or OPACdefaultSortField"
-msgstr ""
+msgstr "Wie in defaultSortField oder OPACdefaultSortField festgelegt"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# descending"
-msgstr "absteigend."
+msgstr "absteigend"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# from A to Z"
-msgstr "von A-Z."
+msgstr "von A bis Z"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# from Z to A"
-msgstr "von Z-A."
+msgstr "von Z bis A"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# title"
 msgstr "Titel"
 
@@ -14014,13 +13947,12 @@ msgstr "die Funktionen für die Verwaltung von Umlauflisten im Zeitschriftenmodu
 
 # Serials > Features > OPACSerialIssueDisplayCount
 # Serials
-#, fuzzy
 msgid "serials.pref#SerialsSearchResultsLimit# Show only the"
-msgstr "Zeige die letzten"
+msgstr "Zeige nur die ersten"
 
 # Serials > Features > SerialsSearchResultsLimit
 msgid "serials.pref#SerialsSearchResultsLimit# first serials when performing an advanced serials search."
-msgstr ""
+msgstr "Ergebnisse bei der Suche nach Abonnements in der erweiterten Suche im Zeitschriftenmodul."
 
 # Serials > Features > StaffSerialIssueDisplayCount
 # Serials
@@ -14463,15 +14395,13 @@ msgstr "Zeige"
 
 # Staff interface > Options > showLastPatron
 # Staff interface > Options
-#, fuzzy
 msgid "staff_interface.pref#showLastPatron# a link to the last"
-msgstr "Zeige nicht"
+msgstr "einen Link zu den letzten"
 
 # Staff interface > Options > showLastPatron
 # Staff interface > Options
-#, fuzzy
 msgid "staff_interface.pref#showLastPatron# searched patrons in the staff interface."
-msgstr "Link zum zuletzt aufgerufenen Benutzer in der Dienstoberfläche."
+msgstr "aufgerufenen Benutzern in der Dienstoberfläche."
 
 # Staff interface > Appearance > staffClientBaseURL
 # Staff interface > Appearance
