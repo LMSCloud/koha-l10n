@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-10 21:07+0100\n"
-"PO-Revision-Date: 2023-11-24 03:02+0000\n"
+"PO-Revision-Date: 2023-12-01 03:01+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hi\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /hi/22.11/hi-opac-bootstrap.po\n"
 "X-POOTLE-MTIME: 1697630868.921146\n"
@@ -33,7 +33,7 @@ msgstr "बनाया था"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:98
 #, c-format
 msgid "Updated"
-msgstr "अद्यतन"
+msgstr "अधतन"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:11
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:117
@@ -56,7 +56,7 @@ msgstr "विवरण"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:640
 #, c-format
 msgid "Amount"
-msgstr "मात्रा"
+msgstr "राशि"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:14
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/account-table.inc:101
@@ -675,9 +675,9 @@ msgstr "होल्ड पर आइटम %s"
 #. %4$s:  END 
 #. %5$s:  ELSE 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:72
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s Never expires %s %s "
-msgstr "कभी समाप्त नही %s %s "
+msgstr "%s %s %s कभी समाप्त नही %s %s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:88
 #, c-format
@@ -907,28 +907,28 @@ msgstr "[ END ] %%] %s %s %s %s %s %s %s %s %s %s "
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:111
 #, c-format
 msgid "Module "
-msgstr ""
+msgstr "मॉड्यूल "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:116
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:124
-#, fuzzy, c-format
+#, c-format
 msgid "Module page "
-msgstr "प्रति पृष्ठ परिणाम:"
+msgstr "मॉड्यूल पृष्ठ "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:119
-#, fuzzy, c-format
+#, c-format
 msgid "Add form"
-msgstr "किसी भी प्रारूप"
+msgstr "फार्म जोड़े"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:127
-#, fuzzy, c-format
+#, c-format
 msgid "Confirm deletion"
-msgstr "अपने सुझाव की पुष्टि करें"
+msgstr "मिटाने की पुष्टि"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:132
 #, c-format
 msgid "Module page"
-msgstr ""
+msgstr "मॉड्यूल पृष्ठ"
 
 #. NAV
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:140
@@ -1235,25 +1235,24 @@ msgstr "लॉग इन से अपनी खुद की सूची ब�
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:91
-#, fuzzy
 msgid "Self check out"
-msgstr "स्वयं चेकआउट सहायता"
+msgstr "स्वयं चेक आउट"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:92
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:6
-#, fuzzy, c-format
+#, c-format
 msgid "Self checkout"
-msgstr "स्वयं चेकआउट सहायता"
+msgstr "स्वयं चेकआउट"
 
 #. A name=Your cookies
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:100
 msgid "View and amend cookies you have consented to"
-msgstr ""
+msgstr "कुकीज़ को देखें और संशोधन करें, जिन पर आपने सहमति दी है"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:101
-#, fuzzy, c-format
+#, c-format
 msgid "Your cookies"
-msgstr "आपकी सहमति"
+msgstr "आपकी कुकीज़"
 
 #. %1$s:  INCLUDE 'patron-title.inc' patron = logged_in_user no_html = 1 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:117
@@ -1591,46 +1590,46 @@ msgstr "क्या आप अपना पासवर्ड भूल गए?
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:251
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:220
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:110
-#, fuzzy, c-format
+#, c-format
 msgid "Create an account"
-msgstr "नया खाता पंजीकृत करें"
+msgstr "खाता बनाएं"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:464
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:501
 #, c-format
 msgid "Accept all cookies"
-msgstr ""
+msgstr "सभी कुकीज़ स्वीकार करें"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:466
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:503
 #, c-format
 msgid "Accept only essential cookies"
-msgstr ""
+msgstr "केवल आवश्यक कुकीज़ स्वीकार करें"
 
 #. BUTTON
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:467
 msgid "Click to view more information about your cookie consents"
-msgstr ""
+msgstr "अपनी कुकी सहमति के बारे में अधिक जानकारी देखने के लिए क्लिक करें"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:467
-#, fuzzy, c-format
+#, c-format
 msgid "More information"
-msgstr "सीरीज जानकारी:"
+msgstr "अधिक जानकारी"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:476
-#, fuzzy, c-format
+#, c-format
 msgid "Cookie consent"
-msgstr "आपकी सहमति"
+msgstr "कुकी सहमति"
 
 #. INPUT type=checkbox name=consentCheckbox
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:489
 msgid "Consent to cookie"
-msgstr ""
+msgstr "कुकी के लिए सहमति"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:504
 #, c-format
 msgid "Accept selected non-essential cookies"
-msgstr ""
+msgstr "चयनित गैर-आवश्यक कुकीज़ स्वीकार करें"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/catalog_concern.inc:10
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc:46
@@ -1656,9 +1655,9 @@ msgid "Submit "
 msgstr "प्रस्तुत"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:15
-#, fuzzy, c-format
+#, c-format
 msgid "Enter item barcode: "
-msgstr "आइटम स्कैन करें या बारकोड डालें:"
+msgstr "आइटम बारकोड दर्ज करें: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:21
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:106
@@ -1684,9 +1683,9 @@ msgid "Due date"
 msgstr "नियत तारीख"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:31
-#, fuzzy, c-format
+#, c-format
 msgid "items checked out"
-msgstr "चैकआउट आइटम"
+msgstr "आइटम चैक आउट"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:37
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-topissues.inc:90
@@ -2572,9 +2571,8 @@ msgstr "आवरण छवि"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:7
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:10
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:14
-#, fuzzy
 msgid "Place a hold on %s"
-msgstr "होल्ड पर रखें "
+msgstr "होल्ड पर रखें %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:32
 #, c-format
@@ -2633,9 +2631,8 @@ msgstr "सूची में सहेजें "
 
 #. A
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:66
-#, fuzzy
 msgid "Add %s to the cart"
-msgstr "कार्ट मे जोड़े"
+msgstr "कार्ट मे %s जोड़े"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:66
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-shelves.tt:365
@@ -2971,9 +2968,9 @@ msgid "An error has occurred &rsaquo; %s%s%sKoha online%s catalog"
 msgstr "एक त्रुटि हुई है &rsaquo; %s%s%sकोहा ऑनलाइन%s केटालॉग"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/errors/errorpage.tt:16
-#, fuzzy, c-format
+#, c-format
 msgid "An error has occurred"
-msgstr "एक त्रुटि हुई है."
+msgstr "एक त्रुटि हुई है"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/errors/errorpage.tt:33
 #, c-format
@@ -4073,9 +4070,9 @@ msgstr "आईएसबीडी दृश्य &rsaquo; %s%s%sकोहा ऑ
 
 #. %1$s:  biblio.title | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-ISBDdetail.tt:14
-#, fuzzy, c-format
+#, c-format
 msgid "ISBD view for: %s"
-msgstr "आईएसबीडी देखें"
+msgstr "के लिए आईएसबीडी दृश्य: %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-ISBDdetail.tt:25
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-MARCdetail.tt:26
@@ -5013,19 +5010,19 @@ msgstr "कृपया है कि आप ईमेल प्राप्त 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:8
-#, fuzzy, c-format
+#, c-format
 msgid "Your alert subscriptions &rsaquo; %s%s%sKoha online%s catalog"
-msgstr "सदस्यता के लिए इश्यूज &rsaquo; %s%s%sकोहा ऑनलाइन%s केटालॉग"
+msgstr "आपकी अलर्ट सदस्यताएँ &rsaquo; %s%s%sकोहा ऑनलाइन%s केटालॉग"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:25
-#, fuzzy, c-format
+#, c-format
 msgid "Your alert subscriptions"
-msgstr "एक सदस्यता के लिए मुद्दे"
+msgstr "आपकी अलर्ट सदस्यताएँ"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:40
-#, fuzzy, c-format
+#, c-format
 msgid "Alert subscriptions"
-msgstr "सदस्यताएँ"
+msgstr "अलर्ट सदस्यताएँ"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:49
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:64
@@ -5041,14 +5038,14 @@ msgid "Actions"
 msgstr "क्रियाएं"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:78
-#, fuzzy, c-format
+#, c-format
 msgid "Unsubscribe from email alerts"
-msgstr "एक सदस्यता चेतावनी से सदस्यता रद्द"
+msgstr "ईमेल अलर्ट से सदस्यता समाप्त करें"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:87
-#, fuzzy, c-format
+#, c-format
 msgid "You have not subscribed to email alerts for any subscriptions."
-msgstr "आपने नए इश्यूज पर ईमेल अधिसूचना की सदस्यता ली है।"
+msgstr "आपने किसी भी सदस्यता के लिए ईमेल अलर्ट की सदस्यता नहीं ली है।"
 
 #. %1$s:  authtypetext | html 
 #. %2$s:  IF ( LibraryNameTitle ) 
@@ -7152,9 +7149,9 @@ msgstr "सूची डाउनलोड करें%s &rsaquo; %s%s%sको�
 
 #. %1$s:  shelf.shelfname | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt:28
-#, fuzzy, c-format
+#, c-format
 msgid "Download list '%s'"
-msgstr "डाउनलोड सूची "
+msgstr "डाउनलोड सूची '%s'"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-downloadshelf.tt:53
 #, c-format
@@ -7463,7 +7460,7 @@ msgstr "अतंर पुस्तकालय ऋण अनुरोध द�
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:45
 #, c-format
 msgid "Ill request disclaimer"
-msgstr ""
+msgstr "आईएलएल अनुरोध अस्वीकरण"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:72
 #, c-format
@@ -7635,7 +7632,7 @@ msgstr "अपना अनुरोध रद्द करें"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:283
 #, c-format
 msgid "ILL request disclaimer"
-msgstr ""
+msgstr "आईएलएल अनुरोध अस्वीकरण"
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #. %2$s:  IF ( LibraryNameTitle ) 
@@ -7666,35 +7663,35 @@ msgstr "लघु छवि"
 #. %4$s:  ELSE 
 #. %5$s:  END 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:9
-#, fuzzy, c-format
+#, c-format
 msgid "Editing checkout note for %s &rsaquo; %s%s%sKoha online%s catalog"
 msgstr "के लिए इस इश्यू नोट को संपादित%s &rsaquo; %s%s%sकोहा ऑनलाइन%s केटालॉग"
 
 #. %1$s:  title | html 
 #. %2$s:  author | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:26
-#, fuzzy, c-format
+#, c-format
 msgid "Editing checkout note for '%s' %s"
-msgstr "के लिए संपादन अंक नोट %s %s"
+msgstr "के लिए चेकआउट नोट का संपादन '%s' %s"
 
 #. %1$s:  IF not(Koha.Preference("AllowCheckoutNotes")) 
 #. %2$s:  ELSE 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:40
-#, fuzzy, c-format
+#, c-format
 msgid "%s Checkout notes have not been enabled. Please contact the library. %s "
-msgstr "%s अंक नोटों सक्षम नहीं किया गया है। कृपया पुस्तकालय से संपर्क करें. %s "
+msgstr "%s चेकआउट नोट सक्षम नहीं किए गए हैं। कृपया पुस्तकालय से संपर्क करें. %s "
 
 #. %1$s:  title | html 
 #. %2$s:  author | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:40
-#, fuzzy, c-format
+#, c-format
 msgid "Editing checkout note for %s %s"
-msgstr "के लिए संपादन अंक नोट %s %s"
+msgstr "के लिए चेकआउट नोट का संपादन %s %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "Edit checkout note"
-msgstr "चैकआउट नोट"
+msgstr "चैकआउट नोट संपादित करें"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:47
 #, c-format
@@ -7846,7 +7843,7 @@ msgstr "आपका व्यक्तिगत विवरण"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry-update-submitted.tt:24
 #, c-format
 msgid "Updates submitted"
-msgstr ""
+msgstr "अद्यतन प्रस्तुत किया गया"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry-update-submitted.tt:38
 #, c-format
@@ -8550,41 +8547,38 @@ msgstr "अज्ञात"
 #. SELECT name=[% messaging_preference.message_attribute_id | html %]-DAYS
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:81
 msgid "Choose how many days in advance you wish to receive notice"
-msgstr ""
+msgstr "चुनें कि आप नोटिस प्राप्त करना चाहते हैं"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:97
 msgid "Unselect sms messaging"
-msgstr ""
+msgstr "एसएमएस मैसेजिंग अचयनित"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:99
-#, fuzzy
 msgid "Select sms messaging"
-msgstr "चुनें एक समय"
+msgstr "एसएमएस मैसेजिंग का चयन करें"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:110
-#, fuzzy
 msgid "Unselect notification by phone"
-msgstr "ईमेल अधिसूचना रद्द "
+msgstr "फोन द्वारा अचयनित अधिसूचना"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:117
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:140
-#, fuzzy
 msgid "Select notification by phone"
-msgstr "ईमेल अधिसूचना रद्द "
+msgstr "फोन द्वारा अधिसूचना का चयन करें"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:133
 msgid "Unselect itiva messaging"
-msgstr ""
+msgstr "अचयनित itiva संदेश"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:156
 msgid "Unselect email messaging"
-msgstr ""
+msgstr "अचयनित ईमेंल संदेश"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:158
@@ -9446,7 +9440,7 @@ msgstr "सब"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:89
 #, c-format
 msgid "Checkouts"
-msgstr "चेकआउट"
+msgstr "चेकआउटस"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:91
 #, c-format
