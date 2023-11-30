@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:08-0300\n"
-"PO-Revision-Date: 2023-11-29 13:29+0000\n"
+"PO-Revision-Date: 2023-11-30 09:12+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de-DE\n"
@@ -2378,7 +2378,6 @@ msgstr "in der Spalte 'Weitere Felder' der Z39.50-Trefferliste (verwende Komma a
 
 # Cataloging > Importing > AdditionalFieldsInZ3950ResultSearch
 # Cataloging > Importing
-#, fuzzy
 msgid "authorities.pref#AdditionalFieldsInZ3950ResultAuthSearch# Display the MARC field/subfields"
 msgstr "Zeige die MARC-Felder/Unterfelder"
 
@@ -2504,73 +2503,62 @@ msgstr "zuvor bereits in der Katalogisierung verlinkte Ansetzungen erneut. (erfo
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 0XX"
-msgstr "Verwende"
+msgstr "0XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 1XX"
-msgstr "Verwende"
+msgstr "1XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 2XX"
-msgstr "Verwende"
+msgstr "2XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 3XX"
-msgstr "Verwende"
+msgstr "3XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 4XX"
-msgstr "Verwende"
+msgstr "4XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 5XX"
-msgstr "Verwende"
+msgstr "5XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 6XX"
-msgstr "Verwende"
+msgstr "6XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 7XX"
-msgstr "Verwende"
+msgstr "7XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 8XX"
-msgstr "Verwende"
+msgstr "8XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 9XX"
-msgstr "Verwende"
+msgstr "9XX"
 
 # Authorities > General > AutoCreateAuthorities
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# When viewing authority details default to the"
-msgstr "Bei der Bearbeitung von Titeln sollen fehlende Normdatensätze"
+msgstr "Bei der Anzeige von Normdatensätzen, zeige standardmäßig den Reiter"
 
 # Authorities > General > DefaultAuthorityTab
 msgid "authorities.pref#DefaultAuthorityTab# tab. If the selected tab does not exist, the view will default to the first tab."
-msgstr ""
+msgstr "direkt an. Wenn der ausgewählte Reiter nicht existiert, wird statt dessen der erste Reiter angezeigt."
 
 # Authorities > General > GenerateAuthorityField667
 # OPAC > Privacy
@@ -3021,20 +3009,17 @@ msgstr "das erweiterte Katalogisierungsmodul."
 
 # Circulation > Holds policy > EnableItemGroups
 # Circulation > Article requests
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# Don't enable"
 msgstr "Deaktiviere"
 
 # Circulation > Holds policy > EnableItemGroups
 # Circulation > Checkout policy
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# Enable"
 msgstr "Aktiviere"
 
 # Circulation > Holds policy > EnableItemGroups
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# the item groups feature to allow collecting groups of items on a record together."
-msgstr "die Funktion für Exemplargruppen, die es erlaubt Exemplare eines Titelsatzes zu gruppieren."
+msgstr "die Funktion für Exemplargruppen, die es erlaubt Exemplare an einem Titelsatz in Gruppen zusammen zu fassen."
 
 # Cataloging > Display > ISBD
 # Cataloging > Display
@@ -3197,9 +3182,8 @@ msgstr "Zeigt:"
 
 # Cataloging > Record structure > NewItemsDefaultLocation
 # Cataloging > Record structure
-#, fuzzy
 msgid "cataloguing.pref#NewItemsDefaultLocation# (should be a <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC\">location code</a>, or blank to disable)."
-msgstr "(Standortkürzel eintragen oder frei lassen, um Funktion zu deaktivieren)"
+msgstr "(sollte mit einem <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC\">Standortcode</a> belegt oder leer, wenn nicht verwendet, sein)."
 
 # Cataloging > Record structure > NewItemsDefaultLocation
 # Cataloging > Record structure
@@ -3233,7 +3217,7 @@ msgstr "(Frei lassen, wenn nicht verwendet. Geben Sie einen Bereich in der Form 
 
 # Cataloging > Display > OpacSuppression
 msgid "cataloguing.pref#OpacSuppression# <br /> A custom message can be shown on the redirect page for suppressed bibliographic records by creating an <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML customization</a> in the OpacSuppressionMessage region."
-msgstr ""
+msgstr "<br />Auf der Weiterleitungsseite für im OPAC unterdrückte Titelsätze kann ein benutzerdefinierter Inhalt angezeigt werden, indem eine <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML-Anpassung</a>  für OpacSuppressionMessage angelegt wird."
 
 # Cataloging > Display > OpacSuppression
 # Cataloging > Display
@@ -4373,31 +4357,27 @@ msgstr "Die folgenden Lieferformate für Artikelbestellungen werden unterstützt
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# When returning items"
-msgstr "Entferne nicht"
+msgstr "Wenn Exemplare zurückgebucht werden,"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# don't"
-msgstr "Entferne nicht"
+msgstr "entferne keine Sperren"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining items that is cause for debarment"
-msgstr "Entferne nicht"
+msgstr "entferne nur dann Sperren, wenn es keine weiteren sperrenden Ausleihen gibt"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining overdue items"
-msgstr "Entferne nicht"
+msgstr "entferne nur dann Sperren, wenn keine weiteren überfälligen Medien auf dem Konto sind,"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# remove OVERDUES restriction triggered by sent notices. The difference between removing restriction when no remaining overdue items exists and doing so only when any of the items would result in debarment is that the latter option will respect possible grace periods of overdue rules also on returns and not only when generating overdue notices."
-msgstr ""
+msgstr "und die Sperren durch den Versand von Mahnungen gesetzt wurden. Der Unterschied zwischen der Entfernung von Sperren bei überfälligen Medien oder sperrenden Ausleihen liegt darin, dass die zweite Option Gnadenfristen in den Mahnregeln auch bei Rückgabe und nicht nur bei Generierung der Mahnschreiben berücksichtigt."
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
 # Circulation > Holds policy
@@ -4486,27 +4466,23 @@ msgstr "den automatischen Wechsel zu einem anderen Benutzer wenn eine Ausweisnum
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/automatic_checkin.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>HINWEIS:</strong> Dieser Systemparameter erfordert den Cronjob <code>misc/cronjobs/holds/auto_unsuspend_holds.pl</code>. Bitten Sie Ihren Systemadministrator darum diesen einzurichten."
+msgstr "<br><strong>HINWEIS:</strong> Dieser Systemparameter erfordert den Cronjob <code>misc/cronjobs/holds/automatic_checkin.pl</code>. Bitten Sie Ihren Systemadministrator darum diesen einzurichten."
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# Allow"
 msgstr "Aktiviere"
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# Don't allow"
 msgstr "Deaktiviere"
 
 # Circulation > Checkout policy > AutomaticItemReturn
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# holds to be automatically filled after being automatically checked in."
-msgstr "Rücktransport von Exemplaren in ihre Heimatbibliothek, die in einer anderen Bibliothek zurückgegeben werden."
+msgstr "das Erfüllen von Vormerkungen nach einer automatischen Rückgabe."
 
 # Circulation > Checkin policy > AutomaticConfirmTransfer
 # Circulation > Checkout policy
@@ -4965,9 +4941,8 @@ msgstr "<br>Lassen Sie dieses Feld frei, wenn Sie keine Buchersatzgebühren von 
 
 # Circulation > Checkout policy > DefaultLongOverdueChargeValue
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueChargeValue# Charge a lost item to the patron's account when the <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a> value of the item changes to:"
-msgstr "Buche die Buchersatzgebühr auf das Benutzerkonto des Benutzers, wenn der Verloren-Status (Normierter Wert: LOST) geändert wird auf:"
+msgstr "Buche die Buchersatzgebühr auf das Benutzerkonto des Benutzers, wenn der Verloren-Status (Normierter Wert: <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a>) geändert wird auf:"
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -4981,9 +4956,8 @@ msgstr "<br><strong>HINWEIS:</strong> Dieser Systemparameter erfordert den <code
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueLostValue# <br>Example: [1] [30] Sets an item to the <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a> value 1 when it has been overdue for more than 30 days."
-msgstr "<br> Beispiel: [1][30] setzt ein Exemplar auf den Verloren-Status mit dem Code 1, wenn es mehr als 30 Tage überfällig ist."
+msgstr "<br> Beispiel: [1][30] setzt ein Exemplar auf den <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>Verloren-Status</a> mit dem Code 1, wenn es mehr als 30 Tage überfällig ist."
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -4991,9 +4965,8 @@ msgid "circulation.pref#DefaultLongOverdueLostValue# <br>WARNING — These prefe
 msgstr " <br>Achtung: Dieser Systemparameter aktiviert den automatischen Buchersatzworkflow. Lassen Sie das Feld frei, wenn das Feature nicht aktiviert werden soll."
 
 # Circulation > Item bundles > BundleLostValue
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueLostValue# By default, set the <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> value of an item to"
-msgstr "Verwenden Sie einen Wert der Normierte-Werte-Kategorie <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>,"
+msgstr "Setzen Sie den <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">Verloren-Status</a> eines Exemplars auf"
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -5012,9 +4985,8 @@ msgstr "."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# <br>Leave this field empty if you don't want to skip any <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> statuses."
-msgstr "<br>Lassen Sie dieses Feld frei, wenn keine Verloren-Status übergangen werden sollen."
+msgstr "<br>Lassen Sie dieses Feld frei, wenn keine <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">Verloren-Status</a> übergangen werden sollen."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
@@ -5023,9 +4995,8 @@ msgstr "<br>Tragen Sie eine Liste von komma-separierten Werten ein, z.B. <em>5,6
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# When using the automatic item loss process, skip items with <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> values matching any of"
-msgstr "Wenn die automatische Verlust-Bearbeitung verwendet wird, dann übergehe Exemplare mit einem der folgenden Verloren-Status:"
+msgstr "Wenn die automatische Verlust-Bearbeitung verwendet wird, dann übergehe Exemplare mit einem der folgenden <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">Verloren-Status</a>:"
 
 # Circulation > Interface > DisplayClearScreenButton
 # Circulation > Interface
@@ -5064,21 +5035,18 @@ msgstr "die Möglichkeit Vormerkungen auf mehrere Titel auf einmal aus der Treff
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Don't email"
 msgstr "Deaktiviere"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Email"
 msgstr "Aktiviere"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# a patron when they have placed a hold."
-msgstr "Deaktiviere"
+msgstr "E-Mail-Benachrichtigungen an Benutzer, wenn eine Vormerkung eingetragen wird."
 
 # Circulation > Holds policy > EnableItemGroupHolds
 # Circulation > Holds policy
@@ -5092,9 +5060,8 @@ msgstr "Aktiviere"
 
 # Circulation > Checkin policy > CalculateFinesOnReturn
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#EnableItemGroupHolds# the ability to place holds on item groups. <br><strong>NOTE:</strong> This system preference requires that <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EnableItemGroups'>EnableItemGroups</a> to be set to 'Enable'."
-msgstr "<br /><strong>HINWEIS:</strong> Dieser Systemparameter erfordert dass <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=FinesMode\">FinesMode</a> auf 'Berechne und buche' gesetzt ist."
+msgstr "die Möglichkeit Vormerkungen für Exemplargruppen einzutragen. <br><strong>HINWEIS:</strong> Dieser Systemparameter erfordert, dass <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EnableItemGroups'>EnableItemGroups</a> aktiviert ist."
 
 # Circulation > Holds policy > ExcludeHolidaysFromMaxPickUpDelay
 # Circulation > Holds policy
@@ -5197,9 +5164,8 @@ msgstr "Zeige"
 
 # Circulation > Interface > ExportCircHistory
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#ExportCircHistory# the option to export patron checkouts."
-msgstr "die Optionen zum Export der Ausleihhistorien von Benutzern."
+msgstr "die Option zum Export der Ausleihhistorien von Benutzern."
 
 # Circulation > Interface > ExportRemoveFields
 # Circulation > Interface
@@ -5208,7 +5174,6 @@ msgstr "(getrennt mit Leerzeichen, z.B. 100a 200b 300c)."
 
 # Circulation > Interface > ExportRemoveFields
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#ExportRemoveFields# The following fields should be excluded from the patron checkout CSV or MARC (ISO 2709) export:"
 msgstr "Die folgenden Felder vom Export der Benutzerausleihhistorie als CSV- oder MARC-Datei (ISO 2709) ausschließen:"
 
@@ -5483,13 +5448,12 @@ msgstr "dass Benutzer ein Exemplar entleihen, dessen Leihgebühr sie über das G
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 msgid "circulation.pref#ItemsDeniedRenewal# <br /><strong>Configuration:</strong> <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=CCODE'>Collections (CCODE)</a> | <a href='/cgi-bin/koha/admin/itemtypes.pl'>Item types</a>"
-msgstr ""
+msgstr "<br /><strong>Konfiguration:</strong> <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=CCODE'>Sammlungen (CCODE)</a> | <a href='/cgi-bin/koha/admin/itemtypes.pl'>Medientypen</a>"
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#ItemsDeniedRenewal# <br /><strong>NOTE:</strong> The word 'NULL' can be used to block renewal on undefined fields, while an empty string \"\" will block on an empty (but defined) field."
-msgstr "<br /> <strong>Hinweis:</strong> das Wort 'null' kann verwendet werden um Verlängerungen bei undefinierten Feldern zu verhindern, während eine leere Zeichenkette (\"\") Verlängerungen bei einem leeren (aber definierten) Feld verhindert."
+msgstr "<br /> <strong>Hinweis:</strong> das Wort 'NULL' kann verwendet werden um Verlängerungen bei undefinierten Feldern zu verhindern, während eine leere Zeichenkette (\"\") Verlängerungen bei einem leeren (aber definierten) Feld verhindert."
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
@@ -5498,9 +5462,8 @@ msgstr "<br />Kann jedes Feld aus der Tabelle items gefolgt von einem Doppelpunk
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#ItemsDeniedRenewal# <br />ccode: [NEWFIC,NULL,DVD]"
-msgstr "<br />ccode: [NEWFIC,null,DVD]"
+msgstr "<br />ccode: [NEWFIC,NULL,DVD]"
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
@@ -5524,11 +5487,11 @@ msgstr "einer geklammerten Liste von komma-getrennten Werten."
 
 # Circulation > Checkout policy > LoadCheckoutsTableDelay
 msgid "circulation.pref#LoadCheckoutsTableDelay# Delay the automatic loading of the checkouts table on the checkouts page by"
-msgstr ""
+msgstr "Verzögere das automatische Laden der Liste der Ausleihen in der Ausleihe um"
 
 # Circulation > Checkout policy > LoadCheckoutsTableDelay
 msgid "circulation.pref#LoadCheckoutsTableDelay# seconds when \"Always show checkouts automatically\" is enabled."
-msgstr ""
+msgstr "Sekunden, wenn \"Ausleihen immer sofort anzeigen\" angehakt ist."
 
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
@@ -5887,9 +5850,8 @@ msgstr "Heimatbibliothek des Exemplars"
 
 # Circulation > Checkout policy > OverdueNoticeFrom
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#OverdueNoticeFrom# patron home library"
-msgstr "Heimatbibliothek des Exemplars"
+msgstr "Heimatbibliothek des Benutzers"
 
 # Circulation > Checkout policy > OverduesBlockCirc
 # Circulation > Checkout policy
@@ -6275,25 +6237,22 @@ msgstr "Verwende das folgende JavaScript auf allen Seiten der webbasierten Selbs
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Do"
-msgstr "Erlaube,"
+msgstr "Ergänze"
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't"
-msgstr "Erlaube nicht,"
+msgstr "Ergänze nicht"
 
 # Circulation > Course reserves > UseCourseReserves
 # Circulation > Course reserves
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Use"
-msgstr "Aktiviere"
+msgstr " "
 
 # Circulation > SIP2 > SIP2AddOpacMessagesToScreenMessage
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# send OPAC patron messages in the SIP2 screen message field."
-msgstr ""
+msgstr "OPAC-Mitteilungen an den Benutzer im Feld für angezeigte Mitteilungen in SIP2."
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# - 'branchcode' is the location where the checkin is being performed (i.e. branch assigned to SIP user)<br/>"
@@ -6316,12 +6275,10 @@ msgid "circulation.pref#SIP2SortBinMapping# - 'sort bin number' is the expected 
 msgstr "- 'sort bin number' ist der erwartete Rückgabewert im Feld CL der SIP-Antwort für eine bestimmte Exemplarregel.<br/><br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# CPL:homebranch:ne:\\$holdingbranch:X - Will return sort bin 'X' for an item returned to CPL where the holdingbranch is not equal to the homebranch (i.e. any item belonging to a different branch than CPL).<br/>"
-msgstr "CPL:homebranch:ne:\\$holdingbranch:X - Gibt 'X' als Parameter für die Sortierung zurück, wenn ein Exemplar in der Bibliothek mit dem Bibliothekskürzel CPL zurückgegeben wird und die Heimatbibliothek nicht CPL ist (z.B. jedes Exemplar, dass einer anderen Bibliothek gehört).<br/><br/>"
+msgstr "CPL:homebranch:ne:\\$holdingbranch:X - Gibt 'X' als Parameter für die Sortierung zurück, wenn ein Exemplar in der Bibliothek mit dem Bibliothekskürzel CPL zurückgegeben wird und die Heimatbibliothek nicht CPL ist (z.B. jedes Exemplar, dass einer anderen Bibliothek gehört).<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# CPL:itemcallnumber:<:339.6:3 - Will return sort bin 3 for an item with a callnumber less than 339.6 returned to CPL.<br/>"
 msgstr "CPL:itemcallnumber:<:339.6:3 - Gibt '3' als Parameter für die Sortierung zurück, wenn das Exemplar eine Signatur kleiner als 339.6 hat und in der Bibliothek mit Bibliothekskürzel CPL zurückgegeben wird.<br/>"
 
@@ -6330,9 +6287,8 @@ msgid "circulation.pref#SIP2SortBinMapping# CPL:itype:eq:BOOK:1 - Will return so
 msgstr "CPL:itype:eq:BOOK:1 - Gibt '1' als Parameter für die Sortierung zurück, wenn der Medientyp des Exemplars 'BOOK' ist und es in der Bibliothek mit Bibliothekskürzel CPL zurückgegeben wurde.<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# CPL:itype:eq:BOOK:ccode:eq:TEEN:5 - Will return sort bin 5 for an item of itemtype 'BOOK' and a ccode 'TEEN' returned to CPL.<br/><br/>"
-msgstr "CPL:itype:eq:BOOK:1 - Gibt '1' als Parameter für die Sortierung zurück, wenn der Medientyp des Exemplars 'BOOK' ist und es in der Bibliothek mit Bibliothekskürzel CPL zurückgegeben wurde.<br/>"
+msgstr "CPL:itype:eq:BOOK:ccode:eq:TEEN:5 - Gibt 5 als Parameter für die Sortierung zurück, wenn das Exemplar den Medientyp 'BOOK' und die Sammlung 'TEEN' hat und in CPL zurückgegeben wird.<br/><br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 # Circulation > Checkin policy
@@ -6344,9 +6300,8 @@ msgid "circulation.pref#SIP2SortBinMapping# NOTE: Specifying 'item_field_value' 
 msgstr "HINWEIS: Wenn Sie den 'item_field_value' mit '\\$' beginnen und ein Exemplarfeld den Wert dieses Felds für den Vergleich verwendet:<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# The field comparison triplet, 'item field:comparator:item field value', is repeatable within a single line to allow for more complex cases"
-msgstr "Das Mapping sollte die Form 'branchcode:item field:comparator:item field value:sort bin number' haben, mit einem Mapping je Zeile.<br/>"
+msgstr "Das Feldvergleichstriplet 'Exemplarfeld:Vergleichsoperator:Feldwert' ist innerhalb einer Zeile wiederholbar, um komplexere Fälle abzubilden"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# The mapping should be of the form 'branchcode:item field:comparator:item field value:sort bin number', with one mapping per line.<br/>"
@@ -6480,14 +6435,12 @@ msgid "circulation.pref#ShowPatronImageInWebBasedSelfCheck# the patron's picture
 msgstr "Benutzerfoto (wenn eines hinzugefügt wurde) im web-basierten Selbstverbuchungssystem."
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#SkipHoldTrapOnNotForLoanValue# (list of <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>not for loan</a> authorized values separated with a pipe '|')"
-msgstr "Verwenden Sie einen Wert der Normierten-Werte-Kategorie <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>, "
+msgstr "(Liste von <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>Nicht-Ausleihbar-Status</a> separiert mit '|')"
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#SkipHoldTrapOnNotForLoanValue# Never trap items with <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">'not for loan'</a> authorized values of"
-msgstr "Verwenden Sie einen Wert der Normierten-Werte-Kategorie <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>, "
+msgstr "Erfülle keine Vormerkungen für Exemplare mit einem <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">Nicht-Ausleihbar-Status</a> aus der Liste"
 
 # Circulation > Checkin policy > SkipHoldTrapOnNotForLoanValue
 # Circulation > Checkin policy
@@ -6765,13 +6718,11 @@ msgstr "Hinweis: PROC und CART sind besondere Werte, da für diese Standorte loc
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# PROC: FIC - causes an item in the Processing center location to be updated into the Fiction location on check in.<br/>"
 msgstr "PROC: FIC - sorgt dafür, dass ein Exemplar am Standort \"In Bearbeitung\" (PROC) bei Rückgabe auf den Standort Fiktion (FIC) aktualisiert wird.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# PROC: _PERM_ - causes an item that is in the Processing center to be updated to it's permanent location.<br/><br/>"
 msgstr "PROC: _PERM_ - sorgt dafür, dass ein Exemplar am Standort \"In Bearbeitung\" (PROC) auf seinen permanenten Standort (permanent_location) aktualisiert wird.<br/><br/>"
 
@@ -6787,14 +6738,12 @@ msgstr "Der spezielle Wert _BLANK_ kann auf beiden Seiten des Doppelpunkts (:) v
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# This is a list of value pairs. The first value is followed immediately by colon space then the second value."
-msgstr "Es ist eine Liste von Werte-Paaren. Direkt nach dem ersten Wert wird Doppelpunkt Leerzeichen und dann der zweite Wert erfasst.<br/><br/>"
+msgstr "Es ist eine Liste von Werte-Paaren. Auf den ersten Wert folgt direkt ein Doppelpunkt und danach der zweite Wert."
 
 # Circulation > Item bundles > BundleLostValue
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC'>LOC</a> authorised values, _BLANK_, _PERM_, and _ALL_.<br><br>"
-msgstr "Verwenden Sie einen Wert der Normierte-Werte-Kategorie <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>,"
+msgstr "Gültige Werte sind normierte Werte aus <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC'>LOC</a> , _BLANK_, _PERM_, und _ALL_.<br><br>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
