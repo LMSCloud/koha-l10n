@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:08-0300\n"
-"PO-Revision-Date: 2023-11-24 03:01+0000\n"
+"PO-Revision-Date: 2023-12-01 03:01+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de-DE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /de/22.11/de-DE-installer.po\n"
 "X-POOTLE-MTIME: 1693905226.914981\n"
@@ -419,53 +419,47 @@ msgstr "Plattform durchsuchen"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:69
 msgid "Total item investigations"
-msgstr ""
+msgstr "Exemplaraufrufe gesamt"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:70
-#, fuzzy
 msgid "Total item requests"
-msgstr "Artikelbestellung"
+msgstr "Exemplarzugriffe gesamt"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:71
-#, fuzzy
 msgid "Unique item investigations"
-msgstr "Beschreibung der Mahngebühr"
+msgstr "Einmalige Exemplaraufrufe"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:72
-#, fuzzy
 msgid "Unique item requests"
-msgstr "Unerledigte Artikelbestellung"
+msgstr "Einmalige Exemplarzugriffe"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:73
 msgid "Unique title investigations"
-msgstr ""
+msgstr "Einmalige Titelaufrufe"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:74
-#, fuzzy
 msgid "Unique title requests"
-msgstr "Unerledigte Artikelbestellung"
+msgstr "Einmalige Titelzugriffe"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:75
 msgid "Searches automated"
-msgstr ""
+msgstr "Automatisierte Suchen"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:76
 msgid "Searches federated"
-msgstr ""
+msgstr "Föderierte Suchen"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:77
-#, fuzzy
 msgid "Searches regular"
-msgstr "Unregelmäßig"
+msgstr "Reguläre Suchen"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:84
-#, fuzzy
 msgid "No license"
-msgstr "LizenznehmerIn"
+msgstr "Keine Lizenz"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:85
 msgid "Limit exceeded"
-msgstr ""
+msgstr "Limit überschritten"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:100
 msgid "Admin"
@@ -481,11 +475,11 @@ msgstr "Reports"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:103
 msgid "Maintenance"
-msgstr ""
+msgstr "Wartung"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:104
 msgid "Outage"
-msgstr ""
+msgstr "Ausfall"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:1
 msgid "Andorra"
@@ -4028,9 +4022,8 @@ msgid "Default classification sources and filing rules for Koha."
 msgstr "Klassifikationsquellen und Sortierregeln für Koha."
 
 #: installer/data/mysql/en/mandatory/illbatch_statuses.yml:description:1
-#, fuzzy
 msgid "ILL batch statuses used in Koha"
-msgstr "In Koha verwendete Gebührenarten"
+msgstr "Stapelstatus für die Fernleihe"
 
 #: installer/data/mysql/en/mandatory/patron_restriction_types.yml:description:1
 msgid "Default Koha system patron restriction types"
@@ -4345,9 +4338,8 @@ msgid "Account expiration"
 msgstr "Ablauf des Benutzerkontos"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52
-#, fuzzy
 msgid "Account renewal"
-msgstr "Benutzungsgebühren"
+msgstr "Kontoverlängerung"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53
 msgid "OPAC self-registration verification email"
@@ -4446,9 +4438,8 @@ msgid "Hold available for pickup at <<branches.branchname>>"
 msgstr "Vormerkung ist abholbereit in <<branches.branchname>>"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67
-#, fuzzy
 msgid "Hold(s) available for pickup"
-msgstr "Vormerkung ist abholbereit"
+msgstr "Abholbereite Vormerkungen"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
 msgid "Hold available for pickup (print notice)"
@@ -4611,17 +4602,16 @@ msgid "Your cart"
 msgstr "Ihr Korb"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96
-#, fuzzy
 msgid "Train item slip"
-msgstr "Transportquittung"
+msgstr "Exemplarquittung"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
 msgid "Hold is confirmed"
-msgstr ""
+msgstr "Vormerkung ist bestätigt"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
 msgid "Your hold on [% hold.biblio.title %] is confirmed"
-msgstr ""
+msgstr "Ihre Vormerkung auf [% hold.biblio.title %] ist bestätigt"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:1
 msgid "Dear %s %s (%s),"
@@ -5017,18 +5007,19 @@ msgstr "BibliothekarIn"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:4
 msgid "Your library account has been renewed. The new expiry date is: %s."
-msgstr ""
+msgstr "Ihr Bibliothekskonto wurde verlängert. Das neue Ablaufdatum ist: %s."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:5
-#, fuzzy
 msgid ""
 "%s\n"
 "An enrollment fee of %s has been applied.\n"
 "%s"
-msgstr "Eine Zahlung in Höhe von %s wurde Ihrem Konto gutgeschrieben."
+msgstr ""
+"%s\n"
+"Es wurde eine Benutzungsgebühr in Höhe von %s berechnet.\n"
+"%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:8
-#, fuzzy
 msgid "Your library,"
 msgstr "Ihre Bibliothek"
 
@@ -5253,18 +5244,16 @@ msgid "You have a hold available for pickup as of %s:"
 msgstr "Eine Ihrer Vormerkungen liegt seit %s zur Abholung bereit:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:1
-#, fuzzy
 msgid "You have one or more holds available for pickup:"
-msgstr "Eine Ihrer Vormerkungen liegt seit %s zur Abholung bereit:"
+msgstr "Eine oder mehrere Ihrer Vormerkungen sind abholbereit:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:6
 msgid "Waiting since: %s"
 msgstr "Abholbereit seit: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:7
-#, fuzzy
 msgid "Waiting at: %s"
-msgstr "Abholbereit seit: %s"
+msgstr "Abholort: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:3
 msgid "Your hold for %s is available for pickup."
@@ -5557,13 +5546,12 @@ msgid "The following item, %s, has correctly been renewed and is now due on %s"
 msgstr "Die nachfolgende Ausleihe, %s, wurde verlängert und ist nun am %s fällig"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:4
-#, fuzzy
 msgid "This item has reached the maximum number of automatic renewals and will no longer be renewed."
-msgstr "Sie haben die maximale Anzahl an Verlängerungen erreicht."
+msgstr "Das Exemplar hat die maximale Anzahl möglicher automatischer Verlängerungen erreicht und wird nicht mehr weiter verlängert."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:7
 msgid "This item has reached the maximum number of unseen renewals and will need to be renewed at the library."
-msgstr ""
+msgstr "Das Exemplar hat die maximale Anzahl möglicher Verlängerungen ohne Vorlage erreicht und muss in der Bibliothek verlängert werden."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:9
 msgid "The following item, %s, has not been renewed because:"
@@ -5806,34 +5794,28 @@ msgid "%sView in online catalog%s"
 msgstr "%sIm OPAC anzeigen%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:4
-#, fuzzy
 msgid "Train name: %s"
-msgstr "Benutzername: %s"
+msgstr "Stapelname: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:5
-#, fuzzy
 msgid "Sent on: %s"
-msgstr "Ausgeliehen?: %s"
+msgstr "Gesendet am: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:9
-#, fuzzy
 msgid "Item number #%s"
-msgstr "Signatur: %s"
+msgstr "Exemplarnummer %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:1
-#, fuzzy
 msgid "Hello %s %s (%s),"
-msgstr "Hallo %s %s %s,"
+msgstr "Hallo %s %s (%s),"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:2
-#, fuzzy
 msgid "Your hold on %s (%s) has been confirmed."
-msgstr " Die Bestellung %s (%s) ist eingegangen."
+msgstr "Ihre Vormerkung auf %s (%s) wurde bestätigt."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:3
-#, fuzzy
 msgid "You will be notified by the library when your item is available for pickup."
-msgstr "Sie erhaltene eine weitere Benachrichtigung, wenn das Medium verfügbar ist."
+msgstr "Sie erhaltene eine weitere Benachrichtigung, sobald das Exemplar zur Abholung bereitsteht."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:9:mul:2
 msgid "An account writeoff of %s has been applied to your account."
@@ -6633,14 +6615,13 @@ msgstr "Details unter https://www.niso.org/publications/standards."
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:1
 msgid "Abridger"
-msgstr ""
+msgstr "KürzerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:2
 msgid "Art copyist"
 msgstr "KunstkopistIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:4
-#, fuzzy
 msgid "Art director"
 msgstr "Art Director"
 
@@ -6650,21 +6631,19 @@ msgstr "VerfasserIn eines Nachworts"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:7
 msgid "Announcer"
-msgstr ""
+msgstr "AnkündigerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:8
 msgid "Analyst"
 msgstr "AnalystIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:12
-#, fuzzy
 msgid "Appellee"
-msgstr "Kpelle-Sprache"
+msgstr "Antragsgegner"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:13
-#, fuzzy
 msgid "Appellant"
-msgstr "AppellantIn der/des Beklagten"
+msgstr "BeschwerdeführerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:14
 msgid "Applicant"
@@ -6683,9 +6662,8 @@ msgid "Artistic director"
 msgstr "Art Director"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:22
-#, fuzzy
 msgid "Autographer"
-msgstr "KartographIn"
+msgstr "AutographIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:23
 msgid "Attributed name"
@@ -6696,23 +6674,20 @@ msgid "Author of dialog"
 msgstr "VerfasserIn des Dialogs"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:26
-#, fuzzy
 msgid "Audio engineer"
-msgstr "AufnahmetechnikerIn"
+msgstr "ToningenieurIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:28
-#, fuzzy
 msgid "Audio producer"
-msgstr "HerstellerIn des Buches"
+msgstr "AudioproduzentIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:29
 msgid "Screenwriter"
-msgstr ""
+msgstr "DrehbuchautorIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:33
-#, fuzzy
 msgid "Book artist"
-msgstr "Einstellwagen"
+msgstr "BuchkünstlerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:35
 msgid "Book producer"
@@ -6728,20 +6703,19 @@ msgstr "Loseblattsammlung"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:39
 msgid "Broadcaster"
-msgstr ""
+msgstr "Rundfunkveranstalter"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:40
 msgid "Braille embosser"
-msgstr ""
+msgstr "Braille-PrägerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:42
-#, fuzzy
 msgid "Casting director"
-msgstr "ChefredakteurIn"
+msgstr "Casting-DirektorIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:43
 msgid "Caster"
-msgstr ""
+msgstr "GießerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:46
 msgid "Client"
@@ -6760,9 +6734,8 @@ msgid "Cinematographer"
 msgstr "KinematographIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:56
-#, fuzzy
 msgid "Contestant-appellee"
-msgstr "BerufungsgegenbeklagteR"
+msgstr "BerufungsbeschwerdeführerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:57
 msgid "Collector"
@@ -6773,27 +6746,24 @@ msgid "Conservator"
 msgstr "KonservatorIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:60
-#, fuzzy
 msgid "Camera operator"
-msgstr "GeistigeR SchöpferIn"
+msgstr "Kameramann/-frau"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:61
-#, fuzzy
 msgid "Collection registrar"
-msgstr "SammlerIn"
+msgstr "SammlungsregistratorIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:62
 msgid "Contestant"
 msgstr "KandidatIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:63
-#, fuzzy
 msgid "Contestant-appellant"
-msgstr "BerufungsgegenklägerIn"
+msgstr "BerufungsbeschwerdeführerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:64
 msgid "Court governed"
-msgstr ""
+msgstr "Entscheidungsgericht"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:65
 msgid "Cover designer"
@@ -6824,9 +6794,8 @@ msgid "Correspondent"
 msgstr "KorrespondentIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:74
-#, fuzzy
 msgid "Court reporter"
-msgstr "Ihre Meldung: %s"
+msgstr "GerichtsreporterIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:75
 msgid "Consultant"
@@ -6861,9 +6830,8 @@ msgid "Curator"
 msgstr "KuratorIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:86
-#, fuzzy
 msgid "Dubbing director"
-msgstr "ChefredakteurIn"
+msgstr "SynchronregisseurIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:87
 msgid "Distribution place"
@@ -6883,21 +6851,19 @@ msgstr "BerufungsangeklateR/-beklagteR"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:91
 msgid "Degree committee member"
-msgstr ""
+msgstr "Mitglied der Studienkommission"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:92
-#, fuzzy
 msgid "Degree granting institution"
 msgstr "Grad-verleihende Institution"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:93
-#, fuzzy
 msgid "Degree supervisor"
-msgstr "Grad-verleihende Institution"
+msgstr "StudienbetreuerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:95
 msgid "DJ"
-msgstr ""
+msgstr "DJ"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:96
 msgid "Delineator"
@@ -6929,17 +6895,15 @@ msgstr "Datenmanager"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:110
 msgid "Editor of compilation"
-msgstr ""
+msgstr "HerausgeberIn der Zusammenstellung"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:111
-#, fuzzy
 msgid "Editorial director"
-msgstr "Chorleiter"
+msgstr "RedaktionsleiterIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:112
-#, fuzzy
 msgid "Editor of moving image work"
-msgstr "KomponistIn des musikalischen Hauptwerkes"
+msgstr "HerausgeberIn eines Filmwerks"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:115
 msgid "Electrician"
@@ -6955,7 +6919,7 @@ msgstr "IngenieurIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:118
 msgid "Enacting jurisdiction"
-msgstr ""
+msgstr "Erlassende Gerichtsbarkeit"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:120
 msgid "Event place"
@@ -6966,28 +6930,24 @@ msgid "Facsimilist"
 msgstr "FaksimilistIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:123
-#, fuzzy
 msgid "Film distributor"
-msgstr "Vertrieb"
+msgstr "Filmvertrieb"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:124
 msgid "Field director"
 msgstr "FelddirektorIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:126
-#, fuzzy
 msgid "Film director"
-msgstr "FelddirektorIn"
+msgstr "FilmdirektorIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:127
-#, fuzzy
 msgid "Filmmaker"
-msgstr "DruckformherstellerIn"
+msgstr "FilmemacherIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:129
-#, fuzzy
 msgid "Film producer"
-msgstr "HerstellerIn des Buches"
+msgstr "FilmproduzentIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:131
 msgid "First party"
@@ -6999,7 +6959,7 @@ msgstr "GeographischeR InformationsspezialistIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:135
 msgid "Host institution"
-msgstr ""
+msgstr "Gastgebende Institution"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:137
 msgid "Host"
@@ -7015,12 +6975,11 @@ msgstr "InstrumentalmusikerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:146
 msgid "Judge"
-msgstr ""
+msgstr "RichterIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:147
-#, fuzzy
 msgid "Jurisdiction governed"
-msgstr "Erwerbungsbestellung"
+msgstr "Bestimmende Gerichtsbarkeit"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:148
 msgid "Laboratory"
@@ -7076,7 +7035,7 @@ msgstr "NotenschreiberIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:166
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:167
 msgid "Manufacture place"
@@ -7091,9 +7050,8 @@ msgid "Metadata contact"
 msgstr "Kontakt für Metadaten"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:170
-#, fuzzy
 msgid "Makeup artist"
-msgstr "PantomimenkünstlerIn"
+msgstr "MaskenbildnerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:171
 msgid "Moderator"
@@ -7112,37 +7070,32 @@ msgid "Musical director"
 msgstr "MusikalischeR DirektorIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:177
-#, fuzzy
 msgid "Minute taker"
-msgstr "DruckgrafikerIn"
+msgstr "ProtokollantIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:178
-#, fuzzy
 msgid "Music programmer"
-msgstr "ProgrammiererIn"
+msgstr "MusikprogrammiererIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:180
-#, fuzzy
 msgid "Mixing engineer"
-msgstr "AufnahmetechnikerIn"
+msgstr "MischingenieurIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:181
-#, fuzzy
 msgid "News anchor"
-msgstr "Zeitung"
+msgstr "NachrichtensprecherIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:183
 msgid "Onscreen participant"
-msgstr ""
+msgstr "BildschirmteilnehmerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:186
-#, fuzzy
 msgid "Organizer"
 msgstr "OrganisatorIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:187
 msgid "Onscreen presenter"
-msgstr ""
+msgstr "BildschirmmoderatorIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:189
 msgid "Owner"
@@ -7150,12 +7103,11 @@ msgstr "Besitzer"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:190
 msgid "Place of address"
-msgstr ""
+msgstr "Adressort"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:191
-#, fuzzy
 msgid "Panelist"
-msgstr "VokalistIn"
+msgstr "DiskussionsteilnehmerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:192
 msgid "Patron"
@@ -7183,7 +7135,7 @@ msgstr "ProduktionsmanagerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:204
 msgid "Praeses"
-msgstr ""
+msgstr "Präses"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:205
 msgid "Process contact"
@@ -7202,27 +7154,24 @@ msgid "Printmaker"
 msgstr "DruckgrafikerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:211
-#, fuzzy
 msgid "Production company"
-msgstr "ProduktionsmanagerIn"
+msgstr "Produktionsfirma"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:213
 msgid "Production place"
 msgstr "Produktionsort"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:214
-#, fuzzy
 msgid "Production designer"
-msgstr "Produktionspersonal"
+msgstr "ProduktionsdesignerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:216
 msgid "Provider"
 msgstr "Anbieter"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:218
-#, fuzzy
 msgid "Plaintiff-appellee"
-msgstr "ZivilberufungsbeklagteR"
+msgstr "Kläger-Beschwerdeführer"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:219
 msgid "Plaintiff"
@@ -7241,26 +7190,22 @@ msgid "Publication place"
 msgstr "Veröffentlichungsort"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:223
-#, fuzzy
 msgid "Rapporteur"
 msgstr "BerichterstatterIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:225
 msgid "Recordist"
-msgstr ""
+msgstr "AufnehmendeR"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:227
-#, fuzzy
 msgid "Addressee"
-msgstr "Adresshinweise"
+msgstr "AdressatIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:228
-#, fuzzy
 msgid "Radio director"
-msgstr "FelddirektorIn"
+msgstr "RadiodirektorIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:229
-#, fuzzy
 msgid "Redaktor"
 msgstr "RedaktorIn"
 
@@ -7273,9 +7218,8 @@ msgid "Researcher"
 msgstr "ForscherIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:233
-#, fuzzy
 msgid "Radio producer"
-msgstr "MusikproduzentIn"
+msgstr "RadioproduzentIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:234
 msgid "Repository"
@@ -7306,19 +7250,16 @@ msgid "Respondent-appellant"
 msgstr "AntragsbetroffeneR AppellantIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:244
-#, fuzzy
 msgid "Remix artist"
-msgstr "PantomimenkünstlerIn"
+msgstr "Remix-KünstlerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:249
-#, fuzzy
 msgid "Sound engineer"
-msgstr "TongestalterIn"
+msgstr "ToningenieurIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:250
-#, fuzzy
 msgid "Stage director"
-msgstr "FelddirektorIn"
+msgstr "RegisseurIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:251
 msgid "Sound designer"
@@ -7326,16 +7267,15 @@ msgstr "TongestalterIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:253
 msgid "Special effects provider"
-msgstr ""
+msgstr "Spezialeffekte"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:255
 msgid "Supporting host"
 msgstr "UnterstützendeR VeranstalterIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:256
-#, fuzzy
 msgid "Seller"
-msgstr "GeschichtenerzählerIn"
+msgstr "VerkäuferIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:258
 msgid "Speaker"
@@ -7355,7 +7295,7 @@ msgstr "BühnenbildausstatterIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:263
 msgid "Setting"
-msgstr ""
+msgstr "Kulisse"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:264
 msgid "Storyteller"
@@ -7371,11 +7311,11 @@ msgstr "StereotypistIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:268
 msgid "Software developer"
-msgstr ""
+msgstr "Softwareentwickler"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:269
 msgid "Television writer"
-msgstr ""
+msgstr "FernsehautorIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:270
 msgid "Technical director"
@@ -7386,22 +7326,20 @@ msgid "Teacher"
 msgstr "LehrerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:273
-#, fuzzy
 msgid "Television director"
-msgstr "ChefredakteurIn"
+msgstr "FernsehdirektorIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:274
 msgid "Television guest"
-msgstr ""
+msgstr "Fernsehgast"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:275
 msgid "Television host"
-msgstr ""
+msgstr "FernsehgastgeberIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:276
-#, fuzzy
 msgid "Television producer"
-msgstr "MusikproduzentIn"
+msgstr "FernsehproduzentIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:277
 msgid "Transcriber"
@@ -7412,9 +7350,8 @@ msgid "University place"
 msgstr "Hochschulort"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:282
-#, fuzzy
 msgid "Voice actor"
-msgstr "RedaktorIn"
+msgstr "SynchronsprecherIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:283
 msgid "Videographer"
@@ -7422,48 +7359,43 @@ msgstr "Kameramann/Kamerafrau"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:284
 msgid "Visual effects provider"
-msgstr ""
+msgstr "Visuelle Effekte"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:285
 msgid "Writer of added commentary"
-msgstr ""
+msgstr "VerfasserIn zusätzlicher Kommentare"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:286
-#, fuzzy
 msgid "Writer of added lyrics"
-msgstr "DruckerIn der Druckformen"
+msgstr "VerfasserIn zusätzlicher Liedtexte"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:288
-#, fuzzy
 msgid "Writer of added text"
-msgstr "DruckerIn der Druckformen"
+msgstr "VerfasserIn zusätzlichen Texts"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:289
 msgid "Woodcutter"
 msgstr "HolzschneiderIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:290
-#, fuzzy
 msgid "Wood engraver"
 msgstr "HolzschnitzerIn"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:291
-#, fuzzy
 msgid "Writer of introduction"
-msgstr "VerfasserIn eines Geleitworts"
+msgstr "VerfasserIn der Einleitung"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:292
 msgid "Witness"
 msgstr "Zeuge/Zeugin"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:293
-#, fuzzy
 msgid "Writer of preface"
-msgstr "DruckerIn der Druckformen"
+msgstr "VerfasserIn des Vorworts"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:294
 msgid "Writer of supplementary textual content"
-msgstr ""
+msgstr "VerfasserIn ergänzender Texte"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:description:1
 msgid "MARC code list for relators, as of http://www.loc.gov/marc/relators/relaterm.html"
