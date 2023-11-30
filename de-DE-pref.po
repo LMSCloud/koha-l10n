@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:08-0300\n"
-"PO-Revision-Date: 2023-11-30 09:12+0000\n"
+"PO-Revision-Date: 2023-11-30 09:27+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de-DE\n"
@@ -6757,55 +6757,46 @@ msgstr "_BLANK_: FIC - sorgt dafür, dass ein Exemplar, dass bisher keinen Stand
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# Examples:<br/>"
 msgstr "Beispiele:<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# FIC: GEN - causes an item in the Fiction location to be updated into the General stacks location on check out.<br/>"
-msgstr "FIC: GEN - sorgt dafür, dass ein Exemplar mit dem Standort Fiktion (FIC) bei Rückgabe den Standort Magazin (GEN) erhält.<br/>"
+msgstr "FIC: GEN - sorgt dafür, dass ein Exemplar mit dem Standort Fiktion (FIC) bei Ausleihe den Standort Magazin (GEN) erhält.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# FIC: _BLANK_ - causes an item in location FIC to be updated to a blank location on check out.<br/>"
-msgstr "FIC: _BLANK_ - sorgt dafür, dass Bei Rückgabe der Standort Fiktion (FIC) im Exemplar gelöscht wird.<br/>"
+msgstr "FIC: _BLANK_ - sorgt dafür, dass bei Ausleihe der Standort Fiktion (FIC) im Exemplar gelöscht wird.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# General rule: if the location value on the left of the colon (:) matches the item's current location, it will be updated to match the location value on the right of the colon (:).<br/>"
 msgstr "Allgemeine Regel: Wenn der Standortcode auf der linken Seite des Doppelpunkts (:) mit dem aktuellen Standort des Exemplars übereinstimmt, wird der Standort entsprechend des Standortcodes auf der rechten Seite des Doppelpunkts aktualisiert.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# Note: PROC and CART are special values, for these locations the location and permanent_location can differ, in all other cases an update will affect both. Items in the CART location will be returned to their permanent location on checkout.<br/>"
-msgstr "Hinweis: PROC und CART sind besondere Werte, da für diese Standorte location und permanent_location in der Datenbank verschieden sein können. In allen anderen Fällen verändert ein Update beide Werte. Exemplare mit Standort CART werden bei Rückgabe auf ihren permanenten Standort zurückgesetzt.<br/>"
+msgstr "Hinweis: PROC und CART sind besondere Werte, da für diese Standorte location und permanent_location in der Datenbank verschieden sein können. In allen anderen Fällen verändert ein Update beide Werte. Exemplare mit Standort CART werden bei Ausleihe auf ihren permanenten Standort zurückgesetzt.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# PROC: FIC - causes an item in the Processing Center location to be updated into the Fiction location on check out.<br/>"
-msgstr "PROC: FIC - sorgt dafür, dass ein Exemplar am Standort \"In Bearbeitung\" (PROC) bei Rückgabe auf den Standort Fiktion (FIC) aktualisiert wird.<br/>"
+msgstr "PROC: FIC - sorgt dafür, dass ein Exemplar am Standort \"In Bearbeitung\" (PROC) bei Ausleihe auf den Standort Fiktion (FIC) aktualisiert wird.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# PROC: _PERM_ - causes an item that is in the Processing Center to be updated to it's permanent location.<br/><br/>"
 msgstr "PROC: _PERM_ - sorgt dafür, dass ein Exemplar am Standort \"In Bearbeitung\" (PROC) auf seinen permanenten Standort (permanent_location) aktualisiert wird.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# The special term _ALL_ is used on the left side of the colon (:) to affect all items, <strong>and overrides all other rules.</strong>"
-msgstr "Der spezielle Wert _ALL_ wird auf der linken Seite des Doppelpunkts (:) verwendet und betrifft alle Exemplare und <strong>überschreibt alle anderen Regeln</strong>."
+msgstr "Der spezielle Wert _ALL_ wird auf der linken Seite des Doppelpunkts (:) verwendet und betrifft alle Exemplare und <strong>überschreibt alle anderen Regeln</strong>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# The special term _BLANK_ may be used on either side of a value pair to update or remove the location from items with no location assigned.<br/>"
 msgstr "Der spezielle Wert _BLANK_ kann auf beiden Seiten des Doppelpunkts (:) verwendet werden um den Standort eines Exemplars zu leeren oder bei Exemplare ohne Standort einen Standort zu vergeben.<br/>"
 
