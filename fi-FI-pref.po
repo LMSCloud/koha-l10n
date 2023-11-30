@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.06.00.079\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2023-11-30 09:12+0000\n"
+"PO-Revision-Date: 2023-12-01 03:01+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -342,7 +342,6 @@ msgstr "Salli"
 
 # Acquisitions > Policy > AcqEnableFiles
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# Don't allow"
 msgstr "Älä salli"
 
@@ -584,19 +583,17 @@ msgstr "kun lähetetään reklamaatioita kausijulkaisuista."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Circulation > Checkin policy > StoreLastBorrower
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultReplyTo# <br>If left empty, it will fall back to the first defined address in the following list: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> ja <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "Jos tämä jätetään tyhjäksi, käytetään ensimmäistä määriteltyä osoitetta tästä listasta: kirjaston vastausosoite, kirjaston sähköpostiosoite, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> ja <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Acquisitions > Policy > SerialsDefaultReplyTo
 msgid "acquisitions.pref#SerialsDefaultReplyTo# Use the reply-to email address"
-msgstr ""
+msgstr "Käytä vastaussähköpostina"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultReplyTo# when sending serial claim notices."
-msgstr "piilokopio(ta) (BCC) kirjautuneelle käyttäjälle, kun lähetetään reklamaatioita kausijulkaisuista tai tilauksista."
+msgstr "kun lähetetään reklamaatioita kausijulkaisuista."
 
 # Acquisitions > Policy > TaxRates
 # Acquisitions > Policy
@@ -867,21 +864,18 @@ msgstr "palautuskehotuksesta henkilökunnalle, jos asiakkaalla ei ole sähköpos
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# Don't force"
-msgstr "Älä näytä"
+msgstr "Älä pakota"
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# Force"
-msgstr "Näytä"
+msgstr "Pakota"
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# library selection when logging into the staff interface."
-msgstr "uutisten kirjastovalikko(a) verkkokirjastossa."
+msgstr "käyttäjä(ä) valitsemaan kirjautumiskirjasto virkailijaliittymään kirjautuessa."
 
 # Administration > Google OpenID Connect > GoogleOAuth2ClientID
 # OPAC > Appearance
@@ -2376,13 +2370,11 @@ msgstr "Linkittäjä"
 
 # Cataloging > Importing > AdditionalFieldsInZ3950ResultSearch
 # Cataloging > Importing
-#, fuzzy
 msgid "authorities.pref#AdditionalFieldsInZ3950ResultAuthSearch#  in the 'Additional fields' column of Z39.50 search results (use comma as delimiter e.g.: \"<code>001, 035$a</code>\")"
-msgstr "'Lisäkenttien' sarakkeessa Z39.50 hakutuloksessa (käytä pilkkua erottimena, esim.: \"<code>001, 082$ab, 090$ab</code>\")"
+msgstr "'Lisäkenttien' sarakkeessa Z39.50 hakutuloksessa (käytä pilkkua erottimena, esim.: \"<code>001, 035$a</code>\")"
 
 # Cataloging > Importing > AdditionalFieldsInZ3950ResultSearch
 # Cataloging > Importing
-#, fuzzy
 msgid "authorities.pref#AdditionalFieldsInZ3950ResultAuthSearch# Display the MARC field/subfields"
 msgstr "Näytä MARC-kentät/osakentät"
 
@@ -3186,9 +3178,8 @@ msgstr "näyttää:"
 
 # Cataloging > Record structure > NewItemsDefaultLocation
 # Cataloging > Record structure
-#, fuzzy
 msgid "cataloguing.pref#NewItemsDefaultLocation# (should be a <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC\">location code</a>, or blank to disable)."
-msgstr "(Anna hyllypaikan lyhenne tai jätä tyhjäksi jos uutuusaineiston hyllypaikkaa ei käytetä)."
+msgstr "(pitäisi olla <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC\">hyllypaikka</a>, tai tyhjä, jos ei käytössä)."
 
 # Cataloging > Record structure > NewItemsDefaultLocation
 # Cataloging > Record structure
@@ -3222,7 +3213,7 @@ msgstr "(Jätä tyhjäksi, jos tätä ei käytetä. Määrittele alue muodossa <
 
 # Cataloging > Display > OpacSuppression
 msgid "cataloguing.pref#OpacSuppression# <br /> A custom message can be shown on the redirect page for suppressed bibliographic records by creating an <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML customization</a> in the OpacSuppressionMessage region."
-msgstr ""
+msgstr "Lisäohje voidaan näyttää kaikilla piilotettujen tietueiden uudelleenohjaussivuilla lisäämällä se <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML-muokkauksissa</a> OpacSuppressionMessage-osiossa."
 
 # Cataloging > Display > OpacSuppression
 # Cataloging > Display
@@ -4358,31 +4349,27 @@ msgstr "Seuraavat artikkelipyyntöjen muodot on tuettu:"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout Policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# When returning items"
-msgstr "Älä salli"
+msgstr "Kun palautetaan niteitä"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout Policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# don't"
-msgstr "Älä salli"
+msgstr "älä poista"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout Policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining items that is cause for debarment"
-msgstr "Älä salli"
+msgstr "poista, jos asiakkaalla ei ole enää lainassa niteitä, jotka aiheuttavat rajoituksen"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout Policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining overdue items"
-msgstr "Älä salli"
+msgstr "poista, jos asiakkaalla ei ole myöhässä olevia niteitä"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# remove OVERDUES restriction triggered by sent notices. The difference between removing restriction when no remaining overdue items exists and doing so only when any of the items would result in debarment is that the latter option will respect possible grace periods of overdue rules also on returns and not only when generating overdue notices."
-msgstr ""
+msgstr "myöhästymisilmoituksen lähettämisestä johtuva rajoite. Kahden poistovaihtoehdon välinen ero on, että ensimmäisessä rajoite poistetaan, jos lainassa ei ole yhtään myöhässä olevaa nidettä ja toisessa rajoite poistossa otetaan huomioon mahdolliset myöhästymismääritysten armonajat eikä vain sitä, milloin myöhästymisilmoitukset luodaan."
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
 # Circulation > Holds policy
@@ -4471,27 +4458,23 @@ msgstr "automaattinen vaihto toiseen asiakkaaseen, kun asiakkaan viivakoodi luet
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/automatic_checkin.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>HUOM:</strong> Tämä järjestelmäasetus vaatii <code>misc/cronjobs/holds/auto_unsuspend_holds.pl</code> cronjobin. Pyydä kehittäjiä ajastamaan se."
+msgstr "<br><strong>HUOM:</strong> Tämä järjestelmäasetus vaatii <code>misc/cronjobs/automatic_checkin.pl</code>-ajastetun ajon. Pyydä kehittäjiä ajastamaan se."
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# Allow"
 msgstr "Salli"
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# Don't allow"
 msgstr "Älä salli"
 
 # Circulation > Checkout policy > AutomaticItemReturn
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# holds to be automatically filled after being automatically checked in."
-msgstr "niteitä automaattisesti kotikirjastoon, kun ne palautetaan."
+msgstr "varausten täyttyä automaattisesti, kun niteet palautetaan automaattisesti."
 
 # Circulation > Checkin policy > AutomaticConfirmTransfer
 # Circulation > Checkout policy
@@ -4948,9 +4931,8 @@ msgstr "<br>Jätä tämä tyhjäksi, jos et halua veloittaa asiakkaalta kadonnei
 
 # Circulation > Checkout policy > DefaultLongOverdueChargeValue
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueChargeValue# Charge a lost item to the patron's account when the <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a> value of the item changes to:"
-msgstr "Lisää kadonneen niteen hinta asiakkaan maksuihin, kun niteen KADONNUT-arvoksi muuttuu:"
+msgstr "Lisää kadonneen aineiston korvaushinta asiakkaan maksuihin, kun niteen <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a>-arvoksi vaihtuu:"
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -4964,9 +4946,8 @@ msgstr "<br><strong>HUOM:</strong> Tämä järjestelmäasetus vaatii <code>misc/
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueLostValue# <br>Example: [1] [30] Sets an item to the <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a> value 1 when it has been overdue for more than 30 days."
-msgstr "<br>Esimerkki: [1] [30] asettaa niteen tilaksi KADONNUT-arvon 1 kun se on ollut myöhässä enemmän kuin 30 päivää."
+msgstr "<br>Esimerkki: [1] [30] Asettaa niteen <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a>-arvoksi 1, kun se on ollut myöhässä enemmäin kuin 30 päivää."
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -4974,9 +4955,8 @@ msgid "circulation.pref#DefaultLongOverdueLostValue# <br>WARNING — These prefe
 msgstr "<br>VAROITUS - Nämä asetukset aktivoivat automaattisen aineiston kadonneeksi merkitsemisen. Jätä nämä kentät tyhjäksi, jos et halua aktivoida tätä ominaisuutta."
 
 # Circulation > Item bundles > BundleLostValue
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueLostValue# By default, set the <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> value of an item to"
-msgstr "Käytä <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> auktorisoitua arvoa"
+msgstr "Aseta oletuksena niteen <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>-arvoksi"
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -4995,9 +4975,8 @@ msgstr "."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# <br>Leave this field empty if you don't want to skip any <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> statuses."
-msgstr "<br>Jätä tämä tyhjäksi, jos et halua ohittaa mitään kadonnut-tilaa."
+msgstr "<br>Jätä tämä tyhjäksi, jos et halua ohittaa mitään <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>-tilaa."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
@@ -5006,9 +4985,8 @@ msgstr "<br>Tee lista arvoista pilkulla erotettuna, esim. <em>5,6,7</em>."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# When using the automatic item loss process, skip items with <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> values matching any of"
-msgstr "Jos käytetään automaattista niteen katoamismerkintää, ohita niteet joissa on joku näistä kadonnut-tilan arvoista"
+msgstr "Jos käytetään automaattista niteen kadonneeksi merkintää, ohita niteet, joissa on joku näistä <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>-arvoista"
 
 # Circulation > Interface > DisplayClearScreenButton
 # Circulation > Interface
@@ -5047,21 +5025,18 @@ msgstr "varauksen tekeminen useampaan nimekkeeseen kerrallaan hakutuloslistasta"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Don't email"
-msgstr "Älä lähetä"
+msgstr "Älä lähetä sähköpostia"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Email"
-msgstr "Lähetä"
+msgstr "Lähetä sähköposti"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# a patron when they have placed a hold."
-msgstr "Älä lähetä"
+msgstr "asiakkaille, kun he tekevät varauksen."
 
 # Circulation > Holds policy > EnableItemGroupHolds
 # Circulation > Holds policy
@@ -5074,9 +5049,8 @@ msgid "circulation.pref#EnableItemGroupHolds# Enable"
 msgstr "Ota käyttöön"
 
 # Circulation > Checkin policy > CalculateFinesOnReturn
-#, fuzzy
 msgid "circulation.pref#EnableItemGroupHolds# the ability to place holds on item groups. <br><strong>NOTE:</strong> This system preference requires that <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EnableItemGroups'>EnableItemGroups</a> to be set to 'Enable'."
-msgstr "<br /><strong>HUOM:</strong> Tämä järjestelmäasetus vaatii, että <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=FinesMode\">FinesMode</a> on asetettu \"Laske ja laskuta\" arvoon."
+msgstr "varauksen tekeminen nideryhmiin. <br><strong>NOTE:</strong> Tämä järjestelmäasetus vaatii, että <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EnableItemGroups'>EnableItemGroups</a>-järjestelmäasetus on aktivoitu."
 
 # Circulation > Holds policy > ExcludeHolidaysFromMaxPickUpDelay
 # Circulation > Holds policy
@@ -5177,9 +5151,8 @@ msgstr "Näytä"
 
 # Circulation > Interface > ExportCircHistory
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#ExportCircHistory# the option to export patron checkouts."
-msgstr "asiakkaan lainahistorian viennin asetukset."
+msgstr "asiakkaan lainahistorian vienti."
 
 # Circulation > Interface > ExportRemoveFields
 # Circulation > Interface
@@ -5188,9 +5161,8 @@ msgstr "(erota kentät välilyönnein, esim. 100a 200b 300c)."
 
 # Circulation > Interface > ExportRemoveFields
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#ExportRemoveFields# The following fields should be excluded from the patron checkout CSV or MARC (ISO 2709) export:"
-msgstr "Seuraavia kenttiä ei viedä asiakkaan lainahistorian CSV-viennissä tai MARC (iso2709)-viennissä:"
+msgstr "Seuraavia kenttiä ei viedä asiakkaan lainahistorian CSV-viennissä tai MARC (ISO 2709) -viennissä:"
 
 # Circulation > Interface > FilterBeforeOverdueReport
 # Circulation > Interface
@@ -5462,13 +5434,12 @@ msgstr "asiakkaita lainaamasta nidettä, jonka lainamaksu veisi heidät lainausk
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 msgid "circulation.pref#ItemsDeniedRenewal# <br /><strong>Configuration:</strong> <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=CCODE'>Collections (CCODE)</a> | <a href='/cgi-bin/koha/admin/itemtypes.pl'>Item types</a>"
-msgstr ""
+msgstr "<br /><strong>Asetukset:</strong> <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=CCODE'>Kokoelmat (CCODE)</a> | <a href='/cgi-bin/koha/admin/itemtypes.pl'>Hyllypaikat</a>"
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#ItemsDeniedRenewal# <br /><strong>NOTE:</strong> The word 'NULL' can be used to block renewal on undefined fields, while an empty string \"\" will block on an empty (but defined) field."
-msgstr "<br /> <strong>HUOM:</strong> Sanaa 'null' käytetään estämään uusinta määrittelemättömissä kentissä, kun tyhjä merkki \"\" estää tyhjän (mutta määritellyn) kentän."
+msgstr "<br /> <strong>HUOM:</strong> Sanaa 'NULL' käytetään estämään uusinta määrittelemättömissä kentissä, kun taas tyhjä merkki \"\" estää tyhjän (mutta määritellyn) kentän."
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
@@ -5477,9 +5448,8 @@ msgstr "<br />Voi nimetä nidetaulun minkä tahansa kentän, jonka perässä on 
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#ItemsDeniedRenewal# <br />ccode: [NEWFIC,NULL,DVD]"
-msgstr "<br />ccode: [NEWFIC,null,DVD]"
+msgstr "<br />ccode: [NEWFIC,NULL,DVD]"
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
@@ -5503,11 +5473,11 @@ msgstr "suluissa oleva lista arvoista, jotka erotetaan toisistaan pilkulla."
 
 # Circulation > Checkout policy > LoadCheckoutsTableDelay
 msgid "circulation.pref#LoadCheckoutsTableDelay# Delay the automatic loading of the checkouts table on the checkouts page by"
-msgstr ""
+msgstr "Viivytä lainat-taulun automaattista lataamista lainaussivulla"
 
 # Circulation > Checkout policy > LoadCheckoutsTableDelay
 msgid "circulation.pref#LoadCheckoutsTableDelay# seconds when \"Always show checkouts automatically\" is enabled."
-msgstr ""
+msgstr "sekuntia, kun \"Näytä lainat reaaliaikaisesti\" -toiminto on päällä."
 
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
@@ -5865,9 +5835,8 @@ msgstr "niteen kotikirjastoa"
 
 # Circulation > Checkout policy > OverdueNoticeFrom
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#OverdueNoticeFrom# patron home library"
-msgstr "niteen kotikirjastoa"
+msgstr "asiakkaan kotikirjastoa"
 
 # Circulation > Checkout policy > OverduesBlockCirc
 # Circulation > Checkout policy
@@ -6229,9 +6198,8 @@ msgstr "Älä näytä"
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#SCOLoadCheckoutsByDefault# Show"
-msgstr "Salli"
+msgstr "Näytä"
 
 # Circulation > Self check-out module > ShowPatronImageInWebBasedSelfCheck
 # Circulation > Self check-out module
@@ -6250,25 +6218,22 @@ msgstr "Käytä seuraavia JavaScript-komentoja kaikilla sivuilla itsepalvelulain
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Do"
-msgstr "Salli"
+msgstr "Lähetä"
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't"
-msgstr "Älä salli"
+msgstr "Älä lähetä"
 
 # Circulation > Course reserves > UseCourseReserves
 # Circulation > Course reserves
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Use"
-msgstr "Käytä"
+msgstr "Käytä:"
 
 # Circulation > SIP2 > SIP2AddOpacMessagesToScreenMessage
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# send OPAC patron messages in the SIP2 screen message field."
-msgstr ""
+msgstr "asiakkaan huomautus verkkokirjastossa -kentän tieto SIP2-näyttöviestikentässä."
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# - 'branchcode' is the location where the checkin is being performed (i.e. branch assigned to SIP user)<br/>"
@@ -6291,12 +6256,10 @@ msgid "circulation.pref#SIP2SortBinMapping# - 'sort bin number' is the expected 
 msgstr "- 'sort bin number' on oletettu palautuva arvo SIP vastauksen CL kentässä sääntöön sopiville niteille<br/><br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# CPL:homebranch:ne:\\$holdingbranch:X - Will return sort bin 'X' for an item returned to CPL where the holdingbranch is not equal to the homebranch (i.e. any item belonging to a different branch than CPL).<br/>"
-msgstr "CPL:homebranch:ne:\\$holdingbranch:X - Palauttaa lajittelun (sort bin) arvon 'X' niteille, jotka on palautettu CPL:llään, ja jossa sijaintikirjasto ei ole sama kuin kotikirjasto (eli mikä tahansa nide, joka kuuluu toiseen kirjastoon kuin CPL).<br/><br/>"
+msgstr "CPL:homebranch:ne:\\$holdingbranch:X - Palauttaa lajittelupaikan (sort bin) arvon 'X' niteille, jotka on palautettu CPL:llään, ja jossa sijaintikirjasto ei ole sama kuin kotikirjasto (eli mikä tahansa nide, joka kuuluu toiseen kirjastoon kuin CPL).<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# CPL:itemcallnumber:<:339.6:3 - Will return sort bin 3 for an item with a callnumber less than 339.6 returned to CPL.<br/>"
 msgstr "CPL:itemcallnumber:<:339.6:3 - Palauttaa lajittelupaikan (sort bin) 3 niteille, jotka on palautettu CPL:ään, ja joiden luokka on pienempi kuin 339.6.<br/>"
 
@@ -6305,9 +6268,8 @@ msgid "circulation.pref#SIP2SortBinMapping# CPL:itype:eq:BOOK:1 - Will return so
 msgstr "CPL:itype:eq:BOOK:1 - Palauttaa lajittelupaikan (sort bin) 1 niteille, jotka on palautettu CPL:ään, ja joiden nidetyyppi on 'BOOK'.<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# CPL:itype:eq:BOOK:ccode:eq:TEEN:5 - Will return sort bin 5 for an item of itemtype 'BOOK' and a ccode 'TEEN' returned to CPL.<br/><br/>"
-msgstr "CPL:itype:eq:BOOK:1 - Palauttaa lajittelupaikan (sort bin) 1 niteille, jotka on palautettu CPL:ään, ja joiden nidetyyppi on 'BOOK'.<br/>"
+msgstr "CPL:itype:eq:BOOK:ccode:eq:TEEN:5 - Palauttaa lajittelupaikan (sort bin) 5 niteille, jotka on palautettu CPL:ään, ja joiden nidetyyppi on 'BOOK' ja kokoelmakoodi 'TEEN'.<br/><br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 # Circulation > Checkin policy
@@ -6319,9 +6281,8 @@ msgid "circulation.pref#SIP2SortBinMapping# NOTE: Specifying 'item_field_value' 
 msgstr "HUOM: Määriteltäessä 'item_field_value' edeltävällä merkillä '\\$' ja nidekentän nimi, käytetään määritetyn kentän arvoa niteiden vertailussa:<br/>"
 
 # Circulation > SIP2 > SIP2SortBinMapping
-#, fuzzy
 msgid "circulation.pref#SIP2SortBinMapping# The field comparison triplet, 'item field:comparator:item field value', is repeatable within a single line to allow for more complex cases"
-msgstr "Määrityksen tulee olla muodossa 'branchcode:item field:comparator:item field value:sort bin number'. Jokainen määritys omalle rivilleen.<br/>"
+msgstr "Kenttävertailukolmikko, 'nidekenttä:vertailija:nidekentän arvo', on toistettavissa yhdellä rivillä, jolloin voidaan tehdä monimutkaisempia sääntöjä"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# The mapping should be of the form 'branchcode:item field:comparator:item field value:sort bin number', with one mapping per line.<br/>"
@@ -6455,14 +6416,12 @@ msgid "circulation.pref#ShowPatronImageInWebBasedSelfCheck# the patron's picture
 msgstr "asiakkaan kuva(a) itsepalvelulainauksessa (jos tallennettu)."
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#SkipHoldTrapOnNotForLoanValue# (list of <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>not for loan</a> authorized values separated with a pipe '|')"
-msgstr "Käytä  <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a> auktorisoitua arvoa"
+msgstr "(lista <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>Ei lainata</a> -auktorisoiduista arvoista erotettuna putkimerkillä '|')"
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#SkipHoldTrapOnNotForLoanValue# Never trap items with <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">'not for loan'</a> authorized values of"
-msgstr "Käytä  <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a> auktorisoitua arvoa"
+msgstr "Älä ota koskaan kiinni niteitä, joilla on <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">'not for loan'</a> -auktorisoituna arvona"
 
 # Circulation > Checkin policy > SkipHoldTrapOnNotForLoanValue
 # Circulation > Checkin policy
@@ -6739,15 +6698,13 @@ msgstr "Huomaa: PROC ja CART ovat erikoisarvoja, sillä näissä location ja per
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# PROC: FIC - causes an item in the Processing center location to be updated into the Fiction location on check in.<br/>"
-msgstr "PROC: FIC - paikkaan PROC kuuluva nide päivitetään FIC-paikkaan palautuksen yhteydessä.<br/>"
+msgstr "PROC: FIC - hyllypaikkaan PROC kuuluvan niteen hyllypaikka päivitetään FIC-hyllypaikkaan palautuksessa.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# PROC: _PERM_ - causes an item that is in the Processing center to be updated to it's permanent location.<br/><br/>"
-msgstr "PROC: _PERM_ - paikkaan PROC kuuluva nide päivitetään pysyvään paikkaansa <br/><br/>"
+msgstr "PROC: _PERM_ - hyllypaikkaan PROC kuuluvan niteen hyllypaikka päivitetään pysyvään hyllypaikkaansa (permanent_location). <br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
@@ -6761,14 +6718,12 @@ msgstr "Erikoistermiä _BLANK_ voidaan käyttää arvoparin kummallakin puolella
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# This is a list of value pairs. The first value is followed immediately by colon space then the second value."
-msgstr "Tämä on listaus arvopareista. Ensimmäisen arvon jälkeen tulee heti kaksoispiste ja tyhjämerkki, sitten toinen arvo.<br/><br/>"
+msgstr "Tämä on listaus arvopareista. Ensimmäisen arvon jälkeen tulee heti kaksoispiste ja tyhjämerkki, sitten toinen arvo."
 
 # Circulation > Item bundles > BundleLostValue
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC'>LOC</a> authorised values, _BLANK_, _PERM_, and _ALL_.<br><br>"
-msgstr "Käytä <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> auktorisoitua arvoa"
+msgstr "Kelvollisia arvoja ovat <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC'>LOC</a>-auktorisoidut arvot, _BLANK_, _PERM_, ja_ALL_.<br><br>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
@@ -6782,81 +6737,68 @@ msgstr "_BLANK_: FIC - nide, jolla ei ole mitään paikkaa, päivitetään FIC-p
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# Examples:<br/>"
 msgstr "Esimerkkejä:<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# FIC: GEN - causes an item in the Fiction location to be updated into the General stacks location on check out.<br/>"
-msgstr "FIC: GEN - paikkaan FIC kuuluva nide päivitetään GEN-paikkaan palautuksen yhteydessä.<br/>"
+msgstr "FIC: GEN - hyllypaikkaan FIC kuuluvan niteen hyllypaikka päivitetään GEN-hyllypaikkaan lainatessa.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# FIC: _BLANK_ - causes an item in location FIC to be updated to a blank location on check out.<br/>"
-msgstr "FIC: _BLANK_ - paikkaan FIC kuuluva nide päivitetään tyhjään paikkaan palautuksen yhteydessä.<br/>"
+msgstr "FIC: _BLANK_ - hyllypaikkaan FIC kuuluvan niteen hyllypaikka päivitetään tyhjään hyllypaikkaan lainatessa.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# General rule: if the location value on the left of the colon (:) matches the item's current location, it will be updated to match the location value on the right of the colon (:).<br/>"
-msgstr "Yleinen sääntö: jos kaksoispisteen (:) vasemmalla puolella oleva paikka täsmää niteen nykyiseen paikkaan, se päivitetään vastaamaan kaksoispisteen (:) oikealla puolella olevaa paikkaa.<br/>"
+msgstr "Yleissääntö: jos kaksoispisteen (:) vasemmalla puolella oleva hyllypaikka täsmää niteen nykyiseen hyllypaikkaan, se päivitetään vastaamaan kaksoispisteen (:) oikealla puolella olevaa hyllypaikkaa.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# Note: PROC and CART are special values, for these locations the location and permanent_location can differ, in all other cases an update will affect both. Items in the CART location will be returned to their permanent location on checkout.<br/>"
-msgstr "Huomaa: PROC ja CART ovat erikoisarvoja, sillä näissä location ja permanent_location voivat olla erilaiset, kaikissa muissa tapauksissa päivitys vaikuttaa molempiin. CART-paikassa sijaitseva nide siirretään oikeaan paikkaansa niteen palautuksessa.<br/>"
+msgstr "Huomaa: PROC ja CART ovat erikoisarvoja, sillä näissä location ja permanent_location voivat olla erilaiset, kaikissa muissa tapauksissa päivitys vaikuttaa molempiin. CART-hyllypaikalla sijaitseva nide siirretään oikeaan hyllypaikkaansa lainatessa.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# PROC: FIC - causes an item in the Processing Center location to be updated into the Fiction location on check out.<br/>"
-msgstr "PROC: FIC - paikkaan PROC kuuluva nide päivitetään FIC-paikkaan palautuksen yhteydessä.<br/>"
+msgstr "PROC: FIC - hyllypaikkaan PROC kuuluvan niteen hyllypaikka päivitetään FIC-hyllypaikkaa lainatessa.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# PROC: _PERM_ - causes an item that is in the Processing Center to be updated to it's permanent location.<br/><br/>"
-msgstr "PROC: _PERM_ - paikkaan PROC kuuluva nide päivitetään pysyvään paikkaansa <br/><br/>"
+msgstr "PROC: _PERM_ - hyllypaikkaan PROC kuuluvan niteen hyllypaikka päivitetään pysyvään hyllypaikkaansa (permanent_location). <br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# The special term _ALL_ is used on the left side of the colon (:) to affect all items, <strong>and overrides all other rules.</strong>"
-msgstr "Erikoistermi _ALL_ käytetään kaksoispisteen (:) vasemmalla puolella koskemaan kaikkia niteitä, <strong>ja korvaa kaikki muut säännöt.</strong>"
+msgstr "Erikoistermiä _ALL_ käytetään kaksoispisteen (:) vasemmalla puolella koskemaan kaikkia niteitä, <strong>ja korvaa kaikki muut säännöt.</strong>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# The special term _BLANK_ may be used on either side of a value pair to update or remove the location from items with no location assigned.<br/>"
-msgstr "Erikoistermiä _BLANK_ voidaan käyttää arvoparin kummallakin puolella päivittämään tai poistamaan paikka sellaiselta niteeltä, jolla ei ole mitään paikkaa.<br/>"
+msgstr "Erikoistermiä _BLANK_ voidaan käyttää arvoparin kummallakin puolella päivittämään tai poistamaan hyllypaikka sellaiselta niteeltä, jolla ei ole mitään hyllypaikkaa.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# This is a list of value pairs. The first value is followed immediately by colon space then the second value.<br/><br/>"
 msgstr "Tämä on listaus arvopareista. Ensimmäisen arvon jälkeen tulee heti kaksoispiste ja tyhjämerkki, sitten toinen arvo.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# _ALL_: FIC - causes all items to be updated into the Fiction location on check out.<br/>"
-msgstr "_ALL_: FIC - kaikki niteet päivitetään FIC-paikkaan palautuksen yhteydessä.<br/>"
+msgstr "_ALL_: FIC - kaikkien niteiden hyllypaikaksi päivitetään FIC lainatessa.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# _BLANK_: FIC - causes an item that has no location to be updated into the Fiction location on check out.<br/>"
-msgstr "_BLANK_: FIC - nide, jolla ei ole mitään paikkaa, päivitetään FIC-paikkaan palautuksen yhteydessä.<br/>"
+msgstr "_BLANK_: FIC - nide, jolla ei ole mitään hyllypaikkaa, päivitetään FIC-hyllypaikkaan lainatessa.<br/>"
 
 # Circulation > Holds policy > UpdateItemWhenLostFromHoldList
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemWhenLostFromHoldList# A list of values to update an item's values with when it is marked as <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> from the 'Holds to pull' page."
-msgstr "Lista arvoista, joika voidaan päivittää niteelle, kun se on merkitty kadonneeksi 'Hyllyvaraukset'-listan kautta."
+msgstr "Lista arvoista, jotka voidaan päivittää niteelle, kun sille on merkitty <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>-arvo 'Hyllyvaraukset'-raportilla."
 
 # Circulation > Holds policy > UpdateItemWhenLostFromHoldList
 #, fuzzy
