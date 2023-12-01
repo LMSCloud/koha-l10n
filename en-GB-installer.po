@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.12.000\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-11-15 08:49+0000\n"
+"PO-Revision-Date: 2023-12-04 14:41+0000\n"
 "Last-Translator: ashimema <martin.renvoize@ptfs-europe.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: en-GB\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Path: /en_GB/22.11/en-GB-installer.po\n"
 "X-Pootle-Revision: 1\n"
 "X-POOTLE-MTIME: 1694081744.889897\n"
@@ -4022,11 +4022,11 @@ msgstr "Article request - print slip"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12
 msgid "Check-ins"
-msgstr "Returns"
+msgstr "Check-ins"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12
 msgid "Item check-in (digest)"
-msgstr "Item return (digest)"
+msgstr "Item check-in (digest)"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:13
 msgid "Checkouts"
@@ -4034,15 +4034,15 @@ msgstr "Checkouts"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:13
 msgid "Item check-out (digest)"
-msgstr "Item issue (digest)"
+msgstr "Item check-out (digest)"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14
 msgid "Checkout note"
-msgstr "Issue note"
+msgstr "Checkout note"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14
 msgid "Checkout note on item set by patron"
-msgstr "Issue note on item set by user"
+msgstr "Checkout note on item set by patron"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:15
 msgid "Item due reminder"
@@ -4054,7 +4054,7 @@ msgstr "Item due reminder (digest)"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:17
 msgid "Hold slip"
-msgstr "Reservation slip"
+msgstr "Hold slip"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:18
 msgid "Issue quick slip"
@@ -4254,23 +4254,23 @@ msgstr "Receipt"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:54
 msgid "Hold has been cancelled"
-msgstr "Reservation has been cancelled"
+msgstr "Hold has been cancelled"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:55
 msgid "Hold available for pickup"
-msgstr "Reservation available for pickup"
+msgstr "Hold available for pickup"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:55
 msgid "Hold available for pickup at <<branches.branchname>>"
-msgstr "Reservation available for pickup at <<branches.branchname>>"
+msgstr "Hold available for pickup at <<branches.branchname>>"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:56
 msgid "Hold available for pickup (print notice)"
-msgstr "Reservation available for pickup (print notice)"
+msgstr "Hold available for pickup (print notice)"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:57
 msgid "Hold placed on item"
-msgstr "Reservation placed on item"
+msgstr "Hold placed on item"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58
 msgid "Canceled hold available for different patron"
@@ -4278,11 +4278,11 @@ msgstr "Canceled reserve available for different user"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59
 msgid "Waiting hold reminder"
-msgstr "Waiting reserve reminder"
+msgstr "Waiting hold reminder"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59
 msgid "You have waiting holds."
-msgstr "You have waiting reserves."
+msgstr "You have waiting holds."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60
 msgid "New curbside pickup"
@@ -4390,7 +4390,7 @@ msgstr "Recalled item awaiting pickup"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:76
 msgid "Details of patron who recalled item"
-msgstr "Details of user who recalled item"
+msgstr "Details of patron who recalled item"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:77
 msgid "Confirmation of disabling two factor authentication"
@@ -4422,7 +4422,7 @@ msgstr "Barcode: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12:mul:1
 msgid "The following items have been checked in:"
-msgstr "The following items have been returned:"
+msgstr "The following items have been checked in:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12:mul:5
 msgid "Thank you."
@@ -4430,7 +4430,7 @@ msgstr "Thank you."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:13:mul:1
 msgid "The following items have been checked out:"
-msgstr "The following items have been issued:"
+msgstr "The following items have been checked out:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:13:mul:5
 msgid "Thank you for visiting %s."
@@ -4454,11 +4454,11 @@ msgstr "%sDate: %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:17:mul:3
 msgid "%s Transfer to/Hold in %s%s"
-msgstr "%s Transfer to/Reservation in %s%s"
+msgstr "%s Transfer to/Hold in %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:17:mul:17
 msgid "%sITEM ON HOLD%s"
-msgstr "%sITEM RESERVED%s"
+msgstr "%sITEM ON HOLD%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:17:mul:25
 msgid "%sNotes:"
@@ -4466,11 +4466,11 @@ msgstr "%sNotes:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:18:mul:2
 msgid "Checked out to %s %s %s %s %s"
-msgstr "Issued to %s %s %s %s %s"
+msgstr "Checked out to %s %s %s %s %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:18:mul:7
 msgid "%sChecked out today%s"
-msgstr "%sIssued today%s"
+msgstr "%sChecked out today%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:18:mul:11
 msgid "Barcode: %s%s"
@@ -4482,7 +4482,7 @@ msgstr "Date due: %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:19:mul:7
 msgid "%sChecked out%s"
-msgstr "%sIssued%s"
+msgstr "%sChecked out%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:19:mul:16
 msgid "%sOverdues%s"
@@ -4686,11 +4686,11 @@ msgstr "      %sAccount balance as on date:%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:30:mul:1
 msgid "The patron for interlibrary loans request %s, with the following details, has requested cancellation of this ILL request:"
-msgstr "The user for interlibrary loans request %s, with the following details, has requested cancellation of this ILL request:"
+msgstr "The patron for interlibrary loans request %s, with the following details, has requested cancellation of this ILL request:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:31:mul:1
 msgid "The patron for interlibrary loans request %s, with the following details, has modified this ILL request:"
-msgstr "The user for interlibrary loans request %s, with the following details, has modified this ILL request:"
+msgstr "The patron for interlibrary loans request %s, with the following details, has modified this ILL request:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:1
 msgid "Dear Sir/Madam,"
@@ -4826,7 +4826,7 @@ msgstr "%sThis link will be valid for 5 days from this email's reception, then y
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:46:mul:1
 msgid "Dear patron,"
-msgstr "Dear user,"
+msgstr "Dear patron,"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:46:mul:3
 msgid "We want to inform you that %s %s accepted your invitation to share your list %s in our library catalog."
@@ -4834,7 +4834,7 @@ msgstr "We want to inform you that %s %s accepted your invitation to share your 
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:47:mul:3
 msgid "One of our patrons, %s %s, invites you to share a list %s in our library catalog."
-msgstr "One of our users, %s %s, invites you to share a list %s in our library catalogue."
+msgstr "One of our patrons, %s %s, invites you to share a list %s in our library catalogue."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:47:mul:5
 msgid "To access this shared list, please click on the following URL or copy-and-paste it into your browser address bar."
@@ -4842,27 +4842,23 @@ msgstr "To access this shared list, please click on the following URL or copy-an
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:47:mul:9
 msgid "In case you are not a patron in our library or do not want to accept this invitation, please ignore this mail. Note also that this invitation expires within two weeks."
-msgstr "In case you are not a user in our library or do not want to accept this invitation, please ignore this mail. Note also that this invitation expires within two weeks."
+msgstr "In case you are not a patron in our library or do not want to accept this invitation, please ignore this mail. Note also that this invitation expires within two weeks."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48:mul:2
-#, fuzzy
 msgid "Hello %s %s %s.%s"
-msgstr "Hello %s %s %s."
+msgstr "Hello %s %s %s.%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48:mul:4
-#, fuzzy
 msgid "Thank you for joining %s%s%sthe library%s%s"
-msgstr "Thank you for joining %s%s%sthe library%s"
+msgstr "Thank you for joining %s%s%sthe library%s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48:mul:6
-#, fuzzy
 msgid "You can search for all our materials in our %scatalog%s.%s"
-msgstr "You can search for all our materials in our %scatalogue%s."
+msgstr "You can search for all our materials in our %scatalogue%s.%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48:mul:8
-#, fuzzy
 msgid "Your library card number is %s%s"
-msgstr "Your library card number is %s"
+msgstr "Your library card number is %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48:mul:10
 msgid "If you have any problems or questions regarding your account, please contact the library."
@@ -4998,7 +4994,7 @@ msgstr "      %sChange given:%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:54:mul:3
 msgid "We regret to inform you, that the following item can not be provided due to it being missing. Your hold was cancelled."
-msgstr "We regret to inform you, that the following item can not be provided due to it being missing. Your reserve was cancelled."
+msgstr "We regret to inform you, that the following item can not be provided due to it being missing. Your hold was cancelled."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:54:mul:7
 msgid "Copy: %s"
@@ -5006,7 +5002,7 @@ msgstr "Copy: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:55:mul:3
 msgid "You have a hold available for pickup as of %s:"
-msgstr "You have a reserve available for pickup as of %s:"
+msgstr "You have a hold available for pickup as of %s:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:56:mul:6
 msgid "Change service requested"
@@ -5014,7 +5010,7 @@ msgstr "Change service requested"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:57:mul:1
 msgid "A hold has been placed on the following item : %s (%s) by the user %s %s (%s)."
-msgstr "A reserve has been placed on the following item : %s (%s) by the user %s %s (%s)."
+msgstr "A hold has been placed on the following item : %s (%s) by the user %s %s (%s)."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58:mul:1
 msgid "The patron picking up %s (%s) has changed to %s %s (%s)."
@@ -5044,7 +5040,7 @@ msgid ""
 msgstr ""
 "Dear %s %s,\n"
 "\n"
-"The following reserves are waiting at %s:\n"
+"The following holds are waiting at %s:\n"
 "\n"
 "%s\n"
 "    %s : waiting since %s\n"
@@ -5272,7 +5268,7 @@ msgstr "You have reached the maximum number of renewals possible."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70:mul:7
 msgid "This item is on hold for another patron."
-msgstr "This item is on reserve for another user."
+msgstr "This item is on hold for another patron."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70:mul:9
 msgid "You are currently restricted."
@@ -5304,11 +5300,11 @@ msgstr "The following item, %s, has correctly been renewed and is now due on %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:2
 msgid "Checked in items for %s %s %s %s %s"
-msgstr "Returned items for %s %s %s %s %s"
+msgstr "Checked in items for %s %s %s %s %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:7
 msgid "%sChecked in today%s"
-msgstr "%sReturned today%s"
+msgstr "%sChecked in today%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71:mul:12
 msgid "Barcode: %s %s"
@@ -5660,7 +5656,7 @@ msgstr "Catalogue"
 
 #: installer/data/mysql/en/optional/auth_val.yml:authorised_values:5:row:3
 msgid "Patrons"
-msgstr "Users"
+msgstr "Patrons"
 
 #: installer/data/mysql/en/optional/auth_val.yml:authorised_values:5:row:4
 msgid "Acquisitions"
@@ -5724,7 +5720,7 @@ msgstr "Restocking"
 
 #: installer/data/mysql/en/optional/auth_val.yml:authorised_values:5:row:21
 msgid "Returned by patron"
-msgstr "Returned by user"
+msgstr "Returned by patron"
 
 #: installer/data/mysql/en/optional/auth_val.yml:authorised_values:5:row:22
 msgid "Found in library"
@@ -5736,7 +5732,7 @@ msgstr "Item could not be located on shelves"
 
 #: installer/data/mysql/en/optional/auth_val.yml:authorised_values:5:row:24
 msgid "Item was found to be too damaged to fill hold"
-msgstr "Item was found to be too damaged to fill reserve"
+msgstr "Item was found to be too damaged to fill hold"
 
 #: installer/data/mysql/en/optional/auth_val.yml:authorised_values:5:row:26
 msgid "Item was found to be too damaged to fill article request"
@@ -6564,7 +6560,7 @@ msgstr "Owner"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:150
 msgid "Patron"
-msgstr "User"
+msgstr "Patron"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:153
 msgid "Project director"
@@ -6748,11 +6744,11 @@ msgstr "Show barcode on the summary screen items listings"
 
 #: installer/data/mysql/en/optional/patron_atributes.yml:description:1
 msgid "Useful patron attribute types:"
-msgstr "Useful user attribute types:"
+msgstr "Useful patron attribute types:"
 
 #: installer/data/mysql/en/optional/patron_atributes.yml:description:2
 msgid "* SHOW_BCODE - Show barcode on the patron summary screen items listings"
-msgstr "* SHOW_BCODE - Show barcode on the user summary screen items listings"
+msgstr "* SHOW_BCODE - Show barcode on the patron summary screen items listings"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:categories:1:row:2
 msgid "Student"
@@ -6796,15 +6792,15 @@ msgstr "Staff"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:1
 msgid "Sample patron types and categories. Types are currently hardcoded but you can manage categories after installation from the administration module."
-msgstr "Sample user types and categories. Types are currently hardcoded but you can manage categories after installation from the administration module."
+msgstr "Sample patron types and categories. Types are currently hardcoded but you can manage categories after installation from the administration module."
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:3
 msgid "Adult patron - default patron type"
-msgstr "Adult user - default user type"
+msgstr "Adult patron - default patron type"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:4
 msgid "                PT  - Patron"
-msgstr "                PT  - User"
+msgstr "                PT  - Patron"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:5
 msgid "                ST  - Student"
@@ -6816,7 +6812,7 @@ msgstr "                BH  - Homebound"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:8
 msgid "Child - patron with a guarantor"
-msgstr "Child - user with a guarantor"
+msgstr "Child - patron with a guarantor"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:9
 msgid "                K   - Kid"
@@ -6832,7 +6828,7 @@ msgstr "                YA  - Young Adult"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:13
 msgid "Organization - patron is an institution, not a person"
-msgstr "Organization - user is an institution, not a person"
+msgstr "Organization - patron is an institution, not a person"
 
 #: installer/data/mysql/en/optional/patron_categories.yml:description:14
 msgid "                ILL - Inter-library Loan"
@@ -6904,11 +6900,11 @@ msgstr "Default description"
 
 #: installer/data/mysql/en/optional/sample_creator_data.yml:creator_templates:2:row:5
 msgid "A template for home brewed patron card forms"
-msgstr "A template for home brewed user card forms"
+msgstr "A template for home brewed patron card forms"
 
 #: installer/data/mysql/en/optional/sample_creator_data.yml:description:1
 msgid "Sample label and patron card data"
-msgstr "Sample label and user card data"
+msgstr "Sample label and patron card data"
 
 #: installer/data/mysql/en/optional/sample_creator_data.yml:printers_profile:3:row:1
 msgid "Library Laser"
@@ -7016,7 +7012,7 @@ msgstr "Sample news items"
 
 #: installer/data/mysql/en/optional/sample_patrons.yml:description:1
 msgid "Sample patrons"
-msgstr "Sample users"
+msgstr "Sample patrons"
 
 #: installer/data/mysql/en/optional/sample_quotes.yml:description:1
 msgid "Sample quotes"
