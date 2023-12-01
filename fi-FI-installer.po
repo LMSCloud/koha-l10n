@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2023-11-29 10:29+0000\n"
+"PO-Revision-Date: 2023-12-04 14:44+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-installer.po\n"
 "X-POOTLE-MTIME: 1695118958.904701\n"
@@ -460,13 +460,12 @@ msgid "Searches regular"
 msgstr "Epäsäännöllinen"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:84
-#, fuzzy
 msgid "No license"
-msgstr "Lisenssinhaltija"
+msgstr "Ei lisenssiä"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:85
 msgid "Limit exceeded"
-msgstr ""
+msgstr "Raja ylittyi"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:100
 msgid "Admin"
@@ -4029,9 +4028,8 @@ msgid "Default classification sources and filing rules for Koha."
 msgstr "Kohan oletusluokitusjärjestelmä ja -luokitusopas."
 
 #: installer/data/mysql/en/mandatory/illbatch_statuses.yml:description:1
-#, fuzzy
 msgid "ILL batch statuses used in Koha"
-msgstr "Kohan maksutyypit"
+msgstr "Kaukolainaerien tilat Kohassa"
 
 #: installer/data/mysql/en/mandatory/patron_restriction_types.yml:description:1
 msgid "Default Koha system patron restriction types"
@@ -4349,9 +4347,8 @@ msgid "Account expiration"
 msgstr "Käyttäjätilin vanhentuminen"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52
-#, fuzzy
 msgid "Account renewal"
-msgstr "Tilin uusimismaksu"
+msgstr "Tilin uusinta"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53
 msgid "OPAC self-registration verification email"
@@ -4450,7 +4447,6 @@ msgid "Hold available for pickup at <<branches.branchname>>"
 msgstr "Varaus noudettavissa kirjastosta <<branches.branchname>>"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67
-#, fuzzy
 msgid "Hold(s) available for pickup"
 msgstr "Varaus noudettavissa"
 
@@ -4622,11 +4618,11 @@ msgstr "Kuljetuskuitti"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
 msgid "Hold is confirmed"
-msgstr ""
+msgstr "Varaus on vahvistettu"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97
 msgid "Your hold on [% hold.biblio.title %] is confirmed"
-msgstr ""
+msgstr "Varauksesi teokseen [% hold.biblio.title %] on vahvistettu"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:1
 msgid "Dear %s %s (%s),"
@@ -5024,20 +5020,21 @@ msgstr "Virkailija"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:4
 msgid "Your library account has been renewed. The new expiry date is: %s."
-msgstr ""
+msgstr "Kirjastokorttisi voimassaoloaikaa on jatkettu. Uusi vanhentumispäivä on: %s."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:5
-#, fuzzy
 msgid ""
 "%s\n"
 "An enrollment fee of %s has been applied.\n"
 "%s"
-msgstr "Maksusuoritus %s on laitettu tilillesi."
+msgstr ""
+"%s\n"
+"Ilmoittautumismaksu %s on lisätty.\n"
+"%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:8
-#, fuzzy
 msgid "Your library,"
-msgstr "Kirjastosi"
+msgstr "Kirjastosi,"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53:mul:1
 msgid "Hello!"
@@ -5108,14 +5105,12 @@ msgid "In case you are not a patron in our library or do not want to accept this
 msgstr "Jos et ole kirjastomme asiakas tai et halua hyväksyä tätä kutsua, voit jättää tämän viestin huomioimatta. Kutsu vanhenee kahden viikon sisällä."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:2
-#, fuzzy
 msgid "Hello %s %s %s.%s"
-msgstr "Hei %s %s %s."
+msgstr "Hei %s %s %s. %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:4
-#, fuzzy
 msgid "Thank you for joining %s%s%sthe library%s%s"
-msgstr "Tervetuloa asiakkaaksi kirjastoon %s%s%s%s"
+msgstr "Tervetuloa asiakkaaksi %s%skirjasto%s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59:mul:6
 #, fuzzy
