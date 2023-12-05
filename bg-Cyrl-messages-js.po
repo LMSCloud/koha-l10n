@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-23 03:06+0000\n"
-"PO-Revision-Date: 2023-11-28 08:32+0000\n"
+"PO-Revision-Date: 2023-12-06 03:02+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /bg/22.11/bg-Cyrl-messages-js.po\n"
 "X-POOTLE-MTIME: 1698144447.843008\n"
@@ -968,7 +968,7 @@ msgstr "%s търсене"
 
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:52
 msgid "This field is mandatory and must have at least one mapping"
-msgstr "Това поле е задължително и трябва да има поне едно съвпадение."
+msgstr "Това поле е задължително и трябва да има поне едно съвпадение"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:6
 msgid "This pickup location is not allowed according to circulation rules"
@@ -1600,7 +1600,7 @@ msgstr "години"
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
 msgid "Are you sure you want to remove this recall?"
-msgstr "Сигурни ли сте че искате да премахнете презаписване?"
+msgstr "Моля за потвърждение на действието!"
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:22
 msgid "The recall may have already been cancelled. Please refresh the page."
@@ -1688,7 +1688,7 @@ msgstr "Моля, въведете %s или повече символа"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:20
 msgid "Loading more results…"
-msgstr "Зареждане на повече резултати..."
+msgstr "Зареждане на повече резултати…"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:22
 #, javascript-format
@@ -1698,7 +1698,7 @@ msgstr "Можете да изберете само %s екземпляр(и)"
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:24
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:49
 msgid "No results found"
-msgstr "Не са открити резултати."
+msgstr "Не са открити резултати"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:25
 msgid "Searching…"
@@ -1753,7 +1753,7 @@ msgstr "Предоставената честота и продължителн�
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:51
 msgid "If you wish to claim late or missing issues you must link this subscription to a vendor. Click OK to ignore or Cancel to return and enter a vendor"
-msgstr "Ако искате да заявите закъснели или липсващи абонаменти, трябва да свържете този абонамент с доставчик. Щракнете върху OK, за да игнорирате или Отказ, за да се върнете и да въведете доставчик."
+msgstr "Ако искате да заявите закъснели или липсващи абонаменти, трябва да свържете този абонамент с доставчик. Щракнете върху OK, за да игнорирате или Отказ, за да се върнете и да въведете доставчик"
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:58
 msgid "The vendor does not exist"
@@ -1878,7 +1878,7 @@ msgstr "Код на грешка 0 не се използва"
 
 #: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:109
 msgid "File already exists"
-msgstr "Файла вече съществува."
+msgstr "Файла вече съществува"
 
 #: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:109
 msgid "Root directory for uploads not defined"
@@ -3124,9 +3124,8 @@ msgid "counter registry"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:344
-#, fuzzy
 msgid "for more information."
-msgstr "Информация за ресурса"
+msgstr "за повече информация."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:500
 msgid "This provider does not currently support any counter 5 reports via SUSHI."
@@ -3423,9 +3422,8 @@ msgid "Delete report"
 msgstr "Изтриване на споразумението"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:100
-#, fuzzy
 msgid "Report deleted successfully"
-msgstr "Concern #%s е актуализирана успешно."
+msgstr "Докладът е изтрит успешно"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:112
 msgid "No report was selected - could not delete"
@@ -3617,9 +3615,8 @@ msgid "Unknown"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:69
-#, fuzzy
 msgid "There are no attributes defined for this processing."
-msgstr "Няма определени заглавия"
+msgstr "Няма дефинирани атрибути за тази обработка."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:5
 #, fuzzy, javascript-format
