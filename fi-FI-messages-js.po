@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-23 03:06+0000\n"
-"PO-Revision-Date: 2023-11-29 10:29+0000\n"
-"Last-Translator: paivito <paivi.toikkanen@centria.fi>\n"
+"PO-Revision-Date: 2023-12-06 03:02+0000\n"
+"Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-messages-js.po\n"
 "X-POOTLE-MTIME: 1699019957.327455\n"
@@ -3410,14 +3410,12 @@ msgid "Remove"
 msgstr "Poista"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Main.vue:87
-#, fuzzy
 msgid "The preservation module is disabled, turn on <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=PreservationModule\">PreservationModule</a> to use it"
-msgstr "Elektronisten aineistojen hallintamoduuli ei ole käytössä, ota käyttöön <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=ERMModule\">ERMModule</a>-järjestelmäasetus käyttääksesi sitä"
+msgstr "Käsittelyerien moduuli on pois päältä, laita se päälle <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=PreservationModule\">PreservationModule</a> -järjestlmäasetuksessa käyttääksesi sitä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:5
-#, fuzzy
 msgid "Edit preservation settings"
-msgstr "Muokkaa toimintoa %s"
+msgstr "Muokkaa käsittelyerien asetuksia"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:13
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:79
@@ -3432,62 +3430,56 @@ msgstr "Odotuslistalle lisättävän niteen tila"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:51
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:97
 msgid "Default status for item added to train"
-msgstr ""
+msgstr "Oletustila käsittelyerään lisätyille niteille"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/Settings.vue:169
 msgid "Settings updated"
 msgstr "Asetukset päivitetty"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:3
-#, fuzzy
 msgid "Processings"
-msgstr "Käsitellään..."
+msgstr "Käsittelypohjat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:23
-#, fuzzy
 msgid "Remove this processing"
-msgstr "Poista tämä dokumentti"
+msgstr "Poista tämä käsittelypohja"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:32
 msgid "Edit this processing"
-msgstr ""
+msgstr "Muokkaa käsittelypohjaa"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:42
-#, fuzzy
 msgid "Add new processing"
-msgstr "Lisää uusi dokumentti"
+msgstr "Lisää uusi käsittelypohja"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:77
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:141
-#, fuzzy
 msgid "Are you sure you want to remove this processing?"
-msgstr "Haluatko varmasti poistaa tämän paketin?"
+msgstr "Haluatko varmasti poistaa tämän käsittelypohjan?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:88
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:154
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Processing %s deleted"
-msgstr "Lisenssi %s poistettu"
+msgstr "Käsittelypohja %s poistettu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessings.vue:105
 msgid "This processing cannot be deleted, it is already in used."
-msgstr ""
+msgstr "Käsittelypohjaa ei voi poistaa, koska se on käytössä."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit processing #%s"
-msgstr "Muokkaa palveluntarjoajaa %s"
+msgstr "Muokkaa käsittelypohjaa #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:7
-#, fuzzy
 msgid "New processing"
-msgstr "Käsitellään..."
+msgstr "Uusi käsittelypohja"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:14
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:22
-#, fuzzy
 msgid "Processing name"
-msgstr "Käsitellään..."
+msgstr "Käsittelypohjan nimi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:27
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:30
@@ -3496,23 +3488,21 @@ msgstr "Viestipohja kuitille"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:41
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:45
-#, fuzzy
 msgid "Attributes"
-msgstr "Tekijät"
+msgstr "Ominaisuudet"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:49
 msgid "Be careful removing attribute to this processing, the items using it will be impacted as well!"
-msgstr ""
+msgstr "Käsittelypohjan ominaisuuksia ei kannata poistaa, koska muutos vaikuttaa niteisiin, joihin käsittelypohjaa on käytetty."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:60
 #, javascript-format
 msgid "Attribute %s"
-msgstr ""
+msgstr "Ominaisuus %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:65
-#, fuzzy
 msgid "Remove this attribute"
-msgstr "Poista tämä käyttäjä"
+msgstr "Poista tämä ominaisuus"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:118
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:153
@@ -3543,19 +3533,17 @@ msgid "Database column"
 msgstr "Tietokannan sarake"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:293
-#, fuzzy
 msgid "Processing updated"
-msgstr "Lisenssi päivitetty"
+msgstr "Käsittelypohja päivitetty"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:301
-#, fuzzy
 msgid "Processing created"
-msgstr "Lisenssi luotu"
+msgstr "Käsittelypohja luotu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Processing #%s"
-msgstr "Käsitellään..."
+msgstr "Käsittelypohja #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:38
 msgid "Edit this template"
@@ -3566,19 +3554,17 @@ msgid "Unknown"
 msgstr "Tuntematon"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsShow.vue:69
-#, fuzzy
 msgid "There are no attributes defined for this processing."
-msgstr "Nimekkeitä ei ole määritelty"
+msgstr "Käsittelypohjalla ei ole määritettyjä ominaisuuksia."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit train #%s"
-msgstr "Muokkaa nimekettä #%s"
+msgstr "Muokkaa käsittelyerää #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:7
-#, fuzzy
 msgid "New train"
-msgstr "Uusi nimeke"
+msgstr "Uusi käsittelyerä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:14
 msgid "name"
@@ -3587,22 +3573,20 @@ msgstr "nimi"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:41
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:139
 msgid "Status for item added to this train"
-msgstr ""
+msgstr "Käsittelyerään lisätyn niteen tila"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:57
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:147
 msgid "Default processing"
-msgstr ""
+msgstr "Oletuskäsittelypohja"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:179
-#, fuzzy
 msgid "Train updated"
-msgstr "Nimeke päivitetty"
+msgstr "Käsittelyerä päivitetty"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:187
-#, fuzzy
 msgid "Train created"
-msgstr "Nimeke luotu"
+msgstr "Käsittelyerä luotu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:5
 #, javascript-format
@@ -3610,9 +3594,9 @@ msgid "Edit item #%s"
 msgstr "Muokkaa nidettä #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:7
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Add new item to %s"
-msgstr "Lisää uusi lisenssi"
+msgstr "Lisää nide käsittelyerään %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:14
 msgid "Itemnumber"
@@ -3620,9 +3604,8 @@ msgstr "Nidenumero"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:20
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:16
-#, fuzzy
 msgid "Processing"
-msgstr "Käsitellään..."
+msgstr "Käsittelypohja"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:113
 msgid "barcode"
@@ -3630,21 +3613,20 @@ msgstr "viivakoodi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:233
 msgid "Cannot find item with this barcode. It must be in the waiting list."
-msgstr ""
+msgstr "Viivakoodilla ei löytynyt nidettä. Nide pitää lisätä ensin odotuslistalle."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:356
 msgid "Item updated"
 msgstr "Nide päivitetty"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:367
-#, fuzzy
 msgid "Item added to train"
-msgstr " teos(ta) lisätty koriisi"
+msgstr "Nide lisätty käsittelyerään"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:4
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Add new items to %s"
-msgstr "Lisää uusi lisenssi"
+msgstr "Lisää uusia niteitä käsittelyerään %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:10
 msgid "Itemnumbers"
@@ -3653,17 +3635,16 @@ msgstr "Nidenumerot"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:61
 #, javascript-format
 msgid "Cannot be edited now, the value will be retrieved from %s"
-msgstr ""
+msgstr "Ei voida muokata, koska arvo haetaan ominaisuudesta %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:264
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "%s items have been added to train %s."
-msgstr "Tämä nide on lisätty koriisi"
+msgstr "%s nidettä lisätty käsittelyerään %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:273
-#, fuzzy
 msgid "No items have been added to the train."
-msgstr "Teos on lisätty koriisi"
+msgstr "Niteitä ei lisätty käsittelyerään."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:12
 msgid "Filter by"
@@ -3682,9 +3663,8 @@ msgid "Received"
 msgstr "Vastaanotettu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:56
-#, fuzzy
 msgid "There are no trains defined"
-msgstr "Nimekkeitä ei ole määritelty"
+msgstr "Käsittelyeriä ei ole määritetty"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:113
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:67
@@ -3693,19 +3673,18 @@ msgstr "Lisää niteitä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:156
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:394
-#, fuzzy
 msgid "Are you sure you want to remove this train?"
-msgstr "Haluatko varmasti poistaa tämän nimekkeen?"
+msgstr "Haluatko varmasti poistaa tämän käsittelyerän?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:167
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:405
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Train %s deleted"
-msgstr "Lisenssi %s poistettu"
+msgstr "Käsittelyerä %s poistettu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:179
 msgid "Cannot add items to a closed train"
-msgstr ""
+msgstr "Niteitä ei voi lisätä suljettuun käsittelyerään"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:247
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:119
@@ -3724,13 +3703,12 @@ msgstr "Vastaanotettu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:4
 msgid "Copy item to the following train"
-msgstr ""
+msgstr "Kopioi nide käsittelyerään"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:11
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:45
-#, fuzzy
 msgid "Select a train"
-msgstr "Valitse tiedosto"
+msgstr "Valitse käsittelyerä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:91
 msgid "Send"
@@ -3741,9 +3719,9 @@ msgid "Receive"
 msgstr "Vastaanota"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:101
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Train #%s"
-msgstr "Nimeke #%s"
+msgstr "Käsittelyerä #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:155
 msgid "Items"
@@ -3786,44 +3764,40 @@ msgstr "Nide kopioitu."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:513
 msgid "Item cannot be copied to a train, it is already in a non-received train."
-msgstr ""
+msgstr "Nidettä ei voida kopioida käsittelyerään, koska se on vastaanottamattomassa käsittelyerässä."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:678
 msgid "Print slip"
 msgstr "Tulosta kuitti"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:4
-#, fuzzy
 msgid "Add items to waiting list"
-msgstr "Lisää nimeke kokoelmaan"
+msgstr "Lisää niteitä odotuslistalle"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:11
 msgid "Barcode list"
 msgstr "Viivakoodilista"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:38
-#, fuzzy
 msgid "Add items to a train"
-msgstr "Lisää nimeke kokoelmaan"
+msgstr "Lisää niteitä käsittelyerään"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:88
 msgid "You need to configure this module first."
 msgstr "Moduuli pitää määritellä ensin."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:96
-#, fuzzy
 msgid "Add to waiting list"
-msgstr "Lisää koriin"
+msgstr "Lisää odotuslistalle"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:104
 #, javascript-format
 msgid "Add last %s items to a train"
-msgstr ""
+msgstr "Lisää viimeiset %s nidettä käsittelylistalle"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:118
-#, fuzzy
 msgid "There are no items in the waiting list"
-msgstr "Nimekkeitä ei ole määritelty"
+msgstr "Odotuslistalla ei ole niteitä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:217
 #, javascript-format
@@ -3835,13 +3809,12 @@ msgid "No items added"
 msgstr "Niteitä ei lisätty"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:248
-#, fuzzy
 msgid "Are you sure you want to remove this item from the waiting list?"
-msgstr "Haluatko varmasti poistaa tämän nimekkeen?"
+msgstr "Haluatko varmasti poistaa tämän niteen odotuslistalta?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:259
 msgid "Item removed from the waiting list"
-msgstr ""
+msgstr "Nide poistettu odotuslistalta"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:283
 msgid "Author"
@@ -3956,9 +3929,8 @@ msgid "View report"
 msgstr "Katso raporttia"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:28
-#, fuzzy
 msgid "Preservation"
-msgstr "Kuvaus"
+msgstr "Käsittelyerät"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:34
 msgid "Home"
@@ -3966,60 +3938,52 @@ msgstr "Etusivu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:39
 msgid "Trains"
-msgstr ""
+msgstr "Käsittelyerät"
 
 # The "Python brace placeholders" error with this translation appears to be false positive
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:50
-#, fuzzy
 msgid "Show train"
-msgstr "Näytä 1 palautusilmoitus"
+msgstr "Näytä käsittelyerä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:66
-#, fuzzy
 msgid "Add item to train"
-msgstr "Lisää nimeke kokoelmaan"
+msgstr "Lisää nide käsittelyerään"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:72
-#, fuzzy
 msgid "Add items to train"
-msgstr "Lisää nimeke kokoelmaan"
+msgstr "Lisää niteitä käsittelyerään"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:78
 msgid "Edit item in train"
-msgstr ""
+msgstr "Muokkaa käsittelyerän nidettä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:88
-#, fuzzy
 msgid "Add train"
-msgstr "Lisää koriin"
+msgstr "Lisää käsittelyerä"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:94
-#, fuzzy
 msgid "Edit train"
-msgstr "Muokkaa toimintoa %s"
+msgstr "Muokkaa käsittelyerää"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:100
 msgid "Waiting list"
-msgstr ""
+msgstr "Odotuslista"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:113
 msgid "Settings"
 msgstr "Asetukset"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:129
-#, fuzzy
 msgid "Show processing"
-msgstr "Käsitellään..."
+msgstr "Näytä käsittelypohja"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:135
-#, fuzzy
 msgid "Add processing"
-msgstr "Käsitellään..."
+msgstr "Lisää käsittelypohja"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/preservation.js:141
-#, fuzzy
 msgid "Edit processing"
-msgstr "Muokkaa palveluntarjoajaa %s"
+msgstr "Muokkaa käsittelypohjaa"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:14
 msgid "supersedes"
