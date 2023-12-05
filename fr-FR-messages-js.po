@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-23 03:06+0000\n"
-"PO-Revision-Date: 2023-11-24 03:02+0000\n"
-"Last-Translator: \"ManuB.\" <e.betemps@ville-caluire.fr>\n"
+"PO-Revision-Date: 2023-12-06 03:02+0000\n"
+"Last-Translator: grenier <aurelie.grenier@orleans-metropole.fr>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fr/22.11/fr-FR-messages-js.po\n"
 "X-POOTLE-MTIME: 1692692685.749834\n"
@@ -242,7 +242,7 @@ msgstr "%s déjà dans votre panier"
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:27
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:47
 msgid "No item was selected"
-msgstr "Aucun document sélectionné"
+msgstr "Aucun exemplaire n'a été sélectionné"
 
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:221
 msgid "No item was added to your cart (already in your cart)!"
@@ -1263,12 +1263,12 @@ msgstr "Modifier les préférences de notifications par défaut pour cette caté
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:38
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:55
 msgid "Your concern was sucessfully submitted."
-msgstr ""
+msgstr "Votre demande a été soumise avec succès."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:46
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:60
 msgid "There was an error when submitting your concern, please contact a librarian."
-msgstr ""
+msgstr "Il y a eu une erreur au moment de soumettre votre demande, merci de contacter un membre du personnel."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:23
 msgid "Loading updates . . ."
@@ -2208,7 +2208,7 @@ msgstr "le"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:27
 msgid "Show mine only"
-msgstr ""
+msgstr "Afficher uniquement le mien"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:53
 msgid "There are no agreements defined"
@@ -2467,7 +2467,7 @@ msgstr "Enlever le pack des avoirs"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:40
 msgid "External ID"
-msgstr ""
+msgstr "Identifiant externe"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:59
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:43
@@ -2573,13 +2573,13 @@ msgstr "Identifiant"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:224
 #, javascript-format
 msgid "ISBN (Print): %s"
-msgstr ""
+msgstr "ISBN (Impression) : %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:280
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:231
 #, javascript-format
 msgid "ISBN (Online): %s"
-msgstr ""
+msgstr "ISBN (En ligne) : %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:5
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:5
@@ -3934,34 +3934,28 @@ msgid "E-resource management"
 msgstr "Gestion des ressources électroniques"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:69
-#, fuzzy
 msgid "Show agreement"
-msgstr "Nouveau contrat"
+msgstr "Afficher le contrat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:75
-#, fuzzy
 msgid "Add agreement"
-msgstr "Ajouter un nouveau contrat"
+msgstr "Ajouter un contrat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:81
-#, fuzzy
 msgid "Edit agreement"
-msgstr "Modifier le contrat #%s"
+msgstr "Modifier le contrat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:100
-#, fuzzy
 msgid "Show license"
-msgstr "Nouvelle licence"
+msgstr "Afficher la licence"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:106
-#, fuzzy
 msgid "Add license"
-msgstr "Ajouter une nouvelle licence"
+msgstr "Ajouter une licence"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:112
-#, fuzzy
 msgid "Edit license"
-msgstr "Modifier la licence %s"
+msgstr "Modifier la licence"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:118
 msgid "eHoldings"
@@ -3973,19 +3967,16 @@ msgstr "Local"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:147
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
-#, fuzzy
 msgid "Show package"
-msgstr "Nouveau pack"
+msgstr "Afficher le pack"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:155
-#, fuzzy
 msgid "Add package"
 msgstr "Nouveau pack"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:163
-#, fuzzy
 msgid "Edit package"
-msgstr "Modifier le pack #%s"
+msgstr "Modifier le pack"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:169
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:255
@@ -3994,25 +3985,21 @@ msgstr "Titres"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:186
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:272
-#, fuzzy
 msgid "Show title"
-msgstr "Nouveau titre"
+msgstr "Afficher le titre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:194
-#, fuzzy
 msgid "Add title"
-msgstr "Ajouter un exemplaire"
+msgstr "Ajouter un titre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:202
-#, fuzzy
 msgid "Edit title"
-msgstr "Modifier le titre #%s"
+msgstr "Modifier le titre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:218
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:280
-#, fuzzy
 msgid "Resource"
-msgstr "Ressource #%s"
+msgstr "Ressource"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:226
 msgid "EBSCO"
