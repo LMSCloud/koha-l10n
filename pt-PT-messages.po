@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.11.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-10 21:07+0100\n"
-"PO-Revision-Date: 2023-11-29 03:01+0000\n"
+"PO-Revision-Date: 2023-12-06 03:02+0000\n"
 "Last-Translator: vfernandes <vfernandes@keep.pt>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: pt-PT\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /pt/22.11/pt-PT-messages.po\n"
 "X-POOTLE-MTIME: 1695031430.295131\n"
@@ -2111,7 +2111,7 @@ msgstr "Número de controlo de prateleira"
 #: Koha/Database/Columns.pm:213
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Damaged status"
-msgstr "Estado danificado"
+msgstr "Estado de danificado"
 
 #: Koha/Database/Columns.pm:214
 msgid "Damaged on"
@@ -5146,7 +5146,7 @@ msgstr[1] "{count} limitações da biblioteca"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:10
 msgid "Curbside pickup"
-msgstr ""
+msgstr "Levantamento de rua"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:143
 msgid "Friday"
@@ -5404,7 +5404,7 @@ msgstr "Localização"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:11
 msgid "Record overlay rules"
-msgstr ""
+msgstr "Regras de sobreposição de registos"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:85
 msgctxt "noun"
@@ -5505,7 +5505,7 @@ msgstr "Modificar conjunto OAI '{oai_set}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/overdrive.tt:9
 msgid "OverDrive library authnames"
-msgstr ""
+msgstr "Nomes de autenticação da biblioteca OverDrive"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:48
@@ -5717,54 +5717,53 @@ msgstr "Resultados de pesquisa por '{search_keyword}'"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:217
 #, perl-brace-format
 msgid "Searching by target starting with '{search_keyword}'"
-msgstr ""
+msgstr "A pesquisar o servidor começado por '{search_keyword}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/two_factor_auth.tt:8
 msgid "Two-factor authentication"
-msgstr ""
+msgstr "Autenticação dois fatores"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:17
-#, fuzzy
 msgid "Two-factor authentication setup"
-msgstr "Método de autenticação"
+msgstr "Configuração da autenticação dois fatores"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:20
 msgid "This account has been locked."
-msgstr ""
+msgstr "Esta conta está bloqueada."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/auth.tt:16
 msgid "Invalid username or password"
-msgstr ""
+msgstr "Nome de utilizador ou palavra-passe inválido"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/auth.tt:13
 msgid "IP address change"
-msgstr ""
+msgstr "Mudança de endereço IP"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/auth.tt:10
 msgid "Session timed out"
-msgstr ""
+msgstr "Sessão expirada"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/auth.tt:7
 msgid "Access denied"
-msgstr ""
+msgstr "Acesso negado"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:34
 msgid "Error authenticating with external provider"
-msgstr ""
+msgstr "Erro na autenticação com o provedor externo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:37
 msgid "Log in to Koha"
-msgstr ""
+msgstr "Entrar no Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/auth_finder.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist-auth.tt:9
 msgid "Cataloging authority plugin"
-msgstr ""
+msgstr "Plugin de autoridades"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities-home.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:12
@@ -5773,45 +5772,44 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_008_authorities.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_leader_authorities.tt:7
-#, fuzzy
 msgid "Authorities"
-msgstr "Autor"
+msgstr "Autoridades"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:8
 #, perl-brace-format
 msgid "Modify authority #{authority_id} ({authtypetext})"
-msgstr ""
+msgstr "Modificar autoridade #{authority_id} ({authtypetext})"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:10
 #, perl-brace-format
 msgid "Adding authority ({authtypetext})"
-msgstr ""
+msgstr "Adicionar autoridade ({authtypetext})"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/blinddetail-biblio-search.tt:6
 msgid "Authority details"
-msgstr ""
+msgstr "Detalhes da autoridade"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/detail.tt:10
 msgid "Unknown authority record"
-msgstr ""
+msgstr "Registo de autoridade desconhecido"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/detail.tt:12
 #, perl-brace-format
 msgid "Details for authority #{authid} ({authtypetext})"
-msgstr ""
+msgstr "Detalhes da autoridade #{authid} ({authtypetext})"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/merge.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/merge.tt:8
 msgid "Merging records"
-msgstr ""
+msgstr "A unificar registos"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist.tt:9
 msgid "Authority search results"
-msgstr ""
+msgstr "Resultados de pesquisa de autoridade"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:32
 msgid "Your cart"
-msgstr ""
+msgstr "O seu carrinho"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:14
@@ -5829,48 +5827,46 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookcount.tt:10
 msgid "Catalog"
-msgstr ""
+msgstr "Catálogo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/downloadcart.tt:5
 msgid "Download cart"
-msgstr ""
+msgstr "Descarregar carrinho"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/sendbasketform.tt:5
 msgid "Sending your cart"
-msgstr ""
+msgstr "A enviar o carrinho"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/batch/print-notices.tt:5
 #, perl-brace-format
 msgid "Print notices for {today}"
-msgstr ""
+msgstr "Imprimir avisos da data {today}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:10
-#, fuzzy
 msgid "Unknown record"
-msgstr "Causa desconhecida"
+msgstr "Registo desconhecido"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:12
 #, perl-brace-format
 msgid "ISBD details for {title}"
-msgstr ""
+msgstr "Detalhes ISBD de {title}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:12
 #, perl-brace-format
 msgid "MARC details for {title}"
-msgstr ""
+msgstr "Detalhes MARC de {title}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:9
-#, fuzzy
 msgid "Advanced search"
-msgstr "orquestra de dança"
+msgstr "Pesquisa avançada"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:43
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Details for {title}"
-msgstr "Título uniforme"
+msgstr "Detalhes de {title}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:926
 #, perl-brace-format
@@ -5882,46 +5878,45 @@ msgstr[1] "Existem {count} sugestões arquivadas."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:7
 msgid "Images"
-msgstr ""
+msgstr "Imagens"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:12
 #, perl-brace-format
 msgid "Checkout history for {title}"
-msgstr ""
+msgstr "Histórico de empréstimo de {title}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:146
-#, fuzzy
 msgid "Item search"
-msgstr "Número de exemplar"
+msgstr "Pesquisa de exemplar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:12
 #, perl-brace-format
 msgid "Labeled MARC details for {title}"
-msgstr ""
+msgstr "Detalhes etiquetados MARC de {title}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:13
 #, perl-brace-format
 msgid "Item details for {title}"
-msgstr ""
+msgstr "Detalhes dos exemplares de {title}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:19
 #, perl-brace-format
 msgid "Results of search for {query_desc} with limit(s): '{limit_desc}'"
-msgstr ""
+msgstr "Resultados de pesquisa para {query_desc} com limite(s): '{limit_desc}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:21
 #, perl-brace-format
 msgid "Results of search for {query_desc}"
-msgstr ""
+msgstr "Resultados de pesquisa para {query_desc}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:25
 #, perl-brace-format
 msgid "Results of search for {limit_desc}"
-msgstr ""
+msgstr "Resultados da pesquisa por {limit_desc}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:27
 msgid "Results of search"
-msgstr ""
+msgstr "Resultados da pesquisa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:31
 msgid "You did not specify any search criteria"
@@ -6012,7 +6007,6 @@ msgid "No results found"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:11
-#, fuzzy
 msgid "Items"
 msgstr "Exemplares"
 
@@ -6221,23 +6215,23 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_120.tt:6
 msgid "UNIMARC field 120 builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 120"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121a.tt:6
 msgid "UNIMARC field 121a builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 121a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_121b.tt:6
 msgid "UNIMARC field 121b builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 121b"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_122.tt:6
 msgid "UNIMARC field 122 builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 122"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123a.tt:6
 msgid "UNIMARC field 123a builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 123a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123defg.tt:6
 msgid "UNIMARC field 123d/e/f/g builder"
@@ -6245,203 +6239,203 @@ msgstr "Construtor do campo 123d/e/f/g UNIMARC"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_123i_j.tt:6
 msgid "UNIMARC field 123i/j builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 123i/j"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124a.tt:6
 msgid "UNIMARC field 124a builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 124a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124b.tt:6
 msgid "UNIMARC field 124b builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 124b"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124c.tt:6
 msgid "UNIMARC field 124c builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 124c"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124d.tt:6
 msgid "UNIMARC field 124d builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 124d"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124e.tt:6
 msgid "UNIMARC field 124e builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 124e"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124f.tt:6
 msgid "UNIMARC field 124f builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 124f"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_124g.tt:6
 msgid "UNIMARC field 124g builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 124g"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125a.tt:6
 msgid "UNIMARC field 125a builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 125a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_125b.tt:6
 msgid "UNIMARC field 125b builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 125b"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_126a.tt:6
 msgid "UNIMARC field 126a builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 126a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_126b.tt:6
 msgid "UNIMARC field 126b builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 126b"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_127.tt:6
 msgid "UNIMARC field 127 builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 127"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128a.tt:6
 msgid "UNIMARC field 128a builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 128a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128b.tt:6
 msgid "UNIMARC field 128b builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 128b"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_128c.tt:6
 msgid "UNIMARC field 128c builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 128c"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_130.tt:6
 msgid "UNIMARC field 130 builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 130"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_135a.tt:6
 msgid "UNIMARC field 135a builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 135a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_140.tt:6
 msgid "UNIMARC field 140 builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 140"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_141.tt:6
 msgid "UNIMARC field 141 builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 141"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146a.tt:5
 msgid "Framework plugin unimarc_field_146a"
-msgstr ""
+msgstr "Plugin de modelo unimarc_field_146a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146b.tt:5
 msgid "Framework plugin unimarc_field_146b"
-msgstr ""
+msgstr "Plugin de modelo unimarc_field_146b"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146c.tt:5
 msgid "Framework plugin unimarc_field_146c"
-msgstr ""
+msgstr "Plugin de modelo unimarc_field_146c"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146d.tt:5
 msgid "Framework plugin unimarc_field_146d"
-msgstr ""
+msgstr "Plugin de modelo unimarc_field_146d"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146e.tt:5
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146f.tt:5
 msgid "Framework plugin unimarc_field_146e"
-msgstr ""
+msgstr "Plugin de modelo unimarc_field_146e"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146h.tt:5
 msgid "Framework plugin unimarc_field_146h"
-msgstr ""
+msgstr "Plugin de modelo unimarc_field_146h"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_146i.tt:5
 msgid "Framework plugin unimarc_field_146i"
-msgstr ""
+msgstr "Plugin de modelo unimarc_field_146i"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181-2.tt:5
 msgid "UNIMARC field 181-2 builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 181-2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181a.tt:5
 msgid "UNIMARC field 181a builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 181a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181b.tt:5
 msgid "UNIMARC field 181b builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 181b"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_181c.tt:5
 msgid "UNIMARC field 181c builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 181c"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182-2.tt:5
 msgid "UNIMARC field 182-2 builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 182-2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182a.tt:5
 msgid "UNIMARC field 182a builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 182a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_182c.tt:5
 msgid "UNIMARC field 182c builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 182c"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183-2.tt:5
 msgid "UNIMARC field 183-2 builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 183-2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_183a.tt:5
 msgid "UNIMARC field 183a builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 183a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_210c_bis.tt:6
 msgid "UNIMARC field 210c builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 210c"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_225a.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_225a_bis.tt:6
 msgid "UNIMARC field 225a builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 225a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283-2.tt:5
 msgid "UNIMARC field 283-2 builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 283-2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_283a.tt:5
 msgid "UNIMARC field 283a builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 283a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325h.tt:6
 msgid "UNIMARC field 325h builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 325h"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_325j.tt:5
 msgid "UNIMARC field 325j builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 325j"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_4XX.tt:7
 msgid "UNIMARC field 4XX builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 4XX"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_686a.tt:5
 msgid "UNIMARC field 686a builder"
-msgstr ""
+msgstr "Construtor do campo UNIMARC 686a"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_leader_authorities.tt:5
 msgid "UNIMARC leader builder"
-msgstr ""
+msgstr "Construtor da etiqueta UNIMARC"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:9
 msgid "Z39.50 authority search points"
-msgstr ""
+msgstr "Pontos de pesquisa Z39.50 de autoridades"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:11
 msgid "Z39.50 authority search results"
-msgstr ""
+msgstr "Resultados de pesquisa Z39.50 de autoridades"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:9
 msgid "Z39.50/SRU search results"
-msgstr ""
+msgstr "Resultados de pesquisa Z39.50/SRU"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:12
 msgid "Article requests"
-msgstr ""
+msgstr "Pedidos de artigo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:9
@@ -6475,14 +6469,13 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_to_pull.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:29
-#, fuzzy
 msgid "Circulation"
-msgstr "Notas de empréstimo"
+msgstr "Circulação"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookcount.tt:9
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Circulation statistics for {title}"
-msgstr "Notas de empréstimo"
+msgstr "Estatísticas de circulação de {title}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:26
@@ -6492,17 +6485,16 @@ msgstr "Atrasos de {library}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:9
 msgid "Transfers"
-msgstr ""
+msgstr "Transferências"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/checkout-notes.tt:10
-#, fuzzy
 msgid "Checkout notes"
-msgstr "Emprestar"
+msgstr "Notas de empréstimo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:20
 #, perl-brace-format
 msgid "Checking out to {patron}"
-msgstr ""
+msgstr "A emprestar a {patron}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:849
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:327
@@ -6513,40 +6505,39 @@ msgstr[0] "Conjunto de {count} exemplar"
 msgstr[1] "Conjunto de {count} exemplares"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:15
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Batch check out to {patron}"
-msgstr "Mostrar empréstimos ao fiador"
+msgstr "Empréstimo em lote a {patron}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:13
 msgid "Curbside pickups"
-msgstr ""
+msgstr "Levantamentos de rua"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:11
-#, fuzzy
 msgid "Pending on-site checkouts"
-msgstr "Total de empréstimos"
+msgstr "Empréstimos on-site pendentes"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:17
 #, perl-brace-format
 msgid "Items overdue as of {date}"
-msgstr ""
+msgstr "Exemplares em atraso a partir de {date}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:13
 msgid "Holds to pull"
-msgstr ""
+msgstr "Reservas a levantar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:8
 msgid "Hold transfer print receipt"
-msgstr ""
+msgstr "Recibo da transferência da reserva"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:11
 msgid "Transfers print receipt"
-msgstr ""
+msgstr "Recibo da transferência"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:14
 #, perl-brace-format
 msgid "Print receipt for {borrowernumber}"
-msgstr ""
+msgstr "Recibo para {borrowernumber}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:21
@@ -6584,100 +6575,91 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/statistics.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/two_factor_auth.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/update-child.tt:8
-#, fuzzy
 msgid "Patrons"
-msgstr "Motivo do leitor"
+msgstr "Leitores"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:17
-#, fuzzy
 msgid "Recall print receipt"
-msgstr "Preço de revenda"
+msgstr "Recibo da reclamação"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:10
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Renew {title}"
-msgstr "Restante do título"
+msgstr "Renovar {title}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:20
 msgid "Request article"
-msgstr ""
+msgstr "Pedido de artigo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:12
-#, fuzzy
 msgid "Hold ratios"
-msgstr "reserva em espera"
+msgstr "Rácios de reserva"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:33
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Check in {title}"
-msgstr "Título da coleção"
+msgstr "Devolver {title}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/set-library.tt:12
 msgid "Set library and desk"
-msgstr ""
+msgstr "Definir biblioteca e balcão"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/set-library.tt:14
-#, fuzzy
 msgid "Set library"
-msgstr "Biblioteca de inscrição"
+msgstr "Definir biblioteca"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transfers_to_send.tt:12
 msgid "Transfers to send"
-msgstr ""
+msgstr "Transferências a enviar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transferstoreceive.tt:10
-#, fuzzy
 msgid "Transfers to receive"
-msgstr "Taxa de imposto na recepção"
+msgstr "Transferências a receber"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:14
 msgid "Holds queue"
-msgstr ""
+msgstr "Fila de reservas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:12
-#, fuzzy
 msgid "Holds awaiting pickup"
-msgstr "reserva em espera"
+msgstr "Reservas à espera de levantamento"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:11
 #, perl-brace-format
 msgid "Club enrollments for {club_name}"
-msgstr ""
+msgstr "Inscrição no grupo para {club_name}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/templates-add-modify.tt:14
-#, fuzzy
 msgid "Patron clubs"
-msgstr "Motivo do leitor"
+msgstr "Grupos de leitores"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:11
 #, perl-brace-format
 msgid "Modify club {club_name}"
-msgstr ""
+msgstr "Modificar grupo {club_name}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:13
 #, perl-brace-format
 msgid "Create a new {club_template} club"
-msgstr ""
+msgstr "Criar um novo grupo {club_template}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/templates-add-modify.tt:10
 #, perl-brace-format
 msgid "Modify club template {club_template}"
-msgstr ""
+msgstr "Modicar o modelo de grupo {club_template}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/templates-add-modify.tt:12
-#, fuzzy
 msgid "New club template"
-msgstr "modelo"
+msgstr "Novo modelo de grupo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step1.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_add_items.tt:10
-#, fuzzy
 msgid "Add reserves"
-msgstr "Reserva"
+msgstr "Adicionar reservas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step1.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:14
@@ -6688,12 +6670,11 @@ msgstr "Reserva"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/invalid-course.tt:6
 msgid "Course reserves"
-msgstr ""
+msgstr "Reservas de curso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:9
-#, fuzzy
 msgid "Edit reserve"
-msgstr "Reserva"
+msgstr "Editar reserva"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:36
 msgctxt "Edit course reserve"
@@ -6706,9 +6687,8 @@ msgid "Reserve"
 msgstr "Reserva"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_rm_items.tt:7
-#, fuzzy
 msgid "Remove reserves"
-msgstr "Reserva"
+msgstr "Remover reservas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_rm_items.tt:62
 #, perl-brace-format
@@ -6720,7 +6700,7 @@ msgstr[1] "{title} ({barcode}) foi removido do {count} cursos."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:12
 #, perl-brace-format
 msgid "Course details for {course_name}"
-msgstr ""
+msgstr "Detalhes de curso de {course_name}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:79
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-reserves.tt:54
@@ -6732,12 +6712,11 @@ msgstr "Termo"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:8
 #, perl-brace-format
 msgid "Edit {course_name}"
-msgstr ""
+msgstr "Editar {course_name}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:10
-#, fuzzy
 msgid "New course"
-msgstr "Novo estado"
+msgstr "Novo curso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:100
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:113
@@ -6748,38 +6727,38 @@ msgstr "Termo:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/invalid-course.tt:5
 msgid "Invalid course"
-msgstr ""
+msgstr "Curso inválido"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/erm/erm.tt:10
 msgid "E-resource management"
-msgstr ""
+msgstr "Gestão de recurso eletrónicos"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/errors/errorpage.tt:5
 #: koha-tmpl/intranet-tmpl/prog/en/modules/errors/errorpage.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/errors/errorpage.tt:31
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Error {error_number}"
-msgstr "Número de leitor"
+msgstr "Erro {error_number}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:13
 msgid "ILL requests"
-msgstr ""
+msgstr "Pedidos de empréstimos inter-bibliotecas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/auth.tt:19
 msgid "Log in to the Koha web installer"
-msgstr ""
+msgstr "Entrar no instalador web do Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step1.tt:9
 msgid "Perl modules missing"
-msgstr ""
+msgstr "Módulos Perl em falta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step1.tt:12
 msgid "Perl version obsolete"
-msgstr ""
+msgstr "Versão Perl obsoleta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step1.tt:15
 msgid "Check Perl dependencies"
-msgstr ""
+msgstr "Verificar as dependências Perl"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step1.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step2.tt:7
@@ -6790,66 +6769,64 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep4.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:10
 msgid "Web installer"
-msgstr ""
+msgstr "Instalador Web"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step2.tt:6
-#, fuzzy
 msgid "Database settings"
-msgstr "Configurações de privacidade"
+msgstr "Configurações da base de dados"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:7
 msgid "Set up database"
-msgstr ""
+msgstr "Configurar a base de dados"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:11
 msgid "Error creating database tables"
-msgstr ""
+msgstr "Erro ao criar as tabelas da base de dados"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:13
 msgid "Database tables created"
-msgstr ""
+msgstr "Tabelas da base de dados criadas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:18
-#, fuzzy
 msgid "Update database"
-msgstr "Data da última atualização"
+msgstr "Atualizar base de dados"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:20
 msgid "Install basic configuration settings"
-msgstr ""
+msgstr "Instalar configurações básicas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:24
 msgid "Select your MARC flavor"
-msgstr ""
+msgstr "Selecione o formato MARC"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:27
 msgid "Selecting default settings"
-msgstr ""
+msgstr "A selecionar as configurações por omissão"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:30
 msgid "Default data loaded"
-msgstr ""
+msgstr "Dados por omissão carregados"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:33
 msgid "Installation complete"
-msgstr ""
+msgstr "Instalação completa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:10
 msgid "Koha staff interface"
-msgstr ""
+msgstr "Interface dos técnicos"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:7
 msgid "Barcode image generator"
-msgstr ""
+msgstr "Gerador de imagem de código de barras"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-batch.tt:9
 #, perl-brace-format
 msgid "Edit label batch {batch_id}"
-msgstr ""
+msgstr "Editar lote de etiquetas {batch_id}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-batch.tt:11
 msgid "New label batch"
-msgstr ""
+msgstr "Novo lote de etiquetas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-batch.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-batch.tt:12
@@ -6865,16 +6842,16 @@ msgstr "Lotes"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-print.tt:6
 msgid "Label creator"
-msgstr ""
+msgstr "Criador de etiquetas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:16
 #, perl-brace-format
 msgid "Edit label layout {layout_id}"
-msgstr ""
+msgstr "Editar esquema de etiqueta {layout_id}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:18
 msgid "New label layout"
-msgstr ""
+msgstr "Novo esquema de etiqueta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:20
 msgid "Layouts"
@@ -6883,12 +6860,12 @@ msgstr "Esquemas"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-profile.tt:7
 #, perl-brace-format
 msgid "Edit printer profile {profile_id}"
-msgstr ""
+msgstr "Editar perfil de impressora {profile_id}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-profile.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-profile.tt:9
 msgid "New printer profile"
-msgstr ""
+msgstr "Novo perfil de impressora"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-profile.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-profile.tt:11
@@ -6897,17 +6874,16 @@ msgstr "Perfis"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-range.tt:6
 msgid "Print barcode range"
-msgstr ""
+msgstr "Imprimir intervalo de código de barras"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-template.tt:7
 #, perl-brace-format
 msgid "Edit label template {template_id}"
-msgstr ""
+msgstr "Editar modelo de etiqueta {template_id}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-template.tt:9
-#, fuzzy
 msgid "New label template"
-msgstr "placa de sinos de metal"
+msgstr "Novo modelo de etiqueta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-template.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:12
@@ -6920,9 +6896,8 @@ msgid "layout"
 msgstr "esquema"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:8
-#, fuzzy
 msgid "Label layouts"
-msgstr "Esquemas"
+msgstr "Esquemas de etiqueta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:9
@@ -6930,9 +6905,8 @@ msgid "template"
 msgstr "modelo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:10
-#, fuzzy
 msgid "Label templates"
-msgstr "modelo"
+msgstr "Modelos de etiqueta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:11
@@ -6940,9 +6914,8 @@ msgid "profile"
 msgstr "perfil"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:12
-#, fuzzy
 msgid "Printer profiles"
-msgstr "Perfis"
+msgstr "Perfis de impressora"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:13
@@ -6950,115 +6923,105 @@ msgid "batch"
 msgstr "lote"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-manage.tt:14
-#, fuzzy
 msgid "Label batches"
-msgstr "Lotes"
+msgstr "Lotes de etiquetas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-print.tt:5
 msgid "Label printing/exporting"
-msgstr ""
+msgstr "Impressão/exportação de etiquetas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/result.tt:29
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/search.tt:6
 msgid "Labels"
-msgstr ""
+msgstr "Etiquetas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/search.tt:5
 msgid "Search"
-msgstr ""
+msgstr "Pesquisar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/spinelabel-home.tt:7
 msgid "Quick spine label creator"
-msgstr ""
+msgstr "Criador de etiqueta rápida"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/spinelabel-print.tt:8
 msgid "Spine labels"
-msgstr ""
+msgstr "Etiquetas de lombada"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/accountline-details.tt:13
 msgid "Details of credit"
-msgstr ""
+msgstr "Detalhes do crédito"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/accountline-details.tt:15
-#, fuzzy
 msgid "Details of debit"
-msgstr "Data de nascimento"
+msgstr "Detalhes do débito"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:8
 msgid "API Keys"
-msgstr ""
+msgstr "Chaves da API"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:19
-#, fuzzy
 msgid "Account for"
-msgstr "contratenor"
+msgstr "Conta de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:9
-#, fuzzy
 msgid "Delete patron"
-msgstr "electrónico"
+msgstr "Eliminar leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/discharge.tt:11
-#, fuzzy
 msgid "Discharge for"
-msgstr "Quitação"
+msgstr "Quitação de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/discharges.tt:9
 msgid "Pending discharge requests"
-msgstr ""
+msgstr "Pedidos de quitação pendentes"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/files.tt:10
 msgid "Files for"
-msgstr ""
+msgstr "Ficheiros de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/holdshistory.tt:13
 msgid "Holds history for"
-msgstr ""
+msgstr "Histórico de reservas de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/housebound.tt:11
-#, fuzzy
 msgid "Details for"
-msgstr "Preço de revenda"
+msgstr "Detalhes de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/housebound.tt:12
 msgid "Housebound"
-msgstr ""
+msgstr "Housebound"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/ill-requests.tt:13
 msgid "ILL requests history for"
-msgstr ""
+msgstr "Histórico de pedidos ILL de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/mancredit.tt:12
 msgid "Create manual credit"
-msgstr ""
+msgstr "Criar crédito manual"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/maninvoice.tt:11
-#, fuzzy
 msgid "Create manual invoice"
-msgstr "voz masculina recitando"
+msgstr "Criar fatura manual"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member-flags.tt:9
-#, fuzzy
 msgid "Set permissions for"
-msgstr "Permissões do sistema"
+msgstr "Definir permissões de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member-password.tt:10
-#, fuzzy
 msgid "Password updated"
-msgstr "Data de expiração da palavra-passe"
+msgstr "Palavra-passe atualizada"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member-password.tt:12
 msgid "Update password for"
-msgstr ""
+msgstr "Atualizar palavra-passe de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:17
 msgid "Add patron"
-msgstr ""
+msgstr "Adicionar leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:19
-#, fuzzy
 msgid "Modify patron"
-msgstr "Data de modificação"
+msgstr "Modificar leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1439
 msgctxt "patron restriction created on"
@@ -7067,146 +7030,135 @@ msgstr "Criado"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:11
 msgid "Update patron records"
-msgstr ""
+msgstr "Atualizar registos de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/merge-patrons.tt:10
 msgid "Merge patron records"
-msgstr ""
+msgstr "Unificar registos de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:9
 msgid "Check duplicate patron"
-msgstr ""
+msgstr "Verificar leitor duplicado"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-print.tt:14
 msgid "Summary for"
-msgstr ""
+msgstr "Sumário de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:19
-#, fuzzy
 msgid "Patron details for"
-msgstr "Motivo do leitor"
+msgstr "Detalhes de leitor de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:11
 msgid "Sent notices for"
-msgstr ""
+msgstr "Avisos enviados para"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/pay.tt:14
 msgid "Make a payment for"
-msgstr ""
+msgstr "Efetuar um pagamento para"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/paycollect.tt:27
 #, perl-brace-format
 msgid "Write off an amount for {patron}"
-msgstr ""
+msgstr "Amortizar um montante para {patron}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/paycollect.tt:29
 #, perl-brace-format
 msgid "Collect payment for {patron}"
-msgstr ""
+msgstr "Recolher pagamento para {patron}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/printfeercpt.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/printinvoice.tt:8
 msgid "Print receipt for"
-msgstr ""
+msgstr "Imprimir recibo para"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/purchase-suggestions.tt:11
 msgid "Purchase suggestions for"
-msgstr ""
+msgstr "Sugestão de aquisição de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/readingrec.tt:12
-#, fuzzy
 msgid "Circulation history for"
-msgstr "Notas de empréstimo"
+msgstr "Histórico de circulação de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:9
 msgid "Recalls history for"
-msgstr ""
+msgstr "Histórico de reclamações de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/routing-lists.tt:10
-#, fuzzy
 msgid "Subscription routing lists for"
-msgstr "Número da assinatura (interno)"
+msgstr "Listas de circulação de assinaturas para"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/search.tt:13
-#, fuzzy
 msgid "Patron search"
-msgstr "Motivo do leitor"
+msgstr "Pesquisa de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/statistics.tt:11
-#, fuzzy
 msgid "Statistics for"
-msgstr "Estatística 1"
+msgstr "Estatísticas de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/update-child.tt:7
-#, fuzzy
 msgid "Choose adult category"
-msgstr "Categoria de leitor"
+msgstr "Escolher a categoria adulto"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:5
 msgid "Add offline circulations to queue"
-msgstr ""
+msgstr "Adicionar movimentos offline à fila"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:8
 msgid "Offline circulation"
-msgstr ""
+msgstr "Circulação offline"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/process_koc.tt:7
 msgid "Offline circulation file upload"
-msgstr ""
+msgstr "Carregamento de ficheiro de circulação offline"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep1.tt:6
-#, fuzzy
 msgid "Create a library"
-msgstr "Biblioteca"
+msgstr "Criar a biblioteca"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:7
-#, fuzzy
 msgid "Add a patron category"
-msgstr "Categoria de leitor"
+msgstr "Adicionar a categoria de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep3.tt:7
 msgid "Create Koha administrator patron"
-msgstr ""
+msgstr "Criar o leitor de administração do Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep4.tt:5
-#, fuzzy
 msgid "Create a new item type"
-msgstr "Tipo de documento"
+msgstr "Criar um novo tipo de documento"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:6
 msgid "Onboarding complete"
-msgstr ""
+msgstr "Processo terminado"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:8
-#, fuzzy
 msgid "Create circulation rule"
-msgstr "Notas de empréstimo"
+msgstr "Criar regra de circulação"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:34
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:47
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify patron list '{list_name}'"
-msgstr "Modificar cidade '{city}'"
+msgstr "Modificar lista de leitores '{list_name}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:10
 msgid "New patron list"
-msgstr ""
+msgstr "Nova lista de leitores"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/lists.tt:7
-#, fuzzy
 msgid "Patron lists"
-msgstr "Motivo do leitor"
+msgstr "Listas de leitores"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-batch.tt:8
 msgid "Edit patron card batch"
-msgstr ""
+msgstr "Editar lote de cartões de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-batch.tt:10
 msgid "New patron card batch"
-msgstr ""
+msgstr "Novo lote de cartões de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-batch.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:12
@@ -7215,57 +7167,52 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/home.tt:5
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/image-manage.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:30
-#, fuzzy
 msgid "Patron card creator"
-msgstr "Categoria de leitor"
+msgstr "Criar de cartões de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:7
 msgid "Edit patron card layout"
-msgstr ""
+msgstr "Editar esquema de cartão de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:9
 msgid "New patron card layout"
-msgstr ""
+msgstr "Criar esquema de cartão de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:11
-#, fuzzy
 msgid "Layout"
-msgstr "Esquemas"
+msgstr "Esquema"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-profile.tt:7
 msgid "Edit printer profile"
-msgstr ""
+msgstr "Editar perfil de impressora"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:8
 msgid "Edit patron card template"
-msgstr ""
+msgstr "Editar modelo de cartão de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:10
 msgid "New patron card template"
-msgstr ""
+msgstr "Criar modelo de cartão de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/image-manage.tt:6
 msgid "Image manager"
-msgstr ""
+msgstr "Gestor de imagens"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:8
-#, fuzzy
 msgid "Patron card layouts"
-msgstr "Categoria de leitor"
+msgstr "Esquemas de cartão de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:10
-#, fuzzy
 msgid "Patron card templates"
-msgstr "Motivo do leitor"
+msgstr "Modelos de cartão de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:12
 msgid "Patron card printer profiles"
-msgstr ""
+msgstr "Perfis de impressora de cartão de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:14
-#, fuzzy
 msgid "Patron card batches"
-msgstr "Categoria de leitor"
+msgstr "Lotes de cartões de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:15
 msgid "Actions"
@@ -7273,68 +7220,65 @@ msgstr "Ações"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/print.tt:7
 msgid "Patron card printing/exporting"
-msgstr ""
+msgstr "Impressão/exportação de cartões de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/print.tt:8
-#, fuzzy
 msgid "Patron cards"
-msgstr "Categoria de leitor"
+msgstr "Cartões de leitor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-disabled.tt:5
-#, fuzzy
 msgid "Plugins disabled"
-msgstr "Plugins"
+msgstr "Plugins desativos"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-upload.tt:5
 msgid "Upload plugin"
-msgstr ""
+msgstr "Carregar plugin"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:14
 msgid "Point of sale"
-msgstr ""
+msgstr "Ponto de venda"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/printreceipt.tt:9
 msgid "Print receipt"
-msgstr ""
+msgstr "Imprimir recibo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/register.tt:12
 #, perl-brace-format
 msgid "Transaction history for {register}"
-msgstr ""
+msgstr "Histórico de transações de {register}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:10
 #, perl-brace-format
 msgid "Cash summary for {library}"
-msgstr ""
+msgstr "Sumário monetário para {library}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_old_queue.tt:9
 msgid "Old recalls"
-msgstr ""
+msgstr "Reclamações antigas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_overdue.tt:9
-#, fuzzy
 msgid "Overdue recalls"
-msgstr "Atrasos"
+msgstr "Reclamações em atraso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_queue.tt:9
 msgid "Recalls queue"
-msgstr ""
+msgstr "Fila de reclamações"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_to_pull.tt:12
 msgid "Recalls to pull"
-msgstr ""
+msgstr "Reclamações a tratar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:9
 msgid "Recalls awaiting pickup"
-msgstr ""
+msgstr "Reclamações à espera de levantamento"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/request.tt:9
 msgid "Existing recalls"
-msgstr ""
+msgstr "Reclamações existentes"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/request.tt:10
 msgid "Recalls"
-msgstr ""
+msgstr "Reclamações"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_stats.tt:10
@@ -7353,150 +7297,142 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:13
 msgid "Results"
-msgstr ""
+msgstr "Resultados"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:9
 msgid "Acquisitions statistics"
-msgstr ""
+msgstr "Estatísticas das aquisições"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/bor_issues_top.tt:9
 msgid "Patrons with the most checkouts"
-msgstr ""
+msgstr "Leitores com mais empréstimos"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_out.tt:6
-#, fuzzy
 msgid "Patrons with no checkouts"
-msgstr "Total de empréstimos"
+msgstr "Leitores sem empréstimos"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_stats.tt:12
 msgid "Patrons statistics"
-msgstr ""
+msgstr "Estatísticas dos leitores"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:17
 msgid "Cash register statistics"
-msgstr ""
+msgstr "Estatísticas das caixas registadoras"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:10
 msgid "Most-circulated items"
-msgstr ""
+msgstr "Exemplares mais emprestados"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_out.tt:7
-#, fuzzy
 msgid "Items with no checkouts"
-msgstr "O exemplar está emprestado"
+msgstr "Exemplares sem empréstimos"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_stats.tt:10
 msgid "Catalog statistics"
-msgstr ""
+msgstr "Estatísticas do catálogo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/convert_report.tt:5
 msgid "Convert report"
-msgstr ""
+msgstr "Converter relatório"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:6
-#, fuzzy
 msgid "Dictionary"
-msgstr "tambor de fricção"
+msgstr "Dicionário"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:54
 msgid "Guided reports wizard"
-msgstr ""
+msgstr "Assistente de relatórios guiados"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:27
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:32
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:35
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:38
 msgid "Saved reports"
-msgstr ""
+msgstr "Relatórios guardados"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:29
 msgid "Create from SQL"
-msgstr ""
+msgstr "Criar do SQL"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:31
 msgid "SQL view"
-msgstr ""
+msgstr "Vista SQL"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:34
 #, perl-brace-format
 msgid "Report {reportname} ({id})"
-msgstr ""
+msgstr "Relatório {reportname} ({id})"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:37
 #, perl-brace-format
 msgid "Edit report {reportname} ({id})"
-msgstr ""
+msgstr "Editar relatório {reportname} ({id})"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:42
 msgid "Build a report, step 1 of 6: Choose a module"
-msgstr ""
+msgstr "Construir um relatório, passo 1 de 6: Escolher o módulo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:44
 msgid "Build a report, step 2 of 6: Pick a report type"
-msgstr ""
+msgstr "Construir um relatório, passo 2 de 6: Escolher o tipo de relatório"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:46
 msgid "Build a report, step 3 of 6: Select columns for display"
-msgstr ""
+msgstr "Construir um relatório, passo 3 de 6: Escolher as colunas a mostrar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:48
 msgid "Build a report, step 4 of 6: Select criteria to limit on"
-msgstr ""
+msgstr "Construir um relatório, passo 4 de 6: Escolher o critério de limite"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:50
 msgid "Build a report, step 5 of 6: Pick which columns to total"
-msgstr ""
+msgstr "Construir um relatório, passo 5 de 6: Escolher quais as colunas para o total"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:52
 msgid "Build a report, step 6 of 6: Select how you want the report ordered"
-msgstr ""
+msgstr "Construir um relatório, passo 6 de 6: Escolher a ordenação do relatório"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_avg_stats.tt:7
 msgid "Average loan time"
-msgstr ""
+msgstr "Tempo médio de empréstimo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:10
-#, fuzzy
 msgid "Circulation statistics"
-msgstr "Notas de empréstimo"
+msgstr "Estatísticas de circulação"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:13
-#, fuzzy
 msgid "Lost items"
-msgstr "Estado perdido"
+msgstr "Exemplares perdidos"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemtypes.tt:9
-#, fuzzy
 msgid "Catalog by item types"
-msgstr "por tipos de documento"
+msgstr "Catálogo por tipos de documento"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/orders_by_budget.tt:10
 msgid "Orders by fund"
-msgstr ""
+msgstr "Encomendas por fundo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:10
 msgid "Holds statistics"
-msgstr ""
+msgstr "Estatísticas das reservas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/serials_stats.tt:9
-#, fuzzy
 msgid "Serials subscriptions stats"
-msgstr "assinatura"
+msgstr "Estatísticas das assinaturas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:24
 #, perl-brace-format
 msgid "Place a hold on {title}"
-msgstr ""
+msgstr "Reservar {title}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:26
 msgid "Confirm holds"
-msgstr ""
+msgstr "Confirmar reservas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:28
-#, fuzzy
 msgid "Holds"
-msgstr "Reserva"
+msgstr "Reservas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1102
 msgid "Hold"
@@ -7505,22 +7441,20 @@ msgstr[0] "Reserva"
 msgstr[1] "Reservas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:8
-#, fuzzy
 msgid "Approved comments"
-msgstr "Aprovado"
+msgstr "Comentários aprovados"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:10
 msgid "Comments awaiting moderation"
-msgstr ""
+msgstr "Comentários em moderação"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:12
-#, fuzzy
 msgid "Comments"
-msgstr "Comentário"
+msgstr "Comentários"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/addItems.tt:7
 msgid "Manage items"
-msgstr ""
+msgstr "Gerir exemplares"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/addItems.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/addItems.tt:30
@@ -7528,62 +7462,57 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:45
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/transferCollection.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/transferCollection.tt:30
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Collection '{collection_title}'"
-msgstr "Título da coleção"
+msgstr "Coleção '{collection_title}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/addItems.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/rotatingCollections.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/transferCollection.tt:10
-#, fuzzy
 msgid "Rotating collections"
-msgstr "Coleção"
+msgstr "Coleções rotativas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/addItems.tt:49
 #, perl-brace-format
 msgid "Manage items for '{collection_title}'"
-msgstr ""
+msgstr "Gerir os exemplares de '{collection_title}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:8
-#, fuzzy
 msgid "Add a new collection"
-msgstr "Coleção"
+msgstr "Adicionar nova coleção"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:10
-#, fuzzy
 msgid "Collection deleted"
-msgstr "Título da coleção"
+msgstr "Coleção eliminada"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:48
-#, fuzzy
 msgid "Edit collection"
-msgstr "Coleção"
+msgstr "Editar coleção"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/transferCollection.tt:8
-#, fuzzy
 msgid "Transfer collection"
-msgstr "Coleção"
+msgstr "Transferir coleção"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/transferCollection.tt:43
 #, perl-brace-format
 msgid "Transfer collection '{collection_title}'"
-msgstr ""
+msgstr "Transferir coleção '{collection_title}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:14
 #, perl-brace-format
 msgid "Edit suggestion #{suggestion_number}"
-msgstr ""
+msgstr "Editar sugestão #{suggestion_number}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:19
 #, perl-brace-format
 msgid "Show suggestion #{suggestion_number}"
-msgstr ""
+msgstr "Mostrar sugestão #{suggestion_number}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:21
 msgid "Suggestions"
-msgstr ""
+msgstr "Sugestões"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:235
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:498
@@ -7596,30 +7525,27 @@ msgstr "Criado por:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/list.tt:43
 #, perl-brace-format
 msgid "Results for tag '{tag}'"
-msgstr ""
+msgstr "Resultados da etiqueta '{tag}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/list.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:15
 msgid "Tags"
-msgstr ""
+msgstr "Etiquetas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:50
-#, fuzzy
 msgid "Approved"
-msgstr "Aprovado"
+msgstr "Aprovada"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:54
-#, fuzzy
 msgid "Pending"
 msgstr "Pendente"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:58
-#, fuzzy
 msgid "Rejected"
-msgstr "Rejeitado"
+msgstr "Rejeitada"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:143
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:163
@@ -7699,7 +7625,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:42
 msgid "Additional content"
-msgstr ""
+msgstr "Conteúdo adicional"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:8
 msgid "Rules"
@@ -7895,7 +7821,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:15
 msgid "New notice"
-msgstr ""
+msgstr "Novo aviso"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:19
 msgid "Notice added"
@@ -8033,9 +7959,8 @@ msgid "Modify {library} stage"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:21
-#, fuzzy
 msgid "New stage"
-msgstr "Novo estado"
+msgstr "Nova etapa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:26
@@ -8049,7 +7974,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:88
 msgid "Add items"
-msgstr ""
+msgstr "Adicionar exemplares"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:28
 #, fuzzy
