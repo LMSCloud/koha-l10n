@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-10 21:07+0100\n"
-"PO-Revision-Date: 2023-11-29 10:29+0000\n"
+"PO-Revision-Date: 2023-12-08 03:01+0000\n"
 "Last-Translator: tigran <tigran@flib.sci.am>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hy-Armn\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /hy/22.11/hy-Armn-messages.po\n"
 "X-POOTLE-MTIME: 1695032547.448899\n"
@@ -2111,7 +2111,7 @@ msgstr "Դարակի ստուգիչ համար"
 #: Koha/Database/Columns.pm:213
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/catalogue/itemsearch.tt:6
 msgid "Damaged status"
-msgstr "Վնասված վիճակ"
+msgstr "Վթարված վիճակ"
 
 #: Koha/Database/Columns.pm:214
 msgid "Damaged on"
@@ -5249,9 +5249,8 @@ msgid "Modify account '{edi_account}' for vendor '{vendor}'"
 msgstr "Փոփոխել '{edi_account}' հաշիվը '{vendor}' մատակարարի համար"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:12
-#, fuzzy
 msgid "New account"
-msgstr "Նոր քաղաք"
+msgstr "Նոր հաշիվ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:58
@@ -5277,9 +5276,8 @@ msgid "Modify library EAN '{ean}'"
 msgstr "Ձևափոխիր '{city}' քաղաքը"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:11
-#, fuzzy
 msgid "New library EAN"
-msgstr "Տնային գրադարան"
+msgstr "Նոր EAN գրադարան"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:56
@@ -5430,7 +5428,7 @@ msgstr "Զտիչ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:8
 msgid "Edit subfield constraints"
-msgstr ""
+msgstr "Խմբագրել ենթադաշտի սահմանափակումները"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:72
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:318
@@ -5511,7 +5509,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:8
 msgid "New OAI set"
-msgstr ""
+msgstr "Նոր OAI բազմություն"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:43
@@ -5659,7 +5657,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping.tt:7
 msgid "SRU search field mapping for bibliographic records"
-msgstr ""
+msgstr "SRU փնտրման դաշտի քարտեզավորումը մատենագիտական գրառումների համար"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:6
@@ -7242,7 +7240,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:9
 msgid "New patron card layout"
-msgstr ""
+msgstr "Նոր ընթերցողի քարտի ձևավորում"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:11
 #, fuzzy
@@ -7259,7 +7257,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:10
 msgid "New patron card template"
-msgstr ""
+msgstr "Նոր ընթերցողի քարտի ձևանմուշ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/image-manage.tt:6
 msgid "Image manager"
@@ -7715,7 +7713,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:42
 msgid "Additional content"
-msgstr ""
+msgstr "Լրացուցիչ բովանդակություն"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:8
 msgid "Rules"
@@ -7911,7 +7909,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:15
 msgid "New notice"
-msgstr ""
+msgstr "Նոր հիշեցում"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:19
 msgid "Notice added"
@@ -8049,9 +8047,8 @@ msgid "Modify {library} stage"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:21
-#, fuzzy
 msgid "New stage"
-msgstr "Նոր կարգավիճակ"
+msgstr "Նոր փուլ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:26
