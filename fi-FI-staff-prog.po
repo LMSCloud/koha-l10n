@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-04 13:38+0000\n"
-"PO-Revision-Date: 2023-12-06 03:02+0000\n"
+"PO-Revision-Date: 2023-12-08 03:01+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -4019,9 +4019,9 @@ msgid "Items"
 msgstr "Niteet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/biblio-view-menu.inc:59
-#, fuzzy, c-format
+#, c-format
 msgid "Bookings ("
-msgstr "Kokoelmat (%s)"
+msgstr "Ennakkovaraukset ("
 
 #. For the first occurrence,
 #. %1$s:  Biblio.HoldsCount( biblio_object_id ) | html 
@@ -5032,9 +5032,9 @@ msgid "Place hold for %s"
 msgstr "Varaa asiakkaalle %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:199
-#, fuzzy, c-format
+#, c-format
 msgid "Place booking"
-msgstr "Tilattu"
+msgstr "Tee ennakkovaraus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:203
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:585
@@ -11401,14 +11401,14 @@ msgid "Barcode"
 msgstr "Viivakoodi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cancel_booking.inc:8
-#, fuzzy, c-format
+#, c-format
 msgid "Cancel booking"
-msgstr "Peruuta "
+msgstr "Peruuta ennakkovaraus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cancel_booking.inc:13
-#, fuzzy, c-format
+#, c-format
 msgid "Are you sure you want to cancel this booking?"
-msgstr "Haluatko varmasti peruuttaa tämän varauksen?"
+msgstr "Haluatko varmasti peruuttaa tämän ennakkovarauksen?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cancel_booking.inc:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:125
@@ -13730,9 +13730,9 @@ msgid "Override blocked renewals "
 msgstr "Ohittaa uusintojen esto "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:121
-#, fuzzy, c-format
+#, c-format
 msgid "Manage item bookings "
-msgstr "Hallinnoi niteitä "
+msgstr "Hallinnoida niteiden ennakkovarauksia "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:126
 #, c-format
@@ -39546,20 +39546,20 @@ msgstr "Sähköpostiosoite:"
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:6
-#, fuzzy, c-format
+#, c-format
 msgid "Bookings for %s &rsaquo; Bookings &rsaquo; Circulation &rsaquo; Koha"
-msgstr "Vahvista varaukset &rsaquo; Varaukset &rsaquo; Lainaus ja palautus &rsaquo; Koha"
+msgstr "Ennakkovaraukset nimekkeelle %s &rsaquo; Ennakkovaraukset &rsaquo; Lainaus ja palautus &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:25
 #, c-format
 msgid "Bookings"
-msgstr ""
+msgstr "Ennakkovaraukset"
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:36
-#, fuzzy, c-format
+#, c-format
 msgid "Bookings for %s"
-msgstr "Domainit tarjoajalle %s"
+msgstr "Ennakkovaraukset nimekkeelle %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:34
@@ -41556,9 +41556,9 @@ msgid "Withdrawn on:"
 msgstr "Pois kierrosta:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:349
-#, fuzzy, c-format
+#, c-format
 msgid "Bookable:"
-msgstr "Pankkikelpoinen"
+msgstr "Ennakkovarattavissa:"
 
 #. %1$s:  ELSE 
 #. %2$s:  IF ITEM_DAT.bookable == 1 
@@ -43814,7 +43814,7 @@ msgstr "Nide oli lainassa asiakkaalla %s ja se palautettiin automaattisesti."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:98
 #, c-format
 msgid "Item is booked by this user"
-msgstr ""
+msgstr "Niteeseen on ennakkovaraus tälle asiakkaalle"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:102
 #, c-format
@@ -44073,15 +44073,15 @@ msgstr "%s(%s)%s palautuspyyntö asiakkaalle "
 
 #. %1$s:  BOOKED_TO_ANOTHER.start_date | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:254
-#, fuzzy, c-format
+#, c-format
 msgid "Due for another patron booking by: %s "
-msgstr "Hae toinen asiakas"
+msgstr "Eräpäivä toisen asiakkaan ennakkovarauksen vuoksi: %s "
 
 #. %1$s:  BOOKED_EARLY.start_date | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:260
-#, fuzzy, c-format
+#, c-format
 msgid "Patron has this item booked for checkout on %s "
-msgstr "Asiakkaat, joilla on eniten lainoja "
+msgstr "Asiakkaalla on tähän niteeseen ennakkovaraus, joka tulee lainattavaksi %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:276
 #, c-format
@@ -44356,7 +44356,7 @@ msgstr "Rajoitus ohitetaan väliaikaisesti."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:596
 #, c-format
 msgid "!!A booking exists!!"
-msgstr ""
+msgstr "Ennakkovaraus olemassa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:609
 #, c-format
@@ -55346,9 +55346,9 @@ msgid "Please confirm that you have received %s to cashup."
 msgstr "Vahvista saaneesi %s tilitykseen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/preservation/home.tt:11
-#, fuzzy, c-format
+#, c-format
 msgid "Preservation &rsaquo; Koha "
-msgstr "Lainaus ja palautus &rsaquo; Koha"
+msgstr "Käsittelyerät &rsaquo; Koha "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_overdue.tt:49
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_queue.tt:49
