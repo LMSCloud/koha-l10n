@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-04 13:38+0000\n"
-"PO-Revision-Date: 2023-12-07 03:02+0000\n"
+"PO-Revision-Date: 2023-12-08 03:02+0000\n"
 "Last-Translator: Bayartsengel <bayartsengel@mnums.edu.mn>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: mon\n"
@@ -1686,7 +1686,7 @@ msgstr "Номын сангийн ашиглалт"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:386
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:475
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2501
-#, fuzzy, c-format
+#, c-format
 msgid "Item types"
 msgstr "Зүйлийн төрөл"
 
@@ -2193,9 +2193,9 @@ msgstr "Дараахьд хайх"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:129
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:213
-#, fuzzy, c-format
+#, c-format
 msgid "Authority type: "
-msgstr "Байгууллагын төрөл"
+msgstr "Эрх мэдлийн төрөл "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:20
 #, fuzzy, c-format
@@ -3414,9 +3414,9 @@ msgstr "Бичлэг тааруулах дүрмийг өөрчлөх"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_biblio_record_modification.inc:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:118
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:123
-#, fuzzy, c-format
+#, c-format
 msgid "Select a list"
-msgstr "Номын санг сонгох:"
+msgstr "жагсаалтыг сонго"
 
 #. %1$s:  biblio_link | $raw 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_biblio_record_modification.inc:43
@@ -4231,9 +4231,9 @@ msgstr "АЛДАА: Танд жагсаалт %s-д зориулсан хүрэ�
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:225
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:66
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:616
-#, fuzzy, c-format
+#, c-format
 msgid "Clear all"
-msgstr "Арилгах"
+msgstr "Бүгдийг арилгах"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/branch-selector.inc:3
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:225
@@ -4280,9 +4280,9 @@ msgstr "Арилгах"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:225
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:616
-#, fuzzy, c-format
+#, c-format
 msgid "Select all"
-msgstr "Сонгох"
+msgstr "Бүгдийг сонго"
 
 #. %1$s:  currency | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/budgets-active-currency.inc:3
@@ -4903,18 +4903,18 @@ msgstr "Бүх зүйлсийн тоо"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:101
 #, c-format
 msgid "BIBTEX"
-msgstr ""
+msgstr "BIBTEX"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:102
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1097
-#, fuzzy, c-format
+#, c-format
 msgid "Dublin Core"
-msgstr "Нийтийн санамж:"
+msgstr "Дублин кор"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:106
-#, fuzzy, c-format
+#, c-format
 msgid "MARC (Unicode/UTF-8, Standard)"
-msgstr "MARC (Юникод/UTF-8)"
+msgstr "MARC (Unicode/UTF-8, Standard)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:107
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1096
@@ -4927,9 +4927,9 @@ msgstr "MODS (XML)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:61
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/downloadcart.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/downloadshelf.tt:40
-#, fuzzy, c-format
+#, c-format
 msgid "RIS"
-msgstr "RSS"
+msgstr "RIS"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:115
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:122
@@ -5059,22 +5059,22 @@ msgstr "Захиалгыг нэмэх"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:226
 #, c-format
 msgid "Exporting to Dublin Core..."
-msgstr ""
+msgstr "Дублин Кор руу экспортолж байна…"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:232
 #, c-format
 msgid "Simple DC-RDF"
-msgstr ""
+msgstr "Энгийн DC-RDF"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:235
 #, c-format
 msgid "OAI-DC"
-msgstr ""
+msgstr "OAI-DC"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:238
 #, c-format
 msgid "SRW-DC"
-msgstr ""
+msgstr "SRW-DC"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cataloging-search.inc:11
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cataloging-search.inc:35
@@ -5857,7 +5857,7 @@ msgstr "Дараагийн бэлэн байгаа"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/search.tt:62
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/search.tt:63
-#, fuzzy, c-format
+#, c-format
 msgid "Series title"
 msgstr "Цувралын гарчиг"
 
@@ -6408,9 +6408,9 @@ msgstr "Дуудлагын дугаар"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:83
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:120
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:723
-#, fuzzy, c-format
+#, c-format
 msgid "Copy number"
-msgstr "Картындугаар"
+msgstr "Хуулбарын дугаар"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:37
 #: koha-tmpl/intranet-tmpl/prog/en/includes/relatives-issues-table.inc:18
@@ -6703,9 +6703,9 @@ msgid "Details"
 msgstr "Дэлгэрэнгүй мэдээлэл"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:146
-#, fuzzy, c-format
+#, c-format
 msgid "Routing lists"
-msgstr "Замчлалын жагсаалт"
+msgstr "Ангиллын жагсаалтууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:150
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/readingrec.tt:33
@@ -6717,9 +6717,9 @@ msgstr "Түгээлт"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:155
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/holdshistory.tt:34
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/holdshistory.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "Holds history"
-msgstr "Түүх"
+msgstr "Захиалгын түүх"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:162
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:101
@@ -6770,9 +6770,9 @@ msgstr "Авах түүх"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:186
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:31
-#, fuzzy, c-format
+#, c-format
 msgid "Recalls history"
-msgstr "Авах түүх"
+msgstr "Буцаалтын түүх"
 
 #. %1$s:  patron.alert_subscriptions.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:189
@@ -7164,9 +7164,9 @@ msgstr "Авагдахаар хүлээгдэж байгаа барилтууд"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:92
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:56
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:95
-#, fuzzy, c-format
+#, c-format
 msgid "Curbside pickups"
-msgstr "Бар код %s"
+msgstr "Хажуугийн пикапууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:68
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:79
@@ -8008,14 +8008,14 @@ msgid "Refine your search"
 msgstr "Таны хайлтыг сайжруулах"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:13
-#, fuzzy, c-format
+#, c-format
 msgid "Custom search filters"
-msgstr "Байгууллагын хайлтын үр дүнгүүд"
+msgstr "Тусгай хайлтын шүүлтүүрүүд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:20
 #, c-format
 msgid "[x]"
-msgstr ""
+msgstr "[x]"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:29
 #, fuzzy, c-format
@@ -8047,26 +8047,26 @@ msgstr "(холбоотой хайлтууд:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:55
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:474
-#, fuzzy, c-format
+#, c-format
 msgid "Authors"
-msgstr "Зохиогч"
+msgstr "Зохиогч:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:58
-#, fuzzy, c-format
+#, c-format
 msgid "Titles"
-msgstr "Гарчиг"
+msgstr "Гарчгууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:61
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:479
 #, c-format
 msgid "Topics"
-msgstr ""
+msgstr "Сэдвүүд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:64
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:477
-#, fuzzy, c-format
+#, c-format
 msgid "Places"
-msgstr "Дараахьд хийгдсэн"
+msgstr "Газрууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:67
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:478
@@ -8079,28 +8079,28 @@ msgstr "Цувралууд"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:73
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:482
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:59
-#, fuzzy, c-format
+#, c-format
 msgid "Home libraries"
-msgstr "Бүх номын сангууд"
+msgstr "Үндсэн номын сангууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:76
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:481
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:60
-#, fuzzy, c-format
+#, c-format
 msgid "Holding libraries"
-msgstr "Бүх номын сангууд"
+msgstr "Захиалга хийж буй номын сангууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:79
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:476
-#, fuzzy, c-format
+#, c-format
 msgid "Locations"
-msgstr "Байршил"
+msgstr "Байршилууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:82
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:480
-#, fuzzy, c-format
+#, c-format
 msgid "Collections"
-msgstr "Цуглуулга"
+msgstr "Цуглуулгууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:85
 #: koha-tmpl/intranet-tmpl/prog/en/includes/langmenu-staff-top.inc:4
@@ -8112,21 +8112,20 @@ msgstr "Хэлнүүд"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:112
-#, fuzzy
 msgid "Remove facet %s"
-msgstr "Арилгах"
+msgstr "%sшүүлтүүрийг арилагх"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:124
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:74
-#, fuzzy, c-format
+#, c-format
 msgid "Show more"
-msgstr "Бусад сонголтуудыг харуулах"
+msgstr "Илүү ихийг харуулах"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:127
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:78
-#, fuzzy, c-format
+#, c-format
 msgid "Show less"
-msgstr "Үзүүлэх"
+msgstr "багаар харуулах"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/filter-orders.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/add_catalog_concern.inc:19
@@ -8406,9 +8405,9 @@ msgstr "Сөнгийг нэмж байна"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/filter-orders.inc:116
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/register.tt:178
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:71
-#, fuzzy, c-format
+#, c-format
 msgid "From: "
-msgstr "Дараахиас:"
+msgstr "-аас: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/filter-orders.inc:120
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:253
@@ -8840,9 +8839,9 @@ msgstr "Хугацаа дуусах:"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-article-requests.inc:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:288
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:222
-#, fuzzy, c-format
+#, c-format
 msgid "Pickup library"
-msgstr "Дараахьд авах:"
+msgstr "Авах номын сан"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:19
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:211
@@ -9473,7 +9472,7 @@ msgstr "Модуль"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/process_koc.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:30
 msgid "Breadcrumb"
-msgstr ""
+msgstr "Breadcrumb"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:455
@@ -9732,9 +9731,9 @@ msgstr "Багана"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:151
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:439
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/tables/shelves_results.tt:23
-#, fuzzy, c-format
+#, c-format
 msgid "Year"
-msgstr "Арилгах"
+msgstr "Он/ Жил"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch-modal.inc:7
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-subscription-search-result.inc:97
@@ -9848,9 +9847,9 @@ msgstr "Номын сан:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:1083
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:244
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:158
-#, fuzzy, c-format
+#, c-format
 msgid "Status:"
-msgstr "Төлөв"
+msgstr "Төлөв:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch-modal.inc:39
 #, fuzzy, c-format
@@ -10992,9 +10991,9 @@ msgstr "Баталгаанууд:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:123
-#, fuzzy, c-format
+#, c-format
 msgid "Change password"
-msgstr "Та нууц үгээ өөрчилж чадахгүй."
+msgstr "Нууц үг өөрчлөх/солих"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:119
@@ -11046,9 +11045,9 @@ msgstr "Шинэ зүйлийг нэмэх"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:49
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:185
-#, fuzzy, c-format
+#, c-format
 msgid "Schedule pickup"
-msgstr "Гүйцэтгэх ажлуудын хуваарийг гаргах"
+msgstr "Очиж авах хуваарь"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:56
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:58
@@ -11913,7 +11912,7 @@ msgstr "Энэ нэртэй үйлчлүүлэгч алга, өөр нэр ор�
 #: koha-tmpl/intranet-tmpl/prog/en/includes/page-numbers.inc:3
 #, c-format
 msgid "%s of %s results loaded, refine your search to view other records"
-msgstr ""
+msgstr "%s-ийн %s илэрц ачаалагдсан тул бусад бичлэгүүдийг үзэхийн тулд хайлтаа сайжруулаарай"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/page-numbers.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:647
@@ -11927,38 +11926,35 @@ msgstr "Анхны"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/result.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:269
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:661
-#, fuzzy, c-format
+#, c-format
 msgid "Next "
-msgstr "Дараагийн"
+msgstr "Дараагийн "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/page-numbers.inc:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:664
-#, fuzzy, c-format
+#, c-format
 msgid "Last "
-msgstr "Сүүлд харагдсан"
+msgstr "Сүүлийн "
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/password_check.inc:3
 msgid "Password contains leading and/or trailing spaces"
-msgstr ""
+msgstr "Нууц үгэнд эхний болон/эсвэл төгсгөлийн зай агуулагдана"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/password_check.inc:3
-#, fuzzy
 msgid "Password must contain at least %s characters"
-msgstr "Нууц үгүүд дор хаяж %s тэмдэгтүүдээс тогтсон байх ёстой."
+msgstr ". Нууц үг дор хаяж %s тэмдэгтүүдтэй байх ёстой."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/password_check.inc:3
-#, fuzzy
 msgid "Password must contain at least %s characters, including UPPERCASE, lowercase and numbers"
-msgstr "Нууц үгүүд дор хаяж %s тэмдэгтүүдээс тогтсон байх ёстой."
+msgstr "Нууц үг нь хамгийн багадаа %s тэмдэгт агуулсан байх ёстой, үүнд ТОМ, жижиг үсэг, тоо орно"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/password_check.inc:3
-#, fuzzy
 msgid "Please enter the same password as above"
-msgstr "Өөрийн ашиглагчийн нэр болон нууц үгийг оруулна уу:"
+msgstr "Дээрхтэй ижил нууц үг оруулна уууулна уу:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-article-requests.inc:7
 #, fuzzy, c-format
@@ -11969,7 +11965,7 @@ msgstr "1-4 Бичлэгийн хэмжээ"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:281
 #, c-format
 msgid "TOC"
-msgstr ""
+msgstr "TOC"
 
 #. TH
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-article-requests.inc:14
@@ -12368,9 +12364,9 @@ msgid "Sort 2:"
 msgstr "Asort2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:79
-#, fuzzy, c-format
+#, c-format
 msgid "Search type:"
-msgstr "Дараахийн хайх:"
+msgstr "хайлтын хэлбэр"
 
 #. INPUT type=button
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:95
@@ -12736,9 +12732,9 @@ msgstr "Барилтын дэлгэрэнгүй мэдээлэл"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:415
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:420
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:415
-#, fuzzy, c-format
+#, c-format
 msgid "or "
-msgstr "эсвэл"
+msgstr "эсвэл "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:31
 #, c-format
@@ -13223,9 +13219,9 @@ msgstr "Гарчгийн багцууд"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patroncards-toolbar.inc:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:367
-#, fuzzy, c-format
+#, c-format
 msgid "Images"
-msgstr "Зураг"
+msgstr "Зургууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patroncards-toolbar.inc:19
 #, fuzzy, c-format
@@ -15286,9 +15282,9 @@ msgstr "%s %s %s %s (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:132
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:58
-#, fuzzy, c-format
+#, c-format
 msgid "Download "
-msgstr "Татах"
+msgstr "Татаж авах "
 
 #. BUTTON
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:132
@@ -15363,15 +15359,15 @@ msgstr "Хамаарал"
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/includes/resort_form.inc:3
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:255
-#, fuzzy, c-format
+#, c-format
 msgid "Popularity"
-msgstr "Туйлшрал:"
+msgstr "түгээмэл байдал"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/resort_form.inc:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/resort_form.inc:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:257
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:259
-#, fuzzy, c-format
+#, c-format
 msgid "Popularity (most to least)"
 msgstr "Түгээмэл байдал (Хамгийн ихээс хамгийн бага)"
 
@@ -15379,7 +15375,7 @@ msgstr "Түгээмэл байдал (Хамгийн ихээс хамгийн 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/resort_form.inc:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:263
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:265
-#, fuzzy, c-format
+#, c-format
 msgid "Popularity (least to most)"
 msgstr "Түгээмэл байдал  (Хамгийн багаас хамгийн их)"
 
@@ -15403,22 +15399,22 @@ msgstr "Зохиогч(Я-A)"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/resort_form.inc:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:285
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:287
-#, fuzzy, c-format
+#, c-format
 msgid "Call number (0-9 to A-Z)"
-msgstr "Холбоо барих утас (Зохиол-бус 0-9 Зохиол A-Я)"
+msgstr "Дуудлагын дугаар А-Я-аас 0-9 хүртэл"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/resort_form.inc:42
 #: koha-tmpl/intranet-tmpl/prog/en/includes/resort_form.inc:44
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:291
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:293
-#, fuzzy, c-format
+#, c-format
 msgid "Call number (Z-A to 9-0)"
-msgstr "Холбоо барих утас(Зохиол Я-A to Зохиол-бус 9-0)"
+msgstr "Зохиогчийн тэмдэгт (Я-A  9-0)"
 
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/includes/resort_form.inc:49
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:296
-#, fuzzy, c-format
+#, c-format
 msgid "Dates"
 msgstr "Огноо"
 
@@ -15497,15 +15493,15 @@ msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISBN"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:28
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:30
-#, fuzzy, c-format
+#, c-format
 msgid "&nbsp;&nbsp;&nbsp;&nbsp; Corporate name"
-msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISBN"
+msgstr "&nbsp;&nbsp;&nbsp;&nbsp; байгууллагын нэр"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:33
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:35
-#, fuzzy, c-format
+#, c-format
 msgid "&nbsp;&nbsp;&nbsp;&nbsp; Conference name"
-msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISBN"
+msgstr "&nbsp;&nbsp;&nbsp;&nbsp; Хурлын нэр"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:38
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:40
@@ -15521,9 +15517,9 @@ msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISBN"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:48
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:50
-#, fuzzy, c-format
+#, c-format
 msgid "&nbsp;&nbsp;&nbsp;&nbsp; Personal name"
-msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISBN"
+msgstr "&nbsp;&nbsp;&nbsp;&nbsp; Хувь хүний нэр"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:53
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:55
@@ -15561,21 +15557,21 @@ msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISBN"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:84
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:86
-#, fuzzy, c-format
+#, c-format
 msgid "&nbsp;&nbsp;&nbsp;&nbsp; Subject and broader terms"
-msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISBN"
+msgstr "&nbsp;&nbsp;&nbsp;&nbsp; Сэдвийн болон ерөнхий нэр томъёо"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:89
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:91
-#, fuzzy, c-format
+#, c-format
 msgid "&nbsp;&nbsp;&nbsp;&nbsp; Subject and narrower terms"
-msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISBN"
+msgstr "&nbsp;&nbsp;&nbsp;&nbsp; Сэдвийн нарийвчилсан нэр томъёо"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:94
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:96
-#, fuzzy, c-format
+#, c-format
 msgid "&nbsp;&nbsp;&nbsp;&nbsp; Subject and related terms"
-msgstr "&nbsp;&nbsp;&nbsp;&nbsp; ISBN"
+msgstr "&nbsp;&nbsp;&nbsp;&nbsp; Сэдэв болон холбогдох нэр томъёо"
 
 #. OPTION
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:105
@@ -15595,9 +15591,9 @@ msgstr "Дугаарлах тооцоолол"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:119
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/search.tt:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/search.tt:40
-#, fuzzy, c-format
+#, c-format
 msgid "Standard number"
-msgstr "Картындугаар"
+msgstr "Стандарт Дугаар"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:123
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:125
@@ -15638,13 +15634,13 @@ msgstr "Санамжууд/Сэтгэгдлүүд"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:159
 #, c-format
 msgid "Curriculum"
-msgstr ""
+msgstr "Сургалтын төлөвлөгөө"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:168
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:170
-#, fuzzy, c-format
+#, c-format
 msgid "Publisher location"
-msgstr "Хэвлэл:"
+msgstr "Хэвлэн нийтлэгчийн байршил"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:180
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:182
@@ -15678,23 +15674,23 @@ msgstr "Хүрэлцэн ирсэн"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:3
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:177
-#, fuzzy, c-format
+#, c-format
 msgid "Circulating"
-msgstr "Түгээлт"
+msgstr "Ном олголт"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:4
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:181
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:184
-#, fuzzy, c-format
+#, c-format
 msgid "Out for binding"
-msgstr "Онцгой"
+msgstr "Холбох гэж байна"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:188
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:191
-#, fuzzy, c-format
+#, c-format
 msgid "Bound"
-msgstr "Фонд "
+msgstr "Хязгаар"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:195
@@ -15721,43 +15717,43 @@ msgstr "Байхгүй байна"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:372
 #, c-format
 msgid "Missing (never received)"
-msgstr ""
+msgstr "дутсан (огт ирээгүй)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:210
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:212
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:375
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:377
-#, fuzzy, c-format
+#, c-format
 msgid "Missing (sold out)"
-msgstr "Байхгүй байгаа дугаарууд"
+msgstr "дутсан (зарагдсан)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:215
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:217
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:380
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:382
-#, fuzzy, c-format
+#, c-format
 msgid "Missing (damaged)"
-msgstr "Параметрүүд"
+msgstr "дутсан (гэмтсэн)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:220
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:222
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:385
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:387
-#, fuzzy, c-format
+#, c-format
 msgid "Missing (lost)"
-msgstr "Байхгүй байна"
+msgstr "дутсан (алга болсон)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:230
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:232
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:395
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:397
-#, fuzzy, c-format
+#, c-format
 msgid "Not available"
-msgstr "Дараагийн бэлэн байгаа"
+msgstr "Боломжгүй"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:225
@@ -15771,9 +15767,9 @@ msgstr "Заргалдсан"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:240
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:405
-#, fuzzy, c-format
+#, c-format
 msgid "Stopped"
-msgstr "Аравдугаар сар"
+msgstr "Зогссон"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-advsearch.inc:9
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-search.inc:13
@@ -15863,9 +15859,9 @@ msgid "Expires before:"
 msgstr "Дараахиас өмнө хугацаа дуусна:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-menu.inc:6
-#, fuzzy, c-format
+#, c-format
 msgid "Serial collection"
-msgstr "Цуглуулгыг сонгох"
+msgstr "цувралын сан хөмрөг"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-menu.inc:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:26
@@ -17490,9 +17486,9 @@ msgstr "Гарчгийн өндөр:"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:117
-#, fuzzy, c-format
+#, c-format
 msgid "Link"
-msgstr "Холбоос:"
+msgstr "Холбоос"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -18763,7 +18759,7 @@ msgstr "Насанд хүрсэн"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:36
 #, c-format
 msgid "Specialized"
-msgstr ""
+msgstr "Мэргэшсэн"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:44
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:46
@@ -18785,9 +18781,9 @@ msgstr "Уран зохиол"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:63
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:65
-#, fuzzy, c-format
+#, c-format
 msgid "Non-fiction"
-msgstr "зохиол"
+msgstr "баримтат зохиол"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:68
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:70
@@ -18857,7 +18853,7 @@ msgstr "DVD видео / Видео диск"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:131
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:133
-#, fuzzy, c-format
+#, c-format
 msgid "CD software"
 msgstr "CD Програм хангамж"
 
@@ -18893,9 +18889,9 @@ msgstr "Каталогууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:165
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:167
-#, fuzzy, c-format
+#, c-format
 msgid "Encyclopedias "
-msgstr "нэвтэрхий толь"
+msgstr "нэвтэрхий толь "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:170
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:172
@@ -18989,9 +18985,9 @@ msgstr "Хуулийн илтгэлүүд ба товхимлууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:250
 #: koha-tmpl/intranet-tmpl/prog/en/includes/subtype_limits.inc:252
-#, fuzzy, c-format
+#, c-format
 msgid "Treaties "
-msgstr "гэрээнүүд"
+msgstr "Гэрээнүүд "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/suggestions-add-search.inc:11
 #: koha-tmpl/intranet-tmpl/prog/en/includes/suggestions-add-search.inc:34
@@ -19116,9 +19112,9 @@ msgstr "Болзолт огноо"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:45
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:71
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:93
-#, fuzzy, c-format
+#, c-format
 msgid "Tags"
-msgstr "Таагууд:"
+msgstr "Хаягууд:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/tools-menu.inc:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/picture-upload.tt:30
@@ -19354,99 +19350,85 @@ msgstr "%s рүү буцаана уу"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
-#, fuzzy
 msgid "Please enter a valid URL."
-msgstr "%s рүү буцаана уу"
+msgstr "Хүчинтэй URL хаяг оруулна уу."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
-#, fuzzy
 msgid "Please enter a valid date (ISO)."
-msgstr "%s рүү буцаана уу"
+msgstr "Хүчинтэй огноо (ISO) оруулна уу."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
-#, fuzzy
 msgid "Please enter a valid date."
-msgstr "%s рүү буцаана уу"
+msgstr "Хүчинтэй огноо оруулна уу."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
-#, fuzzy
 msgid "Please enter a valid email address."
-msgstr "Таны үйлчлүүлэгчийн үндсэн хаягийг оруулах."
+msgstr "Хүчинтэй имэйл хаяг оруулна уу."
 
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:299
-#, fuzzy
 msgid "Please enter a valid number."
-msgstr "Түрээсийн төлбөр нт тоо биш байна"
+msgstr "Хүчинтэй дугаар оруулна уу."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
-#, fuzzy
 msgid "Please enter a valid phone number."
-msgstr "Түрээсийн төлбөр нт тоо биш байна"
+msgstr "Хүчинтэй утасны дугаар оруулна уу.:"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
 msgid "Please enter a value between {0} and {1} characters long."
-msgstr ""
+msgstr "{0}-с {1} (хоорондох) тэмдэгтийн урттай утгыг оруулна уу."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
 msgid "Please enter a value between {0} and {1}."
-msgstr ""
+msgstr "{0} болон {1} хооронд утгыг оруулна уу."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
-#, fuzzy
 msgid "Please enter a value greater than or equal to {0}."
-msgstr "- Барилт хийхийн тул зүйлийг сонгоно уу\\n"
+msgstr "{0}-с их буюу тэнцүү утгыг оруулна уу."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
-#, fuzzy
 msgid "Please enter a value less than or equal to {0}."
-msgstr "- Барилт хийхийн тул зүйлийг сонгоно уу\\n"
+msgstr "{0}-с бага буюу тэнцүү утгыг оруулна уу."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
-#, fuzzy
 msgid "Please enter at least {0} characters."
-msgstr "Нууц үгүүд дор хаяж %s тэмдэгтүүдээс тогтсон байх ёстой."
+msgstr "Зөвхөн цифр оруулна уу."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
-#, fuzzy
 msgid "Please enter no more than {0} characters."
-msgstr "Нууц үгүүд дор хаяж %s тэмдэгтүүдээс тогтсон байх ёстой."
+msgstr "{0}-с илүүгүй тэмдэгт оруулна уу."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
-#, fuzzy
 msgid "Please enter only digits."
-msgstr "%s рүү буцаана уу"
+msgstr "Зөвхөн цифр оруулна уу."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
-#, fuzzy
 msgid "Please enter the same value again."
-msgstr "%s рүү буцаана уу"
+msgstr "ижил утгыг дахин оруулна уу."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
-#, fuzzy
 msgid "Please fix this field."
-msgstr "Энэ цлнхыг хаах."
+msgstr "Энэ талбарыг засна уу."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/validator-strings.inc:2
-#, fuzzy
 msgid "This field is required."
-msgstr "Хүлээгдэж байгаа барилтууд:"
+msgstr "Энэ талбар шаардлагатай."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:4
 #, fuzzy, c-format
@@ -19526,9 +19508,9 @@ msgstr "# Ном зүйнүүд"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:64
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/downloadcart.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/downloadshelf.tt:43
-#, fuzzy, c-format
+#, c-format
 msgid "CSV - %s"
-msgstr "%s - %s"
+msgstr "CSV - %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/virtualshelves-toolbar.inc:43
 #, fuzzy, c-format
@@ -19608,9 +19590,9 @@ msgstr "Шинэ номын сан"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_stats.tt:168
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:229
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:264
-#, fuzzy, c-format
+#, c-format
 msgid "Shelving location"
-msgstr "Дугаарлах тооцоолол"
+msgstr "Тавиурын байршил"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/waiting_holds.inc:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:211
@@ -19646,37 +19628,37 @@ msgstr "Нэмэлт програм:"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/xslt-handler.inc:3
 #, c-format
 msgid "No XSLT file passed."
-msgstr ""
+msgstr "Дамжуулагдсан XSLT файл байхгүй байна."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/xslt-handler.inc:5
-#, fuzzy, c-format
+#, c-format
 msgid "XSLT file not found."
-msgstr "Бичлэг олдсонгүй"
+msgstr "XSLT файл олдсонгүй"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/xslt-handler.inc:7
-#, fuzzy, c-format
+#, c-format
 msgid "Error while loading stylesheet."
-msgstr "Зүйлсийг нэмэх үеийн алдаа:"
+msgstr "Загвар хуудсыг ачаалах явцад алдаа гарлаа."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/xslt-handler.inc:9
-#, fuzzy, c-format
+#, c-format
 msgid "Error while parsing stylesheet."
-msgstr "Зүйлсийг нэмэх үеийн алдаа:"
+msgstr "Загвар хуудсыг хэлзүйн талаас нь шинжлэх явцад алдаа гарлаа"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/xslt-handler.inc:11
-#, fuzzy, c-format
+#, c-format
 msgid "Error while parsing input."
-msgstr "Зүйлийг хадгалах үеийн алдаа"
+msgstr "Оролтыг хэлзүйн талаас нь шинжлэх явцад алдаа гарлаа"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/xslt-handler.inc:13
-#, fuzzy, c-format
+#, c-format
 msgid "Error while transforming input."
-msgstr "Зүйлсийг нэмэх үеийн алдаа:"
+msgstr "Оролтыг хувиргах явцад алдаа гарлаа"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/xslt-handler.inc:15
-#, fuzzy, c-format
+#, c-format
 msgid "No string to transform."
-msgstr "Түгээлтийн дамжуулалтууд"
+msgstr "Хувиргах мөр байхгүй."
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/z3950-admin-search.inc:8
@@ -23161,7 +23143,7 @@ msgstr "Захиалгыг нэмэх"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:350
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/housebound.tt:240
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:159
-#, fuzzy, c-format
+#, c-format
 msgid "Save changes"
 msgstr "Өөрчлөлтүүдийг хадгалах"
 
@@ -25468,7 +25450,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/modordernotes.tt:51
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep3.tt:88
-#, fuzzy, c-format
+#, c-format
 msgid "Note:"
 msgstr "Санамжууд:"
 
@@ -26840,9 +26822,9 @@ msgstr "Тайлбар:  %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:404
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:540
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:627
-#, fuzzy, c-format
+#, c-format
 msgid "Phone: "
-msgstr "Утас"
+msgstr "Утас "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:106
@@ -26859,7 +26841,7 @@ msgstr "Орлуулах хаяг"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:530
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:155
-#, fuzzy, c-format
+#, c-format
 msgid "Fax: "
 msgstr "Факс: "
 
@@ -29807,9 +29789,9 @@ msgstr "%s Бүтэц"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/koha2marclinks.tt:48
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:86
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:267
-#, fuzzy, c-format
+#, c-format
 msgid "Tag"
-msgstr "Таагууд:"
+msgstr "Хаяг"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_tag_structure.tt:266
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:268
@@ -31827,7 +31809,7 @@ msgstr "Хугацаа хэтрэлүүд"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:571
 #, c-format
 msgid "Messaging"
-msgstr "Иэдээлэх"
+msgstr "Мэдээлэх"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:575
 #, fuzzy, c-format
@@ -34195,7 +34177,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:142
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:306
-#, fuzzy, c-format
+#, c-format
 msgid "cardnumber"
 msgstr "Картындугаар"
 
@@ -34207,9 +34189,9 @@ msgstr "Нэмж байна"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:142
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:306
-#, fuzzy, c-format
+#, c-format
 msgid "userid"
-msgstr ". Ашиглагч"
+msgstr "хэрэглэгчийн ID"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:145
 #, fuzzy, c-format
@@ -34642,9 +34624,9 @@ msgstr "%s бичлэгүүд файлаар байна"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:153
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:115
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:84
-#, fuzzy, c-format
+#, c-format
 msgid "Item type: "
-msgstr "Зүйлийн төрөл:"
+msgstr "Зүйлийн төрөл: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:168
 #, fuzzy, c-format
@@ -35610,7 +35592,7 @@ msgstr "Импортлох"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:379
 #, c-format
 msgid "See also:"
-msgstr ""
+msgstr "мөн үзнэ үү:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:53
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:121
@@ -39290,9 +39272,9 @@ msgstr "Хайхыг хүсэж байгаа томьёололуудаа ору
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:96
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:97
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/access_files.tt:37
-#, fuzzy, c-format
+#, c-format
 msgid "Error: "
-msgstr "Алдаа:"
+msgstr "Алдаа: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:60
 #, fuzzy, c-format
@@ -39332,9 +39314,9 @@ msgid "Your password has expired!"
 msgstr "Таны нууц үгийн хугацаа дууссан!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:83
-#, fuzzy, c-format
+#, c-format
 msgid "You must contact the library to reset your password"
-msgstr "Та нууц үгээ өөрчилж чадахгүй."
+msgstr "Нууц үгээ шинэчлэхийн тулд номын сантай холбоо барина уу"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:86
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/auth.tt:46
@@ -39399,7 +39381,7 @@ msgstr "Каталогчлох"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:190
 #, c-format
 msgid "Sorry, the CAS login failed."
-msgstr ""
+msgstr "Уучлаарай, CAS-д нэвтэрч чадсангүй. Хэрэв танд дотоод нэвтрэлт байгаа бол доороос үүнийг ашиглаж болно."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:194
 #, fuzzy, c-format
@@ -39409,7 +39391,7 @@ msgstr "Материалын кафе "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:198
 #, c-format
 msgid "If you have a CAS account, please choose against which one you would like to authenticate:"
-msgstr ""
+msgstr "Хэрэв танд CAS данс байгаа бол баталгаажуулахыг хүсч байгаагаа сонгоно уу:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:212
 #, fuzzy, c-format
@@ -39930,14 +39912,14 @@ msgid "Batch delete"
 msgstr "Устгагдсан өгөгдөл"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:47
-#, fuzzy, c-format
+#, c-format
 msgid "Your cart"
-msgstr "Таны сагс хоосон байна."
+msgstr "Таны сагс."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:51
-#, fuzzy, c-format
+#, c-format
 msgid "Brief display"
-msgstr "Үзүүлэх"
+msgstr "Товч дэлгэц"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:53
 #, c-format
@@ -39960,23 +39942,23 @@ msgstr "Татах форматыг сонгох: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:69
 #, c-format
 msgid "Empty and close"
-msgstr ""
+msgstr "Хоосон, хаалттай"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:70
-#, fuzzy, c-format
+#, c-format
 msgid "Hide window"
-msgstr "Цонхыг хаах"
+msgstr "Цонхыг нуух"
 
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:316
 msgid "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.au=%s&rft.btitle=%s&rft.date=%s&rft.tpages=%s&rft.isbn=%s&rft.aucorp=&rft.place=%s&rft.pub=%s&rft.edition=%s&rft.series=%s&rft.genre="
-msgstr ""
+msgstr "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.au=%s&rft.btitle=%s&rft.date=%s&rft.tpages=%s&rft.isbn=%s&rft.aucorp=&rft.place=%s&rft.pub=%s&rft.edition=%s&rft.series=%s&rft.genre="
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:96
-#, fuzzy, c-format
+#, c-format
 msgid "Author(s)"
-msgstr "Зохиогч"
+msgstr "Зохиогчид"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:139
 #, c-format
@@ -40014,9 +39996,9 @@ msgid "URL(s)"
 msgstr "URL(үүд)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:229
-#, fuzzy, c-format
+#, c-format
 msgid "In"
-msgstr "Лого"
+msgstr "нд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:241
 #, fuzzy, c-format
@@ -40166,9 +40148,9 @@ msgid "The record you requested does not exist (%s)."
 msgstr "Үйлчлүүлэгч алга байна "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:41
-#, fuzzy, c-format
+#, c-format
 msgid "MARC details"
-msgstr "Илүү дэлгэрэнгүй мэдээлэл"
+msgstr "MARC дэлгэрэнгүй"
 
 #. %1$s:  biblionumber | html 
 #. %2$s:  bibliotitle | html 
@@ -40223,9 +40205,9 @@ msgid "Search using filter"
 msgstr "Дараахийн хайх:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:89
-#, fuzzy, c-format
+#, c-format
 msgid "Fewer options"
-msgstr "Бусад сонголтууд"
+msgstr "Цөөн сонголт"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:96
 #, fuzzy, c-format
@@ -40291,14 +40273,14 @@ msgid "See from (non-preferred form) headings are included "
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:225
-#, fuzzy, c-format
+#, c-format
 msgid "Something else"
-msgstr "Бичлэг тааруулах дүрмүүд"
+msgstr "өөр нэг зүйл"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:234
-#, fuzzy, c-format
+#, c-format
 msgid "Limit to any of the following:"
-msgstr "Төрлийг дараахиар хязгаарлах: Дараахийн аль нэгийг тааруулах:"
+msgstr "дараахийн алинд ч хязгаарлах:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:279
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:150
@@ -40356,9 +40338,9 @@ msgid "Groups of libraries: "
 msgstr "Номын сангуудын бүлэг "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:355
-#, fuzzy, c-format
+#, c-format
 msgid "-- none -- "
-msgstr "-- нэг ч үгүй -- "
+msgstr "-- аль нь ч биш -- "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:376
 #, fuzzy, c-format
@@ -40468,29 +40450,29 @@ msgstr "%s импортлогдсон бичлэгүүд"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:404
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:490
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:492
-#, fuzzy, c-format
+#, c-format
 msgid "Local cover image"
-msgstr "Хавтасны зургууд бэлэн биш байна"
+msgstr "Дотоод хавтасны зургууд"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:232
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:233
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:501
-#, fuzzy, c-format
+#, c-format
 msgid "Amazon cover image"
-msgstr "Хавтасны зургууд бэлэн биш байна"
+msgstr "Амазон дахь хавтасны зураг"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:235
 #, c-format
 msgid "Image from Amazon.com"
-msgstr ""
+msgstr "Зургийг Amazon.com-с харах"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:243
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:247
-#, fuzzy, c-format
+#, c-format
 msgid "Image from Coce"
-msgstr "Зураг "
+msgstr "Кок (Coce сервер)-ийн зураг"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:245
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:260
@@ -40501,14 +40483,14 @@ msgstr "Хавтасны зургууд бэлэн биш байна"
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:254
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:511
-#, fuzzy, c-format
+#, c-format
 msgid "Syndetics cover image"
-msgstr "'Үйлчлүүлэгчийн зургуудыг серверт хуулах'-г сонгох"
+msgstr "Syndetics-ээс татсан хавтасны зураг"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:257
-#, fuzzy, c-format
+#, c-format
 msgid "Image from Syndetics"
-msgstr "Зураг"
+msgstr "Иш таталтын систем (Syndetics)-ийн зураг"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -40518,9 +40500,9 @@ msgstr "Зураг"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1483
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:533
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:535
-#, fuzzy, c-format
+#, c-format
 msgid "Custom cover image"
-msgstr "Хавтасны зургууд бэлэн биш байна"
+msgstr "Тохирсон хавтасны зураг"
 
 #. %1$s:  Branches.GetLoggedInBranchname | html 
 #. %2$s:  itemloop.size() || 0 | html 
@@ -40554,9 +40536,9 @@ msgstr "Тайлбар:  %s"
 
 #. %1$s:  ComponentParts.size | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:303
-#, fuzzy, c-format
+#, c-format
 msgid "Components (%s)"
-msgstr "Сэтгэгдлүүд"
+msgstr "Бүрэлдэхүүнүүд (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:305
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:93
@@ -40589,9 +40571,9 @@ msgid "Images (%s)"
 msgstr "Зураг"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:315
-#, fuzzy, c-format
+#, c-format
 msgid "Play media"
-msgstr "мултьмедиа"
+msgstr "медиаг тоглуул"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:318
 #, fuzzy, c-format
@@ -40626,9 +40608,9 @@ msgid "Remove from item group"
 msgstr "SQL-с тайлан үүсгэх"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:353
-#, fuzzy, c-format
+#, c-format
 msgid "Cover image"
-msgstr "Алсын зураг:"
+msgstr "Хавтасны зураг"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:360
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:676
@@ -40863,9 +40845,9 @@ msgstr "Үзүүлэх"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:692
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:724
-#, fuzzy, c-format
+#, c-format
 msgid "Novelist Select: "
-msgstr "Төсөв устгагдсан"
+msgstr "Зохиогчийг сонгох: "
 
 #. For the first occurrence,
 #. %1$s:  hiddencount | html 
@@ -40891,9 +40873,9 @@ msgid "serial"
 msgstr "Цуврал"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:715
-#, fuzzy, c-format
+#, c-format
 msgid "Holdings:"
-msgstr "Барилтууд"
+msgstr "Захиалгууд:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:718
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:162
@@ -40902,20 +40884,20 @@ msgid "No physical items for this record"
 msgstr "Энэ бичлэгт зориулсан биет зүйлс алга"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:735
-#, fuzzy, c-format
+#, c-format
 msgid "No other items."
-msgstr "Зүйлс алга"
+msgstr "өөр баримт алга"
 
 #. %1$s:  ComponentParts.size | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:772
 #, c-format
 msgid "Only %s results are shown: "
-msgstr ""
+msgstr "Зөвхөн %s үр дүнгүүд харагдаж байна: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:772
-#, fuzzy, c-format
+#, c-format
 msgid "show all component parts"
-msgstr "Каталог хайх:&nbsp;"
+msgstr "бүх бүрэлдэхүүн хэсгүүдийг харуулах"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:782
 #, fuzzy, c-format
@@ -40930,14 +40912,14 @@ msgstr "Энэ ном зүйд холбогдсон ямар нэг захиал
 
 #. %1$s:  Branches.GetName(subscription.branchcode) || subscription.branchcode | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:786
-#, fuzzy, c-format
+#, c-format
 msgid "At library: %s"
-msgstr "Бүх номын сангууд"
+msgstr "%s номын санд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:788
-#, fuzzy, c-format
+#, c-format
 msgid "This subscription is closed."
-msgstr "Энэ захиалга %s-д хугацаа нь дуусна"
+msgstr "Энэ захиалга хаагдсан."
 
 #. %1$s:  AuthorisedValues.GetDescriptionByKohaField( kohafield => 'items.location', authorised_value => subscription.location ) | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:789
@@ -40953,9 +40935,9 @@ msgstr "Холбоо барих утас:"
 
 #. %1$s:  subscription.missinglist | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:792
-#, fuzzy, c-format
+#, c-format
 msgid "Missing issues: %s "
-msgstr "Байхгүй байгаа дугаарууд"
+msgstr "дутсан дугаарууд: %s "
 
 #. %1$s:  subscription.staffdisplaycount | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:795
@@ -41410,7 +41392,7 @@ msgstr "Коха-н өөр хэсэг рүү очихын тул дээд цэс
 #: koha-tmpl/intranet-tmpl/prog/en/modules/errors/errorpage.tt:39
 #, c-format
 msgid "What's next?"
-msgstr ""
+msgstr "Дараагийх нь юу вэ?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1829
@@ -41540,7 +41522,7 @@ msgstr "Энэ сонголборуудын талаарх дэлгэрэнгү�
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:277
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:279
 msgid "Thumbnail"
-msgstr ""
+msgstr "жижиг/дүрс/ зураг"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:104
 #, fuzzy, c-format
@@ -41644,9 +41626,9 @@ msgstr "Үйлчлүүлэгч юу ч аваагүй байна."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:130
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/showpredictionpattern.tt:34
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:387
-#, fuzzy, c-format
+#, c-format
 msgid "Publication date"
-msgstr "Хэвлэлтийн огноо 2"
+msgstr "Нийтэлсэн огноо"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:15
 #, fuzzy, c-format
@@ -41665,9 +41647,9 @@ msgid "All item types"
 msgstr "Бүх зүйлийн төрлүүд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:26
-#, fuzzy, c-format
+#, c-format
 msgid "All collections"
-msgstr "Цуглуулга"
+msgstr "Бүх цуглуулгууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:32
 #, fuzzy, c-format
@@ -41926,9 +41908,9 @@ msgstr "Анхдагч бүтэц"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:35
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_out.tt:138
-#, fuzzy, c-format
+#, c-format
 msgid "Item details"
-msgstr "Илүү дэлгэрэнгүй мэдээлэл"
+msgstr "Зүйлийн дэлгэрэнгүй"
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:45
@@ -42001,9 +41983,9 @@ msgid "No. of items:"
 msgstr "Зүйлс алга"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:88
-#, fuzzy, c-format
+#, c-format
 msgid "Show all items"
-msgstr "Бүх зүйлсийн тоо"
+msgstr "Бүх зүйлийг харуулах"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:97
 #, c-format
@@ -42068,9 +42050,9 @@ msgstr "SMS дугаар:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:146
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:136
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_add_items.tt:83
-#, fuzzy, c-format
+#, c-format
 msgid "Shelving location:"
-msgstr "Дугаарлах тооцоолол"
+msgstr "Тавиурын байршил"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:154
 #, fuzzy, c-format
@@ -42326,7 +42308,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:123
 #, c-format
 msgid "Highlight"
-msgstr ""
+msgstr "Тодруулах"
 
 #. For the first occurrence,
 #. %1$s:  INCLUDE 'patron-title.inc' patron => holdfor_patron no_title => 1 no_cardnumber => 1 
@@ -45419,9 +45401,9 @@ msgid "Curbside pickups are not enabled for your library. "
 msgstr "Таны нэмж байгаа төлбөрт холбоотой мэдээллийг оруулах"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:109
-#, fuzzy, c-format
+#, c-format
 msgid "The curbside pickup feature is not enabled for this library."
-msgstr "Энэ зүйлд сэтгэгдэл алга байна."
+msgstr "ISBD үүл зөвшөөрөгдөөгүй байна."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:111
 #, fuzzy, c-format
@@ -45429,9 +45411,9 @@ msgid "Cannot create a curbside pickup for this day, it is a holiday."
 msgstr "Энэ баярыг үл тооцох"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:113
-#, fuzzy, c-format
+#, c-format
 msgid "This patron does not have waiting holds."
-msgstr "Үйлчлүүлэгч алга байна"
+msgstr "Энэ зүйл таны сагсанд аль хэдийн байна"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:115
 #, fuzzy, c-format
@@ -45439,20 +45421,20 @@ msgid "This patron already has a scheduled pickup for this library."
 msgstr "Энэ зүйлд сэтгэгдэл алга байна."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:117
-#, fuzzy, c-format
+#, c-format
 msgid "Wrong slot selected."
-msgstr "Зүйл сонгогдоогүй байна"
+msgstr "Устгагдсан өгөгдөл"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:119
 #, c-format
 msgid "There are no more pickups available for this slot. Please choose another one."
-msgstr ""
+msgstr "Энэ слотод авах боломжтой пикап байхгүй байна. Өөрийг сонгоно уу."
 
 #. %1$s:  INCLUDE 'patron-title.inc' patron=m.patron 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:121
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to check the items out to %s"
-msgstr "Үйлчлүүлэгч алга байна"
+msgstr "%s зүйлсийг шалгах боломжгүй байна"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:131
 #, c-format
@@ -45634,15 +45616,13 @@ msgstr "Үйлчлүүлэгчийн шинж тэмдгийн төрлийг у
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:516
-#, fuzzy
 msgid "No pickup time defined for this day."
-msgstr "Одоохондоо тодорхойлогдоогүй "
+msgstr "Энэ өдөр авах цаг тодорхойлогдоогүй байна."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:516
-#, fuzzy
 msgid "Please select a date and a pickup time"
-msgstr "- Барилт хийхийн тул зүйлийг сонгоно уу\\n"
+msgstr "Огноо болон авах цагаа сонгоно уу"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:516
@@ -45734,9 +45714,9 @@ msgstr "Хугацаа хэтрэлүүд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:71
-#, fuzzy, c-format
+#, c-format
 msgid "email"
-msgstr "Цахим шуудан"
+msgstr "email"
 
 #. %1$s:  INCLUDE 'biblio-title.inc' biblio=overdueloo link = 1 
 #. %2$s:  IF ( overdueloo.author ) 
@@ -46267,9 +46247,9 @@ msgid "Digital scan"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:181
-#, fuzzy, c-format
+#, c-format
 msgid "Pickup library:"
-msgstr "Дараахьд авах:"
+msgstr "очих номын сан:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:199
 #, fuzzy, c-format
@@ -47612,7 +47592,7 @@ msgstr "Тодорхойлогдсон принтерүүд алга"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:224
 #, c-format
 msgid "Clubs"
-msgstr ""
+msgstr "Клубууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs.tt:127
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs.tt:129
@@ -47654,14 +47634,14 @@ msgid "Unable to delete template!"
 msgstr "Үйлчлүүлэгчийг устгаж чадахгүй байна"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-clubs-tab.tt:4
-#, fuzzy, c-format
+#, c-format
 msgid "Clubs currently enrolled in"
-msgstr "Зүйл хязгаарлагдсан"
+msgstr "...-д одоогоор клубууд хамрагдсан"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-clubs-tab.tt:11
-#, fuzzy, c-format
+#, c-format
 msgid "Date enrolled"
-msgstr "Файлд оруулагдсан огноо"
+msgstr "Бүртгүүлсэн огноо"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-clubs-tab.tt:25
 #, fuzzy, c-format
@@ -47669,9 +47649,9 @@ msgid "Modify enrollment "
 msgstr "Принтерийг өөрчлөх"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-clubs-tab.tt:28
-#, fuzzy, c-format
+#, c-format
 msgid "Cancel enrollment "
-msgstr "Элсэлтийн хураамж: "
+msgstr "Элсэлтийг цуцлах "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-clubs-tab.tt:40
 #, fuzzy, c-format
@@ -47679,25 +47659,24 @@ msgid "Clubs not enrolled in"
 msgstr "Элсэлтийн хураамж: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-clubs-tab.tt:59
-#, fuzzy, c-format
+#, c-format
 msgid "Enroll "
-msgstr "Элсэлтийн хураамж:"
+msgstr "Бүртгэх "
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-clubs-tab.tt:69
-#, fuzzy
 msgid "Unable to cancel enrollment!"
-msgstr "Үйлчлүүлэгчийг устгаж чадахгүй байна"
+msgstr "Бүртгэлийг цуцлах боломжгүй!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-enroll.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "Enroll in "
-msgstr "Элсэлтийн хураамж:"
+msgstr "Бүртгүүлэх "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-enroll.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "Finish enrollment"
-msgstr "%S (Хүлээж авах үедээ бөглөх)"
+msgstr "Бүртгэл дууссан"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-enroll.tt:64
@@ -47707,9 +47686,8 @@ msgstr "%S (Хүлээж авах үедээ бөглөх)"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-enroll.tt:64
-#, fuzzy
 msgid "Unable to create enrollment!"
-msgstr "Үйлчлүүлэгчийг устгаж чадахгүй байна"
+msgstr "Бүртгэл үүсгэх боломжгүй!"
 
 #. For the first occurrence,
 #. %1$s:  club_template.name | html | $HtmlTags tag="em" 
@@ -48110,15 +48088,15 @@ msgstr "Дугаарын дугаарлал"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:82
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-reserves.tt:53
-#, fuzzy, c-format
+#, c-format
 msgid "Section"
-msgstr "Үйлдэл"
+msgstr "Хэсэг"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-reserves.tt:55
-#, fuzzy, c-format
+#, c-format
 msgid "Instructors"
-msgstr "Захиргаа"
+msgstr "Зааварлагчид"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:93
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:115
@@ -48159,14 +48137,14 @@ msgid "Item information is not available for record-level course reserve"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:263
-#, fuzzy, c-format
+#, c-format
 msgid "Item URI"
-msgstr "Зүйл %s"
+msgstr "Зүйлийн URL"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:265
-#, fuzzy, c-format
+#, c-format
 msgid "Record URL"
-msgstr "%s бичлэгүүд"
+msgstr "Бичлэгийн URL"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:317
@@ -48212,19 +48190,19 @@ msgid "New course"
 msgstr "Шинэ мөнгөний төрөл"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-reserves.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "Courses"
-msgstr "Цагууд:"
+msgstr "Сургалтууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-reserves.tt:51
 #, c-format
 msgid "Dept."
-msgstr ""
+msgstr "Салбар."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-reserves.tt:52
-#, fuzzy, c-format
+#, c-format
 msgid "Course #"
-msgstr "Холбоо барих мэдээлэл"
+msgstr "Сургалт #"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-reserves.tt:58
 #, fuzzy, c-format
@@ -48266,9 +48244,9 @@ msgid "%sEdit course%sCreate course%s"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:66
-#, fuzzy, c-format
+#, c-format
 msgid "Department:"
-msgstr "Төлбөрүүд"
+msgstr "Салбар:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:68
 #, fuzzy, c-format
@@ -48276,14 +48254,14 @@ msgid "Select a department"
 msgstr "Локал өгөгдлийн сангуудыг сонгох"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:82
-#, fuzzy, c-format
+#, c-format
 msgid "Course number:"
-msgstr "Дугаарын дугаарлал"
+msgstr "Сургалтын дугаар:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:88
-#, fuzzy, c-format
+#, c-format
 msgid "Section:"
-msgstr "Цуглуулга:"
+msgstr "Хэсэг:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:93
 #, fuzzy, c-format
@@ -48296,9 +48274,9 @@ msgid "No TERM authorised values found! Please create one or more authorised val
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:119
-#, fuzzy, c-format
+#, c-format
 msgid "Instructors:"
-msgstr "Захиргаа"
+msgstr "Зааварлагчид:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:130
 #, fuzzy, c-format
@@ -48372,9 +48350,9 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/errors/errorpage.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:361
-#, fuzzy, c-format
+#, c-format
 msgid "Send email"
-msgstr "Хоёрдогч тусламжийн материал "
+msgstr "Е-Майл илгээ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/errors/errorpage.tt:42
 #, c-format
@@ -48874,22 +48852,22 @@ msgstr "Бэлэн байдал"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:823
 #, c-format
 msgid "Displaying availability results"
-msgstr ""
+msgstr "Боломжит үр дүнг харуулж байна"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:842
 #, c-format
 msgid "If you can't find what you are looking for, you can "
-msgstr ""
+msgstr "Хэрэв та хайж буй бүтээлээ олоогүй ч та олж чадна? "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:844
 #, c-format
 msgid "continue creating your request"
-msgstr ""
+msgstr "Хүсэлтээ үргэлжлүүлэн үүсгэнэ үү"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:845
-#, fuzzy, c-format
+#, c-format
 msgid "cancel your request"
-msgstr "Лавлах"
+msgstr "Хүсэлтээ цуцлах."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/log/patron_notice.tt:3
 #, fuzzy, c-format
@@ -49564,7 +49542,7 @@ msgid "(requires sample libraries)"
 msgstr "Бүх номын сангууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:28
-#, fuzzy, c-format
+#, c-format
 msgid "Koha home"
 msgstr "Коха модуль:"
 
@@ -49576,9 +49554,9 @@ msgid "Posted on %s%s by "
 msgstr " %s тайлан нь гарсан"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:50
-#, fuzzy, c-format
+#, c-format
 msgid "Quote of the day"
-msgstr "Гарчиг алга "
+msgstr "өдрийн тоо хэмжээ, норм, квот"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:79
 #, fuzzy, c-format
@@ -51206,15 +51184,13 @@ msgstr "Та энэ зүйлийг устгахыг хүсэж байна уу?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:374
-#, fuzzy
 msgid "Filter paid transactions"
-msgstr "Шүүрийн байршил"
+msgstr "Төлөгдсөн баримтын гүйлгээг шүүх"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:374
-#, fuzzy
 msgid "Show all transactions"
-msgstr "тайлбар зураггүй"
+msgstr "бүх шилжүүлгийг харуулах"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:29
 #, fuzzy, c-format
@@ -51511,9 +51487,9 @@ msgid "Time:"
 msgstr "Үндсэн:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/housebound.tt:280
-#, fuzzy, c-format
+#, c-format
 msgid "Select a time"
-msgstr "Санамжийг сонгох:"
+msgstr "Номын санг сонгох:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/housebound.tt:283
 #, fuzzy, c-format
@@ -51752,13 +51728,13 @@ msgstr "Нууц үгүүд дор хаяж %s тэмдэгтүүдээс тог
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:163
 #, c-format
 msgid "Password must contain at least one digit, one lowercase and one uppercase."
-msgstr ""
+msgstr "Нууц үг нь дор хаяж нэг тэмдэгт, нэг жижиг, нэг том үсэг агуулсан байх ёстой."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member-password.tt:72
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:166
 #, c-format
 msgid "Password must not contain leading or trailing whitespaces."
-msgstr ""
+msgstr "Нууц үгэнд эхний болон хойно хоосон зай агуулагдах ёсгүй."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member-password.tt:75
 #, c-format
@@ -56495,9 +56471,9 @@ msgstr "Ангилалын код"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/bor_issues_top.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_out.tt:90
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_out.tt:191
-#, fuzzy, c-format
+#, c-format
 msgid "Limit to: "
-msgstr "Дараахиар хязгаарлах:"
+msgstr "Дараахиар хязгаарлах: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/bor_issues_top.tt:164
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/borrowers_out.tt:92
@@ -57423,9 +57399,9 @@ msgstr ""
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:395
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1536
-#, fuzzy, c-format
+#, c-format
 msgid "Schedule"
-msgstr "Гүйцэтгэх ажлуудын хуваарийг гаргах"
+msgstr "Хуваарь"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:397
@@ -58323,9 +58299,9 @@ msgstr "Очих номын сан:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:241
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:276
-#, fuzzy, c-format
+#, c-format
 msgid "Item call number"
-msgstr "Холбоо барих утас:"
+msgstr "Номын зохиогчийн тэмдэгтийн дугаар"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/issues_stats.tt:244
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:279
@@ -59033,9 +59009,9 @@ msgstr "Дараагийн бэлэн байгаа"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:657
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:701
-#, fuzzy, c-format
+#, c-format
 msgid "(Required)"
-msgstr "Шаардлагатай"
+msgstr "(Шаардлагатай)"
 
 #. I
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:663
@@ -60623,9 +60599,9 @@ msgid "The Mana Knowledge Base can be used to import subscription patterns submi
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:278
-#, fuzzy, c-format
+#, c-format
 msgid "here"
-msgstr "Дурын газар"
+msgstr "энд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:285
 #, fuzzy, c-format
@@ -62174,9 +62150,9 @@ msgstr "Хуудасны өргөн:"
 #. %1$s:  ELSE 
 #. %2$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/list.tt:80
-#, fuzzy, c-format
+#, c-format
 msgid "%sThis record has no items.%s "
-msgstr "%s бичлэгүүд файлаар байна"
+msgstr "%s энэ бичлэгт зүйл байхгүй.%s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/list.tt:82
 #, fuzzy, c-format
@@ -64925,9 +64901,9 @@ msgid "Use a barcode file"
 msgstr "%s бичлэгүүд файлаар байна"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:88
-#, fuzzy, c-format
+#, c-format
 msgid "Parameters"
-msgstr "Үндсэн параметрүүд"
+msgstr "Параметрүүд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:90
 #, fuzzy, c-format
@@ -66038,9 +66014,9 @@ msgid "First name:"
 msgstr "Файлын нэр:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:341
-#, fuzzy, c-format
+#, c-format
 msgid "Street number:"
-msgstr "SMS дугаар:"
+msgstr "Гудамжны дугаар:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:343
 #, fuzzy, c-format
@@ -67682,9 +67658,9 @@ msgid "Search term: "
 msgstr "Дараахийн хайх:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:176
-#, fuzzy, c-format
+#, c-format
 msgid "New search"
-msgstr "Хайх"
+msgstr "Шинэ хайлт"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:191
 #, fuzzy, c-format
@@ -68194,9 +68170,9 @@ msgid "%s Bibliographic record-level recall on "
 msgstr "Зүйлийн төрлийг нэмэх"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:376
-#, fuzzy, c-format
+#, c-format
 msgid "item"
-msgstr "Зүйлс алга"
+msgstr "Зүйл"
 
 #. %1$s:  END 
 #. %2$s:  ELSIF ( loopro.module == 'ACQUISITIONS' && loopro.action == 'ACQUISITION ORDER' && loopro.object ) 
@@ -68293,9 +68269,9 @@ msgstr "Шинэ жагсаалт руу нэмэх:"
 #. %1$s:  total | html 
 #. %2$s:  IF ( singleshelf ) 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:25
-#, fuzzy, c-format
+#, c-format
 msgid "Add %s items to %s"
-msgstr " %s-д зориулсан зүйлс алга"
+msgstr "Нэмэх %s зүйлсийг .... руу %s"
 
 #. %1$s:  ELSE 
 #. %2$s:  END 
@@ -68306,9 +68282,9 @@ msgstr "Шинэ жагсаалт руу нэмэх:"
 
 #. %1$s:  IF ( singleshelf ) 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:27
-#, fuzzy, c-format
+#, c-format
 msgid "Add to %s"
-msgstr "Жагсаалт рүү нэмэх:"
+msgstr "-д нэмэх %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:47
 #, c-format
@@ -68322,15 +68298,13 @@ msgstr "Жагсаалтыг сонгох"
 
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:53
-#, fuzzy
 msgid "Private lists"
-msgstr "Хувийн"
+msgstr "Хувийн жагсаалтууд"
 
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:60
-#, fuzzy
 msgid "Private lists shared with me"
-msgstr "Хувийн жагсаалт үгүй."
+msgstr "Надтай хуваалцсан хувийн жагсаалтууд"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:84
 #, fuzzy, c-format
