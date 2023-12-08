@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-10 21:07+0100\n"
+"POT-Creation-Date: 2023-12-08 03:05+0000\n"
 "PO-Revision-Date: 2022-05-01 10:50-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -10629,16 +10629,11 @@ msgstr "Skala kelabu"
 msgid "g- Land-based remote-sensing device"
 msgstr "Peranti penderiaan jarak jauh dari darat"
 
+#. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:114
 #, fuzzy
 msgid "g- Laserdisc"
-msgstr "Cakera laser"
-
-#. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:114
-#, fuzzy
-msgid "g- Laserdisc)"
 msgstr "Cakera laser"
 
 #. For the first occurrence,
@@ -18899,7 +18894,9 @@ msgid "Other classification: "
 msgstr "Klasifikasi lain"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:924
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:982
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:1042
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1220
 #, fuzzy, c-format
 msgid "Online resources: "
 msgstr "Sumber atas talian:"
@@ -20296,12 +20293,6 @@ msgstr "Khusus; "
 msgid "cg"
 msgstr "cg"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:982
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1220
-#, c-format
-msgid "Online access: "
-msgstr "Akses atas talian: "
-
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:1051
 #, c-format
 msgid "abcdefgijklnou"
@@ -21050,6 +21041,10 @@ msgstr "/cgi-bin/koha/opac-MARCdetail.pl?biblionumber="
 #~ msgid "OK"
 #~ msgstr "OK"
 
+#, c-format
+#~ msgid "Online access: "
+#~ msgstr "Akses atas talian: "
+
 #~ msgid "Source: "
 #~ msgstr "Sumber: "
 
@@ -21066,6 +21061,10 @@ msgstr "/cgi-bin/koha/opac-MARCdetail.pl?biblionumber="
 #, fuzzy
 #~ msgid "d- Digital storage"
 #~ msgstr "Penyimpanan/storan digital"
+
+#, fuzzy
+#~ msgid "g- Laserdisc)"
+#~ msgstr "Cakera laser"
 
 #, c-format
 #~ msgid "plugin for links &rsaquo; Cataloguing &rsaquo; Koha"

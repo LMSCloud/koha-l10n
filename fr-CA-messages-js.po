@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-23 03:06+0000\n"
+"POT-Creation-Date: 2023-12-08 03:05+0000\n"
 "PO-Revision-Date: 2023-11-25 03:01+0000\n"
 "Last-Translator: Caroline Cyr-La-Rose <caroline.cyr-la-rose@inlibro.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -85,7 +85,8 @@ msgid "Add"
 msgstr "Ajouter"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:201
-msgid "NOTE: Fields listed in the 'UniqueItemsFields' system preference will not be copied"
+#, fuzzy
+msgid "NOTE: Fields listed in the 'UniqueItemFields' system preference will not be copied"
 msgstr "NOTE : Les champs contenus dans la préférence système 'UniqueItemsFields' ne seront pas copiés"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:288
@@ -545,7 +546,7 @@ msgstr "Voulez-vous vraiment supprimer les %s documents attachés?"
 msgid "(select to create)"
 msgstr "(choisir pour créer)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:635
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:641
 msgid "Something went wrong. Maybe the value already exists?"
 msgstr "Une erreur est survenue. La valeur existe peut-être déjà?"
 
@@ -1361,6 +1362,7 @@ msgstr "Les valeurs suivantes ne sont pas formatées correctement :"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:74
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:297
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:73
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:14
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:229
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:107
 msgid "Name"
@@ -3488,7 +3490,8 @@ msgid "Attributes"
 msgstr "Attributs"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:49
-msgid "Be careful removing attribute to this processing, the items using it will be impacted as well!"
+#, fuzzy
+msgid "Be careful when removing attributes from this processing: the items using it will be impacted as well!"
 msgstr "Prenez garde lors du retrait d'attributs de ce traitement, les exemplaires qui l'utilisent seront également affectés!"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:60
@@ -3562,10 +3565,6 @@ msgstr "Modifier le lot no %s"
 msgid "New train"
 msgstr "Nouveau lot"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:14
-msgid "name"
-msgstr "nom"
-
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:41
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:139
 msgid "Status for item added to this train"
@@ -3604,8 +3603,9 @@ msgid "Processing"
 msgstr "Traitement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:113
-msgid "barcode"
-msgstr "code-barres"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:295
+msgid "Barcode"
+msgstr "Code-barres"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:233
 msgid "Cannot find item with this barcode. It must be in the waiting list."
@@ -3819,10 +3819,6 @@ msgstr "Auteur"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:289
 msgid "Call number"
 msgstr "Cote"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:295
-msgid "Barcode"
-msgstr "Code-barres"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:46
 msgid "E-resource management"
@@ -4255,3 +4251,9 @@ msgstr "Impossible d'ajouter un ou plusieurs mots-clés."
 
 #~ msgid "License user"
 #~ msgstr "Utilisateur de la licence"
+
+#~ msgid "barcode"
+#~ msgstr "code-barres"
+
+#~ msgid "name"
+#~ msgstr "nom"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-10 21:07+0100\n"
+"POT-Creation-Date: 2023-12-08 03:05+0000\n"
 "PO-Revision-Date: 2023-12-01 03:01+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -7066,11 +7066,7 @@ msgstr "सीएक्स एनकोडेड"
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:1080
 #, c-format
 msgid "How the sound was originally captured and stored. Sound recordings should be coded for the original capture and storage techniques, regardless of the physical format of the manifestation being cataloged or whether the sound content of the manifestation being cataloged has been enhanced using other techniques."
-msgstr ""
-"कैसे ध्वनि को मूल रूप से कब्जा और संग्रहीत किया गया था। ध्वनि रिकॉर्डिंग को "
-"मूल कैप्चर और स्टोरेज तकनीकों के लिए कोडित किया जाना चाहिए, भले ही अभिव्यक्ति"
-" के भौतिक प्रारूप को सूचीबद्ध किया जाए या क्या अभिव्यक्ति की ध्वनि सामग्री को"
-" सूचीबद्ध किया जा रहा है, अन्य तकनीकों का उपयोग करके बढ़ाया गया है।"
+msgstr "कैसे ध्वनि को मूल रूप से कब्जा और संग्रहीत किया गया था। ध्वनि रिकॉर्डिंग को मूल कैप्चर और स्टोरेज तकनीकों के लिए कोडित किया जाना चाहिए, भले ही अभिव्यक्ति के भौतिक प्रारूप को सूचीबद्ध किया जाए या क्या अभिव्यक्ति की ध्वनि सामग्री को सूचीबद्ध किया जा रहा है, अन्य तकनीकों का उपयोग करके बढ़ाया गया है।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/data/marc21_field_007.xml:1080
 #, c-format
@@ -10433,15 +10429,11 @@ msgstr "g- ग्रे तराजू"
 msgid "g- Land-based remote-sensing device"
 msgstr "g- भूमि-आधारित रिमोट सेंसिंग डिवाइस"
 
+#. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:114
 msgid "g- Laserdisc"
 msgstr "g- लेजरडिस्क"
-
-#. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:114
-msgid "g- Laserdisc)"
-msgstr "g- लेजरडिस्क )"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -18462,7 +18454,9 @@ msgid "Other classification: "
 msgstr "अन्य वर्गीकरण:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:924
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:982
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:1042
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1220
 #, c-format
 msgid "Online resources: "
 msgstr "ऑनलाइन संसाधन: "
@@ -19852,12 +19846,6 @@ msgstr "विशेषज्ञ;"
 msgid "cg"
 msgstr "cg"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:982
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1220
-#, c-format
-msgid "Online access: "
-msgstr "ऑनलाइन प्रवेश: "
-
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:1051
 #, c-format
 msgid "abcdefgijklnou"
@@ -20600,6 +20588,10 @@ msgstr "/cgi-bin/koha/opac-MARCdetail.pl?biblionumber="
 #~ msgid "OK"
 #~ msgstr "ठीक है"
 
+#, c-format
+#~ msgid "Online access: "
+#~ msgstr "ऑनलाइन प्रवेश: "
+
 #~ msgid "Source: "
 #~ msgstr "स्रोत:"
 
@@ -20614,6 +20606,9 @@ msgstr "/cgi-bin/koha/opac-MARCdetail.pl?biblionumber="
 
 #~ msgid "d- Digital storage"
 #~ msgstr "d- डिजिटल भंडारण"
+
+#~ msgid "g- Laserdisc)"
+#~ msgstr "g- लेजरडिस्क )"
 
 #, c-format
 #~ msgid "plugin for links &rsaquo; Cataloguing &rsaquo; Koha"

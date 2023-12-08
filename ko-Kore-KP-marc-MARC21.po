@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-10 21:07+0100\n"
+"POT-Creation-Date: 2023-12-08 03:05+0000\n"
 "PO-Revision-Date: 2022-05-01 10:33-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -10483,15 +10483,11 @@ msgstr "g- 회색조"
 msgid "g- Land-based remote-sensing device"
 msgstr "g- 지상관측장치"
 
+#. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:114
 msgid "g- Laserdisc"
 msgstr "g- 레이저 광 비디오디스크"
-
-#. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/marc21_field_007.tt:114
-msgid "g- Laserdisc)"
-msgstr "g- 레이저 광 비디오디스크)"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -18536,7 +18532,9 @@ msgid "Other classification: "
 msgstr "DDC  분류:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetDetail.xsl:924
+#: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:982
 #: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACDetail.xsl:1042
+#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1220
 #, c-format
 msgid "Online resources: "
 msgstr "온라인 자료"
@@ -19931,12 +19929,6 @@ msgstr "전공"
 msgid "cg"
 msgstr "%1$s 목록"
 
-#: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:982
-#: koha-tmpl/opac-tmpl/bootstrap/en/xslt/MARC21slim2OPACResults.xsl:1220
-#, fuzzy, c-format
-msgid "Online access: "
-msgstr "온라인 자료"
-
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/MARC21slim2intranetResults.xsl:1051
 #, fuzzy, c-format
 msgid "abcdefgijklnou"
@@ -20685,6 +20677,10 @@ msgstr "/cgi-bin/koha/opac-MARCdetail.pl?biblionumber="
 #~ msgid "OK"
 #~ msgstr "OK"
 
+#, fuzzy, c-format
+#~ msgid "Online access: "
+#~ msgstr "온라인 자료"
+
 #~ msgid "Source: "
 #~ msgstr "원본:"
 
@@ -20709,6 +20705,9 @@ msgstr "/cgi-bin/koha/opac-MARCdetail.pl?biblionumber="
 #, fuzzy
 #~ msgid "digitized other analog"
 #~ msgstr "디지털화된 기타 아날로그"
+
+#~ msgid "g- Laserdisc)"
+#~ msgstr "g- 레이저 광 비디오디스크)"
 
 #, fuzzy
 #~ msgid "lccn"

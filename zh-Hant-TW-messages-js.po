@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-23 03:06+0000\n"
+"POT-Creation-Date: 2023-12-08 03:05+0000\n"
 "PO-Revision-Date: 2023-11-02 11:12+0000\n"
 "Last-Translator: Saralin <c108126114@nkust.edu.tw>\n"
 "Language-Team: Koha Translation Team\n"
@@ -85,7 +85,8 @@ msgid "Add"
 msgstr "新增"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:201
-msgid "NOTE: Fields listed in the 'UniqueItemsFields' system preference will not be copied"
+#, fuzzy
+msgid "NOTE: Fields listed in the 'UniqueItemFields' system preference will not be copied"
 msgstr "註: 欄位列於'UniqueItemsFields'系統偏好將不會被複製"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:288
@@ -545,7 +546,7 @@ msgstr "您確定要刪除 %s 所附加的館藏嗎？"
 msgid "(select to create)"
 msgstr "(選擇建立)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:635
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:641
 msgid "Something went wrong. Maybe the value already exists?"
 msgstr "出錯了。也許此值存在？"
 
@@ -1360,6 +1361,7 @@ msgstr "以下值非正確的格式："
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:74
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:297
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:73
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:14
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:229
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:107
 msgid "Name"
@@ -3570,7 +3572,7 @@ msgid "Attributes"
 msgstr "其他作者"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:49
-msgid "Be careful removing attribute to this processing, the items using it will be impacted as well!"
+msgid "Be careful when removing attributes from this processing: the items using it will be impacted as well!"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:60
@@ -3652,11 +3654,6 @@ msgstr "編輯動作 %s"
 msgid "New train"
 msgstr "新標題"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:14
-#, fuzzy
-msgid "name"
-msgstr "檔案名稱"
-
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:41
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:139
 msgid "Status for item added to this train"
@@ -3699,7 +3696,8 @@ msgid "Processing"
 msgstr "處理中..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:113
-msgid "barcode"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:295
+msgid "Barcode"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:233
@@ -3938,10 +3936,6 @@ msgstr "權威"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:289
 msgid "Call number"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:295
-msgid "Barcode"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:46
@@ -4405,4 +4399,8 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "License user"
+#~ msgstr "檔案名稱"
+
+#, fuzzy
+#~ msgid "name"
 #~ msgstr "檔案名稱"
