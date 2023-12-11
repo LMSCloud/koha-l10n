@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.12.000\n"
-"PO-Revision-Date: 2023-11-17 10:09+0000\n"
+"PO-Revision-Date: 2023-12-12 06:45+0000\n"
 "Last-Translator: Ronald Wijlens <r.j.wijlens@saxion.nl>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nl-NL\n"
@@ -10,14 +10,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 "X-Pootle-Path: /nl_NL/22.11/nl-NL-installer.po\n"
 "X-Pootle-Revision: 1\n"
 "X-POOTLE-MTIME: 1692864227.662322\n"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:1
 msgid "Overpayment refund"
-msgstr ""
+msgstr "Terugstorting teveel betaald"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:2
 #, fuzzy
@@ -29,14 +29,12 @@ msgid "Writeoff"
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:4
-#, fuzzy
 msgid "Forgiven"
-msgstr "Vervalser"
+msgstr "Kwijtgescholden"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:5
-#, fuzzy
 msgid "Credit"
-msgstr "Creditcard"
+msgstr "Tegoed"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:6
 msgid "A discount applied to a patrons fine"
@@ -44,7 +42,7 @@ msgstr "Korting op de lenerkosten"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:7
 msgid "Refund"
-msgstr ""
+msgstr "Terugstorting"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:8
 msgid "Lost item fee refund"
@@ -52,7 +50,7 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:9
 msgid "Purchase"
-msgstr ""
+msgstr "Aanschaffen"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:10
 msgid "Cancellation"
@@ -60,7 +58,7 @@ msgstr "Annulering"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:11
 msgid "Lost item processing fee refund"
-msgstr ""
+msgstr "Terugboeking verwerkingskosten zoekgeraakt exemplaar"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:description:1
 msgid "Credit types used in Koha"
@@ -79,13 +77,12 @@ msgid "Article request fee"
 msgstr "Artikelaanvraag kosten"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:4
-#, fuzzy
 msgid "Lost item"
-msgstr "Zoek"
+msgstr "Zoek exemplaar"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:5
 msgid "Manual fee"
-msgstr ""
+msgstr "Handmatige kosten"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:6
 msgid "New card fee"
@@ -110,15 +107,15 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:11
 msgid "Daily rental fee"
-msgstr ""
+msgstr "Dagelijkse huurkosten"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:12
 msgid "Renewal of daily rental item"
-msgstr ""
+msgstr "Verlenging van een daghuur"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:13
 msgid "Renewal of rental item"
-msgstr ""
+msgstr "Verlenging van een verhuring"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:14
 msgid "Hold fee"
@@ -129,9 +126,8 @@ msgid "Hold waiting too long"
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:16
-#, fuzzy
 msgid "Credit has been voided"
-msgstr "Aanvraag is geannuleerd"
+msgstr "Tegoed is vervallen"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:description:1
 msgid "Debit types used in Koha"
