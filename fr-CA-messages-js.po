@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-08 03:05+0000\n"
+"POT-Creation-Date: 2023-12-12 03:06+0000\n"
 "PO-Revision-Date: 2023-11-25 03:01+0000\n"
 "Last-Translator: Caroline Cyr-La-Rose <caroline.cyr-la-rose@inlibro.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -546,7 +546,7 @@ msgstr "Voulez-vous vraiment supprimer les %s documents attachés?"
 msgid "(select to create)"
 msgstr "(choisir pour créer)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:641
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:643
 msgid "Something went wrong. Maybe the value already exists?"
 msgstr "Une erreur est survenue. La valeur existe peut-être déjà?"
 
@@ -749,7 +749,7 @@ msgid "Resolve"
 msgstr "Résoudre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1078
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:104
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:89
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:368
 msgid "Actions"
@@ -1357,7 +1357,7 @@ msgstr "Les valeurs suivantes ne sont pas formatées correctement :"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageTitlesList.vue:58
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:170
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlePackagesList.vue:44
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:89
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:92
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:147
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:74
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:297
@@ -1572,23 +1572,23 @@ msgstr "Test en cours..."
 msgid "AJAX error (%s alert)"
 msgstr "Erreur AJAX (alerte %s)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:107
+#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:112
 msgid "No camera detected."
 msgstr "Aucun appareil photo détecté."
 
-#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:111
+#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:116
 msgid "Could not access camera."
 msgstr "Impossible d'accéder l'appareil photo."
 
-#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:115
+#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:120
 msgid "Access to camera denied."
 msgstr "Accès refusé à l'appareil photo."
 
-#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:118
+#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:123
 msgid "This feature is available only in secure contexts (HTTPS)."
 msgstr "Cette fonctionnalité est disponible seulement dans les contextes sécurisés (HTTPS)."
 
-#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:121
+#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:126
 msgid "An unknown error occurred: "
 msgstr "Une erreur inconnue est survenue : "
 
@@ -1969,7 +1969,7 @@ msgstr "Enregistrement en cours..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:149
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:87
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:78
 msgid "Licenses"
 msgstr "Licences"
 
@@ -2290,8 +2290,8 @@ msgstr "Rôle"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:236
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:3
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:130
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:232
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:121
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:223
 msgid "Packages"
 msgstr "Forfaits"
 
@@ -2714,7 +2714,7 @@ msgstr "Type d'accès"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:69
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:56
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:47
 msgid "Agreements"
 msgstr "Ententes"
 
@@ -2823,7 +2823,7 @@ msgid "There are no packages created yet"
 msgstr "Il n'y a présentement aucun forfait"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:210
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:201
 msgid "Import from a list"
 msgstr "Importer à partir d'une liste"
 
@@ -2831,20 +2831,20 @@ msgstr "Importer à partir d'une liste"
 msgid "Import in progress,"
 msgstr "Importation en cours,"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:6
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:9
 #, javascript-format
 msgid "see job #%s"
 msgstr "voir la tâche no %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:10
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:13
 msgid "To the following local package"
 msgstr "Au forfait local suivant"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:64
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:67
 msgid "Cannot import, no package selected"
 msgstr "Importation impossible, aucun forfait n'est sélectionné"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:135
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:138
 msgid "Import"
 msgstr "Importer"
 
@@ -3124,7 +3124,7 @@ msgid "Data provider created"
 msgstr "Fournisseur de données créé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:16
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:338
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:329
 msgid "Data providers summary"
 msgstr "Détails du fournisseur de données"
 
@@ -3820,103 +3820,103 @@ msgstr "Auteur"
 msgid "Call number"
 msgstr "Cote"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:46
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:37
 msgid "E-resource management"
 msgstr "Gestion des ressources électroniques"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:69
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:60
 msgid "Show agreement"
 msgstr "Afficher l'entente"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:75
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:66
 msgid "Add agreement"
 msgstr "Ajouter une entente"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:81
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:72
 msgid "Edit agreement"
 msgstr "Modifier l'entente"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:100
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:91
 msgid "Show license"
 msgstr "Afficher la licence"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:106
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:97
 msgid "Add license"
 msgstr "Ajouter une licence"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:112
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:103
 msgid "Edit license"
 msgstr "Modifier la licence"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:118
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:109
 msgid "eHoldings"
 msgstr "Fonds électroniques"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:124
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:115
 msgid "Local"
 msgstr "Local"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:147
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:138
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:240
 msgid "Show package"
 msgstr "Afficher le forfait"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:155
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:146
 msgid "Add package"
 msgstr "Ajouter un forfait"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:163
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:154
 msgid "Edit package"
 msgstr "Modifier le forfait"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:169
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:255
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:160
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:246
 msgid "Titles"
 msgstr "Titres"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:186
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:272
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:177
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:263
 msgid "Show title"
 msgstr "Afficher le titre"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:194
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:185
 msgid "Add title"
 msgstr "Ajouter un titre"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:202
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:193
 msgid "Edit title"
 msgstr "Modifier le titre"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:218
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:280
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:209
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:271
 msgid "Resource"
 msgstr "Ressource"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:226
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:217
 msgid "EBSCO"
 msgstr "EBSCO"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:291
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:282
 msgid "eUsage"
 msgstr "Utilisation"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:297
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:288
 msgid "Data providers"
 msgstr "Fournisseurs de données"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:314
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:305
 msgid "Show provider"
 msgstr "Afficher le fournisseur"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:322
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:313
 msgid "Add data provider"
 msgstr "Ajouter un fournisseur de données"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:330
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:321
 msgid "Edit data provider"
 msgstr "Modifier le fournisseur de données"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:359
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:350
 msgid "View report"
 msgstr "Afficher le rapport"
 

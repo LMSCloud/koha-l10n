@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-08 03:05+0000\n"
+"POT-Creation-Date: 2023-12-12 03:06+0000\n"
 "PO-Revision-Date: 2023-11-18 03:01+0000\n"
 "Last-Translator: bargioni <bargioni@pusc.it>\n"
 "Language-Team: Koha Translation Team\n"
@@ -1806,10 +1806,12 @@ msgid "Actual cost"
 msgstr ""
 
 #: Koha/Database/Columns.pm:116
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:18
 msgid "Address"
 msgstr "Indirizzo"
 
 #: Koha/Database/Columns.pm:117
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:19
 msgid "Address 2"
 msgstr "Indirizzo 2"
 
@@ -1902,6 +1904,7 @@ msgid "Alternate address: ZIP/Postal code"
 msgstr "Indirizzo alternativo: codice postale"
 
 #: Koha/Database/Columns.pm:140
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:53
 msgid "Circulation note"
 msgstr "Note della circolazione: "
 
@@ -1916,6 +1919,7 @@ msgid "Home library"
 msgstr "Biblioteca di appartenenza"
 
 #: Koha/Database/Columns.pm:143
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:8
 msgid "Card number"
 msgstr "Numero tessera"
 
@@ -1928,6 +1932,7 @@ msgid "Check for previous checkouts"
 msgstr ""
 
 #: Koha/Database/Columns.pm:146
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:20
 msgid "City"
 msgstr "Città"
 
@@ -1940,6 +1945,7 @@ msgid "Alternate contact: Title"
 msgstr "Contatto alternativo: titolo"
 
 #: Koha/Database/Columns.pm:151
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:23
 msgid "Country"
 msgstr "Paese"
 
@@ -1948,14 +1954,17 @@ msgid "Account renewal date"
 msgstr ""
 
 #: Koha/Database/Columns.pm:153
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:43
 msgid "Registration date"
 msgstr "Data di registrazione:"
 
 #: Koha/Database/Columns.pm:154
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:44
 msgid "Expiry date"
 msgstr "Data di scadenza"
 
 #: Koha/Database/Columns.pm:155
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:40
 msgid "Date of birth"
 msgstr "Data di nascita"
 
@@ -1968,18 +1977,22 @@ msgid "Comment"
 msgstr "Commento"
 
 #: Koha/Database/Columns.pm:158
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:24
 msgid "Primary email"
 msgstr "Email principale:"
 
 #: Koha/Database/Columns.pm:159
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:28
 msgid "Secondary email"
 msgstr "Email secondaria: "
 
 #: Koha/Database/Columns.pm:160
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:27
 msgid "Fax"
 msgstr "Fax"
 
 #: Koha/Database/Columns.pm:161
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:10
 msgid "First name"
 msgstr "Nome"
 
@@ -1992,6 +2005,7 @@ msgid "Gone no address flag"
 msgstr "Partito senza lasciare indirizzo"
 
 #: Koha/Database/Columns.pm:164
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:14
 msgid "Initials"
 msgstr "Iniziali: "
 
@@ -2013,6 +2027,7 @@ msgid "Lost card flag"
 msgstr "Flag tessera smarrita"
 
 #: Koha/Database/Columns.pm:169
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:11
 msgid "Middle name"
 msgstr ""
 
@@ -2021,10 +2036,12 @@ msgid "Other phone"
 msgstr "Altro telefono: "
 
 #: Koha/Database/Columns.pm:171
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:58
 msgid "OPAC note"
 msgstr "Nota OPAC"
 
 #: Koha/Database/Columns.pm:172
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:13
 msgid "Other name"
 msgstr "Altro nome: "
 
@@ -2042,10 +2059,12 @@ msgid "Password"
 msgstr "Password:"
 
 #: Koha/Database/Columns.pm:176
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:25
 msgid "Primary phone"
 msgstr "Telefono principale: "
 
 #: Koha/Database/Columns.pm:177
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:29
 msgid "Secondary phone"
 msgstr "Telefono secondario: "
 
@@ -2067,6 +2086,7 @@ msgid "Privacy settings"
 msgstr "Impostazioni per la privacy"
 
 #: Koha/Database/Columns.pm:182
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:15
 msgid "Pronouns"
 msgstr ""
 
@@ -2083,6 +2103,7 @@ msgid "Secret (2FA)"
 msgstr ""
 
 #: Koha/Database/Columns.pm:186
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:55
 msgid "Gender"
 msgstr "Genere"
 
@@ -2096,30 +2117,37 @@ msgid "Mobile phone number"
 msgstr "Numero cellulare"
 
 #: Koha/Database/Columns.pm:189
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:60
 msgid "Sort 1"
 msgstr "Criterio 1"
 
 #: Koha/Database/Columns.pm:190
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:61
 msgid "Sort 2"
 msgstr "Criterio 2"
 
 #: Koha/Database/Columns.pm:191
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:21
 msgid "State"
 msgstr "Provincia"
 
 #: Koha/Database/Columns.pm:192
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:16
 msgid "Street number"
 msgstr "Numero civico: "
 
 #: Koha/Database/Columns.pm:193
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:17
 msgid "Street type"
 msgstr "Tipo di via: "
 
 #: Koha/Database/Columns.pm:194
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:9
 msgid "Surname"
 msgstr "Cognome"
 
 #: Koha/Database/Columns.pm:195
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:12
 msgid "Salutation"
 msgstr "Titolo di cortesia"
 
@@ -2129,10 +2157,12 @@ msgid "Last update date"
 msgstr "Data di inizio"
 
 #: Koha/Database/Columns.pm:197
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:57
 msgid "Username"
 msgstr "Username"
 
 #: Koha/Database/Columns.pm:198
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:22
 msgid "ZIP/Postal code"
 msgstr "Codice postale"
 
@@ -4248,6 +4278,225 @@ msgstr[1] "({age} anni)"
 msgid "Check out"
 msgstr "Prestito"
 
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:3
+msgid "Standard"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:4
+#, fuzzy
+msgid "Full address"
+msgstr "Indirizzo"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:5
+msgid "All emails"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:6
+#, fuzzy
+msgid "All phones"
+msgstr "Altro telefono: "
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:7
+#, fuzzy
+msgid "Borrowernumber"
+msgstr "Numero utente"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:26
+#, fuzzy
+msgid "Mobile phone"
+msgstr "Numero cellulare"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:30
+#, fuzzy
+msgid "Alternate street number"
+msgstr "Indirizzo alternativo: Numero civico"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:31
+#, fuzzy
+msgid "Alternate street type"
+msgstr "Indirizzo alternativo: Tipo di via"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:32
+#, fuzzy
+msgid "Alternate address"
+msgstr "Indirizzo alternativo: città"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:33
+#, fuzzy
+msgid "Alternate address line 2"
+msgstr "Indirizzo alternativo: telefono"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:34
+#, fuzzy
+msgid "Alternate city"
+msgstr "Contatto alternativo: città"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:35
+#, fuzzy
+msgid "Alternate state"
+msgstr "Indirizzo alternativo: Provincia"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:36
+#, fuzzy
+msgid "Alternate zip code"
+msgstr "Contatto alternativo: indirizzo"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:37
+#, fuzzy
+msgid "Alternate country"
+msgstr "Contatto alternativo: Nazione"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:38
+#, fuzzy
+msgid "Alternate email"
+msgstr "Indirizzo alternativo: email"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:39
+#, fuzzy
+msgid "Alternate phone"
+msgstr "Contatto alternativo: telefono"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:41
+#, fuzzy
+msgid "Library (code)"
+msgstr "Biblioteca"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:42
+#, fuzzy
+msgid "Category (code)"
+msgstr "Codice della griglia di catalogazione"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:45
+#, fuzzy
+msgid "Gone no address"
+msgstr "Partito senza lasciare indirizzo"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:46
+#, fuzzy
+msgid "Lost card"
+msgstr "Flag tessera smarrita"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:47
+#, fuzzy
+msgid "Restricted"
+msgstr "Sospeso [fino a]"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:48
+#, fuzzy
+msgid "Restriction reason"
+msgstr "patronreason"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:49
+msgid "Guarantor surname"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:50
+msgid "Guarantor firstname"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:51
+msgid "Guarantor title"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:52
+msgid "Guarantor ID"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:54
+#, fuzzy
+msgid "Guarantor relationship"
+msgstr "Relazione: "
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:56
+#, fuzzy
+msgid "Permissions (code)"
+msgstr "Peremssi"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:59
+#, fuzzy
+msgid "Contact note"
+msgstr "Nome"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:62
+#, fuzzy
+msgid "Alternate contact first name"
+msgstr "Contatto alternativo: nome"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:63
+#, fuzzy
+msgid "Alternate contact surname"
+msgstr "Contatto alternativo: cognome"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:64
+#, fuzzy
+msgid "Alternate contact address"
+msgstr "Contatto alternativo: indirizzo"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:65
+#, fuzzy
+msgid "Alternate contact address 2"
+msgstr "Contatto alternativo: indirizzo 2"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:66
+#, fuzzy
+msgid "Alternate contact city"
+msgstr "Contatto alternativo: città"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:67
+#, fuzzy
+msgid "Alternate contact state"
+msgstr "Contatto alternativo: Provincia"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:68
+#, fuzzy
+msgid "Alternate contact ZIP/postal code"
+msgstr "Contatto alternativo: codice postale"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:69
+#, fuzzy
+msgid "Alternate contact country"
+msgstr "Contatto alternativo: Nazione"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:70
+#, fuzzy
+msgid "Alternate contact phone"
+msgstr "Contatto alternativo: telefono"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:71
+#, fuzzy
+msgid "SMS alert number"
+msgstr "Numero civico: "
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:72
+#, fuzzy
+msgid "SMS provider"
+msgstr "Numero di copia (interno)"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:73
+#, fuzzy
+msgid "Privacy (code)"
+msgstr "Impostazioni per la privacy"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:74
+#, fuzzy
+msgid "Guarantor can view checkouts"
+msgstr "Totale prestiti"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:75
+#, fuzzy
+msgid "Last updated"
+msgstr "Data di inizio"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:76
+#, fuzzy
+msgid "Last seen"
+msgstr "Data ultima revisione"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:77
+#, fuzzy
+msgid "Check previous checkout"
+msgstr "La copia è in prestito."
+
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:146
 msgid "Hide SQL code"
 msgstr "Nascondi il codice SQL"
@@ -5622,14 +5871,18 @@ msgid "Confirm deletion of tag {searchfield}?"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:9
-msgid "Modify record matching rule"
-msgstr ""
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:82
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:111
+#, fuzzy, perl-brace-format
+msgid "Modify record matching rule '{code}'"
+msgstr "Regolarità"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:11
-msgid "Add record matching rule"
+msgid "New record matching rule"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:15
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:93
 #, perl-brace-format
 msgid "Confirm deletion of record matching rule '{code}'"
 msgstr ""

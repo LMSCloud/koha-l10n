@@ -282,13 +282,7 @@ msgstr "cuando el bibliotecario intenta crear una factura con número duplicado.
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
 msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr ""
-"Si no se especifica, se utilizará la primera dirección definida de la "
-"siguiente lista, en el órden en que aparecen: ReplyTo de la biblioteca, "
-"Dirección de correo de la biblioteca, <a href=\"/cgi-bin/koha/admin/"
-"preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> y "
-"<a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield="
-"KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+msgstr "Si no se especifica, se utilizará la primera dirección definida de la siguiente lista, en el órden en que aparecen: ReplyTo de la biblioteca, Dirección de correo de la biblioteca, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> y <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Acquisitions > Policy > AcquisitionsDefaultEMailAddress
 msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# Use the from email address"
@@ -302,13 +296,7 @@ msgstr "al enviar avisos de órdenes de compra o reclamos."
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
 msgid "acquisitions.pref#AcquisitionsDefaultReplyTo# <br>If left empty, it will fall back to the first defined address in the following list: library reply-to, library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr ""
-"<br>Si no se especifica, se utilizará la primera dirección definida de la "
-"siguiente lista, en el órden en que aparecen: ReplyTo de la biblioteca, "
-"Dirección de correo de la biblioteca, <a href=\"/cgi-bin/koha/admin/"
-"preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> y "
-"<a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield="
-"KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+msgstr "<br>Si no se especifica, se utilizará la primera dirección definida de la siguiente lista, en el órden en que aparecen: ReplyTo de la biblioteca, Dirección de correo de la biblioteca, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> y <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Acquisitions > Policy > AcquisitionsDefaultReplyTo
 msgid "acquisitions.pref#AcquisitionsDefaultReplyTo# Use the reply-to email address"
@@ -346,9 +334,7 @@ msgstr "Incluir"
 
 # Acquisitions > Policy > CalculateFundValuesIncludingTax
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# tax in the calculated fund values (spent, ordered). Note this rule applies to all vendors regardless of their configuration"
-msgstr ""
-"impuestos en el valor calculado de los fondos (gastados, pedidos). Notar que "
-"esta regla aplica a todos los proveedores sin importar su configuración"
+msgstr "impuestos en el valor calculado de los fondos (gastados, pedidos). Notar que esta regla aplica a todos los proveedores sin importar su configuración"
 
 # Acquisitions > Policy > AcqViewBaskets
 # Acquisitions > Policy
@@ -3197,9 +3183,7 @@ msgstr "muestra:"
 # Cataloging > Record structure > NewItemsDefaultLocation
 # Cataloging > Record Structure
 msgid "cataloguing.pref#NewItemsDefaultLocation# (should be a <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC\">location code</a>, or blank to disable)."
-msgstr ""
-"(debe ser un <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield="
-"LOC\">código de ubicación</a>, o en blanco para deshabilitar)."
+msgstr "(debe ser un <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC\">código de ubicación</a>, o en blanco para deshabilitar)."
 
 # Cataloging > Record structure > NewItemsDefaultLocation
 # Cataloging > Record Structure
@@ -10209,7 +10193,8 @@ msgid "opac.pref#OPACURLOpenInNewWindow# open the website in a new window."
 msgstr "abrir el sitio Web en una ventana nueva."
 
 # OPAC > Appearance > OPACUserCSS
-msgid "opac.pref#OPACUserCSS# <br><strong>NOTE:</strong> Library specific CSS can be defined from <a href='/cgi-bin/koha/admin/branches.pl'>here</a>."
+#, fuzzy
+msgid "opac.pref#OPACUserCSS# <br><strong>NOTE:</strong> Library specific CSS can be defined in <a href='/cgi-bin/koha/admin/branches.pl'>library administration</a>."
 msgstr "NOTA:</strong> Se puede especificar CSS por biblioteca <a href='/cgi-bin/koha/admin/branches.pl'>aquí</a>."
 
 # OPAC > Appearance > OPACUserCSS
@@ -10218,7 +10203,8 @@ msgid "opac.pref#OPACUserCSS# Include the following CSS on all pages in the OPAC
 msgstr "Incluir el siguiente CSS en todas las páginas en el OPAC:"
 
 # OPAC > Appearance > OPACUserJS
-msgid "opac.pref#OPACUserJS# <br><strong>NOTE:</strong> Library specific JS can be defined from <a href='/cgi-bin/koha/admin/branches.pl'>here</a>."
+#, fuzzy
+msgid "opac.pref#OPACUserJS# <br><strong>NOTE:</strong> Library specific JS can be defined in <a href='/cgi-bin/koha/admin/branches.pl'>library administration</a>."
 msgstr "<br><strong>NOTA:</strong> Se puede especificar JS por biblioteca <a href='/cgi-bin/koha/admin/branches.pl'>aquí</a>."
 
 # OPAC > Appearance > OPACUserJS
@@ -13006,7 +12992,8 @@ msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# Use the <a href=\
 msgstr "Aplicar el valor autorizado <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">no para préstamo</a>"
 
 # Preservation > Interface > PreservationNotForLoanDefaultTrainIn
-msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# to apply to items added to a train"
+#, fuzzy
+msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# to apply to items added to a train."
 msgstr "a los ítems agregados a un tren de preservación"
 
 # Circulation > Item bundles > BundleNotLoanValue
@@ -13014,7 +13001,8 @@ msgid "preservation.pref#PreservationNotForLoanWaitingListIn# Use the <a href=\"
 msgstr "Aplicar el valor autorizado <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">no para préstamo</a>"
 
 # Preservation > Interface > PreservationNotForLoanWaitingListIn
-msgid "preservation.pref#PreservationNotForLoanWaitingListIn# to apply to items added to the waiting list"
+#, fuzzy
+msgid "preservation.pref#PreservationNotForLoanWaitingListIn# to apply to items added to the waiting list."
 msgstr "a los ítems agregados a una lista de espera"
 
 # Searching

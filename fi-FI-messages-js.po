@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-08 03:05+0000\n"
+"POT-Creation-Date: 2023-12-12 03:06+0000\n"
 "PO-Revision-Date: 2023-12-12 03:02+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -545,7 +545,7 @@ msgstr "Haluatko varmasti poistaa %s liitettyä nidettä?"
 msgid "(select to create)"
 msgstr "(valitse luodaksesi)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:641
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:643
 msgid "Something went wrong. Maybe the value already exists?"
 msgstr "Jokin meni pieleen. Ehkä arvo on jo olemassa?"
 
@@ -750,7 +750,7 @@ msgid "Resolve"
 msgstr "Ratkaise"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1078
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:104
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:89
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:368
 msgid "Actions"
@@ -1360,7 +1360,7 @@ msgstr "Seuraavia arvoja ei ole alustettu oikein:"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageTitlesList.vue:58
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:170
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlePackagesList.vue:44
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:89
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:92
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:147
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:74
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:297
@@ -1575,23 +1575,23 @@ msgstr "Tarkistetaan..."
 msgid "AJAX error (%s alert)"
 msgstr "AJAX-virhe (%s)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:107
+#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:112
 msgid "No camera detected."
 msgstr "Kameraa ei havaittu."
 
-#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:111
+#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:116
 msgid "Could not access camera."
 msgstr "Kameraa ei voitu käyttää."
 
-#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:115
+#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:120
 msgid "Access to camera denied."
 msgstr "Pääsy kameraan kielletty."
 
-#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:118
+#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:123
 msgid "This feature is available only in secure contexts (HTTPS)."
 msgstr "Tämä ominaisuus on käytettävissä vain suojatun yhteyden kautta (HTTPS)."
 
-#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:121
+#: koha-tmpl/intranet-tmpl/prog/js/patron-webcam.js:126
 msgid "An unknown error occurred: "
 msgstr "Tuntematon virhe:"
 
@@ -1972,7 +1972,7 @@ msgstr "Tallennetaan..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:149
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:87
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:78
 msgid "Licenses"
 msgstr "Lisenssit"
 
@@ -2293,8 +2293,8 @@ msgstr "Rooli"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:236
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:3
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:130
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:232
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:121
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:223
 msgid "Packages"
 msgstr "Paketit"
 
@@ -2717,7 +2717,7 @@ msgstr "Käyttötapa"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:69
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:56
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:47
 msgid "Agreements"
 msgstr "Sopimukset"
 
@@ -2826,7 +2826,7 @@ msgid "There are no packages created yet"
 msgstr "Paketteja ei ole vielä luotu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:2
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:210
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:201
 msgid "Import from a list"
 msgstr "Tuo listalta"
 
@@ -2834,20 +2834,20 @@ msgstr "Tuo listalta"
 msgid "Import in progress,"
 msgstr "Tuonti käynnissä,"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:6
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:9
 #, javascript-format
 msgid "see job #%s"
 msgstr "katso työ #%s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:10
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:13
 msgid "To the following local package"
 msgstr "Seuraava paikallinen paketti"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:64
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:67
 msgid "Cannot import, no package selected"
 msgstr "Ei voida tuoda, ei valittua pakettia"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:135
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:138
 msgid "Import"
 msgstr "Tuo"
 
@@ -3127,7 +3127,7 @@ msgid "Data provider created"
 msgstr "Tiedontarjoaja luotu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:16
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:338
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:329
 msgid "Data providers summary"
 msgstr "Yhteenveto tiedontarjoajasta"
 
@@ -3822,103 +3822,103 @@ msgstr "Tekijä"
 msgid "Call number"
 msgstr "Luokka"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:46
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:37
 msgid "E-resource management"
 msgstr "Elektronisten aineistojen hallinta"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:69
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:60
 msgid "Show agreement"
 msgstr "Näytä sopimus"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:75
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:66
 msgid "Add agreement"
 msgstr "Lisää sopimus"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:81
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:72
 msgid "Edit agreement"
 msgstr "Muokkaa sopimusta"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:100
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:91
 msgid "Show license"
 msgstr "Näytä lisenssi"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:106
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:97
 msgid "Add license"
 msgstr "Lisää lisenssi"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:112
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:103
 msgid "Edit license"
 msgstr "Muokkaa lisenssiä"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:118
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:109
 msgid "eHoldings"
 msgstr "eKokoelmat"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:124
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:115
 msgid "Local"
 msgstr "Paikallinen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:147
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:138
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:240
 msgid "Show package"
 msgstr "Näytä paketti"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:155
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:146
 msgid "Add package"
 msgstr "Lisää paketti"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:163
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:154
 msgid "Edit package"
 msgstr "Muokkaa pakettia"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:169
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:255
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:160
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:246
 msgid "Titles"
 msgstr "Nimekkeet"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:186
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:272
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:177
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:263
 msgid "Show title"
 msgstr "Näytä nimeke"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:194
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:185
 msgid "Add title"
 msgstr "Lisää nimeke"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:202
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:193
 msgid "Edit title"
 msgstr "Muokkaa nimekettä"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:218
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:280
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:209
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:271
 msgid "Resource"
 msgstr "Resurssi"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:226
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:217
 msgid "EBSCO"
 msgstr "EBSCO"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:291
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:282
 msgid "eUsage"
 msgstr "eKäyttö"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:297
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:288
 msgid "Data providers"
 msgstr "Tiedontarjoajat"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:314
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:305
 msgid "Show provider"
 msgstr "Näytä tarjoajat"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:322
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:313
 msgid "Add data provider"
 msgstr "Lisää tiedontarjoaja"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:330
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:321
 msgid "Edit data provider"
 msgstr "Muokkaa tiedontarjoajaa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:359
+#: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:350
 msgid "View report"
 msgstr "Katso raporttia"
 

@@ -11,8 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.1.1\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /uk/22.11/uk-UA-pref.po\n"
@@ -2919,9 +2918,7 @@ msgstr "Використовувати "
 
 # Cataloging > Record structure > ContentWarningField
 msgid "cataloguing.pref#ContentWarningField# <br/><strong>NOTE:</strong> The field needs to appear in the MARC frameworks to be accessible."
-msgstr ""
-"<br/><strong>Примітка:</strong> щоб поле було доступним, воно має з’явитися "
-"в MARC-структурах."
+msgstr "<br/><strong>Примітка:</strong> щоб поле було доступним, воно має з’явитися в MARC-структурах."
 
 # Cataloging > Record structure > ContentWarningField
 msgid "cataloguing.pref#ContentWarningField# Use MARC field"
@@ -10287,18 +10284,22 @@ msgstr "не виконувати"
 msgid "opac.pref#OPACURLOpenInNewWindow# open the website in a new window."
 msgstr "відкриття сайту у новому вікні."
 
-# OPAC > Appearance > OPACUserCSS
-msgid "opac.pref#OPACUserCSS# <br><strong>NOTE:</strong> Library specific CSS can be defined from <a href='/cgi-bin/koha/admin/branches.pl'>here</a>."
-msgstr ""
+# Administration > Login options > AutoLocation
+# Administration > Login options
+#, fuzzy
+msgid "opac.pref#OPACUserCSS# <br><strong>NOTE:</strong> Library specific CSS can be defined in <a href='/cgi-bin/koha/admin/branches.pl'>library administration</a>."
+msgstr "<a href=\"/cgi-bin/koha/admin/branches.pl\">Перейти до керування бібліотеками/підрозділами</a>"
 
 # OPAC > Appearance > OPACUserCSS
 # OPAC > Appearance
 msgid "opac.pref#OPACUserCSS# Include the following CSS on all pages in the OPAC:"
 msgstr "Включити такий CSS на усі сторінки електронного каталогу: "
 
-# OPAC > Appearance > OPACUserJS
-msgid "opac.pref#OPACUserJS# <br><strong>NOTE:</strong> Library specific JS can be defined from <a href='/cgi-bin/koha/admin/branches.pl'>here</a>."
-msgstr ""
+# Administration > Login options > AutoLocation
+# Administration > Login options
+#, fuzzy
+msgid "opac.pref#OPACUserJS# <br><strong>NOTE:</strong> Library specific JS can be defined in <a href='/cgi-bin/koha/admin/branches.pl'>library administration</a>."
+msgstr "<a href=\"/cgi-bin/koha/admin/branches.pl\">Перейти до керування бібліотеками/підрозділами</a>"
 
 # OPAC > Appearance > OPACUserJS
 # OPAC > Appearance
@@ -13117,7 +13118,7 @@ msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# Use the <a href=\
 msgstr "Використовувати допустиме значення <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>"
 
 # Preservation > Interface > PreservationNotForLoanDefaultTrainIn
-msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# to apply to items added to a train"
+msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# to apply to items added to a train."
 msgstr ""
 
 # Circulation > Item bundles > BundleNotLoanValue
@@ -13126,7 +13127,7 @@ msgid "preservation.pref#PreservationNotForLoanWaitingListIn# Use the <a href=\"
 msgstr "Використовувати допустиме значення <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>"
 
 # Preservation > Interface > PreservationNotForLoanWaitingListIn
-msgid "preservation.pref#PreservationNotForLoanWaitingListIn# to apply to items added to the waiting list"
+msgid "preservation.pref#PreservationNotForLoanWaitingListIn# to apply to items added to the waiting list."
 msgstr ""
 
 # Searching
