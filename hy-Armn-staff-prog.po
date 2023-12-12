@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-12 03:06+0000\n"
-"PO-Revision-Date: 2023-12-12 03:02+0000\n"
+"PO-Revision-Date: 2023-12-13 03:04+0000\n"
 "Last-Translator: tigran <tigran@flib.sci.am>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hy-Armn\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.3-rc\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /hy/22.11/hy-Armn-staff-prog.po\n"
 "X-POOTLE-MTIME: 1697606996.153439\n"
@@ -6952,7 +6952,7 @@ msgstr "Չի կարող նկարել ընթերցողին։"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
 #, c-format
 msgid "The patron must have a cardnumber before a patron photo can be uploaded."
-msgstr ""
+msgstr "Հաճախորդը պետք է ունենա քարտի համար, նախքան հաճախորդի լուսանկարը վերբեռնելը:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:19
@@ -32320,7 +32320,7 @@ msgstr "ISO կոդ"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:204
 #, c-format
 msgid "Last updated"
-msgstr "Վերջին թարմացվածը"
+msgstr "Վերջին անգամ թարմացվել է"
 
 #. %1$s:  IF currency.active 
 #. %2$s:  END 
@@ -34795,7 +34795,7 @@ msgstr "Ժառանգության լռելյայն"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:443
 #, c-format
 msgid "New record matching rule"
-msgstr "Նոր գրառման համընկնելիության օրենքը"
+msgstr "Նոր գրառման համապատասխանության կանոն"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:121
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:126
@@ -34835,15 +34835,15 @@ msgstr "Համընկնման կետեր"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:165
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:226
-#, fuzzy, c-format
+#, c-format
 msgid "New match point"
-msgstr "Ավելացրու համընկնման միավորը"
+msgstr "Նոր համընկնման կետ"
 
 #. %1$s:  matchpoint.mp_num | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:173
-#, fuzzy, c-format
+#, c-format
 msgid "Match point %s"
-msgstr "Համընկնման կետ "
+msgstr "Համընկնման կետ %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:226
@@ -34926,9 +34926,9 @@ msgid "Normalization rule: "
 msgstr "Նորմալացման օրենք։ "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:225
-#, fuzzy, c-format
+#, c-format
 msgid "Match point 1"
-msgstr "Համընկնման կետ "
+msgstr "Համընկնման կետ 1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:269
 #, c-format
@@ -34939,9 +34939,9 @@ msgstr "Պահանջվող համընկեցման ստուգումներ"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:278
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:357
-#, fuzzy, c-format
+#, c-format
 msgid "New match check"
-msgstr "Ավելացրու համընկնման ստուգումը"
+msgstr "Նոր համընկնման ստուգում"
 
 #. %1$s:  matchcheck.mc_num | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:285
@@ -34971,9 +34971,9 @@ msgid "Target (database) record check field"
 msgstr "Թիրախ (շտեմարան) գրառման ստուգման դաշտ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:356
-#, fuzzy, c-format
+#, c-format
 msgid "Match check 1"
-msgstr "Համընկնման ստուգում "
+msgstr "Համընկնման ստուգում 1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:428
 #, c-format
@@ -51736,7 +51736,7 @@ msgstr "Այլընտրանքային կոնտակտ։ Հեռախոս"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:73
 #, c-format
 msgid "SMS alert number"
-msgstr "SMS ահազանգի համար"
+msgstr "SMS ծանուցման թիվը"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:105
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:114
