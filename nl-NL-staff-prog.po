@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-12 03:06+0000\n"
-"PO-Revision-Date: 2023-12-12 03:02+0000\n"
+"PO-Revision-Date: 2023-12-13 03:04+0000\n"
 "Last-Translator: Ronald Wijlens <r.j.wijlens@saxion.nl>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nl-NL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.3-rc\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /nl_NL/22.11/nl-NL-staff-prog.po\n"
 "X-POOTLE-MTIME: 1698066625.807376\n"
@@ -150,7 +150,7 @@ msgstr "Toegankelijkheidsbepleiter"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:29
 #, c-format
 msgid "Meeting facilitator"
-msgstr ""
+msgstr "Meeting facilitator"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:50
 #, c-format
@@ -4072,9 +4072,9 @@ msgstr "Rota"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/biblio-view-menu.inc:133
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:573
-#, fuzzy, c-format
+#, c-format
 msgid "Recalls (%s)"
-msgstr "Boetes (%s)"
+msgstr "Terugroepingen (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocked-fines.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:102
@@ -4163,9 +4163,9 @@ msgid "ILL request not found."
 msgstr "IBL aanvraag log "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:19
-#, fuzzy, c-format
+#, c-format
 msgid "This order cannot be edited, the basket is closed or the order was already received."
-msgstr "Bestelling kan niet bewerkt worden, mand is gesloten."
+msgstr "Bestelling kan niet bewerkt worden, mand is gesloten of de bestelling is al ontvangen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:21
 #, c-format
@@ -4411,7 +4411,7 @@ msgstr "Alle bibliotheken"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-search.inc:68
 #: koha-tmpl/intranet-tmpl/prog/en/includes/suggestions-add-search.inc:43
 #: koha-tmpl/intranet-tmpl/prog/en/includes/z3950-admin-search.inc:38
-#, fuzzy, c-format
+#, c-format
 msgid "Search catalog"
 msgstr "Zoek in catalogus"
 
@@ -4489,14 +4489,13 @@ msgstr "Vandaag"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/calendar.inc:33
-#, fuzzy
 msgid "Tomorrow"
-msgstr "Lener"
+msgstr "Morgen"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/calendar.inc:33
 msgid "Yesterday"
-msgstr ""
+msgstr "Gisteren"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -4535,9 +4534,9 @@ msgstr "Importeren"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-menu.inc:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:71
-#, fuzzy, c-format
+#, c-format
 msgid "Stage records for import"
-msgstr "MARC records klaarzetten voor importeren"
+msgstr "Records klaarzetten voor importeren"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-menu.inc:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:77
@@ -4583,9 +4582,9 @@ msgstr "Exporteren"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-menu.inc:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:88
-#, fuzzy, c-format
+#, c-format
 msgid "Export catalog data"
-msgstr "Exporteer gegevens"
+msgstr "Exporteer gegevens catalogus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-menu.inc:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:99
@@ -4670,9 +4669,9 @@ msgstr "Automatisering"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-menu.inc:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:163
-#, fuzzy, c-format
+#, c-format
 msgid "Item modifications by age"
-msgstr "Automatische exemplaarwijzigingen op leeftijd"
+msgstr "Exemplaarwijzigingen op leeftijd"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-menu.inc:89
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:168
@@ -4781,15 +4780,15 @@ msgstr "Lokale omslagafbeelding uploaden"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-menu.inc:123
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:209
-#, fuzzy, c-format
+#, c-format
 msgid "Preferences"
-msgstr "Voorkeur"
+msgstr "Voorkeuren"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-menu.inc:127
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/cataloging-home.tt:213
-#, fuzzy, c-format
+#, c-format
 msgid "Configuration"
-msgstr "Configuratie opslaan"
+msgstr "Configuratie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:58
@@ -4825,12 +4824,12 @@ msgstr "Nieuw deel-record"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:28
 #, c-format
 msgid "New catalog concern"
-msgstr ""
+msgstr "Nieuw catalogusbezwaar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:43
-#, fuzzy, c-format
+#, c-format
 msgid "Modify record using template"
-msgstr "Wijzig record via de volgende sjabloon: "
+msgstr "Wijzig record via sjabloon"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:47
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-toolbar.inc:38
@@ -4933,9 +4932,9 @@ msgstr "Voeg toe aan mand"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:118
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:125
-#, fuzzy, c-format
+#, c-format
 msgid "Remove from cart"
-msgstr "Verwijderen uit rota "
+msgstr "Verwijder uit mandje"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:133
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:136
@@ -5077,9 +5076,8 @@ msgstr "Zoeken catalogiseren"
 
 #. INPUT type=text name=q
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cataloging-search.inc:15
-#, fuzzy
 msgid "Search the catalog and the reservoir"
-msgstr "Zoek in catalogus en voorraad:"
+msgstr "Zoek in catalogus en reservoir"
 
 #. INPUT type=text name=q
 #: koha-tmpl/intranet-tmpl/prog/en/includes/catalogue-search-box.inc:17
@@ -5088,9 +5086,8 @@ msgstr "Zoek in catalogus en voorraad:"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/erm-search.inc:23
 #: koha-tmpl/intranet-tmpl/prog/en/includes/erm-search.inc:35
 #: koha-tmpl/intranet-tmpl/prog/en/includes/erm-search.inc:47
-#, fuzzy
 msgid "Enter search keywords"
-msgstr "Voer zoekwoorden in:"
+msgstr "Voer zoekwoorden in"
 
 #. INPUT type=text name=q
 #: koha-tmpl/intranet-tmpl/prog/en/includes/catalogue-search-box.inc:17
@@ -5099,9 +5096,9 @@ msgid "Enter the terms you wish to search for."
 msgstr "Voer zoektermen in."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/catalogue-search-box.inc:31
-#, fuzzy, c-format
+#, c-format
 msgid "Search index"
-msgstr "Zoek index: "
+msgstr "Zoek index"
 
 #. %1$s: - USE raw -
 #. %2$s: - USE Branches -
@@ -5886,7 +5883,6 @@ msgstr "Er is een probleem opgetreden, controleer de logbestanden"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
-#, fuzzy
 msgid "This will retrieve macros stored in the browser, save them in the database, and delete them from the browser. Proceed?"
 msgstr "Dit herstelt in de browser opgeslagen macros, slaat ze op in de database en verwijdert ze uit de browser. Doorgaan?"
 
@@ -6051,9 +6047,8 @@ msgstr "Teken"
 
 #. INPUT type=text name=barcode
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkin-search-box.inc:14
-#, fuzzy
 msgid "Scan a barcode to check in"
-msgstr "Scan een barcode om in te nemen:"
+msgstr "Scan barcode om in te nemen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table-footer.inc:3
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-print.tt:93
@@ -6470,9 +6465,9 @@ msgid "CSV"
 msgstr "CSV"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:89
-#, fuzzy, c-format
+#, c-format
 msgid "Export items bundle contents"
-msgstr "Voer te late uitleningen-rapport uit "
+msgstr "Exporteer inhoud exemplaarpakket"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:90
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:154
@@ -6504,9 +6499,9 @@ msgstr "Superbibliothecarislener"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:41
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:48
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:200
-#, fuzzy, c-format
+#, c-format
 msgid "Patron photo"
-msgstr "Leneraantekening"
+msgstr "Lenerfoto"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:48
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:254
@@ -6710,9 +6705,9 @@ msgstr "IBL aanvraaggeschiedenis"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:186
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:31
-#, fuzzy, c-format
+#, c-format
 msgid "Recalls history"
-msgstr "Volledige geschiedenis"
+msgstr "Terugroepingen geschiedenis"
 
 #. %1$s:  patron.alert_subscriptions.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:189
@@ -6721,7 +6716,7 @@ msgid "Alert subscriptions (%s)"
 msgstr "Abonnementen (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:205
-#, fuzzy, c-format
+#, c-format
 msgid "Upload patron photo"
 msgstr "Lenerafbeelding uploaden"
 
@@ -6734,9 +6729,9 @@ msgid "To update the image for %s %s %s, select a new image file and click 'Uplo
 msgstr "Om de afbeelding voor %s %s %s bij te werken, selecteer een nieuwe afbeelding en klik op 'Upload.' "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:210
-#, fuzzy, c-format
+#, c-format
 msgid "Click the 'Delete' button to remove the current image. "
-msgstr "Klik op 'Verwijder' om de huidige afbeelding te verwijderen."
+msgstr "Klik op 'Verwijder' om huidige afbeelding te verwijderen. "
 
 #. %1$s:  patron.title | html 
 #. %2$s:  patron.firstname | html 
@@ -6765,9 +6760,9 @@ msgid "Select the file to upload: "
 msgstr "Kies bestand om te uploaden: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:226
-#, fuzzy, c-format
+#, c-format
 msgid "Upload photo"
-msgstr "Citaten uploaden"
+msgstr "Foto uploaden"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:231
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:21
@@ -6906,24 +6901,24 @@ msgid "Delete"
 msgstr "Verwijder"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:237
-#, fuzzy, c-format
+#, c-format
 msgid "Take patron photo"
-msgstr "Nieuwe lener "
+msgstr "Neem foto van lener"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:241
 #, c-format
 msgid "Take photo"
-msgstr ""
+msgstr "Neem foto"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:244
 #, c-format
 msgid "Retake photo"
-msgstr ""
+msgstr "Maak nieuwe foto"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:247
-#, fuzzy, c-format
+#, c-format
 msgid "Download photo"
-msgstr "Download "
+msgstr "Download foto"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:250
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -6943,14 +6938,14 @@ msgid "Upload"
 msgstr "Uploaden"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:254
-#, fuzzy, c-format
+#, c-format
 msgid "Video stream not available."
-msgstr "index is niet beschikbaar"
+msgstr "Video stream niet beschikbaar."
 
 #. IMG
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:258
 msgid "The screen capture will appear in this box."
-msgstr ""
+msgstr "De schermafdruk verschijnt in dit kader."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:277
 #, c-format
@@ -7109,9 +7104,9 @@ msgstr "Klaarstaande aanvragen"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:92
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:56
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:95
-#, fuzzy, c-format
+#, c-format
 msgid "Curbside pickups"
-msgstr "Nieuwe afhalingen"
+msgstr "Afhalingen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:68
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:79
