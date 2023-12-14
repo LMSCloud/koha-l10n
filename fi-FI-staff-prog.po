@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-13 03:06+0000\n"
-"PO-Revision-Date: 2023-12-09 03:01+0000\n"
+"PO-Revision-Date: 2023-12-15 03:03+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.3-rc\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-staff-prog.po\n"
 "X-POOTLE-MTIME: 1699020046.258294\n"
@@ -6960,7 +6960,7 @@ msgstr "Asiakaskuvaa ei voi ottaa."
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
 #, c-format
 msgid "The patron must have a cardnumber before a patron photo can be uploaded."
-msgstr ""
+msgstr "Asiakkaalla pitää olla kirjastokortin numero ennen kuin voidaan ladata asiakaskuva."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:19
@@ -9241,7 +9241,7 @@ msgstr "Kopioi tämä osakenttä"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:225
 #, c-format
 msgid "Clear on loan"
-msgstr "Poista lainassa-tila"
+msgstr "Poista valinta lainassa olevilta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:232
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:65
@@ -34880,15 +34880,15 @@ msgstr "Vastaavuudet"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:165
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:226
-#, fuzzy, c-format
+#, c-format
 msgid "New match point"
 msgstr "Lisää vastaavuus"
 
 #. %1$s:  matchpoint.mp_num | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:173
-#, fuzzy, c-format
+#, c-format
 msgid "Match point %s"
-msgstr "Vastaavuus "
+msgstr "Vastaavuus %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:226
@@ -34971,9 +34971,9 @@ msgid "Normalization rule: "
 msgstr "Normalisointisääntö: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:225
-#, fuzzy, c-format
+#, c-format
 msgid "Match point 1"
-msgstr "Vastaavuus "
+msgstr "Vastaavuus 1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:269
 #, c-format
@@ -34984,7 +34984,7 @@ msgstr "Vaaditut osumatarkistukset"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:278
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:357
-#, fuzzy, c-format
+#, c-format
 msgid "New match check"
 msgstr "Lisää vastaavuustarkistus"
 
@@ -35016,9 +35016,9 @@ msgid "Target (database) record check field"
 msgstr "Kohdetietueen (tietokannassa jo olevan tietueen) tarkistuskenttä"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:356
-#, fuzzy, c-format
+#, c-format
 msgid "Match check 1"
-msgstr "Vastaavuuksien tarkistus "
+msgstr "Vastaavuustarkistus 1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:428
 #, c-format
@@ -39727,7 +39727,7 @@ msgstr "Yleiset huomautukset"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:378
 #, c-format
 msgid "Non-public notes"
-msgstr "Viesti virkailijalle"
+msgstr "Huomautukset virkailijalle"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:379
 #, c-format
@@ -41272,7 +41272,7 @@ msgstr "Yleinen huomautus:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:479
 #, c-format
 msgid "Non-public note:"
-msgstr "Viesti virkailijalle:"
+msgstr "Huomautus virkailijalle:"
 
 #. %1$s:  query_desc | html 
 #. %2$s:  limit_desc | html 
@@ -58630,7 +58630,7 @@ msgstr "Huomautus verkkokirjastossa"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:102
 #, c-format
 msgid "Nonpublic note"
-msgstr "Viesti virkailijalle:"
+msgstr "Huomautus virkailijalle"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:141
 #, c-format
@@ -59112,7 +59112,7 @@ msgstr "Kausijulkaisutilaus "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:110
 #, c-format
 msgid "Nonpublic note: %s"
-msgstr "Viesti virkailijalle: %s"
+msgstr "Huomautus virkailijalle: %s"
 
 #. %1$s:  FOREACH errse IN errseq 
 #. %2$s:  errse.serialseq | html 
@@ -59447,7 +59447,7 @@ msgstr "Käsinsyöttö:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:302
 #, c-format
 msgid "Nonpublic note:"
-msgstr "Viesti virkailijalle:"
+msgstr "Huomautus virkailijalle:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:157
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:170
@@ -60103,7 +60103,7 @@ msgstr "Julkaistu"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:258
 #, c-format
 msgid "Published date (text)"
-msgstr "Julkaistu"
+msgstr "Julkaisupäivämäärä (teksti)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:298
 #, c-format
@@ -60395,7 +60395,7 @@ msgstr "Viesti verkkokirjastossa"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-history.tt:68
 #, c-format
 msgid "Note for staff"
-msgstr "Viesti virkailijalle"
+msgstr "Huomautus virkailijalle"
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-history.tt:72
@@ -60789,7 +60789,7 @@ msgstr "-- Valitse -- "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:407
 #, c-format
 msgid "Non-public notes:"
-msgstr "Viesti virkailijalle:"
+msgstr "Huomautukset virkailijalle:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:420
 #, c-format
