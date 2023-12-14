@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2023-11-29 03:01+0000\n"
-"Last-Translator: paivito <paivi.toikkanen@centria.fi>\n"
+"PO-Revision-Date: 2023-12-15 03:03+0000\n"
+"Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3-rc\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-installer-MARC21.po\n"
 "X-POOTLE-MTIME: 1682675796.384917\n"
@@ -1539,7 +1539,7 @@ msgstr "Aineisto tavoitettavissa, aukioloaika"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1771
 msgid "Nonpublic note"
-msgstr "Viesti virkailijalle:"
+msgstr "Huomautus virkailijalle"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1813
 msgid "Generation process"
@@ -3450,24 +3450,20 @@ msgid "Dates of former publication frequency"
 msgstr "Aikaisemman ilmestymistiheyden aikaväli"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:786
-#, fuzzy
 msgid "Mode of issuance term"
-msgstr "Esityskokoonpanoa ilmaiseva termi"
+msgstr "Julkaisutapaa kuvaava termi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:787
-#, fuzzy
 msgid "Mode of issuance code"
-msgstr "Julkaisuajan tyyppi"
+msgstr "Julkaisutavan koodi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:795
-#, fuzzy
 msgid "Extension plan term"
-msgstr "Selittävä ilmaisu"
+msgstr "Laajennussuunnitelmaa kuvaava termi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:796
-#, fuzzy
 msgid "Extension plan code"
-msgstr "Lainan eräpäivä"
+msgstr "Laajennussuunnitelmaa kuvaava koodi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:812
 msgid "Media type term"
@@ -3502,9 +3498,8 @@ msgid "Support"
 msgstr "Tukimateriaali"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:834
-#, fuzzy
 msgid "Reduction ratio value"
-msgstr "Nopeus/suhde"
+msgstr "Pienennyssuhde"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:835
 msgid "Color content"
@@ -3547,9 +3542,8 @@ msgid "Illustrative content"
 msgstr "Kuvaava sisältö"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:845
-#, fuzzy
 msgid "Reduction ratio designator"
-msgstr "Nopeus/suhde"
+msgstr "Pienennyssuhdemerkintö"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:850
 msgid "Content access mode"
@@ -3784,14 +3778,12 @@ msgid "Encoded bitrate"
 msgstr "Koodattu bittinopeus"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:947
-#, fuzzy
 msgid "Form of musical notation term"
-msgstr "Musiikinlajikoodi"
+msgstr "Nuottikirjoituksen tyypin osoittava termi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:948
-#, fuzzy
 msgid "Form of musical notation code"
-msgstr "Musiikinlajikoodi"
+msgstr "Nuottikirjoituksen tyypin osoittava koodi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:950
 msgid "Price"
@@ -3923,7 +3915,7 @@ msgstr "Jäljennöksen hyllymerkin kuvaus"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1010
 msgid "Identifier of the copy described"
-msgstr ""
+msgstr "Kuvailtavan kopion tunniste"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1018
 msgid "First level of enumeration"
@@ -4059,47 +4051,43 @@ msgstr "Organisaation tunnistus"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1171
 msgid "Aspect ratio of representative expression"
-msgstr ""
+msgstr "Edustavan ekspression kuvasuhde"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1172
 msgid "Color content of representative expression"
-msgstr ""
+msgstr "Edustavan ekspression värisisältö"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1173
 msgid "Content type of representative expression"
-msgstr ""
+msgstr "Edustavan ekspression sisältötyyppi"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1174
 msgid "Date of capture of representative expression"
-msgstr ""
+msgstr "Edustavan ekspression tallennusajankohta"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1175
-#, fuzzy
 msgid "Date of representative expression"
-msgstr "Jäljenteen julkaisuaika"
+msgstr "Edustavan ekspression ajankohta"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1176
 msgid "Duration of representative expression"
-msgstr ""
+msgstr "Edustavan ekspression kesto"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1177
-#, fuzzy
 msgid "Intended audience of representative expression"
-msgstr "Kohdeyleisö (ikätaso)"
+msgstr "Edustavan ekspression kohderyhmä"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1178
-#, fuzzy
 msgid "Language of representative expression"
-msgstr "Välikäännösten kieli"
+msgstr "Edustavan ekspression kieli"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1179
-#, fuzzy
 msgid "Place of capture of representative expression"
-msgstr "Teoksen alkuperä"
+msgstr "Edustavan ekspression tallennuspaikka"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1180
 msgid "Projection of cartographic content of representative expression"
-msgstr ""
+msgstr "Edustavan ekspression kartografisen sisällön projektio"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1181
 msgid "Scale of representative expression"
@@ -5290,14 +5278,12 @@ msgid "Password [OBSOLETE]"
 msgstr "Salasana [VANHENTUNUT]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3167
-#, fuzzy
 msgid "Standardized information governing access"
-msgstr "Käyttörajoituksen ehdot"
+msgstr "Rakenteistettu pääsyrajoitustieto"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3173
-#, fuzzy
 msgid "Standardized information governing use and reproduction"
-msgstr "Käytön ja kopioinnin ehdot"
+msgstr "Rakenteistettu käyttörajoitustieto"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3188
 #, fuzzy
