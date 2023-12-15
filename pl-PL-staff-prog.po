@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.12.000\n"
 "POT-Creation-Date: 2023-11-23 04:03+0000\n"
-"PO-Revision-Date: 2023-12-04 14:42+0000\n"
+"PO-Revision-Date: 2023-12-16 03:29+0000\n"
 "Last-Translator: Urszula <matoga@biblos.pk.edu.pl>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: pl-PL\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.3-rc\n"
 "X-Pootle-Path: /pl/22.11/pl-PL-staff-prog.po\n"
 "X-Pootle-Revision: 1\n"
 "X-POOTLE-MTIME: 1698672184.330508\n"
@@ -7334,7 +7334,7 @@ msgstr "Działania "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/clubs-table.inc:88
 #, c-format
 msgid "Enrollments "
-msgstr "Zapisy do grupy  "
+msgstr "Zapisy do grupy "
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/clubs-table.inc:87
@@ -18642,14 +18642,14 @@ msgid "You are missing the &lt;template_cache_dir&gt; entry in your koha-conf.xm
 msgstr "Brakuje wpisu &lt;template_cache_dir&gt; w pliku koha-conf.xml file. Wpisanie go poprawi wydajność."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:518
-#, fuzzy, c-format
+#, c-format
 msgid "The PO directory has not been found. See "
-msgstr "Zamówienie nie zostało odnalezione."
+msgstr "Katalog PO nie został odnaleziony. Zobacz "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:519
-#, fuzzy, c-format
+#, c-format
 msgid "for more information. "
-msgstr "Serwer"
+msgstr "aby uzyskać więcej informacji. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:519
 #, c-format
@@ -36388,13 +36388,13 @@ msgstr "Użyj kalendarza, aby pominąć dni, w których biblioteka jest zamknię
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:444
 #, c-format
 msgid "Next open day"
-msgstr "Następny dzień otwarty"
+msgstr "Najbliższy dzień roboczy"
 
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:258
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:444
 msgid "Use the calendar to push the due date to the next open day"
-msgstr "Użyj kalendarza, aby przesunąć termin zwrotu na następny dzień wolny"
+msgstr "Użyj kalendarza, aby przesunąć termin zwrotu na najbliższy dzień roboczy"
 
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:259
@@ -39540,7 +39540,7 @@ msgstr "nie"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:167
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/search.tt:67
 msgid "Enter search terms"
-msgstr "Podaj szukany termin"
+msgstr "Wprowadź szukane terminy"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:170
@@ -43833,9 +43833,9 @@ msgid "Staff members are not allowed to discharge borrowers, nor borrowers to re
 msgstr "Bibliotekarze nie posiadają uprawnień do dostępu do kart odejścia użytkownika, ani użytkownicy do wnioskowania o wygenerowanie karty odejścia."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:98
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron, so circulation is disabled."
-msgstr "To jest anonimowy/niezalogowany użytkownik, więc historia zamówień nie jest wyświetlana."
+msgstr "To jest anonimowy/niezalogowany użytkownik, więc udostępnianie jest wyłączone."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:304
@@ -44124,9 +44124,9 @@ msgid "Yes, check out (Y)"
 msgstr "Tak, wypożycz (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:375
-#, fuzzy, c-format
+#, c-format
 msgid "Don't check out, confirm hold, and print slip (P)"
-msgstr "Nie wypożyczaj i wydrukuj rewers (P)"
+msgstr "Nie wypożyczaj, potwierdź zamówienie i wydrukuj rewers (P)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:381
 #, c-format
@@ -44309,7 +44309,7 @@ msgstr "Egzemplarz został wybrany do przypomnienia i jest w drodze do %s."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:530
 #, c-format
 msgid "No open days found while calculating the due date. Check the library calendar."
-msgstr "Podczas obliczania terminu zwrotu nie znaleziono dni wolnych. Sprawdź kalendarz."
+msgstr "Podczas obliczania terminu zwrotu nie znaleziono dni roboczych. Sprawdź kalendarz."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:535
 #, c-format
@@ -44434,7 +44434,7 @@ msgstr "Wypożyczenia na miejscu"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:782
 #, c-format
 msgid "%s (%s). %s %s %s. %s Due on %s "
-msgstr "%s (%s). %s %s %s. %s Termin zwrotu upływa %s "
+msgstr "%s (%s). %s %s %s. %s Termin zwrotu %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:782
 #, c-format
@@ -53452,9 +53452,9 @@ msgid "%s Patron details for %s %s &rsaquo; Patrons &rsaquo; Koha "
 msgstr "%s Szczegóły użytkownika %s %s &rsaquo; Użytkownicy &rsaquo; Koha "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron."
-msgstr "Egzemplarz oczekuje na innego użytkownika."
+msgstr "To jest anonimowy/niezalogowany użytkownik."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:62
 #, c-format
@@ -65223,7 +65223,7 @@ msgid "Renew existing patrons"
 msgstr "Odnów istniejące konta użytkowników"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:317
-#, fuzzy, c-format
+#, c-format
 msgid "using the dateexpiry value in the file, if present"
 msgstr "używając daty wygaśnięcia konta, jeśli podana w pliku"
 
