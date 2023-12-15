@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-13 03:06+0000\n"
-"PO-Revision-Date: 2023-12-08 03:01+0000\n"
-"Last-Translator: Fridolin SOMERS <fridolin.somers@biblibre.com>\n"
+"PO-Revision-Date: 2023-12-16 03:03+0000\n"
+"Last-Translator: mathsaby <mathsabypro@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.3-rc\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fr/22.11/fr-FR-staff-prog.po\n"
 "X-POOTLE-MTIME: 1697690205.370431\n"
@@ -3689,7 +3689,7 @@ msgstr "Utilisations annuelles ajoutées"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:89
 #, c-format
 msgid "already exists in this data provider and was not created. New usage statistics were verified anyway"
-msgstr ""
+msgstr "existe déjà chez ce fournisseur de données et n'a pas été créé. Mais les nouvelles statistiques d'usage ont été vérifiées"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:91
 #, fuzzy, c-format
@@ -3715,7 +3715,7 @@ msgstr "Merci de ré-évaluer cette limite ou de moissonner une plus courte pér
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:98
 #, c-format
 msgid "SUSHI response returned no items."
-msgstr ""
+msgstr "La réponse SUSHI n'a renvoyé aucun élément."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:99
 #, c-format
@@ -3727,7 +3727,7 @@ msgstr "Merci de réessayer avec une période de moissonnage différente."
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:101
 #, c-format
 msgid "SUSHI returned: %s %s"
-msgstr ""
+msgstr "SUSHI a retourné:%s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/marc_import_commit_batch.inc:7
 #, c-format
@@ -6956,7 +6956,7 @@ msgstr "Impossible de prendre la photo de l'adhérent."
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
 #, c-format
 msgid "The patron must have a cardnumber before a patron photo can be uploaded."
-msgstr ""
+msgstr "L'adhérent doit avoir un numéro de carte avant de pouvoir charger une photo."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:19
@@ -63864,7 +63864,7 @@ msgstr "Filtres optionnels pour la liste d'inventaire ou la comparaison des code
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:160
 #, c-format
 msgid "Scanned items are expected to match one of the selected \"not for loan\" criteria if any are checked."
-msgstr ""
+msgstr "Les exemplaires scannés sont supposés correspondre à un des critères \"exclu du prêt\" si l'un d'eux est sélectionné."
 
 #. %1$s:  IF ( status.fieldname == 'items.notforloan' && value.authorised_value == 0 && value.lib == '__IGNORE__' ) 
 #. %2$s:  ELSE 
@@ -63933,9 +63933,9 @@ msgid "Item has unselected \"Not for loan\" status \"%s\""
 msgstr "L'exemplaire est normalement exclu du prêt %s(%s)%s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:326
-#, fuzzy, c-format
+#, c-format
 msgid "Items has no \"not for loan\" status"
-msgstr "Cet exemplaire est normalement exclu du prêt"
+msgstr "Cet exemplaire n'a pas de statut \"exclu du prêt\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:329
 #, c-format
