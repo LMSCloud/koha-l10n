@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-13 03:06+0000\n"
-"PO-Revision-Date: 2023-12-04 14:45+0000\n"
+"PO-Revision-Date: 2023-12-16 03:03+0000\n"
 "Last-Translator: Urszula <matoga@biblos.pk.edu.pl>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: pl-PL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.3-rc\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /pl/22.11/pl-PL-staff-prog.po\n"
 "X-POOTLE-MTIME: 1698745319.327548\n"
@@ -6962,7 +6962,7 @@ msgstr "Nie można zrobić zdjęcia użytkownika."
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
 #, c-format
 msgid "The patron must have a cardnumber before a patron photo can be uploaded."
-msgstr ""
+msgstr "Użytkownik musi mieć numer karty zanim jego zdjęcie zostanie wczytane."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:19
@@ -7713,7 +7713,7 @@ msgstr "Działania "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/clubs-table.inc:88
 #, c-format
 msgid "Enrollments "
-msgstr "Zapisy do grupy  "
+msgstr "Zapisy do grupy "
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/clubs-table.inc:87
@@ -19498,14 +19498,14 @@ msgid "You are missing the &lt;template_cache_dir&gt; entry in your koha-conf.xm
 msgstr "Brakuje wpisu &lt;template_cache_dir&gt; w pliku koha-conf.xml file. Wpisanie go poprawi wydajność."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:525
-#, fuzzy, c-format
+#, c-format
 msgid "The PO directory has not been found. See "
-msgstr "Zamówienie nie zostało odnalezione."
+msgstr "Katalog PO nie został odnaleziony. Zobacz "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:526
-#, fuzzy, c-format
+#, c-format
 msgid "for more information. "
-msgstr "Serwer"
+msgstr "aby uzyskać więcej informacji. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:526
 #, c-format
@@ -36441,13 +36441,13 @@ msgstr "Użyj kalendarza, aby pominąć dni, w których biblioteka jest zamknię
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:461
 #, c-format
 msgid "Next open day"
-msgstr "Następny dzień otwarty"
+msgstr "Najbliższy dzień roboczy"
 
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:267
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:461
 msgid "Use the calendar to push the due date to the next open day"
-msgstr "Użyj kalendarza, aby przesunąć termin zwrotu na następny dzień wolny"
+msgstr "Użyj kalendarza, aby przesunąć termin zwrotu na najbliższy dzień roboczy"
 
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:268
@@ -39320,7 +39320,7 @@ msgstr "nie"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:178
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/search.tt:72
 msgid "Enter search terms"
-msgstr "Podaj szukany termin"
+msgstr "Wprowadź szukane terminy"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:181
@@ -43421,9 +43421,9 @@ msgstr "Po sczytaniu karty użytkownika automatycznie zostanie wyświetlone jego
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:76
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:160
-#, fuzzy, c-format
+#, c-format
 msgid "Note about the accompanying materials: "
-msgstr "Uwaga o materiale towarzyszącym: %s"
+msgstr "Uwaga o materiałach towarzyszących: "
 
 #. %1$s:  alert.ITEM_LOST | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:82
@@ -43473,9 +43473,9 @@ msgid "Staff members are not allowed to discharge borrowers, nor borrowers to re
 msgstr "Bibliotekarze nie posiadają uprawnień do dostępu do kart odejścia użytkownika, ani użytkownicy do wnioskowania o wygenerowanie karty odejścia."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:106
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron, so circulation is disabled."
-msgstr "To jest anonimowy/niezalogowany użytkownik, więc historia zamówień nie jest wyświetlana."
+msgstr "To jest anonimowy/niezalogowany użytkownik, więc udostępnianie jest wyłączone."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:321
@@ -43786,9 +43786,9 @@ msgid "Yes, check out (Y)"
 msgstr "Tak, wypożycz (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:407
-#, fuzzy, c-format
+#, c-format
 msgid "Don't check out, confirm hold, and print slip (P)"
-msgstr "Nie wypożyczaj i wydrukuj rewers (P)"
+msgstr "Nie wypożyczaj, potwierdź zamówienie i wydrukuj rewers (P)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:413
 #, c-format
@@ -43824,19 +43824,19 @@ msgstr "Zapisano do statystyki wewnętrznej"
 
 #. %1$s:  INCLUDE 'patron-title.inc' patron=BORROWER 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:457
-#, fuzzy, c-format
+#, c-format
 msgid "Item checked in from: %s"
-msgstr "Egzemplarz otrzymany od %s"
+msgstr "Egzemplarz zwrócony z: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:460
-#, fuzzy, c-format
+#, c-format
 msgid "Item on hold, please checkin."
-msgstr "Egzemplarz nie został wypożyczony."
+msgstr "Egzemplarz jest zamówiony, zwróć go."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:463
-#, fuzzy, c-format
+#, c-format
 msgid "Item claimed returned, please checkin."
-msgstr "Pozycja została zgłoszona jako zwrócona."
+msgstr "Egzemplarz reklamowany jako zwrócony, zwróć go."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:466
 #, c-format
@@ -43844,9 +43844,9 @@ msgid "Item can fill a recall, please checkin."
 msgstr "Egzemplarz może złożyć przypomnienie, proszę zwróć go."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:470
-#, fuzzy, c-format
+#, c-format
 msgid "Item was lost, cannot be returned."
-msgstr "Egzemplarz nie został wypożyczony."
+msgstr "Egzemplarz był zagubiony, nie może być zwrócony."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:472
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:340
@@ -43855,14 +43855,14 @@ msgid "Item was lost, now found."
 msgstr "Egzemplarz zagubiony, został odnaleziony."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:477
-#, fuzzy, c-format
+#, c-format
 msgid "Item was withdrawn, cannot be returned."
-msgstr "Pozycja została zgłoszona jako zwrócona."
+msgstr "Egzemplarz był wycofany, nie może być zwrócony."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:479
-#, fuzzy, c-format
+#, c-format
 msgid "Item was withdrawn"
-msgstr "Egzemplarz wycofany."
+msgstr "Egzemplarz był wycofany"
 
 #. %1$s:  INVALID_DATE | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:484
@@ -43998,7 +43998,7 @@ msgstr "Egzemplarz został wybrany do przypomnienia i jest w drodze do %s."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:587
 #, c-format
 msgid "No open days found while calculating the due date. Check the library calendar."
-msgstr "Podczas obliczania terminu zwrotu nie znaleziono dni wolnych. Sprawdź kalendarz."
+msgstr "Podczas obliczania terminu zwrotu nie znaleziono dni roboczych. Sprawdź kalendarz."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:592
 #, c-format
@@ -44124,7 +44124,7 @@ msgstr "Wypożyczenia na miejscu"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:844
 #, c-format
 msgid "%s (%s). %s %s %s. %s Due on %s "
-msgstr "%s (%s). %s %s %s. %s Termin zwrotu: %s "
+msgstr "%s (%s). %s %s %s. %s Termin zwrotu %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:844
 #, c-format
@@ -52378,9 +52378,9 @@ msgid "%s Total due: "
 msgstr "%s Kwota należności: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:59
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron."
-msgstr "Egzemplarz oczekuje na innego użytkownika."
+msgstr "To jest anonimowy/niezalogowany użytkownik."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:65
 #, c-format
@@ -63605,7 +63605,7 @@ msgid "Renew existing patrons"
 msgstr "Odnów istniejące konta użytkowników"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:342
-#, fuzzy, c-format
+#, c-format
 msgid "using the dateexpiry value in the file, if present"
 msgstr "używając daty wygaśnięcia konta, jeśli podana w pliku"
 
