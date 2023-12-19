@@ -1,9 +1,9 @@
 # Compendium of pt_BR.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.000\n"
+"Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-12 03:06+0000\n"
+"POT-Creation-Date: 2023-12-19 03:06+0000\n"
 "PO-Revision-Date: 2023-12-05 03:01+0000\n"
 "Last-Translator: Tiago Murakami <trmurakami@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -8467,18 +8467,20 @@ msgstr "Desconhecido"
 
 #. SELECT name=[% messaging_preference.message_attribute_id | html %]-DAYS
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:81
-msgid "Choose how many days in advance you wish to receive notice"
+#, fuzzy
+msgid "Choose how many days in advance you wish to receive the message"
 msgstr "Escolha com quantos dias de antecedência você deseja receber o aviso"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:97
-msgid "Unselect sms messaging"
+#, fuzzy
+msgid "Unselect SMS messaging"
 msgstr "Desmarcar mensagens SMS"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:99
 #, fuzzy
-msgid "Select sms messaging"
+msgid "Select SMS messaging"
 msgstr "Selecione um horário"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
@@ -8489,7 +8491,6 @@ msgstr "Cancelar notificação por e-mail "
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:117
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:140
 #, fuzzy
 msgid "Select notification by phone"
 msgstr "Cancelar notificação por e-mail "
@@ -8497,6 +8498,12 @@ msgstr "Cancelar notificação por e-mail "
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:133
 msgid "Unselect itiva messaging"
+msgstr "Desmarcar mensagens itiva"
+
+#. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:140
+#, fuzzy
+msgid "Select itiva messaging"
 msgstr "Desmarcar mensagens itiva"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]

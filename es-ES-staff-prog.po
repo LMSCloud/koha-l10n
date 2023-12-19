@@ -1,9 +1,9 @@
 # Compendium of es.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.000\n"
+"Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-13 03:06+0000\n"
+"POT-Creation-Date: 2023-12-19 03:06+0000\n"
 "PO-Revision-Date: 2023-12-12 03:02+0000\n"
 "Last-Translator: Tomás Cohen Arazi <tomascohen@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -1052,7 +1052,7 @@ msgstr "Búsqueda de pedidos"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:93
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:206
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/checkout-notes.tt:81
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:615
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:627
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:150
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:90
@@ -2110,8 +2110,8 @@ msgstr "Estado de los lotes de préstamo interbibliotecario"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/suggestions-add-search.inc:38
 #: koha-tmpl/intranet-tmpl/prog/en/includes/z3950-admin-search.inc:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:36
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:661
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:742
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:673
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:754
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:132
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1199
@@ -2614,7 +2614,7 @@ msgstr "%sz = otro"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:96
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:79
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:104
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:670
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:682
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:231
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:519
@@ -3174,7 +3174,7 @@ msgstr "Combinando con autoridad: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:269
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:314
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/merge.tt:156
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:608
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:620
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1371
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1395
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:381
@@ -4133,13 +4133,13 @@ msgid "%sThis account cannot view requested patron information. %s "
 msgstr "%sEsta cuenta no puede ver la información del usuario solicitada. %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:4
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:897
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:909
 #, c-format
 msgid "Patron not found. "
 msgstr "Usuario no encontrado. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:4
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:897
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:909
 #, c-format
 msgid "Return to search"
 msgstr "Volver a buscar"
@@ -4390,6 +4390,7 @@ msgstr "Biblioteca"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:344
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:166
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1094
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:99
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:186
@@ -5383,6 +5384,7 @@ msgstr "Duplicar"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:472
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:139
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:370
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:157
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:220
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:241
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:411
@@ -6103,7 +6105,7 @@ msgstr "La lista de préstamos se mostrará automáticamente en %s segundos..."
 #: koha-tmpl/intranet-tmpl/prog/en/includes/relatives-issues-table.inc:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:66
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:339
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:347
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:107
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:86
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1219
@@ -6142,7 +6144,7 @@ msgstr "Tipo de ítem a nivel bibliográfico"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:314
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:420
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:211
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:622
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:634
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:96
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:203
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:456
@@ -6193,7 +6195,7 @@ msgstr "Tipo de ítem"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:313
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:419
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:212
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:621
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:633
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:63
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1231
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:80
@@ -6305,7 +6307,7 @@ msgstr "Prestado de"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:315
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:421
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:210
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:617
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:629
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:95
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:260
@@ -6354,7 +6356,7 @@ msgstr "Signatura topográfica"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:210
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:317
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:423
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:618
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:630
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:83
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:120
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:723
@@ -8899,8 +8901,8 @@ msgstr "%s Reserva esperada en "
 msgid ", please checkin to verify status %s %s %s %s "
 msgstr ", por favor devolver para verificar estado %s %s %s %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:172
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:184
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:171
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:183
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:333
 #, c-format
 msgid "No barcode"
@@ -8941,10 +8943,10 @@ msgstr "Anular prioridad más baja"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:221
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:222
 #: koha-tmpl/intranet-tmpl/prog/en/includes/waiting_holds.inc:78
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:283
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:289
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:298
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:307
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:291
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:297
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:306
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:315
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:227
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:876
 #, c-format
@@ -9853,7 +9855,7 @@ msgstr "Agregar ítems al lote"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch-modal.inc:92
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:460
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:430
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:438
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/set-library.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:145
@@ -11379,7 +11381,7 @@ msgstr "Contenidos del paquete %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:319
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:425
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:208
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:616
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:628
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:149
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:94
@@ -13634,9 +13636,9 @@ msgid "Manage all baskets and order lines, regardless of restrictions on them "
 msgstr "Gestionar todas las líneas de pedidos y cestas, independientemente de las restricciones en ellos "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:466
-#, c-format
-msgid "Manage issues "
-msgstr "Administrar inconvenientes con proveedores "
+#, fuzzy, c-format
+msgid "Manage vendor issues "
+msgstr "Gestionar proveedores "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:471
 #, c-format
@@ -18624,12 +18626,10 @@ msgid "Contracts"
 msgstr "Contratos"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:7
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:185
 #, c-format
-msgid "Issues"
-msgstr "Ejemplares"
+msgid "Vendor issues"
+msgstr "Inconvenientes con proveedor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:10
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:12
@@ -24810,7 +24810,7 @@ msgstr "Suspendido:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:375
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:619
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:631
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-print.tt:49
 #, c-format
 msgid "Inventory number"
@@ -26556,6 +26556,13 @@ msgstr "Incierta"
 msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
 msgstr "%s %s Modificar inconveniente con proveedor %s Nuevo inconveniente con proveedor %s &rsaquo; %s %s Confirmar eliminación de inconveniente con proveedor &rsaquo; %s %s Inconveniente con proveedor &rsaquo; Adquisiciones &rsaquo; Koha "
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:41
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:45
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
+#, c-format
+msgid "Issues"
+msgstr "Ejemplares"
+
 #. %1$s:  IF issue 
 #. %2$s:  issue.issue_id| html 
 #. %3$s:  ELSE 
@@ -26695,11 +26702,6 @@ msgstr "Inconveniente con proveedor #%s"
 #, c-format
 msgid "New issue"
 msgstr "Nuevo inconveniente"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:185
-#, c-format
-msgid "Vendor issues"
-msgstr "Inconvenientes con proveedor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:193
 #, c-format
@@ -30150,7 +30152,6 @@ msgstr "UserJS: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:294
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:302
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:157
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:351
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:248
 #, c-format
@@ -30159,7 +30160,6 @@ msgstr "Haga clic para editar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:296
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:304
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:159
 #, c-format
 msgid "Click to collapse"
 msgstr "Hacer clic para colapsar"
@@ -35541,6 +35541,11 @@ msgstr "La preferencia de sistema %s puede haber sido reemplazada desde este val
 msgid "[Overridden] "
 msgstr "[Reemplazado] "
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:159
+#, fuzzy, c-format
+msgid "Collapse"
+msgstr "Colapsado"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:204
 #, c-format
 msgid "Pseudonymization must only be turned on if the 'bcrypt_settings' configuration entry exists and is correctly filled in the Koha configuration file."
@@ -36289,7 +36294,7 @@ msgstr "Sin renovación automática antes de"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:141
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:594
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:790
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:802
 #, c-format
 msgid "Automatic renewal"
 msgstr "Renovación automática"
@@ -38321,7 +38326,7 @@ msgstr "No se han definido mapeos de campos de búsqueda SRU. Esto significa que
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:53
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:389
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:701
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:713
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:148
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:153
 #, c-format
@@ -40696,6 +40701,7 @@ msgid "All locations"
 msgstr "Todas las ubicaciones"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:24
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1078
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/acquisitions_stats.tt:222
 #, c-format
 msgid "All item types"
@@ -40749,7 +40755,7 @@ msgstr "Disponibilidad:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:215
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:74
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:631
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:643
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/readingrec.tt:134
 #, c-format
@@ -40902,7 +40908,7 @@ msgstr "Enviar ítems seleccionados a la modificación en lote"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:620
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:632
 #, c-format
 msgid "Serial enumeration"
 msgstr "Enumeración de seriada"
@@ -43502,7 +43508,7 @@ msgstr "Los usuarios tutelados tienen en conjunto una deuda de %s."
 #. For the first occurrence,
 #. %1$s:  DEBT_GUARANTORS | $Price 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:137
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:451
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:459
 #, c-format
 msgid "The patron's guarantors and their other guarantees collectively have a debt of %s."
 msgstr "Los usuarios garantes y sus usuarios tutelados en conjunto tienen una deuda de %s."
@@ -43525,8 +43531,8 @@ msgstr "(%s) está prestado actualmente a este usuario. ¿Renovar?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:157
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:161
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:165
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:247
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:249
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:255
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:257
 #, c-format
 msgid "Item "
 msgstr "Ítem "
@@ -43537,8 +43543,8 @@ msgstr "Ítem "
 #. %3$s:  reswaitingdate | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:149
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:161
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:247
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:249
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:255
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:257
 #, c-format
 msgid "(%s) at %s since %s"
 msgstr "(%s) de %s desde %s"
@@ -43546,7 +43552,7 @@ msgstr "(%s) de %s desde %s"
 #. For the first occurrence,
 #. %1$s:  getBarcodeMessageIteminfo | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:149
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:247
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:255
 #, c-format
 msgid "(%s) has been waiting for "
 msgstr "(%s) lo esta esperando "
@@ -43601,47 +43607,56 @@ msgstr "(%s). %s ¿Devolver y prestar? %s "
 #. %1$s:  current_loan_count | html 
 #. %2$s:  max_loans_allowed | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:173
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:559
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:567
 #, c-format
 msgid "Too many checked out. %s checked out, only %s are allowed."
 msgstr "Demasiados préstamos. %s prestados, solo %s permitidos."
 
+#. For the first occurrence,
+#. %1$s:  INCLUDE circulation_rule_criteria rule=circulation_rule_TOO_MANY 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:174
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:182
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:568
+#, c-format
+msgid "Maximum checkouts calculated from the circulation rule for %s "
+msgstr ""
+
 #. %1$s:  current_loan_count | html 
 #. %2$s:  max_loans_allowed | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:177
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:181
 #, c-format
 msgid "Too many on-site checked out. %s on-site checked out, only %s are allowed."
 msgstr "Demasiados préstamos in-situ. %s prestados in-situ, solo %s son permitidos."
 
 #. %1$s:  Branches.GetName( BORRNOTSAMEBRANCH ) | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:181
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:189
 #, c-format
 msgid "This patron is from a different library (%s)"
 msgstr "Este usuario es de una biblioteca diferente (%s)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:185
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:193
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:199
 #, c-format
 msgid "This patron can't check out this item per library circulation policy."
 msgstr "Este usuario no puede prestar este ítem debido a las políticas de circulación de la biblioteca."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:189
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:197
 #, c-format
 msgid "No circulation rule is defined for this patron and itemtype combination."
 msgstr "No hay una regla de circulación definida para la combinación de este usuario y el tipo de ítem."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:195
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:203
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:203
 #, c-format
 msgid "Item type is normally not for loan."
 msgstr "Tipo de ítem no se aplica normalmente para préstamo."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:198
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:206
 #, c-format
 msgid "Item is normally not for loan"
 msgstr "Este ítem no se encuentra normalmente para préstamo."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:201
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:209
 #, c-format
 msgid "Check out anyway?"
 msgstr "¿Prestar de todas maneras?"
@@ -43649,7 +43664,7 @@ msgstr "¿Prestar de todas maneras?"
 #. %1$s:  USERBLOCKEDOVERDUE 
 #. %2$s:  IF CAN_user_circulate_force_checkout 
 #. %3$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:207
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:215
 #, c-format
 msgid "Patron has %s overdue item(s). %s Check out anyway? %s "
 msgstr "El usuario tiene %s ítem(s) retrasado(s). %s ¿Prestar de todos modos? %s "
@@ -43657,14 +43672,14 @@ msgstr "El usuario tiene %s ítem(s) retrasado(s). %s ¿Prestar de todos modos? 
 #. %1$s:  ITEM_LOST | html 
 #. %2$s:  IF CAN_user_circulate_force_checkout 
 #. %3$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:215
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:223
 #, c-format
 msgid "This item has been lost with a status of \"%s\". %s Check out anyway? %s "
 msgstr "Este ítem se ha perdido con estado de \"%s\". %s ¿Prestar de todos modos? %s "
 
 #. %1$s:  HIGHHOLDS.duration | html 
 #. %2$s:  HIGHHOLDS.returndate | $KohaDates 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:223
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:231
 #, c-format
 msgid "High demand item. Loan period shortened to %s days (due %s). Check out anyway?"
 msgstr "Ítem en alta demanda. Período de préstamo acortado a %s días (vence %s). ¿Prestar de todas formas?"
@@ -43673,30 +43688,30 @@ msgstr "Ítem en alta demanda. Período de préstamo acortado a %s días (vence 
 #. %2$s:  IF biblio.author 
 #. %3$s:  biblio.author | html 
 #. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:227
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:235
 #, c-format
 msgid "%s %s by %s%s"
 msgstr "%s %s por %s%s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:227
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:235
 #, c-format
 msgid ". Check out anyway?"
 msgstr ". ¿Prestar de todas maneras?"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:227
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:235
 #, c-format
 msgid "Patron has previously checked out this title: "
 msgstr "Este ítem ha sido previamente prestado a este usuario: "
 
 #. %1$s:  IF CAN_user_circulate_force_checkout 
 #. %2$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:231
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:239
 #, c-format
 msgid "Patron has already checked out another item from this record. %s Check out anyway? %s "
 msgstr "El usuario ya tiene otro ejemplar prestado de este registro. %s ¿Prestar de todos modos? %s "
 
 #. %1$s:  ADDITIONAL_MATERIALS | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:240
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:248
 #, c-format
 msgid "Please confirm that the accompanying materials are present: %s "
 msgstr "Por favor confirme que el material acompañante/anejo se encuentra presente: %s "
@@ -43704,175 +43719,175 @@ msgstr "Por favor confirme que el material acompañante/anejo se encuentra prese
 #. %1$s:  IF RECALLED.item 
 #. %2$s:  RECALLED.item.barcode | html 
 #. %3$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:249
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:257
 #, c-format
 msgid "%s(%s)%s has been recalled by "
 msgstr "%s(%s)%s ha sido reclamado por "
 
 #. %1$s:  BOOKED_TO_ANOTHER.start_date | $KohaDates 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:254
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:262
 #, c-format
 msgid "Due for another patron booking by: %s "
 msgstr "A término para la anticipada de otro usuario con fecha: %s "
 
 #. %1$s:  BOOKED_EARLY.start_date | $KohaDates 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:260
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:268
 #, c-format
 msgid "Patron has this item booked for checkout on %s "
 msgstr "El usuario tiene este ítem reservado para préstamo el %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:276
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:284
 #, c-format
 msgid "Don't decrease loan length based on holds"
 msgstr "No disminuya la extensión de lo actualmente prestado basado en las reservas"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:291
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:322
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:299
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:330
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:128
 #, c-format
 msgid "Revert waiting status"
 msgstr "Revirtir estado de espera"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:300
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:308
 #, c-format
 msgid "Revert hold transfer status"
 msgstr "Revertir el estado de transferencia de la reserva"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:309
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:317
 #, c-format
 msgid "Revert In Processing status"
 msgstr "Revertir en estado de procesamiento"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:316
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:324
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_to_pull.tt:132
 #, c-format
 msgid "Cancel recall"
 msgstr "Cancelar reclamo"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:347
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:355
 #, c-format
 msgid "Reducing due date to: "
 msgstr "Reducir la fecha de devolución a: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:353
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:361
 #, c-format
 msgid "Allow early collection? "
 msgstr "¿Permitir retiro temprano? "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:362
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:387
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:370
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:395
 #, c-format
 msgid "Yes, renew (Y)"
 msgstr "Sí, renovar (S)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:364
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:389
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:372
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:397
 #, c-format
 msgid "Yes, check out (Y)"
 msgstr "Sí, prestar (S)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:407
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:415
 #, c-format
 msgid "Don't check out, confirm hold, and print slip (P)"
 msgstr "No prestar, confirmar reserva, e imprimir recibo (P)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:413
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:421
 #, c-format
 msgid "Don't check out and print slip (P)"
 msgstr "No prestar e imprimir recibo (P)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:425
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:433
 #, c-format
 msgid "No, don't renew (N)"
 msgstr "No, no renovar (N)"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:427
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:435
 #, c-format
 msgid "No, don't check out (N)"
 msgstr "No, no prestar (N)"
 
 #. %1$s:  INCLUDE 'patron-title.inc' 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:436
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:444
 #, c-format
 msgid "Cancel checkout and place a hold for %s"
 msgstr "Cancelar el préstamo e ingrese una reserva para %s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:445
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:453
 #, c-format
 msgid "Barcode not found"
 msgstr "No se encuentra el código de barras"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:455
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:463
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:331
 #, c-format
 msgid "Local use recorded"
 msgstr "Se registró para uso local"
 
 #. %1$s:  INCLUDE 'patron-title.inc' patron=BORROWER 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:457
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:465
 #, c-format
 msgid "Item checked in from: %s"
 msgstr "Ítem prestado en: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:460
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:468
 #, c-format
 msgid "Item on hold, please checkin."
 msgstr "Ítem reservado, por favor devolverlo."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:463
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:471
 #, c-format
 msgid "Item claimed returned, please checkin."
 msgstr "El ítem ha sido declarado devuelto, por favor devolver."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:466
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:474
 #, c-format
 msgid "Item can fill a recall, please checkin."
 msgstr "El ítem puede completar una solicitud de devolución, por favor devolver."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:470
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:478
 #, c-format
 msgid "Item was lost, cannot be returned."
 msgstr "Ítem perdido, no puede ser devuelto."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:472
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:480
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:340
 #, c-format
 msgid "Item was lost, now found."
 msgstr "El ítem estaba perdido, se ha encontrado."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:477
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:485
 #, c-format
 msgid "Item was withdrawn, cannot be returned."
 msgstr "El ítem estaba retirado. no puede ser devuelto."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:479
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:487
 #, c-format
 msgid "Item was withdrawn"
 msgstr "El ítem había sido retirado"
 
 #. %1$s:  INVALID_DATE | $KohaDates 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:484
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:492
 #, c-format
 msgid "The due date &quot;%s&quot; is invalid"
 msgstr "La fecha de vencimiento &quot;%s&quot; es inválida"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:488
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:496
 #, c-format
 msgid "The barcode was not found: "
 msgstr "No se encontró el código de barras: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:492
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:500
 #, c-format
 msgid "Show matching titles"
 msgstr "Mostrar coincidencia de títulos"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:494
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:502
 #, c-format
 msgid "No items were found by searching."
 msgstr "No se encontraron artículos mediante la búsqueda."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:500
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:508
 #, c-format
 msgid "Add record using fast cataloging"
 msgstr "Agregar registro utilizando catalogación rápida"
@@ -43884,23 +43899,23 @@ msgstr "Agregar registro utilizando catalogación rápida"
 #. %5$s:  item_notforloan_lib | html 
 #. %6$s:  END 
 #. %7$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:508
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:516
 #, c-format
 msgid "%s Item type not for loan. %s %s Item not for loan%s (%s)%s. %s "
 msgstr "%s Tipo de ítem no para préstamo. %s %s Ítem no para préstamo%s (%s)%s. %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:520
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:528
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:366
 #, c-format
 msgid "Item has been withdrawn"
 msgstr "Ítem ha sido retirado"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:527
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:535
 #, c-format
 msgid "Item is restricted"
 msgstr "El ítem está restringido"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:531
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:539
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:108
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:657
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:848
@@ -43910,151 +43925,151 @@ msgstr "El ítem está restringido"
 msgid "Patron's address is in doubt"
 msgstr "Dirección de usuario dudosa"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:535
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:543
 #, c-format
 msgid "Patron's card is lost"
 msgstr "El carné del usuario se ha perdido"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:539
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:547
 #, c-format
 msgid "Patron is restricted"
 msgstr "El usuario está suspendido"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:543
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:551
 #, c-format
 msgid "No more renewals possible"
 msgstr "No es posible una nueva renovación"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:547
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:555
 #, c-format
 msgid "This item can not be renewed, it's an on-site checkout"
 msgstr "Este ítem no puede ser renovado, es un préstamo in situ"
 
 #. For the first occurrence,
 #. %1$s:  AGE_RESTRICTION | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:551
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:559
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:172
 #, c-format
 msgid "Age restriction %s."
 msgstr "Restricción de edad %s."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:555
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:563
 #, c-format
 msgid "Patron's card is expired"
 msgstr "El carné de usuario se ha vencido."
 
 #. For the first occurrence,
 #. %1$s:  Branches.GetName( itemhomebranch ) | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:563
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:575
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:290
 #, c-format
 msgid "This item belongs to %s and cannot be checked out from this location."
 msgstr "Este ejemplar pertenece a la biblioteca %s y no puede ser prestado desde esta ubicación."
 
 #. %1$s:  Branches.GetName( branch_to_return ) | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:567
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:579
 #, c-format
 msgid "This item must be returned to %s."
 msgstr "Este ítem debe ser devuelto a %s."
 
 #. %1$s:  USERBLOCKEDWITHENDDATE | $KohaDates 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:571
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:583
 #, c-format
 msgid "Patron has a restriction until %s."
 msgstr "El usuario tiene una restricción hasta %s."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:575
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:587
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:378
 #, c-format
 msgid "Patron has an indefinite restriction."
 msgstr "El usuario tiene una restricción indefinida."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:579
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:591
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:296
 #, c-format
 msgid "Checkouts are BLOCKED because patron has overdue items."
 msgstr "Los préstamos están BLOQUEADOS porque el usuario tiene ítems con retraso."
 
 #. %1$s:  Branches.GetName( RECALLED_INTRANSIT ) | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:583
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:595
 #, c-format
 msgid "Item has been recalled and is in transit for pickup at %s."
 msgstr "El ítem tiene una solicitud de devolución y esta en transito para retiro en %s."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:587
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:599
 #, c-format
 msgid "No open days found while calculating the due date. Check the library calendar."
 msgstr "No se encontraron días con la biblioteca abierta al calcular la fecha de devolución. Por favor revisar el calendario de la biblioteca."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:592
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:604
 #, c-format
 msgid "Restriction overridden temporarily."
 msgstr "Restricción anulada temporalmente."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:596
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:608
 #, c-format
 msgid "!!A booking exists!!"
 msgstr "¡Existe una reserva anticipada!"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:609
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:621
 #, c-format
 msgid "Barcode not found. The following items were found by searching:"
 msgstr "Código de barras no encontrado. Los siguientes ítems se encontraron por la búsqueda:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:680
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:692
 #, c-format
 msgid "Restriction overridden temporarily"
 msgstr "Restricción anulada temporalmente"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:687
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:699
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:281
 #, c-format
 msgid "Item checked out"
 msgstr "Ítem prestado"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:692
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:704
 #, c-format
 msgid "No patron matched "
 msgstr "No hay usuario que coincida "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:701
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:713
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:148
 #, c-format
 msgid "This patron has requested their circulation history be anonymized on check-in, but the AnonymousPatron system preference is empty or incorrect. "
 msgstr "Este usuario ha solicitado que su historial de circulación sea anónimo en la devolución, pero la preferencia de sistema AnonymousPatron está vacía o incorrecta. "
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:717
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:720
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:729
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:732
 msgid "Clear screen"
 msgstr "Limpiar pantalla"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:718
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:730
 msgid "Print slip and clear screen"
 msgstr "Imprimir recibo y limpiar pantalla"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:721
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:733
 msgid "Print quick slip and clear screen"
 msgstr "Imprimir recibo y limpiar pantalla"
 
 #. For the first occurrence,
 #. %1$s:  INCLUDE 'patron-title.inc' 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:726
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:875
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:738
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:887
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:87
 #, c-format
 msgid "Checking out to %s"
 msgstr "Prestando a %s"
 
 #. INPUT type=text name=barcode
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:732
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:744
 msgid "Enter item barcode or keyword"
 msgstr "Ingrese código de barras del ítem o palabra clave"
 
 #. INPUT type=text name=barcode
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:734
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:746
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:205
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:212
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1109
@@ -44063,39 +44078,39 @@ msgid "Enter item barcode"
 msgstr "Ingrese código de barras del ítem"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:739
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:751
 msgid "Checkout settings"
 msgstr "Configuraciones de préstamo"
 
 #. %1$s:  INCLUDE 'date-format.inc' 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:749
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:761
 #, c-format
 msgid "Specify due date %s: "
 msgstr "Especifique la fecha de vencimiento %s: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:755
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:767
 #, c-format
 msgid "Remember for session:"
 msgstr "Recordar por la sesión:"
 
 #. INPUT type=checkbox name=auto_renew
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:771
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:785
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:783
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:797
 msgid "Patron has opted out of auto-renewal"
 msgstr "El usuario ha abandonado la auto-renovación"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:808
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:820
 #, c-format
 msgid "Don't decrease checkout length based on holds"
 msgstr "No disminuya la extensión del préstamo basado en las reservas"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:817
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:829
 #, c-format
 msgid "On-site checkouts only. Automatic due date: "
 msgstr "Solamente préstamos in situ. Fecha de vencimiento automática: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:823
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:825
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:835
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:837
 #, c-format
 msgid "On-site checkout"
 msgstr "Préstamo in situ"
@@ -44107,36 +44122,65 @@ msgstr "Préstamo in situ"
 #. %5$s:  tnx('Bundle of {count} item', 'Bundle of {count} items', bundle_items_count, { count = bundle_items_count }) | html 
 #. %6$s:  END 
 #. %7$s:  issue.date_due | $KohaDates as_due_date => 1 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:844
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:856
 #, c-format
 msgid "%s (%s). %s %s %s. %s Due on %s "
 msgstr "%s (%s). %s %s %s. %s Vence %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:844
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:856
 #, c-format
 msgid "Checked out: "
 msgstr "Prestado: "
 
 #. %1$s:  IF ( Koha.Preference('OnSiteCheckouts') && Koha.Preference('OnSiteCheckoutsForce') ) 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:878
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:890
 #, c-format
 msgid "Cannot check out! %s "
 msgstr "¡No se puede prestar! %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:881
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:893
 #, c-format
 msgid "Only on-site checkouts are allowed"
 msgstr "Solamente préstamos in situ son permitidos"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:932
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:944
 #, c-format
 msgid "Barcode submitted"
 msgstr "Código de barras enviado"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:935
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:947
 #, c-format
 msgid "You have already submitted a barcode, please wait for the checkout to process..."
 msgstr "Usted ya ha enviado un código de barras, por favor espere el préstamo a procesar..."
+
+#. %1$s:  IF rule.itemtype 
+#. %2$s:  ItemTypes.GetDescription( rule.itemtype ) | html 
+#. %3$s:  ELSE 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1073
+#, fuzzy, c-format
+msgid "Item type: %s %s %s "
+msgstr "El tipo de ítem es %s"
+
+#. %1$s:  IF rule.categorycode 
+#. %2$s:  Categories.GetName( rule.categorycode ) | html 
+#. %3$s:  ELSE 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1081
+#, fuzzy, c-format
+msgid "Patron category: %s %s %s "
+msgstr "Categoría de usuario = %s"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1086
+#, fuzzy, c-format
+msgid "All patron categories"
+msgstr "categorías de usuario"
+
+#. %1$s:  IF rule.branchcode 
+#. %2$s:  Branches.GetName( rule.branchcode ) | html 
+#. %3$s:  ELSE 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1089
+#, fuzzy, c-format
+msgid "Library: %s %s %s "
+msgstr "Biblioteca es %s"
 
 #. %1$s:  INCLUDE 'patron-title.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:36
@@ -70561,6 +70605,10 @@ msgstr "_blank"
 
 #~ msgid "Manage background jobs"
 #~ msgstr "Administrar tareas en segundo plano"
+
+#, c-format
+#~ msgid "Manage issues "
+#~ msgstr "Administrar inconvenientes con proveedores "
 
 #, c-format
 #~ msgid "Manage items assigned to "

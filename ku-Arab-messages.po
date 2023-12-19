@@ -1,9 +1,9 @@
 # Compendium of ku.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.000\n"
+"Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-12 03:06+0000\n"
+"POT-Creation-Date: 2023-12-19 03:06+0000\n"
 "PO-Revision-Date: 2022-05-01 10:36-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -3732,19 +3732,6 @@ msgstr "الاسم الاول"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 #, fuzzy
-msgid "Bookseller name"
-msgstr "إسم المستخدم:"
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Bookseller physical address"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Bookseller postal address"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-#, fuzzy
 msgid "Contract number"
 msgstr "%s ژمارەی شەقام:: "
 
@@ -3763,6 +3750,20 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "RRP tax included"
 msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+#, fuzzy
+msgid "Vendor name"
+msgstr "%s ناوی دیکە:: "
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+msgid "Vendor physical address"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+#, fuzzy
+msgid "Vendor postal address"
+msgstr "ذهب بلا عنوان"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
 msgid "BASKET"
@@ -5453,17 +5454,13 @@ msgid "New cash register"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:16
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:59
 #, perl-brace-format
-msgid "Confirm deletion of cash register ''{cash_register}''"
+msgid "Confirm deletion of cash register '{cash_register}'"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:18
 msgid "Cash registers"
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:59
-#, perl-brace-format
-msgid "Confirm deletion of cash register '{cash_register}'"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:14
@@ -6979,7 +6976,7 @@ msgstr "الإعارة"
 msgid "Checking out to {patron}"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:849
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:861
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:327
 #, fuzzy, perl-brace-format
 msgid "Bundle of {count} item"
@@ -8724,6 +8721,10 @@ msgstr[1] "رسائل :"
 #, fuzzy
 #~ msgid "Biblio number (internal)"
 #~ msgstr "رقم ببليوجرافي:"
+
+#, fuzzy
+#~ msgid "Bookseller name"
+#~ msgstr "إسم المستخدم:"
 
 #, fuzzy
 #~ msgid "Item number (internal)"

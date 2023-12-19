@@ -1,9 +1,9 @@
 # Compendium of hy.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.000\n"
+"Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-12 03:06+0000\n"
+"POT-Creation-Date: 2023-12-19 03:06+0000\n"
 "PO-Revision-Date: 2023-12-19 03:01+0000\n"
 "Last-Translator: tigran <tigran@flib.sci.am>\n"
 "Language-Team: Koha Translation Team\n"
@@ -3583,18 +3583,6 @@ msgid "Basket name"
 msgstr "Զամբյուղի անուն"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Bookseller name"
-msgstr "Գրավաճառի անուն"
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Bookseller physical address"
-msgstr "Գրավաճառի ֆիզիկական հասցե"
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Bookseller postal address"
-msgstr "Գրավաճառի փոստային հասցե"
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Contract number"
 msgstr "Պայմանագրի թիվը"
 
@@ -3613,6 +3601,21 @@ msgstr "RRP հարկը հանված է"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "RRP tax included"
 msgstr "RRP հարկը ներառված է"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+#, fuzzy
+msgid "Vendor name"
+msgstr "Մատակարարի նշում"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+#, fuzzy
+msgid "Vendor physical address"
+msgstr "Գրավաճառի ֆիզիկական հասցե"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+#, fuzzy
+msgid "Vendor postal address"
+msgstr "Գրավաճառի փոստային հասցե"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
 msgid "BASKET"
@@ -5213,18 +5216,14 @@ msgid "New cash register"
 msgstr "Նոր դրամարկղային մեքենա"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:16
-#, perl-brace-format
-msgid "Confirm deletion of cash register ''{cash_register}''"
-msgstr "Հաստատիր ''{cash_register}'' դրամարկղային մեքենայի ջնջումը"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:18
-msgid "Cash registers"
-msgstr "Դրամարկղային մեքենաներ"
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:59
 #, perl-brace-format
 msgid "Confirm deletion of cash register '{cash_register}'"
 msgstr "Հաստատիր '{cash_register}' դրամարկղային մեքենայի ջնջումը"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:18
+msgid "Cash registers"
+msgstr "Դրամարկղային մեքենաներ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:58
@@ -6699,7 +6698,7 @@ msgstr "Դուրս տրման նշումներ"
 msgid "Checking out to {patron}"
 msgstr "Դուրս է տրվում {patron} -ի համար"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:849
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:861
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:327
 #, perl-brace-format
 msgid "Bundle of {count} item"
@@ -8350,6 +8349,13 @@ msgstr[0] "հաղորդագրություններ"
 
 #~ msgid "Biblio number (internal)"
 #~ msgstr "Բիբլիո համար (ներքին)"
+
+#~ msgid "Bookseller name"
+#~ msgstr "Գրավաճառի անուն"
+
+#, perl-brace-format
+#~ msgid "Confirm deletion of cash register ''{cash_register}''"
+#~ msgstr "Հաստատիր ''{cash_register}'' դրամարկղային մեքենայի ջնջումը"
 
 #, perl-brace-format
 #~ msgid "Holds waiting over {count} days:"

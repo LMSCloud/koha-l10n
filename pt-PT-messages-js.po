@@ -1,9 +1,9 @@
 # Compendium of pt.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.000\n"
+"Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-12 03:06+0000\n"
+"POT-Creation-Date: 2023-12-19 03:06+0000\n"
 "PO-Revision-Date: 2023-12-16 03:03+0000\n"
 "Last-Translator: vfernandes <vfernandes@keep.pt>\n"
 "Language-Team: Koha Translation Team\n"
@@ -1333,11 +1333,13 @@ msgstr "Tem a certeza que pretende eliminar este consentimento?"
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:214
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:224
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:236
-msgid "Click to collapse this section"
+#, fuzzy
+msgid "Collapse this section"
 msgstr "Clique para colapsar esta secção"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:221
-msgid "Click to expand this section"
+#, fuzzy
+msgid "Expand this section"
 msgstr "Clicar para expandir esta secção"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:255
@@ -1452,11 +1454,12 @@ msgid "Cookie path"
 msgstr "Caminho da cookie"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:409
-msgid "Click to expand"
-msgstr "Clique para expandir"
+msgid "Expand"
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:410
-msgid "Click to collapse"
+#, fuzzy
+msgid "Collapse"
 msgstr "Clique para colapsar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:426
@@ -2944,7 +2947,8 @@ msgid "Data provider name"
 msgstr "Nome do fornecedor de dados"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:24
-msgid "Service Type"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:106
+msgid "Service type"
 msgstr "Tipo de serviço"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:30
@@ -2953,8 +2957,8 @@ msgid "Report types"
 msgstr "Tipos de relatório"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:37
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:164
-msgid "Sushi credentials"
+#, fuzzy
+msgid "SUSHI credentials"
 msgstr "Credenciais Sushi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:41
@@ -2963,29 +2967,35 @@ msgid "Service URL"
 msgstr "URL do serviço"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:47
-msgid "Report Release"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:198
+msgid "Report release"
 msgstr "Lançamento do relatório"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:221
-msgid "Customer Id"
+#, fuzzy
+msgid "Customer ID"
 msgstr "ID de cliente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:59
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:244
-msgid "Requestor Id"
+#, fuzzy
+msgid "Requestor ID"
 msgstr "ID do solicitante"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:65
-msgid "API Key"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:269
+msgid "API key"
 msgstr "Chave da API"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:71
-msgid "Requestor Name"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:286
+msgid "Requestor name"
 msgstr "Solicitante"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:77
-msgid "Requestor Email"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:297
+msgid "Requestor email"
 msgstr "Email do solicitante"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:13
@@ -3061,40 +3071,26 @@ msgstr "Criar a partir do registo"
 msgid "Harvester status"
 msgstr "Estado de agregação"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:106
-msgid "Service type"
-msgstr "Tipo de serviço"
-
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:145
 msgid "Unselect all"
 msgstr "Desmarcar todos"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:198
-msgid "Report release"
-msgstr "Lançamento do relatório"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:269
-msgid "API key"
-msgstr "Chave da API"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:286
-msgid "Requestor name"
-msgstr "Solicitante"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:297
-msgid "Requestor email"
-msgstr "Email do solicitante"
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:164
+msgid "Sushi credentials"
+msgstr "Credenciais Sushi"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:308
 msgid "Credentials information"
 msgstr "Informação das credenciais"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:311
-msgid "Customer id info"
+#, fuzzy
+msgid "Customer ID info"
 msgstr "Informação do ID de cliente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:321
-msgid "Requestor id info"
+#, fuzzy
+msgid "Requestor ID info"
 msgstr "ID do solicitante"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:331
@@ -3106,15 +3102,16 @@ msgid "Please refer to the "
 msgstr "Consulte o "
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:342
-msgid "counter registry"
-msgstr "registo de contador"
+msgid "COUNTER registry"
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:344
 msgid "for more information."
 msgstr "para mais informações."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:500
-msgid "This provider does not currently support any counter 5 reports via SUSHI."
+#, fuzzy
+msgid "This provider does not currently support any COUNTER 5 reports via SUSHI."
 msgstr "Este fornecedor não suporta nenhum relatório de contador 5 via SUSHI."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:572
@@ -4240,6 +4237,12 @@ msgstr "Tem de estar autenticado para adicionar etiquetas."
 msgid "Unable to add one or more tags."
 msgstr "Não foi possível adicionar uma ou mais etiquetas."
 
+#~ msgid "API Key"
+#~ msgstr "Chave da API"
+
+#~ msgid "Click to expand"
+#~ msgstr "Clique para expandir"
+
 #, fuzzy
 #~ msgid "Delete license"
 #~ msgstr "Remover todos os exemplares"
@@ -4255,8 +4258,23 @@ msgstr "Não foi possível adicionar uma ou mais etiquetas."
 #~ msgid "License user"
 #~ msgstr "Nome do ficheiro:"
 
+#~ msgid "Report Release"
+#~ msgstr "Lançamento do relatório"
+
+#~ msgid "Requestor Email"
+#~ msgstr "Email do solicitante"
+
+#~ msgid "Requestor Name"
+#~ msgstr "Solicitante"
+
+#~ msgid "Service Type"
+#~ msgstr "Tipo de serviço"
+
 #~ msgid "barcode"
 #~ msgstr "código de barras"
+
+#~ msgid "counter registry"
+#~ msgstr "registo de contador"
 
 #~ msgid "name"
 #~ msgstr "nome"

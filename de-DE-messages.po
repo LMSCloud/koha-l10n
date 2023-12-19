@@ -1,9 +1,9 @@
 # Compendium of de.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.000\n"
+"Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-12 03:06+0000\n"
+"POT-Creation-Date: 2023-12-19 03:06+0000\n"
 "PO-Revision-Date: 2023-12-15 03:03+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
@@ -3586,18 +3586,6 @@ msgid "Basket name"
 msgstr "Name der Bestellung"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Bookseller name"
-msgstr "Lieferant"
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Bookseller physical address"
-msgstr "Physische Adresse des Lieferanten"
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-msgid "Bookseller postal address"
-msgstr "Postadresse des Lieferanten"
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Contract number"
 msgstr "Vereinbarungsnummer"
 
@@ -3616,6 +3604,21 @@ msgstr "Verkaufspreis, exkl. Steuer"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "RRP tax included"
 msgstr "Verkaufspreis, inkl. Steuer"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+#, fuzzy
+msgid "Vendor name"
+msgstr "Lieferantennotiz"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+#, fuzzy
+msgid "Vendor physical address"
+msgstr "Physische Adresse des Lieferanten"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
+#, fuzzy
+msgid "Vendor postal address"
+msgstr "Postadresse des Lieferanten"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
 msgid "BASKET"
@@ -5262,18 +5265,14 @@ msgid "New cash register"
 msgstr "Neue Kasse"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:16
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:59
 #, perl-brace-format
-msgid "Confirm deletion of cash register ''{cash_register}''"
+msgid "Confirm deletion of cash register '{cash_register}'"
 msgstr "Löschen der Kasse '{cash_register}' bestätigen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:18
 msgid "Cash registers"
 msgstr "Kassen"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:59
-#, perl-brace-format
-msgid "Confirm deletion of cash register '{cash_register}'"
-msgstr "Löschen der Kasse '{cash_register}' bestätigen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:58
@@ -6753,7 +6752,7 @@ msgstr "Ausleihnotizen"
 msgid "Checking out to {patron}"
 msgstr "Ausleihe an {patron}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:849
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:861
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:327
 #, perl-brace-format
 msgid "Bundle of {count} item"
@@ -8419,6 +8418,13 @@ msgstr[1] "Mitteilungen"
 
 #~ msgid "Biblio number (internal)"
 #~ msgstr "Titelsatznummer (intern)"
+
+#~ msgid "Bookseller name"
+#~ msgstr "Lieferant"
+
+#, perl-brace-format
+#~ msgid "Confirm deletion of cash register ''{cash_register}''"
+#~ msgstr "Löschen der Kasse '{cash_register}' bestätigen"
 
 #, perl-brace-format
 #~ msgid "Holds waiting over {count} days:"
