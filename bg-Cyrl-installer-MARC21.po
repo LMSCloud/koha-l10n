@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:06-0300\n"
-"PO-Revision-Date: 2023-12-14 03:01+0000\n"
+"PO-Revision-Date: 2023-12-20 03:02+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /bg/22.11/bg-Cyrl-installer-MARC21.po\n"
 "X-POOTLE-MTIME: 1685738402.387756\n"
@@ -2531,7 +2531,7 @@ msgstr "Номер на екземпляра"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:30
 msgid "Uniform resource identifier"
-msgstr "Универсален идентификатор на ресурси"
+msgstr "Универсален идентификатор на ресурси(URL)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:6:row:31
 msgid "Cost, replacement price"
@@ -3463,7 +3463,7 @@ msgstr "Срок на плана за разширение"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:796
 msgid "Extension plan code"
-msgstr "Код на плана за разширение"
+msgstr "Изтичане на срока на заемане"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:812
 msgid "Media type term"
@@ -3743,10 +3743,9 @@ msgstr "Скорост на прожектиране"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:916
 msgid "Aspect ratio value"
-msgstr ""
+msgstr "Стойност на аспектно съотношение"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:917
-#, fuzzy
 msgid "Aspect ratio designator"
 msgstr "Фасетен обозначител"
 
@@ -3779,14 +3778,12 @@ msgid "Encoded bitrate"
 msgstr "Скорост на трансмисия"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:947
-#, fuzzy
 msgid "Form of musical notation term"
 msgstr "Код за форма на музикална композиция"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:948
-#, fuzzy
 msgid "Form of musical notation code"
-msgstr "Код за форма на музикална композиция"
+msgstr "Код за форма на музикално произведение"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:950
 msgid "Price"
@@ -3841,9 +3838,8 @@ msgid "Format of the digital image"
 msgstr "Формат на цифровото изображение"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:975
-#, fuzzy
 msgid "Supplementary content term"
-msgstr "Забележка за приложения"
+msgstr "Термин за допълнително съдържание"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:976
 msgid "Supplementary content code"
@@ -3903,7 +3899,7 @@ msgstr "Цена на дребно"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1003
 msgid "Ownership and custodial history evidence term"
-msgstr ""
+msgstr "Срок на авторско право"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1004
 msgid "Formatted date"
@@ -3911,15 +3907,15 @@ msgstr "Форматирана дата"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1006
 msgid "Type of ownership and custodial history information"
-msgstr ""
+msgstr "Вид на авторското право"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1007
 msgid "Shelf mark of copy described"
-msgstr ""
+msgstr "Маркировката на рафта на копието е описана"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1010
 msgid "Identifier of the copy described"
-msgstr ""
+msgstr "Идентификатор на описаното копие"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1018
 msgid "First level of enumeration"
@@ -4055,59 +4051,55 @@ msgstr "Служба, осигуряваща данни за полето"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1171
 msgid "Aspect ratio of representative expression"
-msgstr ""
+msgstr "Аспектно съотношение на характерен израз"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1172
 msgid "Color content of representative expression"
-msgstr ""
+msgstr "Цветово съдържание на характерен израз"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1173
 msgid "Content type of representative expression"
-msgstr ""
+msgstr "Съдържателен вид на характерен израз"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1174
 msgid "Date of capture of representative expression"
-msgstr ""
+msgstr "Date of capture of representative expression()"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1175
-#, fuzzy
 msgid "Date of representative expression"
-msgstr "Дата на създаване на копието"
+msgstr "Дата на изпълнение"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1176
 msgid "Duration of representative expression"
-msgstr ""
+msgstr "Продължителност на представителното изпълнение"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1177
-#, fuzzy
 msgid "Intended audience of representative expression"
 msgstr "Цел (възрастово ниво)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1178
-#, fuzzy
 msgid "Language of representative expression"
 msgstr "Код за езика на междинния превод на текста"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1179
-#, fuzzy
 msgid "Place of capture of representative expression"
-msgstr "Място на произход на произведението или изразяването"
+msgstr "Местоположение на улавяне на представителен израз"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1180
 msgid "Projection of cartographic content of representative expression"
-msgstr ""
+msgstr "Проекция на картографското съдържание на представителния израз (representative expression)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1181
 msgid "Scale of representative expression"
-msgstr ""
+msgstr "Мащаб на представително изразяване (representative expression)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1182
 msgid "Script of representative expression"
-msgstr ""
+msgstr "Скрипт за представителен израз(representative expression)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1183
 msgid "Sound content of representative expression"
-msgstr ""
+msgstr "Звуково съдържание на представителен израз(representative expression)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1187
 msgid " Materials specified"
@@ -5262,62 +5254,52 @@ msgid "Numbering scheme"
 msgstr "Схема за номериране"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3157
-#, fuzzy
 msgid "Access number [OBSOLETE]"
 msgstr "Номер [ИЗЛЯЗЪЛ ОТ УПОТРЕБА]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3162
-#, fuzzy
 msgid "Persistent identifier"
-msgstr "Други индекси, кодове и под. на документа"
+msgstr "Други индекси, кодове и под. на екземпляра"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3163
-#, fuzzy
 msgid "Non-functioning Uniform Resource Identifier"
-msgstr "Универсален идентификатор на ресурси (URI)"
+msgstr "Универсален идентификатор на ресурса (URI)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3164
-#, fuzzy
 msgid "Instruction [OBSOLETE]"
-msgstr "Institution code [ИЗЛЯЗЪЛ ОТ УПОТРЕБА]"
+msgstr "Instruction [ИЗЛЯЗЪЛ ОТ УПОТРЕБА]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3165
-#, fuzzy
 msgid "Bits per second [OBSOLETE]"
-msgstr "Битове в секунда"
+msgstr "Bits per second [ИЗЛЯЗЪЛ ОТ УПОТРЕБА]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3166
-#, fuzzy
 msgid "Password [OBSOLETE]"
-msgstr "Номер [ИЗЛЯЗЪЛ ОТ УПОТРЕБА]"
+msgstr "Password [ИЗЛЯЗЪЛ ОТ УПОТРЕБА]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3167
-#, fuzzy
 msgid "Standardized information governing access"
-msgstr "Условия за достъп"
+msgstr "Стандартизирана информация, регулираща достъпа"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3173
-#, fuzzy
 msgid "Standardized information governing use and reproduction"
-msgstr "Условия за използване и възпроизвеждане"
+msgstr "Информация за употребата и възпроизвеждането"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3188
-#, fuzzy
 msgid "Name of archiving agency"
-msgstr "Име на променливата"
+msgstr "Име на архивираща агенция"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3189
 msgid "Name of Web archive or digital archive repository"
-msgstr ""
+msgstr "Име на уеб архив или дигитално хранилище на репозитори"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3190
-#, fuzzy
 msgid "Date range of archived material"
-msgstr "Вид (клас) на екземпляра или материала"
+msgstr "Период от дати на архивирания материал"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3192
 msgid "Archive completeness"
-msgstr ""
+msgstr "Пълнота на архива"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3206
 msgid "Operator's initials, OID (RLIN)"
@@ -5397,69 +5379,59 @@ msgstr "Отменено или невалидно обозначение на �
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3455
 msgid "Manifestation statement, high-level/general"
-msgstr ""
+msgstr "Споменаване на проявление, високо ниво/общо"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3456
-#, fuzzy
 msgid "Manifestation identifier statement"
-msgstr "Код на дисертацията"
+msgstr "Споменаване на идентификатора на проявление"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3457
 msgid "Manifestation title and responsibility statement"
-msgstr ""
+msgstr "Наименование на проявата и информация за отговорността"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3458
-#, fuzzy
 msgid "Manifestation edition statement"
-msgstr "Подзаглавни данни за поредността и издателската характеристика"
+msgstr "Споменаване на изданието на проявата"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3459
-#, fuzzy
 msgid "Manifestation production statement"
-msgstr "Подзаглавни данни за поредността и издателската характеристика"
+msgstr "Споменаване на организацията на проявата"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3460
-#, fuzzy
 msgid "Manifestation publication statement"
-msgstr "Формат на описваните ноти"
+msgstr "Споменаване на проявата в публикация"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3461
-#, fuzzy
 msgid "Manifestation distribution statement"
-msgstr "Подзаглавни данни за поредността и издателската характеристика"
+msgstr "Декларация за разпространение на проявата"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3462
-#, fuzzy
 msgid "Manifestation manufacture statement"
-msgstr "Формат на описваните ноти"
+msgstr "Декларация за организиране на прояви"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3463
-#, fuzzy
 msgid "Manifestation copyright statement"
-msgstr "Сведения за авторското право"
+msgstr "Декларация за авторско право на проявата"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3464
-#, fuzzy
 msgid "Manifestation frequency statement"
-msgstr "Формат на описваните ноти"
+msgstr "Декларация за честотата на проявата"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3465
 msgid "Manifestation designation of sequence statement"
-msgstr ""
+msgstr "Споменаване на проявата и декларация за последователност"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3466
-#, fuzzy
 msgid "Manifestation series statement"
-msgstr "Формат на описваните ноти"
+msgstr "Декларация за серия от прояви"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3467
-#, fuzzy
 msgid "Manifestation dissertation statement"
-msgstr "Формат на описваните ноти"
+msgstr "Споменаване на декларацията за проявата"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3468
 msgid "Manifestation regional encoding statement"
-msgstr ""
+msgstr "Регионално кодиране на проявата"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:3471
 msgid "Replacement title"
@@ -6323,11 +6295,11 @@ msgstr "ПРЕДИШНА ЧЕСТОТА НА ИЗДАВАНЕ"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:112
 msgid "MODE OF ISSUANCE"
-msgstr ""
+msgstr "НАЧИН НА ИЗДАВАНЕ"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:113
 msgid "EXTENSION PLAN"
-msgstr ""
+msgstr "ПЛАН ЗА ПРОДЪЛЖАВАНЕ"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:115
 msgid "MEDIA TYPE"
@@ -6358,9 +6330,8 @@ msgid "SOUND CHARACTERISTICS"
 msgstr "ЗВУКОВИ ХАРАКТЕРИСТИКИ"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:122
-#, fuzzy
 msgid "MOVING IMAGE CHARACTERISTICS"
-msgstr "ВИДЕО ХАРАКТЕРИСТИКИ"
+msgstr "ХАРАКТЕРИСТИКИ НА ФИЛМА"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:123
 msgid "VIDEO CHARACTERISTICS"
@@ -6371,9 +6342,8 @@ msgid "DIGITAL FILE CHARACTERISTICS"
 msgstr "Характеристики на дигитален файл"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:125
-#, fuzzy
 msgid "NOTATED MUSIC CHARACTERISTICS"
-msgstr "ХАРАКТЕРИСТИКИ НА АУДИТОРИЯТА"
+msgstr "ХАРАКТЕРИСТИКИ НА НОТИРАНА МУЗИКА"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:126
 msgid "PRICE (NR) (BK AM CF MU VM SE) [OBSOLETE]"
@@ -6388,9 +6358,8 @@ msgid "DIGITAL GRAPHIC REPRESENTATION"
 msgstr "ДИГИТАЛНО ГРАФИЧНО ПРЕДСТАВЯНЕ"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:129
-#, fuzzy
 msgid "SUPPLEMENTARY CONTENT CHARACTERISTICS"
-msgstr "ХАРАКТЕРИСТИКИ НА АУДИТОРИЯТА"
+msgstr "ХАРАКТЕРИСТИКИ НА ДОПЪЛНИТЕЛНО СЪДЪРЖАНИЕ"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:130
 msgid "SECURITY CLASSIFICATION CONTROL"
@@ -6405,9 +6374,8 @@ msgid "RENTAL PRICE (VM) [OBSOLETE]"
 msgstr "RENTAL PRICE (VM) [ИЗЛЯЗЪЛ ОТ УПОТРЕБА]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:133
-#, fuzzy
 msgid "STRUCTURED OWNERSHIP AND CUSTODIAL HISTORY"
-msgstr "ИСТОРИЧЕСКА СПРАВКА ЗА ПРИТЕЖАНИЕ И ПОПЕЧИТЕЛСТВО"
+msgstr "СТРУКТУРИРАНА СОБСТВЕНОСТ И ИСТОРИЯ НА АВТОРСКОТО ПРАВО"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:134
 msgid "DATES OF PUBLICATION AND/OR SEQUENTIAL DESIGNATION"
@@ -6426,9 +6394,8 @@ msgid "TRADE AVAILABILITY INFORMATION"
 msgstr "ТЪРГОВСКА ИНФОРМАЦИЯ ОТ ИЗДАТЕЛЯ"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:147
-#, fuzzy
 msgid "REPRESENTATIVE EXPRESSION CHARACTERISTICS"
-msgstr "ХАРАКТЕРИСТИКИ НА СЪЗДАТЕЛ/ДАРИТЕЛ"
+msgstr "ПРЕДСТАВИТЕЛНИ ХАРАКТЕРИСТИКИ НА ИЗРАЖЕНИЕТО"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:149
 msgid "SERIES STATEMENT/ADDED ENTRY--PERSONAL NAME [OBSOLETE, CAN/MARC], [LOCAL, USA]"
@@ -6479,9 +6446,8 @@ msgid "RESTRICTIONS ON ACCESS NOTE"
 msgstr "ЗАБЕЛЕЖКА ЗА ОГРАНИЧЕНИЯ НА ДОСТЪПА"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:161
-#, fuzzy
 msgid "SCALE NOTE FOR VISUAL MATERIALS"
-msgstr "ЗАБЕЛЕЖКА ЗА МАЩАБА НА ГРАФИКИ"
+msgstr "ЗАБЕЛЕЖКА ЗА МАЩАБА ЗА ВИЗУАЛНИ МАТЕРИАЛИ"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:162
 msgid "CREATION/PRODUCTION CREDITS NOTE"
@@ -6905,7 +6871,7 @@ msgstr "ДРУГА ВРЪЗКА МЕЖДУ ЗАПИСИТЕ"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:268
 msgid "PARALLEL DESCRIPTION IN ANOTHER LANGUAGE OF CATALOGING"
-msgstr ""
+msgstr "ПАРАЛЕЛНО ОПИСАНИЕ НА ДРУГ ЕЗИК ЗА КАТАЛОГИЗАЦИЯ"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:269
 msgid "COMPONENT ITEM ENTRY (RLIN)"
@@ -6984,9 +6950,8 @@ msgid "CAPTIONS AND PATTERN--INDEXES"
 msgstr "ПУБЛИКАЦИОННА СХЕМА--ИНДЕКСИ"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:291
-#, fuzzy
 msgid "ELECTRONIC ARCHIVE LOCATION AND ACCESS"
-msgstr "ЕЛЕКТРОНЕН АДРЕС ЗА СЪХРАНЕНИЕ И ДОСТЪП"
+msgstr "АРХИВ ЕЛЕКТРОНЕН АДРЕС ЗА СЪХРАНЕНИЕ И ДОСТЪП"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:292
 msgid "LOCAL CONTROL INFORMATION (RLIN)"
@@ -7045,9 +7010,8 @@ msgid "ITEM INFORMATION--INDEXES"
 msgstr "ИНФОРМАЦИЯ ЗА ОПИСВАНИЯ МАТЕРИАЛ - ИНДЕКСИ"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:307
-#, fuzzy
 msgid "MANIFESTATION STATEMENTS"
-msgstr "ФОРМАТ НА ОПИСВАНИТЕ НОТИ"
+msgstr "ИЗЯВЛЕНИЯ ЗА ПРОЯВА"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:308
 msgid "REPLACEMENT RECORD INFORMATION"
