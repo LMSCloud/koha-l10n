@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-19 03:06+0000\n"
-"PO-Revision-Date: 2023-12-19 03:02+0000\n"
+"PO-Revision-Date: 2023-12-19 09:34+0000\n"
 "Last-Translator: tigran <tigran@flib.sci.am>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hy-Armn\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /hy/22.11/hy-Armn-staff-prog.po\n"
 "X-POOTLE-MTIME: 1697606996.153439\n"
@@ -6693,7 +6693,7 @@ msgstr "Ազատումներ"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:180
 #, c-format
 msgid "Housebound"
-msgstr "Տանը սահմանափակված"
+msgstr "Կապված տանը"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:183
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/ill-requests.tt:34
@@ -7113,7 +7113,7 @@ msgstr "Մայթեզրի վերցնումներ"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:103
 #, c-format
 msgid "Recalls"
-msgstr "Հետկանչեր"
+msgstr "Հետ կանչեր"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:71
@@ -7169,7 +7169,7 @@ msgstr "Հետ կանչված նյութերը սպասում են վերցնե�
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:39
 #, c-format
 msgid "Recalls awaiting pickup"
-msgstr "Սպասող հետկանչեր"
+msgstr "Վերցնելու ենթակա հետ կանչեր"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:83
@@ -11889,7 +11889,7 @@ msgstr "Սքան"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:1089
 #, c-format
 msgid "Pending"
-msgstr "Սպասում է"
+msgstr "Անավարտ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-article-requests.inc:86
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:189
@@ -13613,9 +13613,9 @@ msgid "Manage all baskets and order lines, regardless of restrictions on them "
 msgstr "Կառավարիր բոլոր պատվերների և զամբյուղների տողերը, անկախ դրանց վրա դրված արգելանքներից "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:466
-#, fuzzy, c-format
+#, c-format
 msgid "Manage vendor issues "
-msgstr "Կառավարիր մատակարարներին "
+msgstr "Կառավարիր մատակարարի խնդիրները "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:471
 #, c-format
@@ -18285,7 +18285,7 @@ msgstr "Վերբեռնեք այցելուների պատկերները"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:107
 #, c-format
 msgid "Rotating collections"
-msgstr "Պտտվող հավաքածու"
+msgstr "Պտտվող հավաքածուներ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/tools-menu.inc:56
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:115
@@ -35489,9 +35489,9 @@ msgid "[Overridden] "
 msgstr "[Փոխարինված] "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:159
-#, fuzzy, c-format
+#, c-format
 msgid "Collapse"
-msgstr "Փլուզվել է"
+msgstr "Փլուզել"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:204
 #, c-format
@@ -43549,7 +43549,7 @@ msgstr "Չափից շատ դուրս տրումներ, %s դուրս տրում,
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:568
 #, c-format
 msgid "Maximum checkouts calculated from the circulation rule for %s "
-msgstr ""
+msgstr "Առավելագույն դուրս տրումները հաշվարկված %s -ի տացքի կանոնից "
 
 #. %1$s:  current_loan_count | html 
 #. %2$s:  max_loans_allowed | html 
@@ -44087,30 +44087,30 @@ msgstr "Դու արդեն գրանցել ես շտրիխ կոդը, սպասիր 
 #. %2$s:  ItemTypes.GetDescription( rule.itemtype ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1073
-#, fuzzy, c-format
+#, c-format
 msgid "Item type: %s %s %s "
-msgstr "Նյութի տեսակն է %s"
+msgstr "Նյութի տեսակ: %s %s %s "
 
 #. %1$s:  IF rule.categorycode 
 #. %2$s:  Categories.GetName( rule.categorycode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1081
-#, fuzzy, c-format
+#, c-format
 msgid "Patron category: %s %s %s "
-msgstr "Հաճախորդի դաս = %s"
+msgstr "Հաճախորդի դաս: %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1086
-#, fuzzy, c-format
+#, c-format
 msgid "All patron categories"
-msgstr "հաճախորդի դասեր"
+msgstr "Բոլոր հաճախորդների դասերը"
 
 #. %1$s:  IF rule.branchcode 
 #. %2$s:  Branches.GetName( rule.branchcode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1089
-#, fuzzy, c-format
+#, c-format
 msgid "Library: %s %s %s "
-msgstr "Գրադարանն է %s"
+msgstr "Գրադարան: %s %s %s "
 
 #. %1$s:  INCLUDE 'patron-title.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:36
@@ -50131,7 +50131,7 @@ msgstr "Ցույց տուր բոլոր տրանզակցիաները"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:29
 #, c-format
 msgid "Delete patron"
-msgstr "Ջնջեք այցելուին"
+msgstr "Ջնջել հաճախորդին"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:42
 #, c-format
@@ -50789,7 +50789,7 @@ msgstr "Դու պետք է ընթերցողի նոր ցուցակին տաս ա�
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:106
 #, c-format
 msgid "Add patron"
-msgstr "Ավելացրեք այցելու"
+msgstr "Ավելացրու ընթերցող"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:60
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:110
@@ -53429,7 +53429,7 @@ msgstr "Ստեղծեք Կոհա ադմինիստրատոր այցելու"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:51
 #, c-format
 msgid "Create a new item type"
-msgstr "Ստեղծեք նյութի նոր տեսակ"
+msgstr "Ստեղծիր նոր նյութի տեսակ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep1.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:41
@@ -54769,7 +54769,7 @@ msgstr "Վճարումը ստացված է"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/register.tt:357
 #, c-format
 msgid "Print receipt"
-msgstr "Տպել անդորրագիրը"
+msgstr "Տպել ստացականը"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:58
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:195
@@ -61099,7 +61099,7 @@ msgstr "Ցուցադրվում են մերժված պայմանները"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:82
 #, c-format
 msgid "Approved"
-msgstr "Հաստատված է"
+msgstr "Հաստատված"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:84
 #, c-format
