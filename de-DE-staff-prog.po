@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-19 03:06+0000\n"
-"PO-Revision-Date: 2023-12-12 03:02+0000\n"
+"PO-Revision-Date: 2023-12-20 03:02+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de-DE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /de/22.11/de-DE-staff-prog.po\n"
 "X-POOTLE-MTIME: 1698065953.865063\n"
@@ -6957,7 +6957,7 @@ msgstr "Benutzerfoto kann nicht aufgenommen werden."
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
 #, c-format
 msgid "The patron must have a cardnumber before a patron photo can be uploaded."
-msgstr ""
+msgstr "Der Benutzer muss eine Ausweisnummer haben, bevor ein Foto hochgeladen werden kann."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:19
@@ -13619,9 +13619,9 @@ msgid "Manage all baskets and order lines, regardless of restrictions on them "
 msgstr "Alle Bestellungen und Bestellposten verwalten, unabhängig von Beschränkungen "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:466
-#, fuzzy, c-format
+#, c-format
 msgid "Manage vendor issues "
-msgstr "Lieferanten verwalten "
+msgstr "Lieferantenprobleme verwalten "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:471
 #, c-format
@@ -34859,15 +34859,15 @@ msgstr "Prüfpunkt"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:165
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:226
-#, fuzzy, c-format
+#, c-format
 msgid "New match point"
-msgstr "Prüfpunkt hinzufügen"
+msgstr "Neuer Prüfpunkt"
 
 #. %1$s:  matchpoint.mp_num | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:173
-#, fuzzy, c-format
+#, c-format
 msgid "Match point %s"
-msgstr "Prüfpunkt "
+msgstr "Prüfpunkt %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:226
@@ -34950,9 +34950,9 @@ msgid "Normalization rule: "
 msgstr "Normalisierungsregel: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:225
-#, fuzzy, c-format
+#, c-format
 msgid "Match point 1"
-msgstr "Prüfpunkt "
+msgstr "Prüfpunkt  1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:269
 #, c-format
@@ -34963,9 +34963,9 @@ msgstr "Erforderliche Prüfungen"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:278
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:357
-#, fuzzy, c-format
+#, c-format
 msgid "New match check"
-msgstr "Prüfung hinzufügen"
+msgstr "Neue Prüfung"
 
 #. %1$s:  matchcheck.mc_num | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:285
@@ -34995,9 +34995,9 @@ msgid "Target (database) record check field"
 msgstr "Feld für die Überprüfung des Zieldatensatzes (Datenbank)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:356
-#, fuzzy, c-format
+#, c-format
 msgid "Match check 1"
-msgstr "Prüfung "
+msgstr "Prüfung  1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:428
 #, c-format
@@ -35513,9 +35513,9 @@ msgid "[Overridden] "
 msgstr "[Überschrieben] "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:159
-#, fuzzy, c-format
+#, c-format
 msgid "Collapse"
-msgstr "Eingeklappt"
+msgstr "Einklappen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:204
 #, c-format
@@ -43585,7 +43585,7 @@ msgstr "Zu viele Ausleihen. %s ausgeliehen, nur %s Ausleihen erlaubt."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:568
 #, c-format
 msgid "Maximum checkouts calculated from the circulation rule for %s "
-msgstr ""
+msgstr "Maximale Anzahl Ausleihen aus den Ausleihkonditionen für %s "
 
 #. %1$s:  current_loan_count | html 
 #. %2$s:  max_loans_allowed | html 
@@ -44123,30 +44123,30 @@ msgstr "Es wurde bereits eine Mediennummer eingelesen, bitte warten Sie, dass di
 #. %2$s:  ItemTypes.GetDescription( rule.itemtype ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1073
-#, fuzzy, c-format
+#, c-format
 msgid "Item type: %s %s %s "
-msgstr "Medientyp ist %s"
+msgstr "Medientyp: %s %s %s "
 
 #. %1$s:  IF rule.categorycode 
 #. %2$s:  Categories.GetName( rule.categorycode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1081
-#, fuzzy, c-format
+#, c-format
 msgid "Patron category: %s %s %s "
-msgstr "Benutzertyp = %s"
+msgstr "Benutzertyp: %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1086
-#, fuzzy, c-format
+#, c-format
 msgid "All patron categories"
-msgstr "Benutzergruppen"
+msgstr "Alle Benutzertypen"
 
 #. %1$s:  IF rule.branchcode 
 #. %2$s:  Branches.GetName( rule.branchcode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1089
-#, fuzzy, c-format
+#, c-format
 msgid "Library: %s %s %s "
-msgstr "Bibliothek ist %s"
+msgstr "Bibliothek: %s %s %s "
 
 #. %1$s:  INCLUDE 'patron-title.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:36
