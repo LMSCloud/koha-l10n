@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:06-0300\n"
-"PO-Revision-Date: 2023-12-15 03:02+0000\n"
+"PO-Revision-Date: 2023-12-20 03:01+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /bg/22.11/bg-Cyrl-installer.po\n"
 "X-POOTLE-MTIME: 1698504021.968880\n"
@@ -6740,7 +6740,7 @@ msgstr "Кинооператор"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:56
 msgid "Contestant-appellee"
-msgstr "Contestant-appellee"
+msgstr "Противоположната страна, която прави възражения в съда срещу иск, определение, решение и др., срещу които е подадена жалба в процеса на обжалване"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:57
 msgid "Collector"
@@ -6764,7 +6764,7 @@ msgstr "Състезател"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:63
 msgid "Contestant-appellant"
-msgstr "Contestant-appellant"
+msgstr "Противната страна, която прави възражения пред съда срещу иска, определение, решение и др. и подава жалба"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:64
 msgid "Court governed"
@@ -6836,7 +6836,7 @@ msgstr "Куратор"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:86
 msgid "Dubbing director"
-msgstr "Dubbing director"
+msgstr "Отговорен, главен, литературен, титулен редактор"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:87
 msgid "Distribution place"
@@ -7176,7 +7176,7 @@ msgstr "Доставчик"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:218
 msgid "Plaintiff-appellee"
-msgstr "Plaintiff-appellee"
+msgstr "Ищец, срещу когото е подадена жалбата"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:219
 msgid "Plaintiff"
@@ -7200,7 +7200,7 @@ msgstr "Докладчик"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:225
 msgid "Recordist"
-msgstr "Recordist"
+msgstr "Записване(ч)"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:227
 msgid "Addressee"
@@ -7387,7 +7387,6 @@ msgid "Wood engraver"
 msgstr "Дърворезбар"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:291
-#, fuzzy
 msgid "Writer of introduction"
 msgstr "Автор на въведението"
 
@@ -7396,13 +7395,12 @@ msgid "Witness"
 msgstr "Свидетел"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:293
-#, fuzzy
 msgid "Writer of preface"
-msgstr "Принтер на табелки"
+msgstr "Автор на предговора"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:294
 msgid "Writer of supplementary textual content"
-msgstr ""
+msgstr "Автор на допълнително текстово съдържание"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:description:1
 msgid "MARC code list for relators, as of http://www.loc.gov/marc/relators/relaterm.html"
