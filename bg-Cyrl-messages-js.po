@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-20 03:06+0000\n"
-"PO-Revision-Date: 2023-12-15 03:03+0000\n"
+"PO-Revision-Date: 2023-12-21 03:10+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /bg/22.11/bg-Cyrl-messages-js.po\n"
 "X-POOTLE-MTIME: 1698144447.843008\n"
@@ -1330,14 +1330,12 @@ msgstr "Сигурни ли сте, че искате да изтриете то
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:214
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:224
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:236
-#, fuzzy
 msgid "Collapse this section"
-msgstr "Свиване на раздела"
+msgstr "Свиване"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:221
-#, fuzzy
 msgid "Expand this section"
-msgstr "Разширяване на раздела"
+msgstr "Разширяване"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:255
 msgid "Note: _ALL_ value will override all other values"
@@ -1452,10 +1450,9 @@ msgstr "Път на бисквитките"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:409
 msgid "Expand"
-msgstr ""
+msgstr "Разширяване"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:410
-#, fuzzy
 msgid "Collapse"
 msgstr "Свиване"
 
@@ -2914,12 +2911,12 @@ msgstr "Лицензът %s е изтрит"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:206
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:62
 msgid "Started on"
-msgstr "Започнато на"
+msgstr "Започнат на"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:215
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:67
 msgid "Ended on"
-msgstr "Приключи на"
+msgstr "Завършено на"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:5
 #, javascript-format
@@ -2953,7 +2950,6 @@ msgid "Report types"
 msgstr "Видове доклади"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:37
-#, fuzzy
 msgid "SUSHI credentials"
 msgstr "Акредитации за Sushi"
 
@@ -2969,13 +2965,11 @@ msgstr "Публикация на доклада"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:221
-#, fuzzy
 msgid "Customer ID"
 msgstr "Потребител ID"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProviderDetails.vue:59
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:244
-#, fuzzy
 msgid "Requestor ID"
 msgstr "ID на заявителя"
 
@@ -3000,7 +2994,7 @@ msgstr "Няма дефинирани записи за импортиране"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:53
 msgid "Download"
-msgstr "Изтеглете"
+msgstr "Изтегли"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:93
 msgid "Are you sure you want to remove this file?"
@@ -3009,11 +3003,11 @@ msgstr "Сигурни ли сте?"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:106
 #, javascript-format
 msgid "File %s deleted"
-msgstr "Файл %s изтрит"
+msgstr "Файл %s е изтрит"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:121
 msgid "Filename"
-msgstr "Име на файл"
+msgstr "Filename"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersCounterLogs.vue:128
 msgid "Import date"
@@ -3040,7 +3034,7 @@ msgstr "<li>Заданието за качения файл е на опашка
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:6
 #, javascript-format
 msgid "Edit usage data provider #%s"
-msgstr "Редактиране на доставчика на данни за използване #%s"
+msgstr "Редактиране на доставчик %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:11
 msgid "New usage data provider"
@@ -3080,12 +3074,10 @@ msgid "Credentials information"
 msgstr "Достъп до данни"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:311
-#, fuzzy
 msgid "Customer ID info"
 msgstr "Информация за потребител ID"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:321
-#, fuzzy
 msgid "Requestor ID info"
 msgstr "Информация за ID на заявителя"
 
@@ -3099,14 +3091,13 @@ msgstr "Моля, обърнете се към "
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:342
 msgid "COUNTER registry"
-msgstr ""
+msgstr "БРОЯЧ регистър"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:344
 msgid "for more information."
 msgstr "за повече информация."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:500
-#, fuzzy
 msgid "This provider does not currently support any COUNTER 5 reports via SUSHI."
 msgstr "Понастоящем този доставчик не поддържа отчитане на брояч 5 чрез SUSHI."
 
@@ -3129,7 +3120,7 @@ msgstr "Не са създадени доставчици на данни"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:78
 msgid "Run now"
-msgstr "Пуснете"
+msgstr "Пуснете веднага"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:84
 msgid "Test"
@@ -3237,7 +3228,7 @@ msgstr "Начало"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersSummary.vue:108
 msgid "End"
-msgstr "Край"
+msgstr "Завърши"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersToolbar.vue:7
 msgid "New data provider"
@@ -4186,7 +4177,7 @@ msgstr "Изтрити на маркери: "
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:106
 msgid "Errors: "
-msgstr "Грешка: "
+msgstr "Грешки: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:60
 msgid "Sorry, tags are not enabled on this system."
