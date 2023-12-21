@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 03:06+0000\n"
+"POT-Creation-Date: 2023-12-21 03:17+0000\n"
 "PO-Revision-Date: 2023-12-19 09:34+0000\n"
 "Last-Translator: tigran <tigran@flib.sci.am>\n"
 "Language-Team: Koha Translation Team\n"
@@ -645,7 +645,7 @@ msgstr "սահմանիր բյուջեն և դրամագլուխը"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/spent.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:28
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:145
@@ -9377,7 +9377,6 @@ msgstr "Մոդուլի էջ"
 
 #. NAV
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:451
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:21
@@ -9389,7 +9388,6 @@ msgstr "Պաքսիմատ"
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:455
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:24
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:22
@@ -18598,6 +18596,7 @@ msgid "Contracts"
 msgstr "Կոնտրակտներ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:185
 #, c-format
 msgid "Vendor issues"
@@ -26506,35 +26505,6 @@ msgstr "Կողմից"
 msgid "Uncertain"
 msgstr "Անվստահ"
 
-#. %1$s:  IF op =='add_form' 
-#. %2$s:  IF issue.issue_id 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#. %5$s:  ELSE 
-#. %6$s:  IF op == 'delete_confirm' 
-#. %7$s:  END 
-#. %8$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:7
-#, c-format
-msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
-msgstr "%s %s Փոփոխել մատակարարի տարրը %s Նոր մատակարարի տարր %s &rsaquo; %s %s Հաստատել մատակարարի տարրի ջնջումը &rsaquo; %s %s Մատակարարի տարր &rsaquo; Համալրում &rsaquo; Կոհա "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
-#, c-format
-msgid "Issues"
-msgstr "Համարներ"
-
-#. %1$s:  IF issue 
-#. %2$s:  issue.issue_id| html 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:48
-#, c-format
-msgid "%s Issue #%s %s New issue %s "
-msgstr "%s Թողարկում #%s %s Նոր թողարկում %s "
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:70
 #, c-format
 msgid "An error occurred when updating this issue."
@@ -26565,11 +26535,6 @@ msgstr "Թողարկումը ստեղծվել է հաջողությամբ."
 msgid "Issue deleted successfully."
 msgstr "Թողարկումը հաջողությամբ ջնջված է."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:89
-#, c-format
-msgid "Modify a vendor issue"
-msgstr "Ձևափոխիր մատակարարի թողարկումը"
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:91
 #, c-format
 msgid "New vendor issue"
@@ -26595,8 +26560,8 @@ msgstr "Ավարտված է: "
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
-#, c-format
-msgid "Delete issue #%s?"
+#, fuzzy, c-format
+msgid "Delete issue %s?"
 msgstr "Ջնջե՞լ #%s թողարկումը:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:138
@@ -26657,8 +26622,8 @@ msgstr "Ոչ, մի ջնջիր"
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
-#, c-format
-msgid "Vendor issue #%s"
+#, fuzzy, c-format
+msgid "Vendor issue %s"
 msgstr "Մատակարարի թողարկումն է #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
@@ -59905,6 +59870,11 @@ msgstr "Ոչ, մի հեռացրու (N)"
 msgid "Planning"
 msgstr "Նախագծում"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
+#, c-format
+msgid "Issues"
+msgstr "Համարներ"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:103
 #, c-format
 msgid "Subscription ID: "
@@ -67761,6 +67731,10 @@ msgstr "_դատարկ"
 #~ msgid "%s %s Modify system preference '%s' %s Add a system preference %s &rsaquo; %s %s Data added &rsaquo; %s %s Confirm deletion of parameter '%s' &rsaquo; %s &rsaquo; %s %s Parameter deleted &rsaquo; %s System preferences &rsaquo; Administration &rsaquo; Koha "
 #~ msgstr "%s %s Ձևափոխիր համակարգի նախապատվությունը '%s' %s Ավելացրու համակարգի նախապատվություն %s &rsaquo; %s %s Տվյալները ավելացված են &rsaquo; %s %s Հաստատիր պարամետրի ջնջումը '%s' &rsaquo; %s &rsaquo; %s %s Պարամետրը ջնջված է &rsaquo; %s Համակարգային նախապատվություններ &rsaquo; Կառավարում &rsaquo; Կոհա "
 
+#, c-format
+#~ msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
+#~ msgstr "%s %s Փոփոխել մատակարարի տարրը %s Նոր մատակարարի տարր %s &rsaquo; %s %s Հաստատել մատակարարի տարրի ջնջումը &rsaquo; %s %s Մատակարարի տարր &rsaquo; Համալրում &rsaquo; Կոհա "
+
 #~ msgid "%s %s Share content with Mana KB %s %s %s "
 #~ msgstr "%s %s Կիսիր բովանդակությունը Mana KB-ի հետ %s %s %s "
 
@@ -68044,6 +68018,10 @@ msgstr "_դատարկ"
 
 #~ msgid "%s In transit to %s %s Ready for pickup %s Expired on %s %s Cancelled on %s %s Overdue to be returned %s Fulfilled %s Requested %s "
 #~ msgstr "%s Տեղափոխվում է դեպի %s %s Պատրաստ է վերցնելու համար %s Ժամկետը լրանում է %s %s Չեղարկվել է %s %s Ժամկետանցը վերադարձման է ենթակա %s Կատարված %s Պահանջված %s "
+
+#, c-format
+#~ msgid "%s Issue #%s %s New issue %s "
+#~ msgstr "%s Թողարկում #%s %s Նոր թողարկում %s "
 
 #~ msgid "%s Item type is normally not for loan. %s %s Item is normally not for loan%s (%s)%s. %s %s Check out anyway? %s "
 #~ msgstr "%s Նյութի տեսակը որպես կանոն տացքի համար չէ։ %s %s Նյութը որպես կանոն տացքի համար չէ%s (%s)%s. %s %s Սպասարկե՞լ ամեն դեպքում %s "
@@ -70630,6 +70608,10 @@ msgstr "_դատարկ"
 #, c-format
 #~ msgid "Modify a credit type"
 #~ msgstr "Ձևափոխիր կրեդիտի տեսակը"
+
+#, c-format
+#~ msgid "Modify a vendor issue"
+#~ msgstr "Ձևափոխիր մատակարարի թողարկումը"
 
 #, c-format
 #~ msgid "Modify account"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 03:06+0000\n"
+"POT-Creation-Date: 2023-12-21 03:17+0000\n"
 "PO-Revision-Date: 2022-05-01 09:45-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -643,7 +643,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/spent.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:28
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:145
@@ -9377,7 +9377,6 @@ msgstr ""
 
 #. NAV
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:451
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:21
@@ -9389,7 +9388,6 @@ msgstr ""
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:455
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:24
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:22
@@ -18598,6 +18596,7 @@ msgid "Contracts"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:185
 #, c-format
 msgid "Vendor issues"
@@ -26506,35 +26505,6 @@ msgstr ""
 msgid "Uncertain"
 msgstr ""
 
-#. %1$s:  IF op =='add_form' 
-#. %2$s:  IF issue.issue_id 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#. %5$s:  ELSE 
-#. %6$s:  IF op == 'delete_confirm' 
-#. %7$s:  END 
-#. %8$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:7
-#, c-format
-msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
-msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
-#, c-format
-msgid "Issues"
-msgstr ""
-
-#. %1$s:  IF issue 
-#. %2$s:  issue.issue_id| html 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:48
-#, c-format
-msgid "%s Issue #%s %s New issue %s "
-msgstr ""
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:70
 #, c-format
 msgid "An error occurred when updating this issue."
@@ -26565,11 +26535,6 @@ msgstr ""
 msgid "Issue deleted successfully."
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:89
-#, c-format
-msgid "Modify a vendor issue"
-msgstr ""
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:91
 #, c-format
 msgid "New vendor issue"
@@ -26596,7 +26561,7 @@ msgstr ""
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
 #, c-format
-msgid "Delete issue #%s?"
+msgid "Delete issue %s?"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:138
@@ -26658,7 +26623,7 @@ msgstr ""
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
 #, c-format
-msgid "Vendor issue #%s"
+msgid "Vendor issue %s"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
@@ -59901,6 +59866,11 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:89
 #, c-format
 msgid "Planning"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
+#, c-format
+msgid "Issues"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:103

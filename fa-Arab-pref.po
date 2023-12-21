@@ -469,33 +469,41 @@ msgstr "acquisitions.pref#پیشنهادات خرید از طریق پست ال�
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-msgid "acquisitions.pref#MarcFieldsToOrder# <br/>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a"
+#, fuzzy
+msgid "acquisitions.pref#MarcFieldsToOrder# <p>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a</p>"
 msgstr "فراهم آوری.pref#فیلدهای مارک برای سفارش# <br/>مثلا:<br/>قیمت: 947$a|947$c<br/>کمیت: 969$h<br/>بودجه_کد: 922$a"
+
+# Acquisitions > Policy > MarcFieldsToOrder
+# Acquisitions > Policy
+#, fuzzy
+msgid "acquisitions.pref#MarcFieldsToOrder# <p>You can use the following fields: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
+msgstr "فراهم آوری.pref#فیلدهای مارک برای سفارش# می توانید از فیلدهای زیر استفاده کنید: قیمت، مقدار، بودجه_کد، تخفیف، مرتب سازی1، مرتب سازی2"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcFieldsToOrder# Set the mapping values for a new order line created from a MARC record in a staged file."
 msgstr "فراهم آوری.pref#فیلدهای مارک برای سفارش# مقادیر نگاشت را برای یک خط سفارش جدید ایجاد شده از یک رکورد MARC در یک فایل مرحله بندی شده تنظیم کنید."
 
-# Acquisitions > Policy > MarcFieldsToOrder
+# Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-msgid "acquisitions.pref#MarcFieldsToOrder# You can use the following fields: price, quantity, budget_code, discount, sort1, sort2"
-msgstr "فراهم آوری.pref#فیلدهای مارک برای سفارش# می توانید از فیلدهای زیر استفاده کنید: قیمت، مقدار، بودجه_کد، تخفیف، مرتب سازی1، مرتب سازی2"
+#, fuzzy
+msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
+msgstr "فراهم آوری.pref#فیلدهای کالای مارک برای سفارش# <br/>For example:<br/>واحد رزرو: 975$b<br/>itype: 975$9|975$z"
+
+# Acquisitions > Policy > MarcItemFieldsToOrder
+msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
+msgstr ""
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-msgid "acquisitions.pref#MarcItemFieldsToOrder# <br/>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z"
-msgstr "فراهم آوری.pref#فیلدهای کالای مارک برای سفارش# <br/>For example:<br/>واحد رزرو: 975$b<br/>itype: 975$9|975$z"
+#, fuzzy
+msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
+msgstr "acquisitions.pref#MarcItemFieldsToOrder# شما می توانید از فیلدهای زیر استفاده نمایید: شعبه اصلی, واحد رزرو, itype, غیرعمومی_یادداشت, عمومی_یادداشت, loc, ccode, notforloan, uri, copyno, هزینه, هزینه تعویض و شماره بازیابی آیتم . فیلدهای خاص: کمیت و بودجه_کد"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# Set the mapping values for new item records created from a MARC record in a staged file."
 msgstr "فراهم آوری.pref#فیلدهای کالای مارک برای سفارش# مقادیر نگاشت را برای رکوردهای آیتم جدید ایجاد شده از یک رکورد MARC در یک فایل مرحله بندی شده تنظیم کنید."
-
-# Acquisitions > Policy > MarcItemFieldsToOrder
-# Acquisitions > Policy
-msgid "acquisitions.pref#MarcItemFieldsToOrder# You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code"
-msgstr "acquisitions.pref#MarcItemFieldsToOrder# شما می توانید از فیلدهای زیر استفاده نمایید: شعبه اصلی, واحد رزرو, itype, غیرعمومی_یادداشت, عمومی_یادداشت, loc, ccode, notforloan, uri, copyno, هزینه, هزینه تعویض و شماره بازیابی آیتم . فیلدهای خاص: کمیت و بودجه_کد"
 
 # Acquisitions > Printing > OrderPdfFormat
 # Acquisitions > Printing

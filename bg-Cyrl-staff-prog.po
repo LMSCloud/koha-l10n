@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 03:06+0000\n"
+"POT-Creation-Date: 2023-12-21 03:17+0000\n"
 "PO-Revision-Date: 2023-12-21 03:10+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -645,7 +645,7 @@ msgstr "определете бюджет и фонд"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/spent.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:28
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:145
@@ -9377,7 +9377,6 @@ msgstr "Модул страница"
 
 #. NAV
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:451
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:21
@@ -9389,7 +9388,6 @@ msgstr "Навигация"
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:455
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:24
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:22
@@ -18598,6 +18596,7 @@ msgid "Contracts"
 msgstr "Договори"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:185
 #, c-format
 msgid "Vendor issues"
@@ -26506,35 +26505,6 @@ msgstr "От"
 msgid "Uncertain"
 msgstr "Неопределен"
 
-#. %1$s:  IF op =='add_form' 
-#. %2$s:  IF issue.issue_id 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#. %5$s:  ELSE 
-#. %6$s:  IF op == 'delete_confirm' 
-#. %7$s:  END 
-#. %8$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:7
-#, c-format
-msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
-msgstr "%s %s Промяна на проблем с доставчик %s Нов проблем с доставчик %s &rsaquo; %s %s Потвърдете изтриването на проблем с доставчик &rsaquo; %s %s Проблем с доставчика &rsaquo; Придобиване &rsaquo; Коха "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
-#, c-format
-msgid "Issues"
-msgstr "Броеве"
-
-#. %1$s:  IF issue 
-#. %2$s:  issue.issue_id| html 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:48
-#, c-format
-msgid "%s Issue #%s %s New issue %s "
-msgstr "%s Брой #%s %s Нов брой %s "
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:70
 #, c-format
 msgid "An error occurred when updating this issue."
@@ -26565,11 +26535,6 @@ msgstr "е актуализиран успешно."
 msgid "Issue deleted successfully."
 msgstr "Успешно изтриване."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:89
-#, c-format
-msgid "Modify a vendor issue"
-msgstr "Промяна на доставчика на издание"
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:91
 #, c-format
 msgid "New vendor issue"
@@ -26595,8 +26560,8 @@ msgstr "Завърши на: "
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
-#, c-format
-msgid "Delete issue #%s?"
+#, fuzzy, c-format
+msgid "Delete issue %s?"
 msgstr "Изтриване на издание #%s?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:138
@@ -26657,8 +26622,8 @@ msgstr "Не, не изтривайте"
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
-#, c-format
-msgid "Vendor issue #%s"
+#, fuzzy, c-format
+msgid "Vendor issue %s"
 msgstr "Доставчик #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
@@ -59916,6 +59881,11 @@ msgstr "Не (N)"
 msgid "Planning"
 msgstr "Планиране"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
+#, c-format
+msgid "Issues"
+msgstr "Броеве"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:103
 #, c-format
 msgid "Subscription ID: "
@@ -67775,6 +67745,10 @@ msgstr "_празно"
 #~ msgid "%s %s Modify system preference '%s' %s Add a system preference %s &rsaquo; %s %s Data added &rsaquo; %s %s Confirm deletion of parameter '%s' &rsaquo; %s &rsaquo; %s %s Parameter deleted &rsaquo; %s System preferences &rsaquo; Administration &rsaquo; Koha "
 #~ msgstr "%s %s Промяна на системни настройки '%s' %s Добавете системни настройки %s &rsaquo; %s %s Данните са добавени &rsaquo; %s %s Потвърждаване на изтриване на параметър '%s' &rsaquo; %s &rsaquo; %s %s Параметъра е изтрит &rsaquo; %s Системни настройки &rsaquo; Администриране &rsaquo; Коха "
 
+#, c-format
+#~ msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
+#~ msgstr "%s %s Промяна на проблем с доставчик %s Нов проблем с доставчик %s &rsaquo; %s %s Потвърдете изтриването на проблем с доставчик &rsaquo; %s %s Проблем с доставчика &rsaquo; Придобиване &rsaquo; Коха "
+
 #~ msgid "%s %s Share content with Mana KB %s %s %s "
 #~ msgstr "%s %s Споделяйте съдържание с Mana KB %s %s %s "
 
@@ -68047,6 +68021,10 @@ msgstr "_празно"
 
 #~ msgid "%s In transit from %s, to %s, since %s %s %s %s %s Can't be cancelled when item is in transit %s %sWaiting%sOn hold%s %s for "
 #~ msgstr "%s В движение от %s до %s с %s %s %s %s %s Не може да бъде отменено, докато екземпляр е в движение %s %sВ очакване%sВ резервция%s %s за "
+
+#, c-format
+#~ msgid "%s Issue #%s %s New issue %s "
+#~ msgstr "%s Брой #%s %s Нов брой %s "
 
 #~ msgid "%s Item type is normally not for loan. %s %s Item is normally not for loan%s (%s)%s. %s %s Check out anyway? %s "
 #~ msgstr "%s Вид библиотечен документ обикновено не е за заемане. %s %s Екземплярът обикновено не е за заемане%s (%s)%s. %s %s Заемете въпреки всичко? %s "
@@ -70626,6 +70604,10 @@ msgstr "_празно"
 #, c-format
 #~ msgid "Modify a credit type"
 #~ msgstr "Редактиране на вид кредит"
+
+#, c-format
+#~ msgid "Modify a vendor issue"
+#~ msgstr "Промяна на доставчика на издание"
 
 #, c-format
 #~ msgid "Modify account"

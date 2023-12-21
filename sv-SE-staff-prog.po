@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 03:06+0000\n"
+"POT-Creation-Date: 2023-12-21 03:17+0000\n"
 "PO-Revision-Date: 2023-11-30 09:12+0000\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -646,7 +646,7 @@ msgstr "definiera en budget och ett budgetställe"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/spent.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:28
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:145
@@ -9379,7 +9379,6 @@ msgstr "Modulsida"
 
 #. NAV
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:451
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:21
@@ -9391,7 +9390,6 @@ msgstr "Länkstig"
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:455
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:24
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:22
@@ -18615,6 +18613,7 @@ msgid "Contracts"
 msgstr "Avtal"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:185
 #, c-format
 msgid "Vendor issues"
@@ -26524,35 +26523,6 @@ msgstr "Av"
 msgid "Uncertain"
 msgstr "Osäkra"
 
-#. %1$s:  IF op =='add_form' 
-#. %2$s:  IF issue.issue_id 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#. %5$s:  ELSE 
-#. %6$s:  IF op == 'delete_confirm' 
-#. %7$s:  END 
-#. %8$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:7
-#, c-format
-msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
-msgstr "%s %s Redigera leverantörsärende %s Nytt leverantörsärende %s &rsaquo; %s %s Bekräfta borttagning av leverantörsärende &rsaquo; %s %s Leverantörsärende &rsaquo; Inköp &rsaquo; Koha "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
-#, c-format
-msgid "Issues"
-msgstr "Nummer"
-
-#. %1$s:  IF issue 
-#. %2$s:  issue.issue_id| html 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:48
-#, c-format
-msgid "%s Issue #%s %s New issue %s "
-msgstr "%s Ärende #%s %s Nytt ärende %s "
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:70
 #, c-format
 msgid "An error occurred when updating this issue."
@@ -26583,11 +26553,6 @@ msgstr "Ärendet har uppdaterats."
 msgid "Issue deleted successfully."
 msgstr "Ärendet har tagits bort."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:89
-#, c-format
-msgid "Modify a vendor issue"
-msgstr "Redigera ett leverantörsärende"
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:91
 #, c-format
 msgid "New vendor issue"
@@ -26613,8 +26578,8 @@ msgstr "Slutade: "
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
-#, c-format
-msgid "Delete issue #%s?"
+#, fuzzy, c-format
+msgid "Delete issue %s?"
 msgstr "Ta bort ärende #%s?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:138
@@ -26675,8 +26640,8 @@ msgstr "Nej, ta inte bort den"
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
-#, c-format
-msgid "Vendor issue #%s"
+#, fuzzy, c-format
+msgid "Vendor issue %s"
 msgstr "Leverantörsärende #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
@@ -59935,6 +59900,11 @@ msgstr "Nej, ta inte bort (N)"
 msgid "Planning"
 msgstr "Planering"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
+#, c-format
+msgid "Issues"
+msgstr "Nummer"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:103
 #, c-format
 msgid "Subscription ID: "
@@ -67796,6 +67766,10 @@ msgstr "_blank"
 #~ msgid "%s %s Modify system preference '%s' %s Add a system preference %s &rsaquo; %s %s Data added &rsaquo; %s %s Confirm deletion of parameter '%s' &rsaquo; %s &rsaquo; %s %s Parameter deleted &rsaquo; %s System preferences &rsaquo; Administration &rsaquo; Koha "
 #~ msgstr "%s %s Redigera systeminställning '%s' %s Lägg till systeminställning %s &rsaquo; %s %s Data har lagts till &rsaquo; %s %s Bekräfta borttagning av parameter '%s' &rsaquo; %s &rsaquo; %s %s Parameter borttagen &rsaquo; %s Systeminställningar &rsaquo; Administration &rsaquo; Koha "
 
+#, c-format
+#~ msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
+#~ msgstr "%s %s Redigera leverantörsärende %s Nytt leverantörsärende %s &rsaquo; %s %s Bekräfta borttagning av leverantörsärende &rsaquo; %s %s Leverantörsärende &rsaquo; Inköp &rsaquo; Koha "
+
 #~ msgid "%s %s Share content with Mana KB %s %s %s "
 #~ msgstr "%s %s Dela innehåll med Mana KB %s %s %s "
 
@@ -68080,6 +68054,10 @@ msgstr "_blank"
 
 #~ msgid "%s In transit to %s %s Ready for pickup %s Expired on %s %s Cancelled on %s %s Overdue to be returned %s Fulfilled %s Requested %s "
 #~ msgstr "%s Under transport till %s %s Kan hämtas %s Utgår %s %s Avbröts %s %s Försenad %s Uppfylld %s Reserverad %s "
+
+#, c-format
+#~ msgid "%s Issue #%s %s New issue %s "
+#~ msgstr "%s Ärende #%s %s Nytt ärende %s "
 
 #~ msgid "%s Item type is normally not for loan. %s %s Item is normally not for loan%s (%s)%s. %s %s Check out anyway? %s "
 #~ msgstr "%s Exemplartypen är normalt ej för utlån. %s %s Exemplaret är normalt ej för utlån%s (%s)%s. %s %s Låna ut ändå? %s "
@@ -70652,6 +70630,10 @@ msgstr "_blank"
 #, c-format
 #~ msgid "Modify a credit type"
 #~ msgstr "Redigera en kredittyp"
+
+#, c-format
+#~ msgid "Modify a vendor issue"
+#~ msgstr "Redigera ett leverantörsärende"
 
 #, c-format
 #~ msgid "Modify account"

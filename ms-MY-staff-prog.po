@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 03:06+0000\n"
+"POT-Creation-Date: 2023-12-21 03:17+0000\n"
 "PO-Revision-Date: 2022-05-01 10:50-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -670,7 +670,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/spent.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:28
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:145
@@ -9688,7 +9688,6 @@ msgstr "Halaman masalah"
 
 #. NAV
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:451
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:21
@@ -9700,7 +9699,6 @@ msgstr ""
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:455
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:24
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:22
@@ -19507,6 +19505,7 @@ msgstr "Dikontrak"
 
 # 4uLvkR  <a href="http://iqpougfdvvxg.com/">iqpougfdvvxg</a>, [url=http://onsbhphvwwnz.com/]onsbhphvwwnz[/url], [link=http://qbfbdplhpajn.com/]qbfbdplhpajn[/link], http://gqthaibyqrnv.com/
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:185
 #, fuzzy, c-format
 msgid "Vendor issues"
@@ -27764,35 +27763,6 @@ msgstr "Oleh: "
 msgid "Uncertain"
 msgstr "%s %s (Takpasti) %s"
 
-#. %1$s:  IF op =='add_form' 
-#. %2$s:  IF issue.issue_id 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#. %5$s:  ELSE 
-#. %6$s:  IF op == 'delete_confirm' 
-#. %7$s:  END 
-#. %8$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:7
-#, fuzzy, c-format
-msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
-msgstr "%s %s Ubahsuai perpustakaan %s Perpustakaan baru %s %s &rsaquo; %s Sah padam perpustakaan '%s' &rsaquo; %s Perpustakaan &rsaquo; Pentadbiran &rsaquo; Koha"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
-#, fuzzy, c-format
-msgid "Issues"
-msgstr "Isu #"
-
-#. %1$s:  IF issue 
-#. %2$s:  issue.issue_id| html 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:48
-#, fuzzy, c-format
-msgid "%s Issue #%s %s New issue %s "
-msgstr "%s %s %s %s Tiada %s "
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:70
 #, fuzzy, c-format
 msgid "An error occurred when updating this issue."
@@ -27824,12 +27794,6 @@ msgid "Issue deleted successfully."
 msgstr "Pemetaan telah berjaya dikemaskini"
 
 # 4uLvkR  <a href="http://iqpougfdvvxg.com/">iqpougfdvvxg</a>, [url=http://onsbhphvwwnz.com/]onsbhphvwwnz[/url], [link=http://qbfbdplhpajn.com/]qbfbdplhpajn[/link], http://gqthaibyqrnv.com/
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:89
-#, fuzzy, c-format
-msgid "Modify a vendor issue"
-msgstr "Ubahsuai meja"
-
-# 4uLvkR  <a href="http://iqpougfdvvxg.com/">iqpougfdvvxg</a>, [url=http://onsbhphvwwnz.com/]onsbhphvwwnz[/url], [link=http://qbfbdplhpajn.com/]qbfbdplhpajn[/link], http://gqthaibyqrnv.com/
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:91
 #, fuzzy, c-format
 msgid "New vendor issue"
@@ -27856,7 +27820,7 @@ msgstr "Dikemaskini:"
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
 #, fuzzy, c-format
-msgid "Delete issue #%s?"
+msgid "Delete issue %s?"
 msgstr "Hapus meja \"%s\"?"
 
 # 4uLvkR  <a href="http://iqpougfdvvxg.com/">iqpougfdvvxg</a>, [url=http://onsbhphvwwnz.com/]onsbhphvwwnz[/url], [link=http://qbfbdplhpajn.com/]qbfbdplhpajn[/link], http://gqthaibyqrnv.com/
@@ -27920,7 +27884,7 @@ msgstr "Tidak, pembatalan tempahan tidak dibenarkan "
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
 #, fuzzy, c-format
-msgid "Vendor issue #%s"
+msgid "Vendor issue %s"
 msgstr "Vendor invois:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
@@ -62887,6 +62851,11 @@ msgstr "Tidak, jangan batal (N)"
 msgid "Planning"
 msgstr "Pelan"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
+#, fuzzy, c-format
+msgid "Issues"
+msgstr "Isu #"
+
 # 4uLvkR  <a href="http://iqpougfdvvxg.com/">iqpougfdvvxg</a>, [url=http://onsbhphvwwnz.com/]onsbhphvwwnz[/url], [link=http://qbfbdplhpajn.com/]qbfbdplhpajn[/link], http://gqthaibyqrnv.com/
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:103
 #, fuzzy, c-format
@@ -71174,6 +71143,10 @@ msgstr ""
 #~ msgid "%s %s Modify system preference '%s' %s Add a system preference %s &rsaquo; %s %s Data added &rsaquo; %s %s Confirm deletion of parameter '%s' &rsaquo; %s &rsaquo; %s %s Parameter deleted &rsaquo; %s System preferences &rsaquo; Administration &rsaquo; Koha "
 #~ msgstr "%s %s Ubahsuai daftar tunai %s Daftar tunai baru %s %s &rsaquo; %s Sah padam daftar tunai '%s' &rsaquo; %s daftar tunai &rsaquo; Pentadbiran &rsaquo; Koha "
 
+#, fuzzy, c-format
+#~ msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
+#~ msgstr "%s %s Ubahsuai perpustakaan %s Perpustakaan baru %s %s &rsaquo; %s Sah padam perpustakaan '%s' &rsaquo; %s Perpustakaan &rsaquo; Pentadbiran &rsaquo; Koha"
+
 # 4uLvkR  <a href="http://iqpougfdvvxg.com/">iqpougfdvvxg</a>, [url=http://onsbhphvwwnz.com/]onsbhphvwwnz[/url], [link=http://qbfbdplhpajn.com/]qbfbdplhpajn[/link], http://gqthaibyqrnv.com/
 #, fuzzy
 #~ msgid "%s %s Share content with Mana KB %s %s %s "
@@ -71464,6 +71437,10 @@ msgstr ""
 
 #~ msgid "%s In transit from %s, to %s, since %s %s %s %s %s Can't be cancelled when item is in transit %s %sWaiting%sOn hold%s %s for "
 #~ msgstr "%s Dalam peralihan dari %s, ke %s, sejak %s %s %s %s %s Tidak boleh dibatalkan ketika bahan masih dalam peralihan %s %sMenunggu%sDalam tempahan%s %s untuk "
+
+#, fuzzy, c-format
+#~ msgid "%s Issue #%s %s New issue %s "
+#~ msgstr "%s %s %s %s Tiada %s "
 
 #, fuzzy
 #~ msgid "%s Item type is normally not for loan. %s %s Item is normally not for loan%s (%s)%s. %s %s Check out anyway? %s "
@@ -74451,6 +74428,11 @@ msgstr ""
 #, c-format
 #~ msgid "Modify a credit type"
 #~ msgstr "Ubahsuai jenis kredit"
+
+# 4uLvkR  <a href="http://iqpougfdvvxg.com/">iqpougfdvvxg</a>, [url=http://onsbhphvwwnz.com/]onsbhphvwwnz[/url], [link=http://qbfbdplhpajn.com/]qbfbdplhpajn[/link], http://gqthaibyqrnv.com/
+#, fuzzy, c-format
+#~ msgid "Modify a vendor issue"
+#~ msgstr "Ubahsuai meja"
 
 # 4uLvkR  <a href="http://iqpougfdvvxg.com/">iqpougfdvvxg</a>, [url=http://onsbhphvwwnz.com/]onsbhphvwwnz[/url], [link=http://qbfbdplhpajn.com/]qbfbdplhpajn[/link], http://gqthaibyqrnv.com/
 #, fuzzy, c-format

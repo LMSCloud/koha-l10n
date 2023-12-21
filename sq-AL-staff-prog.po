@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 03:06+0000\n"
+"POT-Creation-Date: 2023-12-21 03:17+0000\n"
 "PO-Revision-Date: 2022-05-01 12:03-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -644,7 +644,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/spent.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:28
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:145
@@ -9458,7 +9458,6 @@ msgstr "%s rreshta te gjetur"
 
 #. NAV
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:451
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:21
@@ -9470,7 +9469,6 @@ msgstr ""
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:455
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:24
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:22
@@ -18942,6 +18940,7 @@ msgid "Contracts"
 msgstr "Përmbajtja"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:185
 #, fuzzy, c-format
 msgid "Vendor issues"
@@ -26916,35 +26915,6 @@ msgstr ""
 msgid "Uncertain"
 msgstr "%s (joaktive) %s %s"
 
-#. %1$s:  IF op =='add_form' 
-#. %2$s:  IF issue.issue_id 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#. %5$s:  ELSE 
-#. %6$s:  IF op == 'delete_confirm' 
-#. %7$s:  END 
-#. %8$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:7
-#, fuzzy, c-format
-msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
-msgstr "&rsaquo; %sModify category '%s'%sNew category%s%s %s"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
-#, fuzzy, c-format
-msgid "Issues"
-msgstr "Botimi #"
-
-#. %1$s:  IF issue 
-#. %2$s:  issue.issue_id| html 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:48
-#, fuzzy, c-format
-msgid "%s Issue #%s %s New issue %s "
-msgstr "%s %s %s %s None %s"
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:70
 #, fuzzy, c-format
 msgid "An error occurred when updating this issue."
@@ -26975,11 +26945,6 @@ msgstr "%sNot checked out%s"
 msgid "Issue deleted successfully."
 msgstr "%sNot checked out%s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:89
-#, fuzzy, c-format
-msgid "Modify a vendor issue"
-msgstr "Porositur"
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:91
 #, fuzzy, c-format
 msgid "New vendor issue"
@@ -27007,7 +26972,7 @@ msgstr " in tab"
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
 #, fuzzy, c-format
-msgid "Delete issue #%s?"
+msgid "Delete issue %s?"
 msgstr "Fshij listën"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:138
@@ -27069,7 +27034,7 @@ msgstr "Nuk u hoq asnjë rekord."
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
 #, fuzzy, c-format
-msgid "Vendor issue #%s"
+msgid "Vendor issue %s"
 msgstr "%s Emri tjeter:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
@@ -60713,6 +60678,11 @@ msgstr ""
 msgid "Planning"
 msgstr "Kujdes"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
+#, fuzzy, c-format
+msgid "Issues"
+msgstr "Botimi #"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:103
 #, fuzzy, c-format
 msgid "Subscription ID: "
@@ -68601,6 +68571,10 @@ msgstr ""
 #~ msgid "%s %s Modify library EAN %s Add new library EAN %s &rsaquo; %s %s Confirm deletion of EAN &rsaquo; %s Library EANs &rsaquo; Administration &rsaquo; Koha "
 #~ msgstr "&rsaquo; %sModify category '%s'%sNew category%s%s %s"
 
+#, fuzzy, c-format
+#~ msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
+#~ msgstr "&rsaquo; %sModify category '%s'%sNew category%s%s %s"
+
 #, fuzzy
 #~ msgid "%s %s Share content with Mana KB %s %s %s "
 #~ msgstr "&rsaquo; Patrons with no checkouts"
@@ -68856,6 +68830,10 @@ msgstr ""
 #, fuzzy
 #~ msgid "%s If not filled in defaults to system preference "
 #~ msgstr "&rsaquo; Preferimet e sistemit "
+
+#, fuzzy, c-format
+#~ msgid "%s Issue #%s %s New issue %s "
+#~ msgstr "%s %s %s %s None %s"
 
 #, fuzzy
 #~ msgid "%s Issuing items to %s &rsaquo; Batch check out &rsaquo; %s Circulation &rsaquo; Koha "
@@ -71431,6 +71409,10 @@ msgstr ""
 #, fuzzy, c-format
 #~ msgid "Modify a credit type"
 #~ msgstr "&rsaquo; Account for %s"
+
+#, fuzzy, c-format
+#~ msgid "Modify a vendor issue"
+#~ msgstr "Porositur"
 
 #, fuzzy, c-format
 #~ msgid "Modify account"

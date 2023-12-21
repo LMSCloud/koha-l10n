@@ -487,30 +487,36 @@ msgstr "不做"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-msgid "acquisitions.pref#MarcFieldsToOrder# <br/>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a"
+#, fuzzy
+msgid "acquisitions.pref#MarcFieldsToOrder# <p>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a</p>"
 msgstr "<br/>例如：<br/>价格：947$a|947$c<br/>数量：969$h<br/>budget_code: 922$a"
+
+# Acquisitions > Policy > MarcFieldsToOrder
+# Acquisitions > Policy
+#, fuzzy
+msgid "acquisitions.pref#MarcFieldsToOrder# <p>You can use the following fields: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
+msgstr "您可使用下列栏位：price, quantity, budget_code, discount, sort1, sort2"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 msgid "acquisitions.pref#MarcFieldsToOrder# Set the mapping values for a new order line created from a MARC record in a staged file."
 msgstr ""
 
-# Acquisitions > Policy > MarcFieldsToOrder
-# Acquisitions > Policy
-msgid "acquisitions.pref#MarcFieldsToOrder# You can use the following fields: price, quantity, budget_code, discount, sort1, sort2"
-msgstr "您可使用下列栏位：price, quantity, budget_code, discount, sort1, sort2"
-
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
 #, fuzzy
-msgid "acquisitions.pref#MarcItemFieldsToOrder# <br/>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z"
+msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
 msgstr "<br/>例如：<br/>价格：947$a|947$c<br/>数量：969$h<br/>budget_code: 922$a"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
-msgid "acquisitions.pref#MarcItemFieldsToOrder# Set the mapping values for new item records created from a MARC record in a staged file."
+msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
 msgstr ""
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
-msgid "acquisitions.pref#MarcItemFieldsToOrder# You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code"
+msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
+msgstr ""
+
+# Acquisitions > Policy > MarcItemFieldsToOrder
+msgid "acquisitions.pref#MarcItemFieldsToOrder# Set the mapping values for new item records created from a MARC record in a staged file."
 msgstr ""
 
 # Acquisitions > Printing > OrderPdfFormat

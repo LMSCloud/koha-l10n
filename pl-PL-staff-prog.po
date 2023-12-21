@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 03:06+0000\n"
+"POT-Creation-Date: 2023-12-21 03:17+0000\n"
 "PO-Revision-Date: 2023-12-16 03:03+0000\n"
 "Last-Translator: Urszula <matoga@biblos.pk.edu.pl>\n"
 "Language-Team: Koha Translation Team\n"
@@ -651,7 +651,7 @@ msgstr "określisz budżetu i funduszu"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/spent.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:28
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:145
@@ -9388,7 +9388,6 @@ msgstr "Strona modułu"
 
 #. NAV
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:451
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:21
@@ -9400,7 +9399,6 @@ msgstr "Breadcrumb"
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:455
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:24
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:22
@@ -18638,6 +18636,7 @@ msgid "Contracts"
 msgstr "Kontrakty"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:185
 #, fuzzy, c-format
 msgid "Vendor issues"
@@ -26562,35 +26561,6 @@ msgstr "Autor"
 msgid "Uncertain"
 msgstr "Niepewne"
 
-#. %1$s:  IF op =='add_form' 
-#. %2$s:  IF issue.issue_id 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#. %5$s:  ELSE 
-#. %6$s:  IF op == 'delete_confirm' 
-#. %7$s:  END 
-#. %8$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:7
-#, fuzzy, c-format
-msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
-msgstr "%s %s Modyfikuj oddział %s Nowy oddział %s &rsaquo; %s %s Potwierdź usunięcie oddziału &rsaquo; %s %s Oddziały &rsaquo; Administracja &rsaquo; Koha "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
-#, c-format
-msgid "Issues"
-msgstr "Numery"
-
-#. %1$s:  IF issue 
-#. %2$s:  issue.issue_id| html 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:48
-#, fuzzy, c-format
-msgid "%s Issue #%s %s New issue %s "
-msgstr "%s %s %s %s Żadne %s "
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:70
 #, fuzzy, c-format
 msgid "An error occurred when updating this issue."
@@ -26621,11 +26591,6 @@ msgstr "został pomyślnie zaktualizowany"
 msgid "Issue deleted successfully."
 msgstr "Oddział usunięty pomyślnie"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:89
-#, fuzzy, c-format
-msgid "Modify a vendor issue"
-msgstr "Modyfikuj zamówienie"
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:91
 #, fuzzy, c-format
 msgid "New vendor issue"
@@ -26652,7 +26617,7 @@ msgstr "Zakończono: "
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
 #, fuzzy, c-format
-msgid "Delete issue #%s?"
+msgid "Delete issue %s?"
 msgstr "Usunąć fundusz %s?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:138
@@ -26714,7 +26679,7 @@ msgstr "Nie, nie usuwaj"
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
 #, fuzzy, c-format
-msgid "Vendor issue #%s"
+msgid "Vendor issue %s"
 msgstr "Dostawca: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
@@ -60008,6 +59973,11 @@ msgstr "Nie, nie usuwaj (N)"
 msgid "Planning"
 msgstr "Planowanie"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
+#, c-format
+msgid "Issues"
+msgstr "Numery"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:103
 #, c-format
 msgid "Subscription ID: "
@@ -67875,6 +67845,10 @@ msgstr "_blank"
 #~ msgid "%s %s Modify system preference '%s' %s Add a system preference %s &rsaquo; %s %s Data added &rsaquo; %s %s Confirm deletion of parameter '%s' &rsaquo; %s &rsaquo; %s %s Parameter deleted &rsaquo; %s System preferences &rsaquo; Administration &rsaquo; Koha "
 #~ msgstr "%s %s Modyfikuj ustawienia systemu '%s' %s Dodaj ustawienia systemu %s &rsaquo; %s %s Dane dodane &rsaquo; %s %s Potwierdź usunięcie parametru '%s' &rsaquo; %s &rsaquo; %s %s Parametry usunięte &rsaquo; %s Ustawienia systemu &rsaquo; Administracja &rsaquo; Koha "
 
+#, fuzzy, c-format
+#~ msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
+#~ msgstr "%s %s Modyfikuj oddział %s Nowy oddział %s &rsaquo; %s %s Potwierdź usunięcie oddziału &rsaquo; %s %s Oddziały &rsaquo; Administracja &rsaquo; Koha "
+
 #~ msgid "%s %s Share content with Mana KB %s %s %s "
 #~ msgstr "%s %s Udostępnij zawartość w Mana KB %s %s %s "
 
@@ -68154,6 +68128,10 @@ msgstr "_blank"
 
 #~ msgid "%s In transit from %s, to %s, since %s %s %s %s %s Can't be cancelled when item is in transit %s %sWaiting%sOn hold%s %s for "
 #~ msgstr "%s W drodze z %s, do %s, od %s %s %s %s %s Nie można anulować podczas przesyłania egzemplarza %s %sOczekuje%sZamówiony%s %s dla "
+
+#, fuzzy, c-format
+#~ msgid "%s Issue #%s %s New issue %s "
+#~ msgstr "%s %s %s %s Żadne %s "
 
 #~ msgid "%s Item type is normally not for loan. %s %s Item is normally not for loan%s (%s)%s. %s %s Check out anyway? %s "
 #~ msgstr "%s Typ egzemplarza nie do wypożyczania. %s %s Egzemplarz nie do wypożyczania %s(%s)%s. %s %s Mimo wszystko wypożyczyć? %s "
@@ -70745,6 +70723,10 @@ msgstr "_blank"
 #, c-format
 #~ msgid "Modify a credit type"
 #~ msgstr "Modyfikuj typ zasilenia"
+
+#, fuzzy, c-format
+#~ msgid "Modify a vendor issue"
+#~ msgstr "Modyfikuj zamówienie"
 
 #, c-format
 #~ msgid "Modify account"

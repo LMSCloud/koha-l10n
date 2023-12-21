@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 03:06+0000\n"
+"POT-Creation-Date: 2023-12-21 03:17+0000\n"
 "PO-Revision-Date: 2023-12-07 03:02+0000\n"
 "Last-Translator: Tiago Murakami <trmurakami@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -645,7 +645,7 @@ msgstr "definir um orçamento e um fundo"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/spent.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:28
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:145
@@ -9381,7 +9381,6 @@ msgstr "Página do módulo"
 
 #. NAV
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:451
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:21
@@ -9393,7 +9392,6 @@ msgstr "Breadcrumb"
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:455
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:24
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:22
@@ -18632,6 +18630,7 @@ msgid "Contracts"
 msgstr "Contratos"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:185
 #, fuzzy, c-format
 msgid "Vendor issues"
@@ -26542,35 +26541,6 @@ msgstr "Por"
 msgid "Uncertain"
 msgstr "Incerto"
 
-#. %1$s:  IF op =='add_form' 
-#. %2$s:  IF issue.issue_id 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#. %5$s:  ELSE 
-#. %6$s:  IF op == 'delete_confirm' 
-#. %7$s:  END 
-#. %8$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:7
-#, fuzzy, c-format
-msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
-msgstr "%s %s Modificar estação de trabalho %s Nova estação de trabalho %s &rsaquo; %s %s Confirma a exclusão da estação de trabalho &rsaquo; %s %s Estações de trabalho &rsaquo; Administração &rsaquo; Koha "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
-#, c-format
-msgid "Issues"
-msgstr "Fascículos"
-
-#. %1$s:  IF issue 
-#. %2$s:  issue.issue_id| html 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:48
-#, fuzzy, c-format
-msgid "%s Issue #%s %s New issue %s "
-msgstr "%s %s %s %s Nenhum %s "
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:70
 #, fuzzy, c-format
 msgid "An error occurred when updating this issue."
@@ -26601,11 +26571,6 @@ msgstr "atualizado com sucesso"
 msgid "Issue deleted successfully."
 msgstr "Estação de trabalho excluída com sucesso"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:89
-#, fuzzy, c-format
-msgid "Modify a vendor issue"
-msgstr "Modificar um pedido"
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:91
 #, fuzzy, c-format
 msgid "New vendor issue"
@@ -26632,7 +26597,7 @@ msgstr "Finalizado: "
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
 #, fuzzy, c-format
-msgid "Delete issue #%s?"
+msgid "Delete issue %s?"
 msgstr "Excluir fundo %s?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:138
@@ -26694,7 +26659,7 @@ msgstr "Não, não excluir"
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
 #, fuzzy, c-format
-msgid "Vendor issue #%s"
+msgid "Vendor issue %s"
 msgstr "Fornecedor é: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
@@ -59982,6 +59947,11 @@ msgstr "Não, não excluir (N)"
 msgid "Planning"
 msgstr "Planejamento"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
+#, c-format
+msgid "Issues"
+msgstr "Fascículos"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:103
 #, c-format
 msgid "Subscription ID: "
@@ -67846,6 +67816,10 @@ msgstr "_blank"
 #~ msgid "%s %s Modify system preference '%s' %s Add a system preference %s &rsaquo; %s %s Data added &rsaquo; %s %s Confirm deletion of parameter '%s' &rsaquo; %s &rsaquo; %s %s Parameter deleted &rsaquo; %s System preferences &rsaquo; Administration &rsaquo; Koha "
 #~ msgstr "%s %s Modificar preferência do sistema '%s' %s Adicionar uma preferência do sistema %s &rsaquo; %s %s Dado adicionado &rsaquo; %s %s Confirmar exclusão de parâmetro '%s' &rsaquo; %s &rsaquo; %s %s Parâmetro excluído &rsaquo; %s Preferências do sistema &rsaquo; Administração &rsaquo; Koha "
 
+#, fuzzy, c-format
+#~ msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
+#~ msgstr "%s %s Modificar estação de trabalho %s Nova estação de trabalho %s &rsaquo; %s %s Confirma a exclusão da estação de trabalho &rsaquo; %s %s Estações de trabalho &rsaquo; Administração &rsaquo; Koha "
+
 #, fuzzy
 #~ msgid "%s %s No matching item could be found %s Item is not checked out %s Cannot be renewed yet %s Renewed the maximum number of times %s Scheduled for automatic renewal and cannot be renewed yet %s Scheduled for automatic renewal and cannot be renewed any more %s Scheduled for automatic renewal and cannot be renewed because the patron's account has expired %s Scheduled for automatic renewal %s Scheduled for automatic renewal and cannot be renewed because the patron has too many outstanding charges %s On hold for another patron %s Patron is currently restricted %s Item is not allowed renewal %s Item is an onsite checkout %s Item has an outstanding fine %s Unknown error %s "
 #~ msgstr "%s %s Nenhum item correspondente foi encontrado %s O item não foi retirado %s Ainda não pode ser renovado %s Renovado o número máximo de vezes %s Programado para renovação automática e ainda não pode ser renovado %s Programado para renovação automática e não pode ainda existe mais %s Programado para renovação automática e não pode ser renovado porque a conta do usuário expirou %s Programado para renovação automática %s Programado para renovação automática %s Em espera por outro usuário %s Cliente atualmente está restrito %s Item não está renovação permitida %s O item é um checkout no local %s O item tem uma multa pendente %s Erro desconhecido %s "
@@ -68147,6 +68121,10 @@ msgstr "_blank"
 #, fuzzy
 #~ msgid "%s In transit from %s, to %s, since %s %s %s %s %s Can't be cancelled when item is in transit %s %sWaiting%sOn hold%s %s for "
 #~ msgstr "%s %s %s Não pode ser cancelado quando o item está em trânsito%s %sEsperando %sEm espera %s%s por "
+
+#, fuzzy, c-format
+#~ msgid "%s Issue #%s %s New issue %s "
+#~ msgstr "%s %s %s %s Nenhum %s "
 
 #~ msgid "%s Item type is normally not for loan. %s %s Item is normally not for loan%s (%s)%s. %s %s Check out anyway? %s "
 #~ msgstr "%s O tipo de item normalmente não é para empréstimo. %s %s O item normalmente não é para o empréstimo %s (%s) %s. %s %s Confira de qualquer maneira? %s"
@@ -70752,6 +70730,10 @@ msgstr "_blank"
 #, c-format
 #~ msgid "Modify a credit type"
 #~ msgstr "Modificar o tipo de crédito"
+
+#, fuzzy, c-format
+#~ msgid "Modify a vendor issue"
+#~ msgstr "Modificar um pedido"
 
 #, c-format
 #~ msgid "Modify account"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 03:06+0000\n"
+"POT-Creation-Date: 2023-12-21 03:17+0000\n"
 "PO-Revision-Date: 2022-05-01 10:40-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -643,7 +643,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/spent.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:28
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:145
@@ -9456,7 +9456,6 @@ msgstr "&lt;&lt; ຄືນຫລັງ"
 
 #. NAV
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:451
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:21
@@ -9468,7 +9467,6 @@ msgstr ""
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:455
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:24
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:22
@@ -18937,6 +18935,7 @@ msgid "Contracts"
 msgstr "ສາລະບານ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:185
 #, fuzzy, c-format
 msgid "Vendor issues"
@@ -26908,35 +26907,6 @@ msgstr ""
 msgid "Uncertain"
 msgstr "%s ໃຊ້ງານບໍ່ໄດ້ %s %s "
 
-#. %1$s:  IF op =='add_form' 
-#. %2$s:  IF issue.issue_id 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#. %5$s:  ELSE 
-#. %6$s:  IF op == 'delete_confirm' 
-#. %7$s:  END 
-#. %8$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:7
-#, fuzzy, c-format
-msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
-msgstr "%s &rsaquo; %sປັບປ່ຽນ%sເມືອງ%s ໃໜ່ %s &rsaquo; ຢື່ນຢັນການລົບລາຍຊື່ເມືອງ %s "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
-#, fuzzy, c-format
-msgid "Issues"
-msgstr "ສະບັບ #"
-
-#. %1$s:  IF issue 
-#. %2$s:  issue.issue_id| html 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:48
-#, fuzzy, c-format
-msgid "%s Issue #%s %s New issue %s "
-msgstr "%s %s %s %s ບໍ່ມີ %s "
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:70
 #, fuzzy, c-format
 msgid "An error occurred when updating this issue."
@@ -26967,11 +26937,6 @@ msgstr "%s %s %s ການນຳເຂົ້າສຳເລັດຜົນ."
 msgid "Issue deleted successfully."
 msgstr "%s %s %s ການນຳເຂົ້າສຳເລັດຜົນ."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:89
-#, fuzzy, c-format
-msgid "Modify a vendor issue"
-msgstr "%s%sການແກ້ໄຂແທັກ "
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:91
 #, fuzzy, c-format
 msgid "New vendor issue"
@@ -26998,7 +26963,7 @@ msgstr "ຈັດການໂດຍ"
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
 #, fuzzy, c-format
-msgid "Delete issue #%s?"
+msgid "Delete issue %s?"
 msgstr "ລືບ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:138
@@ -27060,7 +27025,7 @@ msgstr "%s ບັນທຶກການຕິດຕໍ່:"
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
 #, fuzzy, c-format
-msgid "Vendor issue #%s"
+msgid "Vendor issue %s"
 msgstr "%s ຊື່ອື່ນ: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
@@ -60662,6 +60627,11 @@ msgstr "%s ບັນທຶກການຕິດຕໍ່:"
 msgid "Planning"
 msgstr "ແຜ່ນການ"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
+#, fuzzy, c-format
+msgid "Issues"
+msgstr "ສະບັບ #"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:103
 #, fuzzy, c-format
 msgid "Subscription ID: "
@@ -68607,6 +68577,10 @@ msgstr ""
 #~ msgid "%s %s Modify record matching rule &rsaquo; %s Add record matching rule &rsaquo; %s %s %s Confirm deletion of record matching rule &quot;%s&quot; &rsaquo; %s Record matching rules &rsaquo; Administration &rsaquo; Koha "
 #~ msgstr "%s %s %s &rsaquo; ແກ້ໄຂທະບຽນກົດທີ່ຕົງກັນ %s &rsaquo; ເພີ່ມທະບຽນກົດທີ່ຕົງກັນ %s %s %s &rsaquo; ຢືນຢັນການລົບທະບຽນຂອງກົກທີ່ຕົງກັນ &quot;%s&quot; %s "
 
+#, fuzzy, c-format
+#~ msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
+#~ msgstr "%s &rsaquo; %sປັບປ່ຽນ%sເມືອງ%s ໃໜ່ %s &rsaquo; ຢື່ນຢັນການລົບລາຍຊື່ເມືອງ %s "
+
 #, fuzzy
 #~ msgid "%s %s Share content with Mana KB %s %s %s "
 #~ msgstr "%sໂຄຫາ &rsaquo; ເຄື່ອງມື&rsaquo; ກຸ່ມບາໂຄດ &rsaquo;: ຄົ້ນຫາ%s"
@@ -68923,6 +68897,10 @@ msgstr ""
 #, fuzzy
 #~ msgid "%s In transit from %s, to %s, since %s %s %s %s %s Can't be cancelled when item is in transit %s %sWaiting%sOn hold%s %s for "
 #~ msgstr "%s %s ໃນການນຳສົ່ງຜ່ານຈາກ %s, ຫາ %s, ຕັ້ງແຕ່ %s %s %s %s ບໍ່ຫວ້າງ (ເສຍຫາຍ ຫລື ຂາດເຫຍ) %s %s ບໍ່ອະນຸຍາດໃຫ້ຢື່ມ (%s) %s %s %s ບໍ່ສາມາຍົກເລີກເມື່ອລາຍການຢູ່ໃນການສົ່ງຜ່ານຕໍ່ %s %sລໍຖຸ້າ%sຢູ່ໃນການຈ່ອງ%s %sສຳລັບ "
+
+#, fuzzy, c-format
+#~ msgid "%s Issue #%s %s New issue %s "
+#~ msgstr "%s %s %s %s ບໍ່ມີ %s "
 
 #, fuzzy
 #~ msgid "%s Issuing items to %s &rsaquo; Batch check out &rsaquo; %s Circulation &rsaquo; Koha "
@@ -72041,6 +72019,10 @@ msgstr ""
 #, fuzzy, c-format
 #~ msgid "Modify a credit type"
 #~ msgstr "%s ບໍ່ມີບາໂຄດ %s"
+
+#, fuzzy, c-format
+#~ msgid "Modify a vendor issue"
+#~ msgstr "%s%sການແກ້ໄຂແທັກ "
 
 #, fuzzy, c-format
 #~ msgid "Modify account"

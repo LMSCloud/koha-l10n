@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-20 03:06+0000\n"
+"POT-Creation-Date: 2023-12-21 03:17+0000\n"
 "PO-Revision-Date: 2023-12-06 03:02+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -645,7 +645,7 @@ msgstr "definovat rozpočty a fondy"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/spent.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:28
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:34
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:145
@@ -9408,7 +9408,6 @@ msgstr "Modul vyžaduje upgrade"
 
 #. NAV
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:451
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:21
@@ -9420,7 +9419,6 @@ msgstr "Drobečková navigace"
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:455
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:24
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:22
@@ -18715,6 +18713,7 @@ msgid "Contracts"
 msgstr "Smlouvy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:7
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:185
 #, fuzzy, c-format
 msgid "Vendor issues"
@@ -26659,35 +26658,6 @@ msgstr "Od"
 msgid "Uncertain"
 msgstr "Nejistá"
 
-#. %1$s:  IF op =='add_form' 
-#. %2$s:  IF issue.issue_id 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#. %5$s:  ELSE 
-#. %6$s:  IF op == 'delete_confirm' 
-#. %7$s:  END 
-#. %8$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:7
-#, fuzzy, c-format
-msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
-msgstr "%s %s Upravit pult %s Nový pult %s &rsaquo; %s %s Potvrdit smazání pultu &rsaquo; %s %s Pulty &rsaquo; Administrace &rsaquo; Koha "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
-#, c-format
-msgid "Issues"
-msgstr "Vydání"
-
-#. %1$s:  IF issue 
-#. %2$s:  issue.issue_id| html 
-#. %3$s:  ELSE 
-#. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:48
-#, fuzzy, c-format
-msgid "%s Issue #%s %s New issue %s "
-msgstr "%s %s %s %s Žádné %s "
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:70
 #, fuzzy, c-format
 msgid "An error occurred when updating this issue."
@@ -26718,11 +26688,6 @@ msgstr "byl úspěšně aktualizován"
 msgid "Issue deleted successfully."
 msgstr "Pult úspěšně odstraněn"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:89
-#, fuzzy, c-format
-msgid "Modify a vendor issue"
-msgstr "Upravit pult"
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:91
 #, fuzzy, c-format
 msgid "New vendor issue"
@@ -26749,7 +26714,7 @@ msgstr "Ukončeno: "
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
 #, fuzzy, c-format
-msgid "Delete issue #%s?"
+msgid "Delete issue %s?"
 msgstr "Odstranit fond %s?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:138
@@ -26811,7 +26776,7 @@ msgstr "Ne, neodstraňovat"
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
 #, fuzzy, c-format
-msgid "Vendor issue #%s"
+msgid "Vendor issue %s"
 msgstr "Dodavatel je: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
@@ -60209,6 +60174,11 @@ msgstr "Ne, neodstraňovat (N)"
 msgid "Planning"
 msgstr "Plánování"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:90
+#, c-format
+msgid "Issues"
+msgstr "Vydání"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:103
 #, c-format
 msgid "Subscription ID: "
@@ -68108,6 +68078,10 @@ msgstr ""
 #~ msgid "%s %s Modify system preference '%s' %s Add a system preference %s &rsaquo; %s %s Data added &rsaquo; %s %s Confirm deletion of parameter '%s' &rsaquo; %s &rsaquo; %s %s Parameter deleted &rsaquo; %s System preferences &rsaquo; Administration &rsaquo; Koha "
 #~ msgstr "%s %s Upravit nastavení systému '%s' %s Přidat nastavení%s &rsaquo; %s %s Údaje vloženy &rsaquo; %s %s Potvrdit odstranění parametru '%s' &rsaquo; %s &rsaquo %s %s Parametr odstraněn &rsaquo; %s Nastavení systému &rsaquo; Administrace &rsaquo; Koha "
 
+#, fuzzy, c-format
+#~ msgid "%s %s Modify vendor issue %s New vendor issue %s &rsaquo; %s %s Confirm deletion of vendor issue &rsaquo; %s %s Vendor issue &rsaquo; Acquisition &rsaquo; Koha "
+#~ msgstr "%s %s Upravit pult %s Nový pult %s &rsaquo; %s %s Potvrdit smazání pultu &rsaquo; %s %s Pulty &rsaquo; Administrace &rsaquo; Koha "
+
 #, fuzzy
 #~ msgid "%s %s No matching item could be found %s Item is not checked out %s Cannot be renewed yet %s Renewed the maximum number of times %s Scheduled for automatic renewal and cannot be renewed yet %s Scheduled for automatic renewal and cannot be renewed any more %s Scheduled for automatic renewal and cannot be renewed because the patron's account has expired %s Scheduled for automatic renewal %s Scheduled for automatic renewal and cannot be renewed because the patron has too many outstanding charges %s On hold for another patron %s Patron is currently restricted %s Item is not allowed renewal %s Item is an onsite checkout %s Item has an outstanding fine %s Unknown error %s "
 #~ msgstr "%s %s Nebyla nalezena odpovídající jednotka %s Jednotka není vypůjčená %s Zatím není možné prodloužit %s Počet možných prodloužení byl vyčerpán %s Nyní nelze prodloužit z důvodu naplánovaného automatického prodloužení %s Naplánováné automatické prodloužení není možné z důvodu vyčepání počtu možných prodloužení %s Naplánováné automatické prodloužení není možné z důvodu skončené registrace čenáře %s Naplánované automatické prodloužení %s Naplánováné automatické prodloužení není možné z důvodu neuhrazených pokut čtenáře %s Rezervováno pro jiného čtenáře %s Čtenář má omezené služby %s Prodloužení jednotky není povoleno %s Jednotka je vypůjčená prezenčně %s K jednotce se vztahuje neuhrazená pokuta %s Neznámá chyba %s "
@@ -68400,6 +68374,10 @@ msgstr ""
 
 #~ msgid "%s In transit from %s, to %s, since %s %s %s %s %s Can't be cancelled when item is in transit %s %sWaiting%sOn hold%s %s for "
 #~ msgstr "%s Na cestě z %s, do %s, od %s %s %s %s %s Nelze zrušit, pokud je položka na cestě %s %sČeká%sRezervováno%s %s pro "
+
+#, fuzzy, c-format
+#~ msgid "%s Issue #%s %s New issue %s "
+#~ msgstr "%s %s %s %s Žádné %s "
 
 #~ msgid "%s Item type is normally not for loan. %s %s Item is normally not for loan%s (%s)%s. %s %s Check out anyway? %s "
 #~ msgstr "%s Tento typ dokumentu není určen k půjčování. %s %s Dokument není určen k půjčování %s(%s)%s. %s %s Přesto vypůjčit? %s "
@@ -71070,6 +71048,10 @@ msgstr ""
 #, fuzzy, c-format
 #~ msgid "Modify a credit type"
 #~ msgstr "Upravit typ dluhu"
+
+#, fuzzy, c-format
+#~ msgid "Modify a vendor issue"
+#~ msgstr "Upravit pult"
 
 #, fuzzy, c-format
 #~ msgid "Modify account"
