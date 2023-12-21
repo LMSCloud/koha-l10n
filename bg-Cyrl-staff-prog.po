@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-21 03:17+0000\n"
-"PO-Revision-Date: 2023-12-21 03:10+0000\n"
+"PO-Revision-Date: 2023-12-22 03:01+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -23606,7 +23606,7 @@ msgstr "Преместено"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:189
 #, c-format
 msgid "Filename"
-msgstr "Filename"
+msgstr "Име на файла"
 
 #. %1$s:  msg.basketno.basketno | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:70
@@ -26560,9 +26560,9 @@ msgstr "Завърши на: "
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
-#, fuzzy, c-format
+#, c-format
 msgid "Delete issue %s?"
-msgstr "Изтриване на издание #%s?"
+msgstr "Изтриване на издание %s?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:138
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:321
@@ -26622,9 +26622,9 @@ msgstr "Не, не изтривайте"
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
-#, fuzzy, c-format
+#, c-format
 msgid "Vendor issue %s"
-msgstr "Доставчик #%s"
+msgstr "Доставчик %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
 #, c-format
@@ -36467,7 +36467,7 @@ msgstr "Принудително"
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:377
 msgid "Will use ReservesMaxPickupDelay system preference value (%s)"
-msgstr ""
+msgstr "Използва стойността от ReservesMaxPickupDely (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:389
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:537
@@ -36665,9 +36665,9 @@ msgstr "%s 'Плаващ' екземпляр "
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:793
-#, fuzzy, c-format
+#, c-format
 msgid "%s Item floats by library group "
-msgstr "%s 'Плаващ' екземпляр "
+msgstr "%s копие остава в библиотечна група "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:802
 #, c-format
@@ -37036,7 +37036,7 @@ msgstr "Правилата за връщане се прилагат въз ос
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1295
 #, c-format
 msgid "When return policy is set to 'item floats by library group' the item's homebranch will be used to find groups."
-msgstr ""
+msgstr "Ако правилото за връщане е зададено на Екземпляр остава в група библиотеки, основната библиотека на екземпляра се използва за определяне на групата."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1321
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1370
@@ -37109,9 +37109,9 @@ msgstr "'Плаващ' екземпляр"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1351
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1404
-#, fuzzy, c-format
+#, c-format
 msgid "Item floats by library group"
-msgstr "Премахване на библиотека от група"
+msgstr "Елементът остава в библиотечна група"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1402
 #, c-format
@@ -37339,9 +37339,8 @@ msgstr "Сигурни ли сте, че искате да промените SM
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:324
-#, fuzzy
 msgid "Off"
-msgstr "Изкл. %s "
+msgstr "Изкл."
 
 #. For the first occurrence,
 #. SCRIPT
@@ -37375,9 +37374,9 @@ msgid ": %sYes%sNo%s"
 msgstr ": %sДа%sНе%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping.tt:20
-#, fuzzy, c-format
+#, c-format
 msgid "SRU search field mapping for bibliographic records"
-msgstr "Промяна на съответствието на SRU търсачките за библиографски записи"
+msgstr "Картографиране за опции за търсене на SRU за библиографски данни"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:53
@@ -37397,9 +37396,9 @@ msgid "Subject: "
 msgstr "Тема: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:18
-#, fuzzy, c-format
+#, c-format
 msgid "SRU search field mapping for authorities"
-msgstr "Промяна на съответствието на SRU търсачките за класификатори"
+msgstr "Картографиране за опции за търсене на SRU търсачките за класификатори"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:29
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:35
@@ -37451,34 +37450,34 @@ msgstr "Заглавие (стандартно): "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:72
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:316
-#, fuzzy, c-format
+#, c-format
 msgid "Local use system preferences"
-msgstr "Локално използване настройки"
+msgstr "Системни настройки за локална употреба"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:50
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:309
-#, fuzzy, c-format
+#, c-format
 msgid "New system preference"
-msgstr "Системна настройка "
+msgstr "Нова системна настройка"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:66
-#, fuzzy, c-format
+#, c-format
 msgid "System preference deleted"
-msgstr "Системни настройки "
+msgstr "Системните настройки са изтрити"
 
 #. %1$s:  IF ( modify ) 
 #. %2$s:  tx("Modify system preference '{searchfield}'", { searchfield = searchfield }) | html 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:86
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s New local use system preference %s "
-msgstr "%sПромяна %sДобави %s системна настройка "
+msgstr "%s %s %s Нов локален системен параметър %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:101
-#, fuzzy, c-format
+#, c-format
 msgid "System preference details"
-msgstr "Системни настройки"
+msgstr "Подробности за системните настройки"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:103
 #, c-format
@@ -39068,9 +39067,9 @@ msgstr "Изпрати количка за книги"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/sendbasketform.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/sendshelfform.tt:37
-#, fuzzy, c-format
+#, c-format
 msgid "Enter message details"
-msgstr "Информация за интерфейса"
+msgstr "Въведете подробности за съобщението"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/sendbasketform.tt:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/sendshelfform.tt:39
@@ -39080,20 +39079,20 @@ msgstr "Имейл адрес:"
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:6
-#, fuzzy, c-format
+#, c-format
 msgid "Bookings for %s &rsaquo; Bookings &rsaquo; Circulation &rsaquo; Koha"
-msgstr "Потвърждаване на резервации &rsaquo; Резервации &rsaquo; Заемане &rsaquo; Koha"
+msgstr "Резервации за %s &rsaquo; Резервации &rsaquo; Заемане &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:25
 #, c-format
 msgid "Bookings"
-msgstr ""
+msgstr "Резервации"
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:36
-#, fuzzy, c-format
+#, c-format
 msgid "Bookings for %s"
-msgstr "Домейн за %s"
+msgstr "Резервации за %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:34
