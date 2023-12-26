@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-21 03:17+0000\n"
-"PO-Revision-Date: 2023-12-12 03:02+0000\n"
+"PO-Revision-Date: 2023-12-27 03:02+0000\n"
 "Last-Translator: Tomás Cohen Arazi <tomascohen@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: es-ES\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /es/22.11/es-ES-staff-prog.po\n"
 "X-POOTLE-MTIME: 1698437042.733736\n"
@@ -6970,7 +6970,7 @@ msgstr "No se puede tomar la imágen del socio."
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
 #, c-format
 msgid "The patron must have a cardnumber before a patron photo can be uploaded."
-msgstr ""
+msgstr "El usuario debe tener un número de carné antes de que se le pueda subir una foto."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:19
@@ -13634,9 +13634,9 @@ msgid "Manage all baskets and order lines, regardless of restrictions on them "
 msgstr "Gestionar todas las líneas de pedidos y cestas, independientemente de las restricciones en ellos "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:466
-#, fuzzy, c-format
+#, c-format
 msgid "Manage vendor issues "
-msgstr "Gestionar proveedores "
+msgstr "Gestionar inconvenientes con proveedores "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:471
 #, c-format
@@ -19405,7 +19405,7 @@ msgstr "Preferencia de sistema ' AnonSuggestions' configurada, pero la preferenc
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:447
 #, c-format
 msgid "Some patrons have requested privacy after their items are checked in, but the AnonymousPatron preference is not set correctly. Set it to a valid borrower number or checkins for these patrons will fail."
-msgstr "Algunos usuarios han solicitado privacidad para devolver el ítem pero la preferencia AnonymousPatron no está correctamente configurada. Configurar con un número de usuario (borrowernumber) válido o las devoluciones de estos usuarios fallarán."
+msgstr "Algunos usuarios han solicitado privacidad para devolver el ítem, pero la preferencia AnonymousPatron no está correctamente configurada. Configurar con un número de usuario (borrowernumber) válido o las devoluciones de estos usuarios fallarán."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:453
 #, c-format
@@ -24801,7 +24801,7 @@ msgstr "No para préstamo"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:204
 #, c-format
 msgid "Restricted"
-msgstr "Suspendido:"
+msgstr "Restringido"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:513
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:223
@@ -26597,9 +26597,9 @@ msgstr "Finalizado: "
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
-#, fuzzy, c-format
+#, c-format
 msgid "Delete issue %s?"
-msgstr "¿Eliminar inconveniente #%s?"
+msgstr "¿Eliminar inconveniente %s?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:138
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:321
@@ -26659,9 +26659,9 @@ msgstr "No, no eliminar"
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
-#, fuzzy, c-format
+#, c-format
 msgid "Vendor issue %s"
-msgstr "Inconveniente con proveedor #%s"
+msgstr "Inconveniente con proveedor %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
 #, c-format
@@ -32334,7 +32334,7 @@ msgstr "Código ISO"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:204
 #, c-format
 msgid "Last updated"
-msgstr "Última actualización"
+msgstr "Fecha de la última actualización"
 
 #. %1$s:  IF currency.active 
 #. %2$s:  END 
@@ -34853,15 +34853,15 @@ msgstr "Puntos de coincidencia"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:165
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:226
-#, fuzzy, c-format
+#, c-format
 msgid "New match point"
 msgstr "Agregar punto de coincidencia"
 
 #. %1$s:  matchpoint.mp_num | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:173
-#, fuzzy, c-format
+#, c-format
 msgid "Match point %s"
-msgstr "Punto de coincidencia "
+msgstr "Punto de coincidencia %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:226
@@ -34944,9 +34944,9 @@ msgid "Normalization rule: "
 msgstr "Regla de normalización: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:225
-#, fuzzy, c-format
+#, c-format
 msgid "Match point 1"
-msgstr "Punto de coincidencia "
+msgstr "Punto de coincidencia 1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:269
 #, c-format
@@ -34957,7 +34957,7 @@ msgstr "Chequeo de coincidencia requerido"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:278
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:357
-#, fuzzy, c-format
+#, c-format
 msgid "New match check"
 msgstr "Agregar verificación de coincidencia"
 
@@ -34989,9 +34989,9 @@ msgid "Target (database) record check field"
 msgstr "Campo de verificación de registro en objetivo (base de datos)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:356
-#, fuzzy, c-format
+#, c-format
 msgid "Match check 1"
-msgstr "Verificación de coincidencia "
+msgstr "Verificación de coincidencia 1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:428
 #, c-format
@@ -35507,9 +35507,9 @@ msgid "[Overridden] "
 msgstr "[Reemplazado] "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:159
-#, fuzzy, c-format
+#, c-format
 msgid "Collapse"
-msgstr "Colapsado"
+msgstr "Colapsar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:204
 #, c-format
@@ -39667,7 +39667,7 @@ msgstr "Enumeración / cronología de la publicación periódica"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:272
 #, c-format
 msgid "Last seen"
-msgstr "Última vez visto"
+msgstr "Visto por última vez"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:369
 #, c-format
@@ -43584,7 +43584,7 @@ msgstr "Demasiados préstamos. %s prestados, solo %s permitidos."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:568
 #, c-format
 msgid "Maximum checkouts calculated from the circulation rule for %s "
-msgstr ""
+msgstr "El máximo de prestamos calculado por la regla de circulación para %s "
 
 #. %1$s:  current_loan_count | html 
 #. %2$s:  max_loans_allowed | html 
@@ -44122,30 +44122,30 @@ msgstr "Usted ya ha enviado un código de barras, por favor espere el préstamo 
 #. %2$s:  ItemTypes.GetDescription( rule.itemtype ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1073
-#, fuzzy, c-format
+#, c-format
 msgid "Item type: %s %s %s "
-msgstr "El tipo de ítem es %s"
+msgstr "TIpo de ítem: %s %s %s "
 
 #. %1$s:  IF rule.categorycode 
 #. %2$s:  Categories.GetName( rule.categorycode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1081
-#, fuzzy, c-format
+#, c-format
 msgid "Patron category: %s %s %s "
-msgstr "Categoría de usuario = %s"
+msgstr "Categoría de usuario: %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1086
-#, fuzzy, c-format
+#, c-format
 msgid "All patron categories"
-msgstr "categorías de usuario"
+msgstr "Todas las categorías de usuario"
 
 #. %1$s:  IF rule.branchcode 
 #. %2$s:  Branches.GetName( rule.branchcode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1089
-#, fuzzy, c-format
+#, c-format
 msgid "Library: %s %s %s "
-msgstr "Biblioteca es %s"
+msgstr "Biblioteca: %s %s %s "
 
 #. %1$s:  INCLUDE 'patron-title.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:36
@@ -51822,7 +51822,7 @@ msgstr "Contacto alternativo: Teléfono"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:73
 #, c-format
 msgid "SMS alert number"
-msgstr "Número de alerta SMS"
+msgstr "Número para alertas SMS"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:105
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:114
