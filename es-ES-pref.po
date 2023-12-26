@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:11-0300\n"
-"PO-Revision-Date: 2023-11-29 13:45+0000\n"
+"PO-Revision-Date: 2023-12-27 03:02+0000\n"
 "Last-Translator: Tomás Cohen Arazi <tomascohen@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: es-ES\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /es/22.11/es-ES-pref.po\n"
 "X-POOTLE-MTIME: 1698434579.302887\n"
@@ -465,15 +465,13 @@ msgstr "ninguna"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a</p>"
-msgstr "<br/>Por ejemplo:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a"
+msgstr "<p>Por ejemplo:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>You can use the following fields: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
-msgstr "Puede utilizar los siguientes campos: price, quantity, budget_code, discount, sort1, sort2"
+msgstr "<p>Puede utilizar los siguientes campos: price, quantity, budget_code, discount, sort1, sort2</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
@@ -482,19 +480,17 @@ msgstr "Establezca los valores de asignación de una nueva línea de pedido crea
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
-msgstr "<br/>Por ejemplo:<br/> holdingbranch: 975$b<br/>itype: 975$9|975$z"
+msgstr "<p>Por ejemplo:<br/> holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
-msgstr ""
+msgstr "<p>Si falta un campo o no tiene correspondencia, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> será validado y usado para ese campo (a excepción de 'quantity').</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
-msgstr "Puede utilizar los siguientes campos: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice e itemcallnumber. Campos especiales: quantity y budget_code"
+msgstr "<p>Puede utilizar los siguientes campos: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice e itemcallnumber. Campos especiales: quantity y budget_code</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
@@ -10201,9 +10197,8 @@ msgid "opac.pref#OPACURLOpenInNewWindow# open the website in a new window."
 msgstr "abrir el sitio Web en una ventana nueva."
 
 # OPAC > Appearance > OPACUserCSS
-#, fuzzy
 msgid "opac.pref#OPACUserCSS# <br><strong>NOTE:</strong> Library specific CSS can be defined in <a href='/cgi-bin/koha/admin/branches.pl'>library administration</a>."
-msgstr "NOTA:</strong> Se puede especificar CSS por biblioteca <a href='/cgi-bin/koha/admin/branches.pl'>aquí</a>."
+msgstr "<br><strong>NOTA:</strong> Se puede especificar CSS por biblioteca en la <a href='/cgi-bin/koha/admin/branches.pl'>administración de bibliotecas</a>."
 
 # OPAC > Appearance > OPACUserCSS
 # OPAC > Appearance
@@ -10211,9 +10206,8 @@ msgid "opac.pref#OPACUserCSS# Include the following CSS on all pages in the OPAC
 msgstr "Incluir el siguiente CSS en todas las páginas en el OPAC:"
 
 # OPAC > Appearance > OPACUserJS
-#, fuzzy
 msgid "opac.pref#OPACUserJS# <br><strong>NOTE:</strong> Library specific JS can be defined in <a href='/cgi-bin/koha/admin/branches.pl'>library administration</a>."
-msgstr "<br><strong>NOTA:</strong> Se puede especificar JS por biblioteca <a href='/cgi-bin/koha/admin/branches.pl'>aquí</a>."
+msgstr "<br><strong>NOTA:</strong> Se puede especificar JS por biblioteca en la <a href='/cgi-bin/koha/admin/branches.pl'>administración de bibliotecas</a>."
 
 # OPAC > Appearance > OPACUserJS
 # OPAC > Appearance
@@ -13000,18 +12994,16 @@ msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# Use the <a href=\
 msgstr "Aplicar el valor autorizado <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">no para préstamo</a>"
 
 # Preservation > Interface > PreservationNotForLoanDefaultTrainIn
-#, fuzzy
 msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# to apply to items added to a train."
-msgstr "a los ítems agregados a un tren de preservación"
+msgstr "para aplicar a los ítems agregados a un tren de preservación."
 
 # Circulation > Item bundles > BundleNotLoanValue
 msgid "preservation.pref#PreservationNotForLoanWaitingListIn# Use the <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a> authorized value"
 msgstr "Aplicar el valor autorizado <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">no para préstamo</a>"
 
 # Preservation > Interface > PreservationNotForLoanWaitingListIn
-#, fuzzy
 msgid "preservation.pref#PreservationNotForLoanWaitingListIn# to apply to items added to the waiting list."
-msgstr "a los ítems agregados a una lista de espera"
+msgstr "para aplicar a los ítems agregados a una lista de espera."
 
 # Searching
 msgid "searching.pref"
