@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-21 03:17+0000\n"
-"PO-Revision-Date: 2023-12-14 03:01+0000\n"
+"PO-Revision-Date: 2023-12-27 03:02+0000\n"
 "Last-Translator: vfernandes <vfernandes@keep.pt>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: pt-PT\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /pt/22.11/pt-PT-staff-prog.po\n"
 "X-POOTLE-MTIME: 1697824868.622223\n"
@@ -13631,9 +13631,9 @@ msgid "Manage all baskets and order lines, regardless of restrictions on them "
 msgstr "Gerir todos os cestos e encomendas, independentemente das restrições de cada "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:466
-#, fuzzy, c-format
+#, c-format
 msgid "Manage vendor issues "
-msgstr "Gerir os fornecedores "
+msgstr "Gerir os problemas dos fornecedores "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:471
 #, c-format
@@ -35520,9 +35520,9 @@ msgid "[Overridden] "
 msgstr "[Sobreposta] "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:159
-#, fuzzy, c-format
+#, c-format
 msgid "Collapse"
-msgstr "Recolhido"
+msgstr "Colapsar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:204
 #, c-format
@@ -43595,7 +43595,7 @@ msgstr "Demasiados empréstimos. %s emprestados, apenas %s são permitidos."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:568
 #, c-format
 msgid "Maximum checkouts calculated from the circulation rule for %s "
-msgstr ""
+msgstr "Máximo de empréstimos calculado da regra de circulação para %s "
 
 #. %1$s:  current_loan_count | html 
 #. %2$s:  max_loans_allowed | html 
@@ -44133,30 +44133,30 @@ msgstr "Se já submeteu um código de barras, espere que o empréstimo seja proc
 #. %2$s:  ItemTypes.GetDescription( rule.itemtype ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1073
-#, fuzzy, c-format
+#, c-format
 msgid "Item type: %s %s %s "
-msgstr "Tipo de documento é %s"
+msgstr "Tipo de documento: %s %s %s "
 
 #. %1$s:  IF rule.categorycode 
 #. %2$s:  Categories.GetName( rule.categorycode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1081
-#, fuzzy, c-format
+#, c-format
 msgid "Patron category: %s %s %s "
-msgstr "Categoria de leitor = %s"
+msgstr "Categoria de leitor: %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1086
-#, fuzzy, c-format
+#, c-format
 msgid "All patron categories"
-msgstr "categorias de leitores"
+msgstr "Todas as categorias de leitores"
 
 #. %1$s:  IF rule.branchcode 
 #. %2$s:  Branches.GetName( rule.branchcode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1089
-#, fuzzy, c-format
+#, c-format
 msgid "Library: %s %s %s "
-msgstr "Biblioteca é %s"
+msgstr "Biblioteca: %s %s %s "
 
 #. %1$s:  INCLUDE 'patron-title.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:36
