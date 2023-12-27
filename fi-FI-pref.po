@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:12-0300\n"
-"PO-Revision-Date: 2023-12-06 03:02+0000\n"
+"PO-Revision-Date: 2023-12-27 12:08+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fi/22.11/fi-FI-pref.po\n"
 "X-POOTLE-MTIME: 1698392361.707486\n"
@@ -463,15 +463,13 @@ msgstr "ei mitään"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a</p>"
-msgstr "<br/>Esimerkiksi:<br/>hinta: 947$a|947$c<br/>määrä: 969$h<br/>tilikoodi: 922$a"
+msgstr "<p>Esimerkiksi:<br/>hinta: 947$a|947$c<br/>määrä: 969$h<br/>tilikoodi: 922$a</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>You can use the following fields: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
-msgstr "Voit käyttää seuraavia kenttiä: hinta, lukumäärä, budjettikoodi, alennus, lajittelu1, lajittelu2"
+msgstr "<p>Voit käyttää seuraavia kenttiä: hinta, korvaushinta, lukumäärä, budjettikoodi, alennus, lajittelu1, lajittelu2</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
@@ -480,19 +478,17 @@ msgstr "Aseta vertailuarvot uudelle tilausriville, joka on luotu välivarastoidu
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
-msgstr "<br/>Esimerkiksi:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z"
+msgstr "<p>Esimerkiksi:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
-msgstr ""
+msgstr "<p>Jos kenttä puuttuu tai sitä ei ole mäpätty, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> tarkistetaan ja käytetään sille kentälle (paitsi määrä).</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
-msgstr "Voit käyttää seuraavia kenttiä: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Erityiskentät: quantity and budget_code"
+msgstr "<p>Voit käyttää seuraavia kenttiä: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Erityiskentät: quantity and budget_code</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
@@ -10180,9 +10176,8 @@ msgid "opac.pref#OPACURLOpenInNewWindow# open the website in a new window."
 msgstr "sivu(a) uuteen ikkunaan."
 
 # OPAC > Appearance > OPACUserCSS
-#, fuzzy
 msgid "opac.pref#OPACUserCSS# <br><strong>NOTE:</strong> Library specific CSS can be defined in <a href='/cgi-bin/koha/admin/branches.pl'>library administration</a>."
-msgstr "<br><strong>Huomioi:</strong> Kirjastokohtaisen CSS:n voi määrittää <a href='/cgi-bin/koha/admin/branches.pl'>täällä</a>."
+msgstr "<br><strong>Huomioi:</strong> Kirjastokohtaisen CSS:n voi määrittää <a href='/cgi-bin/koha/admin/branches.pl'>kirjaston ylläpidossa</a>."
 
 # OPAC > Appearance > OPACUserCSS
 # OPAC > Appearance
@@ -10190,9 +10185,8 @@ msgid "opac.pref#OPACUserCSS# Include the following CSS on all pages in the OPAC
 msgstr "Kaytä verkkokirjastossa seuraavia CSS-määrityksiä:"
 
 # OPAC > Appearance > OPACUserJS
-#, fuzzy
 msgid "opac.pref#OPACUserJS# <br><strong>NOTE:</strong> Library specific JS can be defined in <a href='/cgi-bin/koha/admin/branches.pl'>library administration</a>."
-msgstr "<br><strong>Huomioi:</strong> Kirjastokohtaisen JS:n voi määrittää <a href='/cgi-bin/koha/admin/branches.pl'>täällä</a>."
+msgstr "<br><strong>Huomioi:</strong> Kirjastokohtaisen JS:n voi määrittää <a href='/cgi-bin/koha/admin/branches.pl'>kirjaston ylläpidossa</a>."
 
 # OPAC > Appearance > OPACUserJS
 # OPAC > Appearance
@@ -12964,7 +12958,6 @@ msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# Use the <a href=\
 msgstr "Käytä <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a> -auktorisoitua arvoa"
 
 # Preservation > Interface > PreservationNotForLoanDefaultTrainIn
-#, fuzzy
 msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# to apply to items added to a train."
 msgstr "käsittelyjonoon lisätyille niteille."
 
@@ -12973,7 +12966,6 @@ msgid "preservation.pref#PreservationNotForLoanWaitingListIn# Use the <a href=\"
 msgstr "Käytä <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a> -auktorisoitua arvoa"
 
 # Preservation > Interface > PreservationNotForLoanWaitingListIn
-#, fuzzy
 msgid "preservation.pref#PreservationNotForLoanWaitingListIn# to apply to items added to the waiting list."
 msgstr "odotuslistalle lisätyille niteille"
 
