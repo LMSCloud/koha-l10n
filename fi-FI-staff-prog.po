@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.001\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-21 03:17+0000\n"
-"PO-Revision-Date: 2023-12-22 03:01+0000\n"
+"PO-Revision-Date: 2023-12-27 12:08+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -32326,7 +32326,7 @@ msgstr "ISO-koodi"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:204
 #, c-format
 msgid "Last updated"
-msgstr "Viimeisin päivitys"
+msgstr "Viimeksi päivitetty"
 
 #. %1$s:  IF currency.active 
 #. %2$s:  END 
@@ -43568,7 +43568,7 @@ msgstr "Liian monta nidettä lainassa. %s lainassa, %s sallittu."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:568
 #, c-format
 msgid "Maximum checkouts calculated from the circulation rule for %s "
-msgstr ""
+msgstr "Maksimimäärä lainoja laskettu lainasäännöstä %s "
 
 #. %1$s:  current_loan_count | html 
 #. %2$s:  max_loans_allowed | html 
@@ -44106,30 +44106,30 @@ msgstr "Olet jo syöttänyt viivakoodin, odota lainauksen etenemistä..."
 #. %2$s:  ItemTypes.GetDescription( rule.itemtype ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1073
-#, fuzzy, c-format
+#, c-format
 msgid "Item type: %s %s %s "
-msgstr "Nidetyyppi on %s"
+msgstr "Nidetyyppi: %s %s %s "
 
 #. %1$s:  IF rule.categorycode 
 #. %2$s:  Categories.GetName( rule.categorycode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1081
-#, fuzzy, c-format
+#, c-format
 msgid "Patron category: %s %s %s "
-msgstr "Asiakastyyppi = %s"
+msgstr "Asiakastyyppi: %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1086
-#, fuzzy, c-format
+#, c-format
 msgid "All patron categories"
-msgstr "asiakastyypit"
+msgstr "Kaikki asiakastyypit"
 
 #. %1$s:  IF rule.branchcode 
 #. %2$s:  Branches.GetName( rule.branchcode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1089
-#, fuzzy, c-format
+#, c-format
 msgid "Library: %s %s %s "
-msgstr "Kirjasto: %s"
+msgstr "Kirjasto: %s %s %s "
 
 #. %1$s:  INCLUDE 'patron-title.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:36
@@ -51856,7 +51856,7 @@ msgstr "Tarkista osoite"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:143
 #, c-format
 msgid "Gone no address"
-msgstr "tarkista osoite"
+msgstr "Tarkista osoite"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:143
 #, c-format
