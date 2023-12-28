@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-21 03:17+0000\n"
-"PO-Revision-Date: 2023-12-25 03:01+0000\n"
+"PO-Revision-Date: 2023-12-29 03:02+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -963,7 +963,7 @@ msgstr "вятърна машина"
 
 #: Koha/CodeList/Unimarc/MediumOfPerformance.pm:303
 msgid "woodblocks"
-msgstr "дървени блокчета"
+msgstr "woodblocks"
 
 #: Koha/CodeList/Unimarc/MediumOfPerformance.pm:304
 msgid "xylorimba"
@@ -3588,11 +3588,11 @@ msgstr "Номер на договора"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Estimated cost tax excluded"
-msgstr "Приблизителната цена без данък."
+msgstr "Приблизителната цена без данък"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "Estimated cost tax included"
-msgstr "Приблизителната цена с данък."
+msgstr "Приблизителната цена с данък"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
 msgid "RRP tax excluded"
@@ -3603,19 +3603,16 @@ msgid "RRP tax included"
 msgstr "Продажна цена, с данък"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-#, fuzzy
 msgid "Vendor name"
-msgstr "Бележка на доставчика"
+msgstr "Име на доставчик"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-#, fuzzy
 msgid "Vendor physical address"
-msgstr "Цена на доставчика"
+msgstr "Адрес на доставчик"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/basketgroup.tt:6
-#, fuzzy
 msgid "Vendor postal address"
-msgstr "Бележка на доставчика"
+msgstr "Пощенски адрес на доставчик"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/acqui/lateorders.tt:6
 msgid "BASKET"
@@ -4192,7 +4189,7 @@ msgstr "Всички телефони"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:7
 msgid "Borrowernumber"
-msgstr "Borrowernumber"
+msgstr "Читателски номер"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:26
 msgid "Mobile phone"
@@ -4785,26 +4782,23 @@ msgstr "Поръчки с неуточнени цени"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:89
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify vendor issue {issue_number}"
-msgstr "Редактиране на населено място"
+msgstr "Промяна на доставчика на издание {issue_number}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:54
-#, fuzzy
 msgid "New vendor issue"
-msgstr "Нов статус"
+msgstr "Нов проблем с доставчик"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:17
-#, fuzzy
 msgid "Confirm deletion of vendor issue"
-msgstr "Потвърдете изтриването на населено място '{city}'"
+msgstr "Потвърдете изтриването на проблем с доставчик"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:43
-#, fuzzy
 msgid "Vendor issues"
-msgstr "Цена на доставчика"
+msgstr "Проблем с доставчик"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:11
@@ -4946,7 +4940,7 @@ msgstr "Потвърдете изтриването на фонд '{fund}'"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:80
 #, perl-brace-format
 msgid "Funds for '{budget}'"
-msgstr "Средства за „{бюджет}“"
+msgstr "Средства за '{budget}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:283
 #, perl-brace-format
@@ -5289,7 +5283,7 @@ msgstr "Тест на MARC Библиографска рамка"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:97
 #, perl-brace-format
 msgid "Modify city '{city}'"
-msgstr "Редактиране на населено място"
+msgstr "Редактиране на населено място '{city}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:12
 msgid "New city"
@@ -5654,7 +5648,7 @@ msgstr "Редактирайте ограниченията на подполе�
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:318
 #, perl-brace-format
 msgid "Confirm deletion of subfield '{subfield}'?"
-msgstr "Потвърдете изтриването на поле '{subfield}'"
+msgstr "Потвърдете изтриването на поле '{subfield}'?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:78
 #, perl-brace-format
@@ -6113,7 +6107,7 @@ msgctxt "pluralization"
 msgid "There is one archived suggestion."
 msgid_plural "There are {count} archived suggestions."
 msgstr[0] "Има едно архивирано предложение."
-msgstr[1] "Има {брой} архивирани предложения."
+msgstr[1] "Има {count} архивирани предложения."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:7
 msgid "Images"
@@ -7877,9 +7871,8 @@ msgstr "Автоматична промяна на библиотечните д
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:41
-#, fuzzy
 msgid "Confirm selection"
-msgstr "Колекция"
+msgstr "Потвърдете избора"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:46
@@ -7894,21 +7887,19 @@ msgstr "Колекция"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:38
 msgid "Job enqueued"
-msgstr ""
+msgstr "Заданието е на опашката"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:8
-#, fuzzy
 msgid "Batch item deletion"
-msgstr "Дата на изтриване"
+msgstr "Изтриване на група екземпляри"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:42
-#, fuzzy
 msgid "Modifications"
-msgstr "Дата на промяна"
+msgstr "Промени"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:10
@@ -7916,141 +7907,136 @@ msgid "Batch item modification"
 msgstr "Групово редактиране на библиотечни документи"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:14
-#, fuzzy
 msgid "Batch record deletion"
-msgstr "Дата на изтриване"
+msgstr "Изтриване на група от записи"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:17
 msgid "Batch extend due dates"
-msgstr ""
+msgstr "Групово удължаване на срокове"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:13
 msgid "Batch record modification"
-msgstr ""
+msgstr "Редактиране на група от записи"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:11
 msgid "Confirm"
-msgstr ""
+msgstr "Потвърждение"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:14
 msgid "Finished"
-msgstr ""
+msgstr "Завършено"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:16
 msgid "Batch patron deletion and anonymization"
-msgstr ""
+msgstr "Групово изтриване и анонимизация"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:147
 #, perl-brace-format
 msgid "Modify CSV profile '{csv_profile_name}'"
-msgstr ""
+msgstr "Редактиране на CSV профили {csv_profile_name}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:11
-#, fuzzy
 msgid "New CSV profile"
-msgstr "профил"
+msgstr "Нов CSV профил"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:50
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of CSV profile '{csv_profile_name}'"
-msgstr "Потвърдете изтриването на населено място '{city}'"
+msgstr "Потвърдете изтриването на CSV профил {csv_profile_name}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:16
-#, fuzzy
 msgid "CSV profiles"
-msgstr "профил"
+msgstr "CSV профили"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:279
 #, perl-brace-format
 msgid "Delete CSV profile '{csv_profile_name}'?"
-msgstr ""
+msgstr "Изтриване на CSV профил '{csv_profile_name}'?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:8
-#, fuzzy
 msgid "Export data"
-msgstr "Валидност до"
+msgstr "Експорт на данни"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:27
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:37
 #, perl-brace-format
 msgid "{library} calendar"
-msgstr ""
+msgstr "{library} календар"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:12
 msgid "Import patrons"
-msgstr ""
+msgstr "Внасяне (импорт) на читатели от файл"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:62
 #, perl-brace-format
 msgctxt "Patron import"
 msgid "{count_of_imported_records} imported records"
-msgstr ""
+msgstr "{count_of_imported_records} импортирани записи"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:64
 #, perl-brace-format
 msgctxt "Patron import"
 msgid "(last was {last_imported_record})"
-msgstr ""
+msgstr "(последният е {last_imported_record})"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:71
 #, perl-brace-format
 msgctxt "Patron import"
 msgid "{count_of_overwritten_records} overwritten records"
-msgstr ""
+msgstr "{count_of_overwritten_records} презаписани записи"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:73
 #, perl-brace-format
 msgctxt "Patron import"
 msgid "(last was {last_overwritten_record})"
-msgstr ""
+msgstr "(последният е {last_overwritten_record})"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:77
 #, perl-brace-format
 msgctxt "Patron import"
 msgid "{count_of_existing_records} not imported because they are already in borrowers table and overwrite is disabled "
-msgstr ""
+msgstr "{count_of_existing_records} не са импортирани, защото вече са в таблицата на читателите и презаписването е деактивирано "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:79
 #, perl-brace-format
 msgctxt "Patron import"
 msgid "(last was {last_existing_record})"
-msgstr ""
+msgstr "(последният е {{last_existing_record})"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:83
 #, perl-brace-format
 msgctxt "Patron import"
 msgid "{count_of_invalid_records} not imported because they are not in the expected format"
-msgstr ""
+msgstr "{count_of_invalid_records} не са импортирани, защото не са в очаквания формат"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:85
 #, perl-brace-format
 msgctxt "Patron import"
 msgid "(last was {last_invalid_record})"
-msgstr ""
+msgstr "(последният е {last_invalid_record})"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:88
 #, perl-brace-format
 msgctxt "Patron import"
 msgid "{total} records parsed"
-msgstr ""
+msgstr "{total} записа са анализирани"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:401
 msgctxt "CSV file"
 msgid "Values are comma-separated."
-msgstr ""
+msgstr "Стойностите са разделени със запетая."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:13
-#, fuzzy
 msgid "Inventory"
-msgstr "Инвентарен номер"
+msgstr "Инвентаризация"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:13
 msgid "Modify notice"
-msgstr ""
+msgstr "Редактиране на известие"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:15
 msgid "New notice"
@@ -8058,7 +8044,7 @@ msgstr "Ново съобщение"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:19
 msgid "Notice added"
-msgstr ""
+msgstr "Съобщение е добавено"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:22
 msgid "Confirm deletion"
@@ -8066,7 +8052,7 @@ msgstr "Потвърдете изтриването"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:27
 msgid "Notices and slips"
-msgstr ""
+msgstr "Съобщения и фишове"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:576
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:98
@@ -8078,81 +8064,79 @@ msgstr "Печат"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:627
 #, perl-brace-format
 msgid "{content_length} / 160 characters"
-msgstr ""
+msgstr "{content_length} / 160 знака"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:12
 #, perl-brace-format
 msgid "Batch {batch_import_number}"
-msgstr ""
+msgstr "Група {batch_import_number}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/showdiffmarc.tt:9
 msgid "Manage staged MARC records"
-msgstr ""
+msgstr "Управлявайте етапите на MARC записи"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:53
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:115
 #, perl-brace-format
 msgid "Actions for template '{template_name}'"
-msgstr ""
+msgstr "Действия за този шаблон '{template_name}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:19
-#, fuzzy
 msgid "MARC modification templates"
-msgstr "Дата на промяна"
+msgstr "Шаблони за промяна на MARC"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:19
 msgid "Batch patron modification"
-msgstr ""
+msgstr "Групово редактиране на читатели"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:9
 msgid "Overdue notice/status triggers"
-msgstr ""
+msgstr "Активиране на известия / състояния при просрочване"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/page.tt:10
 msgid "Page error"
-msgstr ""
+msgstr "Грешка в страницата"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/picture-upload.tt:10
 msgid "Upload patron images"
-msgstr ""
+msgstr "Качване на читателски изображения"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/preview_letter.tt:5
 msgid "Preview notice template"
-msgstr ""
+msgstr "Вижте шаблон за известия"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/preview_letter.tt:6
-#, fuzzy
 msgid "Notices"
-msgstr "Гласове"
+msgstr "Съобщения"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:9
 msgid "OPAC problem reports"
-msgstr ""
+msgstr "OPAC доклади за проблеми"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes-upload.tt:7
 msgid "Quote uploader"
-msgstr ""
+msgstr "Качване на цитат"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes-upload.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:14
 msgid "Quote editor"
-msgstr ""
+msgstr "Редактор на цитати"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:37
 msgid "Modify quote"
-msgstr ""
+msgstr "Промяна на цитат"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:39
 msgid "New quote"
-msgstr ""
+msgstr "Нов цитат"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/scheduler.tt:7
 msgid "Task scheduler"
-msgstr ""
+msgstr "График на отчетите"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/showdiffmarc.tt:7
 msgid "Compare matched records"
@@ -8160,19 +8144,18 @@ msgstr "Сравнете съответстващите записи"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:10
 msgid "Stage MARC records for import"
-msgstr ""
+msgstr "Етап MARC записи за внос(импорт)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:172
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify rota '{rota_title}'"
-msgstr "Редактиране на населено място"
+msgstr "Редактиране на график '{rota_title}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:14
-#, fuzzy
 msgid "New rota"
-msgstr "Нов статус"
+msgstr "Нов график"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:19
@@ -8182,14 +8165,14 @@ msgstr "Нов статус"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:229
 #, perl-brace-format
 msgid "Manage stages for '{rota_title}'"
-msgstr ""
+msgstr "Управление на етапите за '{rota_title}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:332
 #, perl-brace-format
 msgid "Modify {library} stage"
-msgstr ""
+msgstr "Управление на етапите за {library}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:21
 msgid "New stage"
@@ -8202,7 +8185,7 @@ msgstr "Нов етап"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:430
 #, perl-brace-format
 msgid "Manage items for '{rota_title}'"
-msgstr ""
+msgstr "Управление на библиотечни документи за '{rota_title}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:88
@@ -8210,32 +8193,31 @@ msgid "Add items"
 msgstr "Добавете екземпляри"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:28
-#, fuzzy
 msgid "Stock rotation"
-msgstr "Местонахождение"
+msgstr "Оборот на фонда"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:440
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:562
 #, perl-brace-format
 msgid "Add items to rota '{rota_title}'"
-msgstr ""
+msgstr "Добавете екземпляри към график '{rota_title}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:8
 msgid "Upload local cover image for "
-msgstr ""
+msgstr "Качете локално изображение на корица за "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:10
 msgid "Upload local cover image"
-msgstr ""
+msgstr "Качване на локална изображение на корица"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:18
 msgid "Uploads"
-msgstr ""
+msgstr "Качвания"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:15
 msgid "Log viewer"
-msgstr ""
+msgstr "Системни дневници"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:5
 msgid "Add to list"
@@ -8246,29 +8228,29 @@ msgstr "Добавяне към списък"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/sendshelfform.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:21
 msgid "Lists"
-msgstr ""
+msgstr "Списъци"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/downloadshelf.tt:5
 msgid "Download list"
-msgstr ""
+msgstr "Изтеглете списък"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/sendshelfform.tt:5
 msgid "Sending your list"
-msgstr ""
+msgstr "Изпрати списък"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:13
 #, perl-brace-format
 msgid "Contents of {list_name}"
-msgstr ""
+msgstr "Съдържание за {list_name}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:16
 msgid "Create new list"
-msgstr ""
+msgstr "Създаване на списък"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:19
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Edit list {list_name}"
-msgstr "Редактиране на {title}"
+msgstr "Редактиране на списък {list_name}"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:191
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:198
@@ -8278,96 +8260,91 @@ msgstr "Отказ"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:43
 msgid "Show fewer authors"
-msgstr ""
+msgstr "Показване на по-малко автори"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:43
 msgid "Show more authors"
-msgstr ""
+msgstr "Показване на повече автори"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:44
-#, fuzzy
 msgid "Show fewer titles"
-msgstr "Заглавие на серията"
+msgstr "Показване на по-малко заглавия"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:44
-#, fuzzy
 msgid "Show more titles"
-msgstr "Заглавие на серията"
+msgstr "Показване на повече заглавия"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:45
 msgid "Show fewer topics"
-msgstr ""
+msgstr "Показване на по-малко теми"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:45
 msgid "Show more topics"
-msgstr ""
+msgstr "Показване на повече теми"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:46
 msgid "Show fewer places"
-msgstr ""
+msgstr "Показване на по-малко места"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:46
 msgid "Show more places"
-msgstr ""
+msgstr "Показване на повече места"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:47
 msgid "Show fewer series"
-msgstr ""
+msgstr "Показване на по-малко серии"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:47
 msgid "Show more series"
-msgstr ""
+msgstr "Показване на повече серии"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:48
 msgid "Show fewer types"
-msgstr ""
+msgstr "Показване на по-малко видове"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:48
-#, fuzzy
 msgid "Show more types"
-msgstr "Вид улица"
+msgstr "Показване на повече видове"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:49
 msgid "Show fewer collection codes"
-msgstr ""
+msgstr "Показване на по-малко кодове на колекции"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:49
 msgid "Show more collection codes"
-msgstr ""
+msgstr "Показване на повече кодове на колекции"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:50
 msgid "Show fewer languages"
-msgstr ""
+msgstr "Показване на по-малко езици"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:50
 msgid "Show more languages"
-msgstr ""
+msgstr "Показване на повече езици"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:51
 msgid "Show fewer home libraries"
-msgstr ""
+msgstr "Показване на по-малко основни библиотеки"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:51
 msgid "Show more home libraries"
-msgstr ""
+msgstr "Показване на повече основни библиотеки"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:52
 msgid "Show fewer holding libraries"
-msgstr ""
+msgstr "Показване на по-малко притежаващи библиотеки"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:52
 msgid "Show more holding libraries"
-msgstr ""
+msgstr "Показване на повече притежаващи библиотеки"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:53
-#, fuzzy
 msgid "Show fewer locations"
-msgstr "Местоположение на стелажите"
+msgstr "Показване на по-малко местоположения"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:53
-#, fuzzy
 msgid "Show more locations"
-msgstr "Местоположение на стелажите"
+msgstr "Показване на повече местоположения"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-authoritiessearchresultlist.tt:118
 msgid "record"
