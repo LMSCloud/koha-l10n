@@ -1,9 +1,9 @@
 # Compendium of el.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.001\n"
+"Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-21 03:17+0000\n"
+"POT-Creation-Date: 2023-12-28 03:25+0000\n"
 "PO-Revision-Date: 2023-06-19 11:38+0000\n"
 "Last-Translator: Eugenios Papadopoulos <eugenios.papadopoulos@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -1588,6 +1588,8 @@ msgstr "Όνομα: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:374
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:439
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:55
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:74
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:83
 #: koha-tmpl/intranet-tmpl/prog/en/modules/services/itemrecorddisplay.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:357
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:256
@@ -2670,7 +2672,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/acqui-search-result.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:164
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:97
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:175
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:177
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:481
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:642
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:650
@@ -5358,6 +5360,8 @@ msgstr "Αντιγραφή"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:298
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:217
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:259
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:294
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:302
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:530
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:192
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:721
@@ -5416,7 +5420,7 @@ msgstr "Αντιγραφή"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:201
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:156
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:298
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:300
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:100
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:847
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:462
@@ -6591,7 +6595,7 @@ msgstr "Σημείωση μέλους"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:636
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:88
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:578
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:105
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:107
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:111
 #, c-format
 msgid "Add"
@@ -6935,7 +6939,7 @@ msgstr "Μεταφόρτωση αποφθεγμάτων"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:400
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:402
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:157
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:299
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:301
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:849
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:969
@@ -7378,7 +7382,7 @@ msgstr "Αναζήτηση πόλης:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview-slip.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:65
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:283
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:285
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/access_files.tt:44
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:307
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:203
@@ -7446,7 +7450,7 @@ msgstr "Πρότυπο"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:110
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/rotatingCollections.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:139
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:284
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:308
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:285
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:311
@@ -10578,7 +10582,7 @@ msgstr "Σχόλια"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:144
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:287
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:289
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:123
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:397
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:313
@@ -11240,7 +11244,7 @@ msgstr "Επίλεξτε σημείωση"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:482
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:96
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:173
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:175
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:640
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:207
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:56
@@ -11603,7 +11607,7 @@ msgstr "Καθιερωμένη τιμή:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/templates-add-modify.tt:246
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/files.tt:92
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:278
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:76
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:77
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:182
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:292
@@ -15472,7 +15476,7 @@ msgid "Your subscription is already linked with a Mana subscription model. Share
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-toolbar.inc:143
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:184
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:186
 #, c-format
 msgid "Frequency: "
 msgstr "Συχνότητα: "
@@ -26993,7 +26997,7 @@ msgstr "Διαγραφή κεφαλαίου %s;"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:77
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:126
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:267
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:269
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:283
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:533
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:115
@@ -27026,7 +27030,7 @@ msgstr "Ναι, διαγραφή"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:69
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:129
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:270
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:272
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:537
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:118
@@ -30522,19 +30526,12 @@ msgstr "Ορίστε ως 'Ναι' για να προβάλλεται αυτή �
 msgid "UserJS: "
 msgstr "Ταυτότητα Χρήστη: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:294
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:302
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:351
-#: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:248
-#, c-format
-msgid "Click to edit"
-msgstr "Πατήστε για επεξεργασία"
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:296
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:304
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:159
 #, fuzzy, c-format
-msgid "Click to collapse"
-msgstr "Επιλέξτε για να αναδιπλώσετε αυτή την περιοχή"
+msgid "Collapse"
+msgstr "Σύμπτυξη"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:300
 #, fuzzy, c-format
@@ -34057,7 +34054,7 @@ msgstr "Αποτυχία ενημέρωσης πεδίου."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:194
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:462
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:99
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:99
 #, c-format
 msgid "Label"
@@ -35925,11 +35922,6 @@ msgstr "Η προτίμηση συστήματος %s μπορεί να έχει
 #, c-format
 msgid "[Overridden] "
 msgstr "[Έχει παραβλεφθεί] "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:159
-#, fuzzy, c-format
-msgid "Collapse"
-msgstr "Σύμπτυξη"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:204
 #, c-format
@@ -38088,6 +38080,12 @@ msgstr "Παρακαλώ πατήστε σε μία από τις καρτέλε
 #, c-format
 msgid "Explanation"
 msgstr "Εξήγηση"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:351
+#: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:248
+#, c-format
+msgid "Click to edit"
+msgstr "Πατήστε για επεξεργασία"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:474
@@ -40327,7 +40325,7 @@ msgstr "Νέος τύπος τεκμηρίου"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:678
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:143
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:286
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:288
 #, c-format
 msgid "Display order"
 msgstr "Προβολή κατάταξης"
@@ -51269,7 +51267,7 @@ msgstr "Νέος κωδικός πρόσβασης:"
 msgid "Confirm new password:"
 msgstr "Επιβεβαίωση νέου κωδικού πρόσβασης:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/member-password.tt:105
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/member-password.tt:103
 #, c-format
 msgid "Koha cannot display existing passwords. Leave the field blank to leave password unchanged."
 msgstr "Το σύστημα δεν εμφανίζει υπάρχοντες κωδικούς πρόσβασης. Αφήστε κενό το πεδίο αν δεν θέλετε να αλλάξετε τον κωδικό πρόσβασης."
@@ -60151,7 +60149,7 @@ msgid "-- please choose --"
 msgstr "-- παρακαλούμε επιλέξτε --"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:319
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:196
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:198
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:43
 #, c-format
 msgid "Subscription length:"
@@ -60214,7 +60212,7 @@ msgid "Locale:"
 msgstr "Περιοχή:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:392
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:212
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:214
 #, c-format
 msgid "If empty, English is used"
 msgstr "Εαν μείνει κενό, χρησιμοποιείται η Αγγλική"
@@ -60248,7 +60246,7 @@ msgid "Pattern name:"
 msgstr "Όνομα μοτίβου"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:442
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:80
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:81
 #, c-format
 msgid "Numbering formula:"
 msgstr "Τύπος αρίθμησης:"
@@ -60289,43 +60287,43 @@ msgid "Inner counter: "
 msgstr "Εσωτερικός μετρητής: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:503
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:133
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:135
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:137
 #, c-format
 msgid "Name of day"
 msgstr "Όνομα ημέρας"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:504
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:138
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:140
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:142
 #, fuzzy, c-format
 msgid "Name of day (abbreviated)"
 msgstr "Όνομα ημέρας"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:505
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:143
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:145
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:147
 #, c-format
 msgid "Name of month"
 msgstr "Όνομα μήνα"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:506
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:148
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:150
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:152
 #, fuzzy, c-format
 msgid "Name of month (abbreviated)"
 msgstr "Όνομα μήνα"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:507
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:153
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:155
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:157
 #, c-format
 msgid "Name of season"
 msgstr "Όνομα εποχής"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:508
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:158
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:160
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:162
 #, fuzzy, c-format
 msgid "Name of season (abbreviated)"
 msgstr "Όνομα εποχής"
@@ -60351,7 +60349,7 @@ msgid "Cancel modifications"
 msgstr "Ακύρωση τροποποιήσεων"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:528
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:181
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:183
 #, c-format
 msgid "Test prediction pattern"
 msgstr "Δοκιμή μοτίβου πρόβλεψης"
@@ -60886,7 +60884,7 @@ msgid "This frequency is still used by %s subscription(s). Do you still want to 
 msgstr "Αυτή η συχνότητα χρησιμοποιείται ακόμα από %s συνδρομή(ες). Επιθυμείτε ακόμα να τη διαγράψετε; "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:113
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:254
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:256
 #, c-format
 msgid "Show subscriptions"
 msgstr "Εμφάνιση συνδρομών"
@@ -61010,14 +61008,14 @@ msgstr "Ενημέρωση συνδρομητών για %s &rsaquo; Περιο�
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:34
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:247
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:249
 #, c-format
 msgid "Numbering patterns"
 msgstr "Μοτίβα αρίθμησης"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:47
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:276
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:278
 #, c-format
 msgid "New numbering pattern"
 msgstr "Νέο μοτίβο αρίθμησης"
@@ -61044,32 +61042,32 @@ msgstr "Τροποποίηση μοτίβου: %s"
 msgid "Another pattern with this name already exists."
 msgstr "Υπάρχει ήδη διάταξη με αυτό το όνομα."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:84
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:86
 #, c-format
 msgid "Display order:"
 msgstr "Προβολή κατάταξης: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:111
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:113
 #, c-format
 msgid "Every"
 msgstr "Κάθε"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:117
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:119
 #, c-format
 msgid "Set back to"
 msgstr "Ρύθμιση πίσω σε"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:123
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:125
 #, c-format
 msgid "When more than"
 msgstr "Όταν περισσότερες από"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:164
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:166
 #, c-format
 msgid "Formatting"
 msgstr "Μορφοποίηση"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:174
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:176
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:196
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:209
@@ -61079,82 +61077,82 @@ msgstr "Μορφοποίηση"
 msgid "Reset"
 msgstr "Επαναφορά"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:192
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:194
 #, fuzzy, c-format
 msgid "First issue publication date: "
 msgstr "Ημερομηνία δημοσίευσης πρώτου τεύχους:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:198
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:200
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:54
 #, fuzzy, c-format
 msgid "issues"
 msgstr "Δανεισμοί"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:199
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:201
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:55
 #, fuzzy, c-format
 msgid "weeks"
 msgstr "1/εβδομάδα"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:200
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:202
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:56
 #, c-format
 msgid "months"
 msgstr "μήνες"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:205
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:207
 #, c-format
 msgid "Locale: "
 msgstr "Περιοχή: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:226
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:228
 #, c-format
 msgid "Begins with"
 msgstr "Αρχίζει από"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:232
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:234
 #, c-format
 msgid "Inner counter"
 msgstr "Εσωτερικός μετρητής "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:242
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:244
 #, c-format
 msgid "Test pattern"
 msgstr "Δοκιμή μοτίβου"
 
 #. %1$s:  subscriptions.size | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:250
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:252
 #, c-format
 msgid "This pattern is still used by %s subscription(s). Do you still want to delete it? "
 msgstr "Αυτό το μοτίβο χρησιμοποιείται ακόμα από %s συνδρομή(ες). Επιθυμείτε ακόμα να το διαγράψετε; "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:285
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:287
 #, c-format
 msgid "Numbering formula"
 msgstr "Τύπος αρίθμησης"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:306
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:308
 #, c-format
 msgid "There are no existing numbering patterns."
 msgstr "Δεν υπάρχουν μοτίβα πρόβλεψης"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:326
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:328
 msgid "- First publication date is not defined"
 msgstr "- Δεν έχει οριστεί ημερομηνία δημοσίευσης πρώτης έκδοσης"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:326
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:328
 msgid "- Frequency is not defined"
 msgstr "Δεν έχει οριστεί η συχνότητα"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:326
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:328
 msgid "Are you sure you want to delete this numbering pattern?"
 msgstr "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε αυτό το μοτίβο αρίθμησης;"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:326
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:328
 msgid "Cannot test prediction pattern for the following reason(s):"
 msgstr "Αδυναμία ελέγχου του μοτίβου πρόβλεψης για τον(ους) παρακάτω λόγο(ους)"
 
@@ -70094,6 +70092,10 @@ msgstr ""
 
 #~ msgid "Click to add item"
 #~ msgstr "Κάντε κλικ για να προσθέσετε το τεκμήριο"
+
+#, fuzzy, c-format
+#~ msgid "Click to collapse"
+#~ msgstr "Επιλέξτε για να αναδιπλώσετε αυτή την περιοχή"
 
 #, c-format
 #~ msgid "Clone circulation and fine rules &rsaquo; Circulation and fine rules &rsaquo; Administration &rsaquo; Koha"

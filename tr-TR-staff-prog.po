@@ -1,9 +1,9 @@
 # Compendium of tr.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.001\n"
+"Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-21 03:17+0000\n"
+"POT-Creation-Date: 2023-12-28 03:25+0000\n"
 "PO-Revision-Date: 2023-06-15 11:59+0000\n"
 "Last-Translator: murat.dogan <murat.dogan@yandex.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -1588,6 +1588,8 @@ msgstr "Ad: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:374
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:439
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:55
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:74
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:83
 #: koha-tmpl/intranet-tmpl/prog/en/modules/services/itemrecorddisplay.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:357
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:256
@@ -2670,7 +2672,7 @@ msgstr "%sz = diğer"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/acqui-search-result.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:164
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:97
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:175
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:177
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:481
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:642
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:650
@@ -5355,6 +5357,8 @@ msgstr "Çoğalt"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:298
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:217
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:259
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:294
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:302
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:530
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:192
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:721
@@ -5413,7 +5417,7 @@ msgstr "Çoğalt"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:201
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:156
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:298
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:300
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:100
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:847
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:462
@@ -6543,7 +6547,7 @@ msgstr "Kullanıcı İçe Aktarımı"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:636
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:88
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:578
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:105
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:107
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:111
 #, c-format
 msgid "Add"
@@ -6887,7 +6891,7 @@ msgstr "Resim yükle"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:400
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:402
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:157
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:299
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:301
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:849
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:969
@@ -7332,7 +7336,7 @@ msgstr "İl arama:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview-slip.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:65
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:283
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:285
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/access_files.tt:44
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:307
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:203
@@ -7400,7 +7404,7 @@ msgstr "Şablon"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:110
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/rotatingCollections.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:139
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:284
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:308
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:285
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:311
@@ -10524,7 +10528,7 @@ msgstr "Yorumlar"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:144
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:287
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:289
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:123
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:397
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:313
@@ -11184,7 +11188,7 @@ msgstr "Not seçin"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:482
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:96
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:173
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:175
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:640
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:207
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:56
@@ -11546,7 +11550,7 @@ msgstr "Yetkili değer:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/templates-add-modify.tt:246
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/files.tt:92
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:278
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:76
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:77
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:182
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:292
@@ -15409,7 +15413,7 @@ msgid "Your subscription is already linked with a Mana subscription model. Share
 msgstr "Aboneliğiniz zaten bir Mana abonelik modeliyle bağlantılı. Değişiklik yaptıysanız paylaşın, aksi takdirde hiçbir etkisi olmayacaktır."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-toolbar.inc:143
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:184
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:186
 #, c-format
 msgid "Frequency: "
 msgstr "Frekans:"
@@ -26682,7 +26686,7 @@ msgstr "Fonu sil %s?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:77
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:126
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:267
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:269
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:283
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:533
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:115
@@ -26715,7 +26719,7 @@ msgstr "Evet, sil"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:69
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:129
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:270
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:272
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:537
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:118
@@ -30189,19 +30193,12 @@ msgstr ""
 msgid "UserJS: "
 msgstr "Kullanıcı no:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:294
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:302
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:351
-#: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:248
-#, c-format
-msgid "Click to edit"
-msgstr "Düzenlemek için tıklayınız"
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:296
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:304
-#, c-format
-msgid "Click to collapse"
-msgstr "Daraltmak için tıklayın"
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:159
+#, fuzzy, c-format
+msgid "Collapse"
+msgstr "Daralt"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:300
 #, fuzzy, c-format
@@ -33710,7 +33707,7 @@ msgstr "Alan güncelleştirilmesi başarısız oldu."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:194
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:462
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:99
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:99
 #, c-format
 msgid "Label"
@@ -35572,11 +35569,6 @@ msgstr "Sistem tercihi %s bu değer üzerinden bir ya da daha fazla sanal sunucu
 #, c-format
 msgid "[Overridden] "
 msgstr "[Overridden]"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:159
-#, fuzzy, c-format
-msgid "Collapse"
-msgstr "Daralt"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:204
 #, c-format
@@ -37728,6 +37720,12 @@ msgstr "Lütfen bu formun sol tarafındaki sekmelerden birine tıklayınız."
 #, c-format
 msgid "Explanation"
 msgstr "Açıklama"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:351
+#: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:248
+#, c-format
+msgid "Click to edit"
+msgstr "Düzenlemek için tıklayınız"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:474
@@ -39961,7 +39959,7 @@ msgstr "Yeni materyal türü"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:678
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:143
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:286
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:288
 #, c-format
 msgid "Display order"
 msgstr "Görüntü sırası"
@@ -50857,7 +50855,7 @@ msgstr "Yeni şifre:"
 msgid "Confirm new password:"
 msgstr "Yeni parolayı onaylayın:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/member-password.tt:105
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/member-password.tt:103
 #, c-format
 msgid "Koha cannot display existing passwords. Leave the field blank to leave password unchanged."
 msgstr "Koha mevcut şifreleri gösteremez. Şifreyi değiştirmeden bırakmak için alanı boş bırakın."
@@ -59698,7 +59696,7 @@ msgid "-- please choose --"
 msgstr "-- lütfen seçin --"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:319
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:196
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:198
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:43
 #, c-format
 msgid "Subscription length:"
@@ -59761,7 +59759,7 @@ msgid "Locale:"
 msgstr "Yerel ayarlar:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:392
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:212
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:214
 #, c-format
 msgid "If empty, English is used"
 msgstr "Boşsa, İngilizce kullanılır"
@@ -59795,7 +59793,7 @@ msgid "Pattern name:"
 msgstr "Örüntü adı:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:442
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:80
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:81
 #, c-format
 msgid "Numbering formula:"
 msgstr "Numaralandırma formülü:"
@@ -59836,43 +59834,43 @@ msgid "Inner counter: "
 msgstr "Dahili sayaç:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:503
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:133
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:135
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:137
 #, c-format
 msgid "Name of day"
 msgstr "Gün adı"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:504
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:138
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:140
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:142
 #, c-format
 msgid "Name of day (abbreviated)"
 msgstr "Gün adı (kısaltılmış)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:505
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:143
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:145
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:147
 #, c-format
 msgid "Name of month"
 msgstr "Ay adı"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:506
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:148
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:150
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:152
 #, c-format
 msgid "Name of month (abbreviated)"
 msgstr "Ay adı (kısaltılmış)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:507
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:153
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:155
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:157
 #, c-format
 msgid "Name of season"
 msgstr "Sezon adı"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:508
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:158
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:160
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:162
 #, c-format
 msgid "Name of season (abbreviated)"
 msgstr "Mevsim adı (kısaltılmış)"
@@ -59898,7 +59896,7 @@ msgid "Cancel modifications"
 msgstr "Değişiklikleri iptal et"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:528
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:181
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:183
 #, c-format
 msgid "Test prediction pattern"
 msgstr "Tahmin örüntüsünü test et"
@@ -60427,7 +60425,7 @@ msgid "This frequency is still used by %s subscription(s). Do you still want to 
 msgstr "Bu çıkış aralığı halen abonelik(ler) tarafından %s kullanılıyor. Bunu yine de silmek istiyor musunuz?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:113
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:254
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:256
 #, c-format
 msgid "Show subscriptions"
 msgstr "Abonelikleri göster"
@@ -60551,14 +60549,14 @@ msgstr "Numaralandırma düzenleri &rsaquo; Süreli Yayınlar &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:34
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:247
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:249
 #, c-format
 msgid "Numbering patterns"
 msgstr "Numaralama düzenleri"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:47
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:276
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:278
 #, c-format
 msgid "New numbering pattern"
 msgstr "Yeni numaralandırma düzeni"
@@ -60585,32 +60583,32 @@ msgstr "Örüntüyü değiştir: %s"
 msgid "Another pattern with this name already exists."
 msgstr "Bu isimde bir örüntü zaten mevcut."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:84
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:86
 #, c-format
 msgid "Display order:"
 msgstr "Görüntüleme sırası:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:111
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:113
 #, c-format
 msgid "Every"
 msgstr "Her"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:117
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:119
 #, c-format
 msgid "Set back to"
 msgstr "Ayarına dön"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:123
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:125
 #, c-format
 msgid "When more than"
 msgstr "Daha fazla olduğunda"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:164
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:166
 #, c-format
 msgid "Formatting"
 msgstr "Biçimlendirme"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:174
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:176
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:196
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:209
@@ -60620,82 +60618,82 @@ msgstr "Biçimlendirme"
 msgid "Reset"
 msgstr "Sıfırla"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:192
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:194
 #, c-format
 msgid "First issue publication date: "
 msgstr "Birinci sayının yayın tarihi:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:198
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:200
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:54
 #, c-format
 msgid "issues"
 msgstr "sayılar"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:199
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:201
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:55
 #, c-format
 msgid "weeks"
 msgstr "haftalar"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:200
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:202
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:56
 #, c-format
 msgid "months"
 msgstr "aylar"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:205
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:207
 #, c-format
 msgid "Locale: "
 msgstr "Yerel ayarlar:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:226
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:228
 #, c-format
 msgid "Begins with"
 msgstr "ile başlayan"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:232
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:234
 #, c-format
 msgid "Inner counter"
 msgstr "İç sayaç "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:242
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:244
 #, c-format
 msgid "Test pattern"
 msgstr "Örüntüyü test et"
 
 #. %1$s:  subscriptions.size | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:250
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:252
 #, c-format
 msgid "This pattern is still used by %s subscription(s). Do you still want to delete it? "
 msgstr "Bu örüntü hala abonelik(ler) tarafından %s kullanılıyor. Bunu yine de silmek istiyor musunuz?"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:285
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:287
 #, c-format
 msgid "Numbering formula"
 msgstr "Numaralandırma formülü"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:306
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:308
 #, c-format
 msgid "There are no existing numbering patterns."
 msgstr "Mevcut bir numaralandırma düzeni yok."
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:326
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:328
 msgid "- First publication date is not defined"
 msgstr "- İlk yayın tarihi tanımsız"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:326
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:328
 msgid "- Frequency is not defined"
 msgstr "- Çıkış aralığı tanımlanmamış"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:326
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:328
 msgid "Are you sure you want to delete this numbering pattern?"
 msgstr "Bu numaralandırma örüntüsünü silmek istediğinizden emin misiniz?"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:326
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:328
 msgid "Cannot test prediction pattern for the following reason(s):"
 msgstr "Tahmin örüntüsü aşağıdaki neden(ler)den dolayı test edilemiyor:"
 
@@ -69561,6 +69559,10 @@ msgstr ""
 
 #~ msgid "Click to add item"
 #~ msgstr "Materyal eklemek için tıklayınız"
+
+#, c-format
+#~ msgid "Click to collapse"
+#~ msgstr "Daraltmak için tıklayın"
 
 #, c-format
 #~ msgid "Clone circulation and fine rules &rsaquo; Circulation and fine rules &rsaquo; Administration &rsaquo; Koha"

@@ -1,9 +1,9 @@
 # Compendium of nn.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.001\n"
+"Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-21 03:17+0000\n"
+"POT-Creation-Date: 2023-12-28 03:25+0000\n"
 "PO-Revision-Date: 2022-05-01 11:11-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -1586,6 +1586,8 @@ msgstr "Namn:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:374
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:439
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:55
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:74
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:83
 #: koha-tmpl/intranet-tmpl/prog/en/modules/services/itemrecorddisplay.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:357
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:256
@@ -2668,7 +2670,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/acqui-search-result.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:164
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:97
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:175
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:177
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:481
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:642
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:650
@@ -5365,6 +5367,8 @@ msgstr "Dublett"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:298
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:217
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:259
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:294
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:302
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:530
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:192
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:721
@@ -5423,7 +5427,7 @@ msgstr "Dublett"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:201
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:156
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:298
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:300
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:100
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:847
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:462
@@ -6602,7 +6606,7 @@ msgstr "Fann ikkje lånar:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:636
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:88
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:578
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:105
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:107
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:111
 #, c-format
 msgid "Add"
@@ -6946,7 +6950,7 @@ msgstr "Last opp"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:400
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:402
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:157
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:299
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:301
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:849
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:969
@@ -7390,7 +7394,7 @@ msgstr "Autoritetssøk"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview-slip.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:65
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:283
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:285
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/access_files.tt:44
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:307
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:203
@@ -7458,7 +7462,7 @@ msgstr "plater"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:110
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/rotatingCollections.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:139
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:284
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:308
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:285
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:311
@@ -10613,7 +10617,7 @@ msgstr "Kommentarar"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:144
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:287
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:289
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:123
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:397
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:313
@@ -11278,7 +11282,7 @@ msgstr "Vel merknad:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:482
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:96
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:173
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:175
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:640
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:207
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:56
@@ -11641,7 +11645,7 @@ msgstr "Godkjend verdi"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/templates-add-modify.tt:246
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/files.tt:92
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/dictionary.tt:278
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:76
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:77
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:182
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:292
@@ -15525,7 +15529,7 @@ msgid "Your subscription is already linked with a Mana subscription model. Share
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-toolbar.inc:143
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:184
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:186
 #, fuzzy, c-format
 msgid "Frequency: "
 msgstr "Frekvens"
@@ -27082,7 +27086,7 @@ msgstr "Vil du sletta budsjettet?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:77
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:126
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:267
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:269
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:283
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:533
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:115
@@ -27115,7 +27119,7 @@ msgstr "Data sletta"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:69
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:129
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:270
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:272
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:537
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:118
@@ -30615,19 +30619,12 @@ msgstr ""
 msgid "UserJS: "
 msgstr "Brukarid"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:294
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:302
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:351
-#: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:248
-#, fuzzy, c-format
-msgid "Click to edit"
-msgstr "Trykk for å leggja til hefte"
-
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:296
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:304
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:159
 #, fuzzy, c-format
-msgid "Click to collapse"
-msgstr "Trykk for å leggja til hefte"
+msgid "Collapse"
+msgstr "kollasj"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:300
 #, fuzzy, c-format
@@ -34150,7 +34147,7 @@ msgstr "%s klarte ikkje å pakka ut."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:194
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:462
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:99
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:99
 #, fuzzy, c-format
 msgid "Label"
@@ -36024,11 +36021,6 @@ msgstr ""
 #, fuzzy, c-format
 msgid "[Overridden] "
 msgstr "Forfalt! "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:159
-#, fuzzy, c-format
-msgid "Collapse"
-msgstr "kollasj"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:204
 #, c-format
@@ -38197,6 +38189,12 @@ msgstr ""
 #, c-format
 msgid "Explanation"
 msgstr "Forklaring"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:351
+#: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:248
+#, fuzzy, c-format
+msgid "Click to edit"
+msgstr "Trykk for å leggja til hefte"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:474
@@ -40445,7 +40443,7 @@ msgstr "Alle eksemplartypar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:678
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:143
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:286
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:288
 #, fuzzy, c-format
 msgid "Display order"
 msgstr "Vis"
@@ -51436,7 +51434,7 @@ msgstr "Passord"
 msgid "Confirm new password:"
 msgstr "Tillat passord:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/member-password.tt:105
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/member-password.tt:103
 #, fuzzy, c-format
 msgid "Koha cannot display existing passwords. Leave the field blank to leave password unchanged."
 msgstr "Systemet kan ikkje visa gjeldande passord. Nedanfor står eit tilfeldig laga forslag. La feltet stå tomt for å la passordet vera uendra."
@@ -60391,7 +60389,7 @@ msgid "-- please choose --"
 msgstr "&ndash; Vel &ndash;"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:319
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:196
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:198
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:43
 #, fuzzy, c-format
 msgid "Subscription length:"
@@ -60454,7 +60452,7 @@ msgid "Locale:"
 msgstr "Lokal bruk"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:392
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:212
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:214
 #, c-format
 msgid "If empty, English is used"
 msgstr ""
@@ -60488,7 +60486,7 @@ msgid "Pattern name:"
 msgstr "Brukarnamn:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:442
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:80
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:81
 #, c-format
 msgid "Numbering formula:"
 msgstr "Nummereringsformular:"
@@ -60529,43 +60527,43 @@ msgid "Inner counter: "
 msgstr "Skranke "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:503
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:133
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:135
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:137
 #, fuzzy, c-format
 msgid "Name of day"
 msgstr "Namn "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:504
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:138
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:140
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:142
 #, fuzzy, c-format
 msgid "Name of day (abbreviated)"
 msgstr "Namn "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:505
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:143
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:145
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:147
 #, fuzzy, c-format
 msgid "Name of month"
 msgstr "Fødselsdato"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:506
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:148
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:150
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:152
 #, fuzzy, c-format
 msgid "Name of month (abbreviated)"
 msgstr "Tal på månader:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:507
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:153
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:155
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:157
 #, fuzzy, c-format
 msgid "Name of season"
 msgstr "Tal på hefte:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:508
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:158
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:160
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:162
 #, fuzzy, c-format
 msgid "Name of season (abbreviated)"
 msgstr "Tal på hefte:"
@@ -60591,7 +60589,7 @@ msgid "Cancel modifications"
 msgstr "Avbryt melding"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:528
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:181
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:183
 #, fuzzy, c-format
 msgid "Test prediction pattern"
 msgstr "Nummereringsmønster"
@@ -61127,7 +61125,7 @@ msgid "This frequency is still used by %s subscription(s). Do you still want to 
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:113
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:254
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:256
 #, fuzzy, c-format
 msgid "Show subscriptions"
 msgstr "Abonnement"
@@ -61255,14 +61253,14 @@ msgstr "Koha &rsaquo; Periodika &rsaquo; Purringar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:34
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:247
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:249
 #, fuzzy, c-format
 msgid "Numbering patterns"
 msgstr "Nummereringsmønster"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:47
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:276
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:278
 #, fuzzy, c-format
 msgid "New numbering pattern"
 msgstr "Nummereringsmønster"
@@ -61289,32 +61287,32 @@ msgstr "Endre kategorien %s"
 msgid "Another pattern with this name already exists."
 msgstr "Ingen lånar med dette namnet, prøv igjen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:84
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:86
 #, fuzzy, c-format
 msgid "Display order:"
 msgstr "Vis"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:111
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:113
 #, fuzzy, c-format
 msgid "Every"
 msgstr "Hylleliste"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:117
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:119
 #, c-format
 msgid "Set back to"
 msgstr "Endre tilbake til"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:123
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:125
 #, c-format
 msgid "When more than"
 msgstr "Dersom fleire enn"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:164
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:166
 #, fuzzy, c-format
 msgid "Formatting"
 msgstr "Informasjon"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:174
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:176
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:196
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:209
@@ -61324,85 +61322,85 @@ msgstr "Informasjon"
 msgid "Reset"
 msgstr "Resultat"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:192
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:194
 #, fuzzy, c-format
 msgid "First issue publication date: "
 msgstr "Utgjevingsdato for fyrste nummer:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:198
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:200
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:54
 #, fuzzy, c-format
 msgid "issues"
 msgstr "Hefte"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:199
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:201
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:55
 #, fuzzy, c-format
 msgid "weeks"
 msgstr "Annankvar veke"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:200
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:202
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:56
 #, fuzzy, c-format
 msgid "months"
 msgstr "3 månader"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:205
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:207
 #, fuzzy, c-format
 msgid "Locale: "
 msgstr "Lokal bruk"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:226
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:228
 #, fuzzy, c-format
 msgid "Begins with"
 msgstr "Startar med"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:232
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:234
 #, fuzzy, c-format
 msgid "Inner counter"
 msgstr "Skranke "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:242
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:244
 #, fuzzy, c-format
 msgid "Test pattern"
 msgstr "Nummereringsmønster:"
 
 #. %1$s:  subscriptions.size | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:250
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:252
 #, c-format
 msgid "This pattern is still used by %s subscription(s). Do you still want to delete it? "
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:285
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:287
 #, fuzzy, c-format
 msgid "Numbering formula"
 msgstr "Nummereringsformular:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:306
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:308
 #, fuzzy, c-format
 msgid "There are no existing numbering patterns."
 msgstr "Det finst ingen uteståande innkjøpsforslag."
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:326
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:328
 #, fuzzy
 msgid "- First publication date is not defined"
 msgstr "Utgjevingsdato for fyrste nummer:"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:326
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:328
 #, fuzzy
 msgid "- Frequency is not defined"
 msgstr "Ingen skrivarprofilar er oppgjeve."
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:326
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:328
 #, fuzzy
 msgid "Are you sure you want to delete this numbering pattern?"
 msgstr "Er du sikkjer på at du vil sletta dette abonnementet?"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:326
+#: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:328
 #, fuzzy
 msgid "Cannot test prediction pattern for the following reason(s):"
 msgstr "Følgjande overføring(ar) er på veg til ditt bibliotek"
@@ -71033,6 +71031,10 @@ msgstr ""
 #~ msgstr "Vel «Neste» for å gå vidare "
 
 #~ msgid "Click to add item"
+#~ msgstr "Trykk for å leggja til hefte"
+
+#, fuzzy, c-format
+#~ msgid "Click to collapse"
 #~ msgstr "Trykk for å leggja til hefte"
 
 #, fuzzy, c-format
