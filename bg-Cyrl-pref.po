@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:06-0300\n"
-"PO-Revision-Date: 2023-12-29 03:02+0000\n"
+"PO-Revision-Date: 2024-01-03 03:05+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -461,15 +461,13 @@ msgstr "----"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a</p>"
-msgstr "<br/>Например:<br/>цена: 947$a|947$c<br/>количество: 969$h<br/>budget_code: 922$a"
+msgstr "<p>Например:<br/>цена: 947$a|947$c<br/>количество: 969$h<br/>budget_code: 922$a</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>You can use the following fields: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
-msgstr "Можете да използвате следните области: цена, количество, budget_code, отстъпка, sort1, sort2"
+msgstr "<p>Можете да използвате следните области: цена, количество, budget_code, отстъпка, sort1, sort2</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
@@ -478,19 +476,17 @@ msgstr "Задайте стойности на съвпадение за нов 
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
-msgstr "<br/>Например:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z"
+msgstr "<p>Например:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
-msgstr ""
+msgstr "<p>Ако дадено поле липсва или не съответства, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> ще бъде потвърдено и използвано за това поле ( с изключение на 'количество').</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
-msgstr "Можете да използвате следните полета: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Специални полете: quantity and budget_code"
+msgstr "<p>Можете да използвате следните полета: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Специални полетa: quantity and budget_code</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
@@ -4354,7 +4350,7 @@ msgstr "Поддържат се следните формати на заявк�
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# When returning items"
-msgstr "Когато екземпляри бъдат върнати,"
+msgstr "При връщане на екземпляри,"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
@@ -4363,19 +4359,17 @@ msgstr "не"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining items that is cause for debarment"
-msgstr "Не"
+msgstr "ако читателят няма екземпляри, които са причина за ограничение"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining overdue items"
-msgstr "Не"
+msgstr "ако читателят няма повече просрочени екземпляри"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# remove OVERDUES restriction triggered by sent notices. The difference between removing restriction when no remaining overdue items exists and doing so only when any of the items would result in debarment is that the latter option will respect possible grace periods of overdue rules also on returns and not only when generating overdue notices."
-msgstr ""
+msgstr "премахване на ограничението ПРОСРОЧЕНИ, генерирано от изпратените известия. Разликата между премахването на ограничението, когато няма повече просрочени екземпляри, и това само когато някой екземпляр би причинил ограничение е, че последният ще спазва гратисните периоди на правилата за закъснение и при връщане, а не само при генериране на известия."
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
 # Circulation > Holds policy
@@ -4955,7 +4949,6 @@ msgstr "<br><strong>ЗАБЕЛЕЖКА:</strong> Тази системна на�
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueLostValue# <br>Example: [1] [30] Sets an item to the <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a> value 1 when it has been overdue for more than 30 days."
 msgstr "<br>Пример: [1] [30] Задава на елемент LOST стойност 1, когато е просрочен за повече от 30 дни."
 
@@ -4965,7 +4958,6 @@ msgid "circulation.pref#DefaultLongOverdueLostValue# <br>WARNING — These prefe
 msgstr "<br>ВНИМАНИЕ — Тази настройка ще активират процеса на автоматична загуба на библиотечни документи. Оставете тези полета празни, ако не искате да активирате тази функция."
 
 # Circulation > Item bundles > BundleLostValue
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueLostValue# By default, set the <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> value of an item to"
 msgstr "Използвайте константна стойност <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>"
 
@@ -4986,9 +4978,8 @@ msgstr "."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# <br>Leave this field empty if you don't want to skip any <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> statuses."
-msgstr "<br>Оставете това поле празно, ако не искате да пропуснете статус изгубен."
+msgstr "<br>Оставете това поле празно, ако не искате да пропуснете<a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\"> статус изгубен</a>."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
@@ -5037,20 +5028,18 @@ msgstr "възможност за поставяне на резервации �
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Don't email"
-msgstr "Не активирайте"
+msgstr "Не уведомявай"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Email"
-msgstr "Активиране"
+msgstr "Уведомете"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# a patron when they have placed a hold."
-msgstr "читател, когато са поставили резервация."
+msgstr "по имейл до читателят при извършване на резервация."
 
 # Circulation > Holds policy > EnableItemGroupHolds
 # Circulation > Holds policy
@@ -5165,9 +5154,8 @@ msgstr "Покажи"
 
 # Circulation > Interface > ExportCircHistory
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#ExportCircHistory# the option to export patron checkouts."
-msgstr "опциите за експорт на история на читателски заемания."
+msgstr "опцията за експортиране на читателски заемания."
 
 # Circulation > Interface > ExportRemoveFields
 # Circulation > Interface
@@ -5176,7 +5164,6 @@ msgstr "(полетата разделени с интервал, наприме
 
 # Circulation > Interface > ExportRemoveFields
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#ExportRemoveFields# The following fields should be excluded from the patron checkout CSV or MARC (ISO 2709) export:"
 msgstr "Следните полета трябва да бъдат изключени от експорта на историята на читателски заемания CSV или MARC (ISO 2709):"
 
@@ -6432,14 +6419,12 @@ msgid "circulation.pref#ShowPatronImageInWebBasedSelfCheck# the patron's picture
 msgstr "снимката на читателя (ако такава е добавена), когато използват уеб базирана система за самоуправление."
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#SkipHoldTrapOnNotForLoanValue# (list of <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>not for loan</a> authorized values separated with a pipe '|')"
-msgstr "Използвайте константна стойност <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>"
+msgstr "Използвайте константна стойност <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a>не е заемане</a> константни стойности разделени с черта '|')"
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#SkipHoldTrapOnNotForLoanValue# Never trap items with <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">'not for loan'</a> authorized values of"
-msgstr "Използвайте константна стойност <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>"
+msgstr "Използвайте константна стойност <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN>не е заемане</a> константни стойности"
 
 # Circulation > Checkin policy > SkipHoldTrapOnNotForLoanValue
 # Circulation > Checkin policy
@@ -6714,13 +6699,11 @@ msgstr "Забележка: PROC и CART са специални стойнос�
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# PROC: FIC - causes an item in the Processing center location to be updated into the Fiction location on check in.<br/>"
 msgstr "PROC: FIC - кара библиотечен документ, който е в Центъра за обработка, да бъде актуализиран в местоположението Fiction при регистрация.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckin# PROC: _PERM_ - causes an item that is in the Processing center to be updated to it's permanent location.<br/><br/>"
 msgstr "PROC: _PERM_ - кара даден библиотечен документ, който е в Центъра за обработка, да бъде актуализиран до неговото постоянно място.<br/><br/>"
 
@@ -6756,73 +6739,61 @@ msgstr "_BLANK_: FIC - кара елемент, който няма местоп
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# Examples:<br/>"
 msgstr "Примери:<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# FIC: GEN - causes an item in the Fiction location to be updated into the General stacks location on check out.<br/>"
 msgstr "FIC: GEN - кара даден библиотечен документ, в местоположението на Fiction да бъде актуализиран в общото място при регистрация.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# FIC: _BLANK_ - causes an item in location FIC to be updated to a blank location on check out.<br/>"
 msgstr "_BLANK_: FIC - кара даден библиотечен документ, който няма местоположение, да бъде актуализиран в местоположението Fiction при регистрация.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# General rule: if the location value on the left of the colon (:) matches the item's current location, it will be updated to match the location value on the right of the colon (:).<br/>"
 msgstr "Общо правило: ако стойността на местоположението вляво от двоеточието (:) съвпада с текущото местоположение на елемента, то ще бъде актуализирано, за да съответства на стойността на местоположението вдясно от двоеточието (:).<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# Note: PROC and CART are special values, for these locations the location and permanent_location can differ, in all other cases an update will affect both. Items in the CART location will be returned to their permanent location on checkout.<br/>"
 msgstr "Забележка: PROC и CART са специални стойности, като за тези места само местоположението и постоянното местоположение могат да се различават, във всички останали случаи актуализацията ще засегне и двете. Елементите в CART местоположението ще бъдат върнати на постоянното им местоположение при заемане.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# PROC: FIC - causes an item in the Processing Center location to be updated into the Fiction location on check out.<br/>"
 msgstr "PROC: FIC - кара библиотечен документ, който е в Центъра за обработка, да бъде актуализиран в местоположението Fiction при регистрация.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# PROC: _PERM_ - causes an item that is in the Processing Center to be updated to it's permanent location.<br/><br/>"
 msgstr "PROC: _PERM_ - кара даден библиотечен документ, който е в Центъра за обработка, да бъде актуализиран до неговото постоянно място.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# The special term _ALL_ is used on the left side of the colon (:) to affect all items, <strong>and overrides all other rules.</strong>"
-msgstr "Специалният термин _ALL_ се използва от лявата страна на двоеточие (:), за да засегне всички библиотечние документи <strong>и отменя всички останали правила.</strong>"
+msgstr "Специалният термин _ALL_ се използва от лявата страна на двоеточие (:), за да засегне всички библиотечни документи <strong>и отменя всички останали правила.</strong>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# The special term _BLANK_ may be used on either side of a value pair to update or remove the location from items with no location assigned.<br/>"
-msgstr "Специалният термин _BLANK_ може да се използва от двете страни на стойностна двойка за актуализиране или премахване на местоположението от библиотечние документи без зададено местоположение.<br/>"
+msgstr "Специалният термин _BLANK_ може да се използва от двете страни на стойностна двойка за актуализиране или премахване на местоположението от библиотечни документи без зададено местоположение.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# This is a list of value pairs. The first value is followed immediately by colon space then the second value.<br/><br/>"
 msgstr "Това е списък на двойки от стойности. Първата стойност е разделена с две точки и интервал от втората стойност.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# _ALL_: FIC - causes all items to be updated into the Fiction location on check out.<br/>"
 msgstr "_ALL_: FIC - кара всички библиотечни документи да се актуализират в местоположението на Fiction при регистрация.<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemLocationOnCheckout# _BLANK_: FIC - causes an item that has no location to be updated into the Fiction location on check out.<br/>"
 msgstr "_BLANK_: FIC - кара елемент, който няма местоположение, да бъде актуализиран в местоположението на Fiction при регистрация.<br/>"
 
@@ -8830,17 +8801,16 @@ msgstr "модулът междубиблиотечно заемане МБЗ (�
 
 # Interlibrary loans > Features > ILLModuleCopyrightClearance
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleCopyrightClearance# Adding text will enable the copyright clearance stage in request creation. The text you enter will be the text displayed. OPAC only."
-msgstr "Добавянето на текст ще позволи за разрешаване на авторски права при създаване на заявка. Текстът, който въвеждате, ще бъде показан."
+msgstr "Добавянето на текст ще активира приемане на авторски права при създаването на заявка. Текстът, който въвеждате, ще бъде това, което се показва. Само в OPAC."
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;h2&gt;HTML title&lt;/h2&gt;<br>"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;h2&gt;HTML заглавие&lt;/h2&gt;<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;p&gt;This is an HTML paragraph&lt;/p&gt;<br>"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;p&gt;Това е HTML параграф&lt;/p&gt;<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;p&gt;This is another HTML paragraph&lt;/p&gt;<br>"
@@ -8860,7 +8830,7 @@ msgstr "Активирайте"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;text: copyright text for all article type requests<br>"
-msgstr ""
+msgstr "&nbsp;text: Текст за авторски права за всички поръчки на екземпляри<br>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
@@ -8938,15 +8908,13 @@ msgstr "Активирани пакети МБЗ за заявки, иниции
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLPartnerCode# Use patrons from category"
-msgstr "Активирайте"
+msgstr "Използвайте покровители от категория"
 
 # Interlibrary loans > Features > CirculateILL
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLPartnerCode# as partners to place ILL requests with."
-msgstr "заемането на исканите от МБЗ библиотечни документи."
+msgstr "като партньори, за изпращате МБЗ заявки."
 
 # Interlibrary loans > Notifications > ILLSendStaffNotices
 # Circulation > Interlibrary loans > ILLSendStaffNotices
