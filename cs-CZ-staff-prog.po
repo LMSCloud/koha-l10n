@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.13.000\n"
 "POT-Creation-Date: 2023-12-20 04:07+0000\n"
-"PO-Revision-Date: 2023-12-06 03:14+0000\n"
+"PO-Revision-Date: 2024-01-05 09:41+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Path: /cs/22.11/cs-CZ-staff-prog.po\n"
 "X-Pootle-Revision: 1\n"
 "X-POOTLE-MTIME: 1695669074.706346\n"
@@ -2318,7 +2318,7 @@ msgstr "%sn = jiný pravidlový tvar jména"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:172
 #, c-format
 msgid "%so = attributed name / conventional title of a work"
-msgstr ""
+msgstr "%so = připsaný název / konvenční název díla"
 
 #. %1$s:  PROCESS selectoptionopen value='x' 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:173
@@ -12924,14 +12924,14 @@ msgid "Discount debits for patrons "
 msgstr "Zadávat čtenářům rezervace "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:380
-#, fuzzy, c-format
+#, c-format
 msgid "Payout credits to patrons "
-msgstr "Dávková úprava čtenářů "
+msgstr "Výplata kreditů čtenářům "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:385
-#, fuzzy, c-format
+#, c-format
 msgid "Refund payments to patrons "
-msgstr "Vráceno čtenáři: "
+msgstr "Vracet čtenářům platby "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:390
 #, c-format
@@ -13365,9 +13365,9 @@ msgid "Access the point of sale page and take payments "
 msgstr "Přístup ke stránce prodejního místa a přijetí plateb "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:817
-#, fuzzy, c-format
+#, c-format
 msgid "Perform cash register cashup action "
-msgstr "Provádět anonymní vracení plateb "
+msgstr "Provést odvod tržby z pokladny "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:822
 #, c-format
@@ -13437,7 +13437,6 @@ msgstr "Hledat v systémových nastaveních:"
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-menu.inc:34
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-menu.inc:38
-#, fuzzy
 msgid "Authority control"
 msgstr "Autority"
 
@@ -13702,9 +13701,9 @@ msgstr "Načtěte čárový kód k prodloužení"
 #. %1$s:  FOREACH result IN renew_results 
 #. %2$s:  IF result.success 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_results.inc:2
-#, fuzzy, c-format
+#, c-format
 msgid "The fines on the following items were paid off, renewal results are displayed below: %s %s "
-msgstr "Pokuty za následující položky byly uhrazeny, výsledky prodloužení jsou uvedeny níže: %s %s "
+msgstr "Pokuty za následující jednotky byly uhrazeny, výsledky prodloužení jsou uvedeny níže: %s %s "
 
 #. %1$s:  INCLUDE 'biblio-title.inc' biblio=result.item.biblio 
 #. %2$s:  result.item.barcode | html 
@@ -15086,9 +15085,8 @@ msgstr "Ukázka kódu..."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Code view"
-msgstr "Úplné zobrazení"
+msgstr "Zobrazit kód"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -15403,15 +15401,13 @@ msgstr "Chyba"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Error: Form submit field collision."
-msgstr "Chyba: _(Kolize polí formuláře."
+msgstr "Chyba: Kolize při odesílání polí formuláře."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Error: No form element found."
-msgstr "Chyba: _(Nebyl nalezen element formuláře."
+msgstr "Chyba: Nebyl nalezen element formuláře."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -15560,9 +15556,8 @@ msgstr "Zápatí"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Format Painter"
-msgstr "Formátování"
+msgstr "Tvůrce formátování"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -15893,7 +15888,6 @@ msgstr "Převrátit"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Issue {0} of {1}"
 msgstr "Problém {0} z {1}"
 
@@ -16188,9 +16182,8 @@ msgstr "Otevřít odkaz v..."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Open popup menu for split buttons"
-msgstr "Otevření kontextové nabídky pro rozdělení tlačítek"
+msgstr "Otevřít kontextovou nabídku pro rozdělení tlačítek"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -16715,9 +16708,8 @@ msgstr "Vložili jste URL, které vypadá jako externí odkaz. Přejete si vlož
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Title Case"
-msgstr "Název (přesně)"
+msgstr "Velikost písmen nadpisu"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -16910,9 +16902,8 @@ msgstr "znak australského dolaru"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "case change"
-msgstr "Uložit změny"
+msgstr "změna velikosti písmen"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -17051,9 +17042,8 @@ msgstr "znak nordické marky"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "page embed"
-msgstr "Konec stránky"
+msgstr "vložení stránky"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -18289,9 +18279,9 @@ msgid "Zebra version: "
 msgstr "Verze nástroje Zebra: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:170
-#, fuzzy, c-format
+#, c-format
 msgid "Zebra status: "
-msgstr "Stav objednávky: "
+msgstr "Stav Zebry: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:172
 #, c-format
@@ -18311,9 +18301,9 @@ msgid "Running"
 msgstr "spuštěn"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:180
-#, fuzzy, c-format
+#, c-format
 msgid "Message broker: "
-msgstr "Text zprávy:"
+msgstr "Zprostředkovatel zpráv: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:182
 #, c-format
@@ -33735,9 +33725,9 @@ msgid "Hourly rentals use calendar: "
 msgstr "Hodinový poplatek za půjčení: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:284
-#, c-format
+#, c-format, fuzzy
 msgid "If checked, hourly charge will be calculated using the calendar to exclude holidays. If not checked, the fee will be calculated based on the number of hours until due, directly."
-msgstr ""
+msgstr "Pokud je zaškrtnuto, hodinová sazba se vypočítá podle kalendáře s vyloučením svátků. Pokud není zaškrtnuto, poplatek se vypočítá přímo na základě počtu hodin do vrácení"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:287
 #, c-format
@@ -34251,8 +34241,9 @@ msgstr "Přidáno "
 
 #. I
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:84
+#, fuzzy
 msgid "If the original record has one or more fields matching with the rule tag, but one or more fields matching the rule tag differ in the incoming record"
-msgstr ""
+msgstr "Pokud původní záznam obsahuje jedno nebo více polí odpovídajících značce pravidla, ale jedno nebo více polí odpovídajících značce pravidla se v příchozím záznamu liší"
 
 #. I
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:85
