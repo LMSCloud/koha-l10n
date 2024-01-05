@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 03:06+0000\n"
-"PO-Revision-Date: 2024-01-05 03:00+0000\n"
+"PO-Revision-Date: 2024-01-06 03:01+0000\n"
 "Last-Translator: Magnus Enger <magnus@enger.priv.no>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nb-NO\n"
@@ -9579,9 +9579,8 @@ msgstr "Kunne ikke hente batch-statuser"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch-modal-strings.inc:2
-#, fuzzy
 msgid "Unable to update batch request"
-msgstr "Kunne ikke oppdatere/opprette batch forespørsler"
+msgstr "Kunne ikke oppdatere batch-forespørsel"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -10301,9 +10300,9 @@ msgid "Last patron"
 msgstr "Siste låner"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/last-borrower.inc:9
-#, fuzzy, c-format
+#, c-format
 msgid "Toggle dropdown"
-msgstr "Veksle på nedtrekksmeny"
+msgstr "Slå nedtrekksmeny av/på"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/last-borrower.inc:13
 #, c-format
@@ -13617,9 +13616,9 @@ msgid "Manage all baskets and order lines, regardless of restrictions on them "
 msgstr "Behandle alle bestillinger og kurver, uavhengig av begrensninger "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:466
-#, fuzzy, c-format
+#, c-format
 msgid "Manage vendor issues "
-msgstr "Administrér leverandører "
+msgstr "Administrér leverandør-saker "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:471
 #, c-format
@@ -14204,9 +14203,9 @@ msgid "Search preservation"
 msgstr "Søk i bevaring"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/preservation-toolbar.inc:4
-#, fuzzy, c-format
+#, c-format
 msgid "New train"
-msgstr "Ny tagg"
+msgstr "Ny batch"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:56
@@ -19381,7 +19380,7 @@ msgid "System preference 'AnonSuggestions' set, but AnonymousPatron preference i
 msgstr "Innstillingen \"AnonSuggestions\" er slått på, men AnonymousPatron er satt til \"0\". Angi et gyldig lånernummer hvis du ønsker at denne funksjonen skal fungere på riktig måte."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:447
-#, fuzzy, c-format
+#, c-format
 msgid "Some patrons have requested privacy after their items are checked in, but the AnonymousPatron preference is not set correctly. Set it to a valid borrower number or checkins for these patrons will fail."
 msgstr "Noen lånere har bedt om anonymisering ved innlevering av lån, men innstillingen AnonymousPatron er ikke angitt korrekt. Angi et gyldig lånernummer hvis du ønsker at denne funksjonen skal fungere på riktig måte."
 
@@ -26567,9 +26566,9 @@ msgstr "Avsluttet: "
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:134
-#, fuzzy, c-format
+#, c-format
 msgid "Delete issue %s?"
-msgstr "Slette sak nr. %s?"
+msgstr "Slette sak %s?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:138
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:321
@@ -26629,9 +26628,9 @@ msgstr "Nei, ikke slett"
 
 #. %1$s:  issue.issue_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:148
-#, fuzzy, c-format
+#, c-format
 msgid "Vendor issue %s"
-msgstr "Leverandør saksnummer%s"
+msgstr "Leverandør-sak %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:182
 #, c-format
@@ -29327,9 +29326,9 @@ msgid "Values that can be entered to fill in the 'Vendor interface type' field i
 msgstr "Verdier som kan brukes til feltet \"Leverandør-grensesnitt-type\" i innkjøpsmodulen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:514
-#, fuzzy, c-format
+#, c-format
 msgid "Values that can be entered to fill in the 'Vendor issue type' field in the acquisitions module"
-msgstr "Verdier som kan brukes til feltet \"Leverandør-grensesnitt-type\" i innkjøpsmodulen"
+msgstr "Verdier som kan brukes til feltet \"Leverandør-sak-type\" i innkjøpsmodulen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:516
 #, c-format
@@ -29379,9 +29378,9 @@ msgid "Authority type deleted successfully."
 msgstr "Autoritetstype ble slettet."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:120
-#, fuzzy, c-format
+#, c-format
 msgid "Enter authority type details"
-msgstr "Ny autoritetstype"
+msgstr "Legg inn detaljer om autoritetstype"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:124
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:88
@@ -29416,9 +29415,9 @@ msgid "This authority type cannot be deleted"
 msgstr "Denne autoritetstypen kan ikke slettes"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:169
-#, fuzzy, c-format
+#, c-format
 msgid "Return to authority types"
-msgstr "Ny autoritetstype"
+msgstr "Tilbake til autoritetstyper"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:172
 #, c-format
@@ -29655,9 +29654,9 @@ msgstr "Oppdatér Elasticsearch-indeks"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:170
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:44
-#, fuzzy, c-format
+#, c-format
 msgid "MARC bibliographic frameworks"
-msgstr "Bibliografisk MARC-rammeverk"
+msgstr "MARC-rammeverk for bibliografiske poster"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:48
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:104
@@ -30081,21 +30080,21 @@ msgid "Set to 'yes' to show this library as a search option and on the libraries
 msgstr "Sett til \"ja\" for å vise dette biblioteket som et søkevalg og på bibliotek-siden i publikumskatalogen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:292
-#, fuzzy, c-format
+#, c-format
 msgid "UserJS: "
-msgstr "Bruker-ID: "
+msgstr "UserJS: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:296
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:304
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:159
-#, fuzzy, c-format
+#, c-format
 msgid "Collapse"
-msgstr "Sammenslått"
+msgstr "Slå sammen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:300
-#, fuzzy, c-format
+#, c-format
 msgid "UserCSS: "
-msgstr "Bruker-ID: "
+msgstr "UserCSS: "
 
 #. %1$s:  library.branchname | html 
 #. %2$s:  library.branchcode | html 
@@ -30624,14 +30623,14 @@ msgstr "Velg om lånere i denne kategorien som standard får en påminnelse hvis
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:389
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:509
-#, fuzzy, c-format
+#, c-format
 msgid "Can place ILL in OPAC: "
-msgstr "Vis i publikumskatalogen: "
+msgstr "Kan legge inn fjernlånsønkser i publikumskatalogen: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:399
-#, fuzzy, c-format
+#, c-format
 msgid "Choose whether patrons of this category can create new interlibrary loan requests. "
-msgstr "Velg om lånere i denne kategorien som standard får en påminnelse hvis de prøver å låne et eksemplar som de har lånt tidligere. "
+msgstr "Velg om lånere i denne kategorien kan opprette nye fjernlånsønsker. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:405
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:515
@@ -30913,9 +30912,9 @@ msgid "Result"
 msgstr "Resultat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "itemnumber"
-msgstr "eksemplarnr"
+msgstr "itemnumber"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:57
 #, c-format
@@ -30928,9 +30927,9 @@ msgid "The corresponding subfield MUST be in with -1 (ignore) tab"
 msgstr "Det tilhørende delfeltet MÅ være i fanen -1 (overse)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:63
-#, fuzzy, c-format
+#, c-format
 msgid "itemnumber : the field itemnumber is mapped to a field in tab -1"
-msgstr "eksemplarnr.: Feltet eksemplarnummer er tilordnet et felt i fane -1"
+msgstr "itemnumber : feltet itemnumber er mappet til et felt i fane -1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:69
 #, c-format
@@ -32187,9 +32186,9 @@ msgid "Currency deleted successfully"
 msgstr "Valuta ble slettet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:114
-#, fuzzy, c-format
+#, c-format
 msgid "New currency entry form"
-msgstr "Ny valuta"
+msgstr "Skjema for å legge inn nye valutaer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:118
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:122
@@ -32571,9 +32570,9 @@ msgid "New account "
 msgstr "Ny konto "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:99
-#, fuzzy, c-format
+#, c-format
 msgid "Account details"
-msgstr "Kontoinformasjon"
+msgstr "Konto-detaljer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:116
 #, c-format
@@ -32764,9 +32763,9 @@ msgid "There are no EDI accounts. "
 msgstr "Det finnes ingen EDI-kontoer. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:46
-#, fuzzy, c-format
+#, c-format
 msgid "New library EAN"
-msgstr "Nytt bibliotek"
+msgstr "Ny bibliotek-EAN"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:78
 #, c-format
@@ -32779,9 +32778,9 @@ msgid "New EAN"
 msgstr "Ny EAN"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:101
-#, fuzzy, c-format
+#, c-format
 msgid "EAN details"
-msgstr "Endre detaljer"
+msgstr "EAN-detaljer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:126
 #, c-format
@@ -32795,9 +32794,9 @@ msgstr "Det finnes ingen EAN-koder for bibliotek. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:275
-#, fuzzy, c-format
+#, c-format
 msgid "New identity provider domain"
-msgstr "Slett identitets-leverandør-domene"
+msgstr "Nytt identitets-leverandør-domene"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:69
 #, c-format
@@ -33025,9 +33024,9 @@ msgid "Allow staff"
 msgstr "Tillat ansatte"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:302
-#, fuzzy, c-format
+#, c-format
 msgid "Confirm deletion of identity provider domain"
-msgstr "Slett identitets-leverandør-domene"
+msgstr "Bekreft sletting av identitets-leverandør-domene"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -33350,9 +33349,9 @@ msgid "Protocol"
 msgstr "Protokoll"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:374
-#, fuzzy, c-format
+#, c-format
 msgid "Confirm deletion of identity provider"
-msgstr "Bekreft sletting av autoritetstype"
+msgstr "Bekreft sletting av identitets-leverandør"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:401
@@ -33390,14 +33389,14 @@ msgstr "Du er i ferd med å slette \"identity provider\"-en \"%s\"."
 #. %4$s:  END 
 #. %5$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:7
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s Modify batch status %s New batch status %s &rsaquo; %s Interlibrary loan batch statuses &rsaquo; Administration &rsaquo; Koha "
-msgstr "%s %s Endre debet-type %s Ny debet-type %s &rsaquo; %s Debet-typer &rsaquo; Administrasjon &rsaquo; Koha "
+msgstr "%s %s Endre batch status %s Ny batch status %s &rsaquo; %s Fjernlån batch statuser &rsaquo; Administrasjon &rsaquo; Koha "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:34
-#, fuzzy, c-format
+#, c-format
 msgid "Modify batch status"
-msgstr "Endre lånerliste"
+msgstr "Endre batch status"
 
 #. %1$s:  END 
 #. %2$s:  END 
@@ -33415,24 +33414,24 @@ msgstr "%s %s %s %s Fjernlåns-batch statuser %s %s %s %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:73
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:114
-#, fuzzy, c-format
+#, c-format
 msgid "New batch status"
-msgstr "Søkestatus"
+msgstr "Ny batch status"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "Batch status saved successfully"
-msgstr "Debet-type lagret"
+msgstr "Batch status ble lagret"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:58
-#, fuzzy, c-format
+#, c-format
 msgid "Batch status deleted successfully"
-msgstr "Eksmeplartype slettet"
+msgstr "Batch status ble slettet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:60
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when saving this batch status"
-msgstr "Det oppsto en feil ved lagring av denne debet-typen"
+msgstr "Det oppsto en feil ved lagring av denne batch statusen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:62
 #, c-format
@@ -33440,39 +33439,39 @@ msgid "An error occurred when deleting this batch status"
 msgstr "Det oppsto en feil ved sletting av denne batch-statusen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:71
-#, fuzzy, c-format
+#, c-format
 msgid "Modify a batch status"
-msgstr "Endre en debet-type"
+msgstr "Endre en batch status"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:82
-#, fuzzy, c-format
+#, c-format
 msgid "Required. Maximum length is 100 letters"
-msgstr "Obligatorisk. Maksimal lengde er 64 tegn"
+msgstr "Obligatorisk. Maksimal lengde er 100 tegn"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:90
-#, fuzzy, c-format
+#, c-format
 msgid "Required, specify UPPERCASE LETTERS. Maximum length is 20 letters"
-msgstr "Obligatorisk. Maksimal lengde er 64 tegn"
+msgstr "Obligatorisk. Bruk store bokstaver. Maksimal lengde er 20 tegn"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:94
-#, fuzzy, c-format
+#, c-format
 msgid "Is a system status: "
-msgstr "Tapt-status: "
+msgstr "Er en system-status: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:124
-#, fuzzy, c-format
+#, c-format
 msgid "Is system"
-msgstr "System"
+msgstr "Er system"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:145
-#, fuzzy, c-format
+#, c-format
 msgid "There are no batch statuses defined. "
-msgstr "Ingen byer er definert. "
+msgstr "Ingen batch statuser er definert. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:146
-#, fuzzy, c-format
+#, c-format
 msgid "Create new batch status"
-msgstr "Opprett nytt trinn"
+msgstr "Opprett nytt batch status"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/item_circulation_alerts.tt:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemtypes.tt:81
@@ -34129,7 +34128,7 @@ msgstr "Er en lokal reservasjonsgruppe "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:239
-#, fuzzy, c-format
+#, c-format
 msgid "Is local float group "
 msgstr "Er en lokal reservasjonsgruppe "
 
@@ -34192,7 +34191,7 @@ msgid "Is local hold group"
 msgstr "Er en lokal reservasjonsgruppe"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:450
-#, fuzzy, c-format
+#, c-format
 msgid "Is local float group"
 msgstr "Er en lokal reservasjonsgruppe"
 
@@ -34507,7 +34506,7 @@ msgstr "Z39.50"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:250
 #, c-format
 msgid "bulkmarkimport.pl"
-msgstr ""
+msgstr "bulkmarkimport.pl"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:251
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:308
@@ -34548,7 +34547,7 @@ msgid "%sDelete%sSkip%s"
 msgstr "%sSlett%sHopp over%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:63
-#, fuzzy, c-format
+#, c-format
 msgid "Edit subfield constraints"
 msgstr "Endre delfeltsbegrensninger"
 
@@ -34630,9 +34629,9 @@ msgid "Koha link:"
 msgstr "Koha-kobling:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:255
-#, fuzzy, c-format
+#, c-format
 msgid "Edit in 'Koha to MARC mapping'"
-msgstr "Tilordning fra Koha til MARC"
+msgstr "Endre i \"Koha til MARC mapping\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:263
 #, c-format
@@ -34665,14 +34664,14 @@ msgstr "Se også:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:53
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:121
-#, fuzzy, c-format
+#, c-format
 msgid "Default MARC bibliographic framework"
-msgstr "Bibliografisk MARC-rammeverk"
+msgstr "Standard bibliografisk MARC-rammeverk"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:113
-#, fuzzy, c-format
+#, c-format
 msgid "Edit framework"
-msgstr "Legg til rammeverk"
+msgstr "Endre rammeverk"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:143
 #, c-format
@@ -34829,15 +34828,15 @@ msgstr "Samsvarspunkter"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:165
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:226
-#, fuzzy, c-format
+#, c-format
 msgid "New match point"
-msgstr "Legg til samsvarspunkt"
+msgstr "Nytt samsvarspunkt"
 
 #. %1$s:  matchpoint.mp_num | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:173
-#, fuzzy, c-format
+#, c-format
 msgid "Match point %s"
-msgstr "Samsvarspunkt "
+msgstr "Samsvarspunkt %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:226
@@ -34920,9 +34919,9 @@ msgid "Normalization rule: "
 msgstr "Normaliseringsregel: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:225
-#, fuzzy, c-format
+#, c-format
 msgid "Match point 1"
-msgstr "Samsvarspunkt "
+msgstr "Samsvarspunkt 1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:269
 #, c-format
@@ -34933,9 +34932,9 @@ msgstr "Nødvendige kontroller for samsvar"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:278
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:286
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:357
-#, fuzzy, c-format
+#, c-format
 msgid "New match check"
-msgstr "Legg til kontroll for samsvar"
+msgstr "Ny kontroll for samsvar"
 
 #. %1$s:  matchcheck.mc_num | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:285
@@ -34965,9 +34964,9 @@ msgid "Target (database) record check field"
 msgstr "Kontroll av (database) målpost"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:356
-#, fuzzy, c-format
+#, c-format
 msgid "Match check 1"
-msgstr "Kontroll for samsvar "
+msgstr "Kontroll for samsvar 1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:428
 #, c-format
@@ -35119,9 +35118,9 @@ msgstr "Legg til et nytt kriterium"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:62
-#, fuzzy, c-format
+#, c-format
 msgid "New OAI set"
-msgstr "Nytt sett"
+msgstr "Nytt OAI-sett"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:72
 #, c-format
@@ -35420,9 +35419,9 @@ msgid "Searched by default"
 msgstr "Søkt som default"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:366
-#, fuzzy, c-format
+#, c-format
 msgid "Not searchable"
-msgstr "Søkbar"
+msgstr "Ikke søkbar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:380
 #, c-format
@@ -35564,9 +35563,9 @@ msgstr "Ta bort etter betaling: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:129
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:151
-#, fuzzy, c-format
+#, c-format
 msgid "Fee limit: "
-msgstr "Øvre aldersgrense: "
+msgstr "Gebyrgrense: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:167
 #, c-format
@@ -35585,9 +35584,9 @@ msgid "Lift after payment?"
 msgstr "Opphev etter betaling?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:197
-#, fuzzy, c-format
+#, c-format
 msgid "Fee limit"
-msgstr "Ingen grense"
+msgstr "Gebyrgrense"
 
 #. For the first occurrence,
 #. %1$s:  IF restriction.is_default 
@@ -35596,7 +35595,7 @@ msgstr "Ingen grense"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:213
 #, c-format
 msgid "%sYes%s "
-msgstr "%sYes%s "
+msgstr "%sJa%s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:234
 #, c-format
@@ -35854,9 +35853,9 @@ msgstr "%sTegnsetting%s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:373
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:442
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:445
-#, fuzzy, c-format
+#, c-format
 msgid "Punctuation"
-msgstr "Automatisering"
+msgstr "Tegnsetting"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:456
 #, c-format
@@ -36202,9 +36201,9 @@ msgstr "Kan ikke fornyes før"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:593
-#, fuzzy, c-format
+#, c-format
 msgid "No automatic renewal before"
-msgstr "Ingen automatisk fornyelse etter"
+msgstr "Ingen automatisk fornyelse før"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:141
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:594
@@ -36257,9 +36256,9 @@ msgstr "Reservasjoner på eksemplarnivå i publikumskatalogen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:149
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:602
-#, fuzzy, c-format
+#, c-format
 msgid "Holds pickup period (day)"
-msgstr "Periode for henting av tilbakekallinger (dag)"
+msgstr "Periode for henting av reservasjoner (dager)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:153
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:606
@@ -36670,9 +36669,9 @@ msgstr "%s Eksemplaret flyter "
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:793
-#, fuzzy, c-format
+#, c-format
 msgid "%s Item floats by library group "
-msgstr "%s Eksemplaret flyter "
+msgstr "%s Eksemplaret flyter basert på bibliotekgruppe "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:802
 #, c-format
@@ -37114,9 +37113,9 @@ msgstr "Eksemplaret flyter"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1351
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1404
-#, fuzzy, c-format
+#, c-format
 msgid "Item floats by library group"
-msgstr "Fjern bibliotek fra gruppe"
+msgstr "Eksemplaret flyter basert på bibliotekgruppe"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1402
 #, c-format
@@ -37379,9 +37378,9 @@ msgid ": %sYes%sNo%s"
 msgstr ": %sJa%sNei%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping.tt:20
-#, fuzzy, c-format
+#, c-format
 msgid "SRU search field mapping for bibliographic records"
-msgstr "Endre mapping av SRU-søkefelt for bibliografiske poster"
+msgstr "Mapping av SRU-søkefelt for bibliografiske poster"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:53
@@ -37401,9 +37400,9 @@ msgid "Subject: "
 msgstr "Emne: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:18
-#, fuzzy, c-format
+#, c-format
 msgid "SRU search field mapping for authorities"
-msgstr "Endre mapping av SRU-søkefelt for autoriteter"
+msgstr "Mapping av SRU-søkefelt for autoriteter"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:29
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_auth_search.tt:35
@@ -37455,7 +37454,7 @@ msgstr "Tittel (standard): "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:72
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:316
-#, fuzzy, c-format
+#, c-format
 msgid "Local use system preferences"
 msgstr "Innstillinger for lokal bruk"
 
@@ -37466,9 +37465,9 @@ msgid "New system preference"
 msgstr "Ny innstilling"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:66
-#, fuzzy, c-format
+#, c-format
 msgid "System preference deleted"
-msgstr "Systeminnstillinger"
+msgstr "Innstilling slettet"
 
 #. %1$s:  IF ( modify ) 
 #. %2$s:  tx("Modify system preference '{searchfield}'", { searchfield = searchfield }) | html 
@@ -37480,9 +37479,9 @@ msgid "%s %s %s New local use system preference %s "
 msgstr "%s %s %s Ny innstilling for lokal bruk %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:101
-#, fuzzy, c-format
+#, c-format
 msgid "System preference details"
-msgstr "Systeminnstillinger"
+msgstr "Detaljer om innstillinger"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:103
 #, c-format
@@ -39078,9 +39077,9 @@ msgstr "Sender handlekurven"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/sendbasketform.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/sendshelfform.tt:37
-#, fuzzy, c-format
+#, c-format
 msgid "Enter message details"
-msgstr "Grensesnitt-detaljer"
+msgstr "Legg inn detaljer om melding"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/sendbasketform.tt:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/sendshelfform.tt:39
@@ -39101,9 +39100,9 @@ msgstr "Bookinger"
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:36
-#, fuzzy, c-format
+#, c-format
 msgid "Bookings for %s"
-msgstr "Domener for %s"
+msgstr "Bookinger for %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:34
@@ -39353,14 +39352,14 @@ msgid "Encoding errors"
 msgstr "Tegnkodingsfeil"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:110
-#, fuzzy, c-format
+#, c-format
 msgid "There is at least one encoding error with this bibliographic record, the view may be degraded."
-msgstr "Det er en feil med denne bibliografiske posten, visningen vil kanskje ikke fungere."
+msgstr "Det er minst én feil med tegnkodingen i denne bibliografiske posten, visningen vil kanskje ikke fungere."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:114
-#, fuzzy, c-format
+#, c-format
 msgid "Analytics errors"
-msgstr "Analyse"
+msgstr "Feil i analytter"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:115
 #, c-format
@@ -39990,14 +39989,13 @@ msgstr "Fakturadetaljer"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:869
-#, fuzzy
 msgid "EDI INVOICE message"
-msgstr "EDIFACT-melding"
+msgstr "EDI INVOICE-melding"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:869
-#, fuzzy, c-format
+#, c-format
 msgid "EDI message"
-msgstr "EDIFACT-melding"
+msgstr "EDI-melding"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:895
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:360
@@ -40323,9 +40321,8 @@ msgstr "Er du sikker på at du vil slette dette omslagsbildet?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1483
-#, fuzzy
 msgid "Coce image from Amazon.com"
-msgstr "Omslagsbilde fra Amazon.com"
+msgstr "Coce-omslagsbilde fra Amazon.com"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1483
@@ -40757,9 +40754,8 @@ msgstr "Strekkodefil"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
-#, fuzzy
 msgid "Batch operations"
-msgstr "Søkealternativer"
+msgstr "Batch-operasjoner"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
@@ -40818,15 +40814,13 @@ msgstr "Velg synlige rader"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
-#, fuzzy
 msgid "Send selected items to batch item deletion"
-msgstr "Send synlige eksemplarer til massesletting"
+msgstr "Send valgte eksemplarer til massesletting"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
-#, fuzzy
 msgid "Send selected items to batch item modification"
-msgstr "Send synlige eksemplarer til batch-redigering"
+msgstr "Send valgte eksemplarer til masseredigering"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -41123,9 +41117,9 @@ msgstr "Kan reserveres:"
 #. %4$s:  END 
 #. %5$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:366
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s Yes %s No %s %s "
-msgstr "%s %sYes%sNo%s %s "
+msgstr "%s %s Ja %s Nei %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:377
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/accountline-details.tt:166
@@ -42197,7 +42191,6 @@ msgstr "Legg til eksemplar"
 
 #. INPUT type=submit name=add_duplicate_submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:290
-#, fuzzy
 msgid "Add and duplicate"
 msgstr "Legg til og duplisér"
 
@@ -43380,9 +43373,9 @@ msgid "Staff members are not allowed to discharge borrowers, nor borrowers to re
 msgstr "Ansatte har ikke lov til å utskrive lånere, og lånere har heller ikke lov til å be om utskrivning."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:106
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron, so circulation is disabled."
-msgstr "Dette er den anonyme låneren, så ingen reservasjonshistorikk vises."
+msgstr "Dette er den anonyme låneren, så sirkulasjon er deaktivert."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:321
@@ -43531,7 +43524,7 @@ msgstr "For mange lån. %s lånt ut, kun %s er tillatt."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:568
 #, c-format
 msgid "Maximum checkouts calculated from the circulation rule for %s "
-msgstr ""
+msgstr "Maksimalt antall lån beregnet ut i fra låneregelen for %s "
 
 #. %1$s:  current_loan_count | html 
 #. %2$s:  max_loans_allowed | html 
@@ -43700,9 +43693,9 @@ msgid "Yes, check out (Y)"
 msgstr "Ja, lån ut (J)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:415
-#, fuzzy, c-format
+#, c-format
 msgid "Don't check out, confirm hold, and print slip (P)"
-msgstr "Ikke lån ut og skriv ut kvittering (P)"
+msgstr "Ikke lån ut, bekreft reservasjonen og skriv ut kvittering (P)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:421
 #, c-format
@@ -43738,19 +43731,19 @@ msgstr "Lokal bruk er registrert"
 
 #. %1$s:  INCLUDE 'patron-title.inc' patron=BORROWER 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:465
-#, fuzzy, c-format
+#, c-format
 msgid "Item checked in from: %s"
-msgstr "Eksemplar mottatt fra %s"
+msgstr "Eksemplar innlevert fra: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:468
-#, fuzzy, c-format
+#, c-format
 msgid "Item on hold, please checkin."
-msgstr "Eksemplaret er tapt og kan ikke lånes ut."
+msgstr "Eksemplaret er reservert, levér det inn."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:471
-#, fuzzy, c-format
+#, c-format
 msgid "Item claimed returned, please checkin."
-msgstr "Eksemplaret menes innlevert."
+msgstr "Eksemplaret menes returnert, levér inn."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:474
 #, c-format
@@ -43758,9 +43751,9 @@ msgid "Item can fill a recall, please checkin."
 msgstr "Eksemplaret kan oppfylle en tilbakekalling, vennligst lever inn."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:478
-#, fuzzy, c-format
+#, c-format
 msgid "Item was lost, cannot be returned."
-msgstr "Eksemplaret er tapt og kan ikke lånes ut."
+msgstr "Eksemplaret er tapt og kan ikke levers inn."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:480
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:340
@@ -44069,30 +44062,30 @@ msgstr "Du har allerede sendt inn en strekkode, vent mens utlånet behandles ...
 #. %2$s:  ItemTypes.GetDescription( rule.itemtype ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1073
-#, fuzzy, c-format
+#, c-format
 msgid "Item type: %s %s %s "
-msgstr "Eksemplartype er %s"
+msgstr "Eksemplartype: %s %s %s "
 
 #. %1$s:  IF rule.categorycode 
 #. %2$s:  Categories.GetName( rule.categorycode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1081
-#, fuzzy, c-format
+#, c-format
 msgid "Patron category: %s %s %s "
-msgstr "Lånerkategori: = %s"
+msgstr "Lånerkategori: %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1086
-#, fuzzy, c-format
+#, c-format
 msgid "All patron categories"
-msgstr "lånerkategorier"
+msgstr "Alle lånerkategorier"
 
 #. %1$s:  IF rule.branchcode 
 #. %2$s:  Branches.GetName( rule.branchcode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1089
-#, fuzzy, c-format
+#, c-format
 msgid "Library: %s %s %s "
-msgstr "Biblioteket er %s"
+msgstr "Bibliotek: %s %s %s "
 
 #. %1$s:  INCLUDE 'patron-title.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:36
@@ -45443,15 +45436,15 @@ msgstr "Overføringen ble avbrutt mens den var under vegs"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:139
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1287
-#, fuzzy, c-format
+#, c-format
 msgid "Recall"
-msgstr "Tilbakekallinger"
+msgstr "Tilbakekalling"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1288
-#, fuzzy, c-format
+#, c-format
 msgid "Cancelled recall"
-msgstr "Avbryt tilbakekalling"
+msgstr "Avbrutt tilbakekalling"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:153
 #, c-format
@@ -46056,9 +46049,9 @@ msgid "Transfer to"
 msgstr "Overfør til"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1225
-#, fuzzy, c-format
+#, c-format
 msgid "Transfer reason"
-msgstr "Overfør til"
+msgstr "Årsak til overføring"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1228
 #, c-format
@@ -46635,9 +46628,8 @@ msgstr "Fullfør registrering"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-enroll.tt:64
-#, fuzzy
 msgid "Modifying enrollment"
-msgstr "Fullfør registrering"
+msgstr "Fullfør innmelding"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-enroll.tt:64
@@ -47318,9 +47310,9 @@ msgstr "Behandle forespørsel %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:45
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:855
-#, fuzzy, c-format
+#, c-format
 msgid "Request type disclaimer"
-msgstr "Forespørselstype"
+msgstr "Forespørselstype ansvarsfraskrivelse"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:63
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/orders_by_budget.tt:104
@@ -52310,9 +52302,9 @@ msgid "%s Total due: "
 msgstr "%s Totalt utestående: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:59
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron."
-msgstr "Dette eksemplaret venter på en annen låner."
+msgstr "Dette er den anonyme låneren."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:65
 #, c-format
@@ -52592,9 +52584,9 @@ msgstr "Det oppsto en feil ved sending av epost."
 
 #. %1$s:  QUEUED_MESSAGE.cc_address | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:115
-#, fuzzy, c-format
+#, c-format
 msgid "Notice copied to: %s"
-msgstr "Tilkobling til %s mislyktes"
+msgstr "Melding kopiert til: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:124
 #, c-format
@@ -53161,9 +53153,9 @@ msgid "Offline circulation "
 msgstr "Offline sirkulasjon "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:60
-#, fuzzy, c-format
+#, c-format
 msgid "Card number or username"
-msgstr "Fant ikke kortnumrene"
+msgstr "Kortnummer eller brukernavn"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:106
 #, c-format
@@ -53663,9 +53655,9 @@ msgid "New patron list"
 msgstr "Ny lånerliste"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "Patron list details"
-msgstr "Lånerdetaljer"
+msgstr "Detaljer om lånerliste"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:65
 #, c-format
@@ -53801,9 +53793,8 @@ msgstr "Du må velge én eller flere lånere som skal slås sammen"
 
 #. INPUT type=button
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/lists.tt:50
-#, fuzzy
 msgid "Delete selected lists"
-msgstr "Slett valgte eksemplarer"
+msgstr "Slett valgte lister"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/lists.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/patron-lists-tab.tt:15
@@ -53868,14 +53859,13 @@ msgstr "Er du sikker på at du vil slette listen %s?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/lists.tt:150
-#, fuzzy
 msgid "Are you sure you want to delete the selected lists ?"
-msgstr "Er du sikker på at du vil slette de valgte rapportene?"
+msgstr "Er du sikker på at du vil slette de valgte listene?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/patron-lists-tab.tt:4
-#, fuzzy, c-format
+#, c-format
 msgid "Patron not in your library group"
-msgstr "Eksemplaret tilhører ikke ditt bibliotek"
+msgstr "Låneren er ikke i din bibliotekgruppe"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/patron-lists-tab.tt:9
 #, c-format
@@ -53883,9 +53873,9 @@ msgid "Patron lists with this patron"
 msgstr "Lånerlister med denne lånere"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/patron-lists-tab.tt:51
-#, fuzzy, c-format
+#, c-format
 msgid "Remove patron from list"
-msgstr "Eksporter lånekort fra listen"
+msgstr "Fjern låner fra liste"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/patron-lists-tab.tt:95
 #, c-format
@@ -54004,7 +53994,7 @@ msgstr "Velg minst én låner som skal slettes."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "New patron card layout"
 msgstr "Legg til layout for lånekort"
 
@@ -54015,9 +54005,9 @@ msgid "Edit patron card layout %s"
 msgstr "Endre layout for lånekort %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:65
-#, fuzzy, c-format
+#, c-format
 msgid "Patron card text layout"
-msgstr "Lånekortmaler"
+msgstr "Tekst-layout for lånekort"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:69
 #, c-format
@@ -54137,9 +54127,9 @@ msgid "Field 3"
 msgstr "Felt 3"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:296
-#, fuzzy, c-format
+#, c-format
 msgid "Patron card graphic layout"
-msgstr "Endre grafisk layout for lånekort"
+msgstr "Grafisk layout for lånekort"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:315
 #, c-format
@@ -54192,9 +54182,9 @@ msgstr "Bilde 2"
 #. %1$s:  profile_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-profile.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-profile.tt:54
-#, fuzzy, c-format
+#, c-format
 msgid "Edit printer profile (%s)"
-msgstr "Endre skriverprofil %s"
+msgstr "Endre skriverprofil (%s)"
 
 #. %1$s:  template_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:38
@@ -54204,7 +54194,7 @@ msgstr "Endre mal for lånekort (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "New patron card template"
 msgstr "Legg til mal for lånekort"
 
@@ -54354,9 +54344,9 @@ msgid "Export selected batches"
 msgstr "Eksporter valgte grupper"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:122
-#, fuzzy, c-format
+#, c-format
 msgid "Export by patron list"
-msgstr "Eksporter fra lånerliste"
+msgstr "Eksporter ut i fra lånerliste"
 
 #. INPUT type=button
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:136
@@ -54499,9 +54489,9 @@ msgid "Plugin upload is restricted to only those plugins listed by your server a
 msgstr "Opplasting av plugins er begrenset til de pluginene som er godkjent av din administrator"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-disabled.tt:34
-#, fuzzy, c-format
+#, c-format
 msgid "To enable unrestricted plugin uploads, ask your administrator to unset plugins_restricted in the Koha configuration file"
-msgstr "For å aktivere plugins må \"enable_plugins\" være satt i Koha-konfigurasjonsfilen"
+msgstr "For å slå på ubegrenset opplasting av plugins må du be administratoren din om å slå av \"plugins_restricted\" i Kohas konfigurasjonsfil"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-disabled.tt:37
 #, c-format
@@ -56633,9 +56623,8 @@ msgstr "Send synlige resultater til masseredigering"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1068
-#, fuzzy
 msgid "Send visible results to a new patron card batch"
-msgstr "Send synlige resultater til masseredigering"
+msgstr "Send synlige resultater til en ny lånekort-batch"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1076
@@ -57411,14 +57400,14 @@ msgid "Knowledgebase"
 msgstr "Kunnskapsbase"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:24
-#, fuzzy, c-format
+#, c-format
 msgid "Filled"
 msgstr "Oppfyllt"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:25
-#, fuzzy, c-format
+#, c-format
 msgid "Placed"
-msgstr "Steder"
+msgstr "Plassert"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:45
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:52
@@ -59573,9 +59562,9 @@ msgid "Numbering pattern:"
 msgstr "Nummereringsmønster:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:377
-#, fuzzy, c-format
+#, c-format
 msgid "Publication date template:"
-msgstr "Utgivelsesdato:"
+msgstr "Mal for utgivelsesdato:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:381
 #, c-format
@@ -61245,9 +61234,9 @@ msgid "No files found."
 msgstr "Fant ingen filer."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:91
-#, fuzzy, c-format
+#, c-format
 msgid "Additional content"
-msgstr "Legg til ekstra innhold"
+msgstr "Ekstra innhold"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:130
 #, c-format
@@ -61334,9 +61323,9 @@ msgstr "Nytt innlegg med WYSIWYG-editor"
 #. %6$s:  t("HTML customizations") | html 
 #. %7$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:356
-#, fuzzy, c-format
+#, c-format
 msgid "Additional content: %s %s %s %s %s %s %s "
-msgstr "Utgiver: %s %s, %s %s %s %s %s "
+msgstr "Ekstra innhold: %s %s %s %s %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:366
 #, c-format
@@ -61722,9 +61711,9 @@ msgstr "Maldingen har blitt lagt i køen!"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:281
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:85
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:79
-#, fuzzy, c-format
+#, c-format
 msgid "It will be processed as soon as possible."
-msgstr "Jobben har blitt lagt i køen. Den vil bli behandlet så fort det lar seg gjøre."
+msgstr "Den vil bli behandlet så fort det lar seg gjøre."
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:196
@@ -62273,9 +62262,9 @@ msgid "whose expiration date is before:"
 msgstr "som har utløpsdato før:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:121
-#, fuzzy, c-format
+#, c-format
 msgid "who have not been active since:"
-msgstr "som ikke har vært tilkoblet siden:"
+msgstr "som ikke har vært aktive siden:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:127
 #, c-format
@@ -63263,7 +63252,7 @@ msgstr "Importresultater"
 
 #. %1$s:  patronlistname | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:68
-#, fuzzy, c-format
+#, c-format
 msgid "Patron list with imported patrons: %s"
 msgstr "Lånerliste med importerte lånere: %s"
 
@@ -63532,7 +63521,7 @@ msgid "Renew existing patrons"
 msgstr "Forny eksisterende lånere"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:342
-#, fuzzy, c-format
+#, c-format
 msgid "using the dateexpiry value in the file, if present"
 msgstr "bruker verdien av dateexpiry i filen, om den finnes"
 
@@ -63582,9 +63571,9 @@ msgid "The first line in the file must be a header row defining which columns yo
 msgstr "Den første linjen må være en topptekstrad som definerer hvilke kolonner importfilen skal inneholde."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:399
-#, fuzzy, c-format
+#, c-format
 msgid "Download a Starter CSV file with all the columns."
-msgstr "med alle kolonner."
+msgstr "Last ned en start-CSV, med alle kolonner."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:404
 #, c-format
@@ -63891,9 +63880,9 @@ msgid "Item has unselected \"Not for loan\" status \"%s\""
 msgstr "Eksemplaret har ikke aktivet \"ikke til utlån\"-status \"%s\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:326
-#, fuzzy, c-format
+#, c-format
 msgid "Items has no \"not for loan\" status"
-msgstr "Eksemplarer er vanligvis ikke til utlån"
+msgstr "Eksemplarene har ikke \"ikke til utlån\"-status"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:329
 #, c-format
@@ -64004,9 +63993,9 @@ msgstr "Bestill innkjøp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:171
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:231
-#, fuzzy, c-format
+#, c-format
 msgid "Patrons (custom slip)"
-msgstr "Lånerklubber"
+msgstr "Lånere (tilpasset utskrift)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:173
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:233
@@ -64055,9 +64044,9 @@ msgstr "Koha-modul:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:399
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:401
-#, fuzzy, c-format
+#, c-format
 msgid "Patron (custom slip)"
-msgstr "Lånerklubber"
+msgstr "Låner (tilpasset utskrift)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:432
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:436
@@ -65650,9 +65639,9 @@ msgid "Email:"
 msgstr "E-post:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/scheduler.tt:82
-#, fuzzy, c-format
+#, c-format
 msgid "Scheduled tasks"
-msgstr "Planlegg oppgaver for kjøring"
+msgstr "Planlagte oppgaver"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/scheduler.tt:85
 #, c-format
@@ -65900,9 +65889,9 @@ msgstr "Status for opplasting: Avbrutt "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:334
-#, fuzzy, c-format
+#, c-format
 msgid "New stage"
-msgstr "Ny tagg"
+msgstr "Nytt trinn"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:117
 #, c-format
