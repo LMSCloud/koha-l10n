@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.13.000\n"
 "POT-Creation-Date: 2023-12-20 04:07+0000\n"
-"PO-Revision-Date: 2023-12-01 03:13+0000\n"
+"PO-Revision-Date: 2024-01-06 10:41+0000\n"
 "Last-Translator: Magnus Enger <magnus@enger.priv.no>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nb-NO\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Path: /nb/22.11/nb-NO-staff-prog.po\n"
 "X-Pootle-Revision: 1\n"
 "X-POOTLE-MTIME: 1692292888.877437\n"
@@ -13619,9 +13619,9 @@ msgstr "Forfallsmeddelelse kreves: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:76
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/holdshistory.tt:98
-#, fuzzy, c-format
+#, c-format
 msgid "Fulfilled"
-msgstr "Reservasjonsgebyr"
+msgstr "Oppfyllt"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/discharge.tt:66
@@ -34100,9 +34100,9 @@ msgstr "Bruk for søkegrupper i internt "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:146
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:210
-#, fuzzy, c-format
+#, c-format
 msgid "Is local hold group "
-msgstr "er reservert for "
+msgstr "Er en lokal reservasjonsgruppe "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:167
 #, c-format
@@ -34155,7 +34155,7 @@ msgstr "Bruk for søkegrupper internt"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:408
 #, c-format
 msgid "Is local hold group"
-msgstr "er reservert for "
+msgstr "Er en lokal reservasjonsgruppe"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:415
 #, c-format
@@ -35792,7 +35792,7 @@ msgstr "Slett denne begrensningen"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:173
 #, c-format
 msgid "%sYes%s "
-msgstr "%sYes%s "
+msgstr "%sJa%s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:191
 #, c-format
@@ -42769,7 +42769,6 @@ msgstr "Legg til eksemplar"
 
 #. INPUT type=submit name=add_duplicate_submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:271
-#, fuzzy
 msgid "Add and duplicate"
 msgstr "Legg til og duplisér"
 
@@ -44044,9 +44043,9 @@ msgid "Staff members are not allowed to discharge borrowers, nor borrowers to re
 msgstr "Ansatte har ikke lov til å utskrive lånere, og lånere har heller ikke lov til å be om utskrivning."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:98
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron, so circulation is disabled."
-msgstr "Dette er den anonyme låneren, så ingen reservasjonshistorikk vises."
+msgstr "Dette er den anonyme låneren, så sirkulasjon er deaktivert."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:304
@@ -44333,9 +44332,9 @@ msgid "Yes, check out (Y)"
 msgstr "Ja, lån ut (J)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:375
-#, fuzzy, c-format
+#, c-format
 msgid "Don't check out, confirm hold, and print slip (P)"
-msgstr "Ikke lån ut og skriv ut kvittering (P)"
+msgstr "Ikke lån ut, bekreft reservasjonen og skriv ut kvittering (P)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:381
 #, c-format
@@ -46554,9 +46553,9 @@ msgid "Hold at"
 msgstr "Reserver til"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:122
-#, fuzzy, c-format
+#, c-format
 msgid "Reason for transfer"
-msgstr "Overføringsdato"
+msgstr "Årsak til overføring"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:128
 #, fuzzy, c-format
@@ -53674,9 +53673,9 @@ msgid "%s Patron details for %s %s &rsaquo; Patrons &rsaquo; Koha "
 msgstr "%s Lånerdetaljer for %s %s &rsaquo; Lånere &rsaquo; Koha "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron."
-msgstr "Dette eksemplaret venter på en annen låner."
+msgstr "Dette er den anonyme låneren."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:62
 #, c-format
@@ -65483,7 +65482,7 @@ msgstr "Forny låner"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:317
 #, c-format
 msgid "using the dateexpiry value in the file, if present"
-msgstr ""
+msgstr "bruker verdien av dateexpiry i filen, om den finnes"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:318
 #, c-format
