@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-29 03:06+0000\n"
-"PO-Revision-Date: 2023-12-20 03:02+0000\n"
-"Last-Translator: bargioni <bargioni@pusc.it>\n"
+"PO-Revision-Date: 2024-01-06 03:01+0000\n"
+"Last-Translator: Zeno Tajoli <ztajoli@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: it-IT\n"
 "MIME-Version: 1.0\n"
@@ -285,12 +285,12 @@ msgstr "Release Maintainer:"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:12
 #, c-format
 msgid "Account creation fee"
-msgstr "Costo di creazione dell'account"
+msgstr "Tariffa creazione account"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:13
 #, c-format
 msgid "Account renewal fee"
-msgstr "Costo di rinnovo dell'account"
+msgstr "Tariffa rinnovo dell'account"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:14
 #, c-format
@@ -342,7 +342,7 @@ msgstr "Rinnovo della copia in prestito"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:23
 #, c-format
 msgid "Renewal of daily rental item"
-msgstr ""
+msgstr "Rinnovo di prestito giornaliero"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:24
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:569
@@ -361,9 +361,9 @@ msgid "Payment from library to patron"
 msgstr "Pagamento dalla biblioteca all'utente"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:27
-#, fuzzy, c-format
+#, c-format
 msgid "Credit has been voided"
-msgstr "La fattura è stata modificata"
+msgstr "Il credito è stato annullato"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:34
 #, c-format
@@ -383,7 +383,7 @@ msgstr "Sconto: "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:37
 #, c-format
 msgid "Forgiven"
-msgstr "Cancellato"
+msgstr "Perdonato"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:38
 #, c-format
@@ -3527,7 +3527,7 @@ msgstr "La copia con barcode %s non può essere cancellata:"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_item_record_deletion.inc:46
 #, c-format
 msgid "Item is checked out"
-msgstr "La copia è in prestito."
+msgstr "la copia è in prestito"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_item_record_deletion.inc:47
 #, c-format
@@ -3537,7 +3537,7 @@ msgstr "La copia non appartiene alla tua biblioteca"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_item_record_deletion.inc:48
 #, c-format
 msgid "Item has a waiting hold"
-msgstr "La copia è prenotata."
+msgstr "La copia è prenotata"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_item_record_deletion.inc:49
 #, c-format
@@ -18795,7 +18795,7 @@ msgstr "Biblioteca corrente"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:264
 #, c-format
 msgid "Shelving location"
-msgstr "Collocazione a scaffale:"
+msgstr "Collocazione a scaffale"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/waiting_holds.inc:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:211
@@ -19513,19 +19513,19 @@ msgid "You are missing the &lt;template_cache_dir&gt; entry in your koha-conf.xm
 msgstr "Ti manca la entry  &lt;template_cache_dir&gt; nel file koha-conf.xml. Aggiungila, migliorerà le performance del sistema."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:525
-#, fuzzy, c-format
+#, c-format
 msgid "The PO directory has not been found. See "
-msgstr "L'ordine non è stato trovato."
+msgstr "La directory PO non è stata trovata. Vedi "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:526
-#, fuzzy, c-format
+#, c-format
 msgid "for more information. "
-msgstr "Informazioni sul server"
+msgstr "per maggiori informazioni. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:526
 #, c-format
 msgid "the dedicated wiki page"
-msgstr ""
+msgstr "la pagina wiki dedicata"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:534
 #, c-format
@@ -32802,7 +32802,7 @@ msgstr "Username"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:224
 #, c-format
 msgid "Password"
-msgstr "Password:"
+msgstr "Password"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:307
 #, c-format
@@ -36499,7 +36499,7 @@ msgstr "Giorni"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1385
 #, c-format
 msgid "Hours"
-msgstr "Ore:"
+msgstr "Ore"
 
 #. %1$s:  IF ( hardduedate ) 
 #. %2$s:  IF ( hardduedatecompare == '-1' ) 
@@ -40882,9 +40882,8 @@ msgstr "Pulisci selezione"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
-#, fuzzy
 msgid "Damaged status"
-msgstr "Status danneggiato:"
+msgstr "Status danneggiato"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -40916,7 +40915,7 @@ msgstr "Tipo di copia"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/itemslost.tt:93
 #, c-format
 msgid "Lost status"
-msgstr "Status smarrito:"
+msgstr "Status smarrito"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -58746,7 +58745,7 @@ msgstr "Nota OPAC"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:102
 #, c-format
 msgid "Nonpublic note"
-msgstr "Nota privata:"
+msgstr "Nota privata"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:141
 #, c-format
@@ -62664,7 +62663,7 @@ msgstr "Spazio ( )"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:118
 #, c-format
 msgid "Tabulation (%s)"
-msgstr "Tabulazione (\\t)"
+msgstr "Tabulazione (%s)"
 
 #. For the first occurrence,
 #. %1$s:  new_line_char | html 
@@ -62672,7 +62671,7 @@ msgstr "Tabulazione (\\t)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:124
 #, c-format
 msgid "New line (%s)"
-msgstr "Indicatore nuova linea (\\n)"
+msgstr "Indicatore nuova linea (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:130
 #, c-format
