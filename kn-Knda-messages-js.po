@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-28 03:25+0000\n"
+"POT-Creation-Date: 2024-01-06 03:03+0000\n"
 "PO-Revision-Date: 2023-03-25 14:51+0000\n"
 "Last-Translator: R S Wodeyar <raviwodeyar@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -2372,7 +2372,7 @@ msgstr "ಫಿಲ್ಟರ್‌ಗಳನ್ನು ತೋರಿಸಿ"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:13
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:216
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:168
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:274
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:292
 msgid "Title"
 msgstr "ಶೀರ್ಷಿಕೆ"
 
@@ -3666,7 +3666,7 @@ msgid "Processing"
 msgstr "ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತಿದೆ..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:113
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:295
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:313
 msgid "Barcode"
 msgstr ""
 
@@ -3818,13 +3818,13 @@ msgid "Are you sure you want to remove this item?"
 msgstr "ಈ ಶೀರ್ಷಿಕೆಯನ್ನು ತೆಗೆದುಹಾಕಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:463
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:251
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:269
 #, fuzzy
 msgid "Yes, remove"
 msgstr "ಹೌದು, ಅಳಿಸು"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:464
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:252
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:270
 #, fuzzy
 msgid "No, do not remove"
 msgstr "ಇಲ್ಲ, ಅಳಿಸಬೇಡಿ"
@@ -3879,31 +3879,36 @@ msgstr ""
 msgid "There are no items in the waiting list"
 msgstr "ಯಾವುದೇ ಶೀರ್ಷಿಕೆಗಳನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಲಾಗಿಲ್ಲ"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:217
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:225
+#, javascript-format
+msgid "%s new items added. %s items not found."
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:234
 #, javascript-format
 msgid "%s new items added."
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:231
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:249
 #, fuzzy
 msgid "No items added"
 msgstr "ಸೇರಿಸಬೇಕಾದ ಐಟಂಗಳ ಸಂಖ್ಯೆ"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:248
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:266
 #, fuzzy
 msgid "Are you sure you want to remove this item from the waiting list?"
 msgstr "ಈ ಶೀರ್ಷಿಕೆಯನ್ನು ತೆಗೆದುಹಾಕಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:259
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:277
 msgid "Item removed from the waiting list"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:283
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:301
 #, fuzzy
 msgid "Author"
 msgstr "ಆಥಾರಿಟಿ:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:289
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:307
 msgid "Call number"
 msgstr ""
 

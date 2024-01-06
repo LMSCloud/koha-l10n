@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-28 03:25+0000\n"
+"POT-Creation-Date: 2024-01-06 03:03+0000\n"
 "PO-Revision-Date: 2023-11-25 03:01+0000\n"
 "Last-Translator: Caroline Cyr-La-Rose <caroline.cyr-la-rose@inlibro.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -2370,7 +2370,7 @@ msgstr "Afficher les filtres"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:13
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:216
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:168
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:274
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:292
 msgid "Title"
 msgstr "Titre"
 
@@ -3599,7 +3599,7 @@ msgid "Processing"
 msgstr "Traitement"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:113
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:295
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:313
 msgid "Barcode"
 msgstr "Code-barres"
 
@@ -3737,12 +3737,12 @@ msgid "Are you sure you want to remove this item?"
 msgstr "Voulez-vous vraiment retirer cet exemplaire?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:463
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:251
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:269
 msgid "Yes, remove"
 msgstr "Oui, retirer"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:464
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:252
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:270
 msgid "No, do not remove"
 msgstr "Non, ne pas retirer"
 
@@ -3791,28 +3791,33 @@ msgstr "Ajouter les %s derniers exemplaires à un lot"
 msgid "There are no items in the waiting list"
 msgstr "Il n'y a présentement aucun exemplaire dans la liste d'attente"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:217
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:225
+#, fuzzy, javascript-format
+msgid "%s new items added. %s items not found."
+msgstr "%s nouveaux exemplaires ajoutés."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:234
 #, javascript-format
 msgid "%s new items added."
 msgstr "%s nouveaux exemplaires ajoutés."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:231
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:249
 msgid "No items added"
 msgstr "Aucun exemplaire ajouté"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:248
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:266
 msgid "Are you sure you want to remove this item from the waiting list?"
 msgstr "Voulez-vous vraiment retirer cet exemplaire de la liste d'attente?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:259
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:277
 msgid "Item removed from the waiting list"
 msgstr "L'exemplaire a été retiré de la liste d'attente"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:283
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:301
 msgid "Author"
 msgstr "Auteur"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:289
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:307
 msgid "Call number"
 msgstr "Cote"
 
