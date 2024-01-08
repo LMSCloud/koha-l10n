@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11.13.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 08:54+0000\n"
-"PO-Revision-Date: 2024-01-05 09:41+0000\n"
+"PO-Revision-Date: 2024-01-08 14:21+0000\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -613,9 +613,8 @@ msgid "Not allowed: overdue"
 msgstr "Inte tillåtet: försenad"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:205
-#, fuzzy
 msgid "Unable to find an open day"
-msgstr "Kan inte hävda återlämnad"
+msgstr "Kan inte hitta en öppen dag"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:209
 msgid "reason unknown"
@@ -1824,9 +1823,8 @@ msgid "Add new license"
 msgstr "Lägg till ny licens"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:99
-#, fuzzy
 msgid "There are no licenses created yet"
-msgstr "Inga titlar är definierade"
+msgstr "Inga licenser har skapats"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:88
@@ -1834,9 +1832,9 @@ msgid "Periods"
 msgstr "Perioder"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:11
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Agreement period %s"
-msgstr "Avtal %s"
+msgstr "Avtalsperiod %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:14
 msgid "Remove this period"
@@ -1870,9 +1868,9 @@ msgid "Related agreements"
 msgstr "Relaterade avtal"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:11
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Related agreement %s"
-msgstr "Relaterade avtal"
+msgstr "Relaterade avtal %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:14
 msgid "Remove this relationship"
@@ -1891,14 +1889,13 @@ msgid "Add new related agreement"
 msgstr "Lägg till nytt relaterat avtal"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:86
-#, fuzzy
 msgid "There are no other agreements created yet"
-msgstr "Inga titlar är definierade"
+msgstr "Inga övriga avtal har skapats"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit agreement #%s"
-msgstr "Redigera åtgärd %s"
+msgstr "Redigera avtal %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:157
@@ -2003,12 +2000,11 @@ msgstr "Mån"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:21
 msgid "Show mine only"
-msgstr ""
+msgstr "Visa endast mina"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:47
-#, fuzzy
 msgid "There are no agreements defined"
-msgstr "Inga titlar är definierade"
+msgstr "Inga avtal är definierade"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:136
 msgid "Select"
@@ -2063,9 +2059,9 @@ msgid "Name"
 msgstr "Namn"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Agreement #%s"
-msgstr "Avtal %s"
+msgstr "Avtal #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:91
 #, fuzzy
@@ -2106,9 +2102,9 @@ msgid "Documents"
 msgstr "Dokument"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:11
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Document %s"
-msgstr "Dokument"
+msgstr "Dokument %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:14
 msgid "Remove this document"
@@ -2119,34 +2115,28 @@ msgid "File"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:22
-#, fuzzy
 msgid "Select a file"
-msgstr "Välj alla"
+msgstr "Välj fil"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:31
-#, fuzzy
 msgid "Update file"
-msgstr "Uppdatera exemplar"
+msgstr "Uppdatera fil"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:41
-#, fuzzy
 msgid "File name"
-msgstr "Filnamn:"
+msgstr "Filnamn"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:45
-#, fuzzy
 msgid "File type"
-msgstr "Filtyp:"
+msgstr "Filtyp"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:49
-#, fuzzy
 msgid "File description"
-msgstr "Beskrivning"
+msgstr "Filbeskrivning"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:60
-#, fuzzy
 msgid "Uploaded on"
-msgstr "Slutade"
+msgstr "Laddades upp"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:103
 msgid "Add new document"
@@ -2163,15 +2153,13 @@ msgstr "Det här avtalet är redan länkat med det här paketet"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:7
-#, fuzzy
 msgid "Hide filters"
-msgstr "Aktivera filter"
+msgstr "Dölj filter"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:7
-#, fuzzy
 msgid "Show filters"
-msgstr "Aktivera filter"
+msgstr "Visa filter"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:13
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:220
@@ -2253,9 +2241,9 @@ msgstr "Typ"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:5
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Package #%s"
-msgstr "Paket"
+msgstr "Paket #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:13
 msgid "Add package to holdings"
@@ -2267,13 +2255,12 @@ msgstr "Ta bort paket från bestånd"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:40
 msgid "External ID"
-msgstr ""
+msgstr "Externt ID"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:59
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:43
-#, fuzzy
 msgid "Package type"
-msgstr "Paketnamn"
+msgstr "Pakettyp"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:77
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:228
@@ -2283,9 +2270,9 @@ msgstr "Skapad den"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOResourcesShow.vue:5
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalResourcesShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Resource #%s"
-msgstr "Licenser"
+msgstr "Resurs #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOResourcesShow.vue:13
 msgid "Add title to holdings"
@@ -2329,7 +2316,7 @@ msgstr "Förlagsnamn"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:36
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:46
 msgid "Print-format identifier"
-msgstr ""
+msgstr "Identifikator för tryckt format"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOResourcesShow.vue:69
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:35
@@ -2337,7 +2324,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:47
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:52
 msgid "Online-format identifier"
-msgstr ""
+msgstr "Identifikator för onlineformat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOResourcesShow.vue:80
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalResourcesShow.vue:61
@@ -2356,14 +2343,13 @@ msgid "Coverage dates"
 msgstr "Täcker datum"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:38
-#, fuzzy
 msgid "Please enter a search term"
-msgstr "Ange ett namn för detta mönster"
+msgstr "Ange sökterm"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:55
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "%s titles found locally"
-msgstr "%s paket hittades lokalt"
+msgstr "%s titlar hittades lokalt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:267
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:214
@@ -2374,19 +2360,19 @@ msgstr "Identifikator"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:224
 #, javascript-format
 msgid "ISBN (Print): %s"
-msgstr ""
+msgstr "ISBN (Tryck): %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:284
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:231
 #, javascript-format
 msgid "ISBN (Online): %s"
-msgstr ""
+msgstr "ISBN (Online): %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:5
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Title #%s"
-msgstr "Titlar"
+msgstr "Titel #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:11
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:14
@@ -2531,24 +2517,21 @@ msgid "Agreement %s"
 msgstr "Avtal %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:17
-#, fuzzy
 msgid "Remove this agreement"
-msgstr "Ta bort denna användare"
+msgstr "Ta bort detta avtal"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:23
-#, fuzzy
 msgid "Agreement"
 msgstr "Avtal"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:52
-#, fuzzy
 msgid "There are no agreements created yet"
-msgstr "Inga titlar är definierade"
+msgstr "Inga avtal har skapats"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit package #%s"
-msgstr "Redigera åtgärd %s"
+msgstr "Redigera paket #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:105
@@ -2587,14 +2570,14 @@ msgid "Local package %s deleted"
 msgstr "Lokalt paket %s borttaget"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:91
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Titles (%s)"
-msgstr "Titlar"
+msgstr "Titlar (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit title #%s"
-msgstr "Redigera åtgärd %s"
+msgstr "Redigera titel #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:97
@@ -2614,9 +2597,9 @@ msgid "Title created"
 msgstr "Titel skapad"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:10
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Package %s"
-msgstr "Paket"
+msgstr "Paket %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:13
 msgid "Remove from this package"
@@ -2631,9 +2614,8 @@ msgid "Add to another package"
 msgstr "Lägg till i ett annat paket"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:90
-#, fuzzy
 msgid "There are no packages created yet"
-msgstr "Inga titlar är definierade"
+msgstr "Inga paket har skapats"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:2
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:204
@@ -2642,7 +2624,7 @@ msgstr "Importera från en lista"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:4
 msgid "Import in progress,"
-msgstr ""
+msgstr "Import pågår,"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:6
 #, javascript-format
@@ -2685,9 +2667,9 @@ msgid "Contributors"
 msgstr "Medverkande"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit license %s"
-msgstr "Redigera åtgärd %s"
+msgstr "Redigera licens %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:57
@@ -2738,9 +2720,9 @@ msgid "Ended on"
 msgstr "Slutade den"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "License #%s"
-msgstr "Licenser"
+msgstr "Licens #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Main.vue:135
 msgid "The e-resource management module is disabled, turn on <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=ERMModule\">ERMModule</a> to use it"
