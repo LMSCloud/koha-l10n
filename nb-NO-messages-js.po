@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-06 03:03+0000\n"
-"PO-Revision-Date: 2024-01-06 03:01+0000\n"
+"PO-Revision-Date: 2024-01-08 13:15+0000\n"
 "Last-Translator: Magnus Enger <magnus@enger.priv.no>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nb-NO\n"
@@ -85,7 +85,6 @@ msgid "Add"
 msgstr "Legg til"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:201
-#, fuzzy
 msgid "NOTE: Fields listed in the 'UniqueItemFields' system preference will not be copied"
 msgstr "NB: Felt som er listet opp i UniqueItemsFields vil ikke bli kopiert"
 
@@ -637,9 +636,8 @@ msgid "Not allowed: overdue"
 msgstr "Ikke tillatt: forfalt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:228
-#, fuzzy
 msgid "Unable to find an open day"
-msgstr "Kan ikke hevde å ha innlevert"
+msgstr "Kan ikke finne en åpen dag"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:232
 msgid "reason unknown"
@@ -1249,12 +1247,12 @@ msgstr "Endre meldingsinnstillinger til standard for denne kategorien?"
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:38
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:55
 msgid "Your concern was sucessfully submitted."
-msgstr ""
+msgstr "Meldingen ble sendt inn."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:46
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:60
 msgid "There was an error when submitting your concern, please contact a librarian."
-msgstr ""
+msgstr "Det var et problem med å sende inn meldingen, kontakt biblioteket direkte."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:23
 msgid "Loading updates . . ."
@@ -1314,21 +1312,18 @@ msgid "You have made changes to system preferences."
 msgstr "Du har endret systeminnstillinger."
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:156
-#, fuzzy
 msgid "Are you sure you want to delete this consent item?"
-msgstr "Er du sikker på at du vil slette dette omslagsbildet?"
+msgstr "Er du sikker på at du vil slette dette samtykket?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:214
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:224
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:236
-#, fuzzy
 msgid "Collapse this section"
-msgstr "Klikk for å slå sammen denne delen"
+msgstr "Slå sammen denne seksjonen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:221
-#, fuzzy
 msgid "Expand this section"
-msgstr "Klikk for å utvide denne delen"
+msgstr "Utvid denne seksjonen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:255
 msgid "Note: _ALL_ value will override all other values"
@@ -1423,27 +1418,27 @@ msgstr "Beskrivelse"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:386
 msgid "Requires consent in OPAC"
-msgstr ""
+msgstr "Krever samtykke i OPAC"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:390
 msgid "Requires consent in staff interface"
-msgstr ""
+msgstr "Krever samtykke i det interne grensesnittet"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:394
 msgid "String used to identify cookie name"
-msgstr ""
+msgstr "Streng som identifiserer cookie-navn"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:398
 msgid "Cookie domain"
-msgstr ""
+msgstr "Cookie-domene"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:402
 msgid "Cookie path"
-msgstr ""
+msgstr "Cookie-sti"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:409
 msgid "Expand"
-msgstr ""
+msgstr "Utvid"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:410
 msgid "Collapse"
@@ -1451,11 +1446,11 @@ msgstr "Slå sammen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:426
 msgid "You must complete all fields"
-msgstr ""
+msgstr "Du må fylle ut alle felt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:472
 msgid "Unable to Base64 decode value stored in CookieConsentedJS syspref: "
-msgstr ""
+msgstr "Kunne ikke Base64-dekode verdien i innstillingen CookieConsentedJS "
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:480
 msgid "Unable to JSON parse decoded value stored in CookieConsentedJS syspref: "
