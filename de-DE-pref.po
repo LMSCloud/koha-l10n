@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 22.11.13.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-16 03:26+0200\n"
-"PO-Revision-Date: 2023-12-19 10:56+0000\n"
-"Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
+"PO-Revision-Date: 2024-01-08 14:21+0000\n"
+"Last-Translator: AnkeB <anke.bruns@gwdg.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de-DE\n"
 "MIME-Version: 1.0\n"
@@ -274,9 +274,7 @@ msgid ""
 "acquisitions.pref#AcqItemSetSubfieldsWhenReceiptIsCancelled# Upon cancelling "
 "a receipt, update the item's subfields if they were created when placing an "
 "order (e.g. o=5|a=\"bar foo\"):"
-msgstr ""
-"Beim rückgängig machen eines Zugangs die Unterfelder des Exemplars, das mit "
-"der Bestellung angelegt wurde, aktualisieren (z.B. o=5|a=\"bar foo\")."
+msgstr "Beim Rückgängigmachen eines Zugangs die Unterfelder des Exemplars, das mit der Bestellung angelegt wurde, aktualisieren (z.B. o=5|a=\"bar foo\"):"
 
 # Acquisitions > Policy
 msgid ""
@@ -344,9 +342,7 @@ msgstr "Sende"
 msgid ""
 "acquisitions.pref#ClaimsBccCopy# blind copy (BCC) to logged in user when "
 "sending serial or acquisitions claims notices."
-msgstr ""
-"Blindkopien (BCC) von Zeitschriften- oder Erwerbungsreklamationen an den "
-"angemeldeten Benutzer"
+msgstr "Blindkopien (BCC) von Zeitschriften- oder Erwerbungsreklamationen an den angemeldeten Benutzer."
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#CurrencyFormat# 360 000,00 (FR)"
@@ -372,7 +368,7 @@ msgstr "Deaktiviere"
 
 # Acquisitions > EDIFACT > EDIFACT
 msgid "acquisitions.pref#EDIFACT# EDIFACT message exchange for acquisitions"
-msgstr "die EDIFACT-Funktionen im Erwerbungsmodul."
+msgstr "die EDIFACT-Funktionen im Erwerbungsmodul"
 
 # Acquisitions > EDIFACT
 msgid "acquisitions.pref#EDIFACT# Enable"
@@ -398,7 +394,7 @@ msgstr " in Exemplaren."
 
 # Acquisitions > EDIFACT > EdifactLSQ
 msgid "acquisitions.pref#EdifactLSQ# Map sequence code (GIR:LSQ) field to "
-msgstr "Mappe das Feld für den Sequenzcode (GIR:LSQ) auf"
+msgstr "Mappe das Feld für den Sequenzcode (GIR:LSQ) auf "
 
 # Acquisitions > EDIFACT
 msgid "acquisitions.pref#EdifactLSQ# collection"
@@ -719,9 +715,7 @@ msgstr "Nein"
 msgid ""
 "admin.pref#AutoLocation# Require staff to log in from a computer in the IP "
 "address range specified by their library (if any): "
-msgstr ""
-"Bibliotheksmitarbeiter können sich nur von einem Computer innerhalb des "
-"angegebenen IP-Bereichs anmelden (falls definiert):"
+msgstr "Bibliotheksmitarbeiter können sich nur von einem Computer innerhalb des angegebenen IP-Bereichs anmelden (falls definiert): "
 
 # Administration > Login options
 msgid "admin.pref#AutoLocation# Yes"
@@ -799,8 +793,7 @@ msgstr "Alle Bibliotheken"
 msgid ""
 "admin.pref#DefaultToLoggedInLibraryNoticesSlips# Default view when editing "
 "notices and slips: "
-msgstr ""
-"Standardansicht bei der Bearbeitung von Benachrichtigungen und Quittungen:"
+msgstr "Standardansicht bei der Bearbeitung von Benachrichtigungen und Quittungen: "
 
 # Administration > Interface options
 msgid "admin.pref#DefaultToLoggedInLibraryNoticesSlips# The logged-in library"
@@ -814,7 +807,7 @@ msgstr "Alle Bibliotheken"
 msgid ""
 "admin.pref#DefaultToLoggedInLibraryOverdueTriggers# Default view when "
 "editing overdue notice/status triggers: "
-msgstr "Vorausgewählte Ansicht, wenn Mahntrigger bearbeitet werden:"
+msgstr "Vorausgewählte Ansicht, wenn Mahntrigger bearbeitet werden: "
 
 # Administration > Interface options
 msgid ""
@@ -966,9 +959,7 @@ msgstr ""
 msgid ""
 "admin.pref#GoogleOpenIDConnectDefaultBranch# Use this branch code when "
 "automatically registering a Google Open ID patron: "
-msgstr ""
-"Verwende das folgende Bibliothekskürzel, wenn Benutzer sich automatisch über "
-"Google Open ID registrieren:"
+msgstr "Verwende das folgende Bibliothekskürzel, wenn Benutzer sich automatisch über Google Open ID registrieren: "
 
 # Patrons > General
 msgid ""
@@ -1072,16 +1063,13 @@ msgid ""
 "admin.pref#KohaAdminEmailAddress# (This is the default From: address for "
 "emails unless there is one for the particular library, and is referred to "
 "when an internal error occurs.)"
-msgstr ""
-"(Diese Adresse wird als Absenderadresse für E-Mails verwendet, wenn keine E-"
-"Mail-Adresse für die entsprechende Bibliothek konfiguriert wurde, oder wenn "
-"ein interner Fehler auftritt.) "
+msgstr "(Diese Adresse wird als Absenderadresse für E-Mails verwendet, wenn keine E-Mail-Adresse für die entsprechende Bibliothek konfiguriert wurde oder wenn ein interner Fehler auftritt.)"
 
 # Administration > Interface options
 msgid ""
 "admin.pref#KohaAdminEmailAddress# Email address for the administrator of "
 "Koha: "
-msgstr "E-Mail-Adresse des Koha-Administrators:"
+msgstr "E-Mail-Adresse des Koha-Administrators: "
 
 # Administration > Interface options
 msgid ""
@@ -1179,11 +1167,7 @@ msgid ""
 "bin/koha/admin/preferences.pl?op=search&searchfield=UsageStats\">UsageStats</"
 "a> system preferences have no effect if this system preference is set to \"No"
 "\" (don't share)."
-msgstr ""
-" <br><strong>HINWEIS:</strong> Dieser Wert hat keine Wirkung, wenn der "
-"Systemparameter  <a href=\"/cgi-bin/koha/admin/preferences.pl?"
-"op=search&searchfield=UsageStats\">UsageStats</a> auf \"Nein\" (Teile keine) "
-"gesetzt ist."
+msgstr "<br><strong>HINWEIS:</strong> Dieser Wert hat keine Wirkung, wenn der Systemparameter <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=UsageStats\">UsageStats</a> auf \"Nein\" (Teile keine) gesetzt ist."
 
 # Administration > Share anonymous usage statistics
 msgid ""
@@ -2255,9 +2239,7 @@ msgstr "Medientypicons in der Dienstoberfläche."
 msgid ""
 "admin.pref#timeout# Adding d will specify it in days, e.g. 1d is timeout of "
 "one day."
-msgstr ""
-"Wenn Sie der Zahl ein d hinten anstellen, gilt die Angabe in Tagen. Zum "
-"Beispiel bedeutet 1d einen Timeout von einem Tag. "
+msgstr "Wenn Sie der Zahl ein d hinten anstellen, gilt die Angabe in Tagen. Zum Beispiel bedeutet 1d einen Timeout von einem Tag."
 
 # Administration > Login options
 msgid ""
@@ -2620,10 +2602,7 @@ msgid ""
 "authorities.pref#UNIMARCAuthorityField100# Use the following text for the "
 "contents of UNIMARC authority field 100 position 08-35 (fixed length data "
 "elements). Do NOT include the date (position 00-07):"
-msgstr ""
-"Verwende den folgenden Text für 100, Position 08-35 im UNIMARC-Normdatensatz "
-"(Feld kontrollierter Länge). Geben Sie dabei die Positionen 00-07 für das "
-"Datum NICHT an."
+msgstr "Verwende den folgenden Text für 100, Position 08-35 im UNIMARC-Normdatensatz (Feld kontrollierter Länge). Geben Sie dabei die Positionen 00-07 für das Datum NICHT an:"
 
 # Authorities > General
 msgid "authorities.pref#UseAuthoritiesForTracings# Don't use"
@@ -2724,7 +2703,7 @@ msgstr "versuche nicht"
 msgid ""
 "cataloguing.pref#AggressiveMatchOnISSN# When matching on ISSN with the "
 "record import tool,"
-msgstr "Wenn beim Import über ISSN abgeglichen wird, "
+msgstr "Wenn beim Import über ISSN abgeglichen wird,"
 
 # Cataloging > Importing
 msgid ""
@@ -2840,7 +2819,7 @@ msgstr ""
 msgid ""
 "cataloguing.pref#BibtexExportAdditionalFields# Use one line per tag in the "
 "format BT_TAG: TAG$SUBFIELD ( e.g. lccn: 010$a )."
-msgstr "Eine Zeile je Tag im Format: BT_TAG: TAG$SUBFIELD (z.B. LCCN: 010$a)"
+msgstr "Eine Zeile je Tag im Format: BT_TAG: TAG$SUBFIELD (z.B. LCCN: 010$a)."
 
 # Cataloging > Interface
 msgid "cataloguing.pref#CreateAVFromCataloguing# Allow"
@@ -2980,11 +2959,11 @@ msgstr "Voreingestellt, zeige Titeldaten in"
 
 # Cataloging > Display
 msgid "cataloguing.pref#IntranetBiblioDefaultView# ISBD form (see below)."
-msgstr "ISBD-Ansicht (siehe unten)"
+msgstr "ISBD-Ansicht (siehe unten)."
 
 # Cataloging > Display
 msgid "cataloguing.pref#IntranetBiblioDefaultView# MARC form."
-msgstr "MARC-Ansicht"
+msgstr "MARC-Ansicht."
 
 # Cataloging > Display
 msgid "cataloguing.pref#IntranetBiblioDefaultView# labelled MARC form."
@@ -2992,7 +2971,7 @@ msgstr "beschriftete MARC-Ansicht."
 
 # Cataloging > Display
 msgid "cataloguing.pref#IntranetBiblioDefaultView# normal form."
-msgstr "normalen Ansicht"
+msgstr "normalen Ansicht."
 
 # Cataloging > Display
 msgid "cataloguing.pref#LabelMARCView# Do"
@@ -3032,9 +3011,7 @@ msgstr "Verwende keine"
 msgid ""
 "cataloguing.pref#MARCOverlayRules# MARC overlay rules for incoming records, "
 "to decide which action to take for each field."
-msgstr ""
-"MARC-Regeln zum Überlagern von eingehenden Datensätzen, um zu entscheiden, "
-"welche Aktion für jedes Feld durchgeführt werden soll"
+msgstr "MARC-Regeln zum Überlagern von eingehenden Datensätzen, um zu entscheiden, welche Aktion für jedes Feld durchgeführt werden soll."
 
 # Cataloging > Display
 msgid "cataloguing.pref#MARCOverlayRules# Use"
@@ -3212,7 +3189,7 @@ msgstr ""
 msgid ""
 "cataloguing.pref#OpacSuppression# <br />Redirect the opac detail page for "
 "suppressed records to"
-msgstr "<br />Detailanzeige des OPAC bei unterdrückten Titeln umleiten zu: "
+msgstr "<br />Detailanzeige des OPAC bei unterdrückten Titeln umleiten zu:"
 
 # Cataloging > Display
 msgid ""
@@ -3307,7 +3284,7 @@ msgstr ""
 msgid ""
 "cataloguing.pref#RisExportAdditionalFields# Use one line per tag in the "
 "format RIS_TAG: TAG$SUBFIELD ( e.g. LC: 010$a )."
-msgstr "Eine Zeile je Tag im Format: RIS_TAG: FELD$UNTERFELD (z.B. LC: 010$a)"
+msgstr "Eine Zeile je Tag im Format: RIS_TAG: FELD$UNTERFELD (z.B. LC: 010$a)."
 
 # Cataloging > Display
 msgid "cataloguing.pref#SeparateHoldings# Don't separate"
@@ -4637,9 +4614,7 @@ msgstr ""
 msgid ""
 "circulation.pref#BundleNotLoanValue# Use the <a href=\"/cgi-bin/koha/admin/"
 "authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a> authorized value"
-msgstr ""
-"Verwenden Sie einen Wert der Normierten-Werte-Kategorie <a href=\"/cgi-bin/"
-"koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>, "
+msgstr "Verwenden Sie einen Wert der Normierten-Werte-Kategorie <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>,"
 
 # Circulation > Return claims
 msgid ""
@@ -4765,7 +4740,7 @@ msgstr ""
 
 # Circulation > Checkout policy
 msgid "circulation.pref#CircControl# Use the calendar and circulation rules of"
-msgstr "Verwende den Kalender und die Ausleihkonditionen "
+msgstr "Verwende den Kalender und die Ausleihkonditionen"
 
 # Circulation > Checkout policy
 msgid "circulation.pref#CircControl# the library the item is from."
@@ -4860,9 +4835,7 @@ msgid ""
 "circulation.pref#ClaimReturnedWarningThreshold# Warn librarians that a "
 "patron has excessive return claims if the patron has claimed the return of "
 "more than"
-msgstr ""
-"Warne das Bibliothekspersonal, wenn ein Benutzer viele Rückgabebehauptungen "
-"hat, wenn mehr als "
+msgstr "Warne das Bibliothekspersonal, wenn ein Benutzer viele Rückgabebehauptungen hat, wenn mehr als"
 
 # Circulation > Return claims
 msgid "circulation.pref#ClaimReturnedWarningThreshold# items."
@@ -4890,8 +4863,7 @@ msgstr "Tage."
 msgid ""
 "circulation.pref#ConfirmFutureHolds# Confirm future hold requests (starting "
 "no later than"
-msgstr ""
-"Erfülle Vormerkungen mit einem Vormerkdatum in der Zukunft (nicht mehr als "
+msgstr "Erfülle Vormerkungen mit einem Vormerkdatum in der Zukunft (nicht mehr als"
 
 # Circulation > Holds policy
 msgid ""
@@ -4941,7 +4913,7 @@ msgstr "Vor-Ort-Ausleihen als normale Ausleihen."
 
 # Circulation > Checkin policy
 msgid "circulation.pref#CumulativeRestrictionPeriods# Cumulate"
-msgstr "Kumuliere "
+msgstr "Kumuliere"
 
 # Circulation > Checkin policy
 msgid "circulation.pref#CumulativeRestrictionPeriods# Don't cumulate"
@@ -5687,7 +5659,7 @@ msgstr "Bevorzuge"
 
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# holding library"
-msgstr "aktuellen Aufenthaltsbibliothek des Exemplars entspricht."
+msgstr "aktuellen Aufenthaltsbibliothek des Exemplars entspricht"
 
 # Circulation > Holds policy
 # Circulation > Holds policy
@@ -5735,7 +5707,7 @@ msgstr "als verloren markiert werden."
 msgid ""
 "circulation.pref#MarkLostItemsAsReturned# Mark items as returned when "
 "flagged as lost "
-msgstr "Buche Exemplare zurück, wenn sie"
+msgstr "Buche Exemplare zurück, wenn sie "
 
 # Circulation > Checkout policy
 msgid "circulation.pref#MarkLostItemsAsReturned# from the 'Holds to pull' list"
@@ -5790,9 +5762,7 @@ msgid ""
 "circulation.pref#NoIssuesChargeGuarantorsWithGuarantees# Prevent a patron "
 "from checking out if the patron has guarantors and those guarantor's "
 "guarantees owing in total more than"
-msgstr ""
-"Blockiere einen Benutzer von der Ausleihe, wenn für ihn/sie gebürgt wurde "
-"und diese Bürgen offene Gebühren von mehr als "
+msgstr "Blockiere einen Benutzer von der Ausleihe, wenn für ihn/sie gebürgt wurde und diese Bürgen offene Gebühren von mehr als"
 
 # Circulation > Checkout policy
 msgid ""
@@ -5804,7 +5774,7 @@ msgstr "[% local_currency %] haben."
 msgid ""
 "circulation.pref#NoRefundOnLostReturnedItemsAge# Don't refund lost fees if a "
 "lost item is checked in more than"
-msgstr "Keine Rückerstattung der Buchersatzgebühr, wenn ein Exemplar mehr als "
+msgstr "Keine Rückerstattung der Buchersatzgebühr, wenn ein Exemplar mehr als"
 
 # Circulation > Fines Policy
 msgid ""
@@ -5866,11 +5836,7 @@ msgid ""
 "don't enter the waiting list until a certain future date. (<a href=\"/cgi-"
 "bin/koha/admin/preferences.pl?op=search&searchfield=AllowHoldDateInFuture"
 "\">AllowHoldDateInFuture</a> must also be enabled)."
-msgstr ""
-"Vormerkungen von Benutzern, die erst zu einem zukünftigen Zeitpunkt in der "
-"Vormerkliste erscheinen. (<a href=\"/cgi-bin/koha/admin/preferences.pl?"
-"op=search&searchfield=AllowHoldDateInFuture\">AllowHoldDateInFuture</a> muss "
-"aktiviert sein)"
+msgstr "Vormerkungen von Benutzern, die erst zu einem zukünftigen Zeitpunkt in der Vormerkliste erscheinen. (<a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=AllowHoldDateInFuture\">AllowHoldDateInFuture</a> muss aktiviert sein)."
 
 # Circulation > Holds policy
 msgid ""
@@ -6067,7 +6033,7 @@ msgstr "."
 msgid ""
 "circulation.pref#OverdueNoticeFrom# Organize and send overdue notices using "
 "the"
-msgstr "Organisiere und sende Mahnbenachrichtigungen nach "
+msgstr "Organisiere und sende Mahnbenachrichtigungen nach"
 
 # Circulation > Checkout policy
 msgid "circulation.pref#OverdueNoticeFrom# checkout library"
@@ -6198,8 +6164,7 @@ msgstr "Updates der Liste der Vormerkungen in Echtzeit."
 msgid ""
 "circulation.pref#RecallsMaxPickUpDelay# Mark a recall as problematic if it "
 "has been waiting to be picked up for"
-msgstr ""
-"Markiere einen Rückruf als problematisch, wenn dieser nicht innerhalb von "
+msgstr "Markiere einen Rückruf als problematisch, wenn dieser nicht innerhalb von"
 
 # Circulation > Holds policy
 msgid "circulation.pref#RecallsMaxPickUpDelay# days."
@@ -6217,13 +6182,11 @@ msgstr "Werte"
 msgid ""
 "circulation.pref#RecordLocalUseOnReturn# local use when an unissued item is "
 "checked in."
-msgstr ""
-"die Rückgabe eines nicht entliehenen Exemplars als lokale Nutzung für die "
-"Statistik aus"
+msgstr "die Rückgabe eines nicht entliehenen Exemplars als lokale Nutzung für die Statistik aus."
 
 # Circulation > Checkout policy
 msgid "circulation.pref#RecordStaffUserOnCheckout# When checking out an item, "
-msgstr "Bei einer Ausleihe,"
+msgstr "Bei einer Ausleihe "
 
 # Circulation > Interface
 msgid "circulation.pref#RecordStaffUserOnCheckout# don't record"
@@ -6350,7 +6313,7 @@ msgstr ""
 msgid ""
 "circulation.pref#RentalFeesCheckoutConfirmation# When checking out an item "
 "with rental fees, "
-msgstr "Die Ausleihe von Medien mit Leihgebühr"
+msgstr "Die Ausleihe von Medien mit Leihgebühr "
 
 # Circulation > Checkout policy
 msgid "circulation.pref#RentalFeesCheckoutConfirmation# ask"
@@ -7091,10 +7054,7 @@ msgid ""
 "circulation.pref#UpdateItemLocationOnCheckin# The special term _ALL_ is used "
 "on the left side of the colon (:) to affect all items, <strong>and overrides "
 "all other rules.</strong>"
-msgstr ""
-"Der spezielle Wert _ALL_ wird auf der linken Seite des Doppelpunkts (:) "
-"verwendet und betrifft alle Exemplare und <strong>überschreibt alle anderen "
-"Regeln</strong>."
+msgstr "Der spezielle Wert _ALL_ wird auf der linken Seite des Doppelpunkts (:) verwendet und betrifft alle Exemplare und <strong>überschreibt alle anderen Regeln.</strong>"
 
 # Circulation > Checkin policy
 msgid ""
@@ -9689,8 +9649,7 @@ msgstr ""
 msgid ""
 "opac.pref#AuthorityXSLTOpacDetailsDisplay# Display authority details in the "
 "OPAC using the XSLT stylesheet at: "
-msgstr ""
-"Zeige die Normdaten-Detailansicht im OPAC mit folgendem XSLT-Stylesheet an:"
+msgstr "Zeige die Detailansicht für Normdaten im OPAC mit folgendem XSLT-Stylesheet an: "
 
 # Staff interface > Appearance
 msgid ""
@@ -9714,8 +9673,7 @@ msgstr ""
 msgid ""
 "opac.pref#AuthorityXSLTOpacResultsDisplay# Display authority results in the "
 "OPAC using the XSLT stylesheet at: "
-msgstr ""
-"Zeige die Normdaten-Trefferliste im OPAC mit folgendem XSLT-Stylesheet an:"
+msgstr "Zeige die Normdaten-Trefferliste im OPAC mit folgendem XSLT-Stylesheet an: "
 
 # OPAC > Appearance
 msgid "opac.pref#BiblioDefaultView# By default, show bibliographic records"
@@ -9809,10 +9767,7 @@ msgstr "Zeige"
 msgid ""
 "opac.pref#DisplayOPACiconsXSLT# the format, audience, and material type "
 "icons and descriptions in XSLT MARC21 results and detail pages in the OPAC."
-msgstr ""
-"das Format, die Zielgruppe und die Materialtypicons mit den zugehörigen "
-"Beschreibungen in den den MARC21 XSLT-Sichten für Trefferliste und "
-"Detailansicht im OPAC."
+msgstr "das Format, die Zielgruppe und die Materialtypicons mit den zugehörigen Beschreibungen in den MARC21 XSLT-Sichten für Trefferliste und Detailansicht im OPAC."
 
 # Acquisitions > Policy
 msgid ""
@@ -9831,9 +9786,7 @@ msgstr ""
 msgid ""
 "opac.pref#EmailPatronRegistrations# Choose email address that new patron "
 "self-registrations will be sent to: "
-msgstr ""
-"Geben Sie die E-Mail-Adresse an, an die Benachrichtigungen über neue OPAC-"
-"Selbstanmeldungen gesendet werden sollen:"
+msgstr "Geben Sie die E-Mail-Adresse an, an die Benachrichtigungen über neue OPAC-Selbstanmeldungen gesendet werden sollen: "
 
 # Acquisitions > Policy
 msgid "opac.pref#EmailPatronRegistrations# EmailAddressForPatronRegistrations"
@@ -10516,7 +10469,7 @@ msgstr ""
 msgid ""
 "opac.pref#OPACSuggestionMandatoryFields# Fields that should be mandatory for "
 "patron purchase suggestions:"
-msgstr "Pflichtfelder für Anschaffungsvorschläge: "
+msgstr "Pflichtfelder für Anschaffungsvorschläge:"
 
 # OPAC > Policy
 msgid ""
@@ -11082,7 +11035,7 @@ msgstr "."
 
 # OPAC > Appearance
 msgid "opac.pref#OpacLangSelectorMode# Display language selector on "
-msgstr "Zeige die Sprachauswahl"
+msgstr "Zeige die Sprachauswahl "
 
 # OPAC > Appearance
 msgid "opac.pref#OpacLangSelectorMode# both top and footer"
@@ -11452,7 +11405,7 @@ msgstr "<br />- <code>http://www.example.com/img/openurl.png</code>"
 msgid ""
 "opac.pref#OpenURLImageLocation# <br />Can be an absolute URL starting with "
 "<code>http://</code> or"
-msgstr "<br/>Kann eine absolute URL, beginnend mit <code>http://</code> oder "
+msgstr "<br/>Kann eine absolute URL, beginnend mit <code>http://</code> oder"
 
 # OPAC > OpenURL
 msgid "opac.pref#OpenURLImageLocation# <br />Examples:"
@@ -11548,10 +11501,7 @@ msgid ""
 "href='http://schema.koha-community.org/__VERSION__/tables/borrowers.html' "
 "target='blank'>database columns</a> must be filled in on the patron entry "
 "screen:"
-msgstr ""
-"Obligatorische <a href='http://schema.koha-community.org/__VERSION__/tables/"
-"borrowers.html' target='blank'>Datenbankfelder</a> in der "
-"Selbstregistrierungsmaske für Benutzerdaten."
+msgstr "Obligatorische <a href='http://schema.koha-community.org/__VERSION__/tables/borrowers.html' target='blank'>Datenbankfelder</a> in der Selbstregistrierungsmaske für Benutzerdaten:"
 
 # OPAC > Self registration and modification
 msgid ""
@@ -12043,12 +11993,7 @@ msgid ""
 "cgi-bin/koha/admin/preferences.pl?op=search&searchfield=AnonSuggestions"
 "\">AnonSuggestions</a> is disabled, following patron categories are not "
 "allowed to make purchase suggestions:"
-msgstr ""
-"Wenn <a href=\"/cgi-bin/koha/admin/preferences.pl?"
-"op=search&searchfield=suggestion\">suggestion</a> aktiviert und <a href=\"/"
-"cgi-bin/koha/admin/preferences.pl?op=search&searchfield=AnonSuggestions"
-"\">AnonSuggestions</a> deaktiviert ist, können Benutzer der folgenden "
-"Benutzertypen keine Anschaffungsvorschläge erstellen."
+msgstr "Wenn <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=suggestion\">suggestion</a> aktiviert und <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=AnonSuggestions\">AnonSuggestions</a> deaktiviert ist, können Benutzer der folgenden Benutzertypen keine Anschaffungsvorschläge erstellen:"
 
 # OPAC > Features
 msgid "opac.pref#suggestion# purchase suggestions in the OPAC.<br>"
@@ -12221,7 +12166,7 @@ msgstr "(Veraltet) entsprechend dem --send-notices Parameter des Cronjobs"
 
 # Patrons > Notices and notifications
 msgid "patrons.pref#AutoRenewalNotices# Send automatic renewal notices: "
-msgstr "Sende Benachrichtigungen über automatische Verlängerungen:"
+msgstr "Sende Benachrichtigungen über automatische Verlängerungen: "
 
 # Patrons > Patron forms
 msgid ""
@@ -12253,10 +12198,7 @@ msgid ""
 "koha-community.org/__VERSION__/tables/borrowers.html' "
 "target='blank'>database columns</a> must be filled in on the patron entry "
 "screen:"
-msgstr ""
-"Obligatorische <a href='http://schema.koha-community.org/__VERSION__/tables/"
-"borrowers.html' target='blank'>Datenbankfelder</a> in der Erfassungsmaske "
-"für Benutzerdaten. "
+msgstr "Obligatorische <a href='http://schema.koha-community.org/__VERSION__/tables/borrowers.html' target='blank'>Datenbankfelder</a> in der Erfassungsmaske für Benutzerdaten:"
 
 # Patrons > Membership expiry
 msgid ""
@@ -12286,10 +12228,7 @@ msgid ""
 "koha-community.org/__VERSION__/tables/borrowers.html' "
 "target='blank'>database columns</a> will not appear on the patron entry "
 "screen:"
-msgstr ""
-"Die folgenden <a href='http://schema.koha-community.org/__VERSION__/tables/"
-"borrowers.html' target='blank'>Datenbankfelder</a> in der Erfassungsmaske "
-"für Benutzerdaten nicht anzeigen: "
+msgstr "Die folgenden <a href='http://schema.koha-community.org/__VERSION__/tables/borrowers.html' target='blank'>Datenbankfelder</a> in der Erfassungsmaske für Benutzerdaten nicht anzeigen:"
 
 # Patrons > Patron forms
 msgid "patrons.pref#BorrowersTitles# (separate multiple choices with |)"
@@ -12367,8 +12306,7 @@ msgstr ""
 msgid ""
 "patrons.pref#CheckPrevCheckoutDelay# Trigger a warning if the current item "
 "has been checked out no longer than"
-msgstr ""
-"Löse einen Warnhinweis aus, wenn das aktuelle Exemplar vor nicht mehr als "
+msgstr "Löse einen Warnhinweis aus, wenn das aktuelle Exemplar vor nicht mehr als"
 
 # Patrons > General
 msgid "patrons.pref#CheckPrevCheckoutDelay# days ago."
@@ -12657,9 +12595,7 @@ msgstr ""
 msgid ""
 "patrons.pref#ListOwnershipUponPatronDeletion# <br/>When changing owner at "
 "patron deletion, use borrowernumber "
-msgstr ""
-"<br/>Wenn beim Löschen des Benutzer der Besitzer geändert wird, verwende den "
-"Benutzer mit Benutzernummer"
+msgstr "<br/>Wenn beim Löschen des Benutzer der Besitzer geändert wird, verwende den Benutzer mit Benutzernummer "
 
 # Patrons > General > ListOwnershipUponPatronDeletion
 msgid ""
@@ -13230,7 +13166,7 @@ msgstr "Verlange"
 # Patrons > Security
 msgid ""
 "patrons.pref#RequireStrongPassword# a strong password for staff and patrons"
-msgstr "ein starkes Passwort für das Login von Kunden und Mitarbeitenden."
+msgstr "ein starkes Passwort für das Login von Kunden und Mitarbeitenden"
 
 # Patrons > Notices and notifications > SMSSendDriver
 msgid ""
@@ -13547,9 +13483,7 @@ msgstr " (Werte separieren mit | oder ,)."
 msgid ""
 "searching.pref#AdvancedSearchLanguages# Limit the languages listed in the "
 "advanced search drop-down to the"
-msgstr ""
-"Sprachen in Auswahlliste der erweiterten Suche auf die folgenden ISO 639-2 "
-"Sprachcodes beschränken: "
+msgstr "Sprachen in Auswahlliste der erweiterten Suche auf die folgenden ISO 639-2 Sprachcodes beschränken:"
 
 # Searching > Search form
 msgid ""
@@ -13614,7 +13548,7 @@ msgstr ""
 
 # Searching > Results display
 msgid "searching.pref#DisplayLibraryFacets# Show facets for"
-msgstr "Facetten anzeigen für "
+msgstr "Facetten anzeigen für"
 
 # Searching > Results display
 msgid "searching.pref#DisplayLibraryFacets# both home and holding library"
@@ -13655,11 +13589,11 @@ msgstr ""
 
 # Searching > Features
 msgid "searching.pref#EnableSearchHistory# Don't keep"
-msgstr "Protokolliere nicht "
+msgstr "Protokolliere nicht"
 
 # Searching > Features
 msgid "searching.pref#EnableSearchHistory# Keep"
-msgstr "Protokolliere "
+msgstr "Protokolliere"
 
 # Searching > Features
 msgid ""
@@ -13926,9 +13860,7 @@ msgid ""
 "searching.pref#PassItemMarcToXSLT# make item MARC fields (MARC21 952, "
 "UNIMARC 995) available to XSLT stylesheets for OPAC and staff interface "
 "results pages."
-msgstr ""
-"MARC-Exemplarfelder (MARC21 952, UNIMARC 995) in den XSLT-Stylesheets für "
-"die Trefferlisten in OPAC und Dienstoberfläche verfügbar. "
+msgstr "MARC-Exemplarfelder (MARC21 952, UNIMARC 995) in den XSLT-Stylesheets für die Trefferlisten in OPAC und Dienstoberfläche verfügbar."
 
 # Searching > Features
 msgid ""
@@ -13969,11 +13901,7 @@ msgid ""
 "example, a search for <cite>flang</cite> would also match <cite>flange</"
 "cite> and <cite>fang</cite>; Currently only affects Zebra searches. Any "
 "Elasticsearch term can be made fuzzy by adding a ~ directly after the term.)."
-msgstr ""
-"auch ähnlich geschriebene Worte in einer Suche zu finden (z. Bsp. für eine "
-"Suche nach <cite>flang</cite> auch <cite>flange</cite> und <cite>fang</cite> "
-"finden; Dies gilt nur für Zebra. In Elasticsearch kann jeder Suchbegriff "
-"durch hinzufügen von ~ nach dem Begriff ungenau gesucht werden.)"
+msgstr "auch ähnlich geschriebene Worte in einer Suche zu finden (z. Bsp. für eine Suche nach <cite>flang</cite> auch <cite>flange</cite> und <cite>fang</cite> finden; dies gilt nur für Zebra. In Elasticsearch kann jeder Suchbegriff durch hinzufügen von ~ nach dem Begriff ungenau gesucht werden.)."
 
 # Searching > Features
 msgid "searching.pref#QueryRegexEscapeOptions# Don't escape"
@@ -14033,7 +13961,7 @@ msgstr "Aktiviere"
 msgid ""
 "searching.pref#QueryWeightFields# ranking of search results by relevance "
 "(REQUIRES ZEBRA)."
-msgstr "Sortierung der Trefferliste nach Relevanz (ERFORDERT ZEBRA)"
+msgstr "Sortierung der Trefferliste nach Relevanz (ERFORDERT ZEBRA)."
 
 # Searching > Features
 msgid "searching.pref#RetainCatalogSearchTerms# Don't retain"
@@ -14088,9 +14016,7 @@ msgstr ""
 msgid ""
 "searching.pref#SearchLimitLibrary# When limiting search results with a "
 "library or library group, limit by the item's"
-msgstr ""
-"Wenn die Suche auf eine Bibliothek oder eine Bibliotheksgruppe eingeschränkt "
-"wird, verwende die "
+msgstr "Wenn die Suche auf eine Bibliothek oder eine Bibliotheksgruppe eingeschränkt wird, verwende die"
 
 # Searching > Results display
 msgid "searching.pref#SearchLimitLibrary# holding library."
@@ -14107,7 +14033,7 @@ msgstr "die Heimatbibliothek des Exemplars."
 # Searching > Results display
 msgid ""
 "searching.pref#SearchWithISBNVariations# When searching on the ISBN index,"
-msgstr "Wenn mit der ISBN-Suchoption gesucht wird, "
+msgstr "Wenn mit der ISBN-Suchoption gesucht wird,"
 
 # Searching > Results display
 msgid "searching.pref#SearchWithISBNVariations# don't search"
@@ -14568,9 +14494,7 @@ msgstr ""
 msgid ""
 "staff_interface.pref#AuthorityXSLTResultsDisplay# Display authority results "
 "in the staff interface using XSLT stylesheet at: "
-msgstr ""
-"Zeige die Normdaten-Trefferliste in der Dienstoberfläche mit folgendem XSLT-"
-"Stylesheet an:"
+msgstr "Zeige die Normdaten-Trefferliste in der Dienstoberfläche mit folgendem XSLT-Stylesheet an: "
 
 # Staff interface > Appearance
 msgid ""
@@ -14841,12 +14765,7 @@ msgid ""
 "stylesheet.</li></ul>If you have multiple stylesheets for different "
 "languages the placeholder {langcode} will be replaced with current interface "
 "language."
-msgstr ""
-"<br />Optionen:<ul><li> \"<a href=\"#\" class=\"set_syspref\" data-syspref="
-"\"XSLTDetailsDisplay\" data-value=\"default\">default</a>\" für das Standard-"
-"XSLT-Stylesheet</li><li>Pfad für ein anderes XSLT-Stylesheet</li><li>URL für "
-"ein externes XSLT-Stylesheet</li></ul>{langcode} wird in der Pfadangabe mit "
-"dem Sprachcode der gewählten Anzeigesprache ersetzt"
+msgstr "<br />Optionen:<ul><li> \"<a href=\"#\" class=\"set_syspref\" data-syspref=\"XSLTDetailsDisplay\" data-value=\"default\">default</a>\" für das Standard-XSLT-Stylesheet</li><li>Pfad für ein anderes XSLT-Stylesheet</li><li>URL für ein externes XSLT-Stylesheet</li></ul>{langcode} wird in der Pfadangabe mit dem Sprachcode der gewählten Anzeigesprache ersetzt."
 
 # Staff interface > Appearance
 msgid ""
@@ -14887,15 +14806,7 @@ msgid ""
 "data in the item fields</li></ul>If you have multiple stylesheets for "
 "different languages the placeholder {langcode} will be replaced with current "
 "interface language."
-msgstr ""
-"<br />Optionen:<ul><li> \"<a href=\"#\" class=\"set_syspref\" data-syspref="
-"\"XSLTResultsDisplay\" data-value=\"default\">default</a>\" für das Standard-"
-"XSLT-Stylesheet</li><li>Pfad für ein anderes XSLT-Stylesheet</li><li>URL für "
-"ein externes XSLT-Stylesheet</li><li>HINWEIS: Der Systemparameter <a href=\"/"
-"cgi-bin/koha/admin/preferences.pl?op=search&searchfield=PassItemMarcToXSLT"
-"\">PassItemMarcToXSLT</a> muss aktiviert sein, wenn Ihr benutzerdefiniertes "
-"Stylesheet Exemplardaten verwendet.</li></ul>{langcode} wird in der "
-"Pfadangabe mit dem Sprachcode der gewählten Anzeigesprache ersetzt"
+msgstr "<br />Optionen:<ul><li> \"<a href=\"#\" class=\"set_syspref\" data-syspref=\"XSLTResultsDisplay\" data-value=\"default\">default</a>\" für das Standard-XSLT-Stylesheet</li><li>Pfad für ein anderes XSLT-Stylesheet</li><li>URL für ein externes XSLT-Stylesheet</li><li>HINWEIS: Der Systemparameter <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=PassItemMarcToXSLT\">PassItemMarcToXSLT</a> muss aktiviert sein, wenn Ihr benutzerdefiniertes Stylesheet Exemplardaten verwendet.</li></ul>{langcode} wird in der Pfadangabe mit dem Sprachcode der gewählten Anzeigesprache ersetzt."
 
 # Staff interface > Appearance
 msgid ""
@@ -15138,7 +15049,7 @@ msgstr "Die Anzahl der Bilder für Etiketten in der Datenbank begrenzen auf"
 
 # Tools > Patron cards
 msgid "tools.pref#ImageLimit# images."
-msgstr "Bilder"
+msgstr "Bilder."
 
 # Tools > Batch item
 msgid "tools.pref#MaxItemsToDisplayForBatchDel# Display up to"
@@ -15162,7 +15073,7 @@ msgstr "Exemplare in einer Stapelbearbeitung."
 
 # Tools > Batch item
 msgid "tools.pref#MaxItemsToProcessForBatchMod# Process up to"
-msgstr "Verarbeite bis zu "
+msgstr "Verarbeite bis zu"
 
 # Tools > Batch item
 msgid ""
