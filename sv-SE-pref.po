@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2023-11-30 09:12+0000\n"
+"PO-Revision-Date: 2024-01-08 13:15+0000\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sv/22.11/sv-SE-pref.po\n"
 "X-POOTLE-MTIME: 1696315079.348994\n"
@@ -461,15 +461,13 @@ msgstr "ingen"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a</p>"
-msgstr "<br/>Till exempel:<br/>price: 947$a|947$c<br/>kvantitet: 969$h<br/>budget_code: 922$a "
+msgstr "<p>Till exempel:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a </p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>You can use the following fields: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
-msgstr "Du kan använda följande fält: price, quantity, budget_code, discount, sort1, sort2"
+msgstr "<p>Du kan använda följande fält: price, quantity, budget_code, discount, sort1, sort2</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
@@ -478,19 +476,17 @@ msgstr "Ställ in mappningsvärden för en ny beställningsrad skapad från en M
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
-msgstr "<br/>Till exempel:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z"
+msgstr "<p>Till exempel:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z<p/>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
-msgstr ""
+msgstr "<p>Om ett fält saknas eller inte är mappat kommer <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> att kontrolleras och användas för det fältet (undantag: quantity).</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
-msgstr "Du kan använda följande fält: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice och itemcallnumber. Specialfält: quantity och budget_code"
+msgstr "<p>Du kan använda följande fält: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice och itemcallnumber. Specialfält: quantity och budget_code</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
@@ -10144,7 +10140,6 @@ msgid "opac.pref#OPACURLOpenInNewWindow# open the website in a new window."
 msgstr "webbplatsen i ett nytt fönster."
 
 # OPAC > Appearance > OPACUserCSS
-#, fuzzy
 msgid "opac.pref#OPACUserCSS# <br><strong>NOTE:</strong> Library specific CSS can be defined in <a href='/cgi-bin/koha/admin/branches.pl'>library administration</a>."
 msgstr "<br><strong>OBS:</strong> Biblioteksspecifik CSS kan ställas in <a href='/cgi-bin/koha/admin/branches.pl'>här</a>."
 
@@ -10154,7 +10149,6 @@ msgid "opac.pref#OPACUserCSS# Include the following CSS on all pages in the OPAC
 msgstr "Inkludera följande CSS på alla sidor i OPAC:"
 
 # OPAC > Appearance > OPACUserJS
-#, fuzzy
 msgid "opac.pref#OPACUserJS# <br><strong>NOTE:</strong> Library specific JS can be defined in <a href='/cgi-bin/koha/admin/branches.pl'>library administration</a>."
 msgstr "<br><strong>OBS:</strong> Biblioteksspecifik javascriptkod kan definieras <a href='/cgi-bin/koha/admin/branches.pl'>här</a>."
 
@@ -12927,7 +12921,7 @@ msgstr "Använd det auktoriserade <a href=\"/cgi-bin/koha/admin/authorised_value
 
 # Preservation > Interface > PreservationNotForLoanWaitingListIn
 msgid "preservation.pref#PreservationNotForLoanWaitingListIn# to apply to items added to the waiting list."
-msgstr ""
+msgstr "för att tillämpa på exemplar som har lagts till på väntelistan."
 
 # Searching
 msgid "searching.pref"
