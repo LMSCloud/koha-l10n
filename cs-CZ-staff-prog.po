@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-06 03:03+0000\n"
-"PO-Revision-Date: 2024-01-05 03:00+0000\n"
+"PO-Revision-Date: 2024-01-08 13:15+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
@@ -19357,7 +19357,7 @@ msgstr "Pro vztahy opatrovaný/ručitel byly použity následující hodnoty, kt
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:384
 #, c-format
 msgid "If the relationship is one you want, please add it to the 'borrowerRelationship' system preference, otherwise have your system's administrator correct the values in %s and/or %s in the database."
-msgstr "Pokud vztah je v pořádku, přidejte ho prosím do systémové proměnné 'borrowerRelationship', jinak požádejte správce systému o opravu databázových hodnot v %s a/nebo %s."
+msgstr "Pokud je vztah v pořádku, přidejte ho prosím do systémové proměnné 'borrowerRelationship', jinak požádejte správce systému o opravu hodnot %s a/nebo %s v databázi."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:389
 #, c-format
@@ -19471,19 +19471,19 @@ msgid "System preference 'RequireChoosingExistingAuthority' is disabled, but nee
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:429
-#, fuzzy, c-format
+#, c-format
 msgid "System preference 'EasyAnalyticalRecords' set, but UseControlNumber preference is set to 'Use'. Set it to 'Don't use' or else the 'Show analytics' links in the staff interface and the OPAC will be broken."
 msgstr "V systémových nastaveních je nastaveno 'EasyAnalyticalRecords', ale UseControlNumber je nastaveno na 'Použít'. Nastavte 'Nepoužít', jinak odkaz 'Zobrazit analytický popis' v intranetu ani v on-line katalogu nebude funkční."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:435
-#, fuzzy, c-format
+#, c-format
 msgid "System preference 'OPACPrivacy' set, but AnonymousPatron preference is set to '0'. Set it to a valid borrower number or checkins for these patrons will fail."
-msgstr "Systémové nastavení 'OPACPrivacy' je povoleno, ale hodnota nastavení 'AnonymousPatron' je '0'. Nastavte zde platné číslo čtenáře, jinak související funkce nebudou pracovat správně."
+msgstr "Systémové nastavení 'OPACPrivacy' je povoleno, ale hodnota nastavení AnonymousPatron je '0'. Nastavte zde platné číslo čtenáře, jinak související funkce nebudou pracovat správně."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:441
-#, fuzzy, c-format
+#, c-format
 msgid "System preference 'AnonSuggestions' set, but AnonymousPatron preference is set to '0'. Set it to a valid borrower number if you want that this feature works correctly."
-msgstr "Systémové nastavení 'OPACPrivacy' je povoleno, ale hodnota nastavení 'AnonymousPatron' je '0'. Nastavte zde platné číslo čtenáře, jinak související funkce nebudou pracovat správně."
+msgstr "Systémové nastavení 'OPACPrivacy' je povoleno, ale hodnota nastavení AnonymousPatron je '0'. Nastavte zde platné číslo čtenáře, jinak související funkce nebudou pracovat správně."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:447
 #, fuzzy, c-format
@@ -19491,9 +19491,9 @@ msgid "Some patrons have requested privacy after their items are checked in, but
 msgstr "Někteří čtenáři mají nastaveno mazání historie výpůjček hned po vrácení, ale systémové nastavení 'AnonymousPatron' není správně vyplněno. Nastavte zde platné číslo čtenáře, jinak tato funkce nebude pracovat správně."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:453
-#, fuzzy, c-format
+#, c-format
 msgid "System preference 'AnonSuggestions' set, but AnonymousPatron preference is not set correctly. Set it to a valid borrower number if you want that this feature works correctly."
-msgstr "Systémové nastavení 'OPACPrivacy' je povoleno, ale hodnota nastavení 'AnonymousPatron' je '0'. Nastavte zde platné číslo čtenáře, jinak související funkce nebudou pracovat správně."
+msgstr "Systémové nastavení 'AnonSuggestions' , ale nastavení AnonymousPatron není správné.Pokud chcete, aby tato funkce fungovala správně, nastavte ho na platné číslo čtenáře."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:459
 #, c-format
@@ -19515,9 +19515,9 @@ msgstr ""
 #. %2$s:  p.value | html 
 #. %3$s:  p.filename | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:474
-#, fuzzy, c-format
+#, c-format
 msgid "System preference '%s' is '%s', but the file '%s' does not exist."
-msgstr "Sytémová nastavení, která nejsou v jiných záložkách"
+msgstr "Systémová předvolba '%s' je '%s', ale soubor '%s' neexistuje."
 
 #. %1$s:  p.variable | html 
 #. %2$s:  IF p.value.defined 
@@ -19527,7 +19527,7 @@ msgstr "Sytémová nastavení, která nejsou v jiných záložkách"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:481
 #, c-format
 msgid "System preference '%s' must be '0' or '1', but is %s'%s'%sNULL%s."
-msgstr ""
+msgstr "Systémová předvolba '%s' musí být '0' nebo '1', ale je %s'%s'%sNULL%s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:488
 #, c-format
