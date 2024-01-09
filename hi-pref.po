@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:15-0300\n"
-"PO-Revision-Date: 2023-12-15 03:03+0000\n"
+"PO-Revision-Date: 2024-01-10 03:01+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hi\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /hi/22.11/hi-pref.po\n"
 "X-POOTLE-MTIME: 1697630909.268926\n"
@@ -324,35 +324,31 @@ msgstr "acquisitions.pref#BasketConfirmations# पुष्टि करने �
 
 # Circulation > Checkin policy > CalculateFinesOnBackdate
 # Circulation > Checkin policy
-#, fuzzy
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# Exclude"
-msgstr "circulation.pref#CalculateFinesOnBackdate# करें"
+msgstr "अतिरिक्त"
 
 # Acquisitions > Policy > EmailPurchaseSuggestions
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# Include"
-msgstr "acquisitions.pref#EmailPurchaseSuggestions# कोई नहीं"
+msgstr "सम्मिलित"
 
 # Acquisitions > Policy > CalculateFundValuesIncludingTax
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# tax in the calculated fund values (spent, ordered). Note this rule applies to all vendors regardless of their configuration"
-msgstr ""
+msgstr "गणना किए गए फंड मूल्यों में कर (खर्च, आदेशित)। ध्यान दें कि यह नियम उनके कॉन्फ़िगरेशन की परवाह किए बिना सभी विक्रेताओं पर लागू होता है"
 
 # Acquisitions > Policy > AcqViewBaskets
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# Allow"
-msgstr "acquisitions.pref#AcqViewBaskets# दिखाएँ बास्केट"
+msgstr "अनुमति दें"
 
 # Acquisitions > Policy > AcqEnableFiles
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# Don't allow"
-msgstr "acquisitions.pref#AcqEnableFiles# नही करें"
+msgstr "अनुमति नहीं है"
 
 # Acquisitions > Policy > CancelOrdersInClosedBaskets
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# cancelling order lines in closed baskets."
-msgstr ""
+msgstr "बंद बास्केट में ऑर्डर लाइनों को रद्द करना।"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
@@ -469,15 +465,13 @@ msgstr "acquisitions.pref#EmailPurchaseSuggestions# कोई नहीं"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a</p>"
-msgstr "acquisitions.pref # MarcFieldsToOrder # <br/> उदाहरण के लिए: <br/> कीमत: 947$a|947$c<br/> मात्रा: 969$h<br/>budget_code: 922$a"
+msgstr "<br/> उदाहरण के लिए: <br/> कीमत: 947$a|947$c<br/> मात्रा: 969$h<br/>budget_code: 922$a</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>You can use the following fields: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
-msgstr "acquisitions.pref#MarcFieldsToOrder# मूल्य, मात्रा, बजट कोड, डिस्काउंट, sort1, sort2: आप निम्नलिखित क्षेत्रों उपयोग कर सकते हैं"
+msgstr "<p> आप निम्नलिखित फ़ील्ड का उपयोग कर सकते हैं: मूल्य, प्रतिस्थापनप्राइस, मात्रा, बजट_कोड, डिस्काउंट, सॉर्ट 1, सॉर्ट 2 </p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
@@ -486,19 +480,17 @@ msgstr "acquisitions.pref#MarcFieldsToOrder# एक मंचन फ़ाइल
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
-msgstr "acquisitions.pref#MarcItemFieldsToOrder# <br/>उदाहरण के लिए:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z"
+msgstr "<p>उदाहरण के लिए:<br/>holdingbranch:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
-msgstr ""
+msgstr "<p> यदि कोई फ़ील्ड गायब है या मैप नहीं की जाती है, तो  <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> की जाँच की जाएगी और उस क्षेत्र के लिए उपयोग किया जाएगा। (मात्रा को छोड़कर)। </p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
-msgstr "acquisitions.pref#MarcItemFieldsToOrder# आप निम्नलिखित क्षेत्रों का उपयोग कर सकते हैं: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code"
+msgstr "<p> आप निम्नलिखित फ़ील्ड का उपयोग कर सकते हैं: HomeBranch, HoldingBranch, Itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, कोपिनो, मूल्य, प्रतिस्थापनप्राइस और ItemCallNumber। विशेष क्षेत्र: मात्रा और बजट_कोड </p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
@@ -582,37 +574,32 @@ msgstr "acquisitions.pref#PurgeSuggestionsOlderThan# दिन. उदाहर�
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "admin.pref#AddressForFailedOverdueNotices# यदि खाली छोड़ दिया जाता है तो यह निम्न सूची में पहले परिभाषित पते पर वापस आ जाएगा: लाइब्रेरी रिप्लाई टू, लाइब्रेरी ईमेल,<a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> and <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "<br>यदि खाली छोड़ दिया जाता है, तो यह निम्नलिखित सूची में पहले परिभाषित पते पर वापस आ जाएगा: लाइब्रेरी ईमेल, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>।"
 
 # Administration > Interface options > ReplytoDefault
 # Administration > Interface options
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# Use the from email address"
-msgstr "admin.pref#ReplytoDefault# ईमेल पते ईमेल में करने के लिए उत्तर के रूप में स्थापित किया जाना है: "
+msgstr "ईमेल पते से उपयोग करें"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# when sending serial claim notices."
-msgstr "acquisitions.pref#ClaimsBccCopy# अंधा कॉपी (बीसीसी) उपयोगकर्ता में लॉग इन करने के लिए जब सीरियल भेजने या अधिग्रहण नोटिस का दावा है."
+msgstr "सीरियल क्लेम नोटिस भेजते समय।"
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultReplyTo# <br>If left empty, it will fall back to the first defined address in the following list: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "admin.pref#AddressForFailedOverdueNotices# यदि खाली छोड़ दिया जाता है तो यह निम्न सूची में पहले परिभाषित पते पर वापस आ जाएगा: लाइब्रेरी रिप्लाई टू, लाइब्रेरी ईमेल,<a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> and <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "<br>यदि खाली छोड़ दिया जाता है, तो यह निम्नलिखित सूची में पहले परिभाषित पते पर वापस आ जाएगा: लाइब्रेरी ReplyTo, पुस्तकालय ईमेल, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>।"
 
 # Acquisitions > Policy > SerialsDefaultReplyTo
 msgid "acquisitions.pref#SerialsDefaultReplyTo# Use the reply-to email address"
-msgstr ""
+msgstr "उत्तर-से ईमेल पते का उपयोग करें"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultReplyTo# when sending serial claim notices."
-msgstr "acquisitions.pref#ClaimsBccCopy# अंधा कॉपी (बीसीसी) उपयोगकर्ता में लॉग इन करने के लिए जब सीरियल भेजने या अधिग्रहण नोटिस का दावा है."
+msgstr "सीरियल क्लेम नोटिस भेजते समय।"
 
 # Acquisitions > Policy > TaxRates
 # Acquisitions > Policy
@@ -883,21 +870,18 @@ msgstr "admin.pref#EmailOverduesNoEmail# कर्मचारियों क�
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# Don't force"
-msgstr "opac.pref#OpacNewsLibrarySelect# मत दिखाओ"
+msgstr "बल मत लगाओं"
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# Force"
-msgstr "opac.pref#OpacNewsLibrarySelect# प्रदर्शन"
+msgstr "opac.pref#OpacNewsLibrarySelect# बल"
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# library selection when logging into the staff interface."
-msgstr "opac.pref#OpacNewsLibrarySelect# ओपेक में समाचार मदों के लिए एक पुस्तकालय चयन सूची."
+msgstr "स्टाफ इंटरफ़ेस में लॉग इन करते समय लाइब्रेरी का चयन।"
 
 # Administration > Google OpenID Connect > GoogleOAuth2ClientID
 # Patrons > Notices and notifications > PhoneNotification
@@ -2393,15 +2377,13 @@ msgstr "authorities.pref लिंकर"
 
 # Cataloging > Importing > AdditionalFieldsInZ3950ResultSearch
 # Cataloging > Importing
-#, fuzzy
 msgid "authorities.pref#AdditionalFieldsInZ3950ResultAuthSearch#  in the 'Additional fields' column of Z39.50 search results (use comma as delimiter e.g.: \"<code>001, 035$a</code>\")"
-msgstr "cataloguing.pref#AdditionalFieldsInZ3950ResultSearch#  Z39.50 खोज परिणामों के 'अतिरिक्त फ़ील्ड' कॉलम में (सीमांक के रूप में अल्पविराम का उपयोग करें उदा.: \"<code>001, 082$ab, 090$ab</code>\")"
+msgstr "Z39.50 खोज परिणामों के 'अतिरिक्त फ़ील्ड्स' कॉलम में (अल्पिमिटर के रूप में अल्पविराम का उपयोग करें जैसे: \"<code>001, 035$a</code>\")"
 
 # Cataloging > Importing > AdditionalFieldsInZ3950ResultSearch
 # Cataloging > Importing
-#, fuzzy
 msgid "authorities.pref#AdditionalFieldsInZ3950ResultAuthSearch# Display the MARC field/subfields"
-msgstr "cataloguing.pref#AdditionalFieldsInZ3950ResultSearch# मार्क फ़ील्ड/उपफ़ील्ड प्रदर्शित करें"
+msgstr "मार्क फ़ील्ड/उपफ़ील्ड प्रदर्शित करें"
 
 # Authorities > General > AuthDisplayHierarchy
 # Authorities > General
@@ -2525,73 +2507,62 @@ msgstr "कैटलॉगिंग मॉड्यूल में रिकॉ
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 0XX"
-msgstr "authorities.pref # UseAuthoritiesForTracings # का उपयोग करें"
+msgstr "0XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 1XX"
-msgstr "authorities.pref # UseAuthoritiesForTracings # का उपयोग करें"
+msgstr "1XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 2XX"
-msgstr "authorities.pref # UseAuthoritiesForTracings # का उपयोग करें"
+msgstr "2XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 3XX"
-msgstr "authorities.pref # UseAuthoritiesForTracings # का उपयोग करें"
+msgstr "3XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 4XX"
-msgstr "authorities.pref # UseAuthoritiesForTracings # का उपयोग करें"
+msgstr "4XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 5XX"
-msgstr "authorities.pref # UseAuthoritiesForTracings # का उपयोग करें"
+msgstr "5XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 6XX"
-msgstr "authorities.pref # UseAuthoritiesForTracings # का उपयोग करें"
+msgstr "6XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 7XX"
-msgstr "authorities.pref # UseAuthoritiesForTracings # का उपयोग करें"
+msgstr "7XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 8XX"
-msgstr "authorities.pref # UseAuthoritiesForTracings # का उपयोग करें"
+msgstr "8XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 9XX"
-msgstr "authorities.pref # UseAuthoritiesForTracings # का उपयोग करें"
+msgstr "9XX"
 
 # Authorities > General > AutoCreateAuthorities
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# When viewing authority details default to the"
-msgstr "authorities.pref # AutoCreateAuthorities # जब रिकॉर्ड संपादन,"
+msgstr "जब प्राधिकरण को देखने के लिए विवरण डिफ़ॉल्ट है"
 
 # Authorities > General > DefaultAuthorityTab
 msgid "authorities.pref#DefaultAuthorityTab# tab. If the selected tab does not exist, the view will default to the first tab."
-msgstr ""
+msgstr "टैब। यदि चयनित टैब मौजूद नहीं है, तो दृश्य पहले टैब पर डिफ़ॉल्ट होगा।"
 
 # Authorities > General > GenerateAuthorityField667
 # OPAC > Privacy
@@ -3042,20 +3013,17 @@ msgstr "cataloguing.pref#EnableAdvancedCatalogingEditor# उन्नत सू�
 
 # Circulation > Holds policy > EnableItemGroups
 # Circulation > Article requests
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# Don't enable"
 msgstr "सक्षम नहीं करें"
 
 # Circulation > Holds policy > EnableItemGroups
 # Circulation > Checkout policy
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# Enable"
 msgstr "सक्षम करें"
 
 # Circulation > Holds policy > EnableItemGroups
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# the item groups feature to allow collecting groups of items on a record together."
-msgstr "आइटम समूह सुविधा एक साथ रिकॉर्ड पर आइटम के समूहों को एकत्रित करने की अनुमति देती है।"
+msgstr "आइटम समूह एक साथ रिकॉर्ड पर वस्तुओं के समूहों को एकत्र करने की अनुमति देते हैं।"
 
 # Cataloging > Display > ISBD
 # Cataloging > Display
@@ -3254,7 +3222,7 @@ msgstr "(खाली छोड़ देते हैं यदि इस्त
 
 # Cataloging > Display > OpacSuppression
 msgid "cataloguing.pref#OpacSuppression# <br /> A custom message can be shown on the redirect page for suppressed bibliographic records by creating an <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML customization</a> in the OpacSuppressionMessage region."
-msgstr ""
+msgstr "<br /> एक कस्टम संदेश को एक बनाकर दबाए गए ग्रंथ सूची के लिए रीडायरेक्ट पेज पर दिखाया जा सकता है <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'> एचटीएमएल अनुकूलन</a> opacsupprespressMessage क्षेत्र में।"
 
 # Cataloging > Display > OpacSuppression
 # Cataloging > Display
