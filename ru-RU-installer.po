@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:30-0300\n"
-"PO-Revision-Date: 2023-11-20 12:57+0000\n"
+"PO-Revision-Date: 2024-01-10 03:01+0000\n"
 "Last-Translator: \"Igor A. Sychev\" <Igor.A.Sychev@mail.ru>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: ru-RU\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /ru/22.11/ru-RU-installer.po\n"
 "X-POOTLE-MTIME: 1697746895.721143\n"
@@ -52,11 +52,11 @@ msgstr "Возврат платы за утерянный экземпляр"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:9
 msgid "Purchase"
-msgstr "Закупка"
+msgstr "Покупка"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:10
 msgid "Cancellation"
-msgstr "Дата отмены"
+msgstr "Отмена"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:11
 msgid "Lost item processing fee refund"
@@ -202,7 +202,7 @@ msgstr "Продление"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:9
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:10
 msgid "ERM librarian"
@@ -4055,7 +4055,7 @@ msgstr "Общие правила разделения call number"
 
 #: installer/data/mysql/en/mandatory/class_sources.yml:description:1
 msgid "Default classification sources and filing rules for Koha."
-msgstr "Источники классификации и правила заполнения Koha по умолчанию"
+msgstr "Источники классификации и правила заполнения Koha по умолчанию."
 
 #: installer/data/mysql/en/mandatory/illbatch_statuses.yml:description:1
 #, fuzzy
@@ -4685,7 +4685,7 @@ msgstr "Выпуск: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:12
 msgid "Date: %s"
-msgstr "Дата: %s "
+msgstr "Дата: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:13
 msgid "TOC: %sYes%sNo%s"
@@ -4889,7 +4889,7 @@ msgstr "Вы сообщили: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:2:mul:9
 msgid "Thank you"
-msgstr "Спасибо!"
+msgstr "Спасибо"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:30:mul:3
 msgid "The following item will be due soon:"
@@ -5052,12 +5052,14 @@ msgid "Your library account has been renewed. The new expiry date is: %s."
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:5
-#, fuzzy
 msgid ""
 "%s\n"
 "An enrollment fee of %s has been applied.\n"
 "%s"
-msgstr "К вашей учетной записи была применена оплата в размере %s."
+msgstr ""
+"%s\n"
+"К вашей учетной записи была применена оплата в размере.\n"
+"%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:8
 #, fuzzy
