@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.13.000\n"
 "POT-Creation-Date: 2023-11-15 08:54+0000\n"
-"PO-Revision-Date: 2023-12-29 04:27+0000\n"
+"PO-Revision-Date: 2024-01-11 03:14+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -668,7 +668,7 @@ msgstr "unAPI"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:304
 #, c-format
 msgid "(%s total)"
-msgstr "(%s всичко)"
+msgstr "(всичко %s )"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:9
 #, c-format
@@ -13098,7 +13098,7 @@ msgstr "%s заети екземпляри"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:311
 #, c-format
 msgid "Due"
-msgstr "Дължим"
+msgstr "Връщане на"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:334
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:444
@@ -13700,7 +13700,7 @@ msgstr "Резултатите от операцията ще бъдат пок�
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:182
 #, c-format
 msgid "The 'Finish' button is presented to start over."
-msgstr "През бутонът 'Finish' за да стартира."
+msgstr "През бутонът 'Край' за да стартира от начало."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:183
 #, c-format
@@ -13724,21 +13724,21 @@ msgstr "Помощ при самостоятелно заемане"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/help.tt:41
 #, c-format
 msgid "If this is your first time using the self checkout system, or if the system is not behaving as expected, you may want to refer to this guide to get yourself started."
-msgstr "Ако за първи път използвате системата за самоуправление, или ако системата не се държи според очакванията, може да се обърнете към това ръководство за помощ."
+msgstr "Ако за първи път използвате системата за самоуправление, или ако системата не се държи според очакванията Ви, може да се обърнете към това ръководство за помощ."
 
 #. %1$s:  IF ( SelfCheckoutByLogin ) 
 #. %2$s:  END 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/help.tt:45
 #, c-format
 msgid "Step one: Enter your user ID%s and password%s"
-msgstr "Първа стъпка: Въведете своя потребителски id%s и парола%s"
+msgstr "Първа стъпка: Въведете своето потребителско име%s и парола%s"
 
 #. %1$s:  IF ( SelfCheckoutByLogin ) 
 #. %2$s:  END 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/help.tt:47
 #, c-format
 msgid "Enter your user ID%s and password%s, and click the submit button (or press the enter key)."
-msgstr "Въведете своите Потребителско име ID %s и парола %s и натиснете бутона Вход (или през 'Enter' за въвеждане)."
+msgstr "Въведете своите Потребителско име%s и Парола%s и натиснете бутона Вход (или през 'Enter' за въвеждане)."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/help.tt:50
 #, c-format
@@ -13748,7 +13748,7 @@ msgstr "Стъпка втора: Сканирайте(напишете) барк
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/help.tt:52
 #, c-format
 msgid "Scan each item and wait for the page to reload before scanning the next item. The checked-out item should appear in your checkouts list. The submit button only needs to be clicked if you enter the barcode manually."
-msgstr "Сканирайте всеки библиотечен документ и изчакайте страницата да се зареди отново, преди да сканирате следващия. Регистрираният библиотечни документи трябва да се появи в списъка Ви за заемане. Бутонът 'Изпращане' се използва само ако въведете баркода ръчно."
+msgstr "Сканирайте всеки библиотечен документ и изчакайте страницата да се зареди отново, преди да сканирате следващия. Регистрираният библиотечни документи трябва да се появи в списъка Ви за заемане. Бутонът 'Запиши' се използва само ако въведете баркода ръчно."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/help.tt:56
 #, c-format
@@ -13789,7 +13789,7 @@ msgstr "Самостоятелно заемане &rsaquo; %s%s%sKoha %s"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:47
 #, c-format
 msgid "%s Self checkout system"
-msgstr "%s Система за самообслужване"
+msgstr "Система за само връщане на %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:52
 #, c-format
@@ -13996,7 +13996,7 @@ msgstr "не беше намерен в базата данни. Моля, оп�
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:247
 #, c-format
 msgid "Check out, return, or renew an item:"
-msgstr "Проверка, подновяване или връщане на екземпляр:"
+msgstr "Проверка, презаписване или връщане на екземпляр:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:249
 #, c-format
@@ -14025,7 +14025,7 @@ msgstr "%s Резервации (%s) "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:304
 #, c-format
 msgid "Checkouts for %s "
-msgstr "Заемания за %s "
+msgstr "Заемания от %s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:308
 #, c-format
