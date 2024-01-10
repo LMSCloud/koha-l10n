@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-06 03:03+0000\n"
-"PO-Revision-Date: 2023-12-22 03:02+0000\n"
-"Last-Translator: Ronald Wijlens <r.j.wijlens@saxion.nl>\n"
+"PO-Revision-Date: 2024-01-11 03:00+0000\n"
+"Last-Translator: Jan Mark Koopmans <j.m.koopmans@saxion.nl>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nl-NL\n"
 "MIME-Version: 1.0\n"
@@ -3642,9 +3642,9 @@ msgid "Report type"
 msgstr "Record type"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:19
-#, fuzzy, c-format
+#, c-format
 msgid "Report rows processed"
-msgstr "%s mappen verwerkt."
+msgstr "Rijen in rapport verwerkt"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:24
 #, fuzzy, c-format
@@ -3693,9 +3693,9 @@ msgid "already exists in this data provider and was not created. New usage stati
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:91
-#, fuzzy, c-format
+#, c-format
 msgid "successfully added"
-msgstr "Veld succesvol toegevoegd: %s "
+msgstr "succesvol toegevoegd"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:93
 #, fuzzy, c-format
@@ -4018,9 +4018,9 @@ msgid "Items"
 msgstr "Exemplaren"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/biblio-view-menu.inc:59
-#, fuzzy, c-format
+#, c-format
 msgid "Bookings ("
-msgstr "Bezit (%s)"
+msgstr "Boekingen ("
 
 #. For the first occurrence,
 #. %1$s:  Biblio.HoldsCount( biblio_object_id ) | html 
@@ -5154,9 +5154,9 @@ msgstr "Zoek index"
 #. %48$s:  item.checkout.date_due | $KohaDates | $raw 
 #. %49$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/catalogue/itemsearch_item.csv.inc:1
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s %s %s %s %s %s \"%s %sby %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
-msgstr "%s %s %s %s %s %s %s %s %s \"%s %sdoor %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
+msgstr "%s %s %s %s %s %s %s %s %s \"%s %sby %s%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s\" %s \"%s%s%s\" "
 
 #. %1$s:  IF ( Koha.Preference( 'marcflavour' ) == 'UNIMARC' && biblio.author ) 
 #. %2$s:  END 
@@ -6718,9 +6718,9 @@ msgstr "Terugroepingen geschiedenis"
 
 #. %1$s:  patron.alert_subscriptions.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:189
-#, fuzzy, c-format
+#, c-format
 msgid "Alert subscriptions (%s)"
-msgstr "Abonnementen (%s)"
+msgstr "Attendering abonnementen (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:205
 #, c-format
@@ -7960,19 +7960,19 @@ msgid "Availability "
 msgstr "Beschikbaarheid"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:34
-#, fuzzy, c-format
+#, c-format
 msgid "Showing only records with available items"
-msgstr "Alleen beschikbare exemplaren worden getoond"
+msgstr "Alleen records met beschikbare exemplaren worden getoond"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:37
-#, fuzzy, c-format
+#, c-format
 msgid "Show all records"
-msgstr "Toon alle bestellingen"
+msgstr "Toon alle records"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:39
-#, fuzzy, c-format
+#, c-format
 msgid "Limit to records with available items"
-msgstr "Filter op momenteel beschikbare exemplaren"
+msgstr "Filter op records met beschikbare exemplaren"
 
 #. %1$s:  FOREACH relate IN related 
 #. %2$s:  relate.related_search | html 
@@ -9375,7 +9375,7 @@ msgstr "Formulier toevoegen"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:97
 #, c-format
 msgid "Confirm deletion"
-msgstr "Verwijdering bevestigen"
+msgstr "Bevestig verwijdering"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:443
 #, c-format
@@ -9569,9 +9569,8 @@ msgstr "Kan sjabloon niet verwijderen."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch-modal-strings.inc:2
-#, fuzzy
 msgid "Unable to create local request"
-msgstr "Kan de inschrijving niet annuleren!"
+msgstr "Kan geen lokale aanvraag maken"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch-modal-strings.inc:2
@@ -10136,35 +10135,35 @@ msgstr "De wachtwoorden komen niet overeen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/intranet-bottom.inc:96
 #: koha-tmpl/intranet-tmpl/prog/en/includes/intranet-bottom.inc:135
-#, fuzzy, c-format
+#, c-format
 msgid "Accept all cookies"
-msgstr "Werkelijke prijs"
+msgstr "Accepteer alle cookies"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/intranet-bottom.inc:98
 #: koha-tmpl/intranet-tmpl/prog/en/includes/intranet-bottom.inc:137
 #, c-format
 msgid "Accept only essential cookies"
-msgstr ""
+msgstr "Accepteer alleen essentiële cookies"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/intranet-bottom.inc:99
-#, fuzzy, c-format
+#, c-format
 msgid "More information"
-msgstr "Serverinformatie"
+msgstr "Meer informatie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/intranet-bottom.inc:108
-#, fuzzy, c-format
+#, c-format
 msgid "Cookie consent"
-msgstr "Voorvertoning inhoud"
+msgstr "Toestemming voor cookies"
 
 #. INPUT type=checkbox name=consentCheckbox
 #: koha-tmpl/intranet-tmpl/prog/en/includes/intranet-bottom.inc:123
 msgid "Consent to cookie"
-msgstr ""
+msgstr "Geef toestemming voor cookie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/intranet-bottom.inc:138
 #, c-format
 msgid "Accept selected non-essential cookies"
-msgstr ""
+msgstr "Accepteer de geselecteerde niet-essentiële cookies"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/keyboard_shortcuts.inc:3
 #, c-format
@@ -10930,9 +10929,9 @@ msgstr "Print innamebon"
 
 #. %1$s:  notice.name | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:36
-#, fuzzy, c-format
+#, c-format
 msgid "Print %s"
-msgstr "Printen "
+msgstr "Afdrukken %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:43
 #, c-format
@@ -11998,9 +11997,9 @@ msgstr "Clubs (%s/%s)"
 
 #. %1$s:  patron_lists_count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:83
-#, fuzzy, c-format
+#, c-format
 msgid "Patron lists (%s)"
-msgstr "Lenerlijsten"
+msgstr "Lenerlijsten (%s)"
 
 #. %1$s:  fines | $Price 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:100
@@ -12049,9 +12048,9 @@ msgstr "Totaal verschuldigd"
 #. %15$s:  WRAPPER tab_panel tabname="holds" 
 #. %16$s:  IF ( holds_count ) 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:129
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s Loading... %s %s %s %s Loading... %s %s %s %s %s %s %s %s "
-msgstr "%s %s %s %s Laden... %s %s %s %s %s %s %s %s "
+msgstr "%s %s %s %s Laden... %s %s %s %s Laden... %s %s %s %s %s %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:157
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/holdshistory.tt:65
@@ -12839,9 +12838,9 @@ msgstr "%s Wacht hier %s tot %s %s "
 
 #. %1$s:  w.waitingdate | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:220
-#, fuzzy, c-format
+#, c-format
 msgid "Waiting here since %s. "
-msgstr "Staat klaar bij %s per %s"
+msgstr "Staat klaar sinds %s. "
 
 #. %1$s:  waiting_elsewhere | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:230
@@ -14724,9 +14723,9 @@ msgstr "Open Document Spreadsheet"
 
 #. %1$s:  processed_notice_title | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:138
-#, fuzzy, c-format
+#, c-format
 msgid "Rendered template (%s)"
-msgstr "Kaartsjablonen"
+msgstr "Weergegeven sjabloon (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:141
 #, c-format
@@ -25860,14 +25859,14 @@ msgid "Primary acquisitions contact "
 msgstr "Primair acquisitiecontact"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:48
-#, fuzzy, c-format
+#, c-format
 msgid "Contact when ordering "
-msgstr "Contactpersoon voor bestellen?"
+msgstr "Contactpersoon voor bestellen "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:59
-#, fuzzy, c-format
+#, c-format
 msgid "Contact about late orders "
-msgstr "Contact opnemen over vertraagde bestellingen?"
+msgstr "Contact opnemen over vertraagde bestellingen "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:68
 #, fuzzy, c-format
@@ -25880,9 +25879,9 @@ msgid "Primary serials contact "
 msgstr "Primair abonnementencontact"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:88
-#, fuzzy, c-format
+#, c-format
 msgid "Contact about late issues "
-msgstr "Contact opnemen over vertraagde afleveringen?"
+msgstr "Contact opnemen over vertraagde afleveringen "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:97
 #, c-format
@@ -27860,9 +27859,9 @@ msgid "Statistic 2 done on: "
 msgstr "Statistiek 2 uitgevoerd op: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:461
-#, fuzzy, c-format
+#, c-format
 msgid "If you delete this fund, all orders linked to this fund will be deleted!"
-msgstr "Bij het verwijderen van dit fonds worden alle hieraan gekoppelde bestellingen ook verwijderd! "
+msgstr "Bij het verwijderen van dit fonds worden alle hieraan gekoppelde bestellingen ook verwijderd!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:464
 #, c-format
@@ -28532,9 +28531,9 @@ msgid "Plugin:"
 msgstr "Plugin:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:303
-#, fuzzy, c-format
+#, c-format
 msgid "Confirm deletion of subfield "
-msgstr "Bevestig verwijdering van subveld %s?"
+msgstr "Bevestig verwijdering van subveld "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:307
 #, c-format
@@ -29214,7 +29213,7 @@ msgstr "Lijst van redenen voor afwijzing of acceptatie van lenersuggesties (vers
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:502
 #, c-format
 msgid "List of Item types to display in a drop down menu on the Purchase suggestion form on the OPAC. When creating the authorized values for SUGGEST_FORMAT, enter a description into this form so it is visible on the OPAC to patrons."
-msgstr "Lijst van item types om weer te geven in een dropdown menu op het Aanschafsuggestieformulier in de OPAC. Voer bij het maken van geautoriseerde waardes voor SUGGEST_FORMAT een beschrijving in in dit formulier zodat het in de OPAC zichtbaar is voor leners."
+msgstr "Lijst van item types om weer te geven in een dropdown menu op het Aanschafsuggestieformulier in de catalogus. Voer bij het maken van geautoriseerde waardes voor SUGGEST_FORMAT een beschrijving toe in dit formulier zodat het in de catalogus zichtbaar is voor leners."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:504
 #, c-format
@@ -29795,9 +29794,9 @@ msgstr "Kies bibliotheek"
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:121
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s New library %s "
-msgstr "%s %s %s %s Geen %s "
+msgstr "%s %s %s Nieuwe bibliotheek %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:137
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:141
@@ -30815,9 +30814,9 @@ msgid "Configuration okay"
 msgstr "configuratiebestand."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:43
-#, fuzzy, c-format
+#, c-format
 msgid "You don't have errors in your MARC configuration "
-msgstr "Er zit(ten) %s fout(en) in de MARC configuratie. Herstel deze voor het gebruik van Koha"
+msgstr "Er zit(ten) geen fout(en) in de MARC configuratie "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:50
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:315
@@ -31459,7 +31458,7 @@ msgstr "Uitleen- en boeteregels"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/clone-rules.tt:39
 #, c-format
 msgid "Cloning circulation and fine rules %s from standard rules%s from \"%s\"%s %s to \"%s\"%s "
-msgstr "Uitleen- en boeteregels klonen %s klonen van standaard regels %s van \"%s\"%s %s naar \"%s\"%s "
+msgstr "Uitleen- en boeteregels klonen %s van standaard regels %s van \"%s\"%s %s to \"%s\"%s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/clone-rules.tt:46
 #, c-format
@@ -32594,9 +32593,9 @@ msgid "With automatic ordering quotes generate orders without staff intervention
 msgstr "Bij automatisch opvragen prijsopgaven, bestelling aanmaken zonder staf bemoeienis. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:267
-#, fuzzy, c-format
+#, c-format
 msgid "Confirm deletion of account?"
-msgstr "Bevestig verwijdering van contract "
+msgstr "Bevestig verwijdering van account?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:278
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:310
@@ -33334,9 +33333,9 @@ msgstr "Wijzig patroon"
 #. %7$s:  END #/ WRAPPER breadcrumbs 
 #. %8$s:  END #/ WRAPPER sub-header.inc 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:36
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s Interlibrary loan batch statuses %s %s %s %s "
-msgstr "%s %s %s %s Laden... %s %s %s %s %s %s %s %s "
+msgstr "%s %s %s %s IBL batch statussen %s %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:73
@@ -33465,7 +33464,7 @@ msgstr "Inchecken"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/item_circulation_alerts.tt:184
 msgid "Blocked!"
-msgstr "Geblokkeerd."
+msgstr "Geblokkeerd!"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/item_circulation_alerts.tt:184
@@ -33484,9 +33483,9 @@ msgid "New search field"
 msgstr "Nieuw zoekveld"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:41
-#, fuzzy, c-format
+#, c-format
 msgid "Field successfully added "
-msgstr "Veld succesvol toegevoegd: %s "
+msgstr "Veld succesvol toegevoegd "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:46
 #, c-format
@@ -33511,9 +33510,9 @@ msgid "Failed to delete field."
 msgstr "Veld verwijderen mislukt."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:59
-#, fuzzy, c-format
+#, c-format
 msgid "Field successfully updated "
-msgstr "Veld succesvol bijgewerkt: %s "
+msgstr "Veld succesvol bijgewerkt "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:64
 #, c-format
@@ -33583,9 +33582,9 @@ msgid "Item type deleted successfully"
 msgstr "Geïmporteerde partij succesvol verwijderd"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:135
-#, fuzzy, c-format
+#, c-format
 msgid "This item type already exists"
-msgstr "Item type bestaat al!"
+msgstr "Dit item type bestaat al"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:137
 #, c-format
@@ -34224,9 +34223,9 @@ msgid "The %s preference is not set, don't forget to enable it for rules to take
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:70
-#, fuzzy, c-format
+#, c-format
 msgid "Remove rule?"
-msgstr "Deze regel verwijderen"
+msgstr "Regel verwijderen?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:71
 #, c-format
@@ -34761,9 +34760,9 @@ msgstr "Voeg overeenkomstpunt toe"
 
 #. %1$s:  matchpoint.mp_num | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:173
-#, fuzzy, c-format
+#, c-format
 msgid "Match point %s"
-msgstr "Match punt "
+msgstr "Punt(en) van overeenkomst %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:226
@@ -35208,7 +35207,7 @@ msgstr "Bewerkbaar in OPAC: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:164
 #, c-format
 msgid "Check to allow patrons to edit this attribute from their details page in the OPAC. (Requires above)"
-msgstr "Vink aan om toe te staan ​​dat gebruikers dit kenmerk kunnen bewerken vanaf hun detailpagina in de OPAC. (Vereist bovenstaande)"
+msgstr "Vink aan om toe te staan dat gebruikers dit kenmerk kunnen bewerken vanaf hun detailpagina in de OPAC. (Vereist bovenstaande)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:172
 #, fuzzy, c-format
@@ -35508,9 +35507,9 @@ msgid "Are you sure you want to delete '%s'?"
 msgstr "'%s' verwijderen?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:196
-#, fuzzy, c-format
+#, c-format
 msgid "Lift after payment?"
-msgstr "Doe een betaling"
+msgstr "Opheffen na betaling?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:197
 #, fuzzy, c-format
@@ -35578,16 +35577,16 @@ msgstr "Bewerk exemplaar"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/search_filters.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:56
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:754
-#, fuzzy, c-format
+#, c-format
 msgid "Show in OPAC?"
-msgstr "Verberg in OPAC"
+msgstr "Tonen in OPAC?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/search_filters.tt:83
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:62
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:756
-#, fuzzy, c-format
+#, c-format
 msgid "Show in staff interface?"
-msgstr "Koha staf interface"
+msgstr "Tonen in staf interface?"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -35768,7 +35767,7 @@ msgstr "Mapping"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:340
 #, c-format
 msgid "No %s "
-msgstr "Geen %s "
+msgstr "Nee %s "
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:289
@@ -35779,9 +35778,9 @@ msgstr "Ja %s "
 #. %1$s:  IF mapping.filter == 'punctuation' 
 #. %2$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:302
-#, fuzzy, c-format
+#, c-format
 msgid "%sPunctuation%s "
-msgstr "%s Aanhef: "
+msgstr "%sInterpunctie%s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:370
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:373
@@ -37410,9 +37409,9 @@ msgstr "Systeemvoorkeuren"
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:86
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s New local use system preference %s "
-msgstr "%sWijzig %sVoeg toe %s een systeemvoorkeur "
+msgstr "%s %s %s Nieuwe systeemvoorkeur voor lokaal gebruik %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:101
 #, fuzzy, c-format
@@ -38240,7 +38239,7 @@ msgstr "Autolocatie staat aan en u logt in vanaf een IP adres dat niet overeenko
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:72
 #, c-format
 msgid "This account has been locked!"
-msgstr "Dit account is geblokkeerd."
+msgstr "Dit account is geblokkeerd!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:79
@@ -38250,9 +38249,9 @@ msgid "You must reset your password"
 msgstr "U moet uw wachtwoord herstellen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:77
-#, fuzzy, c-format
+#, c-format
 msgid "Your password has expired!"
-msgstr "Lenerpas is verlopen."
+msgstr "Je wachtwoord is verlopen!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:83
 #, fuzzy, c-format
@@ -39041,9 +39040,9 @@ msgstr "E-mailadres:"
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:6
-#, fuzzy, c-format
+#, c-format
 msgid "Bookings for %s &rsaquo; Bookings &rsaquo; Circulation &rsaquo; Koha"
-msgstr "Bevestig aanvragen &rsaquo; Aanvragen &rsaquo; Uitlenen &rsaquo; Koha"
+msgstr "Boekingen voor %s &rsaquo; Boekingen &rsaquo; Uitlenen &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:25
 #, c-format
@@ -41605,9 +41604,9 @@ msgstr "De geselecteerde zoekactie: "
 #. %3$s:  t("Koha") | html 
 #. %4$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/showelastic.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "%s Elasticsearch record &rsaquo; %s &rsaquo; %s %s"
-msgstr "%s Statistieken voor %s %s &rsaquo; Leners &rsaquo; Koha "
+msgstr "%s Elasticsearch record &rsaquo; %s &rsaquo; %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:31
 #, fuzzy, c-format
@@ -43307,9 +43306,9 @@ msgstr "Lener werd automatisch gewisseld door het lezen van de lenerpas tijdens 
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:76
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:160
-#, fuzzy, c-format
+#, c-format
 msgid "Note about the accompanying materials: "
-msgstr "Opmerking over de bijkomende materialen: %s"
+msgstr "Opmerking over de bijbehorende materialen: "
 
 #. %1$s:  alert.ITEM_LOST | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:82
@@ -43617,15 +43616,15 @@ msgstr "%s(%s)%s is teruggeroepen door "
 
 #. %1$s:  BOOKED_TO_ANOTHER.start_date | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:262
-#, fuzzy, c-format
+#, c-format
 msgid "Due for another patron booking by: %s "
-msgstr "Zoek nog een record"
+msgstr "Verwacht voor een boeking door een andere lener op: %s "
 
 #. %1$s:  BOOKED_EARLY.start_date | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:268
-#, fuzzy, c-format
+#, c-format
 msgid "Patron has this item booked for checkout on %s "
-msgstr "Leners met de meeste uitleningen"
+msgstr "Lener heeft dit item geboekt voor uitlening op %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:284
 #, c-format
@@ -43657,9 +43656,9 @@ msgid "Cancel recall"
 msgstr "Annuleren herroeping"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:355
-#, fuzzy, c-format
+#, c-format
 msgid "Reducing due date to: "
-msgstr "Geef inleverdatum op %s: "
+msgstr "Inleverdatum vervroegen tot: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:361
 #, fuzzy, c-format
@@ -44019,7 +44018,7 @@ msgstr "Lokale uitlening"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:856
 #, c-format
 msgid "%s (%s). %s %s %s. %s Due on %s "
-msgstr "%s (%s). %s %s %s. %s In te leveren op %s "
+msgstr "%s (%s). %s %s %s. %s Terugverwacht op %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:856
 #, c-format
@@ -44051,17 +44050,17 @@ msgstr "Deze barcode is reeds ingediend, wacht op het uitleenproces..."
 #. %2$s:  ItemTypes.GetDescription( rule.itemtype ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1073
-#, fuzzy, c-format
+#, c-format
 msgid "Item type: %s %s %s "
-msgstr "Itemtype is %s"
+msgstr "Itemtype: %s %s %s "
 
 #. %1$s:  IF rule.categorycode 
 #. %2$s:  Categories.GetName( rule.categorycode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1081
-#, fuzzy, c-format
+#, c-format
 msgid "Patron category: %s %s %s "
-msgstr "Lenercategorie = %s"
+msgstr "Lenercategorie: %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1086
 #, fuzzy, c-format
@@ -44072,9 +44071,9 @@ msgstr "lenercategorieën"
 #. %2$s:  Branches.GetName( rule.branchcode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1089
-#, fuzzy, c-format
+#, c-format
 msgid "Library: %s %s %s "
-msgstr "Bibliotheek: %s"
+msgstr "Bibliotheek: %s %s %s "
 
 #. %1$s:  INCLUDE 'patron-title.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:36
@@ -46419,9 +46418,9 @@ msgid "Holds waiting:"
 msgstr "Wachtende aanvragen:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:102
-#, fuzzy, c-format
+#, c-format
 msgid "Holds waiting past their expiration date:"
-msgstr "Aanvragen bij andere bibliotheken (%s)"
+msgstr "Klaarstaande aanvragen met verstreken vervaldatum:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:105
 #, c-format
@@ -46469,9 +46468,9 @@ msgstr "Annuleer geselecteerde (%s)"
 #. %1$s:  club.name | html | $HtmlTags tag="em" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "Club enrollments for %s"
-msgstr "Clubinschrijvingen van "
+msgstr "Clubinschrijvingen voor %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:43
 #, c-format
@@ -46575,7 +46574,7 @@ msgstr "Kan club niet verwijderen!"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs.tt:165
 msgid "Unable to delete template!"
-msgstr "Kan sjabloon niet verwijderen."
+msgstr "Kan sjabloon niet verwijderen!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-clubs-tab.tt:4
 #, c-format
@@ -47233,7 +47232,7 @@ msgstr "Ingeschakeld?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:177
 #, c-format
 msgid "No DEPARTMENT authorized values found!"
-msgstr "Geen AFDELING geautoriseerde waardes gevonden."
+msgstr "Geen geautoriseerde waardes voor DEPARTMENT gevonden!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:180
 #, fuzzy, c-format
@@ -47256,9 +47255,9 @@ msgid "An administrator must create one or more authorized values with the categ
 msgstr "Een beheerder moet één of meerdere geautoriseerde waarden aanmaken in de categorie AFDELING."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/invalid-course.tt:22
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid course"
-msgstr "Ongeldige cursus!"
+msgstr "Ongeldige cursus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/errors/errorpage.tt:32
 #, c-format
@@ -47769,9 +47768,9 @@ msgstr "Bekijk IBL-aanvragen"
 
 #. %1$s:  batch.name | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:812
-#, fuzzy, c-format
+#, c-format
 msgid "View ILL requests for batch \"%s\""
-msgstr "Bekijk IBL-aanvragen"
+msgstr "Bekijk IBL-aanvragen voor batch \"%s\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:816
 #, c-format
@@ -47885,9 +47884,9 @@ msgstr "Voer gebruikersnaam en wachtwoord in"
 #. %16$s:  t("Koha") | html 
 #. %17$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step1.tt:4
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s Choose your language %s %s %s %s %s %s %s %s %s %s %s %s &rsaquo; %s &rsaquo; %s %s"
-msgstr "%s %s %s Geen titel %s %s %s%s,%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s "
+msgstr "%s %s Kies je taal %s %s %s %s %s %s %s %s %s %s %s %s &rsaquo; %s &rsaquo; %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step1.tt:32
 #, c-format
@@ -49808,14 +49807,14 @@ msgstr "Rechten instellen voor %s &rsaquo; Leners &rsaquo; Koha "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:37
-#, fuzzy, c-format
+#, c-format
 msgid "Alert subscriptions"
-msgstr "Abonnement verwijderen"
+msgstr "Attenderingsmeldingen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:75
-#, fuzzy, c-format
+#, c-format
 msgid "Unsubscribe from email alerts"
-msgstr "bevestig e-mailadres"
+msgstr "Afmelden voor attenderingsmeldingen via e-mail"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/alert-subscriptions.tt:85
 #, fuzzy, c-format
@@ -50168,7 +50167,7 @@ msgstr "Deze titel kan niet aangevraagd worden."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/discharge.tt:46
 #, c-format
 msgid "%s An error occurs when generating the PDF file. Please contact the administrator to resolve this problem. %s "
-msgstr "%s Er is een fout opgetreden tijdens het genereren van het PDF bestand. Neem contact op met met de beheerder. %s "
+msgstr "%s Er is een fout opgetreden tijdens het genereren van het PDF bestand. Neem contact op met de beheerder. %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/discharge.tt:54
 #, c-format
@@ -50798,9 +50797,9 @@ msgid "This member has no email"
 msgstr "Dit lid heeft geen e-mailadres"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:108
-#, fuzzy, c-format
+#, c-format
 msgid "Duplicate patron"
-msgstr "Lenerrecord dupliceren?"
+msgstr "Lenerrecord dupliceren"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:117
 #, c-format
@@ -52236,9 +52235,9 @@ msgstr "Automatisch verlengen: Lener heeft zich afgemeld"
 
 #. %1$s:  INCLUDE 'patron-title.inc' no_html = 1 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-print.tt:23
-#, fuzzy, c-format
+#, c-format
 msgid "Account summary: %s &rsaquo;"
-msgstr "Account overzicht: %s %s (%s)"
+msgstr "Account overzicht: %s &rsaquo;"
 
 #. %1$s:  IF ( patron.phone ) 
 #. %2$s:  patron.phone | html 
@@ -53879,9 +53878,9 @@ msgid "Patron not in your library group"
 msgstr "Exemplaar behoort niet tot uw bibliotheek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/patron-lists-tab.tt:9
-#, fuzzy, c-format
+#, c-format
 msgid "Patron lists with this patron"
-msgstr "Lenerlijst met geïmporteerde leners: %s"
+msgstr "Lijsten van deze lener"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/patron-lists-tab.tt:51
 #, fuzzy, c-format
@@ -54011,9 +54010,9 @@ msgstr "Creëer lenerkaart lay-out"
 
 #. %1$s:  layout_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:54
-#, fuzzy, c-format
+#, c-format
 msgid "Edit patron card layout %s"
-msgstr "Bewerk lenerkaart lay-out"
+msgstr "Bewerk layout lenerkaart %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:65
 #, fuzzy, c-format
@@ -54199,9 +54198,9 @@ msgstr "Bewerk printerprofiel %s"
 
 #. %1$s:  template_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:38
-#, fuzzy, c-format
+#, c-format
 msgid "Edit patron card template (%s)"
-msgstr "Bewerk lenerkaart lay-out"
+msgstr "Bewerk sjabloon layout lenerkaart (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:56
@@ -54490,9 +54489,9 @@ msgstr "Eerste pasnummer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-disabled.tt:24
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-disabled.tt:36
-#, fuzzy, c-format
+#, c-format
 msgid "Plugins disabled"
-msgstr "Plugins uitgeschakeld!"
+msgstr "Plugins uitgeschakeld"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-disabled.tt:33
 #, c-format
@@ -55132,9 +55131,9 @@ msgstr "De Wachtend-status van deze terugroeping terugdraaien?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/request.tt:29
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/request.tt:39
-#, fuzzy, c-format
+#, c-format
 msgid "Existing recalls"
-msgstr "Bestaande aanvragen"
+msgstr "Bestaande terugroepingen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/request.tt:55
 #, fuzzy, c-format
@@ -56651,7 +56650,7 @@ msgstr "Stuur getoonde records naar batch record verwijdering"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1082
 #, c-format
 msgid "Add to list"
-msgstr "Voeg aan lijst toe"
+msgstr "Voeg toe aan lijst"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1082
@@ -59577,7 +59576,7 @@ msgstr "%s maanden %s%s %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:61
 #, c-format
 msgid "(enter amount in numerals) "
-msgstr "(voer bedrag in in cijfers) "
+msgstr "(voer bedrag in cijfers in) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:353
 #, c-format
@@ -59857,9 +59856,9 @@ msgstr "Details voor abonnement #%s &rsaquo; Tijschriften &rsaquo; Koha"
 #. %2$s:  IF closed 
 #. %3$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:46
-#, fuzzy, c-format
+#, c-format
 msgid "Subscription for %s %s(closed)%s"
-msgstr "Abonnement voor %s %s %s(gesloten)%s"
+msgstr "Abonnement voor %s %s(gesloten)%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:50
 #, c-format
@@ -60626,9 +60625,9 @@ msgstr "Er hebben zich nog geen leners aangemeld voor attendering op dit abonnem
 #. %12$s:  t("Koha") | html 
 #. %13$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:11
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s &rsaquo; %s Add suggestion &rsaquo; %s %s %s &rsaquo; %s %s &rsaquo; %s &rsaquo; %s %s"
-msgstr "%s Inhoud van %s &rsaquo; %s %s Maak nieuwe lijst &rsaquo; %s %s Bewerk lijst %s &rsaquo; %s Lijsten &rsaquo; Koha "
+msgstr "%s %s %s %s &rsaquo; %s Suggestie toevoegen &rsaquo; %s %s %s &rsaquo; %s %s &rsaquo; %s &rsaquo; %s %s"
 
 #. %1$s:  suggestionid | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:73
@@ -61163,7 +61162,7 @@ msgstr "De root koha gebruiker in het KOHA_CONF bestand (standaard: kohaadmin) i
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:102
 #, c-format
 msgid "Unrecognized error!"
-msgstr "Niet herkende fout."
+msgstr "Onbekende fout!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:124
 #, c-format
@@ -61740,9 +61739,9 @@ msgstr "Keer terug naar meerdere exmplaren verwijderen"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:280
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:78
-#, fuzzy, c-format
+#, c-format
 msgid "The job has been enqueued!"
-msgstr "Het bericht is correct in de wachtrij gezet."
+msgstr "De opdracht is in de wachtrij gezet!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-del.tt:194
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:64
@@ -63339,9 +63338,9 @@ msgid "Header row could not be parsed"
 msgstr "Kop rij kon niet geparsed worden"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:132
-#, fuzzy, c-format
+#, c-format
 msgid "could not be parsed!"
-msgstr "Kop rij kon niet geparsed worden"
+msgstr "kon niet worden verwerkt!"
 
 #. %1$s:  missing_critical.key | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:134
@@ -63914,9 +63913,9 @@ msgstr "Gevonden op verkeerde plaats"
 
 #. %1$s:  result.notforloan | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:324
-#, fuzzy, c-format
+#, c-format
 msgid "Item has unselected \"Not for loan\" status \"%s\""
-msgstr "Exemplaar is normaal niet uitleenbaar %s(%s)%s."
+msgstr "Status \"niet uitleenbaar\" is niet geselecteerd bij dit exemplaar \"%s\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:326
 #, fuzzy, c-format
@@ -65751,9 +65750,9 @@ msgid "Upload a file to stage"
 msgstr "Bestand uploaden"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:117
-#, fuzzy, c-format
+#, c-format
 msgid "Pre-fill values with profile?"
-msgstr "Waarden vooraf vullen met profiel"
+msgstr "Waarden vooraf vullen met profiel?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:120
 #, fuzzy, c-format
@@ -65827,9 +65826,9 @@ msgid "%s ( other format via plugin)"
 msgstr "%s ( ander formaat via plug-in)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:176
-#, fuzzy, c-format
+#, c-format
 msgid "Modify records using a MARC modification template?"
-msgstr "Beheer MARC wijzigingssjablonen"
+msgstr "Records aanpassen met MARC wijzigingssjabloon?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:192
 #, c-format
@@ -67069,14 +67068,14 @@ msgid "Error adding to list"
 msgstr "Fout bij toevoegen exemplaren:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:18
-#, fuzzy, c-format
+#, c-format
 msgid "Could not create a new list. Please check the name."
-msgstr "%sKon geen nieuwe lijst maken. Controleer de naam."
+msgstr "Kon geen nieuwe lijst maken. Controleer de naam."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:19
-#, fuzzy, c-format
+#, c-format
 msgid "Sorry, you do not have permission to add items to this list."
-msgstr "%s %sSorry, u heeft geen toestemming om items aan de lijst toe te voegen."
+msgstr "Sorry, je hebt geen toestemming om items aan deze lijst toe te voegen."
 
 #. %1$s:  ELSE 
 #. %2$s:  END 
