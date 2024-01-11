@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.13.000\n"
 "POT-Creation-Date: 2023-12-20 04:07+0000\n"
-"PO-Revision-Date: 2024-01-11 03:14+0000\n"
+"PO-Revision-Date: 2024-01-12 08:41+0000\n"
 "Last-Translator: Jan Mark Koopmans <j.m.koopmans@saxion.nl>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nl-NL\n"
@@ -69,7 +69,7 @@ msgstr "Assistent vertalingsmanager"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:13
 #, c-format
 msgid "Topic expert"
-msgstr "Onderwerpsdeskundige"
+msgstr "Expert onderwerp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:14
 #, c-format
@@ -149,7 +149,7 @@ msgstr "Toegankelijkheidsbepleiter"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:29
 #, c-format
 msgid "Meeting facilitator"
-msgstr "Meeting facilitator"
+msgstr "Vergaderfacilitator"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:50
 #, c-format
@@ -392,7 +392,7 @@ msgstr "Verloren item kosten teruggave"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:39
 #, c-format
 msgid "Overpayment refund"
-msgstr "Terugstorting teveel betaald"
+msgstr "Terugbetaling teveel betaalde kosten"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:73
@@ -408,7 +408,7 @@ msgstr "Terugboeking verwerkingskosten zoekgeraakt exemplaar"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:42
 #, c-format
 msgid "Purchase"
-msgstr "Aanschaffen"
+msgstr "Aankoop"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:43
 #, c-format
@@ -1653,7 +1653,7 @@ msgstr "Steden en dorpen"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:36
 #, c-format
 msgid "Curbside pickup"
-msgstr "Afhaling"
+msgstr "Ophalen klaarstaande items"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:58
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:125
@@ -1722,7 +1722,7 @@ msgstr "Plugins"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:116
 #, c-format
 msgid "Jobs"
-msgstr "Processen"
+msgstr "Opdrachten"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:91
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:24
@@ -2626,7 +2626,7 @@ msgstr "Zoeken"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:4
 #, c-format
 msgid "We recommend cloud-based mobile authenticator apps such as Authy, Duo Mobile, and LastPass. They can restore access if you lose your hardware device."
-msgstr "Een authenticatie app is vereist. Deze kan ook helpen toegang te herstellen bij verlies van het device."
+msgstr "We raden cloudgebaseerde mobiele authenticator-apps aan, zoals Authy, Duo Mobile en LastPass. Ze kunnen de toegang herstellen als je je hardware-apparaat kwijtraakt."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:5
 #, c-format
@@ -2636,7 +2636,7 @@ msgstr "Code scannen werkt niet?"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:6
 #, c-format
 msgid "To add the entry manually, provide the following details to the application on your phone."
-msgstr "Geef de volgende details op in de mobiele app om handmatig toe te voegen."
+msgstr "Om de vermelding handmatig toe te voegen, voeg je de volgende gegevens toe in de applicatie op je telefoon."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:7
 #, c-format
@@ -2666,7 +2666,7 @@ msgstr "PIN code: "
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:28
 msgid "Register with two-factor app"
-msgstr "Registreer met tweefactorapp"
+msgstr "Registreer met de tweefactorauthenticatie-app (2FA)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search-results.inc:19
 #, c-format
@@ -3273,7 +3273,7 @@ msgstr "Bibliografisch record %s is niet verwijderd. Een aanvraag kon niet geann
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_biblio_record_deletion.inc:38
 #, c-format
 msgid "The bibliographic record %s was not deleted. An error was encountered when deleting an item (itemnumber %s)."
-msgstr "Bibliografisch record %s is niet verwijderd. Fout bij het verwijderen van een exemplaar (exemplaarnummer %s)."
+msgstr "Het bibliografische record %s is niet verwijderd. Er is een fout opgetreden bij het verwijderen van een exemplaar (exemplaarnummer %s)."
 
 #. %1$s:  m.biblionumber | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_biblio_record_deletion.inc:40
@@ -3510,7 +3510,7 @@ msgstr "resource #%s"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/create_eholdings_from_biblios.inc:36
 #, c-format
 msgid "eHolding title cannot be created from bibliographic record #%s, encountered the following error: %s."
-msgstr "eHolding titel kan niet worden gecreëerd van bibliografisch record #%s, door de volgende fout: %s."
+msgstr "De eHolding titel kan niet worden gemaakt van het bibliografische record #%s, de volgende fout is opgetreden: %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/marc_import_commit_batch.inc:7
 #, c-format
@@ -3672,7 +3672,7 @@ msgstr "%s beschrijvingen zijn succesvol opnieuw geïndexeerd. "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_elastic_index.inc:11
 #, c-format
 msgid "Job data could not be read, see the logs for details "
-msgstr "Job data kon niet gelezen worden, bekijk de logs voor details "
+msgstr "Data van de opdracht kon niet gelezen worden, bekijk de logbestanden voor details "
 
 #. %1$s:  END 
 #. %2$s:  SWITCH m.code 
@@ -3687,7 +3687,7 @@ msgstr "%s %s %s Er ging iets mis bij het indexeren: %s %s "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_elastic_index.inc:37
 #, c-format
 msgid "Record IDs:"
-msgstr "Record IDs:"
+msgstr "Record ID's:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_holds_queue_for_biblios.inc:6
 #, c-format
@@ -6567,12 +6567,12 @@ msgstr "Neem foto van lener"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:237
 #, c-format
 msgid "Take photo"
-msgstr "Neem foto"
+msgstr "Maak een foto"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:240
 #, c-format
 msgid "Retake photo"
-msgstr "Maak nieuwe foto"
+msgstr "Maak foto opnieuw"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:243
 #, c-format
@@ -6606,7 +6606,7 @@ msgstr "Video stream niet beschikbaar."
 #. IMG
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:254
 msgid "The screen capture will appear in this box."
-msgstr "De schermafdruk verschijnt in dit kader."
+msgstr "De schermafdruk zal in dit kader verschijnen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:273
 #, c-format
