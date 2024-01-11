@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-06 03:03+0000\n"
-"PO-Revision-Date: 2024-01-11 03:00+0000\n"
+"PO-Revision-Date: 2024-01-12 03:01+0000\n"
 "Last-Translator: Jan Mark Koopmans <j.m.koopmans@saxion.nl>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nl-NL\n"
@@ -70,7 +70,7 @@ msgstr "Assistent vertalingsmanager"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:13
 #, c-format
 msgid "Topic expert"
-msgstr "Onderwerpsdeskundige"
+msgstr "Expert onderwerp"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:14
 #, c-format
@@ -150,7 +150,7 @@ msgstr "Toegankelijkheidsbepleiter"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:29
 #, c-format
 msgid "Meeting facilitator"
-msgstr "Meeting facilitator"
+msgstr "Vergaderfacilitator"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:50
 #, c-format
@@ -393,7 +393,7 @@ msgstr "Verloren item kosten teruggave"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:39
 #, c-format
 msgid "Overpayment refund"
-msgstr "Terugstorting teveel betaald"
+msgstr "Terugbetaling teveel betaalde kosten"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:78
@@ -409,7 +409,7 @@ msgstr "Terugboeking verwerkingskosten zoekgeraakt exemplaar"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:42
 #, c-format
 msgid "Purchase"
-msgstr "Aanschaffen"
+msgstr "Aankoop"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:43
 #, c-format
@@ -1780,7 +1780,7 @@ msgstr "Steden en dorpen"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:38
 #, c-format
 msgid "Curbside pickup"
-msgstr "Afhaling"
+msgstr "Ophalen klaarstaande items"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:58
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:128
@@ -1850,7 +1850,7 @@ msgstr "Plugins"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:118
 #, c-format
 msgid "Jobs"
-msgstr "Processen"
+msgstr "Opdrachten"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:91
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:24
@@ -2732,7 +2732,7 @@ msgstr "Opmaak wissen"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:4
 #, c-format
 msgid "We recommend cloud-based mobile authenticator apps such as Authy, Duo Mobile, and LastPass. They can restore access if you lose your hardware device."
-msgstr "Een authenticatie app is vereist. Deze kan ook helpen toegang te herstellen bij verlies van het device."
+msgstr "We raden cloudgebaseerde mobiele authenticator-apps aan, zoals Authy, Duo Mobile en LastPass. Ze kunnen de toegang herstellen als je je hardware-apparaat kwijtraakt."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:5
 #, c-format
@@ -2742,7 +2742,7 @@ msgstr "Code scannen werkt niet?"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:6
 #, c-format
 msgid "To add the entry manually, provide the following details to the application on your phone."
-msgstr "Geef de volgende details op in de mobiele app om handmatig toe te voegen."
+msgstr "Om de vermelding handmatig toe te voegen, voeg je de volgende gegevens toe in de applicatie op je telefoon."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:7
 #, c-format
@@ -2772,7 +2772,7 @@ msgstr "PIN code: "
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:28
 msgid "Register with two-factor app"
-msgstr "Registreer met tweefactorapp"
+msgstr "Registreer met de tweefactorauthenticatie-app (2FA)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search-results.inc:19
 #, c-format
@@ -3383,7 +3383,7 @@ msgstr "Bibliografisch record %s is niet verwijderd. Een aanvraag kon niet geann
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_biblio_record_deletion.inc:38
 #, c-format
 msgid "The bibliographic record %s was not deleted. An error was encountered when deleting an item (itemnumber %s)."
-msgstr "Bibliografisch record %s is niet verwijderd. Fout bij het verwijderen van een exemplaar (exemplaarnummer %s)."
+msgstr "Het bibliografische record %s is niet verwijderd. Er is een fout opgetreden bij het verwijderen van een exemplaar (exemplaarnummer %s)."
 
 #. %1$s:  m.biblionumber | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_biblio_record_deletion.inc:40
@@ -3620,7 +3620,7 @@ msgstr "resource #%s"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/create_eholdings_from_biblios.inc:36
 #, c-format
 msgid "eHolding title cannot be created from bibliographic record #%s, encountered the following error: %s."
-msgstr "eHolding titel kan niet worden gecreëerd van bibliografisch record #%s, door de volgende fout: %s."
+msgstr "De eHolding titel kan niet worden gemaakt van het bibliografische record #%s, de volgende fout is opgetreden: %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:11
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:56
@@ -3670,7 +3670,7 @@ msgstr "Exemplaren toegevoegd"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:35
 #, c-format
 msgid "Monthly usages skipped"
-msgstr ""
+msgstr "Maandelijks gebruik is overgeslagen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:39
 #, fuzzy, c-format
@@ -3680,17 +3680,17 @@ msgstr "Verplichte data toegevoegd"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:43
 #, c-format
 msgid "Yearly usages skipped"
-msgstr ""
+msgstr "Jaarlijks gebruik is overgeslagen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:47
 #, c-format
 msgid "Yearly usages added"
-msgstr ""
+msgstr "Jaarlijks gebruik is toegevoegd"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:89
 #, c-format
 msgid "already exists in this data provider and was not created. New usage statistics were verified anyway"
-msgstr ""
+msgstr "bestaat al bij deze data provider en is niet aangemaakt. Nieuwe gebruiksstatistieken werden wel geverifieerd"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:91
 #, c-format
@@ -3706,17 +3706,17 @@ msgstr "Er is een probleem opgetreden, controleer de logbestanden"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:95
 #, c-format
 msgid "COUNTER report file size exceeds limit defined by the database. Limit is %s MB."
-msgstr ""
+msgstr "Omvang COUNTER rapport overschrijdt de limiet in de database. De limiet is %s MB."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:96
 #, c-format
 msgid "Please increase this limit or harvest a shorter period."
-msgstr ""
+msgstr "Verhoog de limiet of selecteer een kortere periode."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:98
 #, c-format
 msgid "SUSHI response returned no items."
-msgstr ""
+msgstr "SUSHI antwoord leverde geen exemplaren op."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:99
 #, fuzzy, c-format
@@ -3728,7 +3728,7 @@ msgstr "Probeer het later nog eens."
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/erm_sushi_harvester.inc:101
 #, c-format
 msgid "SUSHI returned: %s %s"
-msgstr ""
+msgstr "SUSHI resultaat: %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/marc_import_commit_batch.inc:7
 #, c-format
@@ -3889,7 +3889,7 @@ msgstr "%s Alle beschrijvingen zijn succesvol opnieuw geïndexeerd! "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_elastic_index.inc:11
 #, c-format
 msgid "Job data could not be read, see the logs for details "
-msgstr "Job data kon niet gelezen worden, bekijk de logs voor details "
+msgstr "Data van de opdracht kon niet gelezen worden, bekijk de logbestanden voor details "
 
 #. %1$s:  END 
 #. %2$s:  SWITCH m.code 
@@ -3904,7 +3904,7 @@ msgstr "%s %s %s Er ging iets mis bij het indexeren: %s %s "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_elastic_index.inc:37
 #, c-format
 msgid "Record IDs:"
-msgstr "Record IDs:"
+msgstr "Record ID's:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_holds_queue_for_biblios.inc:6
 #, c-format
@@ -4828,7 +4828,7 @@ msgstr "Nieuw deel-record"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:28
 #, c-format
 msgid "New catalog concern"
-msgstr "Nieuw catalogusbezwaar"
+msgstr "Nieuw catalogusprobleem"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:43
 #, c-format
@@ -6090,7 +6090,7 @@ msgstr "Toon uitleningen"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:13
 #, c-format
 msgid "Checkouts table will show automatically in %s seconds..."
-msgstr ""
+msgstr "De tabel met uitleningen wordt automatisch getoond over %s sekonden..."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:24
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:25
@@ -6914,12 +6914,12 @@ msgstr "Neem foto van lener"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:241
 #, c-format
 msgid "Take photo"
-msgstr "Neem foto"
+msgstr "Maak een foto"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:244
 #, c-format
 msgid "Retake photo"
-msgstr "Maak nieuwe foto"
+msgstr "Maak foto opnieuw"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:247
 #, c-format
@@ -6951,7 +6951,7 @@ msgstr "Video stream niet beschikbaar."
 #. IMG
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:258
 msgid "The screen capture will appear in this box."
-msgstr "De schermafdruk verschijnt in dit kader."
+msgstr "De schermafdruk zal in dit kader verschijnen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:277
 #, c-format
@@ -6961,7 +6961,7 @@ msgstr "Kan geen lenerfoto nemen."
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
 #, c-format
 msgid "The patron must have a cardnumber before a patron photo can be uploaded."
-msgstr "De lener moet een pasnummer hebben voordat een foto kan worden geüpload."
+msgstr "De lener moet een kaartnummer hebben, voordat een foto van de lener kan worden geüpload."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:19
@@ -8978,12 +8978,12 @@ msgstr "Print bon "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:1
 #, c-format
 msgid "This content will be shown to an OPAC user before they can place an article request. "
-msgstr ""
+msgstr "Deze inhoud wordt getoond aan een gebruiker van de catalogus, voordat er een artikel kan worden aangevraagd. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:5
 #, c-format
 msgid "Include this content on the form shown in the OPAC when the user submits a catalog concern report. "
-msgstr ""
+msgstr "Voeg deze inhoud toe aan het formulier dat in de catalogus wordt getoond, wanneer een gebruiker melding stuurt over een catalogusprobleem. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:9
 #, c-format
