@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-06 03:03+0000\n"
-"PO-Revision-Date: 2024-01-08 13:15+0000\n"
+"PO-Revision-Date: 2024-01-12 03:01+0000\n"
 "Last-Translator: Magnus Enger <magnus@enger.priv.no>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nb-NO\n"
@@ -1454,12 +1454,11 @@ msgstr "Kunne ikke Base64-dekode verdien i innstillingen CookieConsentedJS "
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:480
 msgid "Unable to JSON parse decoded value stored in CookieConsentedJS syspref: "
-msgstr ""
+msgstr "Kunne ikke JSON-tolke verdien lagret i innstillingen CookieConsentedJS: "
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:490
-#, fuzzy
 msgid "Add new code"
-msgstr "Legg til ny periode"
+msgstr "Legg til ny kode"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:57
 msgid "Coce image from Amazon.com"
@@ -2035,9 +2034,8 @@ msgid "Add new license"
 msgstr "Legg til ny lisens"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:99
-#, fuzzy
 msgid "There are no licenses created yet"
-msgstr "Det er ikke definert noen lisenser"
+msgstr "Det er ikke definert noen lisenser enda"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:88
@@ -2045,9 +2043,9 @@ msgid "Periods"
 msgstr "Perioder"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:11
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Agreement period %s"
-msgstr "Avtale %s"
+msgstr "Avtaleperiode %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:14
 msgid "Remove this period"
@@ -2068,9 +2066,8 @@ msgstr "Sluttdato"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:43
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:93
-#, fuzzy
 msgid "Cancellation deadline"
-msgstr "Avbrutt "
+msgstr "Deadline for avbestilling"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:64
 msgid "Add new period"
@@ -2082,9 +2079,9 @@ msgid "Related agreements"
 msgstr "Beslektede avtaler"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:11
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Related agreement %s"
-msgstr "Beslektede avtaler"
+msgstr "Beslektet avtale %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:14
 msgid "Remove this relationship"
@@ -2103,14 +2100,13 @@ msgid "Add new related agreement"
 msgstr "Legg til ny relatert avtale"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:86
-#, fuzzy
 msgid "There are no other agreements created yet"
-msgstr "Det er ikke definert noen pakker"
+msgstr "Det er ikke opprettet noen avtaler enda"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit agreement #%s"
-msgstr "Endre handling %s"
+msgstr "Endre avtale nummer %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:7
 msgid "New agreement"
@@ -2203,12 +2199,11 @@ msgstr "på"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:27
 msgid "Show mine only"
-msgstr ""
+msgstr "Vis bare mine"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:53
-#, fuzzy
 msgid "There are no agreements defined"
-msgstr "Det er ikke definert noen pakker"
+msgstr "Det er ikke definert noen avtaler"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:143
 msgid "Select"
@@ -2262,14 +2257,13 @@ msgid "Agreement %s deleted"
 msgstr "Avtale %s slettet"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Agreement #%s"
-msgstr "Avtale %s"
+msgstr "Avtale nr. %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:91
-#, fuzzy
 msgid "Period start"
-msgstr "Merknad til låner"
+msgstr "Periode start"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:92
 msgid "Period end"
@@ -2305,9 +2299,9 @@ msgid "Documents"
 msgstr "Dokumenter"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:11
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Document %s"
-msgstr "Dokumenter"
+msgstr "Dokument %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:14
 msgid "Remove this document"
@@ -2320,36 +2314,30 @@ msgstr "Fil"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFileImport.vue:8
-#, fuzzy
 msgid "Select a file"
-msgstr "Velg alle"
+msgstr "Velg fil"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:31
-#, fuzzy
 msgid "Update file"
-msgstr "Oppdater eksemplar"
+msgstr "Oppdatér fil"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:41
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFileImport.vue:18
-#, fuzzy
 msgid "File name"
-msgstr "Filnavn:"
+msgstr "Filnavn"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:45
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFileImport.vue:22
-#, fuzzy
 msgid "File type"
 msgstr "Filtype"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:49
-#, fuzzy
 msgid "File description"
-msgstr "Beskrivelse"
+msgstr "Filbeskrivelse"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:60
-#, fuzzy
 msgid "Uploaded on"
-msgstr "Avsluttet den"
+msgstr "Opplastet den"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:103
 msgid "Add new document"
@@ -2366,15 +2354,13 @@ msgstr "Denne avtalen er allerede knyttet til denne pakken"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:7
-#, fuzzy
 msgid "Hide filters"
-msgstr "Aktiver filtre"
+msgstr "Skjul filtre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:7
-#, fuzzy
 msgid "Show filters"
-msgstr "Aktiver filtre"
+msgstr "Vis filtre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:13
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:216
@@ -2458,9 +2444,9 @@ msgstr "Type"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:5
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Package #%s"
-msgstr "Pakker"
+msgstr "Pakke nr. %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:13
 msgid "Add package to holdings"
@@ -2472,13 +2458,12 @@ msgstr "Slett pakken fra beholdningen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:40
 msgid "External ID"
-msgstr ""
+msgstr "Ekstern ID"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:59
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:43
-#, fuzzy
 msgid "Package type"
-msgstr "Innholds-type for pakke"
+msgstr "Pakke-type"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:77
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:228
@@ -2489,9 +2474,9 @@ msgstr "Opprettet den"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOResourcesShow.vue:5
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalResourcesShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Resource #%s"
-msgstr "License #%s"
+msgstr "Ressurs nr. %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOResourcesShow.vue:13
 msgid "Add title to holdings"
@@ -2562,14 +2547,13 @@ msgid "Coverage dates"
 msgstr "Datoer for dekning"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:38
-#, fuzzy
 msgid "Please enter a search term"
-msgstr "Legg inn et navn for dette mønsteret"
+msgstr "Legg inn et søke-uttrykk"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:55
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "%s titles found locally"
-msgstr "%s pakker funnet lokalt"
+msgstr "%s titler funnet lokalt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:263
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:214
@@ -2590,9 +2574,9 @@ msgstr "ISBN (Online): %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:5
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Title #%s"
-msgstr "Tittler"
+msgstr "Tittel nr. %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesShow.vue:11
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:14
@@ -2737,24 +2721,21 @@ msgid "Agreement %s"
 msgstr "Avtale %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:17
-#, fuzzy
 msgid "Remove this agreement"
-msgstr "Fjern eksemplar"
+msgstr "Fjern denne avtalen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:23
-#, fuzzy
 msgid "Agreement"
-msgstr "Avtaler"
+msgstr "Avtale"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackageAgreements.vue:52
-#, fuzzy
 msgid "There are no agreements created yet"
-msgstr "Det er ikke definert noen pakker"
+msgstr "Det er ikke definert noen avtaler enda"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit package #%s"
-msgstr "Endre handling %s"
+msgstr "Endre pakke nr. %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:7
 msgid "New package"
@@ -2792,14 +2773,14 @@ msgid "Local package %s deleted"
 msgstr "Lokal pakke %s slettet"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:91
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Titles (%s)"
-msgstr "Tittler"
+msgstr "Titler (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit title #%s"
-msgstr "Endre handling %s"
+msgstr "Endre tittel nr. %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:7
 msgid "New title"
@@ -2818,9 +2799,9 @@ msgid "Title created"
 msgstr "Tittel opprettet"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:10
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Package %s"
-msgstr "Pakker"
+msgstr "Pakke %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:13
 msgid "Remove from this package"
@@ -2835,9 +2816,8 @@ msgid "Add to another package"
 msgstr "Legg til i en annen pakke"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:87
-#, fuzzy
 msgid "There are no packages created yet"
-msgstr "Det er ikke definert noen pakker"
+msgstr "Det er ikke definert noen pakker enda"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:2
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:201
@@ -2846,7 +2826,7 @@ msgstr "Importer fra liste"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:4
 msgid "Import in progress,"
-msgstr ""
+msgstr "Import pågår,"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:9
 #, javascript-format
@@ -2885,9 +2865,9 @@ msgid "Contributors"
 msgstr "Bidragsytere"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit license %s"
-msgstr "Endre handling %s"
+msgstr "Endre lisens %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:64
@@ -3121,71 +3101,63 @@ msgid "API key info"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:340
-#, fuzzy
 msgid "Please refer to the "
-msgstr "Legg inn et navn for dette mønsteret"
+msgstr "Vennligst sjekk "
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:342
 msgid "COUNTER registry"
-msgstr ""
+msgstr "COUNTER-register"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:344
-#, fuzzy
 msgid "for more information."
-msgstr "Ressurs-informasjon"
+msgstr "for mer informasjon."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:500
 msgid "This provider does not currently support any COUNTER 5 reports via SUSHI."
-msgstr ""
+msgstr "Denne leverandøren støtter forelpig ikke COUNTER 5-rapporter via SUSHI."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:572
-#, fuzzy
 msgid "Data provider updated"
-msgstr "Pakke oppdatert"
+msgstr "Dataleverandør oppdatert"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:588
-#, fuzzy
 msgid "Data provider created"
-msgstr "Pakke opprettet"
+msgstr "Dataleverandør opprettet"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:16
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:329
-#, fuzzy
 msgid "Data providers summary"
-msgstr "Rediger leverandør %s"
+msgstr "Sammendrag av dataleverandør"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:32
-#, fuzzy
 msgid "There are no usage data providers defined"
-msgstr "Det er ikke definert noen titler"
+msgstr "Det er ikke definert noen dataleverandører"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:78
 msgid "Run now"
-msgstr ""
+msgstr "Kjør nå"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:84
-#, fuzzy
 msgid "Test"
-msgstr " Test"
+msgstr "Test"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:134
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersShow.vue:199
-#, fuzzy
 msgid "Are you sure you want to remove this data provider?"
-msgstr "Er du sikker på at du vil fjerne denne tittelen?"
+msgstr "Er du sikker på at du vil fjerne denne dataleverandøren?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:147
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Data provider %s deleted"
-msgstr "Lokal tittel %s slettet"
+msgstr "Dataleverandør %s slettet"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:166
 msgid "This data provider is set to 'Inactive', do you wish to update the status to 'Active'?"
-msgstr ""
+msgstr "Denne dataleverandøren er satt til \"Ikke aktiv, ønsker du å oppdatere statusen til \"Aktiv\"?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:169
 msgid "Yes, update status"
-msgstr ""
+msgstr "Ja, oppdatér status"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersList.vue:170
 #, fuzzy
