@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-06 03:03+0000\n"
+"POT-Creation-Date: 2024-01-12 03:03+0000\n"
 "PO-Revision-Date: 2023-11-02 11:12+0000\n"
 "Last-Translator: Saralin <c108126114@nkust.edu.tw>\n"
 "Language-Team: Koha Translation Team\n"
@@ -54,7 +54,7 @@ msgstr "編輯"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1068
-#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:11
+#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:10
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:79
@@ -966,7 +966,7 @@ msgstr "組態"
 msgid "%s search"
 msgstr "%s 搜尋"
 
-#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:51
 msgid "This field is mandatory and must have at least one mapping"
 msgstr "此欄位必填且至少有一個對應"
 
@@ -1053,7 +1053,8 @@ msgstr "無法復原，未找到預約"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:353
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:439
-msgid "Your request could not be processed. Check the logs"
+#, fuzzy
+msgid "Your request could not be processed. Check the logs for details."
 msgstr "您的請求無法處理。確認記載"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:400
@@ -1069,7 +1070,8 @@ msgid "Clear date to suspend indefinitely"
 msgstr "無限延擱清除曰期"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:436
-msgid "Unable to suspend, hold not found"
+#, fuzzy
+msgid "Unable to suspend, hold not found."
 msgstr "不能暫停，未找到預約"
 
 #: koha-tmpl/intranet-tmpl/prog/js/item_search_fields.js:5
@@ -1274,8 +1276,8 @@ msgstr "關係 #%s 更新成功."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:89
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:117
-#, javascript-format
-msgid "Error resolving concern #%s. Check the logs."
+#, fuzzy, javascript-format
+msgid "Error resolving concern #%s. Check the logs for details."
 msgstr "解決問題時出錯 #%s。 檢查記錄。"
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/circulation.js:72
@@ -1745,7 +1747,8 @@ msgid "Are you sure you want to delete %s?"
 msgstr "您確定要刪除 %s?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:473
-msgid "An error occurred. Check the logs"
+#, fuzzy
+msgid "An error occurred. Check the logs for details."
 msgstr "發生錯誤。檢查紀錄"
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:19

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-06 03:03+0000\n"
+"POT-Creation-Date: 2024-01-12 03:03+0000\n"
 "PO-Revision-Date: 2022-05-01 12:52-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -54,7 +54,7 @@ msgstr "编辑"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1068
-#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:11
+#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:10
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:79
@@ -1000,7 +1000,7 @@ msgstr "确认"
 msgid "%s search"
 msgstr "搜寻："
 
-#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:51
 msgid "This field is mandatory and must have at least one mapping"
 msgstr ""
 
@@ -1089,7 +1089,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:353
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:439
 #, fuzzy
-msgid "Your request could not be processed. Check the logs"
+msgid "Your request could not be processed. Check the logs for details."
 msgstr "不能新增文件。检查您的权限。"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:400
@@ -1106,8 +1106,9 @@ msgid "Clear date to suspend indefinitely"
 msgstr "无限延搁清除曰期"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:436
-msgid "Unable to suspend, hold not found"
-msgstr ""
+#, fuzzy
+msgid "Unable to suspend, hold not found."
+msgstr "不能删除读者"
 
 #: koha-tmpl/intranet-tmpl/prog/js/item_search_fields.js:5
 #, fuzzy
@@ -1324,7 +1325,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:89
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:117
 #, javascript-format
-msgid "Error resolving concern #%s. Check the logs."
+msgid "Error resolving concern #%s. Check the logs for details."
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/circulation.js:72
@@ -1819,7 +1820,7 @@ msgstr "确定删除 %s %s 吗？"
 
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:473
 #, fuzzy
-msgid "An error occurred. Check the logs"
+msgid "An error occurred. Check the logs for details."
 msgstr "发生错误。%s "
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:19

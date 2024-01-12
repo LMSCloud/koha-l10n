@@ -6826,29 +6826,72 @@ msgstr "Una lista de valores para actualizar los valores de un ítem cuando se c
 msgid "circulation.pref#UpdateItemWhenLostFromHoldList# Example: \"itemlost: 1\" to set items.itemlost to 1 when the item is marked as <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>. (Requires <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
 msgstr "Ejemplo: \"itemlost: 1\" para configurar items.itemlost a 1 cuando el ejemplar se le marca un <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">estado de pérdida</a> (Requiere <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
 
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp-1: 0<br/><br/>"
+msgstr "Ejemplos:<br/>"
+
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin Policy
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Can be used for showing only the not for loan description. E.g. '-1: ONLYMESSAGE'.<br>"
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp-1: ONLYMESSAGE<br/><br/>"
+msgstr "Puede ser utilizado para mostrar sólo la descripción de no para préstamo. Por ejemplo: '-1: ONLYMESSAGE'.<br>"
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp1: 0<br/><br/>"
+msgstr "Ejemplos:<br/>"
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# <strong>Examples:</strong><br/>"
+msgstr "Ejemplos:<br/>"
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# BK:<br/>"
+msgstr "Ejemplos:<br/>"
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# CR:<br/>"
+msgstr "Ejemplos:<br/>"
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Each item type needs to be defined on a separate line on the left side of the colon (:).<br/>Each pair of not for loan values, for that item type, should be listed on separate lines below the item type, each indented by a leading space<br/><br/>"
+msgstr ""
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+# Circulation > Checkin Policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# ONLYMESSAGE can be used for showing only the not for loan description. E.g. '-1: ONLYMESSAGE'<br/><br/>"
 msgstr "Puede ser utilizado para mostrar sólo la descripción de no para préstamo. Por ejemplo: '-1: ONLYMESSAGE'.<br>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin Policy
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Each pair of values should be on a separate line.<br>"
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of item types and value pairs.<br/><br/>"
 msgstr "Cada par de valores debe estar en una línea separada.<br>"
 
-# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
-# Circulation > Checkin policy
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# For example, '-1: 0' will cause an item that was set to 'Ordered' to now be available for loan."
-msgstr "Por ejemplo, '-1: 0' producirá que un ejemplar que se configuró como 'Pedido' esté ahora disponible para préstamo."
-
-# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
-# Circulation > Checkin Policy
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of value pairs. When an item is checked in, if the not for loan value on the left matches the items not for loan value it will be updated to the right-hand value."
-msgstr "Esta es una lista de los pares de valores. Cuando un ítem es devuelto, si el valor no para préstamo a la izquierda coincide con el valor no para préstamo del ítem, será actualizado con el de la derecha."
-
 # Circulation > Item bundles > BundleNotLoanValue
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> authorized values and ONLYMESSAGE."
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> authorized values and ONLYMESSAGE.<br/><br/>"
 msgstr "Los valores válidos son los valores utorizados <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> y ONLYMESSAGE."
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# When an item is checked in, if it's item type matches CR then when the value on the left (1) matches the items' not for loan value it will be updated to the value on the right.<br/><br/>The special term _ALL_ is used on the left side of the colon (:) to affect all item types, <strong>this does not override all other rules</strong><br/><br/>"
+msgstr ""
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# _ALL_:<br/>"
+msgstr "Ejemplos:<br/>"
 
 # Circulation > Checkout policy > UpdateNotForLoanStatusOnCheckout
 # Circulation > Checkin Policy
@@ -11955,7 +11998,8 @@ msgid "patrons.pref#DefaultPatronSearchMethod# Contains"
 msgstr "Contiene"
 
 # Patrons > General > DefaultPatronSearchMethod
-msgid "patrons.pref#DefaultPatronSearchMethod# Enable this search method to determine whether to use Starts with or Contains for autocomplete patron searches."
+#, fuzzy
+msgid "patrons.pref#DefaultPatronSearchMethod# Enable this search method to determine whether to use 'starts with' or 'contains' for all patron searches, including auto-complete."
 msgstr "Habilitar 'Empieza con' o 'Contiene' como método de búsqueda al autocompletar búsquedas de usuarios."
 
 # Patrons > General > DefaultPatronSearchMethod
@@ -15089,6 +15133,16 @@ msgstr "filas del reporte solicitado a través del web service de reportes."
 # Circulation > Checkin policy
 #~ msgid "circulation.pref#SkipHoldTrapOnNotForLoanValue# Never trap items with 'not for loan' values of"
 #~ msgstr "Nunca detener ítems con valores de 'no para préstamo'"
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+# Circulation > Checkin policy
+#~ msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# For example, '-1: 0' will cause an item that was set to 'Ordered' to now be available for loan."
+#~ msgstr "Por ejemplo, '-1: 0' producirá que un ejemplar que se configuró como 'Pedido' esté ahora disponible para préstamo."
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+# Circulation > Checkin Policy
+#~ msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of value pairs. When an item is checked in, if the not for loan value on the left matches the items not for loan value it will be updated to the right-hand value."
+#~ msgstr "Esta es una lista de los pares de valores. Cuando un ítem es devuelto, si el valor no para préstamo a la izquierda coincide con el valor no para préstamo del ítem, será actualizado con el de la derecha."
 
 # Circulation > Interface
 #~ msgid "circulation.pref#itemBarcodeInputFilter# scanned item barcodes."

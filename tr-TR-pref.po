@@ -7017,35 +7017,73 @@ msgstr "'Holds to pull' sayfasından kayıp olarak işaretlendiğinde bir matery
 msgid "circulation.pref#UpdateItemWhenLostFromHoldList# Example: \"itemlost: 1\" to set items.itemlost to 1 when the item is marked as <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>. (Requires <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
 msgstr "Örnek: materyal kayıp olarak işaretlendiğinde items.itemlost değerini 1 olarak ayarlamak için \"itemlost: 1\" <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a> sistem tercihini gerektirir)"
 
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp-1: 0<br/><br/>"
+msgstr "Örnekler:<br/>"
+
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
 #, fuzzy
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Can be used for showing only the not for loan description. E.g. '-1: ONLYMESSAGE'.<br>"
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp-1: ONLYMESSAGE<br/><br/>"
+msgstr "Değerlerin her bir çifti ayrı bir satırda olmalıdır."
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp1: 0<br/><br/>"
+msgstr "Örnekler:<br/>"
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# <strong>Examples:</strong><br/>"
+msgstr "Örnekler:<br/>"
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# BK:<br/>"
+msgstr "Örnekler:<br/>"
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# CR:<br/>"
+msgstr "Örnekler:<br/>"
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Each item type needs to be defined on a separate line on the left side of the colon (:).<br/>Each pair of not for loan values, for that item type, should be listed on separate lines below the item type, each indented by a leading space<br/><br/>"
+msgstr ""
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# ONLYMESSAGE can be used for showing only the not for loan description. E.g. '-1: ONLYMESSAGE'<br/><br/>"
 msgstr "Değerlerin her bir çifti ayrı bir satırda olmalıdır."
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
 #, fuzzy
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Each pair of values should be on a separate line.<br>"
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of item types and value pairs.<br/><br/>"
 msgstr "Değerlerin her bir çifti ayrı bir satırda olmalıdır."
-
-# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
-# Circulation > Checkin policy
-#, fuzzy
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# For example, '-1: 0' will cause an item that was set to 'Ordered' to now be available for loan."
-msgstr "Sağ taraftaki değerine güncelleştirilecektir. Örneğin '-1: 0' değeri, 'Sipariş edildi' olarak ayarlanan bir materyalin artık ödünç verilebilir olmasını sağlayacaktır."
-
-# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
-# Circulation > Checkin policy
-#, fuzzy
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of value pairs. When an item is checked in, if the not for loan value on the left matches the items not for loan value it will be updated to the right-hand value."
-msgstr "Bu bir değer çiftleri listesidir. Bir materyal iade edildiğinde, soldaki ödünç verilmez değeri materyaller ile eşleşir, ödünç değeri ile eşleşmezse"
 
 # Circulation > Item bundles > BundleNotLoanValue
 # Circulation > Return claims
 #, fuzzy
-msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> authorized values and ONLYMESSAGE."
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> authorized values and ONLYMESSAGE.<br/><br/>"
 msgstr "<a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> yetkili değerini kullanın"
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# When an item is checked in, if it's item type matches CR then when the value on the left (1) matches the items' not for loan value it will be updated to the value on the right.<br/><br/>The special term _ALL_ is used on the left side of the colon (:) to affect all item types, <strong>this does not override all other rules</strong><br/><br/>"
+msgstr ""
+
+# Circulation > Checkin policy > UpdateItemLocationOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# _ALL_:<br/>"
+msgstr "Örnekler:<br/>"
 
 # Circulation > Checkout policy > UpdateNotForLoanStatusOnCheckout
 # Circulation > Checkin policy
@@ -12240,7 +12278,7 @@ msgid "patrons.pref#DefaultPatronSearchMethod# Contains"
 msgstr "Dahil etme"
 
 # Patrons > General > DefaultPatronSearchMethod
-msgid "patrons.pref#DefaultPatronSearchMethod# Enable this search method to determine whether to use Starts with or Contains for autocomplete patron searches."
+msgid "patrons.pref#DefaultPatronSearchMethod# Enable this search method to determine whether to use 'starts with' or 'contains' for all patron searches, including auto-complete."
 msgstr ""
 
 # Patrons > General > DefaultPatronSearchMethod
@@ -15456,6 +15494,18 @@ msgstr "raporlar web hizmeti yoluyla talep edilen bir raporun satırları"
 # Circulation > Checkin policy
 #~ msgid "circulation.pref#SkipHoldTrapOnNotForLoanValue# Never trap items with 'not for loan' values of"
 #~ msgstr "'ödünç verilmez' değerine sahip materyalleri asla tetikleme"
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+#~ msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# For example, '-1: 0' will cause an item that was set to 'Ordered' to now be available for loan."
+#~ msgstr "Sağ taraftaki değerine güncelleştirilecektir. Örneğin '-1: 0' değeri, 'Sipariş edildi' olarak ayarlanan bir materyalin artık ödünç verilebilir olmasını sağlayacaktır."
+
+# Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
+# Circulation > Checkin policy
+#, fuzzy
+#~ msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of value pairs. When an item is checked in, if the not for loan value on the left matches the items not for loan value it will be updated to the right-hand value."
+#~ msgstr "Bu bir değer çiftleri listesidir. Bir materyal iade edildiğinde, soldaki ödünç verilmez değeri materyaller ile eşleşir, ödünç değeri ile eşleşmezse"
 
 # Circulation > Interface
 #~ msgid "circulation.pref#itemBarcodeInputFilter# scanned item barcodes."

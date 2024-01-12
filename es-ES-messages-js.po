@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-06 03:03+0000\n"
+"POT-Creation-Date: 2024-01-12 03:03+0000\n"
 "PO-Revision-Date: 2023-12-27 03:02+0000\n"
 "Last-Translator: Tomás Cohen Arazi <tomascohen@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -54,7 +54,7 @@ msgstr "Editar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1068
-#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:11
+#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:10
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:79
@@ -968,7 +968,7 @@ msgstr "Configurar"
 msgid "%s search"
 msgstr "%s buscar"
 
-#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:51
 msgid "This field is mandatory and must have at least one mapping"
 msgstr "Este campo es obligatorio y debe tener por lo menos una concordancia/mapeo"
 
@@ -1055,7 +1055,8 @@ msgstr "No se ha podido reanudar, no se encontró la reserva"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:353
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:439
-msgid "Your request could not be processed. Check the logs"
+#, fuzzy
+msgid "Your request could not be processed. Check the logs for details."
 msgstr "Su solicitud no pudo ser procesada. Revise los registros de error"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:400
@@ -1071,7 +1072,8 @@ msgid "Clear date to suspend indefinitely"
 msgstr "Borrar fecha para suspender indefinidamente"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:436
-msgid "Unable to suspend, hold not found"
+#, fuzzy
+msgid "Unable to suspend, hold not found."
 msgstr "No se ha podido suspender la reserva, no se encontró la reserva"
 
 #: koha-tmpl/intranet-tmpl/prog/js/item_search_fields.js:5
@@ -1276,8 +1278,8 @@ msgstr "Incidente #%s actualizado correctamente."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:89
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:117
-#, javascript-format
-msgid "Error resolving concern #%s. Check the logs."
+#, fuzzy, javascript-format
+msgid "Error resolving concern #%s. Check the logs for details."
 msgstr "Error resolviendo incidente #%s. Revisar los logs."
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/circulation.js:72
@@ -1742,7 +1744,8 @@ msgid "Are you sure you want to delete %s?"
 msgstr "¿Está seguro de querer eliminar %s?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:473
-msgid "An error occurred. Check the logs"
+#, fuzzy
+msgid "An error occurred. Check the logs for details."
 msgstr "Se ha producido un error. Revise los logs"
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:19
