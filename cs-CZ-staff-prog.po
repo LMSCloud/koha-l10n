@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-12 03:04+0000\n"
-"PO-Revision-Date: 2024-01-15 16:34+0000\n"
-"Last-Translator: DagmarS <dagmar.sikova@seznam.cz>\n"
+"PO-Revision-Date: 2024-01-16 03:00+0000\n"
+"Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
@@ -4896,9 +4896,9 @@ msgid "New catalog concern"
 msgstr "Nový problém katalogu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:43
-#, fuzzy, c-format
+#, c-format
 msgid "Modify record using template"
-msgstr "Upravit záznamy použitím šablony: "
+msgstr "Upravit záznamy použitím šablony"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:47
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-toolbar.inc:38
@@ -10352,7 +10352,7 @@ msgstr "Rozložení"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/labels-toolbar.inc:8
 #, c-format
 msgid "Label template"
-msgstr "Šablona"
+msgstr "Šablona štítku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/labels-toolbar.inc:9
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patroncards-toolbar.inc:10
@@ -14761,9 +14761,9 @@ msgid "Run report "
 msgstr "Spustit výstup "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:70
-#, fuzzy, c-format
+#, c-format
 msgid "Run with template "
-msgstr "Šablona klubu "
+msgstr "Spustit pomocí šablony "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:85
 #, c-format
@@ -14825,9 +14825,9 @@ msgstr "Tabulka ve formátu Open Document"
 
 #. %1$s:  processed_notice_title | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:138
-#, fuzzy, c-format
+#, c-format
 msgid "Rendered template (%s)"
-msgstr "Šablony průkazek"
+msgstr "Vykreslená šablona (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:141
 #, c-format
@@ -27263,9 +27263,9 @@ msgid "This feature gives the Koha developers valuable information regarding how
 msgstr "Tato funkce poskytuje vývojářům Koha cenné informace o tom, jak je Koha používána, a pomáhá při rozhodování během vývojového cyklu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:61
-#, fuzzy, c-format
+#, c-format
 msgid "Manage system preferences like MARC flavor, date format, administrator email, and templates."
-msgstr "Správa nastavení společných pro celý systém. Např. varianta formátu MARC, formát data, e-mail administrátora a šablony vzhledu."
+msgstr "Správa nastavení společných pro celý systém. Např. varianta formátu MARC, formát data, e-mail administrátora a šablony."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:70
 #, c-format
@@ -27395,9 +27395,9 @@ msgid "View, manage and cancel jobs."
 msgstr "Správa úkolů na pozadí "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:174
-#, fuzzy, c-format
+#, c-format
 msgid "Create and manage Bibliographic frameworks that define the characteristics of your MARC Records (field and subfield definitions) as well as templates for the MARC editor"
-msgstr "Vytvořte a spravujte šablony bibliografických záznamů, které definují charakteristiku záznamů MARC (defnice polí a podpolí)."
+msgstr "Vytváření a správa bibliografických šablon, které definují vlastnosti záznamů MARC (definice polí a podpolí), a také šablon pro katalogizační editor MARC"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:176
 #, c-format
@@ -42352,15 +42352,14 @@ msgstr "Upravit jednotku #%s%s / Čárový kód %s%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:194
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:181
-#, fuzzy, c-format
+#, c-format
 msgid "Do not use template"
-msgstr "Nepoužívat profil"
+msgstr "Nepoužívat šablonu"
 
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:195
-#, fuzzy
 msgid "My templates"
-msgstr "šablona"
+msgstr "Moje šablony"
 
 #. For the first occurrence,
 #. %1$s:  t.name | html 
@@ -42376,14 +42375,13 @@ msgstr "%s%s (sdílené)%s"
 
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:204
-#, fuzzy
 msgid "Shared templates"
-msgstr "Šablony průkazek"
+msgstr "Sdílené šablony"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:224
-#, fuzzy, c-format
+#, c-format
 msgid "Apply template"
-msgstr "šablona"
+msgstr "Použít šablonu"
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:231
@@ -42392,9 +42390,9 @@ msgid "%s For session"
 msgstr "%s Pro sezení"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:237
-#, fuzzy, c-format
+#, c-format
 msgid "Clear template"
-msgstr "Šablona průkazky"
+msgstr "Vyčistit šablonu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:241
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:72
@@ -42471,41 +42469,38 @@ msgstr "Čárový kód bude vygenerován s vyšším číslem pro každou dalš�
 
 #. INPUT type=button name=save_as_template
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:303
-#, fuzzy
 msgid "Save as template"
-msgstr "Vyberte šablonu"
+msgstr "Uložit jako šablonu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:306
-#, fuzzy, c-format
+#, c-format
 msgid "Save template"
-msgstr "Šablona"
+msgstr "Uložit šablonu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:309
-#, fuzzy, c-format
+#, c-format
 msgid "Save as new template"
-msgstr "Vytvořit novou šablonu"
+msgstr "Uložit jako novou šablonu"
 
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:310
-#, fuzzy
 msgid "Update existing template"
-msgstr "Aktualizovat stávající nebo přidat nové"
+msgstr "Aktualizovat stávající šablonu"
 
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:315
-#, fuzzy
 msgid "Update shared template"
-msgstr "Vytvořit novou šablonu"
+msgstr "Aktualizace sdílené šablony"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:327
-#, fuzzy, c-format
+#, c-format
 msgid "Template name: "
-msgstr "Název šablony:"
+msgstr "Název šablony: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:335
-#, fuzzy, c-format
+#, c-format
 msgid "Share template "
-msgstr "Šablona průkazky"
+msgstr "Sdílet šablonu "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:28
 #, c-format
@@ -45281,9 +45276,9 @@ msgstr "%s%s%sŠablona pro tisk lístku nebyla nalezena%s "
 #. %6$s:  END 
 #. %7$s:  IF slips.size > 1 && !loop.last
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s%s%sNo slip template found%s %s %s"
-msgstr "%s %s%s%sNebyla nalezena odpovídající šablona pro tisky lístku%s %s %s "
+msgstr "%s %s%s%sNebyla nalezena odpovídající šablona pro tisky lístku%s %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:48
 #, c-format
@@ -46919,9 +46914,9 @@ msgstr "Čtenáře se nepodařilo zapsat do klubu!"
 #. %1$s:  club_template.name | html | $HtmlTags tag="em" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/templates-add-modify.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/templates-add-modify.tt:59
-#, fuzzy, c-format
+#, c-format
 msgid "Modify club template %s"
-msgstr "%s Upravit šablonu čtenářského klubu "
+msgstr "Upravit šablonu čtenářského klubu %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/templates-add-modify.tt:80
 #, c-format
@@ -50179,9 +50174,9 @@ msgid "Receipt sent. "
 msgstr "Přijmout zásilku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "Receipt not sent, failed to find template. "
-msgstr "V této šabloně nejsou doposud definovány žádné akce."
+msgstr "Potvrzení nebylo odesláno, nepodařilo se najít šablonu. "
 
 #. %1$s:  INCLUDE 'patron-title.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:62
@@ -53109,9 +53104,9 @@ msgstr "Pokoušíte se prominout větší částku, než je výše poplatku čte
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/printfeercpt.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/printinvoice.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/printreceipt.tt:32
-#, fuzzy, c-format
+#, c-format
 msgid "No print template found"
-msgstr "%s %s %s %s Nebyla nalezena odpovídající šablona pro tisk %s "
+msgstr "Nebyla nalezena žádná šablona pro tisk"
 
 #. %1$s:  ELSE 
 #. %2$s:  IF ( slip ) 
@@ -53129,9 +53124,9 @@ msgstr "%s %s%s%sNebyla nalezena odpovídající šablona pro tisk lístku%s %s 
 #. %3$s:  ELSE 
 #. %4$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/printnotice.tt:26
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sNo slip template found%s"
-msgstr "%s%s%sŠablona pro tisk lístku nebyla nalezena%s "
+msgstr "%s%s%sŠablona pro tisk lístku nebyla nalezena%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/purchase-suggestions.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:658
@@ -54483,18 +54478,18 @@ msgstr "Upravit profil tiskárny %s"
 
 #. %1$s:  template_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:38
-#, fuzzy, c-format
+#, c-format
 msgid "Edit patron card template (%s)"
-msgstr "Upravit šablonu čtenářského průkazu"
+msgstr "Upravit šablonu čtenářského průkazu (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "New patron card template"
-msgstr "Vytvořit šablonu čtenářského průkazu"
+msgstr "Nová šablona čtenářského průkazu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-template.tt:54
-#, fuzzy, c-format
+#, c-format
 msgid "Edit patron card template"
 msgstr "Upravit šablonu čtenářského průkazu"
 
@@ -54614,9 +54609,9 @@ msgid "layouts"
 msgstr "Rozložení"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:21
-#, fuzzy, c-format
+#, c-format
 msgid "templates"
-msgstr "šablona"
+msgstr "šablony"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:22
 #, fuzzy, c-format
@@ -54760,7 +54755,7 @@ msgstr "Rozložení zadní strany není použito"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/print.tt:103
 #, c-format
 msgid "Used for duplex printers (needs a '1 up template')"
-msgstr "Vhodné pro tiskárny s oboustranným tiskem"
+msgstr "Vhodné pro tiskárny s oboustranným tiskem (vyžaduje '1 vrchní šablonu')"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/print.tt:107
 #, c-format
@@ -59877,9 +59872,9 @@ msgid "Numbering pattern:"
 msgstr "Schéma číslování:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:377
-#, fuzzy, c-format
+#, c-format
 msgid "Publication date template:"
-msgstr "Datum vydání:"
+msgstr "Šablona data vydání:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:381
 #, c-format
@@ -62440,7 +62435,7 @@ msgstr "Chcete-li použít tyto odkazy, musíte být online."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:69
 #, c-format
 msgid "The selected template (id=%s) does not exist or no action is defined."
-msgstr ""
+msgstr "Vybraná šablona (id=%s) neexistuje nebo není definována žádná akce."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:92
 #, fuzzy, c-format
@@ -62453,9 +62448,9 @@ msgid "Record numbers: "
 msgstr "Číslo průkazky: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:148
-#, fuzzy, c-format
+#, c-format
 msgid "MARC modification template"
-msgstr "Modifikační šablony MARC"
+msgstr "Modifikační šablona MARC"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:153
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:172
@@ -62466,7 +62461,7 @@ msgstr "Vyberte šablonu"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:170
 #, c-format
 msgid "Modify record using the following template: "
-msgstr "Upravit záznamy použitím šablony: "
+msgstr "Upravit záznamy použitím následující šablony: "
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:219
@@ -62503,12 +62498,12 @@ msgstr "Nebyly upraveny žádné záznamy. %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:271
 #, c-format
 msgid "No MARC modification template is defined. You have to create at least one template in order to use this tool."
-msgstr ""
+msgstr "Není definována žádná šablona pro úpravu MARC. Abyste mohli tento nástroj používat, musíte vytvořit alespoň jednu šablonu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:273
 #, c-format
 msgid "Create a new MARC modification template"
-msgstr ""
+msgstr "Vytvoření nové šablony úprav MARC"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:286
 #, c-format
@@ -64430,9 +64425,9 @@ msgid "You should enable the SMSSendDriver preference to use the SMS templates."
 msgstr "Měli byste povolit nastavení SMSSendDriver k použití šablon SMS."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:599
-#, fuzzy, c-format
+#, c-format
 msgid "Template Toolkit error:"
-msgstr "Kód šablony:"
+msgstr "Chyba Template Toolkit:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:610
 #, c-format
@@ -64457,7 +64452,7 @@ msgstr "Vložit "
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:651
 msgid "Preview this notice template"
-msgstr "Zobrazit náhled této šablony"
+msgstr "Zobrazit náhled této šablony zpráv"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/manage-marc-import.tt:51
@@ -64999,7 +64994,7 @@ msgstr "Přidat akci"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:312
 #, c-format
 msgid "There are no defined templates. Please create a template first."
-msgstr "Nejsou definovány žádné šablony."
+msgstr "Nejsou definovány žádné šablony. Nejprve vytvořte šablonu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:313
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:323
@@ -66120,9 +66115,9 @@ msgid "%s ( other format via plugin)"
 msgstr "%s ( jiný formát pomocí zásuvného modulu)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:176
-#, fuzzy, c-format
+#, c-format
 msgid "Modify records using a MARC modification template?"
-msgstr "Modifikační šablony MARC"
+msgstr "Upravit záznam použitím šablony pro úpravu MARC?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:192
 #, c-format
