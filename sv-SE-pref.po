@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2024-01-12 03:01+0000\n"
+"PO-Revision-Date: 2024-01-15 16:33+0000\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -103,7 +103,7 @@ msgstr "automatiskt en utskriftsdialog för kvitto när betalning görs."
 # Accounting > Features > RequireCashRegister
 # Circulation > Checkout policy
 msgid "accounting.pref#RequireCashRegister# . (Requires <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=UseCashRegisters\">UseCashRegisters</a>)"
-msgstr ". (Används tillsammans med syspref <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=UseCashRegisters\">UseCashRegisters</a>)"
+msgstr ". (Kräver <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=UseCashRegisters\">UseCashRegisters</a>)"
 
 # Accounting > Features > RequireCashRegister
 # Accounting > Features
@@ -414,7 +414,7 @@ msgstr "Importera inte"
 # Acquisitions > EDIFACT > EdifactLSQ
 # Acquisitions > EDIFACT
 msgid "acquisitions.pref#EdifactLSQ#  in items."
-msgstr "  i exemplar."
+msgstr "i exemplar."
 
 # Acquisitions > EDIFACT > EdifactLSQ
 msgid "acquisitions.pref#EdifactLSQ# Map sequence code (GIR:LSQ) field to "
@@ -3822,7 +3822,7 @@ msgstr "Självutcheckningsmodul"
 # Circulation
 # Circulation > Stock rotation module
 msgid "circulation.pref Stock rotation module"
-msgstr "modulen för roterande samlingar"
+msgstr "modulen för beståndsrotation"
 
 # Circulation > Checkout policy > AgeRestrictionMarker
 # Circulation > Checkout policy
@@ -5531,7 +5531,7 @@ msgstr "när ett exemplar katalogiseras"
 # Circulation > Checkout policy > MarkLostItemsAsReturned
 # Circulation > Checkout policy
 msgid "circulation.pref#MarkLostItemsAsReturned# when marking an item as a return claim"
-msgstr "när du sätter exemplaret som påstås återlämnad"
+msgstr "när du sätter exemplaret som 'påstås återlämnad'"
 
 # Circulation > Checkout policy > MarkLostItemsAsReturned
 # Circulation > Checkout policy
@@ -6786,71 +6786,61 @@ msgstr "Exempel: \"itemlost: 1\" sätter items.itemlost till 1 när ett exemplar
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp-1: 0<br/><br/>"
-msgstr "Exempel:<br/>"
+msgstr "&nbsp-1: 0<br/><br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp-1: ONLYMESSAGE<br/><br/>"
-msgstr "Kan användas för visa \"Ej för utlån\"-beskrivningen. T.ex. \"-1\": ONLYMESSAGE\"."
+msgstr "&nbsp-1: ONLYMESSAGE<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp1: 0<br/><br/>"
-msgstr "Exempel:<br/>"
+msgstr "&nbsp1: 0<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# <strong>Examples:</strong><br/>"
-msgstr "Exempel:<br/>"
+msgstr "<strong>Examples:</strong><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# BK:<br/>"
-msgstr "Exempel:<br/>"
+msgstr "BK:<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# CR:<br/>"
-msgstr "Exempel:<br/>"
+msgstr "CR:<br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Each item type needs to be defined on a separate line on the left side of the colon (:).<br/>Each pair of not for loan values, for that item type, should be listed on separate lines below the item type, each indented by a leading space<br/><br/>"
-msgstr ""
+msgstr "Varje exemplartyp måste anges på en separat rad till vänster om kolonet (:).<br/>Varje par av \"ej för utlån\"-värden, för den exemplartypen, måste listas på separata rader under exemplartypen, med ett inledande mellanslag.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# ONLYMESSAGE can be used for showing only the not for loan description. E.g. '-1: ONLYMESSAGE'<br/><br/>"
-msgstr "Kan användas för visa \"Ej för utlån\"-beskrivningen. T.ex. \"-1\": ONLYMESSAGE\"."
+msgstr "ONLYMESSAGE kan användas för att endast visa 'ej för utlån'-beskrivningen. T.ex.. '-1: ONLYMESSAGE'<br/><br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of item types and value pairs.<br/><br/>"
-msgstr "Varje värdepar ska vara på en separat rad.<br>"
+msgstr "Detta är en lista med exemplartyper och värdepar.<br/><br/>"
 
 # Circulation > Item bundles > BundleNotLoanValue
 # Circulation > Return claims
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> authorized values and ONLYMESSAGE.<br/><br/>"
-msgstr "Använd det auktoriserade <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>-värdet och ONLYMESSAGE."
+msgstr "Giltiga värden är auktoriserade <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>-värden och ONLYMESSAGE."
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# When an item is checked in, if it's item type matches CR then when the value on the left (1) matches the items' not for loan value it will be updated to the value on the right.<br/><br/>The special term _ALL_ is used on the left side of the colon (:) to affect all item types, <strong>this does not override all other rules</strong><br/><br/>"
-msgstr ""
+msgstr "Vid återlämning av exemplar - om dess exemplartyp matchar CR, och värdet till vänster (1) stämmer överens med objektets 'ej för utlån'-värde, kommer statusen att uppdateras till värdet till höger .<br/><br/> Specialtermen _ALL_ används på vänster sida av kolon (:) för att påverka alla exemplartyper, <strong>detta åsidosätter inte alla andra regler</strong><br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# _ALL_:<br/>"
-msgstr "Exempel:<br/>"
+msgstr "_ALL_:<br/>"
 
 # Circulation > Checkout policy > UpdateNotForLoanStatusOnCheckout
 # Circulation > Checkin policy
@@ -9942,7 +9932,7 @@ msgstr "hembibliotek"
 
 # OPAC > Appearance > OPACResultsMaxItems
 msgid "opac.pref#OPACResultsMaxItems# . (NOTE: For large consortia we recommend to group unavailable items by 'substatus only', listing item counts per substatus. Similarly the option 'library only' results in unavailable item counts per library.)"
-msgstr ". (OBS: (OBS: För stora samlingar rekommenderar vi att gruppera otillgängliga objekt efter 'endast understatus', och lista antal exemplar enligt denna. På samma sätt resulterar alternativet 'endast bibliotek' i antalet otillgängliga exemplar per bibliotek.)"
+msgstr ". (OBS: För stora samlingar rekommenderar vi att gruppera otillgängliga objekt efter 'endast understatus', och lista antal exemplar enligt denna. På samma sätt resulterar alternativet 'endast bibliotek' i antalet otillgängliga exemplar per bibliotek.)"
 
 # OPAC > Appearance > OPACResultsMaxItems
 # OPAC > Appearance
@@ -10732,7 +10722,7 @@ msgstr "hembibliotek"
 
 # OPAC > Appearance > OpacLocationOnDetail
 msgid "opac.pref#OpacLocationOnDetail# <br />Note: If 'on a separate column' is selected, you still need to enable the item_shelving_location display on the <a href='/cgi-bin/koha/admin/columns_settings.pl'>configure columns</a> administration page."
-msgstr "<br />Observera: Om 'separat kolumn' är vald, behöver du fortfarande aktivera visning av item_shelving_location på <a href='/cgi-bin/koha/admin/columns_settings.pl'>configure columns</a> administrationsidan."
+msgstr "<br />Obs: Om 'separat kolumn' är markerad, behöver du fortfarande aktivera visning av item_shelving_location på sidan <a href='/cgi-bin/koha/admin/columns_settings.pl'>konfigurera kolumner</a>."
 
 # OPAC > Appearance > OpacLocationOnDetail
 # OPAC > Appearance
