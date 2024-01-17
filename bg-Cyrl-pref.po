@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:06-0300\n"
-"PO-Revision-Date: 2024-01-15 16:33+0000\n"
+"PO-Revision-Date: 2024-01-18 03:00+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -467,7 +467,7 @@ msgstr "<p>Например:<br/>цена: 947$a|947$c<br/>количество:
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>You can use the following fields: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
-msgstr "<p>Можете да използвате следните области: цена, количество, budget_code, отстъпка, sort1, sort2</p>"
+msgstr "<p>Можете да използвате следните полета: цена, количество, , budget_code, отстъпка, sort1, sort2</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
@@ -481,12 +481,12 @@ msgstr "<p>Например:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
-msgstr "<p>Ако дадено поле липсва или не съответства, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> ще бъде потвърдено и използвано за това поле ( с изключение на 'количество').</p>"
+msgstr "<p>Ако дадено поле липсва или не е картографирано, конфигурацията от системния параметър <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> се проверява и използва за полето (изключение: количество).</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
-msgstr "<p>Можете да използвате следните полета: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Специални полетa: quantity and budget_code</p>"
+msgstr "<p>Можете да използвате следните полета: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Специални полете: quantity and budget_code</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
@@ -3126,7 +3126,7 @@ msgstr "Съхранявайте номера на създателя на за�
 # Cataloging > Record structure > MarcFieldForCreatorId
 # Cataloging > Record structure
 msgid "cataloguing.pref#MarcFieldForCreatorId# Store record's last modifier borrowernumber in MARC subfield"
-msgstr "и запишете последното име на редактора на записа в подполе MARC"
+msgstr "Запишете номер на редактора на записа в подполе на MARC"
 
 # Cataloging > Record structure > MarcFieldForCreatorId
 # Cataloging > Record structure
@@ -11851,9 +11851,8 @@ msgstr "Основен адрес"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
-#, fuzzy
 msgid "patrons.pref#CollapseFieldsPatronAddForm# Non-patron guarantor"
-msgstr "Идентификация на читателя"
+msgstr "Гарант който не е читател"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
@@ -11867,9 +11866,8 @@ msgstr "Флагове на акаунта на читател (съществу
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
-#, fuzzy
 msgid "patrons.pref#CollapseFieldsPatronAddForm# Patron guarantor"
-msgstr "Идентификация на читателя"
+msgstr "Читател гарант"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
