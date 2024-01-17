@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-12 03:03+0000\n"
+"POT-Creation-Date: 2024-01-17 03:03+0000\n"
 "PO-Revision-Date: 2024-01-11 03:00+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -477,6 +477,12 @@ msgstr "अक्टूबर"
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:144
 msgid "September"
 msgstr "सितम्बर"
+
+#: koha-tmpl/intranet-tmpl/prog/js/cancel_booking_modal.js:31
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:548
+#, fuzzy
+msgid "Failure"
+msgstr "विफल "
 
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:358
@@ -1199,6 +1205,11 @@ msgstr "क्या आप वाकई इस बच्चे को वयस
 msgid "Are you sure you want to renew this patron's registration?"
 msgstr "क्या आप वाकई इस संरक्षक पंजीकरण को नवीनीकृत करना चाहते हैं?"
 
+#: koha-tmpl/intranet-tmpl/prog/js/members-patron-selections.js:21
+#, fuzzy, javascript-format
+msgid "Patrons selected: %s"
+msgstr "हाँ, हटाओ"
+
 #: koha-tmpl/intranet-tmpl/prog/js/members.js:20
 msgid "Please confirm whether this is a duplicate patron"
 msgstr "कृपया यह एक नकली संरक्षक है कि क्या"
@@ -1591,10 +1602,29 @@ msgstr "यह सुविधा केवल सुरक्षित सं�
 msgid "An unknown error occurred: "
 msgstr "एक अज्ञात त्रुटि हुई: "
 
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:19
+#, fuzzy
+msgid "Edit booking"
+msgstr "प्रदाता संपादित करें %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:22
+#, fuzzy
+msgid "Place booking"
+msgstr "जगह होल्ड"
+
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:85
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:530
 msgid "years"
 msgstr "साल"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:106
+msgid "Search for a patron"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:167
+#, fuzzy
+msgid "Select item"
+msgstr "एक फाइल चुनें"
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
 msgid "Are you sure you want to remove this recall?"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-12 03:03+0000\n"
+"POT-Creation-Date: 2024-01-17 03:03+0000\n"
 "PO-Revision-Date: 2024-01-14 03:02+0000\n"
 "Last-Translator: Eugenios Papadopoulos <eugenios.papadopoulos@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -481,6 +481,11 @@ msgstr "Οκτώβριος"
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:144
 msgid "September"
 msgstr "Σεπτέμβριος"
+
+#: koha-tmpl/intranet-tmpl/prog/js/cancel_booking_modal.js:31
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:548
+msgid "Failure"
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:358
@@ -1212,6 +1217,11 @@ msgstr "Είστε σίγουροι ότι επιθυμείτε να αναβα�
 msgid "Are you sure you want to renew this patron's registration?"
 msgstr "Είστε σίγουροι ότι επιθυμείτε να ανανεώσετε την εγγραφή του μέλους;"
 
+#: koha-tmpl/intranet-tmpl/prog/js/members-patron-selections.js:21
+#, fuzzy, javascript-format
+msgid "Patrons selected: %s"
+msgstr "Δεν έχει επιλεγεί τίποτα"
+
 #: koha-tmpl/intranet-tmpl/prog/js/members.js:20
 msgid "Please confirm whether this is a duplicate patron"
 msgstr "Παρακαλώ επιβεβαιώστε αν αυτό το μέλος υπάρχει ήδη"
@@ -1611,10 +1621,29 @@ msgstr ""
 msgid "An unknown error occurred: "
 msgstr "Προέκυψε άγνωστο σφάλμα."
 
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:19
+#, fuzzy
+msgid "Edit booking"
+msgstr "Επεξεργασία παρόχου %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:22
+#, fuzzy
+msgid "Place booking"
+msgstr "Κράτηση"
+
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:85
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:530
 msgid "years"
 msgstr "έτη"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:106
+msgid "Search for a patron"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:167
+#, fuzzy
+msgid "Select item"
+msgstr "Επιλογή όλων"
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
 #, fuzzy

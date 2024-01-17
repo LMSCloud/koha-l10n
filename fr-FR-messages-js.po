@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-12 03:03+0000\n"
+"POT-Creation-Date: 2024-01-17 03:03+0000\n"
 "PO-Revision-Date: 2023-12-25 03:02+0000\n"
 "Last-Translator: mathsaby <mathsabypro@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -478,6 +478,12 @@ msgstr "Octobre"
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:144
 msgid "September"
 msgstr "Septembre"
+
+#: koha-tmpl/intranet-tmpl/prog/js/cancel_booking_modal.js:31
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:548
+#, fuzzy
+msgid "Failure"
+msgstr "Échec"
 
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:358
@@ -1202,6 +1208,11 @@ msgstr "Voulez-vous vraiment passer cet enfant dans la catégorie Adulte ? Cette
 msgid "Are you sure you want to renew this patron's registration?"
 msgstr "Voulez-vous renouveler l'inscription de cet adhérent ?"
 
+#: koha-tmpl/intranet-tmpl/prog/js/members-patron-selections.js:21
+#, fuzzy, javascript-format
+msgid "Patrons selected: %s"
+msgstr "Oui, supprimer"
+
 #: koha-tmpl/intranet-tmpl/prog/js/members.js:20
 msgid "Please confirm whether this is a duplicate patron"
 msgstr "Veuillez confirmer que c'est une adhérent en doublon"
@@ -1600,10 +1611,29 @@ msgstr "Cette fonctionnalité est disponible uniquement dans des contextes sécu
 msgid "An unknown error occurred: "
 msgstr "Une erreur inconnue s'est produite : "
 
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:19
+#, fuzzy
+msgid "Edit booking"
+msgstr "Modifier le fournisseur %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:22
+#, fuzzy
+msgid "Place booking"
+msgstr "Réserver"
+
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:85
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:530
 msgid "years"
 msgstr "années"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:106
+msgid "Search for a patron"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:167
+#, fuzzy
+msgid "Select item"
+msgstr "Sélectionner un fichier"
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
 msgid "Are you sure you want to remove this recall?"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-12 03:03+0000\n"
+"POT-Creation-Date: 2024-01-17 03:03+0000\n"
 "PO-Revision-Date: 2023-11-02 11:12+0000\n"
 "Last-Translator: Saralin <c108126114@nkust.edu.tw>\n"
 "Language-Team: Koha Translation Team\n"
@@ -478,6 +478,12 @@ msgstr "十月"
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:144
 msgid "September"
 msgstr "九月"
+
+#: koha-tmpl/intranet-tmpl/prog/js/cancel_booking_modal.js:31
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:548
+#, fuzzy
+msgid "Failure"
+msgstr "失敗"
 
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:358
@@ -1199,6 +1205,11 @@ msgstr "您確定更新此兒童為成人嗎？執行後不能復原。"
 msgid "Are you sure you want to renew this patron's registration?"
 msgstr "您確定要更新此讀者的註冊資料嗎？"
 
+#: koha-tmpl/intranet-tmpl/prog/js/members-patron-selections.js:21
+#, fuzzy, javascript-format
+msgid "Patrons selected: %s"
+msgstr "是的，刪除"
+
 #: koha-tmpl/intranet-tmpl/prog/js/members.js:20
 msgid "Please confirm whether this is a duplicate patron"
 msgstr "請確認是否為重複的讀者"
@@ -1596,10 +1607,29 @@ msgstr "此主題唯在安全環境 (HTTPS)可取得。"
 msgid "An unknown error occurred: "
 msgstr "發生未知的錯誤： "
 
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:19
+#, fuzzy
+msgid "Edit booking"
+msgstr "編輯提供者 %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:22
+#, fuzzy
+msgid "Place booking"
+msgstr "預約"
+
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:85
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:530
 msgid "years"
 msgstr "年"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:106
+msgid "Search for a patron"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:167
+#, fuzzy
+msgid "Select item"
+msgstr "全選"
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
 msgid "Are you sure you want to remove this recall?"

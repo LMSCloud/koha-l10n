@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-12 03:03+0000\n"
+"POT-Creation-Date: 2024-01-17 03:03+0000\n"
 "PO-Revision-Date: 2024-01-17 03:00+0000\n"
 "Last-Translator: Magnus Enger <magnus@enger.priv.no>\n"
 "Language-Team: Koha Translation Team\n"
@@ -477,6 +477,12 @@ msgstr "Oktober"
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:144
 msgid "September"
 msgstr "September"
+
+#: koha-tmpl/intranet-tmpl/prog/js/cancel_booking_modal.js:31
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:548
+#, fuzzy
+msgid "Failure"
+msgstr "Mislyktes"
 
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:358
@@ -1199,6 +1205,11 @@ msgstr "Er du sikker på at du vil oppdatere denne barnelåneren til en voksen k
 msgid "Are you sure you want to renew this patron's registration?"
 msgstr "Er du sikker på at du vil fornye denne lånerens registrering?"
 
+#: koha-tmpl/intranet-tmpl/prog/js/members-patron-selections.js:21
+#, fuzzy, javascript-format
+msgid "Patrons selected: %s"
+msgstr "Ja, slett"
+
 #: koha-tmpl/intranet-tmpl/prog/js/members.js:20
 msgid "Please confirm whether this is a duplicate patron"
 msgstr "Bekreft om dette er en duplikatlåner"
@@ -1591,10 +1602,29 @@ msgstr "Denne funksjonen er bare tilgjengelig i en sikker kontekst (HTTPS)."
 msgid "An unknown error occurred: "
 msgstr "Det har oppstått en ukjent feil: "
 
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:19
+#, fuzzy
+msgid "Edit booking"
+msgstr "Rediger leverandør %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:22
+#, fuzzy
+msgid "Place booking"
+msgstr "Reserver"
+
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:85
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:530
 msgid "years"
 msgstr "år"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:106
+msgid "Search for a patron"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:167
+#, fuzzy
+msgid "Select item"
+msgstr "Velg fil"
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
 msgid "Are you sure you want to remove this recall?"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-12 03:03+0000\n"
+"POT-Creation-Date: 2024-01-17 03:03+0000\n"
 "PO-Revision-Date: 2024-01-08 13:15+0000\n"
 "Last-Translator: tigran <tigran@flib.sci.am>\n"
 "Language-Team: Koha Translation Team\n"
@@ -30,7 +30,8 @@ msgid "Not for loan"
 msgstr "Դուրս տրման համար չէ"
 
 #: C4/ILSDI/Services.pm:974 C4/ILSDI/Services.pm:976 C4/ILSDI/Services.pm:978
-#: C4/ILSDI/Services.pm:980 C4/ILSDI/Services.pm:982
+#: C4/ILSDI/Services.pm:980 C4/ILSDI/Services.pm:982 C4/ILSDI/Services.pm:984
+#: C4/ILSDI/Services.pm:986
 msgid "not available"
 msgstr "մատչելի չէ"
 
@@ -51,6 +52,15 @@ msgid "Item damaged"
 msgstr "Նյութը վնասված է"
 
 #: C4/ILSDI/Services.pm:984
+msgid "In transit"
+msgstr ""
+
+#: C4/ILSDI/Services.pm:986
+#, fuzzy
+msgid "On hold"
+msgstr "Հաստատեք պահումները"
+
+#: C4/ILSDI/Services.pm:988
 msgid "available"
 msgstr "հասանելի է"
 
@@ -3877,6 +3887,7 @@ msgstr "Հաշվետվություններ"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:34
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/downloadcart.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/sendbasketform.tt:6
+#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:11
@@ -5878,6 +5889,7 @@ msgstr "SRU որոնման դաշտի քարտեզագրում հեղինակա�
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:48
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:88
 #, perl-brace-format
 msgid "Modify system preference '{system_preference}'"
 msgstr "Փոփոխել '{system_preference}' համակարգային նախապատվությունը"
@@ -5899,11 +5911,6 @@ msgstr "Համակարգային նախապատվությունը ջնջված �
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:21
 msgid "Local use system preferences"
 msgstr "Համակարգային նախապատվություններ տեղային օգտագործում"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:88
-#, perl-brace-format
-msgid "Modify system preference '{searchfield}'"
-msgstr "Ձևափոխեք '{searchfield}' համակարգային նախապատվությունը"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:273
 #, perl-brace-format
@@ -6040,6 +6047,7 @@ msgid "Your cart"
 msgstr "Ձեր զամբյուղը"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:33
+#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:10
@@ -6069,6 +6077,10 @@ msgstr "Ուղարկելով ձեր զամբյուղը"
 #, perl-brace-format
 msgid "Print notices for {today}"
 msgstr "Տպեք ծանուցումներ՝ {today}"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:8
+msgid "Bookings"
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:9
@@ -7248,7 +7260,7 @@ msgstr "Ավելացրու ընթերցող"
 msgid "Modify patron"
 msgstr "Ձևափոխեք այցելուին"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1439
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1440
 msgctxt "patron restriction created on"
 msgid "Created"
 msgstr "Ստեղծված"
@@ -8388,6 +8400,10 @@ msgstr[0] "հաղորդագրություններ"
 
 #~ msgid "Item number (internal)"
 #~ msgstr "Նյութի համար (ներքին)"
+
+#, perl-brace-format
+#~ msgid "Modify system preference '{searchfield}'"
+#~ msgstr "Ձևափոխեք '{searchfield}' համակարգային նախապատվությունը"
 
 #~ msgctxt "citations"
 #~ msgid "Quotes"

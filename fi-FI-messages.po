@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-12 03:03+0000\n"
+"POT-Creation-Date: 2024-01-17 03:03+0000\n"
 "PO-Revision-Date: 2023-12-27 12:08+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -30,7 +30,8 @@ msgid "Not for loan"
 msgstr "Ei lainattavissa"
 
 #: C4/ILSDI/Services.pm:974 C4/ILSDI/Services.pm:976 C4/ILSDI/Services.pm:978
-#: C4/ILSDI/Services.pm:980 C4/ILSDI/Services.pm:982
+#: C4/ILSDI/Services.pm:980 C4/ILSDI/Services.pm:982 C4/ILSDI/Services.pm:984
+#: C4/ILSDI/Services.pm:986
 msgid "not available"
 msgstr "ei saatavana"
 
@@ -51,6 +52,15 @@ msgid "Item damaged"
 msgstr "Nide vaurioitunut"
 
 #: C4/ILSDI/Services.pm:984
+msgid "In transit"
+msgstr ""
+
+#: C4/ILSDI/Services.pm:986
+#, fuzzy
+msgid "On hold"
+msgstr "Vahvista varaukset"
+
+#: C4/ILSDI/Services.pm:988
 msgid "available"
 msgstr "saatavana"
 
@@ -3878,6 +3888,7 @@ msgstr "Raportit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:34
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/downloadcart.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/sendbasketform.tt:6
+#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:11
@@ -5885,6 +5896,7 @@ msgstr "SRU-hakukenttien kytkökset auktoriteeteille"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:48
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:88
 #, perl-brace-format
 msgid "Modify system preference '{system_preference}'"
 msgstr "Muokkaa järjestelmäasetusta '{system_preference}'"
@@ -5906,11 +5918,6 @@ msgstr "Järjestelmäasetus poistettu"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:21
 msgid "Local use system preferences"
 msgstr "Paikalliset järjestelmäasetukset"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:88
-#, perl-brace-format
-msgid "Modify system preference '{searchfield}'"
-msgstr "Muokkaa järjestelmäasetusta '{searchfield}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:273
 #, perl-brace-format
@@ -6047,6 +6054,7 @@ msgid "Your cart"
 msgstr "Korisi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:33
+#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:10
@@ -6076,6 +6084,10 @@ msgstr "Lähetetään koriasi"
 #, perl-brace-format
 msgid "Print notices for {today}"
 msgstr "Tulosta päivän {today} ilmoitukset"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:8
+msgid "Bookings"
+msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:9
@@ -7260,7 +7272,7 @@ msgstr "Lisää asiakas"
 msgid "Modify patron"
 msgstr "Muokkaa asiakasta"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1439
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1440
 msgctxt "patron restriction created on"
 msgid "Created"
 msgstr "Luotu"
@@ -8407,6 +8419,10 @@ msgstr[1] "viestiä"
 
 #~ msgid "Item number (internal)"
 #~ msgstr "Nidenumero (sisäinen)"
+
+#, perl-brace-format
+#~ msgid "Modify system preference '{searchfield}'"
+#~ msgstr "Muokkaa järjestelmäasetusta '{searchfield}'"
 
 #, fuzzy
 #~ msgctxt "citations"
