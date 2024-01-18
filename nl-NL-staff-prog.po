@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-17 03:03+0000\n"
-"PO-Revision-Date: 2024-01-17 03:00+0000\n"
-"Last-Translator: Jan Mark Koopmans <j.m.koopmans@saxion.nl>\n"
+"PO-Revision-Date: 2024-01-19 03:00+0000\n"
+"Last-Translator: Ronald Wijlens <r.j.wijlens@saxion.nl>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nl-NL\n"
 "MIME-Version: 1.0\n"
@@ -14456,9 +14456,9 @@ msgstr "Lener heeft geen terugroepingen."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_queue.tt:54
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:93
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:137
-#, fuzzy, c-format
+#, c-format
 msgid "There are no recalls to show."
-msgstr "Er zijn geen nieuwsberichten."
+msgstr "Er zijn geen terugroepingen om te tonen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/relatives-issues-table.inc:6
 #, c-format
@@ -14472,9 +14472,8 @@ msgstr "Uitgeleend op (verborgen, ongeformatteerd)"
 
 #. INPUT type=text name=barcode
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew-search-box.inc:14
-#, fuzzy
 msgid "Scan a barcode to renew"
-msgstr "Scan een barcode om te verlengen:"
+msgstr "Scan barcode om te verlengen"
 
 #. %1$s:  FOREACH result IN renew_results 
 #. %2$s:  IF result.success 
@@ -14500,14 +14499,14 @@ msgid "%s ( %s ): Not renewed - %s"
 msgstr "%s ( %s ): Niet verlengd - %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:3
-#, fuzzy, c-format
+#, c-format
 msgid "No matching item could be found"
-msgstr "Geen overeenkomstige records gevonden"
+msgstr "Geen overeenkomstig exemplaar gevonden"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:5
-#, fuzzy, c-format
+#, c-format
 msgid "Item is not checked out"
-msgstr "Exemplaar is niet uitgeleend."
+msgstr "Exemplaar is niet uitgeleend"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:7
 #, c-format
@@ -14515,14 +14514,14 @@ msgid "Cannot be renewed yet"
 msgstr "Kan nog niet worden verlengd"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:9
-#, fuzzy, c-format
+#, c-format
 msgid "Renewed the maximum number of times"
-msgstr "U heeft dit exemplaar het maximale aantal keren verlengd."
+msgstr "Maximaal aantal keren verlengd"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:11
-#, fuzzy, c-format
+#, c-format
 msgid "Scheduled for automatic renewal and cannot be renewed yet"
-msgstr "Dit exemplaar is ingepland voor automatische verlenging en kan niet worden verlengd"
+msgstr "Gepland voor automatische verlenging en kan nog niet worden verlengd"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:13
 #, c-format
@@ -14545,19 +14544,19 @@ msgid "Scheduled for automatic renewal and cannot be renewed because the patron 
 msgstr "Gepland voor automatische verlenging en kan niet worden verlengd omdat de lener teveel openstaande boetes heeft"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:21
-#, fuzzy, c-format
+#, c-format
 msgid "On hold for another patron"
-msgstr "Dit exemplaar is gereserveerd voor een andere lener."
+msgstr "Aangevraagd voor een andere lener"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:23
-#, fuzzy, c-format
+#, c-format
 msgid "Patron is currently restricted"
-msgstr "Lener is momenteel niet geblokkeerd."
+msgstr "Lener is geblokkeerd"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:25
-#, fuzzy, c-format
+#, c-format
 msgid "Item is not allowed renewal"
-msgstr "Exemplaar mag niet verlengd worden."
+msgstr "Exemplaar mag niet verlengd worden"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:27
 #, fuzzy, c-format
@@ -14570,15 +14569,15 @@ msgid "Item has an outstanding fine"
 msgstr "Exemplaar heeft openstaande boete."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:31
-#, fuzzy, c-format
+#, c-format
 msgid "Item already issued to other borrower"
-msgstr "Exemplaren reeds toegevoegd aan rota:"
+msgstr "Exemplaar reeds uitgeleend aan lener"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:110
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown error"
-msgstr "Onbekende fout."
+msgstr "Onbekende fout"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:8
@@ -14803,9 +14802,8 @@ msgstr "Download "
 
 #. BUTTON
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:132
-#, fuzzy
 msgid "Select format and download report results"
-msgstr "Kies downloadformat: "
+msgstr "Kies format en download rapportresultaten"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:135
 #, c-format
@@ -14829,9 +14827,9 @@ msgid "Chart (.svg)"
 msgstr "Grafiek (.svg)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:147
-#, fuzzy, c-format
+#, c-format
 msgid "Show SQL code "
-msgstr "Toon SQL code"
+msgstr "Toon SQL code "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:152
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:154
@@ -15096,9 +15094,9 @@ msgstr "Voer de waarde van de locatiecode in om te zoeken"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:105
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:107
-#, fuzzy, c-format
+#, c-format
 msgid "Shelving location (code)"
-msgstr "Plaatscode: "
+msgstr "Plaatscode (code)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:111
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:113
@@ -15189,9 +15187,9 @@ msgstr "Binnengekomen"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:3
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:174
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:177
-#, fuzzy, c-format
+#, c-format
 msgid "Circulating"
-msgstr "Uitleen"
+msgstr "In omloop"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:4
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:181
@@ -15602,9 +15600,9 @@ msgstr "Mislukt"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/job_progress.inc:2
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:162
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/cleanborrowers.tt:52
-#, fuzzy, c-format
+#, c-format
 msgid "Finished"
-msgstr "Afronden"
+msgstr "Gereed"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/job_progress.inc:2
@@ -15978,9 +15976,8 @@ msgstr "Voorbeeld code..."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Code view"
-msgstr "Verberg gezien"
+msgstr "Code weergave"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -16110,9 +16107,8 @@ msgstr "Rij knippen"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Dark Blue"
-msgstr "Donkerrood"
+msgstr "Donkerblauw"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -16131,9 +16127,8 @@ msgstr "Donkeroranje"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Dark Purple"
-msgstr "Paars"
+msgstr "Donkerpaars"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -16295,15 +16290,13 @@ msgstr "Fout"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Error: Form submit field collision."
-msgstr "Fout: _(Ingestuurd formulier veld botsing."
+msgstr "Fout: Ingestuurd formulier veldbotsing."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Error: No form element found."
-msgstr "Fout: (Geen formulierelement gevonden."
+msgstr "Fout: Geen formulierelement gevonden."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -16312,27 +16305,23 @@ msgstr "Extended Latin"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Failed to initialize plugin: {0}"
-msgstr "Initaliseren mislukt van plugin: _({0}"
+msgstr "Initaliseren van plugin mislukt: {0}"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Failed to load plugin url: {0}"
-msgstr "Laden mislukt van plugin url: _({0}"
+msgstr "Laden mislukt van plugin url: {0}"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Failed to load plugin: {0} from url {1}"
-msgstr "Laden mislukt van plugin: _({0} vanaf url {1}"
+msgstr "Laden mislukt van plugin: {0} vanaf url {1}"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Failed to upload image: {0}"
-msgstr "Afbeelding uploaden mislukt: _({0}"
+msgstr "Afbeelding uploaden mislukt: {0}"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -16351,7 +16340,6 @@ msgstr "Zoek (als zoekvervang plugin geactiveerd is)"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Find and Replace"
 msgstr "Zoek en vervang"
 
@@ -16367,9 +16355,8 @@ msgstr "Zoek en vervang..."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Find in selection"
-msgstr "selectie"
+msgstr "Zoek in selectie"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -16378,9 +16365,8 @@ msgstr "Zoek alleen hele woorden"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Finding word suggestions"
-msgstr "Wachtende suggesties"
+msgstr "Zoeken naar woordsuggesties"
 
 #. For the first occurrence,
 #. SCRIPT
