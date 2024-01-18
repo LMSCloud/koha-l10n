@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.002\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:15-0300\n"
-"PO-Revision-Date: 2024-01-11 03:00+0000\n"
+"PO-Revision-Date: 2024-01-19 03:00+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hi\n"
@@ -466,12 +466,12 @@ msgstr "acquisitions.pref#EmailPurchaseSuggestions# कोई नहीं"
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a</p>"
-msgstr "<br/> उदाहरण के लिए: <br/> कीमत: 947$a|947$c<br/> मात्रा: 969$h<br/>budget_code: 922$a</p>"
+msgstr "<p>उदारण के लिए:<br/>मूल्य: 947$a|947$c<br/>मात्रा: 969$h<br/>budget_code: 922$a</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>You can use the following fields: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
-msgstr "<p> आप निम्नलिखित फ़ील्ड का उपयोग कर सकते हैं: मूल्य, प्रतिस्थापनप्राइस, मात्रा, बजट_कोड, डिस्काउंट, सॉर्ट 1, सॉर्ट 2 </p>"
+msgstr "<p>आप निम्नलिखित फ़ील्ड का उपयोग कर सकते हैं: मूल्य, प्रतिस्थापनप्राइस, मात्रा, बजट_कोड, डिस्काउंट, SORT1, SORT2</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
@@ -481,16 +481,16 @@ msgstr "acquisitions.pref#MarcFieldsToOrder# एक मंचन फ़ाइल
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
-msgstr "<p>उदाहरण के लिए:<br/>holdingbranch:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
+msgstr "<p>उदाहरण के लिए:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
-msgstr "<p> यदि कोई फ़ील्ड गायब है या मैप नहीं की जाती है, तो  <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> की जाँच की जाएगी और उस क्षेत्र के लिए उपयोग किया जाएगा। (मात्रा को छोड़कर)। </p>"
+msgstr "<p>यदि कोई फ़ील्ड गायब है या मैप नहीं की जाती है, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> उस क्षेत्र के लिए जाँच और उपयोग किया जाएगा (मात्रा को छोड़कर).</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
-msgstr "<p> आप निम्नलिखित फ़ील्ड का उपयोग कर सकते हैं: HomeBranch, HoldingBranch, Itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, कोपिनो, मूल्य, प्रतिस्थापनप्राइस और ItemCallNumber। विशेष क्षेत्र: मात्रा और बजट_कोड </p>"
+msgstr "<p>आप निम्नलिखित फ़ील्ड का उपयोग कर सकते हैं: HomeBranch, HoldingBranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, कोपिनो, मूल्य, रिप्लेसमेंटप्राइस और ItemCallNumber। विशेष क्षेत्र: मात्रा और बजट_कोड</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
@@ -4361,31 +4361,27 @@ msgstr "circulation.pref#ArticleRequestsSupportedFormats# निम्नलि�
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# When returning items"
-msgstr "circulation.pref#AutoRemoveOverduesRestrictions# मत करो"
+msgstr "जब आइटम लौटाते हैं"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# don't"
-msgstr "circulation.pref#AutoRemoveOverduesRestrictions# मत करो"
+msgstr "नहीं करना"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining items that is cause for debarment"
-msgstr "circulation.pref#AutoRemoveOverduesRestrictions# मत करो"
+msgstr "यदि संरक्षक के पास कोई शेष वस्तु नहीं है जो डिबेरमेंट का कारण हो"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining overdue items"
-msgstr "circulation.pref#AutoRemoveOverduesRestrictions# मत करो"
+msgstr "यदि संरक्षक के पास कोई शेष ओवरडंयू आइटम नहीं है"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# remove OVERDUES restriction triggered by sent notices. The difference between removing restriction when no remaining overdue items exists and doing so only when any of the items would result in debarment is that the latter option will respect possible grace periods of overdue rules also on returns and not only when generating overdue notices."
-msgstr ""
+msgstr "भेजे गए नोटिस द्वारा ट्रिगर किए गए ओवरड्यूज प्रतिबंध को हटा दें। प्रतिबंध को हटाने के बीच का अंतर जब कोई शेष अतिदेय आइटम मौजूद नहीं होता है और ऐसा केवल तब होता है जब किसी भी आइटम के परिणामस्वरूप डिबेरमेंट होता है, तो बाद वाला विकल्प ओवरड्यू नियमों की संभावित अनुग्रह अवधि का सम्मान करेगा और न केवल ओवरड्यू नोटिस उत्पन्न करते समय।"
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
 # Circulation > Holds policy
@@ -4474,27 +4470,23 @@ msgstr "circulation.pref#AutoSwitchPatron# एक संरक्षक को �
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/automatic_checkin.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "circulation.pref#AutoResumeSuspendedHolds# <br><strong>नोट:</strong> Tउसकी प्रणाली वरीयता के लिए आवश्यक है <code>misc/cronjobs/holds/auto_unsuspend_holds.pl</code> क्रानजॉब. इसे शेड्यूल करने के लिए अपने सिस्टम एडमिनिस्ट्रेटर से पूछें."
+msgstr "<br><strong>नोट:</strong> इस सिस्टम वरीयता के लिए <Code> mist/cronjobs/automate_checkin.pl </code> cronjob की आवश्यकता होती है। अपने सिस्टम व्यवस्थापक से इसे शेड्यूल करने के लिए कहें।"
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# Allow"
-msgstr "circulation.pref # BatchCheckouts # अनुमति दें"
+msgstr "अनुमति दें"
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# Don't allow"
-msgstr "circulation.pref # BatchCheckouts # अनुमति न दें"
+msgstr "अनुमति न दें"
 
 # Circulation > Checkout policy > AutomaticItemReturn
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# holds to be automatically filled after being automatically checked in."
-msgstr "circulation.pref#AutomaticItemReturn# जब वे चैकइन में अपने घर की लाइब्रेरी में आइटमों को स्वचालित रूप से स्थानांतरित करते हैं."
+msgstr "स्वचालित रूप से चेक किए जाने के बाद स्वचालित रूप से होल्ड भर जाता है।"
 
 # Circulation > Checkin policy > AutomaticConfirmTransfer
 # Circulation > Checkout policy
@@ -4953,9 +4945,8 @@ msgstr "circulation.pref#DefaultLongOverdueChargeValue# <br>यदि आप ख
 
 # Circulation > Checkout policy > DefaultLongOverdueChargeValue
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueChargeValue# Charge a lost item to the patron's account when the <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a> value of the item changes to:"
-msgstr "circulation.pref#DefaultLongOverdueChargeValue# जब आइटम का LOST मान परिवर्तित होता है, तो संरक्षक के खाते में एक खोई हुई वस्तु को चार्ज करें:"
+msgstr "जब <a href='/cgi-bin/koha/admin/authorized_values.pl?searchfield=lost'> खो गया </a> के लिए आइटम परिवर्तन के मूल्य में एक खोया हुआ आइटम चार्ज करें:"
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -5185,9 +5176,8 @@ msgstr "circulation.pref#ExportCircHistory# दिखाएं"
 
 # Circulation > Interface > ExportCircHistory
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#ExportCircHistory# the option to export patron checkouts."
-msgstr "circulation.pref#ExportCircHistory# निर्यात संरक्षक चेकआउट इतिहास विकल्प."
+msgstr "संरक्षक चेकआउट निर्यात करने का विकल्प।"
 
 # Circulation > Interface > ExportRemoveFields
 # Circulation > Interface
@@ -5196,9 +5186,8 @@ msgstr "circulation.pref#ExportRemoveFields# (खाली स्थान क�
 
 # Circulation > Interface > ExportRemoveFields
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#ExportRemoveFields# The following fields should be excluded from the patron checkout CSV or MARC (ISO 2709) export:"
-msgstr "circulation.pref#ExportRemoveFields# निम्नलिखित क्षेत्रों संरक्षक चेकआउट इतिहास सीएसवी या मार्क (ISO2709) निर्यात से बाहर रखा जाना चाहिए:"
+msgstr "निम्नलिखित क्षेत्रों को संरक्षक चेकआउट सीएसवी या मार्क (ISO 2709) निर्यात से बाहर रखा जाना चाहिए:"
 
 # Circulation > Interface > FilterBeforeOverdueReport
 # Circulation > Interface
