@@ -1,9 +1,9 @@
 # Compendium of ru.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.002\n"
+"Project-Id-Version: Koha 23.12.00.003\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-17 03:03+0000\n"
+"POT-Creation-Date: 2024-01-19 03:02+0000\n"
 "PO-Revision-Date: 2024-01-10 03:01+0000\n"
 "Last-Translator: \"Igor A. Sychev\" <Igor.A.Sychev@mail.ru>\n"
 "Language-Team: Koha Translation Team\n"
@@ -690,7 +690,7 @@ msgstr "определите сметы и средства"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/cancelorder.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/duplicate_orders.tt:32
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edi_ean.tt:20
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:26
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edimsg.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/histsearch.tt:30
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:24
@@ -759,6 +759,7 @@ msgstr "Предложения"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/acquisitions-menu.inc:10
 #: koha-tmpl/intranet-tmpl/prog/en/includes/vendor-menu.inc:8
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:27
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:29
@@ -770,8 +771,8 @@ msgid "Invoices"
 msgstr "Счета-фактуры"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/acquisitions-menu.inc:12
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:29
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:40
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:26
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edimsg.tt:22
 #, c-format
 msgid "EDIFACT messages"
@@ -1114,7 +1115,7 @@ msgstr "Поиск по заказам"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:206
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/checkout-notes.tt:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:627
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:150
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:149
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:90
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:72
@@ -1185,7 +1186,7 @@ msgstr "Заглавие"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serials-search.inc:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/duplicate_orders.tt:156
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/duplicate_orders.tt:277
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:50
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/histsearch.tt:79
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:63
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:79
@@ -1226,6 +1227,7 @@ msgstr "Сложный поиск"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:187
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/duplicate_orders.tt:151
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/duplicate_orders.tt:272
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/histsearch.tt:73
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:83
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:123
@@ -2176,7 +2178,7 @@ msgstr "Таблицы МБА"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:673
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:754
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:132
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:130
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1199
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1208
@@ -2218,8 +2220,8 @@ msgstr "Возврат"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:29
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:201
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:415
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:420
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:417
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:422
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:135
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:126
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:121
@@ -3200,7 +3202,7 @@ msgstr "Объединение с авторитетным источником:
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:918
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:942
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:208
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:108
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:54
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:520
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:110
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:284
@@ -4166,8 +4168,8 @@ msgstr "Запросы (%s)"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocked-fines.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:102
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:111
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:69
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:77
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:70
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:216
 #, c-format
 msgid "Charges:"
@@ -4182,8 +4184,8 @@ msgstr "У читателя есть начисления в размере %s."
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocked-fines.inc:8
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:104
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:113
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:71
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:79
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:72
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:80
 #, c-format
 msgid "Checkouts are BLOCKED because fine balance is OVER THE LIMIT."
 msgstr "Книговыдача заблокирована."
@@ -4604,7 +4606,7 @@ msgstr "или"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:101
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-subscription-search-result.inc:53
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:87
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:222
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:267
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:194
@@ -5484,9 +5486,9 @@ msgstr "Продублировать"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:279
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:316
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:351
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:379
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:529
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:572
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:381
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:531
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:574
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-batch.tt:55
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/manage.tt:98
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:117
@@ -5693,7 +5695,7 @@ msgstr "Строчка "
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:133
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:354
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbooks.tt:280
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/merge.tt:201
@@ -6189,7 +6191,6 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:66
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:290
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:347
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:107
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:86
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1219
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/accountline-details.tt:83
@@ -6632,8 +6633,8 @@ msgstr "Фото читателя"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/result.tt:94
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:304
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:340
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:563
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:636
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:565
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:638
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:88
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:578
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-numberpatterns.tt:107
@@ -6677,7 +6678,7 @@ msgstr "‎Дата рождения не сохранена.‎"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:233
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:946
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:77
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:392
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:394
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:108
 #, c-format
@@ -6716,14 +6717,14 @@ msgstr "Учетная запись заблокирована"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:139
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:40
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:53
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:57
 #, c-format
 msgid "Batch check out"
 msgstr "Пакетная выдача"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:143
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:17
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:51
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:103
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:408
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:125
@@ -6777,7 +6778,7 @@ msgstr "Статистика"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/files.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/files.tt:43
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:644
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:646
 #, c-format
 msgid "Files"
 msgstr "Файлы"
@@ -6878,7 +6879,7 @@ msgstr "Загрузить изображение"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/rotating-collections-toolbar.inc:15
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:284
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:85
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:76
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:143
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:231
@@ -7640,7 +7641,7 @@ msgstr "Зарегистрированные читатели"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:618
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1386
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1421
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:506
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:508
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/paycollect.tt:400
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:71
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:74
@@ -7765,7 +7766,7 @@ msgstr "да"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:617
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1386
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1421
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:508
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:510
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/paycollect.tt:401
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:70
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:73
@@ -10033,7 +10034,7 @@ msgstr "Количество продлений"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:544
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/duplicate_orders.tt:150
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/duplicate_orders.tt:271
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:49
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/histsearch.tt:72
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:68
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:198
@@ -10489,7 +10490,7 @@ msgstr "Название отчёта"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:44
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cashup_summary.inc:17
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-restrictions-tab.inc:11
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:47
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:58
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:461
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:194
@@ -10543,7 +10544,7 @@ msgstr "Комментарии"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-subscription-search-result.inc:22
 #: koha-tmpl/intranet-tmpl/prog/en/includes/waiting_holds.inc:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:136
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:53
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:504
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:214
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:478
@@ -10791,8 +10792,8 @@ msgstr "Коментарий "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/member-alt-address-style.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:210
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:528
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:562
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:530
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:564
 #, c-format
 msgid "Alternate address"
 msgstr "Запасной адрес"
@@ -11501,7 +11502,7 @@ msgstr "Содержимое комплекта для %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:425
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:208
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:628
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:149
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:148
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:94
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:204
@@ -12497,7 +12498,7 @@ msgstr "Пеня"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:184
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:187
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:398
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:105
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:51
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:316
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/z3950_search.tt:239
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/blinddetail-biblio-search.tt:18
@@ -12541,7 +12542,7 @@ msgstr "Произошла ошибка. Проверьте журнал"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:185
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:418
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/share_content.tt:144
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:547
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:549
 #, c-format
 msgid "Email: "
 msgstr "Электронная почта: "
@@ -12718,8 +12719,8 @@ msgstr "Читательский билет будет просрочен %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:25
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:42
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:415
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:420
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:417
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:422
 #, c-format
 msgid "Edit details"
 msgstr "Изменить подробности"
@@ -12731,8 +12732,8 @@ msgstr "Изменить подробности"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:1045
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:844
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:415
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:420
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:417
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:422
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:415
 #, c-format
 msgid "or "
@@ -12853,7 +12854,7 @@ msgstr "Претензии на возврат:"
 #. %1$s:  charges_guarantors_guarantees | $Price 
 #. %2$s:  IF noissues 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:102
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:69
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:70
 #, c-format
 msgid "Patron's guarantors and their other guarantees collectively owe %s. %s "
 msgstr "Поручители читателя и другие их поручительства коллективно задолжали %s. %s "
@@ -12862,7 +12863,7 @@ msgstr "Поручители читателя и другие их поручи�
 #. %1$s:  chargesamount_guarantees | $Price 
 #. %2$s:  IF noissues 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:111
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:77
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:78
 #, c-format
 msgid "Patron's guarantees collectively owe %s. %s "
 msgstr "Коллективный долг читателя по поручительствам %s. %s "
@@ -16217,7 +16218,7 @@ msgstr "Уменьшить отступ"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/labeledMARCdetail.tt:64
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/merge.tt:128
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1088
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:434
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:436
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:96
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:100
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:104
@@ -19272,7 +19273,7 @@ msgstr "Config:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:209
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:215
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:279
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:466
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:468
 #, c-format
 msgid "Undefined"
 msgstr "Не определено"
@@ -23774,45 +23775,31 @@ msgstr "Отправить EDI заказ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:48
 #, c-format
-msgid "Transferred"
-msgstr "Перемещено"
+msgid "EDIFACT message"
+msgstr "EDIFACT сообщение"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:52
+#. SCRIPT
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
+msgid "Are you sure you want to delete this message?"
+msgstr "Вы действительно хотите удалить это сообщение?"
+
+#. For the first occurrence,
+#. SCRIPT
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:189
 #, c-format
 msgid "Filename"
 msgstr "Имя файла"
 
-#. %1$s:  msg.basketno.basketno | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:70
-#, c-format
-msgid "Basket: %s "
-msgstr "Корзина заказов: %s "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:76
-#, c-format
-msgid "Invoices "
-msgstr "Счет-фактуры "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:84
-#, c-format
-msgid "View message"
-msgstr "Просмотреть сообщение"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:102
-#, c-format
-msgid "EDIFACT message"
-msgstr "EDIFACT сообщение"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:116
-#, c-format
-msgid "There are no EDIFACT messages."
-msgstr "Сообщения EDIFACT отсутствуют."
+#. SCRIPT
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
+msgid "Transferred"
+msgstr "Перемещено"
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:133
-msgid "Are you sure you want to delete this message?"
-msgstr "Вы действительно хотите удалить это сообщение?"
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
+msgid "View message"
+msgstr "Просмотреть сообщение"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edimsg.tt:31
 #, c-format
@@ -24515,7 +24502,7 @@ msgid "Order date"
 msgstr "Дата заказа"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:80
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:151
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:150
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:344
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:727
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:931
@@ -26086,8 +26073,8 @@ msgstr "Должность: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:67
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:183
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:404
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:540
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:627
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:542
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:629
 #, c-format
 msgid "Phone: "
 msgstr "Телефон: "
@@ -26418,7 +26405,7 @@ msgstr "Вход: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:122
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:206
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:116
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:462
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:464
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep3.tt:109
 #, c-format
 msgid "Password: "
@@ -26641,7 +26628,7 @@ msgid "Contact information"
 msgstr "Контактная информация"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/uncertainprice.tt:60
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:590
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:592
 #, c-format
 msgid "Address: "
 msgstr "Адрес: "
@@ -28070,7 +28057,7 @@ msgstr "Добавить пользователей"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:105
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:255
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:86
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:426
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:428
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep3.tt:72
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/bor_issues_top.tt:138
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:112
@@ -30096,7 +30083,7 @@ msgstr "Адрес 3 строка: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:179
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:388
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:113
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:602
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:604
 #, c-format
 msgid "City: "
 msgstr "Населённый пункт: "
@@ -30104,7 +30091,7 @@ msgstr "Населённый пункт: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:180
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:392
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:117
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:609
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:611
 #, c-format
 msgid "State: "
 msgstr "Область, район: "
@@ -30112,7 +30099,7 @@ msgstr "Область, район: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:181
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:396
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:121
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:615
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:617
 #, c-format
 msgid "ZIP/Postal code: "
 msgstr "Почтовый индекс:"
@@ -30120,7 +30107,7 @@ msgstr "Почтовый индекс:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:182
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:400
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:125
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:621
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:623
 #, c-format
 msgid "Country: "
 msgstr "Страна: "
@@ -30837,8 +30824,8 @@ msgstr "Конфиденциальность по умолчанию:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:521
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:708
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookcount.tt:90
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:435
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:475
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:437
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:477
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:97
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:105
@@ -30852,7 +30839,7 @@ msgstr "Никогда"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:421
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:523
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:710
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:433
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:435
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:98
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:102
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep2.tt:106
@@ -30942,7 +30929,7 @@ msgid "Lost items in staff interface:"
 msgstr "Утерянные экземпляры в служебном интерфейсе:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:493
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:504
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:506
 #, c-format
 msgid "Check previous checkouts: "
 msgstr "Проверить предыдущие книговыдачи: "
@@ -32802,7 +32789,7 @@ msgid "Remote host: "
 msgstr "Удаленный хост: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:154
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:458
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:460
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep3.tt:104
 #, c-format
 msgid "Username: "
@@ -43589,7 +43576,7 @@ msgstr "Сокращенный срок возврата был бы %s (%s дн
 #. For the first occurrence,
 #. %1$s:  INCLUDE 'patron-title.inc' patron = alert.RETURNED_FROM_ANOTHER.patron 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:94
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:251
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:250
 #, c-format
 msgid "Item was checked out to %s and was returned automatically."
 msgstr "Экземпляр был выдан %s и возвращен автоматически."
@@ -43610,7 +43597,7 @@ msgid "This is the anonymous patron, so circulation is disabled."
 msgstr "Это анонимный читатель, поэтому история резервирований не отображается."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:112
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:321
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:323
 #, c-format
 msgid "Please confirm checkout"
 msgstr "Пожалуйста, подтвердите выдачу"
@@ -43631,7 +43618,7 @@ msgstr "Возрастное ограничение %s. %s Выдать в лю�
 #. For the first occurrence,
 #. %1$s:  DEBT | $Price 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:129
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:305
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:304
 #, c-format
 msgid "The patron has a debt of %s."
 msgstr "Читатель имеет долг в размере %s."
@@ -43772,7 +43759,7 @@ msgid "This patron is from a different library (%s)"
 msgstr "Этот читатель из другой библиотеки (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:193
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:199
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:198
 #, c-format
 msgid "This patron can't check out this item per library circulation policy."
 msgstr "Этот читатель не может получить этот экземпляр в соответствии с правилами книговыдачи."
@@ -43783,7 +43770,7 @@ msgid "No circulation rule is defined for this patron and itemtype combination."
 msgstr "Правило книговыдачи не определено для этой комбинации типа читателя и класса экземпляра ."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:203
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:203
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:202
 #, c-format
 msgid "Item type is normally not for loan."
 msgstr "Тип единиц обычно не выдаётся."
@@ -44087,7 +44074,7 @@ msgstr "Этот экземпляр не подлежит продлению, э
 #. For the first occurrence,
 #. %1$s:  AGE_RESTRICTION | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:559
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:172
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:171
 #, c-format
 msgid "Age restriction %s."
 msgstr "Ограничение по возрасту %s."
@@ -44100,7 +44087,7 @@ msgstr "Билет посетителя просроченный"
 #. For the first occurrence,
 #. %1$s:  Branches.GetName( itemhomebranch ) | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:575
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:290
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:289
 #, c-format
 msgid "This item belongs to %s and cannot be checked out from this location."
 msgstr "Этот экземпляр принадлежит %s и не может быть выдан из этого местоположения."
@@ -44124,7 +44111,7 @@ msgid "Patron has an indefinite restriction."
 msgstr "Читатель имеет неопределенное ограничение."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:591
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:296
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:295
 #, c-format
 msgid "Checkouts are BLOCKED because patron has overdue items."
 msgstr "Выдачи ЗАБЛОКИРОВАНЫ, потому что у посетителя есть просроченные экземпляры."
@@ -44197,7 +44184,7 @@ msgstr "Распечатать квитанцию и очистить экран
 #. %1$s:  INCLUDE 'patron-title.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:738
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:887
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:87
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:89
 #, c-format
 msgid "Checking out to %s"
 msgstr "Выдача посетителю: %s"
@@ -44251,6 +44238,7 @@ msgstr "Только выдачи на месте. Автоматическая 
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:835
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:837
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:115
 #, c-format
 msgid "On-site checkout"
 msgstr "Оформление выдачи на месте"
@@ -44328,7 +44316,7 @@ msgstr "Библиотека %s"
 msgid "Check out to %s"
 msgstr "Выдать %s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:60
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:61
 #, c-format
 msgid "You are not allowed to use batch checkout for this patron"
 msgstr "У вас нет прав на использование пакетной книговыдачи для этого читателя"
@@ -44337,115 +44325,83 @@ msgstr "У вас нет прав на использование пакетно
 #. %2$s:  INCLUDE 'blocked-fines.inc' fines = chargesamount 
 #. %3$s:  END 
 #. %4$s:  IF ( charges_guarantors_guarantees ) 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:62
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:63
 #, c-format
 msgid "Cannot check out! %s %s %s %s "
 msgstr "Не удается выдать! %s %s %s %s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:89
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:48
-#, c-format
-msgid "Use a file"
-msgstr "Использовать файл"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:91
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:55
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:106
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:111
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:137
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:82
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:110
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:96
-#, c-format
-msgid "File: "
-msgstr "Файл: "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:95
-#, c-format
-msgid "Or list barcodes one by one"
-msgstr "Или список штрих-кодов по одному"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:98
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:62
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:82
-#, c-format
-msgid "Barcode list (one barcode per line): "
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:92
+#, fuzzy, c-format
+msgid "Enter barcodes (one barcode per line): "
 msgstr "Список штрих-кодов (один штрих-код в каждой строке): "
 
-# --Дата возвращения (ибо=return date)
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:96
+#, fuzzy, c-format
+msgid "Or use a file: "
+msgstr "Использовать файл"
+
+# --Дата возвращения (конфликт с Return Date)
 #. %1$s:  INCLUDE 'date-format.inc' 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:109
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:107
 #, fuzzy, c-format
-msgid "Hard due date: %s"
-msgstr "Жесткий срок возврата %s:"
+msgid "Specify due date: %s"
+msgstr "Укажите срок возврата %s: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:116
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:136
 #, fuzzy, c-format
-msgid "On-site checkout:"
-msgstr "Оформление выдачи на месте"
-
-#. %1$s:  IF patron 
-#. %2$s:  INCLUDE 'patron-title.inc' invert_name = 1 
-#. %3$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:138
-#, c-format
-msgid "Batch checkout confirmation %s for %s %s"
+msgid "Batch checkout confirmation"
 msgstr "Подтверждение пакетной выдачи %s для %s %s"
 
-#. %1$s:  IF patron.borrowernumber 
-#. %2$s:  INCLUDE 'patron-title.inc' invert_name = 1 
-#. %3$s:  batch | html 
-#. %4$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:141
-#, c-format
-msgid "Batch checkout information %s for %s |%s|%s"
-msgstr "Информация о пакетной выдаче %s для %s |%s|%s"
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:139
+#, fuzzy, c-format
+msgid "Batch checkout results"
+msgstr "Пакетная книговыдача "
 
 #. %1$s:  INCLUDE 'biblio-title.inc' biblio=checkout_info.biblio link = 1 
 #. %2$s:  IF checkout_info.biblio.author 
 #. %3$s:  checkout_info.biblio.author | html 
 #. %4$s:  END 
 #. %5$s:  IF ( checkout_info.item.itemnotes ) 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:165
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:164
 #, c-format
 msgid "%s %s, by %s%s%s- "
 msgstr "%s %s,   %s%s%s- "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:175
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:174
 #, c-format
 msgid "This item is currently checked out to this patron. Renew?"
 msgstr "Этот экземпляр в настоящее время уже выдан этому читателю. Продлить?"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:178
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:177
 #, c-format
 msgid "This item is waiting for another patron."
 msgstr "Этот экземпляр находится в ожидании для другого читателя."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:181
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:180
 #, c-format
 msgid "This item is on hold and being transferred for another patron."
 msgstr "Этот экземпляр зарезервирован и перемещается другому читателю."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:184
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:183
 #, c-format
 msgid "This item is on hold and being processed for another patron."
 msgstr "Этот экземпляр зарезервирован и обрабатывается для другого читателя."
 
 #. %1$s:  IF CAN_user_circulate_force_checkout 
 #. %2$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:187
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:186
 #, c-format
 msgid "This item is checked out to another patron. %s Check in and check out? %s"
 msgstr "Этот экземпляр выдан другому читателю. %s Выполнить возврат и выдать? %s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:193
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:299
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:192
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:298
 #, c-format
 msgid "Too many checked out."
 msgstr "Слишком много книговыдач."
 
 #. %1$s:  Branches.GetName( checkout_info.BORRNOTSAMEBRANCH ) | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:196
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:195
 #, c-format
 msgid "This patron is from a different library (%s)."
 msgstr "Этот читатель из другой библиотеки (%s)."
@@ -44453,59 +44409,59 @@ msgstr "Этот читатель из другой библиотеки (%s)."
 #. %1$s:  IF item_notforloan_lib 
 #. %2$s:  item_notforloan_lib | html 
 #. %3$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:206
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:205
 #, c-format
 msgid "Item is normally not for loan %s(%s)%s."
 msgstr "Единица обычно не выдаётся %s(%s)%s."
 
 #. %1$s:  checkout_info.USERBLOCKEDOVERDUE | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:210
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:209
 #, c-format
 msgid "Patron has %s overdue item(s)."
 msgstr "У читателя есть %s просроченных экземпляров."
 
 #. For the first occurrence,
 #. %1$s:  checkout_info.ITEM_LOST | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:213
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:242
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:212
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:241
 #, c-format
 msgid "This item has been lost with a status of \"%s.\""
 msgstr "Этот экземпляр был утерян со статусом \"%s.\""
 
 #. %1$s:  checkout_info.HIGHHOLDS.duration | html 
 #. %2$s:  checkout_info.HIGHHOLDS.returndate | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:216
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:215
 #, c-format
 msgid "High demand item. Loan period shortened to %s days (due %s)."
 msgstr "Экземпляр с высоким спросом. Продолжительность выдачи сокращена до %s дней (ожидается %s)."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:227
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:226
 #, c-format
 msgid "This item is on hold for another patron. The hold will be overridden, but not cancelled."
 msgstr "Этот экземпляр зарезервирован другим читателем. Резервирование будет замещено, но не отменено."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:229
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:228
 #, c-format
 msgid "This item is on hold for another patron."
 msgstr "Этот экземпляр находится на резервировании для другого читателя"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:233
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:232
 #, c-format
 msgid "This item has previously been checked out to this patron."
 msgstr "Этот экземпляр ранее уже был выдан этому читателю."
 
 #. %1$s:  checkout_info.alert.OTHER_CHARGES | $Price 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:245
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:244
 #, c-format
 msgid "The patron has unpaid charges for holds, rentals etc of %s."
 msgstr "У читателя есть неоплаченные начисления за резервирования, аренду и т.д. %s."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:257
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:256
 #, c-format
 msgid "Local use recorded."
 msgstr "Местное использование записано."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:262
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:261
 #, c-format
 msgid "Item type not for loan."
 msgstr "Тип единиц не для выдачи."
@@ -44513,54 +44469,54 @@ msgstr "Тип единиц не для выдачи."
 #. %1$s:  IF item_notforloan_lib 
 #. %2$s:  item_notforloan_lib | html 
 #. %3$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:265
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:264
 #, c-format
 msgid "Item not for loan %s(%s)%s."
 msgstr "Единица не для выдачи %s(%s)%s."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:269
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:268
 #, c-format
 msgid "Item has been withdrawn."
 msgstr "Экземпляр был изъят."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:272
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:271
 #, c-format
 msgid "Item is restricted."
 msgstr "Экземпляр ограничен."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:275
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:274
 #, c-format
 msgid "Patron's address is in doubt."
 msgstr "Адрес посетителя вызывает сомнение."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:278
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:277
 #, c-format
 msgid "Patron's card is lost."
 msgstr "Читательский билет утерян."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:281
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:280
 #, c-format
 msgid "Patron is restricted."
 msgstr "Читатель имеет ограничение."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:284
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:283
 #, c-format
 msgid "No more renewals possible."
 msgstr "Продление больше невозможно."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:287
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:286
 #, c-format
 msgid "Patron's card is expired."
 msgstr "Читательский билет просрочен."
 
 #. %1$s:  checkout_info.USERBLOCKEDREMAINING | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:293
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:292
 #, c-format
 msgid "Patron has had overdue items and is blocked for %s day(s)."
 msgstr "У читателя были просроченные экземпляры, и он заблокирован на %s дней."
 
 #. %1$s:  checkout_info.barcode | html 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:302
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:301
 #, c-format
 msgid "The barcode was not found %s."
 msgstr "Штрих-код не найден %s."
@@ -44572,16 +44528,16 @@ msgid "Due on %s"
 msgstr "Выдано до %s"
 
 #. INPUT type=submit
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:329
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:331
 msgid "Checkout or renew"
 msgstr "Выдать или продлить"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:335
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:337
 #, c-format
 msgid "Find another patron?"
 msgstr "Найти другого читателя?"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:335
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:337
 #, c-format
 msgid "This patron does not exist. "
 msgstr "Этот читатель не существует. "
@@ -47406,7 +47362,7 @@ msgstr "# студентов"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:202
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:284
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:292
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:480
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:482
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:344
 #, c-format
 msgid "%s Yes %s No %s "
@@ -51664,7 +51620,7 @@ msgid "Inherit from settings"
 msgstr "Наследовать из настроек"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1086
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:517
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:519
 #, c-format
 msgid "Preferred language for notices: "
 msgstr "Предпочтительный язык для уведомлений: "
@@ -51807,7 +51763,7 @@ msgid "Loading new messaging defaults "
 msgstr "Загрузка новых настроек обмена сообщениями по умолчанию "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1631
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:358
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:359
 #, c-format
 msgid "SMS number:"
 msgstr "Номер для SMS:"
@@ -51818,7 +51774,7 @@ msgid "Please enter numbers only. Prefix the number with + or 00 if including th
 msgstr "Пожалуйста, введите только цифры. Добавьте к номеру префикс +, если он включает код страны."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1638
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:363
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:365
 #, c-format
 msgid "SMS provider:"
 msgstr "SMS провайдер:"
@@ -52446,33 +52402,33 @@ msgid "Guarantees:"
 msgstr "Поручительствует: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:72
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:378
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:380
 #, c-format
 msgid "Library use"
 msgstr "Формуляр читателя"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:75
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:384
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:386
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep3.tt:61
 #, c-format
 msgid "Card number: "
 msgstr "Номер читательского билета: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:76
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:388
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:390
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:253
 #, c-format
 msgid "Borrowernumber: "
 msgstr "Уникальный номер: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:78
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:396
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:398
 #, c-format
 msgid "Registration date: "
 msgstr "Дата регистрации: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:79
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:408
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:410
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:141
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:269
 #, c-format
@@ -52480,13 +52436,13 @@ msgid "Expiration date: "
 msgstr "Действителен до:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:87
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:441
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:443
 #, c-format
 msgid "Sort field 1:"
 msgstr "Поле сортировки 1:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:88
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:447
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:449
 #, c-format
 msgid "Sort field 2:"
 msgstr "Поле сортировки 2:"
@@ -52647,92 +52603,92 @@ msgid "Guarantors:"
 msgstr "Поручители:"
 
 # --Дата возвращения (конфликт с Return Date)
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:402
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:404
 #, c-format
 msgid "Renewal date: "
 msgstr "Дата продления: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:414
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:416
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/serials_stats.tt:78
 #, c-format
 msgid "Expired"
 msgstr "Истек"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:419
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:421
 #, c-format
 msgid "Patron expires soon"
 msgstr "Срок действия читательского билета истекает"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:432
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:434
 #, c-format
 msgid "Privacy pref:"
 msgstr "Настройки конфиденциальности:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:453
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:455
 #, c-format
 msgid "Auto-renewal:"
 msgstr "Автоматическое продление:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:453
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:455
 #, c-format
 msgid "Patron has opted out "
 msgstr "Читатель отказался"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:471
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:473
 #, c-format
 msgid "Password expires:"
 msgstr "Срок действия пароля истекает:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:480
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:482
 #, fuzzy, c-format
 msgid "Protected: "
 msgstr "Защита"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:490
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:492
 #, c-format
 msgid "Circulation note: "
 msgstr "Примечание для оборота: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:497
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:499
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:356
 #, c-format
 msgid "OPAC note:"
 msgstr "Сообщение для ЭК:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:510
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:512
 #, c-format
 msgid "Inherited"
 msgstr "Наследовано"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:554
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:556
 #, c-format
 msgid "Contact note: "
 msgstr "Примечание о контакте: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:571
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:635
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:573
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:637
 #, c-format
 msgid "Alternative contact"
 msgstr "Дополнительные данные для связи"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:578
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:580
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep3.tt:48
 #, c-format
 msgid "Surname: "
 msgstr "Фамилия: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:584
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:586
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep3.tt:53
 #, c-format
 msgid "First name: "
 msgstr "Имя: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:596
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:598
 #, c-format
 msgid "Address 2: "
 msgstr "Адрес, остальное: "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:645
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:647
 #, c-format
 msgid "Manage"
 msgstr "Управление"
@@ -62124,6 +62080,11 @@ msgstr "Это подполе будет удалено"
 msgid "Batch item %sdeletion%smodification%s"
 msgstr "Пакетное %s удаление %s изменение %s экземпляров"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:48
+#, c-format
+msgid "Use a file"
+msgstr "Использовать файл"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:51
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:74
 #, c-format
@@ -62137,11 +62098,28 @@ msgstr "Файл со штрих-кодами: "
 msgid "Item number file: "
 msgstr "Файл с номерами экземпляров: "
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:55
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:106
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:111
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:137
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:82
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:110
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:96
+#, c-format
+msgid "File: "
+msgstr "Файл: "
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:79
 #, c-format
 msgid "Or scan items one by one"
 msgstr "Или отсканируйте экземпляры один за другим"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:62
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:82
+#, c-format
+msgid "Barcode list (one barcode per line): "
+msgstr "Список штрих-кодов (один штрих-код в каждой строке): "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod.tt:71
 #, c-format
@@ -69416,11 +69394,16 @@ msgstr "_пустой"
 #~ msgid "Basket grouping for %s &rsaquo; Koha"
 #~ msgstr "Группировка корзины заказов %s &rsaquo; Koha"
 
+#, c-format
+#~ msgid "Basket: %s "
+#~ msgstr "Корзина заказов: %s "
+
 #~ msgid "Batch %s "
 #~ msgstr "Партия %s "
 
-#~ msgid "Batch check out "
-#~ msgstr "Пакетная книговыдача "
+#, c-format
+#~ msgid "Batch checkout information %s for %s |%s|%s"
+#~ msgstr "Информация о пакетной выдаче %s для %s |%s|%s"
 
 #, c-format
 #~ msgid "Batch extend due dates &rsaquo; Tools &rsaquo; Koha"
@@ -70432,6 +70415,11 @@ msgstr "_пустой"
 #~ msgid "Guarantor title"
 #~ msgstr "Название поручителя"
 
+# --Дата возвращения (ибо=return date)
+#, fuzzy, c-format
+#~ msgid "Hard due date: %s"
+#~ msgstr "Жесткий срок возврата %s:"
+
 #~ msgid "Here is your cart, sent from our online catalog."
 #~ msgstr "Вот ваша корзина, отправленная из нашего онлайн-каталога."
 
@@ -70576,6 +70564,10 @@ msgstr "_пустой"
 #, fuzzy
 #~ msgid "Invoice number: "
 #~ msgstr "Номер счёта-фактуры: "
+
+#, c-format
+#~ msgid "Invoices "
+#~ msgstr "Счет-фактуры "
 
 #, c-format
 #~ msgid "Invoices &rsaquo; Acquisitions &rsaquo; Koha"
@@ -71380,8 +71372,16 @@ msgstr "_пустой"
 #~ msgid "Old value: %s %s %s empty %s %s (No description available) %s %s %s %s \"Blank\" %s "
 #~ msgstr "Старое значение: %s %s %s пусто %s %s (Нет доступного описания) %s %s %s %s \"Пусто\" %s"
 
+#, fuzzy, c-format
+#~ msgid "On-site checkout:"
+#~ msgstr "Оформление выдачи на месте"
+
 #~ msgid "Open (%s)"
 #~ msgstr "Открыть (%s)"
+
+#, c-format
+#~ msgid "Or list barcodes one by one"
+#~ msgstr "Или список штрих-кодов по одному"
 
 #, c-format
 #~ msgid "Or use a patron list"
@@ -72137,6 +72137,10 @@ msgstr "_пустой"
 
 #~ msgid "The record id "
 #~ msgstr "id записи"
+
+#, c-format
+#~ msgid "There are no EDIFACT messages."
+#~ msgstr "Сообщения EDIFACT отсутствуют."
 
 #, c-format
 #~ msgid "This patron category already exists"
