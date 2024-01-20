@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.003\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-19 03:02+0000\n"
-"PO-Revision-Date: 2024-01-20 03:00+0000\n"
+"PO-Revision-Date: 2024-01-20 15:50+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -3874,12 +3874,12 @@ msgstr "Премахването е отменено. "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/pseudonymize_statistic.inc:12
 #, c-format
 msgid "Pseudonymization is pending. "
-msgstr ""
+msgstr "Предстои псевдонимизация. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/pseudonymize_statistic.inc:19
-#, fuzzy, c-format
+#, c-format
 msgid "Pseudonymization. "
-msgstr "Запазете за псевдонимизация: "
+msgstr "Псевдонимизация. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/stage_marc_for_import.inc:7
 #, c-format
@@ -10957,9 +10957,9 @@ msgid "Category"
 msgstr "Категория"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-patron-selections.inc:5
-#, fuzzy, c-format
+#, c-format
 msgid "Keep patrons selected for a new operation"
-msgstr "Добавете читатели към нов читателски списък"
+msgstr "Запазване на читателите, избрани за нова операция"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:15
 #, c-format
@@ -20795,7 +20795,7 @@ msgstr "jQuery Мигриране"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1091
 #, c-format
 msgid "jQuery UI v1.13.2"
-msgstr "jQueryUI v1.13.2"
+msgstr "jQuery UI v1.13.2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1091
 #, c-format
@@ -29692,9 +29692,8 @@ msgstr "Импортиране на MARC записи"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:162
-#, fuzzy
 msgid "Pseudonymize statistic"
-msgstr "Читатели статистика"
+msgstr "Псевдонимизация статистика"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:162
@@ -33719,7 +33718,7 @@ msgstr "Видът библиотечен документ е актуализи
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:131
 #, c-format
 msgid "Item type inserted successfully."
-msgstr "Вмъкнат успешно."
+msgstr "Вид библиотечен документ е добавен успешно."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:133
 #, c-format
@@ -36500,9 +36499,9 @@ msgstr "Часове"
 #. %8$s:  END 
 #. %9$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:282
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s before %s %s on %s %s after %s %s %s "
-msgstr "%s %s %s %s %s %s Читатели %s %s %s "
+msgstr "%s%s преди %s %s на %s%s след %s%s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:292
 #, c-format
@@ -39138,15 +39137,13 @@ msgstr "Резервации за %s"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:71
-#, fuzzy
 msgid "Biblio level"
-msgstr "Резервация на ниво библиографски записи."
+msgstr "Ниво библиографски записи"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:71
-#, fuzzy
 msgid "Booking ID"
-msgstr "Резервации ("
+msgstr "Резервации ID"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -44169,30 +44166,30 @@ msgid "Cannot check out! %s %s %s %s "
 msgstr "Не може да бъде зает! %s %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:92
-#, fuzzy, c-format
+#, c-format
 msgid "Enter barcodes (one barcode per line): "
 msgstr "Списък с баркодове (един баркод на ред): "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:96
-#, fuzzy, c-format
+#, c-format
 msgid "Or use a file: "
-msgstr "Използвайте файл "
+msgstr "Или използвайте файл: "
 
 #. %1$s:  INCLUDE 'date-format.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:107
-#, fuzzy, c-format
+#, c-format
 msgid "Specify due date: %s"
-msgstr "Посочете крайна дата %s: "
+msgstr "Посочете крайна дата: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:136
-#, fuzzy, c-format
+#, c-format
 msgid "Batch checkout confirmation"
-msgstr "Потвърждение за групово заемане %s за %s %s"
+msgstr "Потвърждение на пакетно заемане"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:139
-#, fuzzy, c-format
+#, c-format
 msgid "Batch checkout results"
-msgstr "Групово заемане "
+msgstr "Пакетно заемане резултати"
 
 #. %1$s:  INCLUDE 'biblio-title.inc' biblio=checkout_info.biblio link = 1 
 #. %2$s:  IF checkout_info.biblio.author 
@@ -57541,7 +57538,7 @@ msgstr "Заявете резервация"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1025
 #, c-format
 msgid "Place holds"
-msgstr "Направете резервация"
+msgstr "Направете резервации"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:128
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:189
