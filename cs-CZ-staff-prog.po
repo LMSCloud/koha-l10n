@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.003\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-19 03:02+0000\n"
-"PO-Revision-Date: 2024-01-19 03:00+0000\n"
-"Last-Translator: DagmarS <dagmar.sikova@seznam.cz>\n"
+"PO-Revision-Date: 2024-01-22 03:00+0000\n"
+"Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
@@ -3880,7 +3880,7 @@ msgstr "Rezervace byla zrušena"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/pseudonymize_statistic.inc:12
 #, c-format
 msgid "Pseudonymization is pending. "
-msgstr ""
+msgstr "Pseudonymizace čeká na spuštění. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/pseudonymize_statistic.inc:19
 #, fuzzy, c-format
@@ -9256,8 +9256,9 @@ msgstr "Sporné výpůjčky musí být vyřízeny na stránce s detailem čtená
 
 #. OPTION
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:121
+#, fuzzy
 msgid "Bundle losses are set at checkin automatically"
-msgstr ""
+msgstr "Dávkové ztráty se nastavuví automaticky při vrácení"
 
 #. For the first occurrence,
 #. %1$s: - mv.default | html -
@@ -19566,7 +19567,7 @@ msgstr "V administraci->MARC není chybí šablona \"Fast add\" (FA). Tím je v 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:423
 #, c-format
 msgid "System preference 'RequireChoosingExistingAuthority' is disabled, but needs 'AutoCreateAuthorites' enabled. Otherwise catalogers can add headings that will not be linked to authorities."
-msgstr ""
+msgstr "Systémová předvolba \"RequireChoosingExistingAuthority\" je zakázána, ale je třeba povolit \"AutoCreateAuthorites\". Jinak mohou katalogizátoři přidávat záhlaví, která nebudou propojeny s autoritním záznamem."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:429
 #, c-format
@@ -29177,9 +29178,9 @@ msgid "This authorized value category already exists."
 msgstr "Kategorie ověřených hodnot ("
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:233
-#, c-format
+#, c-format, fuzzy
 msgid "The authorized value category 'branches', 'itemtypes' and 'cn_source' are used internally by Koha and are not valid."
-msgstr ""
+msgstr "Kategorie ověřených hodnot 'branches', 'itemtypes' a 'cn_source' jsou používány interně systémem Koha a nejsou platné."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:245
 #, c-format
@@ -29327,17 +29328,17 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:430
 #, c-format
 msgid "Statuses of the licenses' agreements (e-resource management module)"
-msgstr ""
+msgstr "Stav licenčních smluv (modul správy elektronických zdrojů)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:432
 #, c-format
 msgid "Renewal priorities of agreements (e-resource management module)"
-msgstr ""
+msgstr "Priority obnovy smluv (modul správy elektronických zdrojů)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:434
 #, c-format
 msgid "Statuses of agreements (e-resource management module)"
-msgstr ""
+msgstr "Stavy smluv (modul správy elektronických zdrojů)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:436
 #, c-format
@@ -30929,7 +30930,7 @@ msgstr "Změnit pořadí rezervací"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:437
 #, c-format
 msgid ", holds placed by patrons of this category will not be given priority"
-msgstr ""
+msgstr ", rezervace provedené čtenáři této kategorie nebudou upřednostněny"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:437
 #, c-format
@@ -32098,7 +32099,7 @@ msgstr "Číslo ulice"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:123
 #, c-format
 msgid "Enable automatic generation of credit number (see "
-msgstr ""
+msgstr "Povolit automatické generování čísel účtenek (viz "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:126
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:134
@@ -32234,7 +32235,7 @@ msgstr "Povolit čtenářům plánovat si vlastní termín vyzvednutí."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:122
 #, c-format
 msgid "Enable for waiting holds only: "
-msgstr ""
+msgstr "Povolit pouze pro čekající rezervace: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:128
 #, fuzzy, c-format
@@ -33083,13 +33084,13 @@ msgstr "Na začátku domény můžete zadat zástupný znak. Například doména
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:101
 #, c-format
 msgid "Exact matches have precedence over wildcard ones, so 'library.com' domain will take precedence over '*library.com' when the email is 'somebody@library.com'"
-msgstr ""
+msgstr "Přesné shody mají přednost před zástupnými znaky, takže doména 'library.com' bude mít přednost před '*library.com', pokud je e-mail 'somebody@library.com'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:102
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:184
 #, c-format
 msgid "The same way, the longest match will take precedence over the shorter one, so '*teacher.university.com' will take precedence over '*.university.com' if the email is 'user@math.teacher.university.com'"
-msgstr ""
+msgstr "Stejně tak bude mít přednost nejdelší shoda před kratší, například '*teacher.university.com' bude mít přednost před '*.university.com', pokud je e-mail 'user@math.teacher.university.com'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:106
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:188
@@ -33194,7 +33195,7 @@ msgstr "Povolit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:146
 #, c-format
 msgid "OPAC users from this domain to login with this identity provider."
-msgstr ""
+msgstr "Uživatelé OPAC z této domény se mohou přihlásit pomocí tohoto poskytovatele identit."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:149
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:250
@@ -33206,22 +33207,22 @@ msgstr "Povolit přenos?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:154
 #, c-format
 msgid "of this domain to login with this identity provider"
-msgstr ""
+msgstr "této domény pro přihlášení pomocí tohoto poskytovatele identit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:183
 #, c-format
 msgid "Exact matches have precedence over asterix ones, so 'library.com' will take precedence over '*library.com' when the email is 'somebody@library.com'"
-msgstr ""
+msgstr "Přesné shody mají přednost před zástupnou hvězdičkou, takže 'library.com' bude mít přednost před '*library.com', pokud je e-mail 'somebody@library.com'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:247
 #, c-format
 msgid "OPAC users of this domain to login with this identity provider"
-msgstr ""
+msgstr "Uživatelé OPAC z této domény se mohou přihlásit pomocí tohoto poskytovatele identit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:260
 #, c-format
 msgid "staff users of this domain to login with this identity provider"
-msgstr ""
+msgstr "přihlašování uživatelů do rozhraní pro knihovníky z této domény pomocí tohoto poskytovatele identit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:283
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sms_providers.tt:47
@@ -33421,9 +33422,9 @@ msgstr "Mapování"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:136
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:300
-#, c-format
+#, c-format, fuzzy
 msgid "Map provider's result to Koha patron's fields. "
-msgstr ""
+msgstr "Mapování výsledku poskytovatele na pole čtenáře Koha. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:138
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:302
@@ -33435,13 +33436,13 @@ msgstr "Doporučuje se přidat výchozí mapování a poté jej upravit tak, aby
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:303
 #, c-format
 msgid "Keys represent Koha's fields, and values represent the keys in provider's result"
-msgstr ""
+msgstr "Klíče představují pole Koha a hodnoty představují klíče ve výsledku poskytovatele"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:304
 #, c-format
 msgid "For nested values in provider's results, you can use dot separation."
-msgstr ""
+msgstr "Pro vnořené hodnoty ve výsledcích poskytovatele můžete použít oddělení tečkou."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:141
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:305
@@ -33459,7 +33460,7 @@ msgstr "jméno: \"users.0.name\""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:305
 #, c-format
 msgid "will match the 'name' attribute of the first object in the array named 'users', and place it in 'firstname' field"
-msgstr ""
+msgstr "porovná atribut 'name' prvního objektu v poli s názvem 'users' a umístí jej do pole 'firstname'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:142
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:306
@@ -33538,12 +33539,12 @@ msgstr "Stáhnout nastavení"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:172
 #, c-format
 msgid "Use &ast; for any domain. You can add new domains later on the dedicated admin page."
-msgstr ""
+msgstr "Pro libovolnou doménu použijte &ast;. Nové domény můžete přidat později na příslušné stránce správce."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:199
 #, c-format
 msgid "Allow OPAC access to users from this domain to login with this identity provider."
-msgstr ""
+msgstr "Povolit přístup k OPAC uživatelům z této domény pro přihlášení pomocí tohoto poskytovatele identit."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:207
 #, c-format
@@ -34528,7 +34529,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:59
 #, c-format
 msgid "%s %s [%% SET pref_MARCOverlayRules_link = '"
-msgstr ""
+msgstr "%s %s [%% SET pref_MARCOverlayRules_link = '"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:63
 #, fuzzy, c-format
@@ -34539,7 +34540,7 @@ msgstr "jiná pravidla"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:64
 #, c-format
 msgid "The %s preference is not set, don't forget to enable it for rules to take effect. "
-msgstr ""
+msgstr "Předvolba %s není nastavena, nezapomeňte ji povolit, aby se pravidla projevila. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:70
 #, fuzzy, c-format
@@ -35543,7 +35544,7 @@ msgstr "Předvybráno (defaultně prohledáváno): "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:183
 #, c-format
 msgid "If checked, this field will be included in 'Standard' patron searches. Requires field to be marked as searchable above "
-msgstr ""
+msgstr "Pokud je toto pole zaškrtnuto, bude zahrnuto do \"standardního\" vyhledávání čtenářů. Vyžaduje, aby bylo pole označeno výše jako vyhledatelné "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:194
 #, fuzzy, c-format
@@ -35732,7 +35733,7 @@ msgstr "[Přepsáno] "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:204
 #, c-format
 msgid "Pseudonymization must only be turned on if the 'bcrypt_settings' configuration entry exists and is correctly filled in the Koha configuration file."
-msgstr ""
+msgstr "Pseudonymizace může být zapnuta pouze v případě, že existuje konfigurační položka 'bcrypt_settings' a je správně vyplněna v konfiguračním souboru Koha."
 
 #. %1$s:  w | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:205
@@ -36974,7 +36975,7 @@ msgstr "Dávkové mazání záznamů"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:894
 #, c-format
 msgid "Specify if waiting holds can be cancelled for a given patron category."
-msgstr ""
+msgstr "Určete, zda lze pro vybranou danou kategorii čtenářů lze zrušit nevyzvednuté rezerrvace."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:902
 #, fuzzy, c-format
@@ -36995,7 +36996,7 @@ msgstr "Denní limit otevřených požadavků na články"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:978
 #, c-format
 msgid "Specify the maximum number simultaneous current article requests a patron of a given category can have."
-msgstr ""
+msgstr "Určete maximální počet požadavků na článek, které může čtenář dané kategorie mít současně."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:985
 #, fuzzy, c-format
@@ -37016,7 +37017,7 @@ msgstr "Aktuální požadavky na text článku"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1032
 #, c-format
 msgid "Specify the article request fee for a given patron category."
-msgstr ""
+msgstr "Zadejte poplatek za vyžádání článku pro zvolenou kategorii čtenářů."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1039
 #, fuzzy, c-format
@@ -37299,7 +37300,7 @@ msgstr "Politiky jsou použity s ohledem na nastavení ReservesControlBranch, kt
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1292
 #, c-format
 msgid "When return policy is set to 'item floats by library group' the item's homebranch will be used to find groups."
-msgstr ""
+msgstr "Pokud je zásada vracení nastavena na \"položka pluje podle skupiny knihovny\", použije se k vyhledání skupin domovská knihovna jednotky."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1318
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1367
@@ -37543,13 +37544,13 @@ msgstr "Povoluje rozšířený výstup v protokolech"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:226
 #, c-format
 msgid "Default server: "
-msgstr ""
+msgstr "Výchozí server: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:136
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:232
 #, c-format
 msgid "Sets this SMTP server as the default SMTP server."
-msgstr ""
+msgstr "Nastaví tento server SMTP jako výchozí server SMTP."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:259
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:492
@@ -37593,12 +37594,12 @@ msgstr "Odstranit server"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:297
 #, c-format
 msgid "Set default server"
-msgstr ""
+msgstr "Nastavit výchozí server"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:300
 #, c-format
 msgid "Are you sure you want to change the default SMTP server?"
-msgstr ""
+msgstr "Opravdu chcete změnit výchozí server SMTP?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:324
@@ -40012,7 +40013,7 @@ msgstr "Rezervováno pro:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:541
 #, c-format
 msgid "There is an item level hold on this item (priority = %s)."
-msgstr ""
+msgstr "U jednotky je vytvořena rezervace na konkrétní jednotku (priorita = %s)."
 
 #. For the first occurrence,
 #. %1$s:  Branches.GetName( recall.pickup_library_id ) | html 
@@ -40713,8 +40714,9 @@ msgstr "Selhalo: Jednotka '%s' nebyla nalezena"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1828
+#, fuzzy
 msgid "Ignore holds and add to bundle"
-msgstr ""
+msgstr "Ignorovat rezervace a přidat do balíčku"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -40754,8 +40756,9 @@ msgstr "Tento fond má dceřiné fondy. Není možné jej smazat."
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1828
+#, fuzzy
 msgid "Warning: Item '%s' already attached"
-msgstr ""
+msgstr "Varování: Položka '%s' je již vložena"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/imageviewer.tt:58
 #, c-format
@@ -41828,7 +41831,7 @@ msgstr "Žádná položka"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:750
 #, c-format
 msgid "Save: '%s' with limits '%s' as filter"
-msgstr ""
+msgstr "Uložit: '%s' s omezeními '%s' jako filtr"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:753
 #, fuzzy, c-format
@@ -42076,7 +42079,7 @@ msgstr "Správa připravených MARC záznamů"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:857
 #, c-format
 msgid "This record had encoding issues, non-xml characters have been stripped in order to allow editing. Please be cautious when saving that some data may have been removed from the record."
-msgstr ""
+msgstr "U záznamu byl zjištěn problém s kódováním, znaky mimo xml byly odstraněny, aby bylo možné jej upravovat. Při ukládání dejte pozor na to, že některé údaje mohly být ze záznamu odstraněny."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:864
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:47
@@ -45710,9 +45713,9 @@ msgstr "Zrušit rezervaci"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:138
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1286
-#, c-format
+#, c-format, fuzzy
 msgid "Transfer was cancelled whilst in transit"
-msgstr ""
+msgstr "Přesun byl v jeho průběhu zrušen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:139
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1287
@@ -45876,7 +45879,7 @@ msgstr "Původní hodnota"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:297
 #, c-format
 msgid "empty"
-msgstr ""
+msgstr "prázdný"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:299
 #, fuzzy, c-format
@@ -45933,12 +45936,12 @@ msgstr "Náhrada byla uplatněna na čtenářův účet."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:345
 #, c-format
 msgid "A refund for the lost item charge has been applied to the borrowing patron's account, and new overdue charge has been calculated and applied."
-msgstr ""
+msgstr "Na účet čtenáře byl vrácen poplatek za ztracený dokument a výše zpozdného byla přepočítána a naúčtována."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:347
 #, c-format
 msgid "A refund for the lost item charge has been applied to the borrowing patron's account and if an overdue fine was forgiven when the item was marked as lost, it has been reverted."
-msgstr ""
+msgstr "Na účet čtenáře byl vrácen poplatek za ztracený dokument a pokud bylo odpuštěn poplatek za zpozdné, byl vrácen zpět a měl by být uhrazen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:349
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:362
@@ -45999,7 +46002,7 @@ msgstr "o systému"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:381
 #, c-format
 msgid "and correct all errors shown on the \"System information\" tab"
-msgstr ""
+msgstr "a opravte všechny chyby zobrazené na kartě \"Systémové informace\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:399
 #, fuzzy, c-format
@@ -46062,27 +46065,27 @@ msgstr "Ne "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:493
 #, c-format
 msgid "verified"
-msgstr ""
+msgstr "ověřeno"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:496
 #, c-format
 msgid "Scan all barcodes of items found in the items bundle. If any items are missing, they will be marked as lost"
-msgstr ""
+msgstr "Naskenujte všechny čárové kódy jednotek nalezených v balíčku. Pokud některé jednotky budou chybět, budou označeny jako ztracené"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:498
 #, c-format
 msgid "Optionally scan all barcodes of items found in the items bundle to perform an inventory check. If any items are missing, they will be marked as lost"
-msgstr ""
+msgstr "Volitelně můžete naskenovat všechny čárové kódy jednotek nalezených v balíčku a provést revizi. Pokud některé jednotky budou chybět, budou označeny jako ztracené"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:514
 #, c-format
 msgid "Confirm checkin and mark missing items as lost"
-msgstr ""
+msgstr "Potvrdit vrácení a označení jednotek jako ztracené"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:515
 #, c-format
 msgid "Confirm checkin without verifying bundle contents"
-msgstr ""
+msgstr "Potvrdit vrácení bez kontroly obsahu balíčku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:517
 #, c-format
@@ -46114,7 +46117,7 @@ msgstr "Prosíme, vraťte jednotku do: %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:766
 #, c-format
 msgid "OK (Y)"
-msgstr ""
+msgstr "OK (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:604
 #, fuzzy, c-format
@@ -46185,7 +46188,7 @@ msgstr "Ano, vytisknout lístek"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:764
 #, c-format
 msgid "No (N)"
-msgstr ""
+msgstr "Ne (N)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:767
 #, fuzzy, c-format
@@ -46254,7 +46257,7 @@ msgstr "Nalezena rezervace (jednotka již čeká na vyzvednutí): "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1068
 #, c-format
 msgid "Wait for pickup at"
-msgstr ""
+msgstr "Čeká na vyzvednutí v"
 
 #. BUTTON
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1103
@@ -46619,7 +46622,7 @@ msgstr "Pouze jednotka:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:197
 #, c-format
 msgid "/strong> "
-msgstr ""
+msgstr "/strong> "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:197
 #, fuzzy, c-format
@@ -48757,7 +48760,7 @@ msgstr "Pokračovat na přihlášení do systému Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:450
 #, c-format
 msgid "Try again"
-msgstr ""
+msgstr "Zkuste to znovu"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:459
@@ -48871,7 +48874,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:80
 #, c-format
 msgid "EAN13"
-msgstr ""
+msgstr "EAN13"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:81
 #, fuzzy, c-format
@@ -48911,12 +48914,12 @@ msgstr "kód"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:88
 #, c-format
 msgid "UPCA"
-msgstr ""
+msgstr "UPCA"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:89
 #, c-format
 msgid "UPCE"
-msgstr ""
+msgstr "UPCE"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:93
 #, c-format
