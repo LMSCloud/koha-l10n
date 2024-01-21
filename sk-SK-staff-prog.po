@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.003\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-19 03:02+0000\n"
-"PO-Revision-Date: 2023-12-04 14:45+0000\n"
+"PO-Revision-Date: 2024-01-22 03:00+0000\n"
 "Last-Translator: Viliam <viliam.polonec@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sk-SK\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /sk/22.11/sk-SK-staff-prog.po\n"
 "X-POOTLE-MTIME: 1699262957.693412\n"
@@ -453,7 +453,7 @@ msgstr "Stratený exemplár bol vrátený"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:39
 #, c-format
 msgid "Overpayment refund"
-msgstr ""
+msgstr "Vrátenie preplatku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:78
@@ -1913,7 +1913,7 @@ msgstr "Zásuvné moduly"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:118
 #, c-format
 msgid "Jobs"
-msgstr ""
+msgstr "Úlohy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:91
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:24
@@ -3448,7 +3448,7 @@ msgstr "%s Knižničný záznam bude tiež odstránený. %s Knižničný záznam
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_biblio_record_deletion.inc:38
 #, c-format
 msgid "The bibliographic record %s was not deleted. An error was encountered when deleting an item (itemnumber %s)."
-msgstr ""
+msgstr "Bibliografický záznam %s nemohol byť vymazaný. Vyskytol sa problém pri mazaní exemplára (itemnumber %s)."
 
 #. %1$s:  m.biblionumber | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_biblio_record_deletion.inc:40
@@ -3989,7 +3989,7 @@ msgstr "%s %s %s Nastala chyba v procese indexácie: %s %s "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_elastic_index.inc:37
 #, c-format
 msgid "Record IDs:"
-msgstr ""
+msgstr "ID záznamu:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_holds_queue_for_biblios.inc:6
 #, fuzzy, c-format
@@ -4175,9 +4175,9 @@ msgstr "Poplatky:"
 
 #. %1$s:  fines | $Price 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocked-fines.inc:6
-#, fuzzy, c-format
+#, c-format
 msgid "Patron has outstanding charges of %s."
-msgstr "Čitateľ má neuhradené poplatky vo celkovej sume %s. %s "
+msgstr "Čitateľ má neuhradené poplatky vo celkovej sume %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocked-fines.inc:8
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:104
@@ -4584,7 +4584,7 @@ msgstr "požičať "
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/calendar.inc:33
 msgid "Yesterday"
-msgstr ""
+msgstr "Včera"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -6647,7 +6647,7 @@ msgstr "Pridať"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:88
 #, c-format
 msgid "Born:"
-msgstr ""
+msgstr "Dátum narodenia:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:94
 #, c-format
@@ -8060,7 +8060,7 @@ msgstr "Prispôsobené polia vyhľadávania"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:20
 #, c-format
 msgid "[x]"
-msgstr ""
+msgstr "[x]"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/facets.inc:29
 #, fuzzy, c-format
@@ -12758,9 +12758,9 @@ msgstr "Platnosť registrácie používateľa vypršala."
 
 #. %1$s:  expiry | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:40
-#, fuzzy, c-format
+#, c-format
 msgid "Patron's card expired on %s"
-msgstr "Čitateľský preukaz prestal platiť (%s)"
+msgstr "Čitateľský preukaz prestal platiť %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:48
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:342
@@ -12833,9 +12833,9 @@ msgid "Overdues:"
 msgstr "Omeškania:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:82
-#, fuzzy, c-format
+#, c-format
 msgid "Patron has ITEMS OVERDUE "
-msgstr "Omeškania: Čitateľ má OMEŠKANÉ EXEMPLÁRE."
+msgstr "Čitateľ má výpožičky po lehote "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:82
 #, c-format
@@ -17492,12 +17492,12 @@ msgstr "Usporiadať podľa"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 msgid "Sort table by column ascending"
-msgstr ""
+msgstr "Zoradiť tabuľku podľa stĺpcov vzostupne"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 msgid "Sort table by column descending"
-msgstr ""
+msgstr "Zoradiť tabuľku podľa stĺpcov zostupne"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
@@ -19042,9 +19042,9 @@ msgid "Error while transforming input."
 msgstr "Chyba pri vytváraní súboru PDF. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/xslt-handler.inc:15
-#, fuzzy, c-format
+#, c-format
 msgid "No string to transform."
-msgstr "od posledného presunu"
+msgstr "Žiadny parameter na transformáciu"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/z3950-admin-search.inc:8
@@ -20675,18 +20675,18 @@ msgstr "Creative Commons Attribution-ShareAlike 2.5 License"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:990
 #, c-format
 msgid "Chocolat.js"
-msgstr ""
+msgstr "Chocolat.js"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:992
 #, c-format
 msgid "Chocolat.js v1.1.0"
-msgstr ""
+msgstr "Chocolat.js v1.1.0"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:992
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1206
 #, c-format
 msgid "GNU General Public License v3.0"
-msgstr ""
+msgstr "GNU General Public License v3.0"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:995
 #, c-format
@@ -20696,7 +20696,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:997
 #, c-format
 msgid "CodeMirror v5.40.2"
-msgstr ""
+msgstr "CodeMirror v5.40.2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1000
 #, c-format
@@ -20735,7 +20735,7 @@ msgstr "Licencie"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1010
 #, c-format
 msgid "D3"
-msgstr ""
+msgstr "D3"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1012
 #, c-format
@@ -20760,22 +20760,22 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1020
 #, c-format
 msgid "Day.js"
-msgstr ""
+msgstr "Day.js"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1022
 #, c-format
 msgid "Day.js v1.11.2"
-msgstr ""
+msgstr "Day.js v1.11.2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1025
 #, c-format
 msgid "Enquire.js"
-msgstr ""
+msgstr "Enquire.js"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1027
 #, c-format
 msgid "Enquire.js v2.0.1"
-msgstr ""
+msgstr "Enquire.js v2.0.1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1030
 #, fuzzy, c-format
@@ -21018,7 +21018,7 @@ msgstr "jQuery treetable Plugin"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1131
 #, c-format
 msgid "GNU General Public License v2.0"
-msgstr ""
+msgstr "GNU General Public License v2.0"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1131
 #, fuzzy, c-format
@@ -21063,12 +21063,12 @@ msgstr "JSZip"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1151
 #, c-format
 msgid "JSZip JavaScript library v3.1.3"
-msgstr ""
+msgstr "JSZip JavaScript library v3.1.3"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1151
 #, c-format
 msgid "MIT License, GNU General Public License v3.0"
-msgstr ""
+msgstr "MIT License, GNU General Public License v3.0"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1154
 #, c-format
@@ -21123,17 +21123,17 @@ msgstr "Projekt DSpace"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1174
 #, c-format
 msgid "OpenAPI 2.0 schema"
-msgstr ""
+msgstr "OpenAPI 2.0 schema"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1176
 #, c-format
 msgid "JSON Schema for Swagger 2.0 API"
-msgstr ""
+msgstr "JSON Schema for Swagger 2.0 API"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1176
 #, c-format
 msgid "OpenAPI Initiative (OAI)"
-msgstr ""
+msgstr "OpenAPI Initiative (OAI)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1179
 #, c-format
@@ -21199,7 +21199,7 @@ msgstr "TinyMCE WYSIWYG editor"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1201
 #, c-format
 msgid "GNU Lesser General Public License v2.1"
-msgstr ""
+msgstr "GNU Lesser General Public License v2.1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1201
 #, fuzzy, c-format
@@ -21215,7 +21215,7 @@ msgstr "Verovio"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1206
 #, c-format
 msgid "GNU Lesser General Public License v3.0"
-msgstr ""
+msgstr "GNU Lesser General Public License v3.0"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1209
 #, fuzzy, c-format
@@ -21476,7 +21476,7 @@ msgstr "Nedal sa načítať súbor history.txt. Uistite sa prosím, že &lt;docd
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1294
 #, c-format
 msgid "22.11"
-msgstr ""
+msgstr "22.11"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1295
 #, c-format
@@ -21817,7 +21817,7 @@ msgstr "Našla sa zhoda"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:185
 #, c-format
 msgid "(score = %s): "
-msgstr ""
+msgstr "(skóre = %s): "
 
 #. %1$s:  biblio.match_biblionumber | uri 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:185
@@ -30317,7 +30317,7 @@ msgstr "%s Ak nie je vyplnené v predvolených systémových nastaveniach %s. %s
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:259
 #, c-format
 msgid "MARCOrgCode"
-msgstr ""
+msgstr "MARC kód inštitúcie (MARCOrgCode)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:264
 #, c-format
@@ -30807,7 +30807,7 @@ msgstr "Minimálna dĺžka hesla:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:307
 #, c-format
 msgid "Leave blank to use system default (%s)"
-msgstr ""
+msgstr "Ak chcete použiť predvolené nastavenie systému, nechajte prázdne (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:310
 #, fuzzy, c-format
@@ -30962,12 +30962,12 @@ msgstr "Z lokálnej rezervačnej skupiny:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:437
 #, c-format
 msgid ", holds placed by patrons of this category will not be given priority"
-msgstr ""
+msgstr ", rezervácie zadané čitateľmi tejto kategórie nebudú uprednostnené"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:437
 #, c-format
 msgid "If "
-msgstr ""
+msgstr "Ak "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:444
 #, c-format
@@ -32301,12 +32301,12 @@ msgstr "Od "
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:153
 msgid "00:00"
-msgstr ""
+msgstr "00:00"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:154
 msgid "23:55"
-msgstr ""
+msgstr "23:55"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:157
 #, c-format
@@ -34068,7 +34068,7 @@ msgstr "Prosím, kontaktujte svojho administrátora systému. %s %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:257
 #, c-format
 msgid "misc/cronjobs/automatic_checkin.pl"
-msgstr ""
+msgstr "misc/cronjobs/automatic_checkin.pl"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:260
 #, c-format
@@ -34785,13 +34785,13 @@ msgstr "Vyhľadávanie v Z39.50"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:250
 #, c-format
 msgid "bulkmarkimport.pl"
-msgstr ""
+msgstr "bulkmarkimport.pl"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:251
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:308
 #, c-format
 msgid "import_lexile.pl"
-msgstr ""
+msgstr "import_lexile.pl"
 
 #. %1$s:  IF rule.add 
 #. %2$s:  ELSE 
@@ -35519,7 +35519,7 @@ msgstr "Kód typu vlastností čitateľov: "
 #. INPUT type=checkbox name=repeatable
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:115
 msgid "At least one patron has more than one value for this attribute"
-msgstr ""
+msgstr "Najmenej jeden čitateľ má viac ako jednu hodnotu pre túto vlastnosť"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:125
 #, fuzzy, c-format
@@ -35534,7 +35534,7 @@ msgstr "Jedinečný identifikátor: "
 #. INPUT type=checkbox name=unique_id
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:140
 msgid "At least two patrons have the same value for this attribute"
-msgstr ""
+msgstr "Najmenej dvaja čitatelia majú rovnakú hodnotu pre túto vlastnosť"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:146
 #, fuzzy, c-format
@@ -36684,7 +36684,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:270
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:456
 msgid "Use the system preference 'useDaysMode' as a default value"
-msgstr ""
+msgstr "Použitie systémovej predvoľby \"useDaysMode\" ako predvolenej hodnoty"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:275
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:465
@@ -37543,7 +37543,7 @@ msgstr "SMS"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:495
 #, c-format
 msgid "STARTTLS"
-msgstr ""
+msgstr "STARTTLS"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:118
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:202
@@ -37581,7 +37581,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:232
 #, c-format
 msgid "Sets this SMTP server as the default SMTP server."
-msgstr ""
+msgstr "Nastaviť tento SMTP server ako predvolený."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:259
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:492
@@ -37625,12 +37625,12 @@ msgstr "Odstrániť používateľa"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:297
 #, c-format
 msgid "Set default server"
-msgstr ""
+msgstr "Nastaviť predvolený server"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:300
 #, c-format
 msgid "Are you sure you want to change the default SMTP server?"
-msgstr ""
+msgstr "Ste si istý, že chcete zmeniť predvolený SMTP server?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:324
@@ -38613,7 +38613,7 @@ msgstr "%s v %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:121
 #, c-format
 msgid "If you do not have an external account, but do have a local account, you can still log in: "
-msgstr ""
+msgstr "Ak nemáte externý účet, ale len lokálny účet, ešte vždy sa môžete prihlásiť: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:129
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/auth.tt:63
@@ -40644,7 +40644,7 @@ msgstr ""
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1482
 msgid "Local cover image (<a href='%s'>edit</a>)"
-msgstr ""
+msgstr "Lokálny obrázok obálky (<a href='%s'>upraviť</a>)"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1482
@@ -42034,7 +42034,7 @@ msgstr "Naozaj chcete odobrať tento exemplár z cirkulačnej služby?"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:31
 msgid "A matching authority was found in the local database."
-msgstr ""
+msgstr "V lokálnej databáze sa našla zhodná autorita."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:31
@@ -42074,7 +42074,7 @@ msgstr "Neboli zvolené žiadne autority."
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:31
 msgid "No matching authority found. A new authority was created automatically."
-msgstr ""
+msgstr "Nenašli sa žiadne zhody s autoritami. Automaticky sa vytvorila nová autorita."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:31
@@ -46149,7 +46149,7 @@ msgstr "Vráťte prosím exemplár do: %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:766
 #, c-format
 msgid "OK (Y)"
-msgstr ""
+msgstr "OK (Y)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:604
 #, c-format
@@ -46220,7 +46220,7 @@ msgstr "Áno, vytlačiť ústrižok"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:764
 #, c-format
 msgid "No (N)"
-msgstr ""
+msgstr "Nie (N)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:767
 #, fuzzy, c-format
@@ -48791,7 +48791,7 @@ msgstr "Pokračovať v prihlásení sa do Kohy"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:450
 #, c-format
 msgid "Try again"
-msgstr ""
+msgstr "Skús znova"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:459
@@ -48905,7 +48905,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:80
 #, c-format
 msgid "EAN13"
-msgstr ""
+msgstr "EAN13"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:81
 #, fuzzy, c-format
@@ -51302,7 +51302,7 @@ msgstr "Príznaky účtu čitateľa"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1432
 #, c-format
 msgid "Patron restrictions"
-msgstr "Obmedzenia čitateľov"
+msgstr "Obmedzenia čitateľa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:217
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1521
@@ -52843,7 +52843,7 @@ msgstr "Odozva:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:79
 #, c-format
 msgid "sms"
-msgstr ""
+msgstr "sms"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:83
 #, fuzzy, c-format
@@ -57083,7 +57083,7 @@ msgstr "Upraviť výkaz SQL"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1408
 #, c-format
 msgid "Update and run SQL"
-msgstr ""
+msgstr "Aktualizovať a spustiť SQL"
 
 #. %1$s:  FOREACH error IN errors 
 #. %2$s:  IF ( error.sqlerr ) 
@@ -61700,12 +61700,12 @@ msgstr "Zľava %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:372
 #, c-format
 msgid "OPACUserJS"
-msgstr ""
+msgstr "OPACUserJS"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:373
 #, c-format
 msgid "OPACUserCSS"
-msgstr ""
+msgstr "OPACUserCSS"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:392
 #, fuzzy, c-format
@@ -62461,7 +62461,7 @@ msgstr "Výsledok recenzie: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:146
 #, c-format
 msgid "This is not recommended when changing very large numbers of due dates."
-msgstr ""
+msgstr "Toto sa neodporúča pri zmene veľkého počtu termínov vrátenia."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_extend_due_dates.tt:174
 #, c-format
