@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.003\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:15-0300\n"
-"PO-Revision-Date: 2024-01-19 03:00+0000\n"
+"PO-Revision-Date: 2024-01-22 14:21+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hi\n"
@@ -4960,9 +4960,8 @@ msgstr "circulation.pref#DefaultLongOverdueLostValue# <br><strong>नोट:</st
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueLostValue# <br>Example: [1] [30] Sets an item to the <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a> value 1 when it has been overdue for more than 30 days."
-msgstr "circulation.pref # DefaultLongOverdueLostValue # उदाहरण <br>: [1] [30] एक आइटम मूल्य खो दिया है 1 जब यह अधिक से अधिक 30 दिनों के लिए अपेक्षित किया गया है करने के लिए सेट करता है।"
+msgstr "<br> उदाहरण: [1] [30] एक आइटम सेट करता है <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a> मूल्य 1 जब यह 30 दिनों से अधिक समय से अतिदेय हो गया है।"
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -4970,9 +4969,8 @@ msgid "circulation.pref#DefaultLongOverdueLostValue# <br>WARNING — These prefe
 msgstr "circulation.pref # DefaultLongOverdueLostValue # चेतावनी <br> - ये प्राथमिकताएं स्वत: आइटम घटाने की प्रक्रिया को सक्रिय करेंगे। इन क्षेत्रों को खाली छोड़ अगर आप इस सुविधा को सक्रिय करने के लिए नहीं करना चाहती।"
 
 # Circulation > Item bundles > BundleLostValue
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueLostValue# By default, set the <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> value of an item to"
-msgstr "<a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\"> LOST </a> अधिकृत मान का उपयोग करें"
+msgstr "डिफ़ॉल्ट रूप से, <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=lost\"> खो गया है </a> किसी आइटम का मान सेट करें"
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -4991,9 +4989,8 @@ msgstr "circulation.pref#DefaultLongOverdueSkipLostStatuses# ."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# <br>Leave this field empty if you don't want to skip any <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> statuses."
-msgstr "circulation.pref#DefaultLongOverdueSkipLostStatuses# <br>यदि आप किसी भी खोई स्थिति को छोड़ना नहीं चाहते हैं तो इस फ़ील्ड को खाली छोड़ दें."
+msgstr "<br> इस फ़ील्ड को खाली छोड़ दें यदि आप किसी भी <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=lost\"> लॉस्ट </a> स्टेटस को छोड़ना नहीं चाहते हैं।"
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
@@ -5002,9 +4999,8 @@ msgstr "circulation.pref#DefaultLongOverdueSkipLostStatuses# <br>अल्पव
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# When using the automatic item loss process, skip items with <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> values matching any of"
-msgstr "circulation.pref#DefaultLongOverdueSkipLostStatuses# स्वचालित आइटम हानि प्रक्रिया का उपयोग करते समय, खोए हुए मूल्यों के साथ आइटम को छोड़ दें जिसमें से कोई भी मेल खाता हो"
+msgstr "स्वचालित आइटम हानि प्रक्रिया का उपयोग करते समय, <a href=\"/cgi-bin/koha/admin/authorized_values.pl?searchfield=lost\"> खो जाने के साथ आइटम को छोड़ें।"
 
 # Circulation > Interface > DisplayClearScreenButton
 # Circulation > Interface
@@ -5043,21 +5039,18 @@ msgstr "circulation.pref#DisplayMultiPlaceHold# खोज परिणामो�
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Don't email"
-msgstr "circulation.pref # emailLibrarianWhenHoldIsPlaced # सक्षम न करें"
+msgstr "ईमेल मत करो"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Email"
-msgstr "circulation.pref # emailLibrarianWhenHoldIsPlaced # सक्षम करें"
+msgstr "ईमेंल"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# a patron when they have placed a hold."
-msgstr "circulation.pref # emailLibrarianWhenHoldIsPlaced # सक्षम न करें"
+msgstr "एक संरक्षक जब उन्होंने एक होल्ड रखा है।"
 
 # Circulation > Holds policy > EnableItemGroupHolds
 # Circulation > Holds policy
@@ -5071,9 +5064,8 @@ msgstr "सक्षम"
 
 # Circulation > Checkin policy > CalculateFinesOnReturn
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#EnableItemGroupHolds# the ability to place holds on item groups. <br><strong>NOTE:</strong> This system preference requires that <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EnableItemGroups'>EnableItemGroups</a> to be set to 'Enable'."
-msgstr "circulation.pref#CalculateFinesOnReturn# <br /><strong>नोट:</strong> इस सिस्टम वरीयता की आवश्यकता है<a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=FinesMode\">FinesMode</a> \"गणना करें और चार्ज करें\" पर सेट होने के लिए.\""
+msgstr "स्थान की क्षमता आइटम समूहों पर रखती है। <br> <strong> नोट: </strong> इस सिस्टम वरीयता के लिए आवश्यक है कि <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=EnableItemGroups'>EnableItemGroups</a> सक्षम करने के लिए'।"
 
 # Circulation > Holds policy > ExcludeHolidaysFromMaxPickUpDelay
 # Circulation > Holds policy
@@ -5460,13 +5452,12 @@ msgstr "एक आइटम जिसका किराया प्रभा�
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 msgid "circulation.pref#ItemsDeniedRenewal# <br /><strong>Configuration:</strong> <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=CCODE'>Collections (CCODE)</a> | <a href='/cgi-bin/koha/admin/itemtypes.pl'>Item types</a>"
-msgstr ""
+msgstr "<br /><strong>विन्यास:</strong> <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=CCODE'>सग्रंह (CCODE)</a> | <a href='/cgi-bin/koha/admin/itemtypes.pl'>आइटम प्रकार</a>"
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#ItemsDeniedRenewal# <br /><strong>NOTE:</strong> The word 'NULL' can be used to block renewal on undefined fields, while an empty string \"\" will block on an empty (but defined) field."
-msgstr "<br /> <strong>नोट: </strong>'नल' शब्द का उपयोग अपरिभाषित क्षेत्रों पर नवीनीकरण को ब्लॉक करने के लिए किया जा सकता है, जबकि एक खाली स्ट्रिंग \"\" एक खाली (लेकिन परिभाषित) क्षेत्र पर ब्लॉक करेगा."
+msgstr "<br /> <strong>नोट: </strong>'नल' शब्द का उपयोग अपरिभाषित क्षेत्रों पर नवीनीकरण को ब्लॉक करने के लिए किया जा सकता है, जबकि एक खाली स्ट्रिंग \"\" एक खाली (लेकिन परिभाषित) क्षेत्र पर ब्लॉक करेगा।"
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
@@ -5475,9 +5466,8 @@ msgstr "circulation.pref#ItemsDeniedRenewal# <br />आइटम तालिक�
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#ItemsDeniedRenewal# <br />ccode: [NEWFIC,NULL,DVD]"
-msgstr "<br />ccode: [NEWFIC,null,DVD]"
+msgstr "<br />ccode: [NEWFIC,NULL,DVD]"
 
 # Circulation > Checkout policy > ItemsDeniedRenewal
 # Circulation > Checkout policy
@@ -5864,9 +5854,8 @@ msgstr "आइटम होम लाइब्रेरी"
 
 # Circulation > Checkout policy > OverdueNoticeFrom
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#OverdueNoticeFrom# patron home library"
-msgstr "आइटम होम लाइब्रेरी"
+msgstr "संरक्षक होम लाइब्रेरी"
 
 # Circulation > Checkout policy > OverduesBlockCirc
 # Circulation > Checkout policy
