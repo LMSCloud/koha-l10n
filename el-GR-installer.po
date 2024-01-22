@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.13.000\n"
-"PO-Revision-Date: 2024-01-14 17:41+0000\n"
+"PO-Revision-Date: 2024-01-23 03:13+0000\n"
 "Last-Translator: Eugenios Papadopoulos <eugenios.papadopoulos@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: el-GR\n"
@@ -4064,29 +4064,28 @@ msgid "Issue quick slip"
 msgstr "Εκτύπωση γρήγορου σημειώματος"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:19
-#, fuzzy
 msgid "Issue slip"
-msgstr "Τεύχος "
+msgstr "Ενημερωτικό δελτίο"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20
 msgid "Item overdue"
-msgstr "Ληξιπρόθεσμο"
+msgstr "Ληξιπρόθεσμο τεκμήριο"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20
 msgid "Overdue notice"
-msgstr "Ειδοποίηση καθυστερημένου"
+msgstr "Ειδοποίηση ληξιπρόθεσμου"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:21
 msgid "Overdues slip"
-msgstr "Σημείωμα καθυστερημένων αντιτύπων"
+msgstr "Σημείωμα ληξιπρόθεσμων"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:22
 msgid "Advance notice of item due"
-msgstr ""
+msgstr "Προειδοποίηση λήξης δανεισμού"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:23
 msgid "Advance notice of item due (digest)"
-msgstr ""
+msgstr "Προειδοποίηση λήξης δανεισμού (συνοπτικό)"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:24
 msgid "Item renewals"
@@ -4174,11 +4173,11 @@ msgstr "Λήξη λογαριασμού"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:42
 msgid "OPAC self-registration verification email"
-msgstr ""
+msgstr "OPAC email επιβεβαίωσης αυτοεγγραφής"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:42
 msgid "Verify your account"
-msgstr "Επαλήθευση του λογαριασμού"
+msgstr "Επιβεβαιώστε το λογαριασμό σας"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:43
 msgid "Library account password change notification"
@@ -4222,7 +4221,7 @@ msgstr "Ειδοποίηση καλωσορίσματος "
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48
 msgid "[% USE Koha %][% IF Koha.Preference('LibraryName') %]Welcome to [% Koha.Preference('LibraryName') %][% ELSE %]Welcome to the library[% END %]"
-msgstr ""
+msgstr "[% USE Koha %][% IF Koha.Preference('LibraryName') %]Καλωσήρθατε στη [% Koha.Preference('LibraryName') %][% ELSE %]Καλωσήρθατε στη βιβλιοθήκη[% END %]"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:49
 msgid "Two-authentication token"
@@ -4264,33 +4263,31 @@ msgstr "Οι κρατήσεις ακυρώθηκε επιτυχώς."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:55
 msgid "Hold available for pickup"
-msgstr "Έχετε μια κράτηση διαθέσιμη για παραλαβή "
+msgstr "Κράτηση διαθέσιμη για παραλαβή"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:55
 msgid "Hold available for pickup at <<branches.branchname>>"
-msgstr ""
+msgstr "Κράτηση διαθέσιμη για παραλαβή από <<branches.branchname>>"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:56
 msgid "Hold available for pickup (print notice)"
-msgstr "Έχετε μια κράτηση διαθέσιμη για παραλαβή (εκτυπώσιμη ειδοποίηση)"
+msgstr "Κράτηση διαθέσιμη για παραλαβή (εκτυπώσιμη ειδοποίηση)"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:57
-#, fuzzy
 msgid "Hold placed on item"
-msgstr "Κράτηση από: "
+msgstr "Έγινε κράτηση στο τεκμήριο"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:58
 msgid "Canceled hold available for different patron"
-msgstr ""
+msgstr "Ακυρωμένη κράτηση διαθέσιμη για άλλο μέλος"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59
 msgid "Waiting hold reminder"
 msgstr "Υπενθύμιση κράτησης σε αναμονή"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:59
-#, fuzzy
 msgid "You have waiting holds."
-msgstr "κρατήσεις σε αναμονή:"
+msgstr "Έχετε κρατήσεις σε αναμονή."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:60
 msgid "New curbside pickup"
@@ -4301,142 +4298,120 @@ msgid "You have scheduled a curbside pickup for [% branch.branchname %]"
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61
-#, fuzzy
 msgid "New serial issue"
-msgstr "Αίτηση τεύχους περιοδικής έκδοσης"
+msgstr "Νέο τεύχος"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:61
-#, fuzzy
 msgid "New serial issue is now available"
-msgstr "Το ακόλουθο τεύχος είναι τώρα διαθέσιμο:"
+msgstr "Το νέο τεύχος είναι τώρα διαθέσιμο"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62
-#, fuzzy
 msgid "Purchase suggestion accepted"
-msgstr "Προτάσεις αγοράς"
+msgstr "Αποδοχή πρότασης αγοράς"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:62
-#, fuzzy
 msgid "Suggestion accepted"
-msgstr "Στοιχεία προτάσεων"
+msgstr "Αποδοχή πρότασης"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63
-#, fuzzy
 msgid "Suggested purchase available"
-msgstr "Προτεινόμενο για αγορά"
+msgstr "Διαθεσιμότητα πρότασης αγοράς"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:63
-#, fuzzy
 msgid "Suggestion available"
-msgstr "Στοιχεία προτάσεων"
+msgstr "Διαθεσιμότητα πρότασης"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:64
-#, fuzzy
 msgid "New suggestion"
-msgstr "πρόταση"
+msgstr "Νέα πρόταση"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65
-#, fuzzy
 msgid "Suggested item ordered"
-msgstr "Προτεινόμενο για"
+msgstr "Το προτεινόμενο τεκμήριο παραγγέλθηκε"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:65
-#, fuzzy
 msgid "Suggestion ordered"
-msgstr "Στοιχεία προτάσεων"
+msgstr "Παραγγελία πρότασης"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66
-#, fuzzy
 msgid "Purchase suggestion declined"
-msgstr "Προτάσεις αγοράς"
+msgstr "Απόρριψη πρότασης αγοράς"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:66
-#, fuzzy
 msgid "Suggestion rejected"
-msgstr "Δεν έχει γίνει επιλογή καμμίας πρότασης"
+msgstr "Απορριφθείσα πρόταση"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67
-#, fuzzy
 msgid "A suggestion is ready to be processed"
-msgstr "Δεν έχει γίνει επιλογή καμμίας πρότασης"
+msgstr "Μια πρόταση είναι έτοιμη για επεξεργασία"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67
-#, fuzzy
 msgid "Notify fund owner"
-msgstr "Δε βρέθηκαν κεφάλαια"
+msgstr "Ειδοποίηση διαχειριστή κεφαλαίων"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68
 msgid "A suggestion has been assigned to you"
 msgstr "Μία πρόταση έχει ανατεθεί σε εσένα"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:68
-#, fuzzy
 msgid "Notify manager of a suggestion"
-msgstr "Διαχείριση προτάσεων"
+msgstr "Ειδοποίηση διαχειριστή πρότασης"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69
-#, fuzzy
 msgid "OPAC problem report"
-msgstr "Υποβολή αναφοράς προβλήματος στο: "
+msgstr "OPAC αναφορά προβλήματος"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
 msgid "Automatic renewal notice"
 msgstr "Σημείωμα αυτόματης ανανέωσης"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
-#, fuzzy
 msgid "Notification of automatic renewal"
-msgstr "Δεν επιτρέπεται αυτόματη ανανέωση μετά από"
+msgstr "Ειδοποίηση αυτόματης ανανέωσης"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:71
-#, fuzzy
 msgid "Checkin slip"
-msgstr "Επιστροφή "
+msgstr "Σημείωμα επιστροφής"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:72
-#, fuzzy
 msgid "Overdue item fine description"
-msgstr "Προκαθορισμένη ταξινόμηση"
+msgstr "Περιγραφή προστίμου ληξιπρόθεσμου τεκμηρίου"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73
-#, fuzzy
 msgid "Auto renewals (Digest)"
-msgstr "Σημείωμα αυτόματης ανανέωσης"
+msgstr "Αυτόματη ανανέωση (συνοπτικό)"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:73
-#, fuzzy
 msgid "Notification on auto renewals"
-msgstr "Ημερομηνία τροποποίησης"
+msgstr "Ειδοποίηση αυτό-ανανέωσης"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:74
 msgid "Notification to return a recalled item"
-msgstr ""
+msgstr "Ειδοποίηση επιστροφής τεκμηρίου που έχει ανακληθεί"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:75
-#, fuzzy
 msgid "Recalled item awaiting pickup"
-msgstr "Κρατήσεις σε αναμονή για παραλαβή"
+msgstr "Ανακληθέν τεκμήριο σε αναμονή για παραλαβή"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:76
-#, fuzzy
 msgid "Details of patron who recalled item"
-msgstr "Στοιχεία πίστωσης"
+msgstr "Στοιχεία μέλους που ανακάλεσε τεκμήριο"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:77
 msgid "Confirmation of disabling two factor authentication"
-msgstr "Επιβεβαίωση απενεργοποίησης της επαλήθευσης δύο βημάτων/παραγόντων"
+msgstr "Επιβεβαίωση απενεργοποίησης της επαλήθευσης δύο βημάτων"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:78
 msgid "Confirmation of enabling two factor authentication"
-msgstr "Επιβεβαίωση ενεργοποίησης της επαλήθευσης δύο βημάτων/παραγόντων"
+msgstr "Επιβεβαίωση ενεργοποίησης της επαλήθευσης δύο βημάτων"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:79
 msgid "New OPAC self-registration"
-msgstr ""
+msgstr "Νέα αυτοεγγραφή"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:79
 msgid "New OPAC self-registration submitted"
-msgstr ""
+msgstr "Νέα αυτοεγγραφή υποβλήθηκε"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:10:mul:3
 msgid "We are now processing your request for an article from %s (%s)."
@@ -4451,37 +4426,32 @@ msgid "Barcode: %s"
 msgstr "Barcode: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12:mul:1
-#, fuzzy
 msgid "The following items have been checked in:"
-msgstr "Παρουσιάστηκαν τα ακόλουθα σφάλματα:"
+msgstr "Τα ακόλουθα τεκμήρια έχουν επιστραφεί:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:12:mul:5
-#, fuzzy
 msgid "Thank you."
-msgstr "Σας ευχαριστούμε"
+msgstr "Σας ευχαριστούμε."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:13:mul:1
-#, fuzzy
 msgid "The following items have been checked out:"
-msgstr "Τα ακόλουθα τεκμήρια εισήχθησαν ή ανανεώθηκαν:"
+msgstr "Τα ακόλουθα τεκμήρια έχουν χρεωθεί:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:13:mul:5
 msgid "Thank you for visiting %s."
-msgstr ""
+msgstr "Ευχαριστούμε για την επίσκεψη σας %s."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:14:mul:1
 msgid "%s %s has added a note to the item %s - %s (%s)."
 msgstr "%s %s έχει εισαχθεί μια σημείωση στο τεκμήριο %s - %s (%s)."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:15:mul:3
-#, fuzzy
 msgid "The following item is now due:"
-msgstr "Τα ακόλουθα τεκμήρια τροποποιήθηκαν:"
+msgstr "Τα ακόλουθα τεκμήρια έχουν λήξει:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:16:mul:3
-#, fuzzy
 msgid "The following item(s) are now due:"
-msgstr "Τα ακόλουθα τεκμήρια τροποποιήθηκαν:"
+msgstr "Τα ακόλουθα τεκμήρια(ο) έχουν λήξει:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:17:mul:1
 msgid "%sDate: %s%s"
@@ -4489,11 +4459,11 @@ msgstr "%sΗμερομηνία: %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:17:mul:3
 msgid "%s Transfer to/Hold in %s%s"
-msgstr ""
+msgstr "%s Μεταφορά σε/Κράτηση σε %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:17:mul:17
 msgid "%sITEM ON HOLD%s"
-msgstr ""
+msgstr "%sΤΕΚΜΗΡΙΟ ΣΕ ΚΡΑΤΗΣΗ%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:17:mul:25
 msgid "%sNotes:"
@@ -4526,29 +4496,27 @@ msgstr "%sΕκπρόθεσμα%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:19:mul:27
 msgid "%sNews%s"
-msgstr ""
+msgstr "%sΝέα%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:19:mul:32
 msgid "%sPosted on %s%s"
-msgstr ""
+msgstr "%sΔημοσιεύθηκε την %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:1:mul:1
-#, fuzzy
 msgid "Dear %s %s,"
-msgstr "Διαγραφή μελών %s %s "
+msgstr "Αγαπητέ -ή %s %s,"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:1:mul:3
 msgid " The order %s (%s) has been received."
 msgstr " Η παραγγελία %s (%s) έχει παραληφθεί."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:1:mul:5
-#, fuzzy
 msgid "Your library."
-msgstr "Βιβλιοθήκη πηγής:"
+msgstr "Η βιβλιοθήκη σας."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20:mul:3
 msgid "According to our current records, you have items that are overdue.Your library does not charge late fines, but please return or renew them at the branch below as soon as possible."
-msgstr ""
+msgstr "Σύμφωνα με το αρχείο μας έχετε τεκμήρια τα οποία έχουν καταστεί ληξιπρόθεσμα. Αν και η βιβλιοθήκη δεν σας επιβάλει πρόστιμο για την καθυστέρηση, παρακαλούμε για την επιστροφή ή ανανέωση τους το συντομότερο δυνατό."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20:mul:8
 msgid "Phone: %s"
@@ -4564,43 +4532,39 @@ msgstr "Email: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20:mul:12
 msgid "If you have registered a password with the library, and you have a renewal available, you may renew online. If an item becomes more than 30 days overdue, you will be unable to use your library card until the item is returned."
-msgstr ""
+msgstr "Εάν έχετε πιστοποιημένο λογαριασμό στη βιβλιοθήκη και υπάρχει διαθέσιμη ανανέωση, μπορείτε να την πραγματοποιήσετε online. Εάν ένα τεκμήριο καταστεί ληξιπρόθεσμο για περισσότερο από 30 ημέρες, δεν θα μπορείτε να χρησιμοποιείτε τη βιβλιοθήκη μέχρι την επιστροφή του τεκμηρίου."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20:mul:14
 msgid "The following item(s) is/are currently overdue:"
-msgstr "Τα ακόλουθα τεκμήρια είναι καθυστερημένα:"
+msgstr "Τα ακόλουθα τεκμήρια είναι ληξιπρόθεσμα:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20:mul:16
 msgid "%s\"%s\" by %s, %s, Barcode: %s Fine: %s%s"
-msgstr ""
+msgstr "%s\"%s\" από %s, %s, Barcode: %s Fine: %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20:mul:18
 msgid "Thank-you for your prompt attention to this matter."
-msgstr ""
+msgstr "Ευχαριστούμε για την άμεση ανταπόκριση σας."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:20:mul:20
 msgid "%s Staff"
 msgstr "%s Προσωπικό"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:22:mul:3
-#, fuzzy
 msgid "The following item will be due soon:"
-msgstr "Τα ακόλουθα τεκμήρια τροποποιήθηκαν:"
+msgstr "Τα ακόλουθα τεκμήρια λήγουν σύντομα:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:23:mul:3
-#, fuzzy
 msgid "The following item(s) will be due soon:"
-msgstr "Τα ακόλουθα τεκμήρια τροποποιήθηκαν:"
+msgstr "Τα ακόλουθα τεκμήρια(ο) θα λήξουν σύντομα:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:24:mul:1
-#, fuzzy
 msgid "The following items have been renewed:"
-msgstr "Τα ακόλουθα τεκμήρια τροποποιήθηκαν:"
+msgstr "Τα ακόλουθα τεκμήρια έχουν ανανεωθεί:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:25:mul:1
-#, fuzzy
 msgid "Stock rotation report for %s:"
-msgstr "Πληροφορίες εναλλαγής αποθέματος για %s"
+msgstr "Αναφορά εναλλαγής αποθέματος για %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:25:mul:3
 msgid "%s%s items to be processed for this branch."
@@ -4616,7 +4580,7 @@ msgstr "%s%s%sΤίτλος: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:25:mul:7
 msgid "Call number: %s"
-msgstr "Ταξινομικός αριθμός %s"
+msgstr "Ταξιθετικός αριθμός: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:25:mul:8
 msgid "Location: %s"
@@ -4640,27 +4604,27 @@ msgstr "%sΜεταφορά σε %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:26:mul:5
 msgid "%sITEM%s"
-msgstr ""
+msgstr "%sΤΕΚΜΗΡΙΑ%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:27:mul:8
 msgid "%sOrdernumber %s (%s) (%s ordered) ($%s each) has not been received.%s"
-msgstr ""
+msgstr "%sΑριθμός παραγγελίας %s (%s) (%s παρεγγέλθηκαν) ($%s το καθένα) δεν έχουν παραληφθεί.%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28:mul:3
 msgid "The Interlibrary loans request number %s you placed for:"
-msgstr "Ο αριθμός αιτημάτων διαδανεισμού που υποβάλλατε είναι %s:"
+msgstr "Ο αριθμός αιτημάτων διαδανεισμού που υποβάλλατε είναι %s για:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28:mul:7
 msgid "is ready for pick up from %s."
-msgstr ""
+msgstr "έτοιμα προς παραλαβή από %s."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:28:mul:9
 msgid "Kind regards"
-msgstr ""
+msgstr "Φιλικούς χαιρετισμούς"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:29:mul:3
 msgid "The Interlibrary loans request number %s you placed for"
-msgstr "Ο αριθμός αιτημάτων διαδανεισμού που υποβάλλατε είναι %s"
+msgstr "Ο αριθμός αιτημάτων διαδανεισμού που υποβάλλατε είναι %s για"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:29:mul:7
 msgid "is unfortunately unavailable."
@@ -4739,7 +4703,7 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:1
 msgid "Dear Sir/Madam,"
-msgstr ""
+msgstr "Αγαπητέ Κύριε/Κυρία,"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:3
 msgid "We would like to request an interlibrary loan for a title matching the following description:"
@@ -4747,16 +4711,15 @@ msgstr "Θέλουμε να ζητήσουμε τον διαδανεισμό ε�
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:32:mul:7
 msgid "Please let us know if you are able to supply this to us."
-msgstr ""
+msgstr "Παρακαλούμε ενημερώστε μας αν υπάρχει η δυνατότητα να μας το παρέχετε."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:33:mul:7
-#, fuzzy
 msgid "has been updated."
-msgstr "Οι κρατήσεις ακυρώθηκε επιτυχώς."
+msgstr "έχουν ενημερωθεί."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:33:mul:9
 msgid "Details of the update are below:"
-msgstr ""
+msgstr "Λεπτομέρειες για την ενημέρωση βρίσκονται παρακάτω:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:3:mul:20
 #, fuzzy
@@ -4806,34 +4769,31 @@ msgstr "%s %s (Αριθμός κάρτας: %s)%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:40:mul:6
 msgid "has returned all items.%s"
-msgstr "έχουν επιστραφεί όλα τα τεκμήρια.%s "
+msgstr "έχουν επιστραφεί όλα τα τεκμήρια.%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:41:mul:1
 msgid "Dear %s %s %s,"
 msgstr "Αγαπητέ/ή %s %s %s,"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:41:mul:3
-#, fuzzy
 msgid "Your library card will expire soon, on:"
-msgstr "Η κάρτα σας θα λήξει στις "
+msgstr "Η κάρτα μέλους λήγει στις:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:41:mul:7
-#, fuzzy
 msgid "Thank you,"
-msgstr "Σας ευχαριστούμε"
+msgstr "Σας ευχαριστούμε,"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:41:mul:9
 msgid "Librarian"
 msgstr "Βιβλιοθηκονόμος"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:42:mul:1
-#, fuzzy
 msgid "Hello!"
-msgstr "Βιολοντσέλλο"
+msgstr "Γεια σας!"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:42:mul:3
 msgid "Your library account has been created. Please verify your email address by clicking this link to complete the signup process:"
-msgstr ""
+msgstr "Ο λογαριασμός σας στη βιβλιοθήκη έχει δημιουργηθεί. Παρακαλούμε επιβεβαιώστε τη διεύθυνση ηλεκτρονικού ταχυδρομείου κάνοντας κλικ στο παρακάτω λινκ για την ολοκλήρωση της διαδικασίας εγγραφής:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:42:mul:5
 msgid "%s/cgi-bin/koha/opac-registration-verify.pl?token=%s"
@@ -4845,7 +4805,7 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:43:mul:3
 msgid "We want to notify you that your password has been changed. If you did not change it yourself (or requested that change), please contact library staff."
-msgstr ""
+msgstr "Θα θέλαμε να σας ενημερώσουμε ότι το password σας έχει αλλάξει. Εάν δεν κάνατε την αλλαγή εσείς (ή αιτηθήκατε την αλλαγή) παρακαλούμε επικοινωνήστε με το προσωπικό της βιβλιοθήκης."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:1
 msgid "%sThis email has been sent in response to your password recovery request for the account %s%s%s."
@@ -4857,7 +4817,7 @@ msgstr "Μπορείτε να δημιουργήσετε το νέο κωδικ�
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:7
 msgid "%sThis link will be valid for 2 days from this email's reception, then you must reapply if you do not change your password.%s"
-msgstr ""
+msgstr "%sΟ σύνδεσμος θα παραμείνει ενεργός για 2 ημέρες από την παραλαβή του ηλεκτρονικού μηνύματος και θα πρέπει να κάνετε πάλι αίτηση, αν δεν αλλάξετε τον κωδικό πρόσβασης.%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:44:mul:8
 msgid "%sThank you.%s"
@@ -4869,13 +4829,12 @@ msgid "%sA librarian has reset the password for the account %s%s%s."
 msgstr "%sΤο email έχει αποσταλεί ως απόκριση στο αίτημα σας για επαναφορά του password για το λογαριασμό σας %s%s%s."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:45:mul:4
-#, fuzzy
 msgid "Please create your new password using the following link:"
-msgstr "Μπορείτε να δημιουργήσετε το νέο κωδικό πρόσβασης χρησιμοποιώντας τον σύνδεσμο που ακολουθεί"
+msgstr "Παρακαλούμε δημιουργήστε το νέο κωδικό πρόσβασης χρησιμοποιώντας τον ακόλουθο σύνδεσμο:"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:45:mul:7
 msgid "%sThis link will be valid for 5 days from this email's reception, then you must reapply if you do not change your password.%s"
-msgstr ""
+msgstr "%sΟ σύνδεσμος θα παραμείνει ενεργός για 5 ημέρες από την παραλαβή του ηλεκτρονικού μηνύματος και θα πρέπει να κάνετε πάλι αίτηση, αν δεν αλλάξετε τον κωδικό πρόσβασης.%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:46:mul:1
 msgid "Dear patron,"
@@ -4896,31 +4855,27 @@ msgstr "Για να έχεις πρόσβαση σε αυτή την κοινό�
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:47:mul:9
 msgid "In case you are not a patron in our library or do not want to accept this invitation, please ignore this mail. Note also that this invitation expires within two weeks."
-msgstr ""
+msgstr "Σε περίπτωση που δεν είστε μέλος της βιβλιοθήκης μας ή δεν επιθυμείτε να αποδεχτείτε την πρόσκληση, παρακαλούμε αγνοείστε αυτό το μήνυμα. Σημειώστε επίσης ότι η πρόσκληση λήγει μετά από δύο εβδομάδες."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48:mul:2
-#, fuzzy
 msgid "Hello %s %s %s.%s"
-msgstr "Γεια σας, %s %s %s."
+msgstr "Γεια σας %s %s %s.%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48:mul:4
-#, fuzzy
 msgid "Thank you for joining %s%s%sthe library%s%s"
-msgstr "Νέα από %s%s%sτη βιβλιοθήκη%s"
+msgstr "Ευχαριστούμε για την εγγραφή σας %s%s%sστη βιβλιοθήκη%s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48:mul:6
 msgid "You can search for all our materials in our %scatalog%s.%s"
-msgstr ""
+msgstr "Μπορείτε να κάνετε αναζήτηση για το υλικό μας στο %scatalog%s.%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48:mul:8
-#, fuzzy
 msgid "Your library card number is %s%s"
-msgstr "Ο αριθμός της κάρτας μέλους σας είναι %s"
+msgstr "Ο αριθμός της κάρτας μέλους σας είναι %s%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:48:mul:10
-#, fuzzy
 msgid "If you have any problems or questions regarding your account, please contact the library."
-msgstr "Αν αντιμετωπίζεται προβλήματα σχετικά με τον λογαριασμό σας, παρακαλώ επικοινωνήστε με τον Διαχειριστή του Koha"
+msgstr "Αν αντιμετωπίζεται προβλήματα σχετικά με τον λογαριασμό σας, παρακαλούμε επικοινωνήστε με τη βιβλιοθήκη."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:49:mul:3
 msgid "Your authentication token is %s."
@@ -5260,9 +5215,8 @@ msgid "Message: %s"
 msgstr "Μήνυμα: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:1
-#, fuzzy
 msgid "Dear %s %s (%s),"
-msgstr "Ξεχασμένο %s %s (%s)"
+msgstr "Αγαπητέ/ή %s %s (%s)"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:3
 msgid "Your request for an article from %s (%s) has been canceled for the following reason:"
@@ -5282,7 +5236,7 @@ msgstr "Συγγραφέας: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:10
 msgid "Volume: %s"
-msgstr "Τόμοι: %s"
+msgstr "Τόμος: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:11
 msgid "Issue: %s"
@@ -5294,12 +5248,11 @@ msgstr "Ημερομηνία: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:13
 msgid "TOC: %sYes%sNo%s"
-msgstr ""
+msgstr "TOC: %sΝαί%sΌχι%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:14
-#, fuzzy
 msgid "Pages: %s"
-msgstr "Σελίδα: %s"
+msgstr "Σελίδες: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:15
 msgid "Chapters: %s"
@@ -5310,14 +5263,12 @@ msgid "Notes: %s"
 msgstr "Σημειώσεις: %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:17
-#, fuzzy
 msgid "Format: %sCopy%sScan%s"
-msgstr "%sΑντιγραφή%sΣάρωση%s"
+msgstr "Μορφή: %sΑντιγραφή%sΣάρωση%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:6:mul:19
-#, fuzzy
 msgid "Your library"
-msgstr "Βιβλιοθήκη πηγής:"
+msgstr "Η βιβλιοθήκη σας"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70:mul:3
 msgid "The following item, %s, has not been renewed because:"
@@ -5489,16 +5440,15 @@ msgstr "Έχουμε ολοκληρώσει το αίτημα σας για έν
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7:mul:17
 msgid "%sYou may pick up your article at %s.%sYou can download the scanned materials via the following URL(s): %s.%s"
-msgstr ""
+msgstr "%sΜπορείτε να παραλάβετε το άρθρο σας από %s.%sΜπορείτε να κατεβάσετε ο σαρωμένο υλικό από το ακόλουθο URL(s): %s.%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:7:mul:19
 msgid "Thank you!"
 msgstr "Σας ευχαριστούμε!"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:8:mul:1
-#, fuzzy
 msgid "Dear %s %s (%s)"
-msgstr "Ξεχασμένο %s %s (%s)"
+msgstr "Αγαπητέ-ή %s %s (%s)"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:8:mul:3
 msgid "Your request for an article from %s (%s) is now in pending state."
