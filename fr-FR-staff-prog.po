@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.13.000\n"
 "POT-Creation-Date: 2023-12-20 04:07+0000\n"
-"PO-Revision-Date: 2024-01-19 08:55+0000\n"
-"Last-Translator: Fridolin SOMERS <fridolin.somers@biblibre.com>\n"
+"PO-Revision-Date: 2024-01-23 03:13+0000\n"
+"Last-Translator: mathsaby <mathsabypro@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
 "MIME-Version: 1.0\n"
@@ -882,7 +882,7 @@ msgstr "Comptes EDI"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:153
 #, c-format
 msgid "Library EANs"
-msgstr "EANs de la bibliothèque"
+msgstr "EANs du site"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/acquisitions-menu.inc:45
 #, c-format
@@ -1127,7 +1127,7 @@ msgstr "Ajouter fournisseur"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/z3950_search.tt:165
 #, c-format
 msgid "Additional fields"
-msgstr "Sous-champs supplémentaires"
+msgstr "Champs supplémentaires (XML)"
 
 #. %1$s:  field.authorised_value_category | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/additional-fields-entry.inc:20
@@ -1544,7 +1544,7 @@ msgstr "Paramètres de base"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:68
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_to_pull.tt:52
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:2400
-#, c-format
+#, c-format, fuzzy
 msgid "Libraries"
 msgstr "Tous les sites"
 
@@ -7941,7 +7941,7 @@ msgstr "Note interne&nbsp;: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:344
 #, c-format
 msgid "Vendor note: "
-msgstr "Note fournisseur&nbsp;: "
+msgstr "Note fournisseur : "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/filter-orders.inc:16
 #, c-format
@@ -9854,7 +9854,7 @@ msgstr "Commentaire "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:543
 #, c-format
 msgid "Alternate address"
-msgstr "Autre adresse"
+msgstr "Autre adresse : Ville"
 
 #. For the first occurrence,
 #. %1$s:  END 
@@ -12193,47 +12193,47 @@ msgstr "Téléphone secondaire"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:30
 #, c-format
 msgid "Alternate street number"
-msgstr "Autre numéro de rue"
+msgstr "Autre adresse : Numéro de rue"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:31
 #, c-format
 msgid "Alternate street type"
-msgstr "Autre type de voie"
+msgstr "Autre adresse : Type de voie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:33
 #, c-format
 msgid "Alternate address line 2"
-msgstr "Autre adresse ligne 2"
+msgstr "Autre adresse : ligne 2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:34
 #, c-format
 msgid "Alternate city"
-msgstr "Autre commune"
+msgstr "Autre adresse : Ville"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:35
 #, c-format
 msgid "Alternate state"
-msgstr "Autre état"
+msgstr "Autre adresse : Etat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:36
 #, c-format
 msgid "Alternate zip code"
-msgstr "Autre code postal"
+msgstr "Autre adresse : Code postal"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:37
 #, c-format
 msgid "Alternate country"
-msgstr "Autre pays"
+msgstr "Autre adresse : Pays"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:38
 #, c-format
 msgid "Alternate email"
-msgstr "Autre adresse : courriel"
+msgstr "Autre adresse : Email"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:39
 #, c-format
 msgid "Alternate phone"
-msgstr "Autre téléphone"
+msgstr "Autre adresse : Téléphone"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:41
 #, c-format
@@ -12314,7 +12314,7 @@ msgstr "Note de circulation"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:54
 #, c-format
 msgid "Guarantor relationship"
-msgstr "Lien du garant"
+msgstr "Lien avec le garant"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:55
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:57
@@ -12378,7 +12378,7 @@ msgstr "Autre contact : Adresse"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:65
 #, c-format
 msgid "Alternate contact address 2"
-msgstr "Autre contact adresse 2"
+msgstr "Autre contact : Adresse 2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:66
 #, c-format
@@ -12388,7 +12388,7 @@ msgstr "Autre contact : Ville"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:67
 #, c-format
 msgid "Alternate contact state"
-msgstr "Etat de l'autre contact"
+msgstr "Autre contact : Etat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:68
 #, c-format
@@ -12409,7 +12409,7 @@ msgstr "Autre contact : Téléphone"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:68
 #, c-format
 msgid "SMS alert number"
-msgstr "Numéro d'alerte SMS&nbsp;:"
+msgstr "Numéro d'alerte SMS"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:72
 #, c-format
@@ -23663,7 +23663,7 @@ msgstr "Quantité"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/orders_by_budget.tt:62
 #, c-format
 msgid "Total cost"
-msgstr "Coût total"
+msgstr "Cout total"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:81
 #, c-format
@@ -27296,7 +27296,7 @@ msgstr "Modifier le contrat '%s'"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:51
 #, c-format
 msgid "New contract"
-msgstr "Ajouter un contrat"
+msgstr "Nouveau contrat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:58
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:132
@@ -41088,7 +41088,7 @@ msgstr "Sélectionnez les lignes visibles"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:559
 #, c-format
 msgid "Serial enumeration"
-msgstr "Enumération du périodique"
+msgstr "Numéro / Volume du périodique"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:275
@@ -57059,7 +57059,7 @@ msgstr "-- Tout --"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:162
 #, c-format
 msgid "Manager name"
-msgstr "Gérer le nom"
+msgstr "Nom du gestionnaire"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:163
 #, c-format
@@ -58820,7 +58820,7 @@ msgstr "Prix budgété "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/orders_by_budget.tt:61
 #, c-format
 msgid "Total RRP"
-msgstr "Total prix public recommandé"
+msgstr "Total prix public"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/orders_by_budget.tt:63
 #, c-format
@@ -60892,7 +60892,7 @@ msgstr "Lorsqu'un fascicule présente une irrégularité&nbsp;:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:117
 #, c-format
 msgid "Skip issue number"
-msgstr "Passer directement au numéro suivant"
+msgstr "Ignorer le numéro du fascicule"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:114
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:119
