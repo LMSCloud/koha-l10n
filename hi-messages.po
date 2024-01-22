@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.003\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-17 03:03+0000\n"
-"PO-Revision-Date: 2024-01-20 03:00+0000\n"
+"PO-Revision-Date: 2024-01-22 14:21+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hi\n"
@@ -4836,9 +4836,8 @@ msgid "Table '{table_name}'"
 msgstr "तालिका '{table_name}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:18
-#, fuzzy
 msgid "Additional fields"
-msgstr "अतिरिक्त उपक्षेत्रों  (XML)"
+msgstr "अतिरिक्त उपक्षेत्र"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:194
 #, perl-brace-format
@@ -4877,9 +4876,9 @@ msgstr "बजट को हटा नहीं सकते '{budget_period_des
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:121
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of budget '{budget_period_description}'"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "बजट को हटाने की पुष्टि करें '{budget_period_description}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:69
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:134
@@ -4898,14 +4897,13 @@ msgstr "बजट '{budget_period_description}' बंद किया"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:37
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:11
-#, fuzzy
 msgid "Budgets"
-msgstr "बजट लागत"
+msgstr "बजट"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:312
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of budget '{budget_period_description}'?"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "बजट को हटाने की पुष्टि करें '{budget_period_description}'?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:86
@@ -4945,9 +4943,9 @@ msgstr "कोष"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:34
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:107
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of fund '{fund}'"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "कोष को हटाने की पुष्टि करें '{fund}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:80
 #, perl-brace-format
@@ -4960,9 +4958,9 @@ msgid "Modify fund '{fund_name}' for budget '{budget}'"
 msgstr "फंड को संशोधित करें '{fund_name}' बजट के लिए '{budget}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:460
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of fund '{fund}'?"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "फंड को विलोपन की पुष्टि करें '{fund}'?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:10
 #, perl-brace-format
@@ -4970,9 +4968,8 @@ msgid "Modify contract {contractname}"
 msgstr "अनुबंध को संशोधित करें {contractname}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:12
-#, fuzzy
 msgid "New contract"
-msgstr "नई स्थिति"
+msgstr "नया अनुबंध"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:16
 #, perl-brace-format
@@ -4980,47 +4977,42 @@ msgid "Contracts of {vendor}"
 msgstr "के अनुबंध {vendor}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:19
-#, fuzzy
 msgid "Data recorded"
-msgstr "रिकॉर्डेड"
+msgstr "डाटा रिकॉर्डेड"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:22
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of contract '{contractnumber}'"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "अनुंबध को हटाने की पुष्टि करें '{contractnumber}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:25
 msgid "Contract deleted"
 msgstr "अनुबंधित मिटाया गया"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:27
-#, fuzzy
 msgid "Contracts"
-msgstr "कॉन्ट्राबास"
+msgstr "अनुबंध"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:210
-#, fuzzy
 msgctxt "Budget planning"
 msgid "by months"
 msgstr "महीनों द्वारा"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:211
-#, fuzzy
 msgctxt "Budget planning"
 msgid "by item types"
 msgstr "आइटम प्रकार द्वारा"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:212
-#, fuzzy
 msgctxt "Budget planning"
 msgid "by libraries"
 msgstr "पुस्तकालयों द्वारा"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:213
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgctxt "Budget planning"
 msgid "by {type}"
-msgstr "आइटम प्रकार द्वारा"
+msgstr "द्वारा {type}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/audio_alerts.tt:8
 msgid "Audio alerts"
@@ -5032,9 +5024,9 @@ msgstr "सबफील्ड बाधाओं को संपादित �
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:12
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of subfield '{subfield}'"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "उपक्षेत्र को हटाने की पुष्टि करें  '{subfield}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:61
@@ -5164,9 +5156,9 @@ msgstr "प्राधिकरण प्रकार को हटाया �
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:70
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of authority type '{authority_type_code}'"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "प्राधिकरण प्रकार के विलोपन की पुष्टि करें '{authority_type_code}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authtypes.tt:167
 #, perl-brace-format
@@ -5197,9 +5189,9 @@ msgstr "नया रूपरेखा"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:58
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Framework cannot be deleted"
-msgstr "फ्रेमवर्क कोड"
+msgstr "फ्रेमवर्क को हटाया नहीं जा सकता है"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:60
@@ -5228,32 +5220,30 @@ msgstr "पुस्तकालय हस्तांतरण सीमा क
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:54
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:123
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify library '{library}'"
-msgstr "शहर संशोधित करें '{city}'"
+msgstr "पुस्तकालय संशोधित करें '{library}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:16
-#, fuzzy
 msgid "New library"
-msgstr "होम लाइब्रेरी"
+msgstr "नई लाइब्रेरी"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:64
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of library '{library}'"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "लाइब्रेरी को हटाने की पुष्टि करें '{library}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:21
-#, fuzzy
 msgid "Libraries"
-msgstr "पुस्तकालयों द्वारा"
+msgstr "पुस्तकालयों"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:49
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:99
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify cash register '{cash_register}'"
-msgstr "शहर संशोधित करें '{city}'"
+msgstr "नकद रजिस्टर को संशोधित करें '{cash_register}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:13
 msgid "New cash register"
@@ -5261,9 +5251,9 @@ msgstr "नया नकदी रजिस्टर"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:59
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of cash register '{cash_register}'"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "नकदी रजिस्टर की विलोपन की पुष्टि करें '{cash_register}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:18
 msgid "Cash registers"
@@ -5272,9 +5262,9 @@ msgstr "नकदी रजिस्टर"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:58
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:120
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify category '{categorycode}'"
-msgstr "शहर संशोधित करें '{city}'"
+msgstr "श्रेणी संशोधित करें '{categorycode}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:70
@@ -5286,14 +5276,13 @@ msgstr "श्रेणी को हटा नहीं सकते '{category
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:74
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:460
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of category '{categorycode}'"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "श्रेणी को हटाने की पुष्टि करें '{categorycode}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:26
-#, fuzzy
 msgid "Patron categories"
-msgstr "संरक्षक वर्ग"
+msgstr "संरक्षक श्रेणियां"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:7
 msgid "MARC bibliographic framework test"
@@ -5324,14 +5313,13 @@ msgstr "शहर"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:146
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify classification source '{description}'"
-msgstr "कोहा छँटाई के लिए सामान्यीकृत वर्गीकरण"
+msgstr "वर्गीकरण स्रोत को संशोधित करें '{description}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:11
-#, fuzzy
 msgid "New classification source"
-msgstr "डेवी/वर्गीकरण"
+msgstr "नया वर्गीकरण स्रोत"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:74
@@ -5356,9 +5344,8 @@ msgid "New splitting rule"
 msgstr "नए विभाजन नियम"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:26
-#, fuzzy
 msgid "Classification configuration"
-msgstr "वर्गीकरण"
+msgstr "वर्गीकरण विन्यास"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/clone-rules.tt:8
 msgid "Clone circulation and fine rules"
@@ -5366,32 +5353,28 @@ msgstr "क्लोन सर्कुलेशन और जुर्मान
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/clone-rules.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:29
-#, fuzzy
 msgid "Circulation and fine rules"
-msgstr "परिसंचालन ध्यान दें: "
+msgstr "परिसंचालन और जुर्माना नियम"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:167
-#, fuzzy
 msgid "Table settings"
-msgstr "गोपनीयता सेटिंग"
+msgstr "तालिका सेटिंग"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:80
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify credit type '{credit_type}'"
-msgstr "शहर संशोधित करें '{city}'"
+msgstr "क्रेडिट प्रकार को संशोधित करें '{credit_type}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:13
-#, fuzzy
 msgid "New credit type"
-msgstr "नया शहर"
+msgstr "नया क्रेडिट प्रकार"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:17
-#, fuzzy
 msgid "Credit types"
-msgstr "गली प्रकार"
+msgstr "क्रेडिट प्रकार"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/credit_types.tt:193
 #, perl-brace-format
@@ -5435,21 +5418,20 @@ msgstr "बुधवार"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:50
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:105
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify currency '{currency_name}'"
-msgstr "शहर संशोधित करें '{city}'"
+msgstr "मुद्रा संशोधित करें '{currency_name}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:14
-#, fuzzy
 msgid "New currency"
-msgstr "मुद्रा"
+msgstr "नई मुद्रा"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:187
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of currency '{currency_name}'"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "मुद्रा को हटाने की पुष्टि करें '{currency_name}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:20
 msgid "Currencies and exchange rates"
@@ -5458,19 +5440,17 @@ msgstr "मुद्राओं और विनिमय दरें"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:79
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify debit type '{debit_type}'"
-msgstr "शहर संशोधित करें '{city}'"
+msgstr "डेबिट प्रकार संशोधित करें '{debit_type}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:14
-#, fuzzy
 msgid "New debit type"
-msgstr "गली प्रकार"
+msgstr "नया डेबिट प्रकार"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/debit_types.tt:17
-#, fuzzy
 msgid "Debit types"
-msgstr "आइटम प्रकार द्वारा"
+msgstr "डेबिट प्रकार"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:10
 msgid "Modify desk"
@@ -5481,9 +5461,8 @@ msgid "New desk"
 msgstr "नई डेस्क"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:16
-#, fuzzy
 msgid "Confirm deletion of desk"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "डेस्क को हटाने की पुष्टि करें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:19
 msgid "Desks"
@@ -5498,23 +5477,21 @@ msgstr "क्या आपका मतलब यह था?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:93
 #, perl-brace-format
 msgid "Modify account '{edi_account}' for vendor '{vendor}'"
-msgstr ""
+msgstr "खाते को '{edi_account}' विक्रेता के लिए संशोधित करें '{vendor}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:12
-#, fuzzy
 msgid "New account"
-msgstr "नया शहर"
+msgstr "नया खाता"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:58
 #, perl-brace-format
 msgid "Confirm deletion of account '{edi_account}' for vendor '{vendor}'"
-msgstr ""
+msgstr "वेंडर के लिए '{edi_account}' के खाते की विलोपन की पुष्टि करें '{vendor}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:18
-#, fuzzy
 msgid "EDI accounts"
-msgstr "छूट"
+msgstr "ईडीआई खाता"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_accounts.tt:312
 msgctxt "EDIFACT message QUOTE"
@@ -5524,156 +5501,149 @@ msgstr "उद्धरण"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:44
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:94
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify library EAN '{ean}'"
-msgstr "शहर संशोधित करें '{city}'"
+msgstr "लाइब्रेरी ईएएन को संशोधित करें '{ean}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:11
-#, fuzzy
 msgid "New library EAN"
-msgstr "होम लाइब्रेरी"
+msgstr "नई लाइब्रेरी ईएएन"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:56
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:155
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of EAN '{ean}' for '{library}'?"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "'{library} के लिए ईएएन '{ean}' की विलोपन की पुष्टि करें?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:58
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:157
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of EAN '{ean}'?"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "ईएएन '{ean} को हटाने की पुष्टि करें?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:21
-#, fuzzy
 msgid "Library EANs"
-msgstr "लाइब्रेरी"
+msgstr "लाइब्रेरी ईएएनस"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:10
 msgid "New identity provider domain"
-msgstr ""
+msgstr "नया पहचान प्रदाता डोमेन"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:49
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:167
 #, perl-brace-format
 msgid "Modify identity provider domain '{domain}'"
-msgstr ""
+msgstr "पहचान प्रदाता डोमेन को संशोधित करें '{domain}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:278
 #, perl-brace-format
 msgid "Identity provider domains for '{identity_provider_code}'"
-msgstr ""
+msgstr "के लिए पहचान प्रदाता डोमेन '{identity_provider_code}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:14
 msgid "Identity providers"
-msgstr ""
+msgstr "पहचान प्रदाता"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:54
 #, perl-brace-format
 msgid "Domains for '{identity_provider_code}'"
-msgstr ""
+msgstr "के लिए डोमेन '{identity_provider_code}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:86
 #, perl-brace-format
 msgid "New identity provider domain for '{identity_provider_code}'"
-msgstr ""
+msgstr "के लिए नए पहचान प्रदाता डोमेन '{identity_provider_code}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:10
 msgid "New identity provider"
-msgstr ""
+msgstr "नए पहचान प्रदाता"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:12
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:44
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:236
 #, perl-brace-format
 msgid "Modify identity provider '{id_provider}'"
-msgstr ""
+msgstr "पहचान प्रदाता को संशोधित करें '{id_provider}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/item_circulation_alerts.tt:8
-#, fuzzy
 msgid "Item circulation alerts"
-msgstr "परिसंचालन ध्यान दें: "
+msgstr "आइटम परिसंचरण अलर्ट"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_field.tt:9
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify search field '{field}'"
-msgstr "शहर संशोधित करें '{city}'"
+msgstr "खोज क्षेत्र संशोधित करें '{field}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_field.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_field.tt:56
 msgid "New search field"
-msgstr ""
+msgstr "नए खोज क्षेत्र"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_field.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:8
 msgid "Item search fields"
-msgstr ""
+msgstr "आइटम खोज क्षेत्र"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_field.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_field.tt:54
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify search field  '{field}'"
-msgstr "शहर संशोधित करें '{city}'"
+msgstr "खोज फ़ील्ड को संशोधित करें  '{field}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:147
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify item type '{item_type}'"
-msgstr "शहर संशोधित करें '{city}'"
+msgstr "आइटम प्रकार को संशोधित करें '{item_type}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:16
-#, fuzzy
 msgid "New item type"
-msgstr "आइटम प्रकार द्वारा"
+msgstr "नई आइटम प्रकार"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:87
 #, perl-brace-format
 msgid "Cannot delete item type '{item_type}'"
-msgstr ""
+msgstr "आइटम प्रकार को हटा नहीं सकते '{item_type}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:91
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of item type '{item_type}'?"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "आइटम प्रकार के विलोपन की पुष्टि करें '{item_type}'?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:29
-#, fuzzy
 msgid "Item types"
 msgstr "आइटम प्रकार"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:357
 #, perl-brace-format
 msgid "Are you sure you want to delete item type '{item_type}'?"
-msgstr ""
+msgstr "क्या आप सुनिश्चित हैं कि आप आइटम प्रकार को हटाना चाहते हैं '{item_type}'?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/koha2marclinks.tt:7
 msgid "Koha to MARC mapping"
-msgstr ""
+msgstr "कोहा से मार्क मैपिंग"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:8
-#, fuzzy
 msgid "Library groups"
-msgstr "लाइब्रेरी"
+msgstr "लाइब्रेरी समूह"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/localization.tt:7
-#, fuzzy
 msgid "Localization"
-msgstr "स्थान"
+msgstr "स्थानीयकरण"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:12
 msgid "Record overlay rules"
-msgstr ""
+msgstr "रिकॉर्ड ओवरले नियम"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:86
 msgctxt "noun"
@@ -5682,164 +5652,157 @@ msgstr "फ़िल्टर"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:8
 msgid "Edit subfield constraints"
-msgstr ""
+msgstr "सबफील्ड बाधाओं को संपादित करें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:72
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:318
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of subfield '{subfield}'?"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "सबफील्ड के विलोपन की पुष्टि करें '{subfield}'?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:78
 #, perl-brace-format
 msgid "Tag {tag} subfield structure"
-msgstr ""
+msgstr "टैग {tag} सबफील्ड संरचना"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:91
 #, perl-brace-format
 msgid "Tag {tag} subfield constraints"
-msgstr ""
+msgstr "टैग{tag} सबफील्ड बाधाएं"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:341
 #, perl-brace-format
 msgid "Tag {tag} subfield structure (framework {frameworkcode})"
-msgstr ""
+msgstr "टैग{tag} सबफील्ड संरचना (फ्रेमवर्क {frameworkcode})"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:343
 #, perl-brace-format
 msgid "Tag {tag} subfield structure (default framework)"
-msgstr ""
+msgstr "टैग{tag} सबफील्ड संरचना (डिफॉल्ट फ्रेमवर्क)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:59
 #, perl-brace-format
 msgid "New tag {searchfield}"
-msgstr ""
+msgstr "नया टैग {searchfield}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:85
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of tag {searchfield}"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "टैंग को हटाने की पुष्टि करें {searchfield}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:118
 #, perl-brace-format
 msgid "MARC bibliographic framework '{framework}' ({frameworkcode})"
-msgstr ""
+msgstr "मार्क बिब्लियोग्राफिक फ्रेमवर्क '{framework}' ({frameworkcode})"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:197
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of tag {searchfield}?"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "टैंग को हटाने की पुष्टि करें {searchfield}?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:82
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:111
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify record matching rule '{code}'"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "मिलान नियम को हटाने की पुष्टि करें  '{code}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:11
-#, fuzzy
 msgid "New record matching rule"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "नया रिकॉर्ड मिलान नियम"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:93
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of record matching rule '{code}'"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "रिकॉर्ड मिलान नियम '{code}' की पुष्टि की पुष्टि करें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:17
 msgid "Record matching rules"
-msgstr ""
+msgstr "रिकॉर्ड मिलान नियम"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_set_mappings.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_set_mappings.tt:29
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_set_mappings.tt:45
 #, perl-brace-format
 msgid "Mappings for set '{oai_set}'"
-msgstr ""
+msgstr "सेट के लिए मैपिंग '{oai_set}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_set_mappings.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:12
 msgid "OAI sets"
-msgstr ""
+msgstr "ओएआई सेट"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:8
 msgid "New OAI set"
-msgstr ""
+msgstr "नया ओएआई सेट"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/oai_sets.tt:65
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Modify OAI set '{oai_set}'"
-msgstr "शहर संशोधित करें '{city}'"
+msgstr "ओएआई सेट संशोधित करें '{oai_set}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/overdrive.tt:9
 msgid "OverDrive library authnames"
-msgstr ""
+msgstr "ओवरड्रआइव पुस्तकालय ऑटनहेम"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:48
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:78
 #, perl-brace-format
 msgid "Modify patron attribute type '{code}'"
-msgstr ""
+msgstr "संरक्षक विशेषता प्रकार को संशोधित करें '{code}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:15
 msgid "New patron attribute type"
-msgstr ""
+msgstr "नया संरक्षक विशेषता प्रकार"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:19
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:56
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of patron attribute type '{code}'"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "संरक्षक विशेषता प्रकार के विलोपन की पुष्टि करें '{code}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:21
 msgid "Patron attribute types"
-msgstr ""
+msgstr "संरक्षक विशेषता प्रकार"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:265
-#, fuzzy, perl-brace-format
+#, perl-brace-format
 msgid "Confirm deletion of patron attribute type '{code}' ({description})?"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "संरक्षक विशेषता प्रकार के विलोपन की पुष्टि करें '{code}' ({description})?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:10
-#, fuzzy
 msgid "System preferences"
-msgstr "सिस्टम अनुमतियाँ"
+msgstr "सिस्टम वरीयताएँ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:10
-#, fuzzy
 msgid "Modify restriction type"
-msgstr "परिवर्धन की तारीख़"
+msgstr "प्रतिबंध प्रकार को संशोधित करें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:12
-#, fuzzy
 msgid "New restriction type"
-msgstr "उम्र प्रतिबन्ध"
+msgstr "नया प्रतिबंध प्रकार"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:16
-#, fuzzy
 msgid "Confirm deletion of restriction type"
-msgstr "शहर को हटाने की पुष्टि करें '{city}'"
+msgstr "प्रतिबंध प्रकार के विलोपन की पुष्टि करें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/restrictions.tt:18
-#, fuzzy
 msgid "Patron restriction types"
-msgstr "उपयोग प्रतिबंध"
+msgstr "संरक्षक प्रतिबंध प्रकार"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/search_filters.tt:8
-#, fuzzy
 msgid "Search filters"
-msgstr "धनुषाकार"
+msgstr "खोज फ़िल्टर"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:7
 msgid "Search engine configuration (Elasticsearch)"
-msgstr ""
+msgstr "खोज इंजन कॉन्फ़िगरेशन (elasticsearch)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:46
 #, perl-brace-format
@@ -5893,145 +5856,144 @@ msgstr "वर्तमान में इलास्टिकसर्च अ
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/share_content.tt:8
 msgid "Share content with Mana KB"
-msgstr ""
+msgstr "माना KB के साथ सामग्री साझा करें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sms_providers.tt:7
 msgid "SMS cellular providers"
-msgstr ""
+msgstr "एसएमएस सेलुलर प्रदाता"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:8
 msgid "New SMTP server"
-msgstr ""
+msgstr "नया एसएमटीपी सर्वर"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:43
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:148
 #, perl-brace-format
 msgid "Modify SMTP server '{smtp_server}'"
-msgstr ""
+msgstr "एसएमटीपी सर्वर को संशोधित करें '{smtp_server}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:12
 msgid "SMTP servers"
-msgstr ""
+msgstr "एसएमटीपी सर्वर"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping.tt:7
 msgid "SRU search field mapping for bibliographic records"
-msgstr ""
+msgstr "ग्रंथ सूची के लिए SRU खोज क्षेत्र मानचित्रण"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:22
 msgid "Z39.50/SRU servers"
-msgstr ""
+msgstr "Z39.50/SRU सर्वर"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/sru_modmapping_auth.tt:5
 msgid "SRU search field mapping for authorities"
-msgstr ""
+msgstr "अधिकारियों के लिए SRU खोज फील्ड मैपिंग"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:10
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:48
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:88
 #, perl-brace-format
 msgid "Modify system preference '{system_preference}'"
-msgstr ""
+msgstr "प्रणाली वरीयता को संशोधित करें '{system_preference}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:12
 msgid "New system preference"
-msgstr ""
+msgstr "नई प्रणाली वरीयता"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:60
 #, perl-brace-format
 msgid "Confirm deletion of system preference '{system_preference}'"
-msgstr ""
+msgstr "सिस्टम वरीयता की विलोपन की पुष्टि करें '{system_preference}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:19
 msgid "System preference deleted"
-msgstr ""
+msgstr "हटाए गए सिस्टम वरीयता"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:21
 msgid "Local use system preferences"
-msgstr ""
+msgstr "स्थानीय उपयोग प्रणाली प्राथमिकताएँ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/systempreferences.tt:273
 #, perl-brace-format
 msgid "Confirm deletion of system preference '{system_preference}'?"
-msgstr ""
+msgstr "हटाए गए सिस्टम वरीयता '{system_preference}'?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/transfer_limits.tt:12
 msgid "Library transfer limits"
-msgstr ""
+msgstr "पुस्तकालय अंतरण सीमाएं"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/transport-cost-matrix.tt:8
 msgid "Transport cost matrix"
-msgstr ""
+msgstr "परिवहन लागत मैट्रिक्स"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/usage_statistics.tt:10
 msgid "Koha usage statistics"
-msgstr ""
+msgstr "कोहा उपयोग सांख्यिकी"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:48
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:86
 #, perl-brace-format
 msgid "Modify {servertype} server '{servername}'"
-msgstr ""
+msgstr "संशोधित {servertype} सर्वर '{servername}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:53
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:89
 #, perl-brace-format
 msgid "New {servertype} server"
-msgstr ""
+msgstr "नया {servertype} सर्वर"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:58
 #, perl-brace-format
 msgid "Search results for '{search_keyword}'"
-msgstr ""
+msgstr "के लिए खोज परिणाम '{search_keyword}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:217
 #, perl-brace-format
 msgid "Searching by target starting with '{search_keyword}'"
-msgstr ""
+msgstr "लक्ष्य के साथ शुरू करके खोज '{search_keyword}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/two_factor_auth.tt:8
 msgid "Two-factor authentication"
-msgstr ""
+msgstr "दो-कारक प्रमाणीकरण"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:17
-#, fuzzy
 msgid "Two-factor authentication setup"
-msgstr "प्रमाणन विधि"
+msgstr "दो-कारक प्रमाणीकरण सेटअप"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:20
 msgid "This account has been locked."
-msgstr ""
+msgstr "इस खाते को लॉक कर दिया गया है।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/auth.tt:16
 msgid "Invalid username or password"
-msgstr ""
+msgstr "अमान्य उपयोगकर्ता नाम या पासवर्ड"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/auth.tt:13
 msgid "IP address change"
-msgstr ""
+msgstr "आईपी पता परिवर्तन"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/auth.tt:10
 msgid "Session timed out"
-msgstr ""
+msgstr "सत्र का समय समाप्त हो गया"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/auth.tt:7
 msgid "Access denied"
-msgstr ""
+msgstr "एक्सेस इनकार"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:34
 msgid "Error authenticating with external provider"
-msgstr ""
+msgstr "बाहरी प्रदाता के साथ प्रमाणित त्रुटि"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:37
 msgid "Log in to Koha"
