@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.13.000\n"
 "POT-Creation-Date: 2023-12-20 04:07+0000\n"
-"PO-Revision-Date: 2024-01-22 03:12+0000\n"
+"PO-Revision-Date: 2024-01-24 03:15+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
@@ -12111,7 +12111,7 @@ msgstr "Iniciály"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:27
 #, c-format
 msgid "Pronouns"
-msgstr ""
+msgstr "Zájmena"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:28
@@ -28628,12 +28628,12 @@ msgstr "Použito ve Francouzské UNIMARC instalaci v poli 995 $o k označení st
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:413
 #, c-format
 msgid "Close reasons for agreements (e-resource management module)"
-msgstr ""
+msgstr "Uzavírání smluv (modul správy elektronických zdrojů)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:415
 #, c-format
 msgid "Locations of the licenses' agreements (e-resource management module)"
-msgstr ""
+msgstr "Umístění licenčních smluv (modul správy elektronických zdrojů)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/authorised_values.tt:417
 #, c-format
@@ -36171,9 +36171,9 @@ msgid "default (all libraries), all patron categories, all item types"
 msgstr "výchozí (všechny knihovny), všechny kategorie čtenářů, všechny typy jednotek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:72
-#, c-format
+#, c-format, fuzzy
 msgid "Where an itemtype has a parent, the rule will display as \"Parent->Child\" and the number of current checkouts allowed will be limited to either the maximum for the parent (counting sibling types) or the specific rule's type, whichever is less."
-msgstr ""
+msgstr "Pokud je typ položky nadřízený, pravidlo se zobrazí jako \"Nadřízený->Podřízený\" a počet aktuálních povolených výpůjček bude omezen buď na maximum pro nadřízený typ (včetně typů sourozeneckých), nebo na typ konkrétního pravidla, podle toho, který je nižší."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:75
 #, c-format
@@ -39668,7 +39668,7 @@ msgstr "Použít váhy polí přo hledání "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:194
 #, c-format
 msgid "See from (non-preferred form) headings are included "
-msgstr ""
+msgstr "Viz z (nepreferované formy) záhlaví jsou zahrnuty "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:214
 #, fuzzy, c-format
@@ -46780,7 +46780,7 @@ msgstr "Není specifikováno"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:393
 #, c-format
 msgid "The bundle content was verified"
-msgstr ""
+msgstr "Obsah balíčku byl ověřen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:394
 #, fuzzy, c-format
@@ -47426,7 +47426,7 @@ msgstr "Zobrazit všechny knihovny"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:53
 #, c-format
 msgid "There was a problem rejecting the cancellation request. Cannot reject an already completed cancellation request."
-msgstr ""
+msgstr "Při zamítnutí žádosti o zrušení došlo k problému. Nelze odmítnout již dokončenou žádost o zrušení."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:55
 #, fuzzy, c-format
@@ -49787,7 +49787,7 @@ msgstr "Kód"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:73
 #, c-format
 msgid "COOP2of5"
-msgstr ""
+msgstr "COOP2of5"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:74
 #, c-format
@@ -49802,12 +49802,12 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:76
 #, c-format
 msgid "IATA2of5"
-msgstr ""
+msgstr "IATA2of5"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:77
 #, c-format
 msgid "Industrial2of5"
-msgstr ""
+msgstr "Industrial2of5"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:78
 #, fuzzy, c-format
@@ -49897,7 +49897,7 @@ msgstr "Čárové kódy typu %s musí být číselné"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:132
 msgid "Could not copy HTML automatically to the clipboard"
-msgstr ""
+msgstr "Nepodařilo se automaticky zkopírovat HTML do schránky"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:132
@@ -49913,7 +49913,7 @@ msgstr "Vyskytl se problém s odesláním košíku."
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:132
 msgid "There was an unknown error generating the barcode image. Please check that your barcode is correct for the barcode type"
-msgstr ""
+msgstr "Při generování obrázku čárového kódu došlo k neznámé chybě. Zkontrolujte prosím, zda je váš čárový kód správný pro daný typ čárového kódu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-bib-search.tt:1
 #, fuzzy, c-format
@@ -50196,7 +50196,7 @@ msgstr "Bibliografické údaje k tisku"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:8
 #, c-format
 msgid "Barcode and bibliographic data are printed on alternating labels"
-msgstr ""
+msgstr "Čárový kód a bibliografické údaje se tisknou střídavě na štítky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:9
 #, fuzzy, c-format
@@ -50779,7 +50779,7 @@ msgstr "Tisk/export čtenářských průkazů &rsaquo; ČVtenářské průkazy &
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-print.tt:11
 #, c-format
 msgid "Label printing/exporting"
-msgstr ""
+msgstr "Tisk/export štítků"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-print.tt:14
 #, c-format
@@ -50872,13 +50872,13 @@ msgstr "Exportovat štítky"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/print.tt:54
 #, c-format
 msgid "%s batches to export"
-msgstr ""
+msgstr "%s dávek k exportu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-print.tt:65
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/print.tt:54
 #, c-format
 msgid "1 batch to export"
-msgstr ""
+msgstr "1 dávka k exportu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-print.tt:86
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/print.tt:73
@@ -51135,7 +51135,7 @@ msgstr "Klíče API pro %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:39
 #, c-format
 msgid "Make sure to copy your API secret now. You won’t be able to see it again!"
-msgstr ""
+msgstr "Nezapomeňte si nyní zkopírovat své tajemství k API. Později nebude čitelné!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:47
 #, fuzzy, c-format
@@ -51331,7 +51331,7 @@ msgstr "Zaplatit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:202
 #, c-format
 msgid "You must have at least one cash register associated with this branch before you can record cash payouts. "
-msgstr ""
+msgstr "Abyste mohli zaznamenávat výplaty hotovosti, musíte mít k této pobočce přiřazenou alespoň jednu pokladnu. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:209
 #, fuzzy, c-format
@@ -51374,7 +51374,7 @@ msgstr "Potvrdit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:257
 #, c-format
 msgid "You must have at least one cash register associated with this branch before you can record cash refunds. "
-msgstr ""
+msgstr "Abyste mohli zaznamenávat vracení plateb, musíte mít v této knihovně alespoň jednu pokladnu. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:264
 #, fuzzy, c-format
@@ -52670,7 +52670,7 @@ msgstr "Pokud necháte prázdné, doplní se automaticky při uložení %s %s "
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:964
 msgid "The patron's current category (%s) is limited to other libraries"
-msgstr ""
+msgstr "Aktuální kategorie čtenáře (%s) je omezena na jiné knihovny"
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:974
@@ -53149,7 +53149,7 @@ msgstr "výpůjčka"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/merge-patrons.tt:63
 #, c-format
 msgid "marks as last borrower of item"
-msgstr ""
+msgstr "označí jako posledního vypůjčitele jednotky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/merge-patrons.tt:64
 #, fuzzy, c-format
@@ -53709,7 +53709,7 @@ msgstr "Poznámka pro on-line katalog:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:491
 #, c-format
 msgid "Inherited"
-msgstr ""
+msgstr "Zděděno"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:535
 #, c-format
@@ -53777,7 +53777,7 @@ msgstr "Oznámení odeslaná čtenáři %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:32
 #, c-format
 msgid "Sent notices"
-msgstr "Oznámení odeslaná čtenáři"
+msgstr "Odeslaná oznámení"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:50
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:132
@@ -53808,7 +53808,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:69
 #, c-format
 msgid "sms"
-msgstr ""
+msgstr "sms"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:73
 #, c-format
@@ -53868,12 +53868,12 @@ msgstr "je duplicitní"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:98
 #, c-format
 msgid "No notes from SMS driver"
-msgstr ""
+msgstr "Žádné poznámky k ovladači SMS"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:99
 #, c-format
 msgid "Unhandled email failure, check the logs for further details"
-msgstr ""
+msgstr "Selhání nezpracovaného e-mailu, další podrobnosti najdete v protokolech"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:101
 #, fuzzy, c-format
@@ -53982,7 +53982,7 @@ msgstr "Opravdu chcete prominout poplatky v hodnotě %s? Tuto akci již nelze vz
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:34
 #, c-format
 msgid "You must have at least one cash register associated with the library before you can record payments. "
-msgstr ""
+msgstr "Abyste mohli zaznamenávat platby, musíte mít s knihovnu spojenou s alespoň jednou pokladnou. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/paycollect.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:42
@@ -54443,7 +54443,7 @@ msgstr "Sloučit záznamy čtenářů &rsaquo; Čtenáři &rsaquo; Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/two_factor_auth.tt:40
 #, c-format
 msgid "Operation cannot proceed, please define an encryption key in your configuration. "
-msgstr ""
+msgstr "Operace nemůže pokračovat, zadejte šifrovací klíč v konfiguraci. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/two_factor_auth.tt:53
 #, fuzzy, c-format
@@ -54462,9 +54462,9 @@ msgid "Status: Disabled"
 msgstr "Výchozí: Nepovolit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/two_factor_auth.tt:69
-#, c-format
+#, c-format, fuzzy
 msgid "Two-factor authentication is mandatory to login. If you do not enable now it will be asked at your next login."
-msgstr ""
+msgstr "Ověřením druhým faktorem je pro přihlášení nastavené jako povinné. Pokud ho nyní nepovolíte, bude po vás při příštím přihlášení požadováno."
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/two_factor_auth.tt:72
@@ -56253,9 +56253,9 @@ msgstr "Položky k prodeji"
 
 #. %1$s:  IF invoice_types 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:59
-#, c-format
+#, c-format, fuzzy
 msgid "Please select items from below to add to this transaction: %s "
-msgstr "Vyberte si prosím níže uvedené položky, které chcete prodat: %s "
+msgstr "Vyberte si prosím z níže uvedených položek, které chcete přidat k této transakci: %s "
 
 #. %1$s:  ELSE 
 #. %2$s:  END 
@@ -56272,7 +56272,7 @@ msgstr "Tento prodej"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:93
 #, c-format
 msgid "Click to edit item cost or quantities"
-msgstr "Kliknutím upravíte ceny položek nebo množství"
+msgstr "Kliknutím upravíte cenu nebo množství jednotek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/pay.tt:102
 #, c-format
@@ -56516,7 +56516,7 @@ msgstr "Potvrďte prosím, že jste z pokladny vybrali "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:161
 #, c-format
 msgid "from the cash register and left a float of "
-msgstr "a nový zůstatek nyní činí "
+msgstr "z pokladny a nový zůstatek je "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/registers.tt:177
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:216
@@ -57338,9 +57338,9 @@ msgstr "Omezení: %s"
 #. %4$s:  ELSE 
 #. %5$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_out.tt:60
-#, c-format
+#, c-format, fuzzy
 msgid "By: %s %s Home library %s Item type %s None %s "
-msgstr ""
+msgstr "Z: %s %s Domovská knihovna %s Typ jednotky %s Žádný %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/catalogue_out.tt:82
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:260
@@ -58441,7 +58441,7 @@ msgstr "Typy poplatku"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1480
 msgid "Fetching full chart data for reports with many rows can cause performance issues. Are you sure you want to chart this report?"
-msgstr ""
+msgstr "Získávání úplných dat grafu pro výstupy s mnoha řádky může způsobit problémy s výkonem. Jste si jisti, že chcete tento výstup vykreslit do grafu?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1480
