@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.13.000\n"
 "POT-Creation-Date: 2023-12-20 04:07+0000\n"
-"PO-Revision-Date: 2024-01-24 03:15+0000\n"
+"PO-Revision-Date: 2024-01-25 03:14+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
@@ -41387,7 +41387,7 @@ msgstr "Zobrazujete pouze jednu jednotku. "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:94
 #, c-format
 msgid "%s Exclude from local holds priority updated to 'Yes' %s Exclude from local holds priority updated to 'No' %s "
-msgstr ""
+msgstr "%s Vyjmout z upředňostnování rezervací podle knihovny nastaveno na 'Ano' %s Vyjmout z upředňostnování rezervací podle knihovny nastaveno na 'Ne' %s "
 
 #. %1$s:  ITEM_DAT.barcode | html 
 #. %2$s:  IF not_for_loan 
@@ -46560,7 +46560,7 @@ msgstr "Ano, upravit existující jednotky"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:221
 #, c-format
 msgid "Bundle contents list updated"
-msgstr ""
+msgstr "Aktualizace seznamu obsahu balíčku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:223
 #, fuzzy, c-format
@@ -59732,7 +59732,7 @@ msgstr "Na cestě z %s do %s od %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:847
 #, c-format
 msgid "Can't be cancelled when item is in transit"
-msgstr ""
+msgstr "Nelze zrušit, když je položka v přesunu"
 
 #. %1$s:  INCLUDE 'patron-title.inc' patron=itemloo.ReservedFor 
 #. %2$s:  Branches.GetName( itemloo.ExpectedAtLibrary ) | html 
@@ -60047,9 +60047,9 @@ msgid "Add a new collection"
 msgstr "Vytvořit nový soubor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:34
-#, fuzzy, c-format
+#, c-format
 msgid "Collection deleted"
-msgstr "Kód sbírky"
+msgstr "Sbírka smazána"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/editCollections.tt:41
 #, fuzzy, c-format
@@ -60151,7 +60151,7 @@ msgstr "Přesun souboru "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/transferCollection.tt:43
 #, c-format
 msgid "Cannot transfer item %s due to transfer limits"
-msgstr ""
+msgstr "Jednotku %s nelze přesunout kvůli nastaveným limitům přesunů"
 
 #. %1$s:  message.item.itemnumber | html 
 #. %2$s:  message.found_transfer.reason | html 
@@ -61141,7 +61141,7 @@ msgstr "Výchozí: %s %s ("
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:247
 #, c-format
 msgid "StaffSerialIssueDisplayCount"
-msgstr ""
+msgstr "StaffSerialIssueDisplayCount"
 
 #. %1$s:  ELSE 
 #. %2$s:  END 
@@ -61158,7 +61158,7 @@ msgstr "Počet čísel k zobrazení pro čtenáře: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:260
 #, c-format
 msgid "OPACSerialIssueDisplayCount"
-msgstr ""
+msgstr "OPACSerialIssueDisplayCount"
 
 #. %1$s:  ELSE 
 #. %2$s:  END 
@@ -62871,7 +62871,7 @@ msgstr "Datum vrácení &quot;%s&quot; je neplatné"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:198
 #, c-format
 msgid "&quot;%s&quot; is neither permitted nor prohibited."
-msgstr ""
+msgstr "&quot;%s&quot; není povoleno ani zakázáno."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:212
 #, c-format
@@ -63275,7 +63275,7 @@ msgstr "Vyberte pole"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:171
 #, c-format
 msgid "If not set then items.dateaccessioned will be used"
-msgstr ""
+msgstr "pokud není nastaveno, použije se items.dateaccessioned"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/automatic_item_modification_by_age.tt:175
@@ -63371,7 +63371,7 @@ msgstr "Plánovač úloh &rsaquo; Nástroje &rsaquo; Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:54
 #, c-format
 msgid "Cannot enqueue this job."
-msgstr ""
+msgstr "Tuto úlohu nelze zařadit do fronty."
 
 #. For the first occurrence,
 #. %1$s:  message.error | html 
@@ -63661,7 +63661,7 @@ msgstr "Seznamy "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:107
 #, c-format
 msgid "IDs: "
-msgstr ""
+msgstr "Identifikátory: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:109
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_record_modification.tt:125
@@ -64803,9 +64803,9 @@ msgid "Add new holiday"
 msgstr "Vložit novou uzavírku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:171
-#, c-format
+#, c-format, fuzzy
 msgid "This field only applies when holidays are added on a range."
-msgstr ""
+msgstr "Toto pole se použije pouze při přidávání svátků v rozsahu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/holidays.tt:182
 #, c-format
@@ -65168,9 +65168,9 @@ msgstr "Hlavičkový řádek nebylo možné zpracovat"
 
 #. %1$s:  missing_critical.key | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:109
-#, c-format
+#, c-format, fuzzy
 msgid "has &quot;%s&quot; in unrecognized format:"
-msgstr ""
+msgstr "je &quot;%s&quot; v nerozpoznaném formátu:"
 
 #. %1$s:  missing_critical.key | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:111
@@ -65290,7 +65290,7 @@ msgstr "Parametr čtenáře%s je neopakovatelný pro čtenáře číslo %s."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:188
 #, c-format
 msgid "Patron attribute %s is non-repeatable for patron %s."
-msgstr ""
+msgstr "Atribut %s je pro čtenáře %s neopakovatelný."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:198
 #, c-format
@@ -65385,17 +65385,17 @@ msgstr "Prodloužit registraci stávajícím čtenářům"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:317
 #, c-format
 msgid "using the dateexpiry value in the file, if present"
-msgstr ""
+msgstr "pomocí hodnoty data vypršení platnosti v souboru, pokud je k dispozici"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:318
 #, c-format
 msgid "from the current membership expiry date"
-msgstr ""
+msgstr "od aktuálního data vypršení registrace"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:319
 #, c-format
 msgid "from the current date"
-msgstr ""
+msgstr "od aktuálního data"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:324
 #, c-format
@@ -65425,7 +65425,7 @@ msgstr "Přidat nového čtenáře"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:353
 #, c-format
 msgid "WELCOME notice is used"
-msgstr ""
+msgstr "Používá se oznámení WELCOME"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:370
 #, c-format
@@ -65809,7 +65809,7 @@ msgstr "Nevybrali jste žádné podmínky filtru, bude se porovnávat kompletní
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:357
 msgid "You have uploaded a barcode file and scanned barcodes at the same time. Please choose one of the two options."
-msgstr ""
+msgstr "Nahráli jste soubor s čárovým kódem a zároveň jste naskenovali čárové kódy. Prosím, vyberte pouze jeden z nabízených způsobů."
 
 #. %1$s:  IF ( add_form or copy_form ) 
 #. %2$s:  IF ( modify ) 
@@ -65973,7 +65973,7 @@ msgstr "Odezva:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:97
 #, c-format
 msgid "Phone (i-tiva)"
-msgstr ""
+msgstr "Telefon (i-tiva)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:556
 #, c-format
@@ -66517,7 +66517,7 @@ msgstr "nerovná se"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:186
 #, c-format
 msgid "m/%s"
-msgstr ""
+msgstr "m/%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:203
 #, c-format
@@ -67159,7 +67159,7 @@ msgstr "Nezadali jste žádné vyhledávací kritériia."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/preview_letter.tt:13
 #, c-format
 msgid "Preview is not available for letters '%s'."
-msgstr ""
+msgstr "Náhled není pro upozornění k dispozici a '%s'."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/preview_letter.tt:14
 #, c-format
@@ -67679,7 +67679,7 @@ msgstr "Nahrát soubor k přípravě"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:108
 #, c-format
 msgid "Pre-fill values with profile?"
-msgstr ""
+msgstr "Předvyplnit hodnoty pomocí profilu?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:111
 #, fuzzy, c-format
@@ -67694,12 +67694,12 @@ msgstr "Nepoužívat profil"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:115
 #, c-format
 msgid "When you select a profile it pre-fills your form with profile values."
-msgstr ""
+msgstr "Po výběru profilu se formulář předvyplní hodnotami profilu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:116
 #, c-format
 msgid "Later you can modify your form and that's what matters on import."
-msgstr ""
+msgstr "Později můžete formulář upravit podle toho, na čem při importu záleží."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:133
 #, c-format
@@ -68272,7 +68272,7 @@ msgstr "Zobrazení příjmů do pokladny v přihlášené knihovně"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:190
 #, c-format
 msgid "View transaction history for the current cash register"
-msgstr "Zobrazení historie transakcí pro přihlášenou pokladnu"
+msgstr "Zobrazení historie transakcí aktuální pokladny"
 
 #. %1$s:  IF ( biblio ) 
 #. %2$s:  INCLUDE 'biblio-title-head.inc' 
@@ -68404,7 +68404,7 @@ msgstr "ID bibliografického záznamu:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:249
 #, c-format
 msgid "Existing covers will be replaced %s "
-msgstr ""
+msgstr "Stávající obálky budou nahrazeny %s "
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:252
@@ -68812,12 +68812,12 @@ msgstr "IP"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:161
 #, c-format
 msgid "Command-line"
-msgstr ""
+msgstr "Příkazový řádek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:162
 #, c-format
 msgid "REST API"
-msgstr ""
+msgstr "REST API"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:163
 #, fuzzy, c-format
@@ -68827,7 +68827,7 @@ msgstr "Barva pozadí"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:164
 #, c-format
 msgid "Upgrade"
-msgstr ""
+msgstr "Aktualizace"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:194
 #, c-format
@@ -69430,7 +69430,7 @@ msgstr "Seznam nemohl být vytvořen. (Nepoužívejte účet administrátora dat
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:197
 #, c-format
 msgid "Transfer ownership of public list %s"
-msgstr ""
+msgstr "Převod vlastnictví veřejného seznamu %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:207
 #, fuzzy, c-format
