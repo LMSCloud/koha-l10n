@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.003\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:11-0300\n"
-"PO-Revision-Date: 2023-12-27 03:02+0000\n"
+"PO-Revision-Date: 2024-01-25 03:00+0000\n"
 "Last-Translator: Tomás Cohen Arazi <tomascohen@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: es-ES\n"
@@ -485,7 +485,7 @@ msgstr "<p>Por ejemplo:<br/> holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
-msgstr "<p>Si falta un campo o no tiene correspondencia, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> será validado y usado para ese campo (a excepción de 'quantity').</p>"
+msgstr "<p>si un campo está ausente o no tiene correspondencia, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> será verificado y usado para ese campo (excepto quantity).</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
@@ -6828,70 +6828,60 @@ msgstr "Ejemplo: \"itemlost: 1\" para configurar items.itemlost a 1 cuando el ej
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp-1: 0<br/><br/>"
-msgstr "Ejemplos:<br/>"
+msgstr "&nbsp-1: 0<br/><br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin Policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp-1: ONLYMESSAGE<br/><br/>"
-msgstr "Puede ser utilizado para mostrar sólo la descripción de no para préstamo. Por ejemplo: '-1: ONLYMESSAGE'.<br>"
+msgstr "&nbsp-1: ONLYMESSAGE<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp1: 0<br/><br/>"
-msgstr "Ejemplos:<br/>"
+msgstr "&nbsp1: 0<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# <strong>Examples:</strong><br/>"
-msgstr "Ejemplos:<br/>"
+msgstr "<strong>Ejemplos:</strong><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# BK:<br/>"
-msgstr "Ejemplos:<br/>"
+msgstr "BK:<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# CR:<br/>"
-msgstr "Ejemplos:<br/>"
+msgstr "CR:<br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Each item type needs to be defined on a separate line on the left side of the colon (:).<br/>Each pair of not for loan values, for that item type, should be listed on separate lines below the item type, each indented by a leading space<br/><br/>"
-msgstr ""
+msgstr "Cada tipo de ítem necesita ser definido en una línea separada a la izquierda de los dos puntos (:).<br/>Cada par de valores de no para préstamos, para ese tipo de ítem, deberían ser listados en lineas separadas abajo del tipo de ítem, cada una indentada con un espacio al inicio<br/><br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin Policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# ONLYMESSAGE can be used for showing only the not for loan description. E.g. '-1: ONLYMESSAGE'<br/><br/>"
-msgstr "Puede ser utilizado para mostrar sólo la descripción de no para préstamo. Por ejemplo: '-1: ONLYMESSAGE'.<br>"
+msgstr "ONLYMESSAGE puede ser utilizado para mostrar sólo la descripción de no para préstamo. Por ejemplo: '-1: ONLYMESSAGE'.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin Policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of item types and value pairs.<br/><br/>"
-msgstr "Cada par de valores debe estar en una línea separada.<br>"
+msgstr "Es una lista de tipos de ítem y pares de valores.<br/><br/>"
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> authorized values and ONLYMESSAGE.<br/><br/>"
-msgstr "Los valores válidos son los valores utorizados <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> y ONLYMESSAGE."
+msgstr "Los valores válidos son los valores autorizados <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> y ONLYMESSAGE.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# When an item is checked in, if it's item type matches CR then when the value on the left (1) matches the items' not for loan value it will be updated to the value on the right.<br/><br/>The special term _ALL_ is used on the left side of the colon (:) to affect all item types, <strong>this does not override all other rules</strong><br/><br/>"
-msgstr ""
+msgstr "Cuando un ítem es devuelto, si su tipo de ítem coincide con CR, entonces cuando el valor de la izquierda (1) coincide con el valor de no para préstamo del ítem, será actualizado con el valor de la derecha.<br/><br/>El término especial _ALL_ es utilizado a la izquierda de los dos puntos (:) para afectar todos los tipos de ítem, <strong>esto no anula las otras reglas</strong><br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# _ALL_:<br/>"
-msgstr "Ejemplos:<br/>"
+msgstr "_ALL_:<br/>"
 
 # Circulation > Checkout policy > UpdateNotForLoanStatusOnCheckout
 # Circulation > Checkin Policy
@@ -11299,45 +11289,44 @@ msgstr "que un usuario auto-registrado verifique su identidad a través del corr
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
-msgstr ""
+msgstr "</ul>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days."
-msgstr ""
+msgstr "<li>Primera prioridad: Utilizar el parámetro --list-invites cuando se ejecuta el cronjob cleanup_database.pl es ejecutado con --list-invites con una cantidad de días."
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Second priority: Use the PurgeListShareInvitesOlderThan system preference when it contains a value.</li>"
-msgstr ""
+msgstr "<li>Segunda prioridad: Utilizar la preferencia de sistema PurgeListShareInvitesOlderThan cuando tiene un valor.</li>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Third priority: Use a default of 14 days when the cleanup_database.pl cronjob is run with a --list-invites parameter, but no value AND the PurgeListShareInvitesOlderThan system preference is empty.</li>"
-msgstr ""
+msgstr "<li>Tercera prioridad: Utilizar 14 días por defecto cuando el cronjob cleanup_database.pl se ejecuta con el parámetro --list-invites, pero sin un valor y la preferencia de sistema PurgeListShareInvitesOlderThan está vacía.</li>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <p><strong>WARNING</strong>: Unaccepted private list shares are deleted using these priorities:"
-msgstr ""
+msgstr "<p><strong>ADVERTENCIA</strong>: Listas privadas compartidas y no aceptadas son eliminadas usando estas prioridades:"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <p>Example: [14] Deletes unaccepted private list share invites older than 14 days.</p>"
-msgstr ""
+msgstr "<p>Ejemplo: [14] Elimina invitaciones a listas privadas no aceptadas por mas de 14 días.</p>"
 
 # OPAC > Self registration and modification > PatronSelfRegistrationVerifyByEmail
 # OPAC > Self registration and modification
-#, fuzzy
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/cleanup_database.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>NOTA:</strong> Esta preferencia de sistema requiere la tarea programada o cronjob <code>misc/cronjobs/cleanup_database.pl</code>. Pídale al administrador que la programe."
+msgstr "<strong>NOTA:</strong> Esta preferencia de sistema requiere el cronjob <code>misc/cronjobs/cleanup_database.pl</code>. Pídale al administrador que programe su ejecución."
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <ul>"
-msgstr ""
+msgstr "<ul>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# The cleanup_database.pl cronjob automatically deletes unaccepted private list share invites after"
-msgstr ""
+msgstr "El cronjob cleanup_database.pl eliminará automáticamente invitaciones a listas privadas compartidas no aceptadas luego de"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# days."
-msgstr ""
+msgstr "días."
 
 # OPAC > Features > QuoteOfTheDay
 # OPAC > Features
@@ -11964,9 +11953,8 @@ msgstr "Dirección principal"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
-#, fuzzy
 msgid "patrons.pref#CollapseFieldsPatronAddForm# Non-patron guarantor"
-msgstr "Identidad del usuario"
+msgstr "Garante no-usuario"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
@@ -11980,9 +11968,8 @@ msgstr "Permisos de cuenta de usuario (usuarios existentes)"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
-#, fuzzy
 msgid "patrons.pref#CollapseFieldsPatronAddForm# Patron guarantor"
-msgstr "Identidad del usuario"
+msgstr "Garante usuario"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
@@ -12047,9 +12034,8 @@ msgid "patrons.pref#DefaultPatronSearchMethod# Contains"
 msgstr "Contiene"
 
 # Patrons > General > DefaultPatronSearchMethod
-#, fuzzy
 msgid "patrons.pref#DefaultPatronSearchMethod# Enable this search method to determine whether to use 'starts with' or 'contains' for all patron searches, including auto-complete."
-msgstr "Habilitar 'Empieza con' o 'Contiene' como método de búsqueda al autocompletar búsquedas de usuarios."
+msgstr "Habilitar este método de búsqueda para determinar si se usará 'comienza con' o 'contiene' para las búsquedas de usuarios, incluyendo el auto-completado."
 
 # Patrons > General > DefaultPatronSearchMethod
 msgid "patrons.pref#DefaultPatronSearchMethod# Starts with"
