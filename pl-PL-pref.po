@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.003\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:28-0300\n"
-"PO-Revision-Date: 2023-12-16 03:03+0000\n"
+"PO-Revision-Date: 2024-01-27 03:00+0000\n"
 "Last-Translator: Urszula <matoga@biblos.pk.edu.pl>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: pl-PL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /pl/22.11/pl-PL-pref.po\n"
 "X-POOTLE-MTIME: 1698059111.079850\n"
@@ -473,15 +473,13 @@ msgstr "żaden"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>For example:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a</p>"
-msgstr "<br/>Na przykład:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a"
+msgstr "<p>Na przykład:<br/>price: 947$a|947$c<br/>quantity: 969$h<br/>budget_code: 922$a</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcFieldsToOrder# <p>You can use the following fields: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
-msgstr "Możesz użyć następujących pól: price, quantity, budget_code, discount, sort1, sort2"
+msgstr "<p>Możesz użyć następujących pól: price, replacementprice, quantity, budget_code, discount, sort1, sort2</p>"
 
 # Acquisitions > Policy > MarcFieldsToOrder
 # Acquisitions > Policy
@@ -490,19 +488,17 @@ msgstr "Wprowadź mapowanie wartości nowego zamówienia z przygotowanego pliku 
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
-msgstr "<br/>Na przykład:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z"
+msgstr "<p>Na przykład:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
-msgstr ""
+msgstr "<p>Jeśli pole jest brakujące lub niezmapowane, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> będzie zaznaczone i użyte dla tego pola (z wyjątkiem ilości).</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
-msgstr "Użyj następujących pól: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Pola specjalne: quantity i budget_code"
+msgstr "<p>Użyj następujących pól: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
