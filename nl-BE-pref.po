@@ -1,7 +1,7 @@
 # Compendium of nl.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.003\n"
+"Project-Id-Version: Koha 23.12.00.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:26-0300\n"
 "PO-Revision-Date: 2022-05-01 11:01-0300\n"
@@ -7660,9 +7660,16 @@ msgstr "Stuur geen"
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# Enable"
 msgstr "Stuur een"
 
+# Authorities > Linker > AutoLinkBiblios
+# Authorities > General
+#, fuzzy
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
+msgstr "ontbrekende elementen records (BiblioAddsAuthorities moet dit \"toestaan\" vooraleer dit effect heeft)."
+
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the Koha administrator email address whenever a hold request is placed."
+#, fuzzy
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the patron's library whenever a hold request is placed."
 msgstr "mail naar de Koha beheerder telkens iemand iets reserveert."
 
 # Circulation > Fines Policy > finesCalendar
@@ -12061,7 +12068,7 @@ msgid "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
 msgstr ""
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
-msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days."
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days.</li>"
 msgstr ""
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan

@@ -1,7 +1,7 @@
 # Compendium of hi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.003\n"
+"Project-Id-Version: Koha 23.12.00.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:15-0300\n"
 "PO-Revision-Date: 2024-01-25 03:00+0000\n"
@@ -7170,9 +7170,16 @@ msgstr "circulation.pref # emailLibrarianWhenHoldIsPlaced # सक्षम न 
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# Enable"
 msgstr "circulation.pref # emailLibrarianWhenHoldIsPlaced # सक्षम करें"
 
+# Administration > Interface options > AddressForFailedOverdueNotices
+# Administration > Interface options
+#, fuzzy
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
+msgstr "<br>यदि खाली छोड़ दिया जाता है, तो यह निम्नलिखित सूची में पहले परिभाषित पते पर वापस आ जाएगा: लाइब्रेरी उत्तर-टू, लाइब्रेरी ईमेल,<a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>।"
+
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the Koha administrator email address whenever a hold request is placed."
+#, fuzzy
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the patron's library whenever a hold request is placed."
 msgstr "circulation.pref # Koha व्यवस्थापक ईमेल पते पर एक ईमेल भेज emailLibrarianWhenHoldIsPlaced # जब भी एक पकड़ अनुरोध रखा गया है।"
 
 # Circulation > Fines Policy > finesCalendar
@@ -11294,7 +11301,8 @@ msgid "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
 msgstr "</ul>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
-msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days."
+#, fuzzy
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days.</li>"
 msgstr "<li>पहली प्राथमिकता: cleanup_database.pl क्रोनजॉब के साथ --list-invites पैरामीटर का उपयोग करें-एक --list-invites पैरामीटर के साथ चलाया जाता है जो कई दिनों को परिभाषित करता है।"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan

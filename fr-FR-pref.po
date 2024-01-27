@@ -1,7 +1,7 @@
 # Compendium of fr.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.003\n"
+"Project-Id-Version: Koha 23.12.00.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:13-0300\n"
 "PO-Revision-Date: 2024-01-22 14:21+0000\n"
@@ -7219,9 +7219,16 @@ msgstr "Ne pas envoyer"
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# Enable"
 msgstr "Envoyer"
 
+# Administration > Interface options > AddressForFailedOverdueNotices
+# Administration > Interface options
+#, fuzzy
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
+msgstr "Si laissé vide, le courriel sera envoyé à la première adresse définie dans la liste suivante : Répondre à, courriel de la bibliothèque, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> et <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the Koha administrator email address whenever a hold request is placed."
+#, fuzzy
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the patron's library whenever a hold request is placed."
 msgstr "un courriel à l'administrateur de Koha lorsqu'une réservation est faite par un adhérent."
 
 # Circulation > Fines Policy > finesCalendar
@@ -11333,7 +11340,7 @@ msgid "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
 msgstr ""
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
-msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days."
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days.</li>"
 msgstr ""
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan

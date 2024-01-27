@@ -1,9 +1,9 @@
 # Compendium of fi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.003\n"
+"Project-Id-Version: Koha 23.12.00.005\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-17 03:03+0000\n"
+"POT-Creation-Date: 2024-01-27 03:02+0000\n"
 "PO-Revision-Date: 2023-12-27 12:08+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -4617,21 +4617,21 @@ msgstr "Lisää tilauskori toimittajalle {vendor}"
 msgid "Search for vendor {vendor}"
 msgstr "Etsitään toimittajaa {vendor}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:95
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:97
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:94
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:96
 msgid "basket"
 msgid_plural "baskets"
 msgstr[0] "tilauskori"
 msgstr[1] "tilauskorit"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:101
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:104
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:100
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:103
 msgid "subscription"
 msgid_plural "subscriptions"
 msgstr[0] "kausijulkaisutilaus"
 msgstr[1] "kausijulkaisutilaukset"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:131
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:130
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/transferorder.tt:50
 msgctxt "basket created by"
 msgid "Created by"
@@ -8273,10 +8273,15 @@ msgid "Edit list {list_name}"
 msgstr "Muokkaa listaa {list_name}"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:191
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:198
 msgctxt "Cancel hold button"
 msgid "Cancel"
 msgstr "Peruuta"
+
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:198
+#, fuzzy
+msgctxt "Request to cancel hold button"
+msgid "Request to cancel"
+msgstr "Pyydä artikkelia"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:43
 msgid "Show fewer authors"
@@ -8319,19 +8324,23 @@ msgid "Show more series"
 msgstr "Näytä lisää sarjoja"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:48
-msgid "Show fewer types"
+#, fuzzy
+msgid "Show fewer item types"
 msgstr "Näytä vähemmän tyyppejä"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:48
-msgid "Show more types"
+#, fuzzy
+msgid "Show more item types"
 msgstr "Näytä lisää tyyppejä"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:49
-msgid "Show fewer collection codes"
+#, fuzzy
+msgid "Show fewer collections"
 msgstr "Näytä vähemmän kokoelmakoodeja"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:49
-msgid "Show more collection codes"
+#, fuzzy
+msgid "Show more collections"
 msgstr "Näytä lisää kokoelmakoodeja"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:50

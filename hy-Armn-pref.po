@@ -1,7 +1,7 @@
 # Compendium of hy.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.003\n"
+"Project-Id-Version: Koha 23.12.00.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:16-0300\n"
 "PO-Revision-Date: 2024-01-19 08:55+0000\n"
@@ -7170,9 +7170,16 @@ msgstr "circulation.pref#emailLibrarianWhenHoldIsPlaced# Մի տուր հնար�
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# Enable"
 msgstr "circulation.pref#emailLibrarianWhenHoldIsPlaced# Տուր հնարավորություն"
 
+# Administration > Interface options > AddressForFailedOverdueNotices
+# Administration > Interface options
+#, fuzzy
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
+msgstr "admin.pref#AddressForFailedOverdueNotices# Եթե դատարկ մնա, այն հետ կընկնի հետևյալ ցուցակի առաջին սահմանված հասցեին. Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> և <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the Koha administrator email address whenever a hold request is placed."
+#, fuzzy
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the patron's library whenever a hold request is placed."
 msgstr "circulation.pref#emailLibrarianWhenHoldIsPlaced# մշտապես ուղարկում է էլ. նամակ Կոհայի ադմինիստրացիային, երբ պահման հարցում է արվում."
 
 # Circulation > Fines Policy > finesCalendar
@@ -11291,7 +11298,8 @@ msgid "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
 msgstr "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
-msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days."
+#, fuzzy
+msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days.</li>"
 msgstr "opac.pref#PurgeListShareInvitesOlderThan# <li>Առաջին առաջնահերթություն. Օգտագործեք --list-invites պարամետրը, երբ cleanup_database.pl cronjob-ը գործարկվում է --list-invites պարամետրով, որը սահմանում է օրերի քանակը."
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
