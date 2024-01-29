@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-27 03:02+0000\n"
-"PO-Revision-Date: 2024-01-26 03:00+0000\n"
+"PO-Revision-Date: 2024-01-30 03:00+0000\n"
 "Last-Translator: Magnus Enger <magnus@enger.priv.no>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nb-NO\n"
@@ -480,9 +480,8 @@ msgstr "September"
 
 #: koha-tmpl/intranet-tmpl/prog/js/cancel_booking_modal.js:31
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:548
-#, fuzzy
 msgid "Failure"
-msgstr "Mislyktes"
+msgstr "Feil"
 
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:358
@@ -1059,9 +1058,8 @@ msgstr "Kunne ikke gjenoppta, fant ikke reservasjon"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:353
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:439
-#, fuzzy
 msgid "Your request could not be processed. Check the logs for details."
-msgstr "Forespørselen kunne ikke behandles. Sjekk loggene"
+msgstr "Forespørselen kunne ikke behandles. Sjekk loggene."
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:400
 msgid "Suspend hold on"
@@ -1076,9 +1074,8 @@ msgid "Clear date to suspend indefinitely"
 msgstr "Tøm dato for å utsette reservasjonen på ubestemt tid"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:436
-#, fuzzy
 msgid "Unable to suspend, hold not found."
-msgstr "Kunne ikke utsette reservasjon, fant ikke reservasjonen"
+msgstr "Kunne ikke utsette reservasjon, fant ikke reservasjonen."
 
 #: koha-tmpl/intranet-tmpl/prog/js/item_search_fields.js:5
 msgid "Please enter letters or numbers"
@@ -1206,9 +1203,9 @@ msgid "Are you sure you want to renew this patron's registration?"
 msgstr "Er du sikker på at du vil fornye denne lånerens registrering?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/members-patron-selections.js:21
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Patrons selected: %s"
-msgstr "Ja, slett"
+msgstr "Lånere valgt: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/members.js:20
 msgid "Please confirm whether this is a duplicate patron"
@@ -1287,9 +1284,9 @@ msgstr "Melding nr %s er oppdatert."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:89
 #: koha-tmpl/intranet-tmpl/prog/js/modals/display_ticket.js:117
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Error resolving concern #%s. Check the logs for details."
-msgstr "Feil ved løsing av melding nr %s. Sjekk loggene."
+msgstr "Feil ved løsing av problem nr. %s. Sjekk loggene."
 
 #: koha-tmpl/intranet-tmpl/prog/js/pages/circulation.js:72
 msgid "Remove restriction?"
@@ -1603,14 +1600,12 @@ msgid "An unknown error occurred: "
 msgstr "Det har oppstått en ukjent feil: "
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:19
-#, fuzzy
 msgid "Edit booking"
-msgstr "Rediger leverandør %s"
+msgstr "Endre booking"
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:22
-#, fuzzy
 msgid "Place booking"
-msgstr "Reserver"
+msgstr "Legg inn booking"
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:85
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:530
@@ -1619,12 +1614,11 @@ msgstr "år"
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:106
 msgid "Search for a patron"
-msgstr ""
+msgstr "Søk etter låner"
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:167
-#, fuzzy
 msgid "Select item"
-msgstr "Velg fil"
+msgstr "Velg eksemplar"
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
 msgid "Are you sure you want to remove this recall?"
@@ -1772,9 +1766,8 @@ msgid "Are you sure you want to delete %s?"
 msgstr "Er du sikker på at du vil slette %s?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:473
-#, fuzzy
 msgid "An error occurred. Check the logs for details."
-msgstr "Det oppstod en feil. Sjekk loggene"
+msgstr "Det oppstod en feil. Sjekk loggene."
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:19
 msgid "Frequency and subscription length provided doesn't combine well. Please consider entering an issue count rather than a time period."
@@ -3585,27 +3578,25 @@ msgstr "Ny batch"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:41
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:139
 msgid "Status for item added to this train"
-msgstr ""
+msgstr "Status for eksemplar lagt til denne batchen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:57
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:147
 msgid "Default processing"
-msgstr ""
+msgstr "Standard behandling"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:179
-#, fuzzy
 msgid "Train updated"
-msgstr "Tittel oppdatert"
+msgstr "Batch oppdatert"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAdd.vue:187
-#, fuzzy
 msgid "Train created"
-msgstr "Tittel opprettet"
+msgstr "Batch opprettet"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit item #%s"
-msgstr "Endre handling %s"
+msgstr "Endre eksemplar nr. %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:7
 #, javascript-format
@@ -3613,9 +3604,8 @@ msgid "Add new item to %s"
 msgstr "Legg til nytt eksemplar til %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:14
-#, fuzzy
 msgid "Itemnumber"
-msgstr "September"
+msgstr "Eksemplarnummer"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:20
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:16
@@ -3625,16 +3615,15 @@ msgstr "Behandling"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:113
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:313
 msgid "Barcode"
-msgstr ""
+msgstr "Strekkode"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:233
 msgid "Cannot find item with this barcode. It must be in the waiting list."
-msgstr ""
+msgstr "Kan ikke finne eksemplar med denne strekkoden. Eksemplaret må være i ventelista."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:356
-#, fuzzy
 msgid "Item updated"
-msgstr "Tittel oppdatert"
+msgstr "Eksemplar oppdatert"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItem.vue:367
 msgid "Item added to train"
@@ -3646,14 +3635,13 @@ msgid "Add new items to %s"
 msgstr "Legg til nye eksemplar i %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:10
-#, fuzzy
 msgid "Itemnumbers"
-msgstr "September"
+msgstr "Eksemplarnummer"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:61
 #, javascript-format
 msgid "Cannot be edited now, the value will be retrieved from %s"
-msgstr ""
+msgstr "Kan ikke endres nå, verdien vil bli hentet fra %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsFormAddItems.vue:264
 #, javascript-format
@@ -3665,92 +3653,85 @@ msgid "No items have been added to the train."
 msgstr "Ingen eksemplarer er lagt i batchen."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:12
-#, fuzzy
 msgid "Filter by"
-msgstr "Filtrer etter utløpt"
+msgstr "Filtrér etter"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:24
-#, fuzzy
 msgid "Closed"
-msgstr "Lukk"
+msgstr "Lukket"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:30
 msgid "Sent"
-msgstr ""
+msgstr "Sendt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:36
 msgid "Received"
-msgstr ""
+msgstr "Mottatt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:56
-#, fuzzy
 msgid "There are no trains defined"
-msgstr "Det er ikke definert noen titler"
+msgstr "Det er ikke definert noen batcher"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:113
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:67
-#, fuzzy
 msgid "Add items"
-msgstr "Legg til eksemplar"
+msgstr "Legg til eksemplarer"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:156
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:394
-#, fuzzy
 msgid "Are you sure you want to remove this train?"
-msgstr "Er du sikker på at du vil fjerne denne tittelen?"
+msgstr "Er du sikker på at du vil fjerne denne batchen?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:167
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:405
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Train %s deleted"
-msgstr "Lisens %s slettet"
+msgstr "Batch %s slettet"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:179
 msgid "Cannot add items to a closed train"
-msgstr ""
+msgstr "Kan ikke legge til eksmeplarer i en lukket batch"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:247
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:119
-#, fuzzy
 msgid "Closed on"
-msgstr "Lukk"
+msgstr "Lukk den"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:256
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:125
 msgid "Sent on"
-msgstr ""
+msgstr "Sendt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsList.vue:265
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:131
 msgid "Received on"
-msgstr ""
+msgstr "Mottatt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:4
 msgid "Copy item to the following train"
-msgstr ""
+msgstr "Kopiér eksemplaret til denne batchen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:11
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:45
-#, fuzzy
 msgid "Select a train"
-msgstr "Velg alle"
+msgstr "Velg en batch"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:91
 msgid "Send"
-msgstr ""
+msgstr "Send"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:97
 msgid "Receive"
-msgstr ""
+msgstr "Motta"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:101
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Train #%s"
-msgstr "License #%s"
+msgstr "Batch nr. %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:155
 msgid "Items"
-msgstr ""
+msgstr "Eksemplarer"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:166
 msgid "Actions: "
@@ -3758,76 +3739,67 @@ msgstr "Handlinger: "
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:171
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:174
-#, fuzzy
 msgid "Print slips"
-msgstr "Skriv ut"
+msgstr "Kvitteringer for utskrift"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:351
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:461
-#, fuzzy
 msgid "Are you sure you want to remove this item?"
-msgstr "Er du sikker på at du vil fjerne denne tittelen?"
+msgstr "Er du sikker på at du vil fjerne dette eksemplaret?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:463
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:269
-#, fuzzy
 msgid "Yes, remove"
-msgstr "Ja, slett"
+msgstr "Ja, ta bort"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:464
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:270
-#, fuzzy
 msgid "No, do not remove"
-msgstr "Nei, ikke slett"
+msgstr "Nei, ikke ta bort"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:472
 msgid "Item removed"
-msgstr ""
+msgstr "Eksemplaret tatt bort"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:507
-#, fuzzy
 msgid "Item copied successfully."
-msgstr "Melding nr %s er oppdatert."
+msgstr "Eksemplaret ble kopiert."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:513
 msgid "Item cannot be copied to a train, it is already in a non-received train."
-msgstr ""
+msgstr "Eksemplaret kan ikke kopieres til en batch, den er allerede i en batch som ikke er tatt i mot."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:678
-#, fuzzy
 msgid "Print slip"
-msgstr "Skriv ut"
+msgstr "Kvittering for utskrift"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:4
-#, fuzzy
 msgid "Add items to waiting list"
-msgstr "Legg til tittel til bestand"
+msgstr "Legg eksemplarer i venteliste"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:11
 msgid "Barcode list"
-msgstr ""
+msgstr "Strekkode-liste"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:38
-#, fuzzy
 msgid "Add items to a train"
-msgstr "Legg til tittel til bestand"
+msgstr "Legg eksemplarer til i en batch"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:88
 msgid "You need to configure this module first."
-msgstr ""
+msgstr "Du må konfigurere denne modulen først."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:96
-#, fuzzy
 msgid "Add to waiting list"
-msgstr "Legg i handlekurv"
+msgstr "Legg i venteliste"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:104
 #, javascript-format
 msgid "Add last %s items to a train"
-msgstr ""
+msgstr "Legg siste %s eksemplarer til i en batch"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:118
 #, fuzzy
