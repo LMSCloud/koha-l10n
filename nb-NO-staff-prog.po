@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-27 03:02+0000\n"
-"PO-Revision-Date: 2024-01-26 03:00+0000\n"
+"PO-Revision-Date: 2024-01-30 03:00+0000\n"
 "Last-Translator: Magnus Enger <magnus@enger.priv.no>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nb-NO\n"
@@ -5116,7 +5116,7 @@ msgstr "Reserver for %s"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:199
 #, c-format
 msgid "Place booking"
-msgstr "Reservér"
+msgstr "Legg inn booking"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:203
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:585
@@ -9062,7 +9062,7 @@ msgstr "%sOmgjør status under vegs%sOmgjør status venter%s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:170
 #, c-format
 msgid "Print slip"
-msgstr "Skriv ut kvittering"
+msgstr "Kvittering for utskrift"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:1
 #, c-format
@@ -9127,7 +9127,7 @@ msgstr "Vis dette innholdet i en egen kolonne på forsiden av publikumskatalogen
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:49
 #, c-format
 msgid "Add additional elements to the navigation bar below the simple search form. "
-msgstr ""
+msgstr "Legg til ekstra elementer i navigasjonen under feltet for enkelt søk. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:53
 #, c-format
@@ -12484,7 +12484,7 @@ msgstr "%s år"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:254
 msgid "An error occurred. Check the logs for details."
-msgstr "Det har oppstått en feil. Sjekk loggene."
+msgstr "Det oppstod en feil. Sjekk loggene."
 
 #. For the first occurrence,
 #. SCRIPT
@@ -34388,7 +34388,7 @@ msgstr "Er du sikker på at du vil fjerne de valgte reglene?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:74
 #, c-format
 msgid "No, do not remove"
-msgstr "Nei, ikke fjern"
+msgstr "Nei, ikke ta bort"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:76
 #, c-format
@@ -40913,9 +40913,9 @@ msgstr "Tilbaketrekkingsstatus"
 #. %7$s:  END -
 #. %8$s: - END -
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch_json.tt:1
-#, fuzzy, c-format
+#, c-format
 msgid "{ \"draw\": %s, \"recordsTotal\": %s, \"recordsFiltered\": %s, \"data\": [ %s %s %s,%s %s ] } "
-msgstr "{ \"sEcho\": %s, \"iTotalRecords\": %s, \"iTotalDisplayRecords\": %s, \"aaData\": [ %s %s %s,%s %s ] } "
+msgstr "{ \"draw\": %s, \"recordsTotal\": %s, \"recordsFiltered\": %s, \"data\": [ %s %s %s,%s %s ] } "
 
 #. %1$s:  END 
 #. %2$s:  WRAPPER breadcrumb_item bc_active= 1 
@@ -46490,9 +46490,9 @@ msgid "Cancel all"
 msgstr "Avbryt alle"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:139
-#, fuzzy, c-format
+#, c-format
 msgid "Only items that need not be transferred will be cancelled (TransferWhenCancelAllWaitingHolds syspref)"
-msgstr "%s Kun eksemplarer som ikke trenger å overføres vil bli kansellert (innstillingen TransferWhenCancelAllWaitingHolds) %s "
+msgstr "Kun eksemplarer som ikke trenger å overføres vil bli kansellert (innstillingen TransferWhenCancelAllWaitingHolds)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:185
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1266
@@ -67491,9 +67491,9 @@ msgstr "[ Ny liste ]"
 #. %8$s:  FOREACH d IN data 
 #. %9$s:  d.public | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/tables/shelves_results.tt:1
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s { \"draw\": %s, \"recordsTotal\": %s, \"recordsFiltered\": %s, \"data\": [ %s { \"dt_public\": \"%s\", \"dt_shelfname\": \""
-msgstr "%s %s %s %s { \"sEcho\": %s, \"iTotalRecords\": %s, \"iTotalDisplayRecords\": %s, \"aaData\": [ %s { \"dt_public\": \"%s\", \"dt_shelfname\": \""
+msgstr "%s %s %s %s { \"draw\": %s, \"recordsTotal\": %s, \"recordsFiltered\": %s, \"data\": [ %s { \"dt_public\": \"%s\", \"dt_shelfname\": \""
 
 #. %1$s:  tnx('{count} item', '{count} items', count, { count = d.count }) | $raw 
 #. %2$s:  IF d.public 
