@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.005\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-27 03:02+0000\n"
-"PO-Revision-Date: 2024-01-26 03:00+0000\n"
+"PO-Revision-Date: 2024-01-29 03:01+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hi\n"
@@ -5115,7 +5115,7 @@ msgstr "स्थान धारण करना %s"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:199
 #, c-format
 msgid "Place booking"
-msgstr "बुंकिंग रखे"
+msgstr "बुकिंग रखें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:203
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:585
@@ -9125,7 +9125,7 @@ msgstr "ओपेक के मुख्य पृष्ठ पर इस सा
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:49
 #, c-format
 msgid "Add additional elements to the navigation bar below the simple search form. "
-msgstr ""
+msgstr "सरल खोज फ़ॉर्म के नीचे नेविगेशन बार में अतिरिक्त तत्व जोड़ें. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html-customization-help.inc:53
 #, c-format
@@ -40903,9 +40903,9 @@ msgstr "वापस ले लिया स्थिति"
 #. %7$s:  END -
 #. %8$s: - END -
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch_json.tt:1
-#, fuzzy, c-format
+#, c-format
 msgid "{ \"draw\": %s, \"recordsTotal\": %s, \"recordsFiltered\": %s, \"data\": [ %s %s %s,%s %s ] } "
-msgstr "{ \"sEcho\": %s, \"iTotalRecords\": %s, \"iTotalDisplayRecords\": %s, \"aaData\": [ %s %s %s,%s %s ] } "
+msgstr "{ \"draw\": %s, \"recordsTotal\": %s, \"recordsFiltered\": %s, \"डाटा\": [ %s %s %s,%s %s ] } "
 
 #. %1$s:  END 
 #. %2$s:  WRAPPER breadcrumb_item bc_active= 1 
@@ -43732,14 +43732,14 @@ msgid "Cancel recall"
 msgstr "रिकॉल रद्द करें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:355
-#, fuzzy, c-format
+#, c-format
 msgid "Reducing due date to: "
-msgstr "देय तिथि निर्दिष्ट %s: "
+msgstr "देय तिथि को कम करना: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:361
-#, fuzzy, c-format
+#, c-format
 msgid "Allow early collection? "
-msgstr "सभी संग्रह"
+msgstr "शीघ्र संग्रहण की अनुमति दें? "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:370
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:395
@@ -43975,7 +43975,7 @@ msgstr "प्रतिबंध अस्थायी रूप से अध�
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:608
 #, c-format
 msgid "!!A booking exists!!"
-msgstr ""
+msgstr "!!एक बुकिंग मौजूद है!!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:621
 #, c-format
@@ -44124,30 +44124,30 @@ msgstr "आप पहले से ही प्रस्तुत किया 
 #. %2$s:  ItemTypes.GetDescription( rule.itemtype ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1073
-#, fuzzy, c-format
+#, c-format
 msgid "Item type: %s %s %s "
-msgstr "आइटम प्रकार हैं %s"
+msgstr "आइटम प्रकार: %s %s %s "
 
 #. %1$s:  IF rule.categorycode 
 #. %2$s:  Categories.GetName( rule.categorycode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1081
-#, fuzzy, c-format
+#, c-format
 msgid "Patron category: %s %s %s "
-msgstr "संरक्षक श्रेणी = %s"
+msgstr "संरक्षक श्रेणी : %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1086
-#, fuzzy, c-format
+#, c-format
 msgid "All patron categories"
-msgstr "संरक्षक श्रेणियां"
+msgstr "सभी संरक्षक श्रेणियां"
 
 #. %1$s:  IF rule.branchcode 
 #. %2$s:  Branches.GetName( rule.branchcode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1089
-#, fuzzy, c-format
+#, c-format
 msgid "Library: %s %s %s "
-msgstr "लाइब्रेरी हैं %s"
+msgstr "लाइब्रेरी: %s %s %s "
 
 #. %1$s:  INCLUDE 'patron-title.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:36
@@ -44170,30 +44170,30 @@ msgid "Cannot check out! %s %s %s %s "
 msgstr "चैक आउट नहीं कर सकते! %s %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:92
-#, fuzzy, c-format
+#, c-format
 msgid "Enter barcodes (one barcode per line): "
-msgstr "बारकोड सूची (प्रति पंक्ति एक बारकोड):"
+msgstr "बारकोड दर्ज करें (प्रति पंक्ति एक बारकोड): "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:96
-#, fuzzy, c-format
+#, c-format
 msgid "Or use a file: "
-msgstr "फाइल का प्रयोग करें"
+msgstr "या किसी फ़ाइल का उपयोग करें: "
 
 #. %1$s:  INCLUDE 'date-format.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:107
-#, fuzzy, c-format
+#, c-format
 msgid "Specify due date: %s"
-msgstr "देय तिथि निर्दिष्ट %s: "
+msgstr "देय तिथि निर्दिष्ट: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:136
-#, fuzzy, c-format
+#, c-format
 msgid "Batch checkout confirmation"
-msgstr "बैच चैक आउट पुष्टि %s के लिए %s %s"
+msgstr "बैच चैक आउट पुष्टि"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:139
-#, fuzzy, c-format
+#, c-format
 msgid "Batch checkout results"
-msgstr "बैच चैक आउट"
+msgstr "बैच चैकआउट परिणाम"
 
 #. %1$s:  INCLUDE 'biblio-title.inc' biblio=checkout_info.biblio link = 1 
 #. %2$s:  IF checkout_info.biblio.author 
@@ -45039,9 +45039,9 @@ msgstr "%s%s%sस्लिप टेमप्लेट नही मिला%s 
 #. %6$s:  END 
 #. %7$s:  IF slips.size > 1 && !loop.last
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s%s%sNo slip template found%s %s %s"
-msgstr "%s %s%s%sकोई पर्ची टेम्पलेट नही पाया%s %s %s "
+msgstr "%s %s%s%sकोई पर्ची टेम्पलेट नही पाया%s %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:48
 #, c-format
@@ -45200,9 +45200,9 @@ msgid "Patron reached daily limit."
 msgstr "संरक्षक दैनिक सीमा तक पहुंच गया।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:102
-#, fuzzy, c-format
+#, c-format
 msgid "An error has occurred. Check the logs for details."
-msgstr "एक गलती हुई है। लॉग की जाँच करें।"
+msgstr "एक गलती हुई है। विवरण के लिए लॉग की जाँच करें।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:115
 #, c-format
@@ -45466,15 +45466,15 @@ msgstr "पारगमन के दौरान स्थानांतरण
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:139
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1287
-#, fuzzy, c-format
+#, c-format
 msgid "Recall"
 msgstr "रिकॉल"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1288
-#, fuzzy, c-format
+#, c-format
 msgid "Cancelled recall"
-msgstr "रिकॉल रद्द करें"
+msgstr "रिकॉल रद्द किया गया"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:153
 #, c-format
@@ -46079,9 +46079,9 @@ msgid "Transfer to"
 msgstr "के लिए स्थानांतरण"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1225
-#, fuzzy, c-format
+#, c-format
 msgid "Transfer reason"
-msgstr "के लिए स्थानांतरण"
+msgstr "स्थानांतरण का कारण"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1228
 #, c-format
