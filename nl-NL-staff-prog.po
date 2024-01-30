@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-30 03:02+0000\n"
-"PO-Revision-Date: 2024-01-24 03:01+0000\n"
+"PO-Revision-Date: 2024-01-31 03:00+0000\n"
 "Last-Translator: Ronald Wijlens <r.j.wijlens@saxion.nl>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nl-NL\n"
@@ -19394,12 +19394,12 @@ msgstr "Het log4perl config bestand kan niet geopend worden."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:394
 #, c-format
 msgid "One of the logfiles listed in the config file is not writable."
-msgstr ""
+msgstr "Een van de logbestanden genoemd in de config file is niet schrijfbaar."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:395
 #, c-format
 msgid "The Koha::Logger module cannot be initiated correctly (check the log file)."
-msgstr ""
+msgstr "De Koha::Logger module kan niet correct geïnitieerd worden (controleer de logs)."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:402
 #, c-format
@@ -19480,12 +19480,12 @@ msgstr "Waarschuwing"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:417
 #, c-format
 msgid "There is no \"Fast add\" (FA) framework defined in administration->MARC frameworks. This disables the 'Fast cataloging' feature in cataloging/circulation."
-msgstr ""
+msgstr "Er is geen \"Snel toevoegen\" (FA) framework gedefinieerd in de administratie->MARC frameworks. Dit schakelt de 'Snel catalogiseren'-optie in catalogiseren/uitleen uit."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:423
 #, c-format
 msgid "System preference 'RequireChoosingExistingAuthority' is disabled, but needs 'AutoCreateAuthorites' enabled. Otherwise catalogers can add headings that will not be linked to authorities."
-msgstr ""
+msgstr "Systeemvoorkeur 'RequireChoosingExistingAuthority' is uitgeschakeld, maar vereist dat 'AutoCreateAuthorites' ingeschakeld is . Anders kunnen catalogiseerders ingangen toevoegen die niet naar thesaurustermen linken."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:429
 #, c-format
@@ -19493,9 +19493,9 @@ msgid "System preference 'EasyAnalyticalRecords' set, but UseControlNumber prefe
 msgstr "Systeemvoorkeur 'EasyAnalyticalRecords' is ingesteld, maar UseControlNumber staat op 'Gebruik'. Stel in op 'Niet gebruiken', anders werken de 'Toon analytics' links in de stafinterface en de OPAC niet."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:435
-#, fuzzy, c-format
+#, c-format
 msgid "System preference 'OPACPrivacy' set, but AnonymousPatron preference is set to '0'. Set it to a valid borrower number or checkins for these patrons will fail."
-msgstr "Systemvoorkeur 'OPACPrivacy' is ingesteld, maar AnonymousPatron voorkeur is op '0' ingesteld.. Stel deze in op een geldig lenernummer om correct te laten werken."
+msgstr "Systemvoorkeur 'OPACPrivacy' is ingesteld, maar de AnonymousPatron voorkeur is ingesteld op '0'. Stel in op een geldig lenernummer anders is inname voor deze leners niet mogelijk."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:441
 #, c-format
@@ -19534,7 +19534,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:474
 #, c-format
 msgid "System preference '%s' is '%s', but the file '%s' does not exist."
-msgstr ""
+msgstr "Systeemvoorkeur '%s' is '%s', maar bestand '%s' bestaat niet."
 
 #. %1$s:  p.variable | html 
 #. %2$s:  IF p.value.defined 
@@ -19544,7 +19544,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:481
 #, c-format
 msgid "System preference '%s' must be '0' or '1', but is %s'%s'%sNULL%s."
-msgstr ""
+msgstr "Systeemvoorkeur '%s' moet '0' of '1' zijn, maar is %s'%s'%sNULL%s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:488
 #, c-format
@@ -19637,7 +19637,7 @@ msgstr "De "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:575
 #, c-format
 msgid "tool is not installed. "
-msgstr ""
+msgstr "hulpmiddel is niet geïnstalleerd. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:575
 #, c-format
@@ -19736,9 +19736,9 @@ msgid "You are missing the &lt;tmp_path&gt; entry in your koha-conf.xml file. Pl
 msgstr "De &lt;tmp_path&gt; invoer in het koha-conf.xml-bestand ontbreekt. Voeg deze toe met verwijzing naar de geconfigureerde tijdelijke map voor de Koha uitvoering. De effectieve tijdelijke map is '%s'. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:707
-#, fuzzy, c-format
+#, c-format
 msgid "You are missing the &lt;encryption_key&gt; entry in your koha-conf.xml file. Please generate a key. We recommend one of at least 32 bytes. (You might use 'pwgen 32' to do so.) "
-msgstr "De &lt;lockdir&gt; invoer in het koha-conf.xml bestand ontbreekt. Voeg deze toe met verwijzing naar Koha's lock dir. "
+msgstr "De &lt;encryption_key&gt; invoer ontbreekt in het koha-conf.xml bestand. Genereer een sleutel. Een sleutel van minimaal 32 bytes wordt aangeraden (gebruik evt. 'pwgen 32'). "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:719
 #, c-format
@@ -19750,14 +19750,14 @@ msgstr "Uitleenregels"
 #. %3$s:  unit.itemtype || 'itemtype=default' | html 
 #. %4$s:  unit.rule_value | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:723
-#, fuzzy, c-format
+#, c-format
 msgid "The %s, %s, %sissuingrule will fallback to 'days' for 'lengthunit' as it is incorrectly defined as %s. "
 msgstr "De %s, %s, %s uitleenregel valt terug op 'dagen' voor 'lengthunit' als deze incorrect gedefinieerd is %s. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:733
-#, fuzzy, c-format
+#, c-format
 msgid "Records are not indexed in Elasticsearch"
-msgstr "Zoekmachine configuratie (Elasticsearch)"
+msgstr "Records niet geïndexeerd in Elasticsearch"
 
 #. %1$s:  index.missing_count | html 
 #. %2$s:  index.index_count | html 
@@ -20067,9 +20067,9 @@ msgid "C &amp; P Bibliography Services, USA"
 msgstr "C &amp; P Bibliography Services, VS"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:879
-#, fuzzy, c-format
+#, c-format
 msgid "Dataly Tech, Greece"
-msgstr "Athene, Griekenland"
+msgstr "Dataly Tech, Griekenland"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:880
 #, c-format
@@ -20498,9 +20498,9 @@ msgid "GNU General Public License"
 msgstr "GNU General Public License"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:972
-#, fuzzy, c-format
+#, c-format
 msgid "as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. "
-msgstr "Koha is gratis software; deze mag verspreid en/of aangepast worden onder de voorwaarden van de GNU General Public License zoals gepubliceerd door de Free Software Foundation; ofwel versie 3 van de License, of (naar uw keuze) elke nieuwere versie."
+msgstr "zoals gepubliceerd door de Free Software Foundation; ofwel versie 3 van de License, of (naar uw keuze) elke nieuwere versie. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:975
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:977
@@ -20545,9 +20545,9 @@ msgid "Bootstrap Icons"
 msgstr "Bootstrap Iconen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:985
-#, fuzzy, c-format
+#, c-format
 msgid "Bridge Material Type Icon Set"
-msgstr "Bridge Materiaaltype Iconen Set"
+msgstr "Bridge Material Type Iconenset"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:987
 #, c-format
@@ -20565,9 +20565,9 @@ msgid "Chocolat.js"
 msgstr "Chocolat.js"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:992
-#, fuzzy, c-format
+#, c-format
 msgid "Chocolat.js v1.1.0"
-msgstr "Chocolat.js"
+msgstr "Chocolat.js v1.1.0"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:992
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1206
@@ -20591,16 +20591,16 @@ msgid "C3.js"
 msgstr "C3.js"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1002
-#, fuzzy, c-format
+#, c-format
 msgid "C3.js D3-based reusable chart library v0.4.11"
-msgstr "is een D3-gebaseerde herbruikbare diagrambibliotheek onder de "
+msgstr "C3.js D3-gebaseerde herbruikbare diagrambibliotheek v0.4.11"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1002
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1017
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1111
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1196
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1211
-#, fuzzy, c-format
+#, c-format
 msgid "MIT Licence"
 msgstr "MIT-Licentie"
 
@@ -20630,9 +20630,9 @@ msgid "D3 JavaScript library for visualizing data v3.5.17"
 msgstr "D3 JavaScript bibliotheek voor datavisualisatie v3.5.17"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1012
-#, fuzzy, c-format
+#, c-format
 msgid "ISC Licence"
-msgstr "MIT-Licentie"
+msgstr "ISC-Licentie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1015
 #, fuzzy, c-format
@@ -20665,9 +20665,9 @@ msgid "Enquire.js v2.0.1"
 msgstr "Enquire.js v2.0.1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1030
-#, fuzzy, c-format
+#, c-format
 msgid "FamFamFam icons"
-msgstr "Famfamfam iconset"
+msgstr "FamFamFam iconen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1032
 #, c-format
@@ -20675,9 +20675,9 @@ msgid "Creative Commons Attribution 2.5 License"
 msgstr "Creative Commons Attribution 2.5 Licentie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1032
-#, fuzzy, c-format
+#, c-format
 msgid "FamFamFam Silk icons"
-msgstr "FamFamFam Site"
+msgstr "FamFamFam Silk iconen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1035
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1037
@@ -20706,9 +20706,9 @@ msgid "Creative Commons Attribution 4.0 International License, SIL Open Font Lic
 msgstr "Creative Commons Attribution 4.0 International License, SIL Open Font License Version 1.1, MIT License "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1046
-#, fuzzy, c-format
+#, c-format
 msgid "Font Awesome v6.3.0"
-msgstr "Lettertype Awesome"
+msgstr "Lettertype Awesome v6.3.0"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1049
 #, c-format
@@ -20801,13 +20801,13 @@ msgid "JavaScript Cookie"
 msgstr "JavaScript Cookie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1081
-#, fuzzy, c-format
+#, c-format
 msgid "JavaScript Cookie v3.0.1"
-msgstr "JavaScript Cookie"
+msgstr "JavaScript Cookie v3.0.1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1084
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1086
-#, fuzzy, c-format
+#, c-format
 msgid "JavaScript Diff Algorithm"
 msgstr "Javascript Diff Algoritme"
 
@@ -20822,14 +20822,14 @@ msgid "jQuery Migrate"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1091
-#, fuzzy, c-format
+#, c-format
 msgid "jQuery UI v1.13.2"
-msgstr "jQueryUI"
+msgstr "jQuery UI v1.13.2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1091
-#, fuzzy, c-format
+#, c-format
 msgid "jQuery v3.6.0"
-msgstr "jQuery"
+msgstr "jQuery v3.6.0"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1094
 #, c-format
@@ -20837,19 +20837,19 @@ msgid "jQuery Bar Rating Plugin"
 msgstr "jQuery Bar Rating Plugin"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1096
-#, fuzzy, c-format
+#, c-format
 msgid "jQuery Bar Rating plugin v1.2.2"
-msgstr "jQuery Bar Rating Plugin v1.22 door "
+msgstr "jQuery Bar Rating plugin v1.22"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1099
-#, fuzzy, c-format
+#, c-format
 msgid "jQuery Emojiarea Plugin"
-msgstr "jQuery treetable Plugin"
+msgstr "jQuery Emojiarea Plugin"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1101
-#, fuzzy, c-format
+#, c-format
 msgid "Emojiarea plugin for jQuery"
-msgstr "Emojiarea plug-in for jQuery"
+msgstr "Emojiarea plugin voor jQuery"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1104
 #, c-format
@@ -20857,9 +20857,9 @@ msgid "jQuery insertAtCaret Plugin"
 msgstr "jQuery insertAtCaret Plugin"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1105
-#, fuzzy, c-format
+#, c-format
 msgid "jQuery insertAtCaret Plugin v1.0 by the phpMyAdmin development team: "
-msgstr "jQuery insertAtCaret Plugin v1.0 door het phpMyAdmin devel team is gelicenseerd onder de "
+msgstr "jQuery insertAtCaret Plugin v1.0 door het phpMyAdmin ontwikkelteam: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1109
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1111
@@ -20878,19 +20878,19 @@ msgid "jQuery jsTree Plugin v3.3.12"
 msgstr "jQuery treetable Plugin 3.1.0"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1119
-#, fuzzy, c-format
+#, c-format
 msgid "jQuery Multiple Select Plugin"
 msgstr "jQuery multiple select plugin"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1121
-#, fuzzy, c-format
+#, c-format
 msgid "jQuery Multiple Select plugin v1.6.0"
-msgstr "jQuery multiple select plugin"
+msgstr "jQuery Multiple Select plugin v1.6.0"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1124
-#, fuzzy, c-format
+#, c-format
 msgid "jQuery TableDnD Plugin"
-msgstr "jQuery treetable Plugin"
+msgstr "jQuery TableDnD Plugin"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1126
 #, c-format
@@ -20898,9 +20898,9 @@ msgid "Table drag and drop JQuery plugin"
 msgstr "Table drag and drop JQuery plugin"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1129
-#, fuzzy, c-format
+#, c-format
 msgid "jQuery Treetable Plugin"
-msgstr "jQuery treetable Plugin"
+msgstr "jQuery Treetable Plugin"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1131
 #, c-format
@@ -20918,9 +20918,9 @@ msgid "jQuery Validation Plugin"
 msgstr "jQuery Validation Plugin"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1136
-#, fuzzy, c-format
+#, c-format
 msgid "jQuery Validation Plugin v1.19.3"
-msgstr "jQuery Validation Plugin"
+msgstr "jQuery Validation Plugin v1.19.3"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1139
 #, c-format
@@ -20988,19 +20988,19 @@ msgid "Noto"
 msgstr "Noto"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1166
-#, fuzzy, c-format
+#, c-format
 msgid "SIL Open Font License Version 1.1"
-msgstr "SIL Open Font License (OFL) v1.1"
+msgstr "SIL Open Font License Version 1.1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1169
-#, fuzzy, c-format
+#, c-format
 msgid "OAI XSLT stylesheet"
 msgstr "OAI XSLT stylesheet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1170
-#, fuzzy, c-format
+#, c-format
 msgid "Adapted from the "
-msgstr "Datum: van "
+msgstr "Overgenomen van de "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1171
 #, c-format
@@ -21028,9 +21028,9 @@ msgid "OpenJS Keyboard Shortcuts Library"
 msgstr "OpenJS Toetsenbordcombinaties Bibliotheek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1181
-#, fuzzy, c-format
+#, c-format
 msgid ": BSD License "
-msgstr "BSD-licentie"
+msgstr ": BSD-licentie "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1181
 #, c-format
@@ -21038,14 +21038,14 @@ msgid "OpenJS keyboard shortcuts library"
 msgstr "OpenJS toetsenbordcombinaties bibliotheek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1184
-#, fuzzy, c-format
+#, c-format
 msgid "RequireJS"
-msgstr "Vereist"
+msgstr "RequireJS"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1186
-#, fuzzy, c-format
+#, c-format
 msgid "BSD License or MIT License"
-msgstr "BSD 3-clausule Licentie"
+msgstr "BSD-Licentie of MIT-Licentie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1186
 #, c-format
@@ -21058,14 +21058,14 @@ msgid "Select2"
 msgstr "Select2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1191
-#, fuzzy, c-format
+#, c-format
 msgid "Apache License, Version 2.0 or GNU General Public License v2.0"
-msgstr "de Apache Licentie, Versie 2.0 (de \"Apache Licentie\") of de GNU General Public License versie 2 (de \"GPL Licentie\")"
+msgstr "Apache Licentie, Versie 2.0 of GNU General Public License v2.0"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1191
-#, fuzzy, c-format
+#, c-format
 msgid "Select2 library v4.0.13"
-msgstr "Kies een bibliotheek :"
+msgstr "Select2 bibliotheek v4.0.13"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1194
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:266
