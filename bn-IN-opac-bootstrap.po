@@ -1,9 +1,9 @@
 # Compendium of bn.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.005\n"
+"Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-17 03:03+0000\n"
+"POT-Creation-Date: 2024-01-30 03:02+0000\n"
 "PO-Revision-Date: 2022-05-01 08:28-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -1561,7 +1561,7 @@ msgstr "যদি আপনার সিএএস অ্যাকাউন্ট
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:221
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:200
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt:124
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:93
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:109
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reset-password.tt:77
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:451
 #, fuzzy, c-format
@@ -1573,8 +1573,8 @@ msgstr "Inloggen"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:225
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:202
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:953
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:57
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:99
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:72
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:115
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:453
 #, c-format
 msgid "Password:"
@@ -1585,7 +1585,7 @@ msgstr "পাসওয়ার্ড:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:26
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:229
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:205
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:106
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:122
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:456
 #, c-format
 msgid "Log in"
@@ -1603,7 +1603,7 @@ msgstr "Wachtwoord vergeten?"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:451
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:251
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:220
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:110
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:126
 #, fuzzy, c-format
 msgid "Create an account"
 msgstr "কোন একাউন্ট নেই?"
@@ -7788,7 +7788,7 @@ msgid "Quote of the day"
 msgstr "দিনের উক্তি"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:177
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:92
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:108
 #, fuzzy, c-format
 msgid "Log in to your account:"
 msgstr "আপনার অ্যাকাউন্টে লগ-ইন করুন:"
@@ -8074,7 +8074,7 @@ msgid "There is no minimum or maximum character length."
 msgstr ""
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:259
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:53
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:68
 #, c-format
 msgid "Username:"
 msgstr "ইউজারনেম:"
@@ -9685,6 +9685,7 @@ msgstr "কোর্স রিজার্ভ"
 
 #. INPUT type=submit
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:162
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:56
 msgid "Confirm"
 msgstr "নিশ্চিত করুন"
 
@@ -9798,37 +9799,48 @@ msgstr "কোন পরিবর্তন হয় নি।"
 msgid "Are you sure you want to remove this recall?"
 msgstr "আপনি কি নিশ্চিত যে আপনি এই শেয়ার বাদ দিতে চান?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:19
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:20
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:51
+#, fuzzy, c-format
+msgid "Registration pending"
+msgstr "নিবন্ধন অবৈধ!"
+
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:22
 #, fuzzy, c-format
 msgid "Registration complete"
 msgstr "নিবন্ধন সম্পন্ন"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:46
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:52
+#, fuzzy, c-format
+msgid "Click the button below to confirm registration."
+msgstr "%s%s%s কোহা অনলাইন %s ক্যাটালগ &rsaquo; অনুগ্রহ করে আপনার রেজিস্ট্রেশন নিশ্চিত করুন"
+
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:61
 #, fuzzy, c-format
 msgid "Registration complete!"
 msgstr "নিবন্ধন সম্পন্ন"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:48
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:63
 #, c-format
 msgid "You have successfully registered your new account."
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:50
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:65
 #, c-format
 msgid "To log in, use the following credentials:"
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:63
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:78
 #, fuzzy, c-format
 msgid "Card number:"
 msgstr "ডাক নম্বর:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:70
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:85
 #, c-format
 msgid "For your convenience, the login box on this page has been pre-filled with this data. Please log in and change your password."
 msgstr "আপনার সুবিধার জন্য, এই পেজের লগইন আগের তথ্য দিয়ে পুর্ন করা হয়েছে। অনুগ্রহপূর্বক লগইন করে আপনার পাসওয়ার্ড বদলে দিন ।"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:72
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:87
 #, c-format
 msgid "For your convenience, the login box on this page has been pre-filled with this data. Please log in."
 msgstr "আপনার সুবিধার জন্য, এই পেজের লগইন আগের তথ্য দিয়ে পুর্ন করা হয়েছে। অনুগ্রহপূর্বক লগইন করুন ।"

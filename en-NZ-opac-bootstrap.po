@@ -1,9 +1,9 @@
 # Compendium of en_NZ.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.005\n"
+"Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: koha-translate@lists.koha-community.org\n"
-"POT-Creation-Date: 2024-01-17 03:03+0000\n"
+"POT-Creation-Date: 2024-01-30 03:02+0000\n"
 "PO-Revision-Date: 2023-11-01 00:31+0000\n"
 "Last-Translator: wainui <wainuiwitikapark@catalyst.net.nz>\n"
 "Language-Team: Koha Translation Team\n"
@@ -1549,7 +1549,7 @@ msgstr "If you do not have an external account, but do have a local account, you
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:221
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:200
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-password-recovery.tt:124
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:93
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:109
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reset-password.tt:77
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:451
 #, c-format
@@ -1561,8 +1561,8 @@ msgstr "Login:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:225
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:202
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:953
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:57
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:99
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:72
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:115
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:453
 #, c-format
 msgid "Password:"
@@ -1573,7 +1573,7 @@ msgstr "Password:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:26
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:229
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:205
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:106
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:122
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:456
 #, c-format
 msgid "Log in"
@@ -1591,7 +1591,7 @@ msgstr "Forgot your password?"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:451
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:251
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:220
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:110
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:126
 #, fuzzy, c-format
 msgid "Create an account"
 msgstr "Register a new account"
@@ -7723,7 +7723,7 @@ msgid "Quote of the day"
 msgstr "Quote of the day"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-main.tt:177
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:92
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:108
 #, c-format
 msgid "Log in to your account:"
 msgstr "Log in to your account:"
@@ -8008,7 +8008,7 @@ msgid "There is no minimum or maximum character length."
 msgstr "There is no minimum or maximum character length."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:259
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:53
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:68
 #, c-format
 msgid "Username:"
 msgstr "Username:"
@@ -9601,6 +9601,7 @@ msgstr "reserve"
 
 #. INPUT type=submit
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recall.tt:162
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:56
 msgid "Confirm"
 msgstr "Confirm"
 
@@ -9713,37 +9714,48 @@ msgstr "No recalls have been made."
 msgid "Are you sure you want to remove this recall?"
 msgstr "Are you sure you want to remove this recall?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:19
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:20
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:51
+#, fuzzy, c-format
+msgid "Registration pending"
+msgstr "Registration invalid!"
+
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:22
 #, c-format
 msgid "Registration complete"
 msgstr "Registration complete"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:46
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:52
+#, fuzzy, c-format
+msgid "Click the button below to confirm registration."
+msgstr "Click the 'Return' button to confirm."
+
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:61
 #, c-format
 msgid "Registration complete!"
 msgstr "Registration complete!"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:48
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:63
 #, c-format
 msgid "You have successfully registered your new account."
 msgstr "You have successfully registered your new account."
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:50
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:65
 #, c-format
 msgid "To log in, use the following credentials:"
 msgstr "To log in, use the following credentials:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:63
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:78
 #, c-format
 msgid "Card number:"
 msgstr "Card number:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:70
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:85
 #, c-format
 msgid "For your convenience, the login box on this page has been pre-filled with this data. Please log in and change your password."
 msgstr "For your convenience, the login box on this page has been pre-filled with this data. Please log in and change your password."
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:72
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:87
 #, c-format
 msgid "For your convenience, the login box on this page has been pre-filled with this data. Please log in."
 msgstr "For your convenience, the login box on this page has been pre-filled with this data. Please log in."
