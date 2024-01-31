@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 03:02+0000\n"
+"POT-Creation-Date: 2024-01-31 03:02+0000\n"
 "PO-Revision-Date: 2024-01-24 03:01+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -576,7 +576,7 @@ msgstr "Olemassa olevasta tietueesta: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:312
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:215
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/set-library.tt:131
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:286
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:284
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step1.tt:73
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_add_items.tt:153
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_rm_items.tt:48
@@ -3295,10 +3295,10 @@ msgstr "Sulje"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1051
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:1072
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:45
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:258
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:266
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:273
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:280
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:256
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:264
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:271
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:278
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/readingrec.tt:146
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:67
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:78
@@ -6871,7 +6871,7 @@ msgstr "Lataa kuva"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/serial-status.inc:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:284
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:76
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:77
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:143
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:231
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoices.tt:115
@@ -7381,7 +7381,7 @@ msgstr "Kuntahaku"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:258
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:298
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:126
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:57
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:58
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:460
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:473
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/transferorder.tt:111
@@ -7433,7 +7433,7 @@ msgstr "Pohja"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/clubs-table.inc:10
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1274
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:59
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:60
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:462
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:474
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/adveditorshortcuts.tt:52
@@ -8875,7 +8875,7 @@ msgid "Pickup library"
 msgstr "Noutokirjasto"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:19
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:211
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:231
 #, c-format
 msgid "Set lowest priority"
 msgstr "Aseta alimmalle sijalle"
@@ -8985,47 +8985,60 @@ msgid ", please checkin to verify status %s %s %s %s "
 msgstr ", palauta vahvistaaksesi tilan %s %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:171
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:183
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:184
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:333
 #, c-format
 msgid "No barcode"
 msgstr "Ei viivakoodia"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:178
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:179
 #, c-format
 msgid "Only item"
 msgstr "Vain nide"
 
-#. %1$s:  ItemTypes.GetDescription( hold.itemtype ) | html 
+#. %1$s: - IF ( hold.barcodenumber ) -
+#. %2$s: - hold.barcodenumber | html -
+#. %3$s: - ELSE -
+#. %4$s: - END -
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:190
-#, c-format
-msgid "Next available %s item"
-msgstr "Seuraava vapaa %s nide"
+#, fuzzy, c-format
+msgid "Only item %s %s %s No barcode %s "
+msgstr "%s%s%sEi viivakoodia%s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:192
-#, c-format
-msgid "Next available item from group "
-msgstr "Seuraava vapaa nide ryhmästä "
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:194
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:196
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:204
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:214
 #, c-format
 msgid "Next available"
 msgstr "Seuraava"
 
+#. For the first occurrence,
+#. %1$s:  ItemTypes.GetDescription( hold.itemtype ) | html 
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:202
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:210
+#, c-format
+msgid "Next available %s item"
+msgstr "Seuraava vapaa %s nide"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:212
+#, c-format
+msgid "Next available item from group "
+msgstr "Seuraava vapaa nide ryhmästä "
+
 # reguest.tt tiedostossa githubissa on maininta "A non priority hold doesn't prevent a current checkout from renewing"
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:201
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:221
 #, c-format
 msgid "Non priority hold"
 msgstr "Kiireetön varaus"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:208
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:228
 msgid "Remove lowest priority"
 msgstr "Poista alin sija varausjonossa"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:221
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:222
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:241
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:242
 #: koha-tmpl/intranet-tmpl/prog/en/includes/waiting_holds.inc:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:291
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:297
@@ -9038,13 +9051,13 @@ msgid "Cancel hold"
 msgstr "Peruuta varaus"
 
 #. %1$s:  ELSE 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:230
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:250
 #, c-format
 msgid "Unsuspend %s "
 msgstr "Jatka %s "
 
 #. %1$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:232
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:252
 #, c-format
 msgid "Suspend %s "
 msgstr "Keskeytä %s "
@@ -9052,18 +9065,18 @@ msgstr "Keskeytä %s "
 #. %1$s:  IF ( hold.suspend ) 
 #. %2$s:  ELSE 
 #. %3$s:  END 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:237
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:257
 #, c-format
 msgid "%s on %s until %s"
 msgstr "%s on voimassa %s päivään %s"
 
 #. INPUT type=button
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:245
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:265
 msgid "%sRevert transit status%sRevert waiting status%s"
 msgstr "%sPeruuta kuljetustila%sPeruuta odottaa-tila%s"
 
 #. INPUT type=button name=printholdslip
-#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:249
+#: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:269
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:170
 #, c-format
@@ -10459,7 +10472,7 @@ msgstr "Raportin nimi"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cashup_summary.inc:17
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-restrictions-tab.inc:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/edifactmsgs.tt:74
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:58
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:59
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:461
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/vendor_issues.tt:194
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:137
@@ -11602,7 +11615,7 @@ msgid "Authorized value:"
 msgstr "Auktorisoitu arvo:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cataloguing_create_av.inc:23
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:95
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:97
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:308
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/clubs-add-modify.tt:73
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/templates-add-modify.tt:75
@@ -23812,36 +23825,36 @@ msgstr "Tiedostot laskulle: %s"
 msgid "%sThe file you are attempting to upload has no contents.%s %sYou did not select a file to upload.%s %sInvalid or missing script parameter.%s "
 msgstr "%sTiedosto on tyhjä.%s %sEt valinnut tiedostoa.%s %sEpäkelpo tai puuttuva skriptin parametri.%s "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:60
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:61
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:463
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/files.tt:60
 #, c-format
 msgid "Uploaded"
 msgstr "Viety"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:61
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:62
 #, c-format
 msgid "Bytes"
 msgstr "Tavua"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:77
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:223
 #, c-format
 msgid "Download"
 msgstr "Lataa"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:84
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:86
 #, c-format
 msgid "This invoice has no files attached."
 msgstr "Tällä laskulla ei ole liitettyjä tiedostoja."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:91
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:93
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/files.tt:86
 #, c-format
 msgid "Upload new file"
 msgstr "Lähetä uusi tiedosto"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:97
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:99
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/files.tt:95
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/export.tt:233
 #, c-format
@@ -23849,7 +23862,7 @@ msgid "File:"
 msgstr "Tiedosto:"
 
 #. INPUT type=submit name=upload
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:100
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:102
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/files.tt:100
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/process_koc.tt:80
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:103
@@ -23860,7 +23873,7 @@ msgstr "Lataa tiedosto"
 
 #. For the first occurrence,
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:116
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice-files.tt:118
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/invoice.tt:543
 msgid "Are you sure you want to delete this file ?"
 msgstr "Haluatko varmasti poistaa tämän tiedoston?"
@@ -27988,7 +28001,7 @@ msgstr "Lisää käyttäjiä"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cash_registers.tt:127
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:114
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:105
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:255
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:253
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:86
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:428
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep3.tt:72
@@ -33793,7 +33806,7 @@ msgstr "Tätä tietuetta käytetään"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:158
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:163
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:154
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:264
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:262
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:87
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/bor_issues_top.tt:145
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:118
@@ -43010,7 +43023,7 @@ msgstr "URLit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:251
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:358
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:462
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:183
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:182
 #, c-format
 msgid "ISBN: %s"
 msgstr "ISBN: %s"
@@ -43281,7 +43294,7 @@ msgid "Transfer is not allowed for: "
 msgstr "Kuljetusta ei ole sallittu: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:156
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:271
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:269
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:128
 #, c-format
 msgid "Collection: "
@@ -46424,27 +46437,22 @@ msgstr "ja hyllypaikka: %s"
 msgid "Send to"
 msgstr "Lähetä kohteelle"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:195
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:193
 #, c-format
 msgid "Only item:"
 msgstr "Vain nide:"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:197
-#, c-format
-msgid "/strong> "
-msgstr "/strong> "
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:197
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:195
 #, c-format
 msgid "or any item from item group "
 msgstr "tai jokin nide nideryhmästä "
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:199
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:197
 #, c-format
 msgid "or any available"
 msgstr "tai mikä tahansa saatavana oleva."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:278
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/view_holdsqueue.tt:276
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cat_issues_top.tt:135
 #, c-format
 msgid "Shelving location: "
@@ -68764,6 +68772,10 @@ msgstr "_blank"
 #, c-format
 #~ msgid ", by the "
 #~ msgstr ", mukaan "
+
+#, c-format
+#~ msgid "/strong> "
+#~ msgstr "/strong> "
 
 #~ msgid "0 Checkouts"
 #~ msgstr "Lainassa (0)"
