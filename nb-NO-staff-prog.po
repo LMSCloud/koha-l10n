@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-31 03:02+0000\n"
-"PO-Revision-Date: 2024-01-30 03:00+0000\n"
+"PO-Revision-Date: 2024-02-02 03:00+0000\n"
 "Last-Translator: Magnus Enger <magnus@enger.priv.no>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nb-NO\n"
@@ -8901,7 +8901,7 @@ msgstr "slett"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:483
 #, c-format
 msgid "In transit"
-msgstr "Underveis"
+msgstr "Under veis"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:79
 #, c-format
@@ -8994,9 +8994,9 @@ msgstr "Kun eksemplar"
 #. %3$s: - ELSE -
 #. %4$s: - END -
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:190
-#, fuzzy, c-format
+#, c-format
 msgid "Only item %s %s %s No barcode %s "
-msgstr "%s%s%sIngen strekkode%s"
+msgstr "Bare eksemplar %s %s %s Ingen strekkode %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:196
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:204
@@ -13574,9 +13574,9 @@ msgid "Add, modify and view patron information "
 msgstr "Legg til, endre og vis lånerinformasjon "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:316
-#, fuzzy, c-format
+#, c-format
 msgid "Search, list and view patrons "
-msgstr "Søk etter lånere"
+msgstr "Søk, list og se på lånere "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:321
 #, c-format
@@ -30170,7 +30170,7 @@ msgstr "Sett til \"ja\" for å vise dette biblioteket som et søkevalg og på bi
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:292
 #, c-format
 msgid "Specific OPAC JS: "
-msgstr ""
+msgstr "Spesifik JavaScript for OPAC "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:296
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:304
@@ -30182,7 +30182,7 @@ msgstr "Slå sammen"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:300
 #, c-format
 msgid "Specific OPAC CSS: "
-msgstr ""
+msgstr "Spesifik CSS for OPAC "
 
 #. %1$s:  library.branchname | html 
 #. %2$s:  library.branchcode | html 
@@ -38947,7 +38947,7 @@ msgid "%s No results found %s "
 msgstr "%s Fant ingen resultater %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:10
-#, fuzzy, c-format
+#, c-format
 msgid "Selected items:"
 msgstr "Valgte eksemplarer:"
 
@@ -39759,9 +39759,9 @@ msgstr "For øyeblikket i lokal bruk %s "
 #. %5$s:  INCLUDE 'patron-title.inc' patron=item.object.checkout.patron hide_patron_infos_if_needed=1 
 #. %6$s:  date_due | $KohaDates as_due_date => 1 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:476
-#, fuzzy, c-format
+#, c-format
 msgid "Checked out %s %s by %s to %s %s : due %s "
-msgstr "Lånt ut %s %s %s by %s to %s %s %s : forfaller %s "
+msgstr "Utlånt %s %s av %s til %s %s : forfaller %s "
 
 #. %1$s:  Branches.GetName( transfer.frombranch ) | html 
 #. %2$s:  Branches.GetName( transfer.tobranch ) | html 
@@ -61037,9 +61037,8 @@ msgstr "Ta med arkiverte forslag i søket"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:1253
-#, fuzzy
 msgid "Cannot retrieve info for this patron."
-msgstr "Det finnes ingen statistikk for denne låneren."
+msgstr "Kan ikke hente informasjon for denne låneren."
 
 #. For the first occurrence,
 #. SCRIPT
