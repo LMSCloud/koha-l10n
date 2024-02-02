@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 03:02+0000\n"
+"POT-Creation-Date: 2024-02-02 03:02+0000\n"
 "PO-Revision-Date: 2023-09-07 11:38+0000\n"
 "Last-Translator: Serhij Dubyk <dubyk@ukr.net>\n"
 "Language-Team: Koha Translation Team\n"
@@ -55,7 +55,7 @@ msgid "Edit"
 msgstr "Редагувати"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1068
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1070
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:10
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
@@ -600,59 +600,158 @@ msgstr ""
 msgid "Renewal type:"
 msgstr "Продовжити не вдалося: "
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:131
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:35
+msgid "Loading... you may continue scanning."
+msgstr "Завантажується… Ви можете продовжити зчитування."
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:426
+msgid "Today's checkouts"
+msgstr "Сьогоднішні видачі"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:54
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:428
+msgid "Previous checkouts"
+msgstr "Попередні видачі"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:108
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:800
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
+msgid "by _AUTHOR_"
+msgstr " / _AUTHOR_"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:129
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:821
+msgid "On-site checkout"
+msgstr "Видача на місці"
+
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:133
-msgid "Checked in"
-msgstr "Повернуто"
+#, fuzzy
+msgid "This item has been recalled and the due date updated"
+msgstr "Цей запис було додано у Ваш кошик"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:135
-msgid "Patron note"
-msgstr "Примітка користувача"
+# назва функції ILS-DI
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:236
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:361
+#, fuzzy
+msgid "Recalled"
+msgstr "RecallItem "
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:138
-msgid "Unable to check in"
-msgstr "Неможливо повернути"
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:243
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:363
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:313
+msgid "On hold"
+msgstr "Замовлено"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:168
-msgid "Confirm"
-msgstr "Підтвердити"
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:250
+msgid "Not renewable"
+msgstr "Не продовжуване"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:211
-msgid "Renewed, due:"
-msgstr "Продовжено, до:"
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:257
+msgid "Must be renewed at the library"
+msgstr "Потрібно продовжити у бібліотеці/підрозділі"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:214
-msgid "Renew failed:"
-msgstr "Продовжити не вдалося: "
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:216
-msgid "not checked out"
-msgstr "не видано"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:218
-msgid "too many renewals"
-msgstr "занадто багато продовжень"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:220
-msgid "too many consecutive renewals without being seen by the library"
-msgstr "занадто багато послідовних продовжень примірників, не побачених у бібліотеці"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:222
-msgid "on hold"
-msgstr "замовлено"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:224
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:553
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:262
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
 msgid "Not allowed: patron restricted"
 msgstr "Не дозволено: користувач заблокований"
 
 # Починалося раніше з маленької літери.
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:226
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:560
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:269
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
 msgid "Not allowed: overdue"
 msgstr "Не дозволено: прострочення"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:228
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:276
+#, fuzzy, javascript-format
+msgid "No renewal before %s"
+msgstr "Не продовжувано раніше %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:283
+msgid "Can no longer be auto-renewed - number of checkout days exceeded"
+msgstr "Більше не можна продовжувати автоматично — перевищено кількість днів для обігу"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:290
+msgid "Automatic renewal failed, patron has unpaid fines"
+msgstr "Помилка автоматичного продовження, користувач не сплатив пеню"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:297
+msgid "Automatic renewal failed, account expired"
+msgstr "Помилка автоматичного продовження, термін дії облікового запису завершився"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:306
+msgid "Renewal denied by syspref"
+msgstr "Продовження відхилено системними налаштуваннями"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:341
+#, javascript-format
+msgid "%s of %s renewals remaining"
+msgstr "залишилося продовжень %s із %s дозволених"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:343
+#, fuzzy, javascript-format
+msgid " and %s of %s unseen renewals remaining"
+msgstr "залишилося продовжень %s із %s дозволених"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:349
+msgid "Scheduled for automatic renewal"
+msgstr "Заплановано автоматичне продовження"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:380
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:382
+msgid "Claim returned"
+msgstr "Вимога про повернення"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:441
+msgid "No itemtype"
+msgstr "Невизначений тип одиниці"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:447
+msgid "Number of checkouts by item type"
+msgstr "Кількість видач за типом примірника"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:596
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
+msgid "Checked in"
+msgstr "Повернуто"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:600
+msgid "Patron note"
+msgstr "Примітка користувача"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:603
+msgid "Unable to check in"
+msgstr "Неможливо повернути"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:633
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:676
+msgid "Renewed, due:"
+msgstr "Продовжено, до:"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:679
+msgid "Renew failed:"
+msgstr "Продовжити не вдалося: "
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:681
+msgid "not checked out"
+msgstr "не видано"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:683
+msgid "too many renewals"
+msgstr "занадто багато продовжень"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:685
+msgid "too many consecutive renewals without being seen by the library"
+msgstr "занадто багато послідовних продовжень примірників, не побачених у бібліотеці"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
+msgid "on hold"
+msgstr "замовлено"
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
 #, fuzzy
 msgid "Unable to find an open day"
 msgstr "Неможливо вимагати повернення"
@@ -661,147 +760,48 @@ msgstr "Неможливо вимагати повернення"
 # 115^a - невідомий ...
 # 110^a - Невідома
 # 125^a - Не визначений; Невідомо
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:232
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
 msgid "reason unknown"
 msgstr "причина невідома"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:326
-msgid "Loading... you may continue scanning."
-msgstr "Завантажується… Ви можете продовжити зчитування."
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:343
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:717
-msgid "Today's checkouts"
-msgstr "Сьогоднішні видачі"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:345
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:719
-msgid "Previous checkouts"
-msgstr "Попередні видачі"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:399
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:798
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
-msgid "by _AUTHOR_"
-msgstr " / _AUTHOR_"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:420
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:819
-msgid "On-site checkout"
-msgstr "Видача на місці"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:424
-#, fuzzy
-msgid "This item has been recalled and the due date updated"
-msgstr "Цей запис було додано у Ваш кошик"
-
-# назва функції ILS-DI
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:527
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:652
-#, fuzzy
-msgid "Recalled"
-msgstr "RecallItem "
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:534
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:654
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:313
-msgid "On hold"
-msgstr "Замовлено"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:541
-msgid "Not renewable"
-msgstr "Не продовжуване"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:548
-msgid "Must be renewed at the library"
-msgstr "Потрібно продовжити у бібліотеці/підрозділі"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:567
-#, fuzzy, javascript-format
-msgid "No renewal before %s"
-msgstr "Не продовжувано раніше %s"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:574
-msgid "Can no longer be auto-renewed - number of checkout days exceeded"
-msgstr "Більше не можна продовжувати автоматично — перевищено кількість днів для обігу"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:581
-msgid "Automatic renewal failed, patron has unpaid fines"
-msgstr "Помилка автоматичного продовження, користувач не сплатив пеню"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:588
-msgid "Automatic renewal failed, account expired"
-msgstr "Помилка автоматичного продовження, термін дії облікового запису завершився"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:597
-msgid "Renewal denied by syspref"
-msgstr "Продовження відхилено системними налаштуваннями"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:632
-#, javascript-format
-msgid "%s of %s renewals remaining"
-msgstr "залишилося продовжень %s із %s дозволених"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:634
-#, fuzzy, javascript-format
-msgid " and %s of %s unseen renewals remaining"
-msgstr "залишилося продовжень %s із %s дозволених"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:640
-msgid "Scheduled for automatic renewal"
-msgstr "Заплановано автоматичне продовження"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:671
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:673
-msgid "Claim returned"
-msgstr "Вимога про повернення"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:732
-msgid "No itemtype"
-msgstr "Невизначений тип одиниці"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:738
-msgid "Number of checkouts by item type"
-msgstr "Кількість видач за типом примірника"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1023
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1025
 msgid "Double click to edit"
 msgstr "Двічі клацніть для редагування"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1071
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1073
 msgid "Resolve"
 msgstr "Вирішити"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1076
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1078
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:89
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:368
 msgid "Actions"
 msgstr "Дії"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1079
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1081
 msgid "Edit notes"
 msgstr "Редагувати примітку"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1142
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1144
 msgid "Show 1 claim"
 msgid_plural "Show all {count} claims"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1147
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1149
 msgid "Show 1 unresolved claim"
 msgid_plural "Show {count} unresolved claims"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1168
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1170
 msgid "Update"
 msgstr "Оновити"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1169
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1171
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:415
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:162
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:75
@@ -818,7 +818,7 @@ msgstr "Оновити"
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1208
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1210
 msgid "Are you sure you want to delete this return claim?"
 msgstr "Чи Ви справді хочете вилучити цю вимогу про повернення?"
 
