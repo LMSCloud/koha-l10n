@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-02 03:02+0000\n"
-"PO-Revision-Date: 2024-02-01 03:00+0000\n"
+"PO-Revision-Date: 2024-02-04 03:00+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
@@ -12091,7 +12091,7 @@ msgstr "Záruční poplatky (%s)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:89
 #, c-format
 msgid "Claims"
-msgstr "Reklamace"
+msgstr "Sporné výpůjčky"
 
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:52
@@ -12343,7 +12343,7 @@ msgstr "Zobrazit %s nevyřešené sporné výpůjčky"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:13
 #, c-format
 msgid "Claim ID"
-msgstr "ID reklamace"
+msgstr "ID sporné výpůjčky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:14
 #, fuzzy, c-format
@@ -12845,9 +12845,9 @@ msgstr "Viz zvýrazněné položky níže"
 
 #. %1$s:  return_claims.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:88
-#, fuzzy, c-format
+#, c-format
 msgid "Patron has %s RETURN CLAIMS "
-msgstr "Reklamace vracení: Čtenář uplatnil %s REKLAMACÍ VRÁCENÝCH JEDNOTEK."
+msgstr "Čtenář uplatnil %s SPORNÝCH VÝPŮJČEK "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:88
 #, fuzzy, c-format
@@ -26215,7 +26215,7 @@ msgstr "Kontakt pro objednávky"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:125
 #, c-format
 msgid "Receives claims for late orders"
-msgstr "Posílat reklamace za pozdě dodané objednávky"
+msgstr "Příjímá reklamace za pozdě dodané objednávky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:132
 #, fuzzy, c-format
@@ -26230,7 +26230,7 @@ msgstr "Hlavní kontakti pro periodika"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:138
 #, c-format
 msgid "Receives claims for late issues"
-msgstr "Posílat reklamace opožděných vydání."
+msgstr "Přijímá reklamace za opožděná čísla"
 
 #. %1$s:  name | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:171
@@ -39530,9 +39530,9 @@ msgid "Search entire MARC record"
 msgstr "Hledat v celém MARC záznamu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:197
-#, fuzzy, c-format
+#, c-format
 msgid "Apply field weights to search"
-msgstr "Použít váhy polí přo hledání "
+msgstr "Použít váhy polí při hledání"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:206
 #, c-format
@@ -39559,9 +39559,9 @@ msgstr "Rok: "
 #. %2$s:  limits.delete(year_limit_key) 
 #. %3$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:282
-#, fuzzy, c-format
+#, c-format
 msgid "&nbsp;&nbsp;(format: yyyy-yyyy) %s %s %s "
-msgstr "&nbsp;&nbsp;(formát: yyyy-yyyy)"
+msgstr "&nbsp;&nbsp;(formát: rrrr-rrrr) %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/advsearch.tt:293
 #, c-format
@@ -51018,9 +51018,9 @@ msgid "patrons to "
 msgstr "čtenářů do "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member.tt:75
-#, fuzzy, c-format
+#, c-format
 msgid "Add to patron list "
-msgstr "Vložit do seznamu"
+msgstr "Vložit na seznam čtenářů "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/member.tt:92
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:165
@@ -54185,9 +54185,9 @@ msgid "Remove patron from list"
 msgstr "Export čtenářských průkazů ze seznamu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/patron-lists-tab.tt:95
-#, fuzzy, c-format
+#, c-format
 msgid "Add patron to list"
-msgstr "Vložit do seznamu"
+msgstr "Vložit na seznam čtenářů"
 
 #. For the first occurrence,
 #. %1$s:  batch_id | html 
@@ -58916,9 +58916,9 @@ msgid "%s Claims for %s &rsaquo; %s Claims &rsaquo; Serials &rsaquo; Koha"
 msgstr "%s Statistiky pro %s %s &rsaquo; Čtenáři &rsaquo; Koha "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:24
-#, fuzzy, c-format
+#, c-format
 msgid "Claims "
-msgstr "Reklamace"
+msgstr "Reklamace "
 
 #. %1$s:  suppliername | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:29
@@ -62895,9 +62895,9 @@ msgid "Export late orders"
 msgstr "Exportovat štítky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:140
-#, fuzzy, c-format
+#, c-format
 msgid "Basket export in acquisition"
-msgstr "Reklamace na pořízení"
+msgstr "Export košíku v akvizici"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:141
 #, fuzzy, c-format
@@ -64341,7 +64341,7 @@ msgstr "Nové oznámení "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:377
 #, c-format
 msgid "Claim acquisition"
-msgstr "Reklamace na pořízení"
+msgstr "Reklamace akvizice"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:167
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:228
@@ -67123,9 +67123,9 @@ msgid "Edit mappings"
 msgstr "Upravit akce"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:152
-#, fuzzy, c-format
+#, c-format
 msgid "Serial claim"
-msgstr "Reklamace seriálů"
+msgstr "Reklamace periodik"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:153
 #, fuzzy, c-format
