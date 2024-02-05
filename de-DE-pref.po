@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:08-0300\n"
-"PO-Revision-Date: 2024-01-20 03:00+0000\n"
+"PO-Revision-Date: 2024-02-06 03:00+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de-DE\n"
@@ -7173,15 +7173,13 @@ msgstr "Aktiviere"
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
-#, fuzzy
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
-msgstr "<br>Wenn das Feld frei gelassen wird, wird die erste definierte E-Mail-Adresse aus der nachfolgenden Liste verwendet: ReplyTo-Adresse der Bibliothek, E-Mail-Adresse der Bibliothek, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+msgstr "Wenn das Feld frei gelassen wird, wird die erste definierte E-Mail-Adresse aus der nachfolgenden Liste verwendet: ReplyTo-Adresse der Bibliothek, E-Mail-Adresse der Bibliothek, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the patron's library whenever a hold request is placed."
-msgstr "den Versand von E-Mails an den Koha-Administrator, wenn eine Vormerkung gesetzt wurde."
+msgstr "den Versand von E-Mails an die Bibliothek, wenn eine Vormerkung eingetragen wird."
 
 # Circulation > Fines Policy > finesCalendar
 # Circulation > Fines Policy
@@ -11297,45 +11295,44 @@ msgstr "dass Benutzer, die online ein Konto eröffnen, sich über E-Mail verifiz
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
-msgstr ""
+msgstr "</ul>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days.</li>"
-msgstr ""
+msgstr "<li>Erste Priorität: Verwende den Parameter--list-invites des Cronjobs cleanup_database.pl, wenn dieser mit einem --list-invites Parameter und einer Anzahl an Tagen ausgeführt wird.</li>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Second priority: Use the PurgeListShareInvitesOlderThan system preference when it contains a value.</li>"
-msgstr ""
+msgstr "<li>Zeite Priorität: Verwende den PurgeListShareInvitesOlderThan Systemparameter, wenn er einen Wert enthält.</li>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Third priority: Use a default of 14 days when the cleanup_database.pl cronjob is run with a --list-invites parameter, but no value AND the PurgeListShareInvitesOlderThan system preference is empty.</li>"
-msgstr ""
+msgstr "<li>Dritte Priorität: Verwende eine Voreinstellung von 14 Tagen, wenn der Cronjob cleanup_database.pl mit dem Parameter --list-invites, aber ohne Angabe von Tagen ausgeführt wird UND der Systemparameter PurgeListShareInvitesOlderThan leer ist.</li>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <p><strong>WARNING</strong>: Unaccepted private list shares are deleted using these priorities:"
-msgstr ""
+msgstr "<p><strong>WARNUNG</strong>: Nicht angenommene Einladungen zum Teilen privater Listen werden nach diesen Prioritäten gelöscht:"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <p>Example: [14] Deletes unaccepted private list share invites older than 14 days.</p>"
-msgstr ""
+msgstr "<p>Beispiel: [14] Löscht nicht angenommene Einladungen zum Teilen privater Listen, die älter als 14 Tage sind.</p>"
 
 # OPAC > Self registration and modification > PatronSelfRegistrationVerifyByEmail
 # OPAC > Self registration and modification
-#, fuzzy
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/cleanup_database.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>HINWEIS:</strong> Dieser Systemparameter erfordert den Cronjob <code>misc/cronjobs/cleanup_database.pl</code>. Bitten Sie Ihren Systemadministrator darum diesen einzurichten."
+msgstr "<strong>HINWEIS:</strong> Dieser Systemparameter erfordert den Cronjob <code>misc/cronjobs/cleanup_database.pl</code>. Bitten Sie Ihren Systemadministrator darum diesen einzurichten."
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <ul>"
-msgstr ""
+msgstr "<ul>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# The cleanup_database.pl cronjob automatically deletes unaccepted private list share invites after"
-msgstr ""
+msgstr "Der Cronjob cleanup_database.pl löscht nicht angenommene Einladungen zum Teilen privater Listen automatisch nach"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# days."
-msgstr ""
+msgstr "Tagen."
 
 # OPAC > Features > QuoteOfTheDay
 # OPAC > Features
