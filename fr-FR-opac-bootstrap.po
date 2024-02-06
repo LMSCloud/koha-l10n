@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-30 03:02+0000\n"
-"PO-Revision-Date: 2024-02-04 03:00+0000\n"
+"PO-Revision-Date: 2024-02-07 03:00+0000\n"
 "Last-Translator: mathsaby <mathsabypro@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
@@ -825,9 +825,9 @@ msgstr "En attente sur le prochain exemplaire disponible '%s'"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:159
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:159
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:991
-#, c-format, fuzzy
+#, c-format
 msgid "Pending"
-msgstr "réservation en attente"
+msgstr "En attente"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:170
 #, c-format
@@ -4939,14 +4939,14 @@ msgid "Your alert subscriptions &rsaquo; %s%s%sKoha online%s catalog"
 msgstr "Vos alertes d'abonnements &rsaquo; %s%s%sKoha en ligne%s catalogue"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:25
-#, fuzzy, c-format
+#, c-format
 msgid "Your alert subscriptions"
-msgstr "Fascicules d'un abonnement"
+msgstr "Vos suivis d'abonnements"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:40
-#, fuzzy, c-format
+#, c-format
 msgid "Alert subscriptions"
-msgstr "Abonnements"
+msgstr "Suivis d'abonnements"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:49
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:64
@@ -4962,7 +4962,7 @@ msgid "Actions"
 msgstr "Actions"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-alert-subscriptions.tt:78
-#, fuzzy, c-format
+#, c-format
 msgid "Unsubscribe from email alerts"
 msgstr "Se désinscrire d'une alerte d'abonnement"
 
@@ -7385,7 +7385,7 @@ msgstr "Voir la demande de prêt entre bibliothèques"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:45
 #, c-format
 msgid "Ill request disclaimer"
-msgstr ""
+msgstr "Avis de non-responsabilité concernant les demandes de PEB"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:72
 #, c-format
@@ -7558,7 +7558,7 @@ msgstr "annuler votre demande"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:283
 #, c-format
 msgid "ILL request disclaimer"
-msgstr ""
+msgstr "Avis de non-responsabilité concernant les demandes de PEB"
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #. %2$s:  IF ( LibraryNameTitle ) 
@@ -7589,35 +7589,35 @@ msgstr "Vignette"
 #. %4$s:  ELSE 
 #. %5$s:  END 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:9
-#, fuzzy, c-format
+#, c-format
 msgid "Editing checkout note for %s &rsaquo; %s%s%sKoha online%s catalog"
-msgstr "Modifier une note de fascicule pour %s &rsaquo; %s%s%sKoha en ligne%s catalogue"
+msgstr "Modifier une note de prêt pour %s &rsaquo; %s%s%sKoha en ligne%s catalogue"
 
 #. %1$s:  title | html 
 #. %2$s:  author | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:26
-#, fuzzy, c-format
+#, c-format
 msgid "Editing checkout note for '%s' %s"
-msgstr "Modifier la note de prêt pour %s %s"
+msgstr "Modification de la note de prêt pour %s %s"
 
 #. %1$s:  IF not(Koha.Preference("AllowCheckoutNotes")) 
 #. %2$s:  ELSE 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:40
-#, fuzzy, c-format
+#, c-format
 msgid "%s Checkout notes have not been enabled. Please contact the library. %s "
-msgstr "%s Les notes sur prêt ne sont pas activées. Merci de contacter la bibliothèque. %s "
+msgstr "%s Les notes de prêt ne sont pas activées. Merci de contacter la bibliothèque. %s "
 
 #. %1$s:  title | html 
 #. %2$s:  author | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:40
-#, fuzzy, c-format
+#, c-format
 msgid "Editing checkout note for %s %s"
-msgstr "Modifier la note de prêt pour %s %s"
+msgstr "Modification de la note de prêt pour %s %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "Edit checkout note"
-msgstr "Note sur un document en prêt"
+msgstr "Modifier la note de prêt"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-issue-note.tt:47
 #, c-format
@@ -8478,15 +8478,13 @@ msgstr "Choisir combien de jours à l'avance on veut recevoir le message"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:97
-#, fuzzy
 msgid "Unselect SMS messaging"
-msgstr "Sélectionnez un horaire"
+msgstr "Désélectionner l'avis par SMS"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:99
-#, fuzzy
 msgid "Select SMS messaging"
-msgstr "Sélectionnez un horaire"
+msgstr "Sélectionner l'avis par SMS"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:110
@@ -8501,30 +8499,27 @@ msgstr "Sélectionner la notification par téléphone"
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:133
 msgid "Unselect itiva messaging"
-msgstr ""
+msgstr "Désélectionner l'avis par itiva"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:140
-#, fuzzy
 msgid "Select itiva messaging"
-msgstr "Sélectionnez un horaire"
+msgstr "Sélectionner l'avis par itiva"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:156
 msgid "Unselect email messaging"
-msgstr ""
+msgstr "Désélectionner l'avis par courriel"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:158
-#, fuzzy
 msgid "Select email messaging"
-msgstr "Sélectionnez un horaire"
+msgstr "Sélectionner l'avis par courriel"
 
 #. INPUT type=checkbox name=digest
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:168
-#, fuzzy
 msgid "Unselect digests"
-msgstr "Sélectionner une liste"
+msgstr "Désélectionner le résumé"
 
 #. INPUT type=checkbox name=digest
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:168
@@ -8534,9 +8529,8 @@ msgstr "Vous devez sélectionner un transport compatible pour sélectionner les 
 
 #. INPUT type=checkbox name=digest
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:170
-#, fuzzy
 msgid "Select digests"
-msgstr "Sélectionner une liste"
+msgstr "Sélectionner le résumé"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:189
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:64
@@ -9057,9 +9051,9 @@ msgid "Your consents"
 msgstr "Mon consentement"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:42
-#, fuzzy, c-format
+#, c-format
 msgid "Privacy policy consent"
-msgstr "Consentement à la politique de confidentialité"
+msgstr "Consentement à la politique de confidentialité des données"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-patron-consent.tt:44
 #, c-format
@@ -9206,9 +9200,9 @@ msgid "Forever: keep my history without limit. This is the option for users who 
 msgstr "Pour toujours : conserver mon historique indéfiniment. Cette option permet aux usagers de conserver une trace de leurs lectures ou réservations."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:67
-#, fuzzy, c-format
+#, c-format
 msgid "Default: keep my history according to library policy. This is the default option : the library will keep your history for the duration set by library policy."
-msgstr "Par défaut : conserver mon historique conformément aux lois en vigueur. C'est l'option par défaut : la bibliothèque conservera votre historique pendant la durée autorisée par la loi."
+msgstr "Par défaut : conserver mon historique conformément aux lois en vigueur. C'est l'option par défaut : la bibliothèque conservera votre historique pendant la durée prévue dans son règlement."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:68
 #, c-format
@@ -9717,9 +9711,9 @@ msgstr "Voulez-vous vraiment supprimer ce rappel ?"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:20
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:51
-#, fuzzy, c-format
+#, c-format
 msgid "Registration pending"
-msgstr "Enregistrement invalide"
+msgstr "Inscription en cours"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:22
 #, c-format
@@ -9727,9 +9721,9 @@ msgid "Registration complete"
 msgstr "Inscription achevée"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:52
-#, fuzzy, c-format
+#, c-format
 msgid "Click the button below to confirm registration."
-msgstr "Cliquez sur le bouton 'Retour' pour confirmer."
+msgstr "Cliquez sur le bouton ci-dessous pour confirmer l'inscription."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:61
 #, c-format
@@ -9771,7 +9765,7 @@ msgid "Please confirm your registration &rsaquo; %s%s%sKoha online%s catalog"
 msgstr "Merci de confirmer votre inscription &rsaquo; %s%s%sKoha en ligne%s catalogue"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-email-sent.tt:17
-#, fuzzy, c-format
+#, c-format
 msgid "Confirm your registration"
 msgstr "Merci de confirmer votre inscription"
 
@@ -9793,12 +9787,12 @@ msgstr "Votre compte ne sera pas activé tant que vous n'aurez pas cliqué sur l
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-invalid.tt:20
 #, c-format
 msgid "Registration invalid"
-msgstr "Enregistrement invalide"
+msgstr "Inscription invalide"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-invalid.tt:36
 #, c-format
 msgid "Registration invalid!"
-msgstr "Enregistrement invalide !"
+msgstr "Inscription invalide !"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
