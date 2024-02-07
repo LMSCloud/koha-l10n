@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11.14.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 08:54+0000\n"
-"PO-Revision-Date: 2024-02-07 03:34+0000\n"
+"PO-Revision-Date: 2024-02-08 04:00+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
@@ -181,9 +181,9 @@ msgid "Do you really want to import the authority type fields and subfields? Thi
 msgstr "Opravdu chcete importovat pole a podpole autority? Tím přepíšete aktuální nastavení. Z bezpečnostních důvodů nejprve využijte možnost exportu a vytvořte zálohu."
 
 #: koha-tmpl/intranet-tmpl/prog/js/authtype.js:61
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Importing to authority type: %s. Importing from file: %s"
-msgstr "Importuji do šablony: %s. Importuji ze souboru: %s."
+msgstr "Importuji do šablony: %s. Importuji ze souboru: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/background-job-progressbar.js:72
 msgid "Import of record(s) failed: "
@@ -552,18 +552,16 @@ msgid "Renewed by"
 msgstr "Prodlouženo do:"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkout_renewals_modal.js:24
-#, fuzzy
 msgid "manually"
-msgstr "Leden"
+msgstr "ručně"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkout_renewals_modal.js:26
 msgid "Automatic"
 msgstr "Automaticky"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkout_renewals_modal.js:26
-#, fuzzy
 msgid "Renewal type:"
-msgstr "Prodloužení se nezdařilo:"
+msgstr "Typ prodloužení:"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:121
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:123
@@ -1547,7 +1545,7 @@ msgstr "Zadanou frekvence vydávání a délku předplatného nelze kombinovat. 
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:51
 msgid "If you wish to claim late or missing issues you must link this subscription to a vendor. Click OK to ignore or Cancel to return and enter a vendor"
-msgstr "Pokud chcete reklamovat zpožděné nebo chybějící sešity, musíte uvést dodavatele tohoto předplatného. Klepněte na tlačítko 'OK' pro ignorování nebo 'Zrušit' pro návrat a zadejte dodavatele"
+msgstr "Pokud chcete mít možnost snadno reklamovat zpožděné nebo chybějící vydání, musíte uvést dodavatele tohoto předplatného. Kliknutím na tlačítko OK pokračujte dál bez uvedení dodavatele. Volba Zrušit vás vrátí zpět k možnosti doplnit dodavatele"
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:58
 msgid "The vendor does not exist"
@@ -1591,7 +1589,7 @@ msgstr "Použijte, prosím, před uložením možnost 'Otestovat schéma číslo
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:288
 msgid "Frequency is not defined"
-msgstr "Frekvence vydávání nebyla definována"
+msgstr "Není nastavena frekvence vydávání"
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:293
 msgid "First publication date is not defined"
