@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-02 03:02+0000\n"
-"PO-Revision-Date: 2024-02-07 03:00+0000\n"
+"PO-Revision-Date: 2024-02-08 03:00+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
@@ -207,9 +207,9 @@ msgid "Do you really want to import the authority type fields and subfields? Thi
 msgstr "Opravdu chcete importovat pole a podpole autority? Tím přepíšete aktuální nastavení. Z bezpečnostních důvodů nejprve využijte možnost exportu a vytvořte zálohu."
 
 #: koha-tmpl/intranet-tmpl/prog/js/authtype.js:61
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Importing to authority type: %s. Importing from file: %s"
-msgstr "Importuji do šablony: %s. Importuji ze souboru: %s."
+msgstr "Importuji do šablony: %s. Importuji ze souboru: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:91
 #: koha-tmpl/opac-tmpl/bootstrap/js/basket.js:82
@@ -482,9 +482,8 @@ msgstr "Září"
 
 #: koha-tmpl/intranet-tmpl/prog/js/cancel_booking_modal.js:31
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:548
-#, fuzzy
 msgid "Failure"
-msgstr "Selhalo"
+msgstr "Selhání"
 
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:358
@@ -582,18 +581,16 @@ msgid "Renewed by"
 msgstr "Prodlouženo do:"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkout_renewals_modal.js:24
-#, fuzzy
 msgid "manually"
-msgstr "Leden"
+msgstr "ručně"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkout_renewals_modal.js:26
 msgid "Automatic"
 msgstr "Automaticky"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkout_renewals_modal.js:26
-#, fuzzy
 msgid "Renewal type:"
-msgstr "Prodloužení se nezdařilo:"
+msgstr "Typ prodloužení:"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:35
 msgid "Loading... you may continue scanning."
@@ -1799,9 +1796,8 @@ msgid "Are you sure you want to delete %s?"
 msgstr "Opravdu chcete odstranit %s?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:473
-#, fuzzy
 msgid "An error occurred. Check the logs for details."
-msgstr "Při nahrávání se vyskytla chyba."
+msgstr "Došlo k chybě. Podrobnosti naleznete v protokolovacích záznamech."
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:19
 msgid "Frequency and subscription length provided doesn't combine well. Please consider entering an issue count rather than a time period."
@@ -1809,7 +1805,7 @@ msgstr "Zadanou frekvence vydávání a délku předplatného nelze kombinovat. 
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:51
 msgid "If you wish to claim late or missing issues you must link this subscription to a vendor. Click OK to ignore or Cancel to return and enter a vendor"
-msgstr "Pokud chcete reklamovat zpožděné nebo chybějící sešity, musíte uvést dodavatele tohoto předplatného. Klepněte na tlačítko 'OK' pro ignorování nebo 'Zrušit' pro návrat a zadejte dodavatele"
+msgstr "Pokud chcete mít možnost snadno reklamovat zpožděné nebo chybějící vydání, musíte uvést dodavatele tohoto předplatného. Kliknutím na tlačítko OK pokračujte dál bez uvedení dodavatele. Volba Zrušit vás vrátí zpět k možnosti doplnit dodavatele"
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:58
 msgid "The vendor does not exist"
@@ -1853,7 +1849,7 @@ msgstr "Použijte, prosím, před uložením možnost 'Otestovat schéma číslo
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:288
 msgid "Frequency is not defined"
-msgstr "Frekvence vydávání nebyla definována"
+msgstr "Není nastavena frekvence vydávání"
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:293
 msgid "First publication date is not defined"
