@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: Koha 22.11.14.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-04 05:17+0000\n"
-"PO-Revision-Date: 2023-11-28 03:11+0000\n"
-"Last-Translator: \"Igor A. Sychev\" <Igor.A.Sychev@mail.ru>\n"
+"PO-Revision-Date: 2024-02-08 04:00+0000\n"
+"Last-Translator: PolinaMolchanova <pum2014@tpu.ru>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: ru-RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Path: /ru/22.11/ru-RU-messages.po\n"
 "X-Pootle-Revision: 1\n"
 "X-POOTLE-MTIME: 1687531160.869186\n"
@@ -2022,7 +2022,6 @@ msgid "Gender"
 msgstr "Пол"
 
 #: Koha/Database/Columns.pm:186
-#, fuzzy
 msgid "SMS provider ID (internal)"
 msgstr "Номер SMS-провайдера (внутренний)"
 
@@ -2169,9 +2168,8 @@ msgid "Current library"
 msgstr "Текущая библиотека"
 
 #: Koha/Database/Columns.pm:228
-#, fuzzy
 msgid "Deleted on"
-msgstr "Поврежден на"
+msgstr "Удалено на"
 
 #: Koha/Database/Columns.pm:229 Koha/Database/Columns.pm:253
 msgid "Shelving location"
@@ -2203,9 +2201,8 @@ msgid "Materials specified"
 msgstr "Указание материалов"
 
 #: Koha/Database/Columns.pm:236
-#, fuzzy
 msgid "Uniform Resource Identifier"
-msgstr "URI (Универсальный идентификатор ресурса)"
+msgstr "Единый идентификатор ресурса"
 
 #: Koha/Database/Columns.pm:237
 #, fuzzy
@@ -2726,7 +2723,7 @@ msgstr "Скрыть код SQL"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/restriction-types.inc:5
 msgid "Manual"
-msgstr ""
+msgstr "Руководство"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/restriction-types.inc:6
 #, fuzzy
@@ -2740,7 +2737,7 @@ msgstr "ударные"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/restriction-types.inc:8
 msgid "Discharge"
-msgstr ""
+msgstr "Уволить"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:255
 msgctxt "basket created by"
@@ -2948,7 +2945,7 @@ msgstr "резервирование отложено"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:46
 #, perl-brace-format
 msgid "Edit {title} by {author}"
-msgstr ""
+msgstr "Редактировать {заглавие} {автором}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:46
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:48
@@ -2959,7 +2956,7 @@ msgstr "Запись #"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:48
 #, perl-brace-format
 msgid "Edit {title}"
-msgstr ""
+msgstr "Редактировать {заглавие}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:53
 msgctxt "Items attached to a bibliographic record"
@@ -2976,17 +2973,17 @@ msgstr "Печать"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:893
 msgctxt "UNIMARC 116 painting techniques"
 msgid "Techniques (print) 1"
-msgstr ""
+msgstr "Технические приемы (печать) 1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:1086
 msgctxt "UNIMARC 116 painting techniques"
 msgid "Techniques (print) 2"
-msgstr ""
+msgstr "Технические приемы (печать) 2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/value_builder/unimarc_field_116.tt:1282
 msgctxt "UNIMARC 116 painting techniques"
 msgid "Techniques (print) 3"
-msgstr ""
+msgstr "Технические приемы (печать) 3"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:22
 #, fuzzy, perl-brace-format
@@ -3004,7 +3001,7 @@ msgstr[2] "Комплект из {count} экземпляров"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:98
 #, perl-brace-format
 msgid "Holds waiting over {count} days:"
-msgstr ""
+msgstr "Ожидание длится более {подсчет} дней:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:27
 msgctxt "Edit course reserve"
@@ -3104,13 +3101,13 @@ msgstr "Создано:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:133
 msgctxt "Tags (single)"
 msgid "Rejected"
-msgstr ""
+msgstr "Отклонено"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:117
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:135
 msgctxt "Tags (single)"
 msgid "Approved"
-msgstr ""
+msgstr "Одобрено"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:121
 #, fuzzy
@@ -3121,12 +3118,12 @@ msgstr "ожидающее резервирование"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:170
 msgctxt "Tags (multiple)"
 msgid "Approved"
-msgstr ""
+msgstr "Одобрено"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:173
 msgctxt "Tags (multiple)"
 msgid "Rejected"
-msgstr ""
+msgstr "Отклонено"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/review.tt:176
 #, fuzzy
