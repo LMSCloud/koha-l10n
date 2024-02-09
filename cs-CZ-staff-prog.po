@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-02 03:02+0000\n"
-"PO-Revision-Date: 2024-02-09 03:00+0000\n"
+"PO-Revision-Date: 2024-02-10 03:00+0000\n"
 "Last-Translator: DagmarS <dagmar.sikova@seznam.cz>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
@@ -12569,9 +12569,8 @@ msgstr "Vybrat"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:254
-#, fuzzy
 msgid "Select patron"
-msgstr "Odstranit čtenáře"
+msgstr "Vybrat čtenáře"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:254
@@ -12657,9 +12656,9 @@ msgid "%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %
 msgstr "%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s%s%s %s %s %s %s %s [%%- span_start = '"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-title.inc:40
-#, fuzzy, c-format
+#, c-format
 msgid "' -%%] [%%- span_end = '"
-msgstr "' %%] [%%- span_end = '"
+msgstr "' -%%] [%%- span_end = '"
 
 #. %1$s: - Branches.GetName( patron.branchcode ) | html -
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-title.inc:79
@@ -12689,9 +12688,9 @@ msgid "Patron lists"
 msgstr "Seznamy čtenářů"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:8
-#, fuzzy, c-format
+#, c-format
 msgid "Attention"
-msgstr "Pozor:"
+msgstr "Pozor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:12
 #, c-format
@@ -12710,9 +12709,9 @@ msgstr "Čtenář má dosud nevyřízené požadavky na změny. %s "
 
 #. %1$s:  patron.dateexpiry | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:24
-#, fuzzy, c-format
+#, c-format
 msgid "Patron's card expires on %s."
-msgstr "Platnost registrace vypršela (%s)"
+msgstr "Platnost registrace vyprší %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:25
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:42
@@ -12747,15 +12746,15 @@ msgid "You have the ReturnBeforeExpiry system preference enabled this means if t
 msgstr "Nastavení ReturnBeforeExpiry je povoleno. To znamená, že pokud registrace čtenáře vyprší dříve než by mělo být standardní datum vrácení výpůjček, potom bude výpůjční lhůta zkrácena do dne vypršení registrace "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:38
-#, fuzzy, c-format
+#, c-format
 msgid "Patron's card has expired."
 msgstr "Platnost registrace vypršela."
 
 #. %1$s:  expiry | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:40
-#, fuzzy, c-format
+#, c-format
 msgid "Patron's card expired on %s"
-msgstr "Platnost registrace vypršela (%s)"
+msgstr "Platnost registrace vypršela %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:48
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:343
@@ -12821,9 +12820,9 @@ msgid "View restrictions"
 msgstr "Zobrazit omezení"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:82
-#, fuzzy, c-format
+#, c-format
 msgid "Overdues:"
-msgstr "Překročené lhůty"
+msgstr "Výpůjčky po termínu:"
 
 # fakt nevím, jak lépe :-)
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:82
@@ -12980,9 +12979,9 @@ msgstr "%s Čeká zde %s do %s %s "
 
 #. %1$s:  w.waitingdate | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:224
-#, fuzzy, c-format
+#, c-format
 msgid "Waiting here since %s. "
-msgstr "Čeká v %s%s, %s%s od %s."
+msgstr "Čeká zde od %s. "
 
 #. %1$s:  waiting_elsewhere | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:234
@@ -13025,14 +13024,14 @@ msgstr "Doručovatel"
 
 #. %1$s:  cp.status | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:278
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown status \"%s\""
-msgstr "Neznámé pole"
+msgstr "Neznámý status \"%s\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:302
-#, fuzzy, c-format
+#, c-format
 msgid "Messages"
-msgstr "Zprávy:"
+msgstr "Zprávy"
 
 #. %1$s:  IF patron_message.patron_read_date 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:316
@@ -13046,14 +13045,14 @@ msgid "Add a new message"
 msgstr "Přidat novou zprávu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:343
-#, fuzzy, c-format
+#, c-format
 msgid "Edit message"
-msgstr "Upravit obrázek"
+msgstr "Upravit zprávu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:347
-#, fuzzy, c-format
+#, c-format
 msgid "Message is for:"
-msgstr "Text zprávy:"
+msgstr "Zpráva je pro:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patroncards-errors.inc:1
 #, c-format
@@ -13164,9 +13163,9 @@ msgid "An error has occurred while attempting to upload the image file. "
 msgstr "Došlo k chybě při nahrávání obrázku. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patroncards-errors.inc:39
-#, fuzzy, c-format
+#, c-format
 msgid "Image exceeds 2MB. Please resize and import again. "
-msgstr "Velikost obrázku překročila 500KB. Změnšete jej a proveďte import znovu. "
+msgstr "Velikost obrázku překročila 2MB. Zmenšete jeho velikost a znovu importujte. "
 
 #. %1$s:  image_limit | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patroncards-errors.inc:41
@@ -13617,9 +13616,9 @@ msgid "Manage curbside pickups "
 msgstr "Spravovat skupiny košíků "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:306
-#, fuzzy, c-format
+#, c-format
 msgid "Delete patrons "
-msgstr "Odstranit čtenáře"
+msgstr "Odstranit čtenáře "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:311
 #, c-format
@@ -14194,9 +14193,9 @@ msgstr "Nový poskytovatel SMS"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/register.tt:27
 #: koha-tmpl/intranet-tmpl/prog/en/modules/pos/register.tt:69
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:193
-#, fuzzy, c-format
+#, c-format
 msgid "Transaction history for %s"
-msgstr "Historie předplatného pro %s"
+msgstr "Historie platebních transakcí pro %s"
 
 #. For the first occurrence,
 #. %1$s:  Branches.GetLoggedInBranchname | html 
@@ -14379,7 +14378,7 @@ msgstr "Nové pole"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:57
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:105
-#, fuzzy, c-format
+#, c-format
 msgid "Requested by"
 msgstr "Vyžádáno"
 
@@ -14418,9 +14417,9 @@ msgid "Barcode: %s"
 msgstr "Čárový kód: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:54
-#, fuzzy, c-format
+#, c-format
 msgid "Never expires"
-msgstr "Heslo:"
+msgstr "Nikdy nevyprší"
 
 #. %1$s:  recall.library.branchname | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:66
@@ -14452,7 +14451,7 @@ msgstr "Vyžadovaná upomínka: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:76
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/holdshistory.tt:104
-#, fuzzy, c-format
+#, c-format
 msgid "Fulfilled"
 msgstr "Splněno"
 
@@ -14562,14 +14561,14 @@ msgid "Item is not checked out"
 msgstr "Jednotka není vypůjčená."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:7
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot be renewed yet"
-msgstr "Jednotku nelze prodloužit "
+msgstr "Zatím nelze prodloužit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:9
-#, fuzzy, c-format
+#, c-format
 msgid "Renewed the maximum number of times"
-msgstr "Pro tuto jednotku jste již využil/a maximální povolený počet prodloužení. "
+msgstr "Pro tuto jednotku byl již využit maximální povolený počet prodloužení"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:11
 #, fuzzy, c-format
@@ -14628,9 +14627,9 @@ msgstr "Putovní fond již obsahuje tyto jednotky:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/renew_strings.inc:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:111
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown error"
-msgstr "Neznámá chyba."
+msgstr "Neznámá chyba"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:8
@@ -14881,9 +14880,9 @@ msgid "Chart (.svg)"
 msgstr "Graf (.svg)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:146
-#, fuzzy, c-format
+#, c-format
 msgid "Show SQL code "
-msgstr "Zobrazit SQL kód"
+msgstr "Zobrazit SQL kód "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:151
 #: koha-tmpl/intranet-tmpl/prog/en/includes/reports-toolbar.inc:153
@@ -15597,9 +15596,8 @@ msgstr "Opravdu chcete odstranit tuto jednotku?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/cataloging_additem.inc:3
-#, fuzzy
 msgid "Are you sure you want to save?"
-msgstr "Jste si jistý(á), že chcete odstranit "
+msgstr "Jste si jistý(á), že chcete záznam uložit?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/cataloging_additem.inc:3
