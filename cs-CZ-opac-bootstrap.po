@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-30 03:02+0000\n"
-"PO-Revision-Date: 2024-02-10 03:00+0000\n"
-"Last-Translator: DagmarS <dagmar.sikova@seznam.cz>\n"
+"PO-Revision-Date: 2024-02-12 03:00+0000\n"
+"Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
@@ -193,9 +193,9 @@ msgid "Payment from library to patron"
 msgstr "Platba knihovny čtenáři"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/accounts.inc:29
-#, fuzzy, c-format
+#, c-format
 msgid "Credit has been voided"
-msgstr "Vaše nastavení bylo aktualizováno!"
+msgstr "Platba byla zrušena"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/accounts.inc:36
 #, c-format
@@ -2765,7 +2765,7 @@ msgstr "Požadavky na MVS"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-curbside-pickups.tt:110
 #, c-format
 msgid "Curbside pickups"
-msgstr ""
+msgstr "Objednávky pro výdejní okénko"
 
 #. %1$s:  logged_in_user.alert_subscriptions.count | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/usermenu.inc:167
@@ -5946,14 +5946,14 @@ msgid "Your curbside pickups &rsaquo; %s%s%sKoha online%s catalog"
 msgstr "Váš košík &rsaquo; %s%s%sKoha online%s katalog"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-curbside-pickups.tt:120
-#, fuzzy, c-format
+#, c-format
 msgid "The curbside pickup feature is not enabled for this library."
-msgstr "Tato funkce není zapnutá "
+msgstr "V této knihovně není funkce výdejního okénka aktivní."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-curbside-pickups.tt:122
 #, c-format
 msgid "Cannot create a curbside pickup for this day, it is a holiday."
-msgstr ""
+msgstr "Protože v tento den není otevřeno, není možné naplánovat výdej z okénka."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-curbside-pickups.tt:124
 #, fuzzy, c-format
