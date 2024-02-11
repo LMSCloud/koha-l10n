@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.14.000\n"
 "POT-Creation-Date: 2023-12-20 04:07+0000\n"
-"PO-Revision-Date: 2024-02-11 03:12+0000\n"
-"Last-Translator: DagmarS <dagmar.sikova@seznam.cz>\n"
+"PO-Revision-Date: 2024-02-12 03:13+0000\n"
+"Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
@@ -360,9 +360,9 @@ msgid "Payment from library to patron"
 msgstr "Platba knihovny čtenáři"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:27
-#, fuzzy, c-format
+#, c-format
 msgid "Credit has been voided"
-msgstr "Doklad byl změněn"
+msgstr "Platba byla zrušena"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/accounts.inc:34
 #, c-format
@@ -1651,7 +1651,7 @@ msgstr "Města a obce"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:55
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:121
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:36
-#, c-format, fuzzy
+#, c-format
 msgid "Curbside pickup"
 msgstr "Výdejní okénko"
 
@@ -2795,9 +2795,9 @@ msgid "Greek (modern)"
 msgstr "Řečtina (moderní)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search-results.inc:143
-#, fuzzy, c-format
+#, c-format
 msgid "Greek (to 1453)"
-msgstr "Starořečtina (do 1453)"
+msgstr "Řečtina (do 1453)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:5
 #, c-format
@@ -2805,9 +2805,9 @@ msgid "Order by "
 msgstr "Objednáno "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:31
-#, fuzzy, c-format
+#, c-format
 msgid "Operator "
-msgstr "Operátor"
+msgstr "Operátor "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:57
 #, c-format
@@ -2842,9 +2842,8 @@ msgstr "Hledání podle všech záhlaví"
 
 #. INPUT type=text name=value
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:140
-#, fuzzy
 msgid "Search any heading"
-msgstr "Hledání podle hlavního záhlaví"
+msgstr "Hledání ve všech záhlavích"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:163
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:193
@@ -2854,9 +2853,8 @@ msgstr "Hledat v celém záznamu"
 
 #. INPUT type=text name=value
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:167
-#, fuzzy
 msgid "Search any authority field"
-msgstr "Vložte jákekoliv pole autoritního záznamu:"
+msgstr "Vyhledávání v libovolném poli autorit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:184
 #, c-format
@@ -2876,7 +2874,7 @@ msgstr "Hlavní záhlaví"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:190
 #, c-format
 msgid "All headings"
-msgstr "Podle všech záhlaví"
+msgstr "Všechna záhlaví"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/authorities-search.inc:193
 #, c-format
@@ -3185,9 +3183,9 @@ msgstr "%s / %s záznamů bylo odstraněno, ale vyskytly se nějaké chyby. "
 
 #. %1$s:  m.authid | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_authority_record_deletion.inc:31
-#, fuzzy, c-format
+#, c-format
 msgid "The authority id %s does not exist in the database."
-msgstr "Obrázek se neimportoval, protože čtenář v databázi neexistuje. %s"
+msgstr "ID autority %s v databázi neexistuje."
 
 #. %1$s:  m.authid | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_authority_record_deletion.inc:33
@@ -3197,9 +3195,9 @@ msgstr "Autoritní záznam %s nebyl smazán. Došlo k chybě."
 
 #. %1$s:  m.authid | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_authority_record_deletion.inc:35
-#, fuzzy, c-format
+#, c-format
 msgid "Authority %s has been deleted successfully."
-msgstr "Lokalizace (id %s) byla úspěšně přidána"
+msgstr "Autorita %s byla úspěšně odstraněna."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_authority_record_modification.inc:6
 #, c-format
@@ -3253,15 +3251,15 @@ msgstr "Autoritní záznam %s byl úspěšně upraven."
 #. %1$s:  m.biblionumber | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_biblio_record_deletion.inc:32
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:41
-#, fuzzy, c-format
+#, c-format
 msgid "The biblionumber %s does not exist in the database."
-msgstr "Obrázek se neimportoval, protože čtenář v databázi neexistuje. %s"
+msgstr "Biblionumber %s v databázi neexistuje."
 
 #. %1$s:  m.biblionumber | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_biblio_record_deletion.inc:34
 #, c-format
 msgid "At least one item is checked out on bibliographic record %s."
-msgstr "Alespoň jedna jednotka tohoto biliografického záznamu je výpůjčena %s."
+msgstr "Alepoň jedna jednotka patřící k titulu % je vypůjčená."
 
 #. %1$s:  m.biblionumber | html 
 #. %2$s:  m.reserve_id | html 
@@ -3295,9 +3293,9 @@ msgid "All records have successfully been modified!"
 msgstr "Všechny záznamy se podařilo úspěšně upravit!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_biblio_record_modification.inc:11
-#, fuzzy, c-format
+#, c-format
 msgid "Add modified records to the following list:"
-msgstr "Použít záznamy ze seznamu: "
+msgstr "Přidejte upravené záznamy do následujícího seznamu:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_biblio_record_modification.inc:13
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:92
@@ -3319,9 +3317,9 @@ msgid "Bibliographic record %s has successfully been modified."
 msgstr "Bibliografický záznam %s byl úspěšně upraven."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_hold_cancel.inc:6
-#, fuzzy, c-format
+#, c-format
 msgid "All holds have successfully been cancelled! "
-msgstr "Všechny záznamy se podařilo úspěšně upravit! "
+msgstr "Všechny rezervace byly úspěšně zrušeny! "
 
 #. %1$s:  report.total_success | html 
 #. %2$s:  report.total_holds | html 
@@ -3331,9 +3329,9 @@ msgid "%s / %s holds have successfully been modified. Some errors occurred."
 msgstr "%s / %s záznamů bylo úspěšně upraveno. Vyskytlo se několik chyb. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_hold_cancel.inc:32
-#, fuzzy, c-format
+#, c-format
 msgid "Hold on "
-msgstr "Nalezena rezervace: "
+msgstr "Rezervováno "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_hold_cancel.inc:32
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/add_items-step2.tt:40
@@ -3342,14 +3340,14 @@ msgid "for "
 msgstr "pro "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_hold_cancel.inc:32
-#, fuzzy, c-format
+#, c-format
 msgid "has not been cancelled."
-msgstr "Rezervace byla zrušena"
+msgstr "nebyla zrušena."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_hold_cancel.inc:34
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred on cancelling."
-msgstr "Při odstraňování obrázku se vyskytla chyba"
+msgstr "Při rušení došlo k chybě."
 
 #. %1$s:  m.hold_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_hold_cancel.inc:37
@@ -3402,9 +3400,9 @@ msgstr "%s jednotku(y) se nepodařilo smazat: %s%s%s "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_item_record_deletion.inc:25
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_item_record_modification.inc:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:38
-#, fuzzy, c-format
+#, c-format
 msgid "New batch item modification"
-msgstr "Dávková úprava jednotek"
+msgstr "Nová dávka pro hromadnou úpravu jednotek"
 
 #. %1$s:  item_link | $raw | $KohaSpan
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_item_record_deletion.inc:44
@@ -3460,9 +3458,9 @@ msgid "%s item(s) modified (with %s field(s) modified)."
 msgstr "%s jednotek upraveno (%s upravených polí)."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/batch_item_record_modification.inc:10
-#, fuzzy, c-format
+#, c-format
 msgid "No items modified."
-msgstr "Nezměněno"
+msgstr "Žádné jednotky nebyly upraveny."
 
 #. For the first occurrence,
 #. %1$s:  report.modified_itemnumbers.size | html 
@@ -3492,15 +3490,15 @@ msgstr "%s / %s záznamů bylo úspěšně upraveno. Vyskytlo se několik chyb. 
 
 #. %1$s:  m.package_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/create_eholdings_from_biblios.inc:32
-#, fuzzy, c-format
+#, c-format
 msgid "The package #%s does not exist."
-msgstr "Jednotka (%s) neexistuje."
+msgstr "Balíček #%s neexistuje."
 
 #. %1$s:  m.biblio_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/create_eholdings_from_biblios.inc:34
-#, fuzzy, c-format
+#, c-format
 msgid "The bibliographic record (%s) already exists in this package ("
-msgstr "Obrázek se neimportoval, protože čtenář v databázi neexistuje. %s"
+msgstr "Bibliografický záznam (%s) již v tomto balíčku existuje ("
 
 #. %1$s:  m.resource_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/create_eholdings_from_biblios.inc:34
@@ -3547,17 +3545,17 @@ msgid "Number of items replaced"
 msgstr "Počet nahrazených jednotek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/marc_import_commit_batch.inc:31
-#, fuzzy, c-format
+#, c-format
 msgid "Number of items ignored"
-msgstr "Počet vynechaných záznamů"
+msgstr "Počet ignorovaných jednotek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/marc_import_commit_batch.inc:36
 #, c-format
 msgid "Manage imported batch"
-msgstr "Správa importované dávky"
+msgstr "Spravovat importovanou dávku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/marc_import_revert_batch.inc:7
-#, fuzzy, c-format
+#, c-format
 msgid "Success: Import reverted"
 msgstr "Úspěch: Import zrušen"
 
@@ -6763,7 +6761,7 @@ msgstr "Rezervace čekající na vyzvednutí"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:90
 #, c-format
 msgid "Curbside pickups"
-msgstr ""
+msgstr "Objednávky pro výdejní okénko"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:65
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:79
@@ -11785,9 +11783,9 @@ msgid "Holds waiting at other libraries (%s)"
 msgstr "Rezervace čekající v jiných knihovnách (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:254
-#, c-format, fuzzy
+#, c-format
 msgid "Curbside pickups scheduled here"
-msgstr "Vyzvednutí v tomto výdejním okénku"
+msgstr "Naplánované objednávky z výdejního okénka"
 
 #. %1$s:  cp.scheduled_pickup_datetime | $KohaDates 
 #. %2$s:  SWITCH cp.status 
@@ -12828,9 +12826,9 @@ msgid "Manage background jobs "
 msgstr "Správa úkolů na pozadí "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:290
-#, fuzzy, c-format
+#, c-format
 msgid "Manage curbside pickups "
-msgstr "Spravovat skupiny košíků "
+msgstr "Správa objednávek z výdejního okénka "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:295
 #, c-format
@@ -31653,12 +31651,12 @@ msgid "%s [%% SET pref_CurbsidePickup_link = '"
 msgstr "%s [%% SET pref_CurbsidePickup_link = '"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:57
-#, fuzzy, c-format
+#, c-format
 msgid "Curbside pickup configuration"
-msgstr "Konfigurace výpůjček"
+msgstr "Nastavení výdejního okénka"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:60
-#, c-format, fuzzy
+#, c-format
 msgid "CurbsidePickup"
 msgstr "Objednávky z výdejního okénka"
 
@@ -31676,7 +31674,7 @@ msgstr "Zapnout"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:94
 #, c-format
 msgid "Enable curbside pickup."
-msgstr ""
+msgstr "Zapnout objednávky z výdejního okénka."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:98
 #, fuzzy, c-format
@@ -31706,7 +31704,7 @@ msgstr "Naplánované vyzvednutí čtenářem: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:116
 #, c-format
 msgid "Enable patrons to schedule their own curbside pickups."
-msgstr "Povolit čtenářům plánovat si vlastní termín vyzvednutí."
+msgstr "Povolit čtenářům plánovat si vlastní termín pro vyzvednutí."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:120
 #, c-format
@@ -31721,7 +31719,7 @@ msgstr "Povolit jen pokud má čtenář rezervace čekající k vyzvednutí."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:132
 #, c-format
 msgid "Curbside pickup hours"
-msgstr "Časy, kdy jsou vyřizovány objednávky pro výdejní okénko"
+msgstr "Časy, kdy jsou vyřizovány objednávky z výdejního okénka"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/curbside_pickup.tt:134
 #, c-format
@@ -40799,7 +40797,7 @@ msgstr "Chyba: Jednotka '%s' patří do jiného balíčku"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1644
 msgid "Failure: Item '%s' is a bundle and bundles cannot be nested"
-msgstr ""
+msgstr "Selhání: Jednotka '%s' je v dávce a ty nelze vnořovat"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -44991,19 +44989,19 @@ msgid "Patron has items overdue"
 msgstr "Čtenář má jednotky, které nevrátil včas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:93
-#, fuzzy, c-format
+#, c-format
 msgid "Curbside pickups are not enabled for your library. "
-msgstr ": Tato jednotka nepatří do vaší knihovny."
+msgstr "Výdejní okénko není ve vaší knihovně aktivní. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:104
-#, fuzzy, c-format
+#, c-format
 msgid "The curbside pickup feature is not enabled for this library."
-msgstr "Nejsou žádná upozornění pro tuto knihovnu."
+msgstr "V této knihovně není funkce výdejního okénka aktivní."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:106
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot create a curbside pickup for this day, it is a holiday."
-msgstr "Generovat výjimku pro toto opakující se uzavírací období."
+msgstr "Protože v tento den není otevřeno, není možné naplánovat výdej z okénka."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:108
 #, fuzzy, c-format
@@ -48183,7 +48181,7 @@ msgstr "Nezměněno"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:234
 #, c-format
 msgid "Item information is not available for record-level course reserve"
-msgstr ""
+msgstr "Informace o jednotce nejsou pro rezervace na záznam dostupné"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:259
 #, c-format
@@ -49733,7 +49731,7 @@ msgstr "Správa úkolů na pozadí "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:252
 #, c-format
 msgid "New curbside pickups"
-msgstr "Nová objednávka pro výdejní okénko"
+msgstr "Nová objednávka z výdejního okénka"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:288
