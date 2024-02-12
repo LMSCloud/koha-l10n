@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.14.000\n"
 "POT-Creation-Date: 2023-12-20 04:07+0000\n"
-"PO-Revision-Date: 2024-02-12 03:13+0000\n"
-"Last-Translator: m23 <black23@gmail.com>\n"
+"PO-Revision-Date: 2024-02-13 03:12+0000\n"
+"Last-Translator: DagmarS <dagmar.sikova@seznam.cz>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
@@ -21148,9 +21148,9 @@ msgid "%sNew %sBasket %s (%s) for %s &rsaquo; Acquisitions &rsaquo; Koha"
 msgstr "%sNový %sKošík %s (%s) pro %s &rsaquo; Akvizice &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:49
-#, fuzzy, c-format
+#, c-format
 msgid "Deleted"
-msgstr "Odstranit "
+msgstr "Odstraněno"
 
 #. For the first occurrence,
 #. %1$s:  basketname | html 
@@ -21167,7 +21167,7 @@ msgstr "Košík %s (%s) pro %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:57
 #, c-format
 msgid "Basket %s for %s"
-msgstr "Košík %s pro dodavatele %s"
+msgstr "Košík %s pro %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:69
 #, c-format
@@ -21199,9 +21199,9 @@ msgstr "Není možné uzavřít košík s jednotkami, které mají nejisté ceny
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:88
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:92
-#, fuzzy, c-format
+#, c-format
 msgid "Close basket"
-msgstr "Zavřít tento košík"
+msgstr "Zavřít košík"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:99
 #, c-format
@@ -21360,9 +21360,9 @@ msgid "%sNew %sBasket %s (%s) for "
 msgstr "%sNový %sKošík %s (%s) pro "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:237
-#, fuzzy, c-format
+#, c-format
 msgid "General information"
-msgstr "Server"
+msgstr "Obecné informace"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:240
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:273
@@ -21410,14 +21410,14 @@ msgid "Closed on:"
 msgstr "Zavřeno v:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:269
-#, fuzzy, c-format
+#, c-format
 msgid "Sent"
-msgstr "Odeslat"
+msgstr "Odesláno"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:270
-#, fuzzy, c-format
+#, c-format
 msgid "Processed"
-msgstr "Zpracovat"
+msgstr "Zpracováno"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:274
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:276
@@ -21426,9 +21426,9 @@ msgid "EDI status:"
 msgstr "Stav jednotky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:276
-#, fuzzy, c-format
+#, c-format
 msgid "Not ordered"
-msgstr "Neřadit"
+msgstr "Neobjednáno"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:280
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/moddeliverydate.tt:36
@@ -21490,9 +21490,9 @@ msgstr "Podání objednávky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:303
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:131
-#, fuzzy, c-format
+#, c-format
 msgid "Settings"
-msgstr "Nastavení "
+msgstr "Nastavení"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:308
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:279
@@ -21555,9 +21555,9 @@ msgstr "(žádná knihovna)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:378
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:412
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/booksellers.tt:170
-#, fuzzy, c-format
+#, c-format
 msgid "(closed)"
-msgstr "je uzavřený"
+msgstr "(uzavřený)"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:376
@@ -21798,9 +21798,9 @@ msgstr "%s %s %s%s od %s%s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:554
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:728
-#, fuzzy, c-format
+#, c-format
 msgid "(received)"
-msgstr "Přijato"
+msgstr "(přijato)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:558
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:732
@@ -22064,9 +22064,8 @@ msgstr "Poznámka k objednávce"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:932
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:1073
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:324
-#, fuzzy
 msgid "(order number %s)"
-msgstr "%s (číslo objednávky %s)"
+msgstr "(číslo objednávky %s)"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -22093,9 +22092,8 @@ msgstr "Seskupení košíků pro %s &rsaquo; Koha"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:10
-#, fuzzy
 msgid "Add to group"
-msgstr "Přidat skupinu"
+msgstr "Přidat do skupiny"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:10
@@ -22226,12 +22224,12 @@ msgstr "Neseskupení košíků"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:281
 #, c-format
 msgid "No name, basketnumber: %s"
-msgstr "Bez jména, číslo košíku: %s"
+msgstr "Bez názvu, číslo košíku: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:185
-#, fuzzy, c-format
+#, c-format
 msgid "Add to group "
-msgstr "Přidat skupinu "
+msgstr "Přidat do skupiny "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:209
 #, c-format
@@ -22364,9 +22362,9 @@ msgstr "%s %sUpravit košík '%s'%sVložit košík do %s %s %s &rsaquo; Akvizice
 
 #. %1$s:  basketname | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketheader.tt:33
-#, fuzzy, c-format
+#, c-format
 msgid "Edit basket '%s'"
-msgstr "Upravit košík '%s' "
+msgstr "Upravit košík '%s'"
 
 #. For the first occurrence,
 #. %1$s:  booksellername | html 
