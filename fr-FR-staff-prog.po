@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-02 03:02+0000\n"
-"PO-Revision-Date: 2024-02-07 03:01+0000\n"
+"PO-Revision-Date: 2024-02-13 03:00+0000\n"
 "Last-Translator: mathsaby <mathsabypro@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
@@ -10964,7 +10964,7 @@ msgstr "Catégorie"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-patron-selections.inc:5
 #, c-format
 msgid "Keep patrons selected for a new operation"
-msgstr "Garder les adhérents sélectionnés pour une nouvelle opération"
+msgstr "Conserver la sélection des adhérents pour une nouvelle opération"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/members-toolbar.inc:14
 #, c-format
@@ -38969,9 +38969,9 @@ msgid "%s No results found %s "
 msgstr "%s Aucun résultat %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:10
-#, fuzzy, c-format
+#, c-format
 msgid "Selected items:"
-msgstr "Sélectionnez les exemplaires&nbsp;:"
+msgstr "Exemplaires sélectionnés :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:14
 #, c-format
@@ -43780,9 +43780,9 @@ msgid "Cancel recall"
 msgstr "Annuler le rappel"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:356
-#, fuzzy, c-format
+#, c-format
 msgid "Reducing due date to: "
-msgstr "Préciser une date de retour %s : "
+msgstr "Réduire la date de retour prévu au : "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:362
 #, fuzzy, c-format
@@ -44172,30 +44172,30 @@ msgstr "Vous avez déjà soumis un code barres, merci d'attendre le retour pour 
 #. %2$s:  ItemTypes.GetDescription( rule.itemtype ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1074
-#, fuzzy, c-format
+#, c-format
 msgid "Item type: %s %s %s "
-msgstr "Le type du document est %s"
+msgstr "Type de document : %s%s%s "
 
 #. %1$s:  IF rule.categorycode 
 #. %2$s:  Categories.GetName( rule.categorycode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1082
-#, fuzzy, c-format
+#, c-format
 msgid "Patron category: %s %s %s "
-msgstr "Catégorie d'adhérents = %s"
+msgstr "Catégorie d'adhérent : %s%s%s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1087
-#, fuzzy, c-format
+#, c-format
 msgid "All patron categories"
-msgstr "catégories de lecteur"
+msgstr "Toutes les catégories d'adhérent"
 
 #. %1$s:  IF rule.branchcode 
 #. %2$s:  Branches.GetName( rule.branchcode ) | html 
 #. %3$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1090
-#, fuzzy, c-format
+#, c-format
 msgid "Library: %s %s %s "
-msgstr "Le site est %s"
+msgstr "Site : %s%s%s "
 
 #. %1$s:  INCLUDE 'patron-title.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:36
@@ -44218,30 +44218,30 @@ msgid "Cannot check out! %s %s %s %s "
 msgstr "Prêt impossible ! %s %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:92
-#, fuzzy, c-format
+#, c-format
 msgid "Enter barcodes (one barcode per line): "
-msgstr "Liste de codes à barres (un par ligne) : "
+msgstr "Saisir les codes à barres (un par ligne) : "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:96
-#, fuzzy, c-format
+#, c-format
 msgid "Or use a file: "
-msgstr "Utilisez un fichier"
+msgstr "Ou utilisez un fichier : "
 
 #. %1$s:  INCLUDE 'date-format.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:107
-#, fuzzy, c-format
+#, c-format
 msgid "Specify due date: %s"
-msgstr "Préciser une date de retour %s : "
+msgstr "Préciser une date de retour prévu : %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:136
-#, fuzzy, c-format
+#, c-format
 msgid "Batch checkout confirmation"
-msgstr "Confirmation du prêt par lot %s pour %s%s"
+msgstr "Confirmation du prêt par lot"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:139
-#, fuzzy, c-format
+#, c-format
 msgid "Batch checkout results"
-msgstr "Prêt par lot "
+msgstr "Résultats du prêt par lot"
 
 #. %1$s:  INCLUDE 'biblio-title.inc' biblio=checkout_info.biblio link = 1 
 #. %2$s:  IF checkout_info.biblio.author 
@@ -45249,7 +45249,7 @@ msgid "Patron reached daily limit."
 msgstr "L'adhérent a atteint la limite quotidienne."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:102
-#, fuzzy, c-format
+#, c-format
 msgid "An error has occurred. Check the logs for details."
 msgstr "Une erreur s'est produite. Vérifiez les logs."
 
@@ -45515,15 +45515,15 @@ msgstr "Le transfert a été annulé pendant le transit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1288
-#, fuzzy, c-format
+#, c-format
 msgid "Recall"
-msgstr "Rappels"
+msgstr "Rappel"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:141
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1289
-#, fuzzy, c-format
+#, c-format
 msgid "Cancelled recall"
-msgstr "Annuler le rappel"
+msgstr "Rappel annulé"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:154
 #, c-format
@@ -46128,9 +46128,9 @@ msgid "Transfer to"
 msgstr "Transférer à"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1226
-#, fuzzy, c-format
+#, c-format
 msgid "Transfer reason"
-msgstr "Transférer à"
+msgstr "Motif du transfert"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1229
 #, c-format
@@ -46545,9 +46545,9 @@ msgstr "Annuler les réservations sélectionnées (%s)"
 #. %1$s:  club.name | html | $HtmlTags tag="em" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:46
-#, fuzzy, c-format
+#, c-format
 msgid "Club enrollments for %s"
-msgstr "Inscriptions dans le club "
+msgstr "Inscriptions au club pour %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/club-enrollments.tt:44
 #, c-format
@@ -46664,9 +46664,9 @@ msgid "Date enrolled"
 msgstr "Inscrit le"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-clubs-tab.tt:25
-#, fuzzy, c-format
+#, c-format
 msgid "Modify enrollment "
-msgstr "Modifier la notice "
+msgstr "Modifier l'inscription "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-clubs-tab.tt:28
 #, c-format
@@ -46700,9 +46700,8 @@ msgstr "Finir l'inscription"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-enroll.tt:64
-#, fuzzy
 msgid "Modifying enrollment"
-msgstr "Finir l'inscription"
+msgstr "Modification de l'inscription"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/clubs/patron-enroll.tt:64
