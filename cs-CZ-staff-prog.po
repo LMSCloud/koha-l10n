@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-02 03:02+0000\n"
-"PO-Revision-Date: 2024-02-13 03:00+0000\n"
-"Last-Translator: m23 <black23@gmail.com>\n"
+"PO-Revision-Date: 2024-02-13 14:25+0000\n"
+"Last-Translator: DagmarS <dagmar.sikova@seznam.cz>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
@@ -25089,9 +25089,9 @@ msgid "%s(tax inc.)%s(tax exc.)%s "
 msgstr "%s(včetně daně)%s(bez daně)%s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:716
-#, fuzzy, c-format
+#, c-format
 msgid "Estimated delivery date: "
-msgstr "Předpokládané datum doručení:"
+msgstr "Předpokládané datum doručení: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:757
 #, c-format
@@ -25125,9 +25125,9 @@ msgid "Field autofilled by plugin"
 msgstr "Pole automaticky vyplněno zásuvným modulem"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty_duplicate.tt:40
-#, fuzzy, c-format
+#, c-format
 msgid "You selected a record from an external source that matches an existing record in your catalog: "
-msgstr "Vybrali jste záznam z externího zdroje, který odpovídá existujícímu záznamu ve vašem katalogu: %s"
+msgstr "Vybrali jste záznam z externího zdroje, který odpovídá existujícímu záznamu ve vašem katalogu: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty_duplicate.tt:47
 #, c-format
@@ -25141,7 +25141,6 @@ msgstr "Nevytvářet duplicitní záznam. Přidejte objednávku ze stávajícíh
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty_duplicate.tt:52
-#, fuzzy
 msgid "Use existing"
 msgstr "Použít existující"
 
@@ -25253,9 +25252,9 @@ msgid "Mine"
 msgstr "Moje"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersuggestion.tt:55
-#, fuzzy, c-format
+#, c-format
 msgid "Document type"
-msgstr "Typ dokumentu:"
+msgstr "Typ dokumentu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersuggestion.tt:56
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:727
@@ -25313,9 +25312,9 @@ msgstr "%s Neexistují nezpracované (přijaté) návrhy. %s "
 
 #. %1$s:  fund_code | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/ordered.tt:28
-#, fuzzy, c-format
+#, c-format
 msgid "Ordered - %s"
-msgstr "Objednáno - %s "
+msgstr "Objednáno - %s"
 
 #. %1$s:  fund_code | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/ordered.tt:39
@@ -25373,16 +25372,16 @@ msgstr "Celkem "
 #. %2$s:  invoice | html 
 #. %3$s:  multiple_orders | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:92
-#, fuzzy, c-format
+#, c-format
 msgid "Receive items from: %s [%s] (order #%s)"
-msgstr "Přijmout jednotky z : %s %s[%s] %s (objednávka #%s)"
+msgstr "Přijmout jednotky z: %s [%s] (objednávka #%s)"
 
 #. %1$s:  name | html 
 #. %2$s:  multiple_orders | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:94
-#, fuzzy, c-format
+#, c-format
 msgid "Receive items from: %s (order #%s)"
-msgstr "Přijmout jednotky z : %s %s[%s] %s (objednávka #%s)"
+msgstr "Přijmout jednotky z: %s (objednávka #%s)"
 
 #. %1$s:  name | html 
 #. %2$s:  IF ( invoice ) 
@@ -25409,9 +25408,9 @@ msgid "Job progress: "
 msgstr "Postup činnosti: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:142
-#, fuzzy, c-format
+#, c-format
 msgid "Loading ..."
-msgstr "Načítá se..."
+msgstr "Načítá se ..."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:154
 #, c-format
@@ -25555,15 +25554,15 @@ msgid "Previous order"
 msgstr "Naposledy měl vypůjčeno:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:415
-#, fuzzy, c-format
+#, c-format
 msgid "Next order"
-msgstr "Nová objednávka "
+msgstr "Další objednávka"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:432
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:461
-#, fuzzy, c-format
+#, c-format
 msgid "Accept"
-msgstr "Přijato"
+msgstr "Přijmout"
 
 #. %1$s:  ELSE 
 #. %2$s:  END 
@@ -25574,9 +25573,8 @@ msgstr "%sNeznámé číslo objednávky.%s "
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:461
-#, fuzzy
 msgid "(Current: %0$s - %1$s)"
-msgstr "(Aktuální: %s - %s)"
+msgstr "(Aktuální: %0$s - %1$s)"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:461
@@ -25592,21 +25590,18 @@ msgstr "(upraveno pro %s, %ss daní%sbez daně%s)"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:461
-#, fuzzy
 msgid "(tax exclusive)"
-msgstr "(mimořádné) "
+msgstr "(bez daně)"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:461
-#, fuzzy
 msgid "(tax inclusive)"
-msgstr "(včetně)"
+msgstr "(včetně daně)"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:461
-#, fuzzy
 msgid "Account has been deleted"
-msgstr "Tento účet byl uzamčen."
+msgstr "Účet byl smazán"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:461
@@ -25616,9 +25611,8 @@ msgstr "Autorita č. %s (%s)"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:461
-#, fuzzy
 msgid "Keep current (%0$s - %1$s)"
-msgstr "Zachovat stávající (%s - %s)"
+msgstr "Zachovat stávající (%0$s - %1$s)"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:461
@@ -25654,9 +25648,9 @@ msgstr "Rekapitulace účtenky pro "
 #. %1$s:  name | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:48
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:74
-#, fuzzy, c-format
+#, c-format
 msgid "Receive orders from %s"
-msgstr "Přijmout objednávky od %s "
+msgstr "Přijmout objednávky od %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:62
 #, c-format
@@ -25679,9 +25673,9 @@ msgid "The order has been canceled, although the record has not been deleted."
 msgstr "Objednávka byla zrušena, i když záznam nebyl odstraněn."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:91
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot cancel receipt. Possible reasons:"
-msgstr "Účtenku nelze stornovat. Možné důvody : "
+msgstr "Účtenku nelze stornovat. Možné důvody:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:93
 #, fuzzy, c-format
