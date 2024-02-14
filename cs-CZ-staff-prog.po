@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.14.000\n"
 "POT-Creation-Date: 2023-12-20 04:07+0000\n"
-"PO-Revision-Date: 2024-02-14 07:10+0000\n"
+"PO-Revision-Date: 2024-02-15 04:13+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
@@ -11058,7 +11058,7 @@ msgstr "Vytvořeno"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-restrictions-tab.inc:28
 #, c-format
 msgid "Restriction added by overdues process %s"
-msgstr "Omezení bylo vytvořeno při zpracovávání upomínek %s"
+msgstr "Omezení bylo vytvořeno při zpracování upomínek %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-restrictions-tab.inc:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1426
@@ -11126,9 +11126,9 @@ msgid "Claim ID"
 msgstr "ID sporné výpůjčky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:15
-#, fuzzy, c-format
+#, c-format
 msgid "Resolved?"
-msgstr "Vyřešit"
+msgstr "Vyřešeno?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:18
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:19
@@ -11184,15 +11184,15 @@ msgstr "Knihovna:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:64
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:325
-#, fuzzy, c-format
+#, c-format
 msgid "Sort 1:"
-msgstr "Řazení 1"
+msgstr "Řazení 1:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:69
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:326
-#, fuzzy, c-format
+#, c-format
 msgid "Sort 2:"
-msgstr "Řazení 2"
+msgstr "Řazení 2:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:78
 #, c-format
@@ -11488,7 +11488,7 @@ msgstr "' %%] [%%- span_end = '"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-title.inc:79
 #, c-format
 msgid "A patron from library %s"
-msgstr "Domovská knihovna čtenáře %s"
+msgstr "Čtenář z knihovny %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-toolbar.inc:9
 #, c-format
@@ -11586,9 +11586,9 @@ msgid "Address:"
 msgstr "Adresa:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:48
-#, fuzzy, c-format
+#, c-format
 msgid "Patron's address flagged as in doubt"
-msgstr "Adresa čtenáře je nejistá"
+msgstr "Adresa čtenáře je označená jako nejistá"
 
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:48
@@ -11656,7 +11656,7 @@ msgstr "Výpůjčky po termínu:"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:88
 #, c-format
 msgid "Patron has ITEMS OVERDUE "
-msgstr "Čtenář má JEDNOTKY, které nevrátil včas "
+msgstr "Čtenář má VÝPŮJĆKY, které měly již být vráceny "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:88
 #, c-format
@@ -11721,9 +11721,9 @@ msgstr "Čekající rezervace:: %s"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:174
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:210
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:232
-#, fuzzy, c-format
+#, c-format
 msgid "(%s), %s by %s %s %s [%s] %s "
-msgstr "%s %s, od %s%s%s, %s%s"
+msgstr "(%s), %s od %s %s %s [%s] %s "
 
 #. For the first occurrence,
 #. %1$s:  w.created_date | $KohaDates 
@@ -11766,7 +11766,7 @@ msgstr "%s Čeká v %s %s do %s %s "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:205
 #, c-format
 msgid "Holds waiting here (%s)"
-msgstr "Rezervace čekající na tomto oddělení (%s)"
+msgstr "Zde čekající rezervace: %s"
 
 #. For the first occurrence,
 #. %1$s:  w.reservedate | $KohaDates 
@@ -11791,9 +11791,9 @@ msgstr "Naplánované objednávky z výdejního okénka"
 #. %2$s:  SWITCH cp.status 
 #. %3$s:  CASE 'to-be-staged' 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:257
-#, fuzzy, c-format
+#, c-format
 msgid "On %s: %s %s "
-msgstr "Tel: %s%s %s "
+msgstr "Dne %s: %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:260
 #, c-format
@@ -11811,9 +11811,9 @@ msgid "Patron is outside!"
 msgstr "Čtenář čeká na vyzvednutí!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:269
-#, fuzzy, c-format
+#, c-format
 msgid "Delivered"
-msgstr "Doručovatel"
+msgstr "Doručeno"
 
 #. %1$s:  cp.status | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:271
@@ -12500,9 +12500,9 @@ msgid "Check out and check in items"
 msgstr "Půjčovat a vracet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:10
-#, fuzzy, c-format
+#, c-format
 msgid "Staff access, allows viewing of catalogue in staff interface"
-msgstr "Přístup do intranetu, povoluje přístup do katalogu v intranetu."
+msgstr "Přístup pro zaměstnance, umožňuje prohlížení katalogu v rozhraní pro knihovníky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:11
 #, c-format
@@ -12621,7 +12621,7 @@ msgstr "Správa příjmů a výdajů"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:76
 #, c-format
 msgid "OPAC problem reports management"
-msgstr "Správa problémů nahlášených přes on-line katalog"
+msgstr "Správa hlášení o problémech s OPAC"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:82
 #, c-format
@@ -12755,9 +12755,9 @@ msgid "Manage item search fields "
 msgstr "Spravovat pole pro vyhledávání jednotek "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:220
-#, fuzzy, c-format
+#, c-format
 msgid "Manage saved search filters "
-msgstr "Spravovat pole pro vyhledávání jednotek "
+msgstr "Správa uložených filtrů vyhledávání "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:225
 #, c-format
@@ -12765,9 +12765,9 @@ msgid "Manage search engine configuration "
 msgstr "Spravovat nastavení vyhledávače "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:230
-#, fuzzy, c-format
+#, c-format
 msgid "Manage MARC overlay rules configuration "
-msgstr "Spravovat nastavení sloupců "
+msgstr "Správa nastavení pravidel pro přepis MARC "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:235
 #, c-format
@@ -12932,12 +12932,12 @@ msgstr "Promíjet poplatky "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:395
 #, c-format
 msgid "Add manual invoices to a patron account "
-msgstr ""
+msgstr "Přidávání ručných poplatků v kontě čtenáře "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:400
-#, fuzzy, c-format
+#, c-format
 msgid "Add manual credits to a patron account "
-msgstr "Dávková úprava čtenářů "
+msgstr "Přidávání ručných poplatků v kontě čtenáře "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:405
 #, c-format
@@ -13067,7 +13067,7 @@ msgstr "Import údajů o uživatelích "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:530
 #, c-format
 msgid "Perform inventory of your catalog "
-msgstr "Provádět revizi knihovního fondu "
+msgstr "Provést revizi knihovního fondu "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:535
 #, c-format
@@ -13351,9 +13351,9 @@ msgid "Add, edit and archive cash registers "
 msgstr "Přidávat, upravovat a archivovat pokladny "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:812
-#, fuzzy, c-format
+#, c-format
 msgid "Access the point of sale page and take payments "
-msgstr "Přístup ke stránce prodejního místa a přijetí plateb "
+msgstr "Přístup na stránku prodejního místa a přijem plateb "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:817
 #, c-format
@@ -13376,9 +13376,9 @@ msgid "Manage recalls for patrons "
 msgstr "Spravovat přednostní rezervace čtenářů "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:840
-#, fuzzy, c-format
+#, c-format
 msgid "Manage identity providers "
-msgstr "Nový poskytovatel identit"
+msgstr "Správa poskytovatelů identit "
 
 #. For the first occurrence,
 #. %1$s:  Registers.session_register_name | html 
@@ -13506,7 +13506,7 @@ msgstr "On-line katalog"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-menu.inc:124
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-menu.inc:128
 msgid "Online Public Access Catalog"
-msgstr "Online katalog"
+msgstr "Veřejný online katalog"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-menu.inc:144
@@ -13525,9 +13525,9 @@ msgstr "Hledání"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:404
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:478
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:480
-#, fuzzy, c-format
+#, c-format
 msgid "Staff interface"
-msgstr "Přihlášení do katalogu/intranetu"
+msgstr "Rozhraní pro knihovníky"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/prefs-menu.inc:184
@@ -14697,9 +14697,8 @@ msgstr "Dokončit"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/job_progress.inc:2
-#, fuzzy
 msgid "Not started"
-msgstr "Bez stavu"
+msgstr "Nespuštěno"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -15471,9 +15470,8 @@ msgstr "Hledat pouze celá slova"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/str/tinymce_i18n.inc:2
-#, fuzzy
 msgid "Finding word suggestions"
-msgstr "Nevyřízené návrhy"
+msgstr "Hledání návrhů slov"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -18902,9 +18900,9 @@ msgid "EMN (Ecole des Mines de Nantes)"
 msgstr "EMN (Ecole des Mines de Nantes)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:749
-#, fuzzy, c-format
+#, c-format
 msgid ", France (bibliographic frameworks, MARC authorities, OPAC basket, Serials sponsorship) "
-msgstr ", Francie (sponzorovali vývoj katalogizačních šablon, autorit ve formátu MARC, košík v on-line katalogu a modul Periodika)"
+msgstr ", Francie (sponzorovali vývoj katalogizačních šablon, autorit ve formátu MARC, košík v on-line katalogu a modul Periodika) "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:749
 #, c-format
@@ -21482,9 +21480,9 @@ msgid "Cataloguing items"
 msgstr "Tabulky pro katalogizaci"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:290
-#, fuzzy, c-format
+#, c-format
 msgid "Placing orders"
-msgstr "Podání objednávky"
+msgstr "Vytvoření objednávky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:303
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:131
@@ -21498,7 +21496,7 @@ msgstr "Nastavení"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:1157
 #, c-format
 msgid "Managed by:"
-msgstr "Vyřizuje:"
+msgstr "Zpracoval:"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -24359,9 +24357,9 @@ msgstr "Vytvořit novou"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersubscription.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-home.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:10
-#, fuzzy, c-format
+#, c-format
 msgid "Serials %s &rsaquo; Koha"
-msgstr "Chyba %s &rsaquo; Koha"
+msgstr "Periodika %s &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersubscription.tt:30
 #, fuzzy, c-format
@@ -26385,7 +26383,7 @@ msgstr "Test formální správnosti struktury katalogizačních šablon MARC. Po
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:179
 #, c-format
 msgid "Create and manage Authorities frameworks that define the characteristics of your MARC Records (field and subfield definitions)"
-msgstr "Tvorba a správa šablon autoritních záznamů, které definují charakteristiku záznamů v MARC (definice polí a podpolí)"
+msgstr "Tvorba a správa šablon autoritních záznamů, které definují charakteristiku záznamů MARC (definice polí a podpolí)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:183
 #, c-format
@@ -31201,9 +31199,9 @@ msgid "Clone circulation and fine rules &rsaquo; Circulation and fine rules &rsa
 msgstr "Kopírování výpůjčních pravidel a upomínek  &rsaquo; Výpůjčky a upomínky &rsaquo; Administrace &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/clone-rules.tt:23
-#, fuzzy, c-format
+#, c-format
 msgid "Clone circulation and fine rules"
-msgstr "Pravidla výpůjček a upomínek"
+msgstr "Klonovat pravidla výpůjček a upomínek"
 
 #. %1$s:  IF frombranch == "*" 
 #. %2$s:  ELSIF frombranch 
@@ -31352,9 +31350,9 @@ msgid "Administration tables"
 msgstr "Administrační tabulky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:234
-#, fuzzy, c-format
+#, c-format
 msgid "Authorities "
-msgstr "Autoritní: "
+msgstr "Autority: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:241
 #, c-format
@@ -31362,9 +31360,9 @@ msgid "Authorities tables"
 msgstr "Autoritní tabulky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:250
-#, fuzzy, c-format
+#, c-format
 msgid "Catalog "
-msgstr "Katalog"
+msgstr "Katalog "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:257
 #, c-format
@@ -31372,9 +31370,9 @@ msgid "Catalogue tables"
 msgstr "Tabulky pro katalog"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:266
-#, fuzzy, c-format
+#, c-format
 msgid "Cataloging "
-msgstr "Katalogizace"
+msgstr "Katalogizace "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:273
 #, c-format
@@ -31382,9 +31380,9 @@ msgid "Cataloguing tables"
 msgstr "Tabulky pro katalogizaci"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:282
-#, fuzzy, c-format
+#, c-format
 msgid "Circulation "
-msgstr "Výpůjčky"
+msgstr "Výpůjčky "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:289
 #, c-format
@@ -31412,9 +31410,9 @@ msgid "E-resource management tables"
 msgstr "Návrat ke správě sad"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:330
-#, fuzzy, c-format
+#, c-format
 msgid "Interlibrary loans "
-msgstr "Meziknihovní výpůjčky"
+msgstr "Meziknihovní výpůjčky "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:337
 #, c-format
@@ -31472,9 +31470,9 @@ msgid "Reports tables"
 msgstr "Tabulky modulu výstupy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:426
-#, fuzzy, c-format
+#, c-format
 msgid "Serials "
-msgstr "Periodika"
+msgstr "Periodika "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/columns_settings.tt:433
 #, c-format
@@ -33554,7 +33552,7 @@ msgstr "Nejsou k dispozici žádné nadřazené typy"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:181
 #, c-format
 msgid "Defining a parent type will apply checkout limits for all children as described on the circulation rules page."
-msgstr ""
+msgstr "Definováním typu rodiče se uplatní limity výpůjček pro všechny děti, jak je popsáno na stránce s výpůjčními pravidly."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:187
 #, c-format
@@ -39791,9 +39789,9 @@ msgid "Article requests:"
 msgstr "Požadavky na texty článků:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:189
-#, fuzzy, c-format
+#, c-format
 msgid "Courses that have reserved this title: "
-msgstr "Tento titul jste si již vyžádali."
+msgstr "Kurzy, které si tento titul rezervovaly: "
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:206
@@ -42208,7 +42206,7 @@ msgstr "%s %s (Číslo záznamu %s)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:837
 #, c-format
 msgid "Add MARC record (fast cataloging)"
-msgstr "Přidat záznam (zrychlená katalogizace)"
+msgstr "Přidat záznam MARC (rychlá katalogizace)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:819
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:839
@@ -42262,7 +42260,7 @@ msgstr "Uložit, ale pokračovat v práci"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:916
 #, c-format
 msgid "Link authorities automatically"
-msgstr "Automaticky propojit autoritní záznamy"
+msgstr "Automaticky propojit autority"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/addbiblio.tt:921
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:56
@@ -43921,9 +43919,9 @@ msgid "Staff members are not allowed to discharge borrowers, nor borrowers to re
 msgstr "Funkce uzavření čtenářského účtu a vystavení potvrzení o vyrovnání všech závazků není povolena."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:98
-#, fuzzy, c-format
+#, c-format
 msgid "This is the anonymous patron, so circulation is disabled."
-msgstr "Pro anonymního čtenáře není možné zobrazit historii rezervací."
+msgstr "Jedná se o anonymního čtenáře, výpůjčky nejsou dovoleny."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:304
@@ -48039,9 +48037,9 @@ msgstr "Odstranit kurzy &rsaquo; Rezervace kurzů &rsaquo; Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_rm_items.tt:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_rm_items.tt:28
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-reserves.tt:37
-#, fuzzy, c-format
+#, c-format
 msgid "Batch remove reserves"
-msgstr "Dávkové přidání rezervací kurzů"
+msgstr "Dávkové odstranění rezervací"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/batch_rm_items.tt:33
 #, c-format
@@ -49682,9 +49680,9 @@ msgid "Koha Logo SVG"
 msgstr "Logo Kohy v SVG"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:186
-#, fuzzy, c-format
+#, c-format
 msgid "Suggestions pending approval: "
-msgstr "Návrhy čekající na schválení"
+msgstr "Návrhy čekající na schválení: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/intranet-main.tt:203
 #, c-format
@@ -49818,9 +49816,9 @@ msgid "Hide text "
 msgstr "Skrýt text "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:96
-#, fuzzy, c-format
+#, c-format
 msgid "Barcode height:"
-msgstr "Výška průkazky:"
+msgstr "Výška čárového kódu:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/barcode-print.tt:100
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/spinelabel-home.tt:33
@@ -51427,9 +51425,9 @@ msgstr "Čtenář má kredit ve výši %s."
 
 #. %1$s:  pending_suggestions | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/deletemem.tt:62
-#, fuzzy, c-format
+#, c-format
 msgid "Patron has %s pending suggestions."
-msgstr "Uživatel dluží %s na poplatcích."
+msgstr "Uživatel podal %s návrhů, které nejsou vyřízeny."
 
 #. %1$s:  patron.firstname | html 
 #. %2$s:  patron.surname | html 
@@ -53164,9 +53162,9 @@ msgid "historical searches"
 msgstr "historické dílo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/merge-patrons.tt:74
-#, fuzzy, c-format
+#, c-format
 msgid "purchase suggestions"
-msgstr "Pošlete nám návrh na její nákup."
+msgstr "návrhy na nákup"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/merge-patrons.tt:75
 #, fuzzy, c-format
@@ -54761,9 +54759,9 @@ msgstr "Vytvořit novou šablonu"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep3.tt:27
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep4.tt:24
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep5.tt:48
-#, fuzzy, c-format
+#, c-format
 msgid "Create a new circulation rule"
-msgstr "Spravovat pravidla výpůjček"
+msgstr "Vytvořit nové pravidlo výpůjček"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/onboarding/onboardingstep1.tt:47
 #, c-format
@@ -59067,9 +59065,9 @@ msgstr "Stav předplatného periodika &rsaquo; Výstupy &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/serials_stats.tt:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/serials_stats.tt:33
-#, fuzzy, c-format
+#, c-format
 msgid "Serials subscriptions stats"
-msgstr "Hledání v předplatných periodik"
+msgstr "Statistika předplatných periodik"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/serials_stats.tt:51
 #, c-format
@@ -60139,9 +60137,9 @@ msgid "Choose your library:"
 msgstr "Vyberte svoji knihovnu:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/acqui-search-result.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "Select vendor &rsaquo; Serials &rsaquo; Koha"
-msgstr "Revize &rsaquo; Nástroje &rsaquo; Koha"
+msgstr "Výběr dodavatele &rsaquo; Periodika &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/acqui-search-result.tt:11
 #, c-format
@@ -60188,9 +60186,9 @@ msgid "Vendor name: "
 msgstr "Jméno dodavatele: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:6
-#, fuzzy, c-format
+#, c-format
 msgid "Check expiration &rsaquo; Serials &rsaquo; Koha"
-msgstr "Schémata číslování &rsaquo; Periodika &rsaquo; Koha"
+msgstr "Kontrolavy vypršení &rsaquo; Periodika &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/checkexpiration.tt:53
 #, c-format
@@ -60245,7 +60243,7 @@ msgstr "Pro váš dotaz nebyly nalezeny žádné výsledky"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:8
 #, c-format
 msgid "%s Claims for %s &rsaquo; %s Claims &rsaquo; Serials &rsaquo; Koha"
-msgstr "%s Reklamace pro %s %s &rsaquo; Reklamce nedodaných periodik &rsaquo; Periodika &rsaquo; Koha"
+msgstr "%s Reklamace na %s &rsaquo; %s Reklamace &rsaquo; Periodika &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:24
 #, c-format
@@ -60294,7 +60292,7 @@ msgstr "Vaše oznámení bylo posláno."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:74
 #, c-format
 msgid "No claims notice defined. "
-msgstr "Žádné reklamační poznámka. "
+msgstr "Není vytvořené žádné oznámení o reklamci. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:75
 #, c-format
@@ -60424,9 +60422,9 @@ msgid "The ending date is missing or invalid."
 msgstr "Konečné datum chybí nebo je neplatné."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/result.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "Search results &rsaquo; Serials &rsaquo; Koha"
-msgstr "Historie hledání &rsaquo; Katalog &rsaquo; Koha"
+msgstr "Výsledky hledání &rsaquo; Periodika &rsaquo; Koha"
 
 #. %1$s:  from | html 
 #. %2$s:  to | html 
@@ -60457,9 +60455,9 @@ msgid "Routing slip preview &rsaquo; Serials &rsaquo; Koha"
 msgstr "Schémata číslování &rsaquo; Periodika &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:4
-#, fuzzy, c-format
+#, c-format
 msgid "Preview routing list &rsaquo; Serials &rsaquo; Koha"
-msgstr "Seznamy čtenářů &rsaquo; Nástroje &rsaquo; Koha"
+msgstr "Náhled seznamu pro oběh &rsaquo; Peridika &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing-preview.tt:22
 #, fuzzy, c-format
@@ -60522,9 +60520,9 @@ msgstr "Odstranit vše"
 
 #. %1$s:  bibliotitle | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:9
-#, fuzzy, c-format
+#, c-format
 msgid "Serial collection information for %s &rsaquo; Serials &rsaquo; Koha"
-msgstr "Podrobnosti o předplatném #%s &rsaquo; Periodika &rsaquo; Koha"
+msgstr "Informace o sbírce periodik pro %s &rsaquo; Periodika &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:27
 #, fuzzy, c-format
@@ -60675,9 +60673,8 @@ msgstr "Skutečně chcete vytvořit další sérii vydání periodika?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:343
-#, fuzzy
 msgid "No serials selected"
-msgstr "Nebyla vybrána žádná objednávka"
+msgstr "Nebyla vybrána žádná periodika"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:343
@@ -60686,9 +60683,9 @@ msgstr "Je nutné vybrat alespoň jedno periodikum k úpravě"
 
 #. %1$s:  bibliotitle | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:5
-#, fuzzy, c-format
+#, c-format
 msgid "Serial edition %s &rsaquo; Serials &rsaquo; Koha"
-msgstr "Podrobnosti o předplatném #%s &rsaquo; Periodika &rsaquo; Koha"
+msgstr "Vydání periodika %s &rsaquo; Periodika &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-edit.tt:94
 #, fuzzy, c-format
@@ -60992,7 +60989,7 @@ msgstr "Záznam:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:83
 #, c-format
 msgid "Subscriptions must be associated with a bibliographic record"
-msgstr "Odběry musí být spojeny s bibliografickým záznamem"
+msgstr "Předplatné musí být přiřazené k bibliografickému záznamu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:84
 #, c-format
@@ -61011,15 +61008,15 @@ msgstr "Vytvořit jednotku při příjmu tohoto periodika"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:98
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:103
-#, fuzzy, c-format
+#, c-format
 msgid "Create an item record"
-msgstr "Vytvořit nový záznam"
+msgstr "Vytvořit záznam jednotky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:100
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:105
-#, fuzzy, c-format
+#, c-format
 msgid "Do not create an item record"
-msgstr "Příjem periodika nevytváří jednotkový záznam."
+msgstr "Nevytvářet záznam jednotky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-add.tt:109
 #, c-format
@@ -61367,9 +61364,9 @@ msgid "Save subscription"
 msgstr "Uložit předplatné"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:7
-#, fuzzy, c-format
+#, c-format
 msgid "Batch edit &rsaquo; Serials &rsaquo; Koha"
-msgstr "Editor citátů &rsaquo; Nástroje &rsaquo; Koha"
+msgstr "Dávková úprava &rsaquo; Periodika &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-batchedit.tt:22
 #, fuzzy, c-format
@@ -61561,12 +61558,12 @@ msgstr "Jednotky:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:116
 #, c-format
 msgid "Serial receipt creates an item record."
-msgstr "Příjem periodika vytváří jednotkový záznam."
+msgstr "Příjem periodika vytvoří záznam jednotky."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:118
 #, c-format
 msgid "Serial receipt does not create an item record."
-msgstr "Příjem periodika nevytváří jednotkový záznam."
+msgstr "Příjem periodika nevytváří záznam jednotky."
 
 #. %1$s:  IF skip_serialseq 
 #. %2$s:  ELSE 
@@ -61813,9 +61810,9 @@ msgid "Winter"
 msgstr "Zima"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:4
-#, fuzzy, c-format
+#, c-format
 msgid "Frequencies &rsaquo; Serials &rsaquo; Koha"
-msgstr "Schémata číslování &rsaquo; Periodika &rsaquo; Koha"
+msgstr "Frekvence vydávání &rsaquo; Periodika &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-frequencies.tt:15
 #, fuzzy, c-format
@@ -61941,7 +61938,7 @@ msgstr "Je nutné zadat počet jednotek na vydání"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-history.tt:5
 #, c-format
 msgid "Subscription history &rsaquo; Serials &rsaquo; Koha"
-msgstr "Historie předplatného &rsaquo; Periodika &rsaquo; Koha"
+msgstr "Historie předplatného #%s &rsaquo; Periodika &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-history.tt:23
 #, fuzzy, c-format
@@ -62158,17 +62155,17 @@ msgstr "Z následujících důvodu nebylo možné možné otestovat schéma čí
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:6
 #, c-format
 msgid "Serials subscription renew #%s &rsaquo; Koha"
-msgstr "Prodloužení předplatných periodik #%s &rsaquo; Koha"
+msgstr "Prodloužení předplatného periodika #%s &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:8
-#, fuzzy, c-format
+#, c-format
 msgid "Serials subscription renew &rsaquo; Koha"
-msgstr "Hledání v předplatných periodik"
+msgstr "Prodloužení předplatného periodika &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:16
-#, fuzzy, c-format
+#, c-format
 msgid "Serials subscription renew"
-msgstr "Předplatné časopisů"
+msgstr "Prodloužení předplatných periodik"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:22
 #, c-format
@@ -62198,9 +62195,9 @@ msgstr "Případná poznámka pro knihovníka, který bude zpracovávat Vaši ž
 
 #. %1$s:  bibliotitle | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/viewalerts.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "Alert subscribers for %s &rsaquo; Serials &rsaquo; Koha"
-msgstr "Podrobnosti o předplatném #%s &rsaquo; Periodika &rsaquo; Koha"
+msgstr "Upozornění pro předplatitelů %s &rsaquo; Periodika &rsaquo; Koha"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/viewalerts.tt:20
 #, fuzzy, c-format
@@ -62455,9 +62452,9 @@ msgid "Submit your suggestion"
 msgstr "Odeslat návrh"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:665
-#, fuzzy, c-format
+#, c-format
 msgid "Viewing suggestions for library:"
-msgstr "Nevyřízené návrhy"
+msgstr "Prohlížení návrhů na knihovnu:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:676
 #, c-format
@@ -62516,9 +62513,9 @@ msgid "Unarchive"
 msgstr "Archivovat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:866
-#, fuzzy, c-format
+#, c-format
 msgid "Change selected suggestions"
-msgstr "Vybrané návrhy: "
+msgstr "Změnit vybrané návrhy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:873
 #, c-format
@@ -64257,9 +64254,9 @@ msgid "Export records"
 msgstr "Hostitelské záznamy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:126
-#, fuzzy, c-format
+#, c-format
 msgid "Late serial issues claims"
-msgstr "Reklamovat sešit periodika"
+msgstr "Reklamovat číslo periodika"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:127
 #, fuzzy, c-format
@@ -65834,7 +65831,7 @@ msgstr "Reklamace akvizice"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:362
 #, c-format
 msgid "Claim serial issue"
-msgstr "Reklamovat sešit periodika"
+msgstr "Reklamovat číslo periodika"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:156
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:209
@@ -66719,9 +66716,9 @@ msgid "Expiry date:"
 msgstr "Konec platnosti registrace"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:329
-#, fuzzy, c-format
+#, c-format
 msgid "Circulation note:"
-msgstr "Poznámka pro modul Výpůjčky: "
+msgstr "Poznámka k výpůjčce:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:331
 #, fuzzy, c-format
@@ -66800,7 +66797,7 @@ msgstr "Upomínky/Spouštěče stavu &rsaquo; Nástroje &rsaquo; Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:33
 #, c-format
 msgid "Defining %soverdue actions for %s%sdefault overdue actions%s"
-msgstr "Definice %sakce při nevrácení v termínu pro %s%svýchozí akce při zpoždění%s"
+msgstr "Definice %sakcí při nevrácení v termínu pro %s%sakcí při nevrácení v termínu%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:35
 #, c-format
@@ -66903,7 +66900,7 @@ msgstr "kategorie čtenářů"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:174
 msgid "Second"
-msgstr "Druhý"
+msgstr "Druhá"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:174
@@ -68627,9 +68624,9 @@ msgid "Suspend"
 msgstr "Pozastavit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:121
-#, fuzzy, c-format
+#, c-format
 msgid "Add circulation message"
-msgstr "Zprávy a vzkazy v modulu výpůjčky"
+msgstr "Přidat zprávu k výpůjčce"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:122
 #, c-format
