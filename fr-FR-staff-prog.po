@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-02 03:02+0000\n"
-"PO-Revision-Date: 2024-02-13 03:00+0000\n"
+"PO-Revision-Date: 2024-02-15 15:45+0000\n"
 "Last-Translator: mathsaby <mathsabypro@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
@@ -24471,7 +24471,7 @@ msgstr "Quantité"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/orders_by_budget.tt:69
 #, c-format
 msgid "Total cost"
-msgstr "Cout total"
+msgstr "Coût total"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:85
 #, c-format
@@ -39783,9 +39783,9 @@ msgstr "Actuellement en consultation sur place %s "
 #. %5$s:  INCLUDE 'patron-title.inc' patron=item.object.checkout.patron hide_patron_infos_if_needed=1 
 #. %6$s:  date_due | $KohaDates as_due_date => 1 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:477
-#, fuzzy, c-format
+#, c-format
 msgid "Checked out %s %s by %s to %s %s : due %s "
-msgstr "Prêté %s %s %s par %s à %s %s %s : retour prévu le %s "
+msgstr "Prêté%s %s par%sà %s %s : retour prévu le %s "
 
 #. %1$s:  Branches.GetName( transfer.frombranch ) | html 
 #. %2$s:  Branches.GetName( transfer.tobranch ) | html 
@@ -40953,9 +40953,9 @@ msgstr "Statut retiré des collections"
 #. %7$s:  END -
 #. %8$s: - END -
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch_json.tt:1
-#, fuzzy, c-format
+#, c-format
 msgid "{ \"draw\": %s, \"recordsTotal\": %s, \"recordsFiltered\": %s, \"data\": [ %s %s %s,%s %s ] } "
-msgstr "{ \"sEcho\": %s, \"iTotalRecords\": %s, \"iTotalDisplayRecords\": %s, \"aaData\": [ %s %s %s,%s %s ] } "
+msgstr "{ \"draw\": %s, \"recordsTotal\": %s, \"recordsFiltered\": %s, \"data\": [ %s %s %s,%s %s ] } "
 
 #. %1$s:  END 
 #. %2$s:  WRAPPER breadcrumb_item bc_active= 1 
@@ -45088,9 +45088,9 @@ msgstr "%s%s%sAucun modèle de bordereau trouvé%s"
 #. %6$s:  END 
 #. %7$s:  IF slips.size > 1 && !loop.last
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/printslip.tt:45
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s%s%sNo slip template found%s %s %s"
-msgstr "%s %s%s%sAucun modèle de ticket trouvé%s %s %s "
+msgstr "%s %s%s%sAucun modèle de ticket trouvé%s %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:49
 #, c-format
@@ -46524,9 +46524,9 @@ msgid "Cancel all"
 msgstr "Tout annuler"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:140
-#, fuzzy, c-format
+#, c-format
 msgid "Only items that need not be transferred will be cancelled (TransferWhenCancelAllWaitingHolds syspref)"
-msgstr "%s Seuls les exemplaires qui ne doivent pas être transférés seront annulés (préférence système TransferWhenCancelAllWaitingHolds) %s "
+msgstr "Seuls les exemplaires qui ne doivent pas être transférés seront annulés (préférence système TransferWhenCancelAllWaitingHolds)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:186
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1267
@@ -47669,7 +47669,7 @@ msgstr "N° de notice bibliographique :"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:673
 #, fuzzy, c-format
 msgid "Batch:"
-msgstr "Lot : "
+msgstr "Lot :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:461
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:680
@@ -47845,9 +47845,9 @@ msgstr "Afficher les demandes de PEB"
 
 #. %1$s:  batch.name | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:814
-#, fuzzy, c-format
+#, c-format
 msgid "View ILL requests for batch \"%s\""
-msgstr "Afficher les demandes de PEB"
+msgstr "Afficher les demandes de PEB pour le lot \"%s\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:818
 #, c-format
@@ -48490,9 +48490,9 @@ msgid "We are ready to do some basic configuration."
 msgstr "Nous somme prêts à faire certains paramétrages de base."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:349
-#, fuzzy, c-format
+#, c-format
 msgid "Web installer &rsaquo; Updating database structure"
-msgstr "Installation en ligne &rsaquo; Mise à jour de la base de données"
+msgstr "Installation en ligne &rsaquo; Mise à jour de structure de la base de données"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:351
 #, fuzzy, c-format
@@ -49161,14 +49161,14 @@ msgid "Font size: "
 msgstr "Taille de la police&nbsp;: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:198
-#, fuzzy, c-format
+#, c-format
 msgid "Barcode width: "
-msgstr "Largeur de la carte :"
+msgstr "Largeur de code à barres : "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:202
-#, fuzzy, c-format
+#, c-format
 msgid "Barcode height: "
-msgstr "Hauteur de code à barres :"
+msgstr "Hauteur de code à barres : "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/labels/label-edit-layout.tt:206
 #, c-format
@@ -50604,9 +50604,9 @@ msgid "An error occurred, please try again: %s "
 msgstr "Une erreur est survenue, essayez à nouveau : %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/maninvoice.tt:98
-#, fuzzy, c-format
+#, c-format
 msgid "Cost: "
-msgstr "Coût :"
+msgstr "Coût : "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/maninvoice.tt:110
 #, c-format
@@ -50847,12 +50847,12 @@ msgid "Modify patron"
 msgstr "Modifier un adhérent"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:75
-#, fuzzy, c-format
+#, c-format
 msgid "Something went wrong when creating the patron. Check the logs for details."
 msgstr "Un incident est survenu lors de la création de l'adhérent. Vérifiez les logs."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:77
-#, fuzzy, c-format
+#, c-format
 msgid "Something went wrong when updating the patron. Check the logs for details."
 msgstr "Un incident est survenu lors de la modification de l'adhérent. Vérifiez les logs."
 
@@ -50976,9 +50976,9 @@ msgid "The alternative email is invalid."
 msgstr "L'adresse mail alternative est erronnée."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:187
-#, fuzzy, c-format
+#, c-format
 msgid "A child patron needs a guarantor."
-msgstr "Garant adhérent"
+msgstr "Un adhérent enfant a besoin d'un garant."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:190
 #, fuzzy, c-format
@@ -51397,9 +51397,9 @@ msgid "There is no minimum or maximum character length. %s %s %s "
 msgstr "Il n'y a pas de nombre minimum ou maximum de caractères. %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:926
-#, fuzzy, c-format
+#, c-format
 msgid "autoMemberNum is set to enabled, but card number is marked as mandatory in BorrowerMandatoryField: auto calc has been disabled."
-msgstr "La préférence système AutoMemberNum est sur Activer, mais le numéro de carte est obligatoire selon BorrowerMandatoryField : le calcul automatique a été désactivé."
+msgstr "La préférence système AutoMemberNum est activée, mais le numéro de carte est obligatoire selon BorrowerMandatoryField : le calcul automatique a été désactivé."
 
 #. %1$s:  END 
 #. %2$s:  END 
@@ -51455,9 +51455,9 @@ msgid "No "
 msgstr "Non "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1041
-#, fuzzy, c-format
+#, c-format
 msgid "Protected:"
-msgstr "Protéger"
+msgstr "Protégé :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1068
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1072
@@ -52491,9 +52491,9 @@ msgid "Password expires:"
 msgstr "Le mot de passe expire :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:483
-#, fuzzy, c-format
+#, c-format
 msgid "Protected: "
-msgstr "Protéger"
+msgstr "Protégé : "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:493
 #, c-format
@@ -52615,7 +52615,7 @@ msgid "Invalid borrowernumber %s"
 msgstr "Numéro d'adhérent invalide %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:104
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to find an email address for this patron"
 msgstr "Impossible de trouver une adresse courriel pour cet adhérent"
 
@@ -52652,14 +52652,14 @@ msgid "Unhandled email failure, check the logs for further details"
 msgstr "Echec de l'envoi de courriel non géré, vérifiez les logs pour plus de détails"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:112
-#, fuzzy, c-format
+#, c-format
 msgid "Error occurred while sending email"
-msgstr "Erreur au moment d'envoyer le courriel."
+msgstr "Erreur lors de l'envoi du courriel"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:123
-#, fuzzy, c-format
+#, c-format
 msgid "CC:"
-msgstr "LCCN&nbsp;:"
+msgstr "CC :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:133
 #, c-format
