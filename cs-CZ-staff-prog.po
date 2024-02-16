@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-02 03:02+0000\n"
-"PO-Revision-Date: 2024-02-16 03:00+0000\n"
+"PO-Revision-Date: 2024-02-17 03:01+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
@@ -160,7 +160,7 @@ msgstr "Nástroje pro vývojáře"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:34
 #, c-format
 msgid "Website administrator"
-msgstr "Správce webových stránek"
+msgstr "Správce webové stránky"
 
 #. %1$s:  role.key | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:35
@@ -278,12 +278,12 @@ msgstr "Asistenti správců instalačních balíčků:"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:198
 #, c-format
 msgid "Continuous integration maintainer:"
-msgstr "Správce integrace:"
+msgstr "Údržba integrace:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:202
 #, c-format
 msgid "Continuous integration maintainers:"
-msgstr "Správci integrace:"
+msgstr "Údržbáři integrace:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:214
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:218
@@ -324,7 +324,7 @@ msgstr "Editor newsletterů:"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:259
 #, c-format
 msgid "Website maintainer:"
-msgstr "Správce webových stránek:"
+msgstr "Údržba webových stránek:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/about-team.inc:266
 #, c-format
@@ -3873,7 +3873,7 @@ msgstr "Pseudonymizace byla zrušena. "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/pseudonymize_statistic.inc:12
 #, c-format
 msgid "Pseudonymization is pending. "
-msgstr "Pseudonymizace čeká na spuštění. "
+msgstr "Pseudonymizace čeká na vyřízení. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/pseudonymize_statistic.inc:19
 #, c-format
@@ -3961,9 +3961,9 @@ msgstr "Přidat záznamy z importu do košíku"
 
 #. %1$s:  report.record_ids.size | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_elastic_index.inc:7
-#, fuzzy, c-format
+#, c-format
 msgid "%s records have successfully been reindexed. "
-msgstr "Všechny záznamy se podařilo úspěšně upravit! "
+msgstr "%s záznamů bylo úspěšně reindexováno. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_elastic_index.inc:11
 #, c-format
@@ -3993,14 +3993,14 @@ msgstr "Fronta rezervací byla úspěšně aktualizována. "
 #. %1$s:  report.total_success | html 
 #. %2$s:  report.total_biblios | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_holds_queue_for_biblios.inc:11
-#, fuzzy, c-format
+#, c-format
 msgid "Holds queue for %s / %s has been successfully updated. Some errors occurred."
-msgstr "%s / %s záznamů bylo úspěšně upraveno. Vyskytlo se několik chyb. "
+msgstr "Fronta rezervací pro %s / %s byla úspěšně aktualizována. Došlo však k chybám."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_holds_queue_for_biblios.inc:32
-#, fuzzy, c-format
+#, c-format
 msgid "Holds queue for biblio "
-msgstr "Fronta rezervací"
+msgstr "Fronta rezervací pro bibliozáznam "
 
 #. %1$s:  m.error | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/background_jobs/update_holds_queue_for_biblios.inc:34
@@ -4169,9 +4169,9 @@ msgstr "Poplatky:"
 
 #. %1$s:  fines | $Price 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocked-fines.inc:6
-#, fuzzy, c-format
+#, c-format
 msgid "Patron has outstanding charges of %s."
-msgstr "Čtenář má nezaplacené poplatky ve výši %s.%s "
+msgstr "Čtenář má nezaplacené poplatky ve výši %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocked-fines.inc:8
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron_messages.inc:108
@@ -5269,9 +5269,8 @@ msgstr "Upravit jednotku"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cateditor-ui.inc:42
-#, fuzzy
 msgid "(Not an authorised value)"
-msgstr "Nová ověřená hodnota "
+msgstr "(Nejde o ověřenou hodnotu)"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -6791,7 +6790,7 @@ msgid "Alert subscriptions (%s)"
 msgstr "Předplatné (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:208
-#, fuzzy, c-format
+#, c-format
 msgid "Upload patron photo"
 msgstr "Načtení fotografie čtenáře"
 
@@ -6975,9 +6974,9 @@ msgid "Delete"
 msgstr "Odstranit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:240
-#, fuzzy, c-format
+#, c-format
 msgid "Take patron photo"
-msgstr "Nový čtenář "
+msgstr "Pořídit fotografii čtenáře"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:244
 #, c-format
@@ -7018,14 +7017,13 @@ msgstr "Video stream není k dispozici."
 
 #. IMG
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:261
-#, fuzzy
 msgid "The screen capture will appear in this box."
-msgstr "Název, který se objeví na přehledu seznamů"
+msgstr "V tomto poli se zobrazí snímek obrazovky."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:280
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot take patron photo."
-msgstr "Nelze přidat čtenáře"
+msgstr "Nelze pořídit fotografii čtenáře."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:286
 #, c-format
@@ -7082,9 +7080,9 @@ msgstr "Výpůjčky"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:19
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:172
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:48
-#, fuzzy, c-format
+#, c-format
 msgid "Set library and desk"
-msgstr "Nastavit knihovnu"
+msgstr "Nastavit knihovnu a pult"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:21
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:176
@@ -7358,9 +7356,8 @@ msgstr "Hledat města"
 
 #. INPUT type=text name=city_name_filter
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cities-admin-search.inc:12
-#, fuzzy
 msgid "City search"
-msgstr "Hledání města:"
+msgstr "Hledání města"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/clubs-table.inc:8
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-batch.inc:11
@@ -7898,9 +7895,8 @@ msgstr "Hledat měny"
 
 #. INPUT type=text name=description
 #: koha-tmpl/intranet-tmpl/prog/en/includes/currencies-admin-search.inc:12
-#, fuzzy
 msgid "Currencies search"
-msgstr "Vyhledávání měn:"
+msgstr "Vyhledávání měn"
 
 #. %1$s:  IF ( dateformat == "us" ) 
 #. %2$s:  ELSIF ( dateformat == "metric" ) 
@@ -7979,30 +7975,30 @@ msgid "Koha %s"
 msgstr "Koha %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/erm-search.inc:8
-#, fuzzy, c-format
+#, c-format
 msgid "Agreement search"
-msgstr "Hledání jednotek"
+msgstr "Vyhledávání smluv"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/erm-search.inc:20
-#, fuzzy, c-format
+#, c-format
 msgid "License search"
-msgstr "Upřesnit hledání"
+msgstr "Vyhledávání licencí"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/erm-search.inc:32
-#, fuzzy, c-format
+#, c-format
 msgid "Package search"
-msgstr "Hledání v Mana"
+msgstr "Vyhledávání balíčků"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/erm-search.inc:44
-#, fuzzy, c-format
+#, c-format
 msgid "Title search"
-msgstr "Upravit hledání"
+msgstr "Hledání názvů"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/erm-search.inc:56
-#, fuzzy, c-format
+#, c-format
 msgid "Search agreements"
-msgstr "Prohledávat následující servery"
+msgstr "Vyhledávání smluv"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/includes/erm-search.inc:59
@@ -28038,7 +28034,7 @@ msgstr "Aktualizovat všechny dílčí fondy, které mají jako majitele "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:361
 #, c-format
 msgid "Selecting this option will overwrite existing fund owners, if any"
-msgstr "Vybráním této možnosti přepíšete stávajícího majitele fondu, pokud je stanoven"
+msgstr "Vybráním této možnosti přepíšete stávajícího vlastníka fondu, pokud je nastaven"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:366
 #, c-format
@@ -28087,19 +28083,19 @@ msgstr "%s Žádný "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:402
 #, c-format
 msgid "%s Owner "
-msgstr "%s Majitel "
+msgstr "%s Vlastník "
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:410
 #, c-format
 msgid "%s Owner and users "
-msgstr "%s Majitel a užívatelé "
+msgstr "%s Vlastník a užívatelé "
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:418
 #, c-format
 msgid "%s Owner, users and library "
-msgstr "%s Majitel, užívatelé a knihovna "
+msgstr "%s Vlastník, užívatelé a knihovna "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:431
 #, c-format
@@ -29667,7 +29663,7 @@ msgstr "Podrobnosti pro %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:61
 #, c-format
 msgid "Insufficient permission to see this job."
-msgstr "Nedostatečné povolení k zobrazení tohoto úkolu."
+msgstr "Nedostatečné oprávnění k zobrazení tohoto úkolu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:76
 #, c-format
@@ -29812,9 +29808,8 @@ msgstr "Správa připravených MARC záznamů"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:163
-#, fuzzy
 msgid "Pseudonymize statistic"
-msgstr "Statistiky čtenářů"
+msgstr "Pseudonymizace statistik"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:163
@@ -52780,31 +52775,31 @@ msgid "Invalid borrowernumber %s"
 msgstr "Číslo čtenáře: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:104
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to find an email address for this patron"
-msgstr "Zrušit nastavení požadování kontroly adresy čtenáře"
+msgstr "Nelze najít e-mailovou adresu tohoto čtenáře"
 
 #. %1$s:  matches.0 | html 
 #. %2$s:  borrowernumber | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:105
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid %s email address found %s"
-msgstr "Neplatná hodnota pro %s"
+msgstr "Nalezena neplatná %s e-mailová adresa %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:106
-#, fuzzy, c-format
+#, c-format
 msgid "Missing from email address"
-msgstr "potvrdit e-mailovou adresu"
+msgstr "Chybějící e-mailová adresa odesílatele"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:107
-#, fuzzy, c-format
+#, c-format
 msgid "Missing SMS number"
-msgstr "SMS číslo:"
+msgstr "Chybějící číslo pro SMS"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:108
-#, fuzzy, c-format
+#, c-format
 msgid "Message is duplicate"
-msgstr "je duplicitní"
+msgstr "Zpráva je duplicitní"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:109
 #, c-format
@@ -52817,14 +52812,14 @@ msgid "Unhandled email failure, check the logs for further details"
 msgstr "Selhání nezpracovaného e-mailu, další podrobnosti najdete v protokolech"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:112
-#, fuzzy, c-format
+#, c-format
 msgid "Error occurred while sending email"
-msgstr "Při vytváření seznamu došlo k chybě."
+msgstr "Při odesílání e-mailu došlo k chybě"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:123
-#, fuzzy, c-format
+#, c-format
 msgid "CC:"
-msgstr "LCCN:"
+msgstr "CC:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:133
 #, c-format
@@ -65647,24 +65642,24 @@ msgid "Hide viewed"
 msgstr "Skrýt přečtené"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:69
-#, fuzzy, c-format
+#, c-format
 msgid "Hide closed"
-msgstr "je uzavřený"
+msgstr "Skrýt zavřené"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:70
-#, fuzzy, c-format
+#, c-format
 msgid "Hide new"
-msgstr "Skrýt okno"
+msgstr "Skrýt nové"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:79
-#, fuzzy, c-format
+#, c-format
 msgid "Problem page"
-msgstr "Chyby"
+msgstr "Stránka s problémem"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:80
-#, fuzzy, c-format
+#, c-format
 msgid "Sent to"
-msgstr "Utracená částka"
+msgstr "Odesláno"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:98
 #, c-format
@@ -65678,15 +65673,15 @@ msgstr "Knihovník"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:109
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:148
-#, fuzzy, c-format
+#, c-format
 msgid "Viewed"
-msgstr "Zobrazit"
+msgstr "Prohlédnuto"
 
 #. %1$s:  report.status | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:110
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown status (%s)"
-msgstr "Neznámé pole"
+msgstr "Neznámý stav (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:131
 #, c-format
@@ -65696,9 +65691,8 @@ msgstr "V současné době nejsou k dispozici žádná hlášení problémů."
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/problem-reports.tt:148
-#, fuzzy
 msgid "Unable to change status of problem report."
-msgstr "Nepodařilo se změnit status poznámky."
+msgstr "Nelze změnit stav hlášení o problému."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes-upload.tt:39
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes-upload.tt:54
@@ -65727,9 +65721,9 @@ msgid "The quote uploader accepts standard csv files with two columns: \"source\
 msgstr "Nástroj na import citátů pracuje se soubory typu CSV se dvěma sloupci:  \"zdroj\",\"text citátu\""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes-upload.tt:66
-#, fuzzy, c-format
+#, c-format
 msgid "Click the \"Choose file\" button and select the csv file to be uploaded."
-msgstr "Klikněte na tlačítko \"Vybrat soubor\" a vyberte CSV soubor, který chcete importovat."
+msgstr "Klikněte na tlačítko \"Vybrat soubor\" a vyberte soubor csv, který chcete nahrát."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes-upload.tt:67
 #, c-format
@@ -65742,9 +65736,9 @@ msgid "Click on any field to edit the contents; Press the &lt;Enter&gt; key to s
 msgstr "Klikněte na libovolnou buňku tabulky a budete moci upravit její obsah. Po úpravě stiskněte &lt;Enter&gt; pro uložení."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes-upload.tt:73
-#, fuzzy, c-format
+#, c-format
 msgid "Click the 'Save quotes' button in the toolbar to save the entire batch of quotes."
-msgstr "Klikněte na tlačítko 'Uložit citáty' a všechny citáty budou uloženy do systému."
+msgstr "Kliknutím na tlačítko \"Uložit citace\" na panelu nástrojů uložíte celou dávku citací."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes-upload.tt:79
 #, c-format
@@ -65793,7 +65787,6 @@ msgstr "Soubor nelze přečíst"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes-upload.tt:114
-#, fuzzy
 msgid "File not found!"
 msgstr "Soubor nebyl nalezen!"
 
@@ -65809,9 +65802,8 @@ msgstr "Krátká citace"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes-upload.tt:114
-#, fuzzy
 msgid "Something went wrong, check your CSV file."
-msgstr "Něco se pokazilo, nelze uložit"
+msgstr "Něco se pokazilo, zkontrolujte soubor CSV."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes-upload.tt:114
@@ -65862,9 +65854,9 @@ msgid "Source: "
 msgstr "Zdroj: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:112
-#, fuzzy, c-format
+#, c-format
 msgid "Are you sure you want to delete the following quote?"
-msgstr "Opravdu chcete odstranit toto pravidlo zápisu?"
+msgstr "Opravdu chcete odstranit tento citát?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:125
 #, c-format
@@ -65872,15 +65864,15 @@ msgid "Quotes"
 msgstr "Poznámky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:134
-#, fuzzy, c-format
+#, c-format
 msgid "Last display"
 msgstr "Posledně zobrazený"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:141
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:177
-#, fuzzy, c-format
+#, c-format
 msgid "Start defining quotes"
-msgstr "Nadefinujte si Vaše knihovny"
+msgstr "Začněte vytvořením citátů"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:141
 #, fuzzy, c-format
@@ -65963,9 +65955,9 @@ msgstr "Datum/Čas"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/showdiffmarc.tt:38
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/showdiffmarc.tt:47
-#, fuzzy, c-format
+#, c-format
 msgid "Compare matched records"
-msgstr "&rsaquo; Porovnat nalezené shody "
+msgstr "Porovnání shodných záznamů"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/showdiffmarc.tt:50
 #, c-format
@@ -65973,9 +65965,9 @@ msgid "Original"
 msgstr "Původní"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/showdiffmarc.tt:53
-#, fuzzy, c-format
+#, c-format
 msgid "The record ID "
-msgstr "Záznam "
+msgstr "ID záznamu "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/showdiffmarc.tt:53
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/showdiffmarc.tt:64
@@ -65984,7 +65976,7 @@ msgid "doesn't match any existing record."
 msgstr "neodpovídá existujícímu záznamu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/showdiffmarc.tt:64
-#, fuzzy, c-format
+#, c-format
 msgid "The import ID number "
 msgstr "Identifikační číslo importu "
 
@@ -66025,9 +66017,9 @@ msgid "Pre-fill values with profile?"
 msgstr "Předvyplnit hodnoty pomocí profilu?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:121
-#, fuzzy, c-format
+#, c-format
 msgid "Profile: "
-msgstr "Profil:"
+msgstr "Profil: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:123
 #, c-format
@@ -66142,9 +66134,9 @@ msgid "Save profile"
 msgstr "Uložit profil"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:235
-#, fuzzy, c-format
+#, c-format
 msgid "Profile name:"
-msgstr "Jméno profilu: "
+msgstr "Jméno profilu:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:238
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:266
@@ -66160,15 +66152,13 @@ msgstr "Připravit pro import"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:266
-#, fuzzy
 msgid "An error occurred"
-msgstr "Došlo k chybě!"
+msgstr "Došlo k chybě"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:266
-#, fuzzy
 msgid "Are you sure you want to delete this profile?"
-msgstr "Opravdu chcete odstranit tento soubor?"
+msgstr "Opravdu chcete odstranit tento profil?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:266
@@ -66177,21 +66167,18 @@ msgstr "Opravdu chcete provést aktualizaci pomocí nových hodnot?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:266
-#, fuzzy
 msgid "Profile deleted"
-msgstr "Tiskárna byla odstraněna"
+msgstr "Profil odstraněn"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:266
-#, fuzzy
 msgid "Profile must have a name"
-msgstr "Počet musí být vyjádřen číslem"
+msgstr "Profil musí mít jméno"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:266
-#, fuzzy
 msgid "Profile saved"
-msgstr "Profily"
+msgstr "Profil uložen"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stage-marc-import.tt:266
@@ -66307,14 +66294,14 @@ msgid "Return to rotas"
 msgstr "Zpět na správu putovních fondů"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:378
-#, fuzzy, c-format
+#, c-format
 msgid "Are you sure you wish to remove this item from its rota"
-msgstr "Opravdu chcete odstranit tuto jednotku z tohoto putovního fondu?"
+msgstr "Opravdu chcete odstranit jednotku z tohoto putovního fondu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:387
-#, fuzzy, c-format
+#, c-format
 msgid "Are you sure you want to delete this rota?"
-msgstr "Opravdu chcete odstranit toto makro?"
+msgstr "Opravdu chcete odstranit tento putovní fond?"
 
 #. %1$s:  sritemstotal | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:390
@@ -66529,9 +66516,9 @@ msgid "Write HTML customizations"
 msgstr "Vytváření úprav HTML"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:142
-#, fuzzy, c-format
+#, c-format
 msgid "Write custom pages"
-msgstr "%s Novinky %s Úpravy HTML %s "
+msgstr "Tvorba vlastních stránek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:147
 #, c-format
@@ -66539,9 +66526,9 @@ msgid "Schedule tasks to run"
 msgstr "Spouštění naplánovaných úloh"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:152
-#, fuzzy, c-format
+#, c-format
 msgid "Manage 'Quote of the day' quotes"
-msgstr "Citát dne"
+msgstr "Správa 'Citátu dne'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:173
 #, c-format
@@ -66559,9 +66546,9 @@ msgid "Manage OPAC problem reports submitted by patrons"
 msgstr "Správa hlášení o problémech s OPAC odeslaných čtenáři"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:191
-#, fuzzy, c-format
+#, c-format
 msgid "View cash takings for the current library"
-msgstr "Zakázáno pro aktuální knihovnu."
+msgstr "Zobrazení příjmů poklady aktuální knihovny"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/tools-home.tt:194
 #, c-format
@@ -66569,31 +66556,31 @@ msgid "View transaction history for the current cash register"
 msgstr "Zobrazení historie transakcí aktuální pokladny"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:97
-#, fuzzy, c-format
+#, c-format
 msgid "Upload results"
-msgstr "Výsledky nahrání obrázku:"
+msgstr "Nahrávání výsledků"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:106
-#, fuzzy, c-format
+#, c-format
 msgid "Upload cover for "
-msgstr "Nahrát místní obrázky obálek "
+msgstr "Nahrát obálku pro "
 
 #. %1$s:  itemnumber | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:110
-#, fuzzy, c-format
+#, c-format
 msgid "Upload cover for itemnumber: %s"
-msgstr "Načtení obrázků obálek"
+msgstr "Nahrát obálku pro jednotku číslo: %s"
 
 #. %1$s:  biblionumber | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:114
-#, fuzzy, c-format
+#, c-format
 msgid "Upload cover for biblionumber: %s"
-msgstr "Zadejte číslo katalogizačního záznamu: "
+msgstr "Nahrát obálku pro biblionumber: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:133
-#, fuzzy, c-format
+#, c-format
 msgid "Upload local cover image for "
-msgstr "Nahrát místní obrázky obálek "
+msgstr "Nahrát místní obrázek obálky pro "
 
 #. %1$s:  IF ( itemnumber ) 
 #. %2$s:  itemnumber | html 
@@ -66681,9 +66668,9 @@ msgid "Image file"
 msgstr "Soubor obrázku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:241
-#, fuzzy, c-format
+#, c-format
 msgid "Bibliographic record number: "
-msgstr "ID bibliografického záznamu:"
+msgstr "ID bibliografického záznamu: "
 
 #. %1$s:  ELSE 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:248
@@ -66693,9 +66680,9 @@ msgstr "Stávající obálky budou nahrazeny %s "
 
 #. %1$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:251
-#, fuzzy, c-format
+#, c-format
 msgid "Replace existing covers %s "
-msgstr "Nahradit existující obálky"
+msgstr "Nahradit existující obálky "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:259
 #, c-format
@@ -66703,9 +66690,9 @@ msgid "Process images"
 msgstr "Zpracovat obrázky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload-images.tt:271
-#, fuzzy, c-format
+#, c-format
 msgid "Existing images"
-msgstr "Existující hodnoty"
+msgstr "Stávající obrázky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:36
 #, c-format
@@ -66725,9 +66712,9 @@ msgstr "Poznámka: pro nahrávání přechodných dat nevybírejte kategorii."
 #. %1$s:  IF ( CAN_user_parameters_manage_auth_values ) -
 #. %2$s:  av_UPLOAD_link = BLOCK 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:62
-#, fuzzy, c-format
+#, c-format
 msgid "Note: No upload categories are defined. %s %s"
-msgstr "Poznámka: Nejsou definovány žádné kategorie pro nahrávání. %s Přidejte hodnoty do "
+msgstr "Poznámka: Nejsou definovány žádné kategorie nahrávání. %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:65
 #, c-format
@@ -66751,9 +66738,9 @@ msgid "Allow public downloads:"
 msgstr "Povolit možnost stahovat soubor veřejně:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:105
-#, fuzzy, c-format
+#, c-format
 msgid "Search uploads by category"
-msgstr "Kategorie vyhledávání"
+msgstr "Vyhledávání nahraných souborů podle kategorie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:134
 #, c-format
@@ -66822,9 +66809,8 @@ msgstr "Nahrát nový soubor"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:347
-#, fuzzy
 msgid "Copy link to this file"
-msgstr "Klikněte pro úplné zobrazení role"
+msgstr "Zkopírujte odkaz na tento soubor"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:347
@@ -66853,9 +66839,8 @@ msgstr "Soubor nebo záznam se nepodařilo smazat."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:347
-#, fuzzy
 msgid "Link copied to the clipboard"
-msgstr "%d řádků zkopírováno do schránky"
+msgstr "Odkaz zkopírovaný do schránky"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/upload.tt:347
@@ -66878,9 +66863,9 @@ msgid "Your koha-conf.xml does not contain a valid upload_path."
 msgstr "Soubor koha-conf.xml neobsahuje správné nastavení upload_path."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:72
-#, fuzzy, c-format
+#, c-format
 msgid "Authentication"
-msgstr "casAuthentication"
+msgstr "Ověření"
 
 #. I
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:72
@@ -66899,29 +66884,28 @@ msgstr "casAuthentication"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:102
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:103
-#, fuzzy
 msgid "Log not enabled"
-msgstr "Neumožnit"
+msgstr "Logování není zapnuté"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:95
-#, fuzzy, c-format
+#, c-format
 msgid "Cron jobs"
-msgstr "Barva pozadí"
+msgstr "Ůkoly pro crony"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:99
-#, fuzzy, c-format
+#, c-format
 msgid "Search engine"
 msgstr "Vyhledávací stroj"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:116
-#, fuzzy, c-format
+#, c-format
 msgid "Create"
-msgstr "Vytvořeno"
+msgstr "Vytvořit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:118
-#, fuzzy, c-format
+#, c-format
 msgid "Fill"
-msgstr "Podzimní"
+msgstr "Náplň"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:119
 #, c-format
@@ -66949,19 +66933,19 @@ msgid "Delete circulation message"
 msgstr "Odstranění zprávy z modulu výpůjček"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:128
-#, fuzzy, c-format
+#, c-format
 msgid "Change ILL request status"
-msgstr "Správa požadavků MVS"
+msgstr "Změna stavu požadavku MVS"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:129
-#, fuzzy, c-format
+#, c-format
 msgid "ILL notice sent to patron"
-msgstr "Nastavit na čtenáře"
+msgstr "Upozornění na MVS odesláno čtenáři"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:130
-#, fuzzy, c-format
+#, c-format
 msgid "Create an acquisitions basket"
-msgstr "Vytvořit košík"
+msgstr "Vytvoření akvizičního košíku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:131
 #, fuzzy, c-format
@@ -66979,39 +66963,39 @@ msgid "Modify an acquisitions basket's users"
 msgstr "Používá se pro statistické účely při akvizici"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:134
-#, fuzzy, c-format
+#, c-format
 msgid "Close an acquisitions basket"
-msgstr "Zavřít tento košík"
+msgstr "Zavření akvizičního košíku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:135
-#, fuzzy, c-format
+#, c-format
 msgid "Approve an acquisitions basket"
-msgstr "Hlavní kontakt pro akvizici"
+msgstr "Schválení akvizičního košíku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:136
-#, fuzzy, c-format
+#, c-format
 msgid "Reopen an acquisitions basket"
-msgstr "Znovu otevřít tento košík"
+msgstr "Znovu otevřít akviziční košík"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:137
-#, fuzzy, c-format
+#, c-format
 msgid "Cancel an order"
 msgstr "Zrušit objednávku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:138
-#, fuzzy, c-format
+#, c-format
 msgid "Create an order"
-msgstr "Vytvořit nový pult"
+msgstr "Vytvořit objednávku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:139
-#, fuzzy, c-format
+#, c-format
 msgid "Modify an order"
-msgstr "Upravit pult"
+msgstr "Upravit objednávku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:140
-#, fuzzy, c-format
+#, c-format
 msgid "Create an invoice adjustment"
-msgstr "Přesto vytvořit nový doklad"
+msgstr "Vytvořit korekci pro fakturu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:141
 #, fuzzy, c-format
@@ -67024,29 +67008,29 @@ msgid "Delete an invoice adjustment"
 msgstr "Smazat faktury "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:143
-#, fuzzy, c-format
+#, c-format
 msgid "Receive an order"
-msgstr "Kontakt pro objednávky"
+msgstr "Příjem objednávky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:144
-#, fuzzy, c-format
+#, c-format
 msgid "Modify a budget"
-msgstr "Upravit rozpočet "
+msgstr "Upravit rozpočet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:145
-#, fuzzy, c-format
+#, c-format
 msgid "Create a fund"
-msgstr "Vytvořit nový pult"
+msgstr "Vytvořit fond"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:146
-#, fuzzy, c-format
+#, c-format
 msgid "Modify a fund"
-msgstr "Upravit pult"
+msgstr "Upravit fond"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:147
-#, fuzzy, c-format
+#, c-format
 msgid "Delete a fund"
-msgstr "Odstranit fond? "
+msgstr "Odstranit fond"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:149
 #, c-format
@@ -67054,9 +67038,9 @@ msgid "End"
 msgstr "Konec"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:150
-#, fuzzy, c-format
+#, c-format
 msgid "Edit mappings"
-msgstr "Upravit akce"
+msgstr "Upravit mapování"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:152
 #, c-format
@@ -67064,14 +67048,14 @@ msgid "Serial claim"
 msgstr "Reklamace periodik"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:153
-#, fuzzy, c-format
+#, c-format
 msgid "Acquisition claim"
-msgstr "Datum nabytí"
+msgstr "Reklamace akvizice"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:154
-#, fuzzy, c-format
+#, c-format
 msgid "Acquisition order"
-msgstr "Datum nabytí"
+msgstr "Akviziční objednávka"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:163
 #, c-format
@@ -67079,9 +67063,9 @@ msgid "Intranet"
 msgstr "Intranet"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:165
-#, fuzzy, c-format
+#, c-format
 msgid "SIP"
-msgstr "IP"
+msgstr "SIP"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:166
 #, c-format
@@ -67094,9 +67078,9 @@ msgid "REST API"
 msgstr "REST API"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:168
-#, fuzzy, c-format
+#, c-format
 msgid "Cron job"
-msgstr "Barva pozadí"
+msgstr "Úkol na pozadí"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:169
 #, c-format
@@ -67159,19 +67143,19 @@ msgid "Named:"
 msgstr "Pod názvem:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:318
-#, fuzzy, c-format
+#, c-format
 msgid "Log entries"
-msgstr "Žádné záznamy k zobrazení"
+msgstr "Logovací záznamy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:320
-#, fuzzy, c-format
+#, c-format
 msgid "Check none"
-msgstr "Datum vrácení"
+msgstr "Nezaškrtnout nic"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:321
-#, fuzzy, c-format
+#, c-format
 msgid "Compare selected"
-msgstr "Den nevybrán"
+msgstr "Porovnat vybrané"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:331
 #, c-format
@@ -67199,9 +67183,9 @@ msgid "Display member details."
 msgstr "Zobrazit detail čtenáře."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:352
-#, fuzzy, c-format
+#, c-format
 msgid "Member"
-msgstr "Členové"
+msgstr "Člen"
 
 #. For the first occurrence,
 #. %1$s:  loopro.biblionumber | html 
@@ -67215,9 +67199,8 @@ msgstr "Bibliografický záznam %s"
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:359
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:361
-#, fuzzy
 msgid "Display detail for this bibliographic record"
-msgstr "Zobrazit detaily pro toto biblio"
+msgstr "Zobrazit detail pro tento biblio záznam"
 
 #. %1$s:  loopro.object | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:366
@@ -67273,9 +67256,9 @@ msgid "%s %s %s Basket "
 msgstr "%s %s %s Košík "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:379
-#, fuzzy, c-format
+#, c-format
 msgid "biblio"
-msgstr "Biblio:"
+msgstr "biblio"
 
 #. %1$s:  ELSE 
 #. %2$s:  loopro.object | html 
@@ -67295,28 +67278,28 @@ msgstr "Zobrazit detail této jednotky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:397
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:402
-#, fuzzy, c-format
+#, c-format
 msgid "Compare"
-msgstr "Dokončeno"
+msgstr "Porovnat"
 
 #. %1$s:  IF ( CATALOGUING ) 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:417
-#, fuzzy, c-format
+#, c-format
 msgid "%s No log found for "
-msgstr "Nebyl nalezen žádný záznam %s pro "
+msgstr "%s Nebyl nalezen protokol pro "
 
 #. %1$s:  ELSIF ( MEMBERS ) 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:419
-#, fuzzy, c-format
+#, c-format
 msgid ". %s No log found for "
-msgstr "Nebyl nalezen žádný záznam %s pro "
+msgstr ". %s Nebyl nalezen protokol pro "
 
 #. %1$s:  ELSE 
 #. %2$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:421
-#, fuzzy, c-format
+#, c-format
 msgid ". %s No log found. %s "
-msgstr "%s Nenalezeny žádné objednávky %s "
+msgstr ". %s Nebyl nalezen protokol. %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:453
 #, c-format
@@ -67334,9 +67317,9 @@ msgid "Newer version"
 msgstr "Novější verze"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:17
-#, fuzzy, c-format
+#, c-format
 msgid "Error adding to list"
-msgstr "Chyba při přidávání jednotek:"
+msgstr "Chyba při přidávání na seznam"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/addbybiblionumber.tt:18
 #, fuzzy, c-format
@@ -67467,15 +67450,15 @@ msgstr "Pouze vlastník"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:45
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:47
-#, fuzzy, c-format
+#, c-format
 msgid "Permitted staff only"
-msgstr "Zaměstnanec "
+msgstr "Pouze zaměstnanci s oprávněním"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:50
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:52
-#, fuzzy, c-format
+#, c-format
 msgid "Staff only"
-msgstr "Zaměstnanec "
+msgstr "Pouze pro knihovníky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:56
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:58
@@ -67505,9 +67488,9 @@ msgid "Contents of "
 msgstr "Obsah seznamu "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:117
-#, fuzzy, c-format
+#, c-format
 msgid "Create new list"
-msgstr "Vytvořit nový seznam "
+msgstr "Vytvořit nový seznam"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:123
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:405
@@ -67516,9 +67499,9 @@ msgid "Edit list "
 msgstr "Upravit seznam "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:129
-#, fuzzy, c-format
+#, c-format
 msgid "Transfer list "
-msgstr "Přesuny "
+msgstr "Seznam přenosů "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:147
 #, c-format
@@ -67607,14 +67590,14 @@ msgid "You do not have permission to add a record to this list."
 msgstr "Nemáte oprávnění přidávat záznamy do tohoto seznamu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:189
-#, fuzzy, c-format
+#, c-format
 msgid "You do not have permission to transfer ownership of this list."
-msgstr "Nemáte oprávnění zobrazit tento seznam."
+msgstr "K převodu vlastnictví tohoto seznamu nemáte oprávnění."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:191
-#, fuzzy, c-format
+#, c-format
 msgid "The new owner could not be found anymore."
-msgstr "Hlavičkový řádek nebylo možné zpracovat"
+msgstr "Nového vlastníka se nepodařilo najít."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:193
 #, c-format
@@ -67641,18 +67624,18 @@ msgstr "Převod vlastnictví veřejného seznamu %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:219
 #, c-format
 msgid "Search for new owner: "
-msgstr "Hledat nového dodavatele: "
+msgstr "Hledat nového vlastníka: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:225
-#, fuzzy, c-format
+#, c-format
 msgid "New owner: "
-msgstr "Nová objednávka "
+msgstr "Nový vlastník: "
 
 #. %1$s:  contents.count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:244
-#, fuzzy, c-format
+#, c-format
 msgid "This list contains %s titles"
-msgstr "Na této zastávce se nachází následují jednotky:"
+msgstr "Tento seznam obsahuje %s titulů"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:402
 #, c-format
@@ -67725,9 +67708,8 @@ msgstr "Košík"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:617
-#, fuzzy
 msgid "Please select a new owner first"
-msgstr "Vyberte prosím alespoň jednu položku."
+msgstr "Nejprve prosím vyberte nového vlastníka"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:617
@@ -67834,7 +67816,7 @@ msgstr "' ~%%] %s %s [%%~ action_block = action_block _ ' "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/tables/shelves_results.tt:50
 #, fuzzy, c-format
 msgid "' ~%%] %s%s%s%s [%%~ action_block = action_block _ '"
-msgstr "' ~%%] %s %s [%%~ action_block = action_block _ ' "
+msgstr "' ~%%] %s%s%s%s [%%~ action_block = action_block _ '"
 
 #: koha-tmpl/intranet-tmpl/prog/en/xslt/compact.xsl:15
 #, c-format
