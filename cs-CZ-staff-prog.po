@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11.14.000\n"
 "POT-Creation-Date: 2023-12-20 04:07+0000\n"
 "PO-Revision-Date: 2024-02-17 03:12+0000\n"
-"Last-Translator: m23 <black23@gmail.com>\n"
+"Last-Translator: DagmarS <dagmar.sikova@seznam.cz>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
@@ -28985,9 +28985,9 @@ msgstr "%s Podrobnosti úkolu #%s &rsaquo; %s Úkoly na pozadí &rsaquo; Adminis
 #. %1$s:  job.id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:34
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:66
-#, fuzzy, c-format
+#, c-format
 msgid "Details of job #%s"
-msgstr "Podrobnosti pro %s"
+msgstr "Podrobnosti úkolu #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:58
 #, c-format
@@ -29000,9 +29000,9 @@ msgid "Job ID: "
 msgstr "ID úlohy: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:75
-#, fuzzy, c-format
+#, c-format
 msgid "Status: "
-msgstr "Stav:"
+msgstr "Stav: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:78
 #, c-format
@@ -29036,9 +29036,9 @@ msgid "Detailed messages"
 msgstr "Podrobné zprávy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:109
-#, fuzzy, c-format
+#, c-format
 msgid "Return to the job list"
-msgstr "Zpět ke košíku"
+msgstr "Návrat na seznam úkolů"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:120
 #, c-format
@@ -29053,7 +29053,7 @@ msgstr "Vypsat pouze úlohy zařazené do fronty za poslední hodinu"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:132
 #, c-format
 msgid "Job ID"
-msgstr "ID Úlohy"
+msgstr "ID úkolu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:134
 #, c-format
@@ -29072,33 +29072,28 @@ msgstr "Ukončeno"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:160
-#, fuzzy
 msgid "Batch authority record deletion"
-msgstr "Dávkové mazání záznamů"
+msgstr "Dávkové mazání záznamů autorit"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:160
-#, fuzzy
 msgid "Batch authority record modification"
-msgstr "Dávková úprava záznamů"
+msgstr "Dávková úprava záznamů autorit"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:160
-#, fuzzy
 msgid "Batch bibliographic record deletion"
-msgstr "Počet bibliografických záznamů"
+msgstr "Dávkové mazání bibliografických záznamů"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:160
-#, fuzzy
 msgid "Batch bibliographic record modification"
-msgstr "Dávková úprava záznamů"
+msgstr "Dávková úprava bibliografických záznamů"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:160
-#, fuzzy
 msgid "Batch hold cancellation"
-msgstr "Dávkové mazání záznamů"
+msgstr "Dávkové storno rezervací"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:160
@@ -29120,15 +29115,13 @@ msgstr "Vytvořit distribuční seznam"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:160
-#, fuzzy
 msgid "Holds queue update"
-msgstr "Fronta rezervací"
+msgstr "Aktualizace fronty rezervací"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:160
-#, fuzzy
 msgid "Import MARC records"
-msgstr "Správa připravených MARC záznamů"
+msgstr "Import záznamů MARC"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:160
@@ -29143,9 +29136,8 @@ msgstr "Připravit MARC záznamy pro import"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:160
-#, fuzzy
 msgid "Unknown job type '%s'"
-msgstr "Neznámý typ chyby %s."
+msgstr "Neznámý typ úkolu '%s'"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:160
@@ -29197,12 +29189,12 @@ msgstr "Odstranit šablonu pro %s (%s)?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:68
 #, c-format
 msgid "An error occurred when updating this framework. Perhaps it already exists."
-msgstr "Při úpravě této šablony došlo k chybě. Možná již existuje."
+msgstr "Při aktualizaci této šablony se vyskytla chyba. Možná již existuje."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:70
 #, c-format
 msgid "An error occurred when adding this framework. The framework might already exist."
-msgstr "Při přidávání šablony došlo k chybě. Tato šablona již možná existuje."
+msgstr "Při přidávání této šablony došlo k chybě. Tato šablona již možná existuje."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:72
 #, fuzzy, c-format
@@ -29210,14 +29202,14 @@ msgid "An error occurred when deleting this framework. Check the logs."
 msgstr "Při odstraňování tohoto seznamu se vyskytla chyba."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:74
-#, fuzzy, c-format
+#, c-format
 msgid "Framework updated successfully."
-msgstr "byl úspěšně aktualizován"
+msgstr "Šablona byla úspěšně aktualizována."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:76
-#, fuzzy, c-format
+#, c-format
 msgid "Framework added successfully."
-msgstr "úspěšně přidán"
+msgstr "Šablona byla úspěšně přidána."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:78
 #, c-format
@@ -29225,9 +29217,9 @@ msgid "Framework deleted successfully."
 msgstr "Šablona byla úspěšně odstraněna."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:80
-#, fuzzy, c-format
+#, c-format
 msgid "This framework code already exists."
-msgstr "Přihlašovací jméno již je zapsáno u jiného čtenáře. Zvolte jiné přihlašovací jméno."
+msgstr "Tento kód šablony již existuje."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/biblio_framework.tt:91
 #, c-format
@@ -29394,12 +29386,12 @@ msgstr "Potvrdit odstranění pole '%s' "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:78
 #, c-format
 msgid "An error occurred when updating this library. Perhaps it already exists."
-msgstr "Při úpravě této knihovny došlo k chybě. Možná již existuje."
+msgstr "Při aktualizaci této knihovny došlo k chybě. Možná již existuje."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:80
 #, c-format
 msgid "An error occurred when adding this library. The branchcode might already exist."
-msgstr "Při přidávání této knihovny došlo k chybě. Kód oddělení již může existovat."
+msgstr "Při přidávání této knihovny došlo k chybě. Kód oddělení již možná existuje."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:82
 #, fuzzy, c-format
@@ -29407,31 +29399,31 @@ msgid "An error occurred when deleting this library. Check the logs."
 msgstr "Při odstraňování tohoto seznamu se vyskytla chyba."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:84
-#, fuzzy, c-format
+#, c-format
 msgid "Library updated successfully."
-msgstr "byl úspěšně aktualizován"
+msgstr "Knihovna byla úspěšně aktualizována."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:86
-#, fuzzy, c-format
+#, c-format
 msgid "Library added successfully."
-msgstr "úspěšně přidán"
+msgstr "Knihovna byla úspěšně přidána."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:88
 #, c-format
 msgid "Library deleted successfully."
-msgstr "Knihovna úspěšně odstraněna."
+msgstr "Knihovna byla úspěšně odstraněna."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:90
-#, fuzzy, c-format
+#, c-format
 msgid "This library cannot be deleted. Patrons or items are still using it"
-msgstr "Záznam neí možné smazat, protože minimálně jedna z jednotek je půjčena."
+msgstr "Tato knihovna nemůže být smazána. Čtenáři nebo jednotky ji stále používají."
 
 #. %1$s:  m.data.patrons_count | html 
 #. %2$s:  m.data.items_count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:92
 #, c-format
 msgid "(%s patrons and %s items)."
-msgstr "(%s čtenářů %s jednotek)."
+msgstr "(%s čtenáři a %s jednotky)."
 
 #. %1$s:  m.data.patrons_count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:94
@@ -29441,9 +29433,9 @@ msgstr "(%s čtenáři)."
 
 #. %1$s:  m.data.items_count | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:96
-#, fuzzy, c-format
+#, c-format
 msgid "(%s items)."
-msgstr "%s jednotek zbývá"
+msgstr "(%s jednotky)."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:106
 #, c-format
@@ -29451,9 +29443,9 @@ msgid "New library"
 msgstr "Nová knihovna"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/branches.tt:108
-#, fuzzy, c-format
+#, c-format
 msgid "Edit library"
-msgstr "Nastavit knihovnu"
+msgstr "Upravit knihovnu"
 
 #. %1$s:  IF library 
 #. %2$s:  ELSE 
