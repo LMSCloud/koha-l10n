@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-02 03:02+0000\n"
 "PO-Revision-Date: 2024-02-18 03:00+0000\n"
-"Last-Translator: m23 <black23@gmail.com>\n"
+"Last-Translator: DagmarS <dagmar.sikova@seznam.cz>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
@@ -30718,9 +30718,9 @@ msgstr "Minimální délka hesla:"
 
 #. %1$s:  Koha.Preference('minPasswordLength') | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:308
-#, fuzzy, c-format
+#, c-format
 msgid "Leave blank to use system default (%s)"
-msgstr "Ponechte prázdné, pokud tento odkaz nechcete používat"
+msgstr "Ponechte prázdné pro použití výchozího nastavení systému (%s)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:311
 #, c-format
@@ -30808,9 +30808,9 @@ msgid "Can place ILL in OPAC: "
 msgstr "Zobrazit v on-line katalogu: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:400
-#, fuzzy, c-format
+#, c-format
 msgid "Choose whether patrons of this category can create new interlibrary loan requests. "
-msgstr "Vyberte, zda se čtenáři zařazenému v této kategorii má ve výchozím nastavení kontrolovat, zda-li již měl právě půjčovaný dokumenty někdy dříve půjčený."
+msgstr "Vyberte, zdali čtenáři této kategorie mohou vytvářet nové požadavky na meziknihovní výpůjční služby. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:406
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:516
@@ -30942,9 +30942,9 @@ msgstr "Zdědit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:514
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:581
-#, fuzzy, c-format
+#, c-format
 msgid "Can be guarantee"
-msgstr "Je ručitelem"
+msgstr "Může být zárukou"
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:538
@@ -30969,9 +30969,9 @@ msgid "Enrollment period"
 msgstr "Období trvání registrace"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:564
-#, fuzzy, c-format
+#, c-format
 msgid "Password expiration"
-msgstr "Heslo bylo změněno"
+msgstr "Vypršení platnosti hesla"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:565
 #, c-format
@@ -31020,9 +31020,9 @@ msgid "Exclude from local holds priority"
 msgstr "Změnit pořadí rezervací"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:598
-#, fuzzy, c-format
+#, c-format
 msgid "Prof."
-msgstr "Profil:"
+msgstr "Prof."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:599
 #, c-format
@@ -31043,9 +31043,9 @@ msgstr "%sSkrytý%sZobrazený%s"
 #. %3$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:701
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:703
-#, fuzzy, c-format
+#, c-format
 msgid "%s Yes %s No %s"
-msgstr "%s Ano %s Ne %s "
+msgstr "%s Ano %s Ne %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:730
 #, c-format
@@ -31058,25 +31058,25 @@ msgid "No categories have been defined. "
 msgstr "Nebyly definovány žádné kategorie. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:39
-#, fuzzy, c-format
+#, c-format
 msgid "Configuration errors found"
-msgstr "konfigurační soubor."
+msgstr "Nalezené chyby konfigurace"
 
 #. %1$s:  total | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:39
-#, fuzzy, c-format
+#, c-format
 msgid "You have %s error(s) in your MARC configuration. Please fix them before using Koha "
-msgstr "Máte %s chyb ve vaší konfiguraci MARC. Opravte je, před použitím Koha."
+msgstr "Máte %s chyb ve vaší konfiguraci MARC. Opravte je před použitím Koha. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:44
-#, fuzzy, c-format
+#, c-format
 msgid "Configuration okay"
-msgstr "konfigurační soubor."
+msgstr "Konfigurace v pořádku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:44
-#, fuzzy, c-format
+#, c-format
 msgid "You don't have errors in your MARC configuration "
-msgstr "Máte %s chyb ve vaší konfiguraci MARC. Opravte je, před použitím Koha."
+msgstr "Nemáte chyby ve vaší konfiguraci MARC "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:51
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/classsources.tt:316
@@ -31092,14 +31092,14 @@ msgid "Result"
 msgstr "Výsledek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:57
-#, fuzzy, c-format
+#, c-format
 msgid "itemnumber"
-msgstr "itemnum"
+msgstr "itemnumber"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:58
-#, fuzzy, c-format
+#, c-format
 msgid "The field itemnumber MUST be mapped "
-msgstr "Pole itemnum MUSÍ být namapováno "
+msgstr "Pole itemnumber MUSÍ být namapováno "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:59
 #, c-format
@@ -31107,9 +31107,9 @@ msgid "The corresponding subfield MUST be in with -1 (ignore) tab"
 msgstr "Odpovídající podpole MUSÍ být se záložkou -1 (ignorovat)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:64
-#, fuzzy, c-format
+#, c-format
 msgid "itemnumber : the field itemnumber is mapped to a field in tab -1"
-msgstr "itemnum : pole itemnumber je map ván do pole v tab -1"
+msgstr "itemnumber : pole itemnumber je mapováno do pole v tab -1"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/checkmarc.tt:70
 #, c-format
@@ -31378,39 +31378,39 @@ msgid "New city"
 msgstr "Nové město"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:76
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when updating this city. Perhaps it already exists."
-msgstr "Při vytváření seznamu se vyskytla chyba. Seznam s názvem %s již existuje."
+msgstr "Při aktualizaci tohoto města došlo k chybě. Možná již existuje."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:78
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when adding this city. The city ID might already exist."
-msgstr "Při vytváření seznamu se vyskytla chyba. Seznam s názvem %s již existuje."
+msgstr "Při přidávání tohoto města došlo k chybě. ID města již možná existuje."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:80
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when deleting this city. Check the logs for details."
-msgstr "Při odstraňování tohoto seznamu se vyskytla chyba."
+msgstr "Při mazání tohoto města došlo k chybě. Podrobnosti naleznete v protokolech."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:82
-#, fuzzy, c-format
+#, c-format
 msgid "City updated successfully."
-msgstr "byl úspěšně aktualizován"
+msgstr "Město bylo úspěšně aktualizováno."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:84
-#, fuzzy, c-format
+#, c-format
 msgid "City added successfully."
-msgstr "úspěšně přidán"
+msgstr "Město bylo úspěšně přidáno."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:86
-#, fuzzy, c-format
+#, c-format
 msgid "City deleted successfully."
-msgstr "Soubor byl odstraněn"
+msgstr "Město bylo úspěšně odstraněno."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:88
-#, fuzzy, c-format
+#, c-format
 msgid "This city already exists."
-msgstr "Soubor již existuje"
+msgstr "Toto město již existuje."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:111
 #, c-format
@@ -31459,9 +31459,9 @@ msgstr "Země"
 #. %1$s:  city_name_filter | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:180
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/desks.tt:176
-#, fuzzy, c-format
+#, c-format
 msgid "Searching: %s"
-msgstr "Hledání"
+msgstr "Vyhledávání: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:189
 #, c-format
