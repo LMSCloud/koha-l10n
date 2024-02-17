@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11.14.000\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 08:54+0000\n"
-"PO-Revision-Date: 2024-02-14 07:10+0000\n"
+"PO-Revision-Date: 2024-02-18 03:12+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
@@ -99,9 +99,8 @@ msgid "quantity values are not filled in or are not numbers"
 msgstr "počty nejsou vyplněny nebo není vyplněno číslo"
 
 #: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:70
-#, fuzzy
 msgid "Some funds are not defined in item records"
-msgstr "Některé rozpočty nejsou obsaženy v záznamech jednotek"
+msgstr "Některé fondy nejsou v záznamech o jednotkách definovány"
 
 #: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:78
 msgid "Some required item subfields are not set"
@@ -544,12 +543,11 @@ msgstr "Prosím zvolte délku členství zadáním počtu měsíců NEBO data ko
 #: koha-tmpl/intranet-tmpl/prog/js/checkout_renewals_modal.js:13
 #, javascript-format
 msgid "Note: %s out of %s renewals have been logged"
-msgstr ""
+msgstr "Poznámka: %s z %s prodloužení bylo zaznamenáno"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkout_renewals_modal.js:24
-#, fuzzy
 msgid "Renewed by"
-msgstr "Prodlouženo do:"
+msgstr "Prodlouženo"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkout_renewals_modal.js:24
 msgid "manually"
@@ -615,9 +613,8 @@ msgid "Not allowed: overdue"
 msgstr "Není povoleno: výpůjčky po datu vrácení"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:205
-#, fuzzy
 msgid "Unable to find an open day"
-msgstr "Jednotka byla označena jako vrácená."
+msgstr "Nelze najít otevírací den"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:209
 msgid "reason unknown"
@@ -704,9 +701,9 @@ msgid "%s of %s renewals remaining"
 msgstr "zbývá %s z %s prodloužení"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
-#, fuzzy, javascript-format
+#, javascript-format
 msgid " and %s of %s unseen renewals remaining"
-msgstr "zbývá %s z %s prodloužení"
+msgstr " a zbývajících %s z %s nezobrazených prodloužení"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:630
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:632
@@ -866,9 +863,8 @@ msgstr ""
 "%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:512
-#, fuzzy
 msgid "Something went wrong when loading the table."
-msgstr "Něco se pokazilo. Možná už hodnota existuje?"
+msgstr "Při načítání tabulky se něco pokazilo."
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:733
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:243
@@ -920,7 +916,7 @@ msgid "Configure"
 msgstr "Nastavit"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:904
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "%s search"
 msgstr "%s hledání"
 
@@ -976,7 +972,7 @@ msgid "Next available %s item"
 msgstr "Další dostupná %s jednotka"
 
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:282
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Next available item group <strong>%s</strong> item"
 msgstr "Další dostupná skupina jednotek <strong>%s</strong> jednotka"
 
@@ -1051,9 +1047,9 @@ msgid "A letter with the code '%s' already exists for '%s'."
 msgstr "Oznámení s kódem'%s' již je pro knihovnu'%s' vytvořeno."
 
 #: koha-tmpl/intranet-tmpl/prog/js/letter.js:47
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "A letter with the code '%s' already exists for '%s'. Overwrite this letter?"
-msgstr "Oznámení s kódem'%s' již je pro knihovnu'%s' vytvořeno."
+msgstr "Oznámení s kódem '%s' se již využívá pro '%s'. Chcete oznámení přepsat?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/letter.js:104
 #, javascript-format
@@ -1427,9 +1423,8 @@ msgid "The recall may have already been marked as overdue. Please refresh the pa
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:108
-#, fuzzy
 msgid "Marked overdue"
-msgstr "výpůjčka po termínu"
+msgstr "Označeno jako po termínu vrácení"
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:116
 #, fuzzy
@@ -1446,9 +1441,8 @@ msgid "Are you sure you want to remove the selected recall(s)?"
 msgstr "Opravdu chcete odstranit vybrané položky?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:156
-#, fuzzy
 msgid "Please make a selection."
-msgstr "Prosím vyberte..."
+msgstr "Vyberte si prosím."
 
 #: koha-tmpl/intranet-tmpl/prog/js/resolve_claim_modal.js:8
 #, javascript-format
@@ -1645,9 +1639,8 @@ msgid "Please feel free to share your pattern with all others librarians once yo
 msgstr "Pokud je Váš vzor odladěn, sdílejte ho prosím se všemi ostatními knihovníky"
 
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:737
-#, fuzzy
 msgid "This bibliographic record does not exist"
-msgstr "Tento bibliografický záznam nebyl nalezen."
+msgstr "Tento bibliografický záznam nebyl nalezen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/table_filters.js:34
 msgid "Deactivate filters"
@@ -1702,9 +1695,8 @@ msgid "Error:"
 msgstr "Chyba:"
 
 #: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:172
-#, fuzzy
 msgid "This tool only accepts ZIP files or GIF, JPEG, PNG, or XPM images."
-msgstr "Ujistěte se, prosím, že načítáte pouze soubory GIF, JPEG, PNG, nebo XPM."
+msgstr "Tento nástroj přijímá pouze soubory ZIP nebo obrázky GIF, JPEG, PNG nebo XPM."
 
 #: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:179
 msgid "File name:"
@@ -1755,9 +1747,8 @@ msgid "Close"
 msgstr "Zavřít"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Dialog.vue:37
-#, fuzzy
 msgid "Submitting..."
-msgstr "Ukládání..."
+msgstr "Odeslání..."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:3
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:149
@@ -1771,9 +1762,8 @@ msgid "Agreement license %s"
 msgstr "Licence k dohodě %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:14
-#, fuzzy
 msgid "Remove this license"
-msgstr "Odstranit všechny položky"
+msgstr "Odstranění této licence"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:20
 msgid "License"
@@ -1856,14 +1846,13 @@ msgid "Periods"
 msgstr "Období"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:11
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Agreement period %s"
-msgstr "Licence k dohodě %s"
+msgstr "Doba platnosti smlouvy %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:14
-#, fuzzy
 msgid "Remove this period"
-msgstr "Odstranit položku"
+msgstr "Odstranit toto období"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:20
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:57
@@ -1879,9 +1868,8 @@ msgstr "Do dne"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:43
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:93
-#, fuzzy
 msgid "Cancellation deadline"
-msgstr "Zrušeno"
+msgstr "Lhůta pro zrušení"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:64
 msgid "Add new period"
@@ -1893,14 +1881,13 @@ msgid "Related agreements"
 msgstr "Související smlouvy"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:11
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Related agreement %s"
-msgstr "Upravit akci %s"
+msgstr "Související smlouva %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:14
-#, fuzzy
 msgid "Remove this relationship"
-msgstr "Odstranit omezení?"
+msgstr "Odstranit tento vztah"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementRelationships.vue:22
 msgid "Related agreement"
@@ -1919,9 +1906,9 @@ msgid "There are no other agreements created yet"
 msgstr "Zatím nebyly vytvořeny žádné jiné smlouvy"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Edit agreement #%s"
-msgstr "Upravit akci %s"
+msgstr "Úprava smlouvy #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:157
@@ -1930,9 +1917,8 @@ msgstr "Nová smlouva"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:14
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:27
-#, fuzzy
 msgid "Agreement name"
-msgstr "Licence k dohodě %s"
+msgstr "Název smlouvy"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:26
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:269
@@ -2020,9 +2006,8 @@ msgid "Filter by expired"
 msgstr "Filtrovat podle prošlé doby platnosti"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:13
-#, fuzzy
 msgid "on"
-msgstr "Po"
+msgstr "na"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:21
 msgid "Show mine only"
@@ -2033,15 +2018,13 @@ msgid "There are no agreements defined"
 msgstr "Nejsou definovány žádné smlouvy"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:136
-#, fuzzy
 msgid "Select"
-msgstr "Označit vše"
+msgstr "Vybrat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:194
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:399
-#, fuzzy
 msgid "Are you sure you want to remove this agreement?"
-msgstr "Opravdu chcete zrušit toto sdílení?"
+msgstr "Jste si jisti, že chcete tuto smlouvu odstranit?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:197
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:402
@@ -2087,23 +2070,21 @@ msgid "Name"
 msgstr "Jméno"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Agreement #%s"
-msgstr "Upravit akci %s"
+msgstr "Smlouva #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:91
-#, fuzzy
 msgid "Period start"
-msgstr "Poznámka ke čtenáři"
+msgstr "Začátek období"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:92
 msgid "Period end"
 msgstr "Konec období"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:94
-#, fuzzy
 msgid "Period note"
-msgstr "Poznámka ke čtenáři"
+msgstr "Poznámka k období"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:121
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:71
@@ -2137,31 +2118,27 @@ msgstr "Dokument %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:14
 msgid "Remove this document"
-msgstr ""
+msgstr "Odstranit tento dokument"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:19
 msgid "File"
 msgstr "Soubor"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:22
-#, fuzzy
 msgid "Select a file"
-msgstr "Označit vše"
+msgstr "Vyberte soubor"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:31
-#, fuzzy
 msgid "Update file"
-msgstr "Aktualizovat jednotku"
+msgstr "Aktualizace souboru"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:41
-#, fuzzy
 msgid "File name"
-msgstr "Název souboru:"
+msgstr "Název souboru"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:45
-#, fuzzy
 msgid "File type"
-msgstr "Typ souboru:"
+msgstr "Typ souboru"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/Documents.vue:49
 msgid "File description"
@@ -2181,21 +2158,18 @@ msgid "Add new agreement"
 msgstr "Přidat novou smlouvu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageAgreements.vue:108
-#, fuzzy
 msgid "This agreement is already linked with this package"
-msgstr "Tuto jednotku už v košíku máte"
+msgstr "Tato smlouva je již propojena s tímto balíčkem"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:7
-#, fuzzy
 msgid "Hide filters"
-msgstr "Zapnout filtry"
+msgstr "Skrýt filtry"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:7
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:7
-#, fuzzy
 msgid "Show filters"
-msgstr "Zapnout filtry"
+msgstr "Zobrazit filtry"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:13
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:220
@@ -2221,33 +2195,29 @@ msgstr "Typ publikace"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:25
-#, fuzzy
 msgid "Selection status"
-msgstr "Označit vše"
+msgstr "Stav výběru"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:44
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:25
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:28
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:28
-#, fuzzy
 msgid "Selected"
-msgstr "Zamítnuto"
+msgstr "Vybráno"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:45
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:26
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:29
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:29
-#, fuzzy
 msgid "Not selected"
-msgstr "Nic není vybráno"
+msgstr "Nevybráno"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:170
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:214
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:153
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:237
-#, fuzzy
 msgid "Is selected"
-msgstr "Nic není vybráno"
+msgstr "Je vybráno"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:4
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:30
@@ -2262,9 +2232,8 @@ msgstr "Název balíčku"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:68
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesList.vue:214
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:52
-#, fuzzy
 msgid "Content type"
-msgstr "Typ jednotky neuveden"
+msgstr "Typ obsahu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:49
 #, javascript-format
@@ -2282,19 +2251,17 @@ msgstr "Typ"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:5
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Package #%s"
-msgstr "Upravit akci %s"
+msgstr "Balíček #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:13
-#, fuzzy
 msgid "Add package to holdings"
-msgstr "Přidání balíčku do majetku"
+msgstr "Přidání balíčku do vlastnictví"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:22
-#, fuzzy
 msgid "Remove package from holdings"
-msgstr "Odstranění balíčku z majetku"
+msgstr "Odstranění balíčku z vlastnictví"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesShow.vue:40
 msgid "External ID"
@@ -2313,13 +2280,13 @@ msgstr "Vytvořeno dne"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOResourcesShow.vue:5
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalResourcesShow.vue:5
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Resource #%s"
-msgstr "Licence #%s"
+msgstr "Zdroj #%s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOResourcesShow.vue:13
 msgid "Add title to holdings"
-msgstr ""
+msgstr "Přidání titulu do vlastnictví"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOResourcesShow.vue:22
 msgid "Remove title from holdings"
@@ -2783,140 +2750,124 @@ msgid "The e-resource management module is disabled, turn on <a href=\"/cgi-bin/
 msgstr "Modul pro správu elektronických zdrojů je vypnutý, zapněte ho <a href=\"/cgi-bin/koha/admin/preferences.pl?tab=&op=search&searchfield=ERMModule\">ERMModule</a>, abyste jej mohli používat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:13
-#, fuzzy
 msgid "Remove this user"
-msgstr "Odstranit položku"
+msgstr "Odebrat tohoto uživatele"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:19
 msgid "User"
-msgstr ""
+msgstr "Uživatel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:28
-#, fuzzy
 msgid "Select user"
-msgstr "Označit vše"
+msgstr "Vybrat uživatele"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:62
 msgid "Add new user"
-msgstr ""
+msgstr "Přidat nového uživatele"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:40
 msgid "E-resource management"
-msgstr ""
+msgstr "Správa e-zdrojů"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:63
-#, fuzzy
 msgid "Show agreement"
-msgstr "Smlouva %s smazána"
+msgstr "Zobrazit smlouvu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:69
-#, fuzzy
 msgid "Add agreement"
-msgstr "Smlouva %s smazána"
+msgstr "Přidat smlouvu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:75
-#, fuzzy
 msgid "Edit agreement"
-msgstr "Upravit akci %s"
+msgstr "Upravit smlouvu"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:94
-#, fuzzy
 msgid "Show license"
-msgstr "Zapnout filtry"
+msgstr "Zobrazit licenci"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:100
-#, fuzzy
 msgid "Add license"
-msgstr "Upravit akci %s"
+msgstr "Přidat licenci"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:106
-#, fuzzy
 msgid "Edit license"
-msgstr "Upravit akci %s"
+msgstr "Upravit licenci"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:112
-#, fuzzy
 msgid "eHoldings"
-msgstr "Rezervace"
+msgstr "eHoldingy"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:118
 msgid "Local"
-msgstr ""
+msgstr "Místní"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:141
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:243
-#, fuzzy
 msgid "Show package"
-msgstr "Odstranit"
+msgstr "Zobrazit balíček"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:149
-#, fuzzy
 msgid "Add package"
-msgstr "Upravit akci %s"
+msgstr "Přidat balíček"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:157
-#, fuzzy
 msgid "Edit package"
-msgstr "Upravit akci %s"
+msgstr "Upravit balíček"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:163
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:249
 msgid "Titles"
-msgstr ""
+msgstr "Názvy"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:180
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:266
-#, fuzzy
 msgid "Show title"
-msgstr "Zapnout filtry"
+msgstr "Zobrazit název"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:188
-#, fuzzy
 msgid "Add title"
-msgstr "Přidat jednotku"
+msgstr "Přidat název"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:196
-#, fuzzy
 msgid "Edit title"
-msgstr "Upravit akci %s"
+msgstr "Upravit název"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:212
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:274
-#, fuzzy
 msgid "Resource"
-msgstr "Licence #%s"
+msgstr "Zdroj"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/routes/erm.js:220
 msgid "EBSCO"
-msgstr ""
+msgstr "EBSCO"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:14
 msgid "supersedes"
-msgstr ""
+msgstr "nahrazuje"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:15
 msgid "is superseded by"
-msgstr ""
+msgstr "je nahrazen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:18
 msgid "provides post-cancellation access for"
-msgstr ""
+msgstr "poskytuje přístup po zrušení pro"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:22
 msgid "has post-cancellation access in"
-msgstr ""
+msgstr "má přístup po zrušení v"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:26
 msgid "tracks demand-driven acquisitions for"
-msgstr ""
+msgstr "sleduje akvizice řízené poptávkou pro"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:30
 msgid "has demand-driven acquisitions in"
-msgstr ""
+msgstr "má poptávkou řízené akvizice v"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:32
 msgid "has backfile in"
-msgstr ""
+msgstr "má zpětný soubor v"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:33
 msgid "has frontfile in"
@@ -2924,12 +2875,12 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/stores/authorised-values.js:34
 msgid "related to"
-msgstr ""
+msgstr "vztahující se k"
 
 #: koha-tmpl/intranet-tmpl/prog/js/xmlControlfield.js:215
 #, javascript-format
 msgid "AJAX error: receiving data from %s"
-msgstr ""
+msgstr "Chyba AJAX: příjem dat z %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/z3950_search.js:9
 msgid "The page entered is not a number."
@@ -2950,11 +2901,11 @@ msgstr "Vyčistit formulář"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/autofill.js:31
 msgid "Search Google Books"
-msgstr ""
+msgstr "Vyhledávání v knihách Google"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/autofill.js:84
 msgid "Sorry, nothing found."
-msgstr ""
+msgstr "Omlouváme se, ale nic jsme nenašli."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/basket.js:111
 msgctxt "Bibliographic record"
@@ -3063,12 +3014,12 @@ msgstr "Jednotku nelze vypůjčit, protože není dostupná v žádném formátu
 #: koha-tmpl/opac-tmpl/bootstrap/js/ratings.js:35
 #, javascript-format
 msgid "Your rating: %s."
-msgstr ""
+msgstr "Vaše hodnocení: %s."
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/ratings.js:42
 #, javascript-format
 msgid "Average rating: %s (%s votes)"
-msgstr ""
+msgstr "Průměrné hodnocení: %s (%s hlasů)"
 
 #, fuzzy
 #~ msgid "Delete license"
