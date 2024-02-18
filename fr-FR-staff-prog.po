@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-02 03:02+0000\n"
-"PO-Revision-Date: 2024-02-18 03:00+0000\n"
+"PO-Revision-Date: 2024-02-19 03:00+0000\n"
 "Last-Translator: mathsaby <mathsabypro@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
@@ -4100,7 +4100,7 @@ msgstr "Exemplaires"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/biblio-view-menu.inc:59
 #, c-format
 msgid "Bookings ("
-msgstr "Réservations ("
+msgstr "Réservations programmées ("
 
 #. For the first occurrence,
 #. %1$s:  Biblio.HoldsCount( biblio_object_id ) | html 
@@ -5115,7 +5115,7 @@ msgstr "Réserver pour %s"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:198
 #, c-format
 msgid "Place booking"
-msgstr "Réserver"
+msgstr "Programmer une réservation"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:202
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:586
@@ -11498,12 +11498,12 @@ msgstr "Code à barres"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cancel_booking.inc:8
 #, c-format
 msgid "Cancel booking"
-msgstr "Annuler la réservation"
+msgstr "Annuler la réservation programmée"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cancel_booking.inc:13
 #, c-format
 msgid "Are you sure you want to cancel this booking?"
-msgstr "Voulez-vous vraiment annuler cette réservation ?"
+msgstr "Voulez-vous vraiment annuler cette réservation programmée ?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cancel_booking.inc:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:126
@@ -13392,7 +13392,7 @@ msgstr "Outrepasser le blocage de renouvellement"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:121
 #, c-format
 msgid "Manage item bookings "
-msgstr "Gérer les réservations "
+msgstr "Gérer les réservations programmées "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:126
 #, c-format
@@ -32906,7 +32906,7 @@ msgstr "Il n'y a pas d'EAN pour la bibliothèque. "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:276
 #, c-format
 msgid "New identity provider domain"
-msgstr "Nouveau domaine fournisseur d'identité"
+msgstr "Nouveau domaine pour le fournisseur d'identité"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:70
 #, c-format
@@ -39178,13 +39178,13 @@ msgstr "Courriel&nbsp;:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:31
 #, c-format
 msgid "Bookings"
-msgstr "Réservations"
+msgstr "Réservations programmées"
 
 #. %1$s:  INCLUDE 'biblio-title-head.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:42
 #, c-format
 msgid "Bookings for %s"
-msgstr "Réservations pour %s"
+msgstr "Réservations programmées pour %s"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:71
@@ -39194,7 +39194,7 @@ msgstr "Au niveau de la notice"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:71
 msgid "Booking ID"
-msgstr "Identifiant de la réservation"
+msgstr "Identifiant de la réservation programmée"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -41218,7 +41218,7 @@ msgstr "Retiré des collections le :"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:350
 #, c-format
 msgid "Bookable:"
-msgstr "Réservable :"
+msgstr "Réservation programmable :"
 
 #. %1$s:  ELSE 
 #. %2$s:  IF ITEM_DAT.bookable == 1 
@@ -43474,7 +43474,7 @@ msgstr "L'exemplaire était emprunté par %s et a été retourné automatiquemen
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:99
 #, c-format
 msgid "Item is booked by this user"
-msgstr "L'exemplaire est réservé par cet utilisateur"
+msgstr "Cet utilisateur a programmé une réservation de cet exemplaire"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:103
 #, c-format
@@ -43742,13 +43742,13 @@ msgstr "%s(%s)%s a été rappelé par "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:263
 #, c-format
 msgid "Due for another patron booking by: %s "
-msgstr "Dû pour un autre adhérent réservé par : %s "
+msgstr "Dû pour la réservation programmée d'un autre adhérent pour le : %s "
 
 #. %1$s:  BOOKED_EARLY.start_date | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:269
-#, fuzzy, c-format
+#, c-format
 msgid "Patron has this item booked for checkout on %s "
-msgstr "Adhérents empruntant le plus "
+msgstr "Cet adhérent a programmé une réservation de cet exemplaire pour un emprunt le %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:285
 #, c-format
@@ -44023,7 +44023,7 @@ msgstr "Suspension temporairement levée."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:609
 #, c-format
 msgid "!!A booking exists!!"
-msgstr ""
+msgstr "!!Une réservation programmée existe!!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:622
 #, c-format
@@ -46084,7 +46084,7 @@ msgstr "(La date de retour effective est fixée au %s)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1149
 #, c-format
 msgid "Book drop mode. "
-msgstr "Mode « Boîte de retour »"
+msgstr "Mode « Boîte de retour ». "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1156
 #, c-format
@@ -46110,7 +46110,7 @@ msgstr "Effacer les amendes"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1196
 #, c-format
 msgid "Book drop mode"
-msgstr "Mode 'Boîte de retour'"
+msgstr "Mode « Boîte de retour »"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1206
 #, c-format
@@ -50988,7 +50988,7 @@ msgstr "Peut être une personne à charge"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:193
 #, c-format
 msgid "Cannot delete guarantor(s). A child patron needs a guarantor."
-msgstr ""
+msgstr "Impossible de supprimer le(s) garant(s). Un adhérent enfant a besoin d'un garant."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:202
 #, c-format
@@ -54566,7 +54566,7 @@ msgstr "Plugins désactivés"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-disabled.tt:33
 #, c-format
 msgid "Plugin upload is restricted to only those plugins listed by your server administrator"
-msgstr ""
+msgstr "Le chargement de plugin est restreint à ceux listés par votre administrateur système"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-disabled.tt:34
 #, fuzzy, c-format
@@ -54790,7 +54790,7 @@ msgstr "Merci de vérifier que l'utilisateur Apache peut écrire dans le répert
 #: koha-tmpl/intranet-tmpl/prog/en/modules/plugins/plugins-upload.tt:42
 #, c-format
 msgid "Cannot install plugin from unknown source whilst plugins_restricted is enabled."
-msgstr ""
+msgstr "Impossible d'installer un plugin d'une source inconnue alors que plugins_restricted est activé."
 
 #. For the first occurrence,
 #. %1$s:  ERROR.CORERR | html 
@@ -59312,7 +59312,7 @@ msgstr "Recherche des abonnements dans Mana"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:237
 #, c-format
 msgid "The search originally produced %s results and was limited to %s."
-msgstr ""
+msgstr "La recherche originale a produit %s résultats et a été limitée à %s."
 
 #. %1$s:  total | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-search.tt:240
@@ -65015,7 +65015,7 @@ msgstr "Ajouter un attribut"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:406
 #, c-format
 msgid "NOTE: Attributes set here will replace all attributes of the same type in the patron record."
-msgstr ""
+msgstr "NOTE : Les attributs définis ici remplaceront tous les attributs du même type dans la fiche de l'adhérent."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:422
 #, c-format
