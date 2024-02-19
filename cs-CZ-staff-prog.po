@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-02 03:02+0000\n"
 "PO-Revision-Date: 2024-02-20 03:00+0000\n"
-"Last-Translator: DagmarS <dagmar.sikova@seznam.cz>\n"
+"Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
@@ -8858,7 +8858,7 @@ msgstr "Konec platnosti"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reserves_stats.tt:223
 #, c-format
 msgid "Pickup library"
-msgstr "Knihovna vyzvednutí"
+msgstr "Knihovna pro vyzvednutí"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:19
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:231
@@ -11374,7 +11374,7 @@ msgstr "Předběžné upozornění na termín vrácení"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:648
 #, c-format
 msgid "Hold filled"
-msgstr "Rezervace k vyzvednutí"
+msgstr "Splněná rezervace"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/messaging-preference-form.inc:25
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:655
@@ -11442,15 +11442,14 @@ msgid "Charge lost fee "
 msgstr "Účtovat poplatek za ztrátu "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modal-claims.inc:35
-#, fuzzy, c-format
+#, c-format
 msgid "Make claim"
-msgstr "Máte tip na knihu, kterou nemáme? "
+msgstr "Zahájit spor o výpůjčku"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modal-claims.inc:44
-#, fuzzy
 msgid "Unable to claim as returned"
-msgstr "Jednotka byla označena jako vrácená."
+msgstr "Nelze označit jako spornou výpůjčku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/add_catalog_concern.inc:13
 #, c-format
@@ -11706,7 +11705,7 @@ msgstr "Libovolná jednotka "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/resolve_return_claim.inc:7
 #, c-format
 msgid "Resolve return claim"
-msgstr "Vyřešit vrácenou reklamaci (nárok)"
+msgstr "Vyřešit spor o výpůjčku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/resolve_return_claim.inc:12
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:21
@@ -11727,7 +11726,7 @@ msgstr "Nenastaveno"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/resolve_return_claim.inc:35
 #, c-format
 msgid "Resolve claim "
-msgstr "Vyřešit reklamci "
+msgstr "Vyřešit spor "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/serials_multi_receiving.inc:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/serials-collection.tt:184
@@ -12077,23 +12076,21 @@ msgstr "Záruční poplatky (%s)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:89
 #, c-format
 msgid "Claims"
-msgstr "Sporné výpůjčky"
+msgstr "Spory"
 
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:52
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:54
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:63
-#, fuzzy
 msgid "Resolved claims"
-msgstr "Vyřešit reklamci "
+msgstr "Vyřešené spory"
 
 #. SPAN
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:57
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:59
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:64
-#, fuzzy
 msgid "Unresolved claims"
-msgstr "Vyřešit reklamci "
+msgstr "Nevyřešené spory"
 
 #. %1$s:  patron.restrictions.count || 0 | html 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-detail-tabs.inc:70
@@ -14459,9 +14456,9 @@ msgstr "Tuto jednotku je nutné převézt do %s."
 
 #. %1$s:  RECALL.expiration_date | $KohaDates 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:87
-#, fuzzy, c-format
+#, c-format
 msgid "Pick up by %s"
-msgstr "Knihovna vyzvednutí"
+msgstr "Vyzvednout do %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:107
 #, fuzzy, c-format
@@ -22820,7 +22817,7 @@ msgstr ") na "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:617
 #, c-format
 msgid "This order has been claimed %s times. On %s%s%s, %s%s "
-msgstr "Tato objednávka byla již %sx reklamována. Dne %s%s%s, %s%s"
+msgstr "Tato objednávka byla reklamována %s krát. Dne %s%s%s, %s%s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:625
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:802
@@ -24468,7 +24465,7 @@ msgstr "E-mail byl odeslán."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:61
 #, c-format
 msgid "Claim using notice: "
-msgstr "Vymáhat s použitím oznámení: "
+msgstr "Reklamovat zasláním oznámení: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:71
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/transfer_limits.tt:75
@@ -24600,7 +24597,7 @@ msgstr "Přidat poznámku k dodavateli "
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:231
 msgid "Claim order"
-msgstr "Reklamovat"
+msgstr "Reklamovat objednávku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/lateorders.tt:234
 #, c-format
@@ -26153,7 +26150,7 @@ msgstr "Kontakt pro objednávky"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:125
 #, c-format
 msgid "Receives claims for late orders"
-msgstr "Příjímá reklamace za pozdě dodané objednávky"
+msgstr "Příjímá reklamace na zpožděné objednávky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:132
 #, c-format
@@ -26168,7 +26165,7 @@ msgstr "Hlavní kontakti pro periodika"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:138
 #, c-format
 msgid "Receives claims for late issues"
-msgstr "Přijímá reklamace za opožděná čísla"
+msgstr "Přijímá reklamace za nedodaná vydání"
 
 #. %1$s:  name | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/supplier.tt:171
@@ -27390,9 +27387,9 @@ msgid "MARC Bibliographic framework test"
 msgstr "Ověření katalogizační šablony MARC"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:181
-#, fuzzy, c-format
+#, c-format
 msgid "Checks the MARC structure. If you change your MARC Bibliographic framework it's recommended that you run this tool to test for errors in your definition"
-msgstr "Test formální správnosti struktury MARC záznamu. Jesliže měníte strukturu šablony bibliografického záznamu v MARC, doporučuje se spustit tento test, který odhalí v šabloně případné chyby."
+msgstr "Test formální správnosti struktury MARC záznamu. Jesliže měníte strukturu šablony bibliografického záznamu v MARC, doporučuje se spustit tento test, který odhalí v šabloně případné chyby"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:183
 #, c-format
@@ -27405,14 +27402,14 @@ msgid "Define classification sources (i.e. call number schemes) used by your col
 msgstr "Definujte zdroje klasifikací (tj. schéma signatur) užívané ve vašich fondech. Také definujte pravidla pro řazení a dělení signatur"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:191
-#, fuzzy, c-format
+#, c-format
 msgid "Manage rules for automatically matching MARC records during record imports"
-msgstr "Správa pravidel pro automatické přiřazování MARC záznamů v průběhu importu."
+msgstr "Správa pravidel pro automatické přiřazování MARC záznamů v průběhu importu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:195
-#, fuzzy, c-format
+#, c-format
 msgid "Managed rules for automatic overlay of MARC fields during record imports and updates"
-msgstr "Správa pravidel pro automatické přiřazování MARC záznamů v průběhu importu."
+msgstr "Správa pravidel pro automatické přiřazování MARC záznamů v průběhu importu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:199
 #, c-format
@@ -27460,9 +27457,9 @@ msgid "Manage library EDI EANs"
 msgstr "Správa knihovních kódů EDI EAN"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:247
-#, fuzzy, c-format
+#, c-format
 msgid "Define which external identity providers to use"
-msgstr "Definujte Z39.50 servery používané při dotazování na MARCová data"
+msgstr "Nastavte, které externí poskytovatele identit chcete používat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:251
 #, c-format
@@ -30868,9 +30865,9 @@ msgstr "jehož spouštění by měl váš systémový administrátor nastavit."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:428
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:331
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:212
-#, fuzzy, c-format
+#, c-format
 msgid "Exclude from local holds priority:"
-msgstr "Změnit pořadí rezervací"
+msgstr "Neuplatňovat místní prioritu rezervací:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:438
 #, c-format
@@ -30944,7 +30941,7 @@ msgstr "Zdědit"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:581
 #, c-format
 msgid "Can be guarantee"
-msgstr "Může být zárukou"
+msgstr "Může být ručitelem"
 
 #. INPUT type=submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:538
@@ -30966,7 +30963,7 @@ msgstr "Název kategorie"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:563
 #, c-format
 msgid "Enrollment period"
-msgstr "Období trvání registrace"
+msgstr "Délka registrace"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:564
 #, c-format
@@ -30992,7 +30989,7 @@ msgstr "Poplatek za registraci"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:155
 #, c-format
 msgid "Overdue"
-msgstr "Po termínu"
+msgstr "Zpozdné"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:572
 #, c-format
@@ -31015,9 +31012,9 @@ msgid "Default privacy"
 msgstr "Výchozí nastavení soukromí"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:583
-#, fuzzy, c-format
+#, c-format
 msgid "Exclude from local holds priority"
-msgstr "Změnit pořadí rezervací"
+msgstr "Neuplatňovat místní prioritu rezervací"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/categories.tt:598
 #, c-format
@@ -32975,9 +32972,9 @@ msgstr "Nejsou definovány žádné EAN kódy knihovny. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:41
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:276
-#, fuzzy, c-format
+#, c-format
 msgid "New identity provider domain"
-msgstr "Odstranit server"
+msgstr "Nová doména poskytovatele identit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:70
 #, fuzzy, c-format
@@ -33241,9 +33238,9 @@ msgstr "Opravdu chcete odstranit skupinu '%s' (%s)?"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:36
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:83
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:352
-#, fuzzy, c-format
+#, c-format
 msgid "New identity provider"
-msgstr "Nový poskytovatel SMS"
+msgstr "Nový poskytovatel identit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:65
 #, fuzzy, c-format
@@ -33366,9 +33363,9 @@ msgstr "Mapování: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:137
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:301
-#, fuzzy, c-format
+#, c-format
 msgid "Map provider's result to Koha patron's fields. "
-msgstr "Mapování výsledku poskytovatele na pole čtenáře Koha. "
+msgstr "Mapovat výsledky poskytovatele na pole čtenáře Koha. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:139
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:303
@@ -33431,15 +33428,15 @@ msgid "userid"
 msgstr "Id uživatele"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:146
-#, fuzzy, c-format
+#, c-format
 msgid "Add default OAuth mapping"
-msgstr "mapování OAI sady"
+msgstr "Přidat výchozí nastavení OAuth"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:150
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:314
-#, fuzzy, c-format
+#, c-format
 msgid "Matchpoint: "
-msgstr "Selekční bod "
+msgstr "Údaj pro nalezení shody: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:153
 #, c-format
@@ -33471,14 +33468,14 @@ msgstr "Ano, resetovat mapování"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:160
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:336
-#, fuzzy, c-format
+#, c-format
 msgid "Icon URL: "
-msgstr "URL: "
+msgstr "URL ikony: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:167
-#, fuzzy, c-format
+#, c-format
 msgid "Domain configuration"
-msgstr "Stáhnout nastavení"
+msgstr "Nastavení domény"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:173
 #, c-format
@@ -34604,9 +34601,9 @@ msgstr "Chránit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:114
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:179
-#, fuzzy, c-format
+#, c-format
 msgid "Overwrite"
-msgstr "Po termínu"
+msgstr "Přepsat"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:115
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:180
@@ -35057,7 +35054,7 @@ msgstr "Skóre: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:503
 #, c-format
 msgid "Matchpoint components"
-msgstr "Komponenty selekčního bodu"
+msgstr "Komponenty údaje pro nalezení shody"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:195
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:246
@@ -40606,7 +40603,6 @@ msgstr "Datum vrácení"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1827
-#, fuzzy
 msgid "Claims returned by"
 msgstr "Údajně vráceno"
 
@@ -41202,7 +41198,7 @@ msgstr "Zobrazujete pouze jednu jednotku. "
 #. %2$s:  ELSE 
 #. %3$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:102
-#, c-format
+#, c-format, fuzzy
 msgid "%s Exclude from local holds priority updated to 'Yes' %s Exclude from local holds priority updated to 'No' %s "
 msgstr "%s Vyjmout z upředňostnování rezervací podle knihovny nastaveno na 'Ano' %s Vyjmout z upředňostnování rezervací podle knihovny nastaveno na 'Ne' %s "
 
@@ -41314,7 +41310,7 @@ msgstr "Nastavit stav"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:235
 #, c-format
 msgid "Item has been claimed as returned."
-msgstr "Jednotka byla označena jako vrácená."
+msgstr "Jednotka byla označena jako sporná."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:250
 #, c-format
@@ -43990,9 +43986,9 @@ msgid "Item on hold, please checkin."
 msgstr "Jednotka je ztracená a proto nemůže být vrácena."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:472
-#, fuzzy, c-format
+#, c-format
 msgid "Item claimed returned, please checkin."
-msgstr "Jednotka byla označena jako vrácená."
+msgstr "Jednotka byla označena jako sporná, načtěte ji přes vracení."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:475
 #, c-format
@@ -44917,7 +44913,7 @@ msgstr "%s %s, od %s%s%s, %s%s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:134
 #, fuzzy, c-format
 msgid "Claim returned "
-msgstr "Údajně vráceno"
+msgstr "Sporná výpůjčka vrácena "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:152
 #, c-format
@@ -45697,9 +45693,9 @@ msgid "Patron has outstanding fines of %s."
 msgstr "Čtenář má neuhrazené poplatky ve výši %s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:196
-#, fuzzy, c-format
+#, c-format
 msgid "This item has been claimed as returned by:"
-msgstr "Jednotka byla označena jako vrácená."
+msgstr "Jednotka označena jako sporná byla vrácena:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:200
 #, c-format
@@ -47536,9 +47532,9 @@ msgstr "Spravovat požadavek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:45
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:857
-#, fuzzy, c-format
+#, c-format
 msgid "Request type disclaimer"
-msgstr "Druh požadavku:"
+msgstr "Zřeknutí se odpovědnosti za typ požadavku"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:63
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/orders_by_budget.tt:107
@@ -58846,9 +58842,9 @@ msgstr "Reklamace "
 
 #. %1$s:  suppliername | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:29
-#, fuzzy, c-format
+#, c-format
 msgid "Claims for %s"
-msgstr "Podrobnosti pro %s"
+msgstr "Reklamace na %s"
 
 #. %1$s:  IF ( suppliername ) 
 #. %2$s:  suppliername | html 
@@ -58856,7 +58852,7 @@ msgstr "Podrobnosti pro %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:45
 #, c-format
 msgid "Claims %s for %s %s"
-msgstr "Reklamace %s pro %s %s"
+msgstr "Reklamace %s na %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:49
 #, c-format
@@ -58886,7 +58882,7 @@ msgstr "Vaše oznámení bylo posláno."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:75
 #, c-format
 msgid "No claims notice defined. "
-msgstr "Není vytvořené žádné oznámení o reklamci. "
+msgstr "Není vytvořené žádné oznámení pro reklamaci. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:76
 #, c-format
@@ -58918,7 +58914,7 @@ msgstr "Od"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:133
 #, c-format
 msgid "Claim date"
-msgstr "Datum upomínky"
+msgstr "Datum reklamace"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:182
@@ -58967,12 +58963,12 @@ msgstr "Hledat podle konce platnosti"
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:190
 msgid "Search claim count"
-msgstr "Prohledat počet reklamací"
+msgstr "Hledat reklamace podle počtu"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:191
 msgid "Search claim date"
-msgstr "Vyhledat podle data"
+msgstr "Hledat reklamace podle data"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:193
@@ -58988,7 +58984,7 @@ msgstr "Vyberte CSV profil:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:207
 #, c-format
 msgid "Download selected claims"
-msgstr "Stáhnout označené"
+msgstr "Stáhnout označené reklamace"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/claims.tt:213
 #, c-format
@@ -62810,7 +62806,7 @@ msgstr "Hostitelské záznamy"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:138
 #, c-format
 msgid "Late serial issues claims"
-msgstr "Reklamovat číslo periodika"
+msgstr "Reklamovaná čísla periodika"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:139
 #, fuzzy, c-format
