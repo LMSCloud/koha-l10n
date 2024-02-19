@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:32-0300\n"
-"PO-Revision-Date: 2024-01-24 03:00+0000\n"
+"PO-Revision-Date: 2024-02-20 03:00+0000\n"
 "Last-Translator: plumflower <jeff_lindqvist@hotmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: sv-SE\n"
@@ -7130,15 +7130,13 @@ msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# Enable"
 msgstr "Skicka"
 
 # Administration > Interface options > AddressForFailedOverdueNotices
-#, fuzzy
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
-msgstr "Om det här lämnas tomt så kommer meddelandet gå till den första e-postadressen i följande lista: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> och <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+msgstr "Den första e-postadressen i följande lista kommer att användas: Library Reply-To, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> och <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the patron's library whenever a hold request is placed."
-msgstr "ett e-postmeddelande till Koha-administratören varje gång en reservation läggs."
+msgstr "för att skicka ett e-postmeddelande till biblioteket varje gång en reservation läggs."
 
 # Circulation > Fines Policy > finesCalendar
 # Circulation > Fines Policy
@@ -11229,45 +11227,44 @@ msgstr "att låntagare som registrerat sig via OPAC verifierar sig via e-post."
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
-msgstr ""
+msgstr "</ul>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days.</li>"
-msgstr ""
+msgstr "<li>Första prioritet: Använd inställningen --list-invites när cronjobbet cleanup_database.pl cronjob körs och inställningen --list-invites definierar ett antal dagar.</li>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Second priority: Use the PurgeListShareInvitesOlderThan system preference when it contains a value.</li>"
-msgstr ""
+msgstr "<li>Andra prioritet: Använd systeminställningen PurgeListShareInvitesOlderThan när den innehåller ett värde.</li>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Third priority: Use a default of 14 days when the cleanup_database.pl cronjob is run with a --list-invites parameter, but no value AND the PurgeListShareInvitesOlderThan system preference is empty.</li>"
-msgstr ""
+msgstr "<li>Tredje prioritet: Använd som standard 14 dagar när cronjobbet cleanup_database.pl körs med inställningen --list-invites, men utan värde OCH systeminställningen PurgeListShareInvitesOlderThan är tom.</li>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <p><strong>WARNING</strong>: Unaccepted private list shares are deleted using these priorities:"
-msgstr ""
+msgstr "<p><strong>VARNING</strong>: Oaccepterade privata listdelningar tas bort enligt dessa prioriteringar:"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <p>Example: [14] Deletes unaccepted private list share invites older than 14 days.</p>"
-msgstr ""
+msgstr "<p>Exempel: [14] Tar bort en inbjudan till oaccepterad privat listdelning äldre än 14 dagar.</p>"
 
 # OPAC > Self registration and modification > PatronSelfRegistrationVerifyByEmail
 # OPAC > Self registration and modification
-#, fuzzy
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/cleanup_database.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>OBS!</strong> Denna systeminställning kräver att följande cronjobb körs: <code>misc/cronjobs/cleanup_database.pl</code>Be din systemadministratör att schemalägga det."
+msgstr "<strong>OBS!</strong> Denna systeminställning kräver att följande cronjobb körs: <code>misc/cronjobs/cleanup_database.pl</code>Be din systemadministratör att schemalägga det."
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <ul>"
-msgstr ""
+msgstr "<ul>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# The cleanup_database.pl cronjob automatically deletes unaccepted private list share invites after"
-msgstr ""
+msgstr "Cronjobbet cleanup_database.pl tar automatiskt bort inbjudningar till oaccepterade privata listdelninger efter"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# days."
-msgstr ""
+msgstr "dagar."
 
 # OPAC > Features > QuoteOfTheDay
 # OPAC > Features
@@ -11886,9 +11883,8 @@ msgstr "Primär adress"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
-#, fuzzy
 msgid "patrons.pref#CollapseFieldsPatronAddForm# Non-patron guarantor"
-msgstr "Låntagaridentitet"
+msgstr "Vårdnadshavare som inte är låntagare"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
@@ -11902,9 +11898,8 @@ msgstr "Flaggor för låntagarkonto (befintliga låntagare)"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
-#, fuzzy
 msgid "patrons.pref#CollapseFieldsPatronAddForm# Patron guarantor"
-msgstr "Låntagaridentitet"
+msgstr "Vårdnadshavare som är låntagare"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
