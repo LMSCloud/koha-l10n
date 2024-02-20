@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:13-0300\n"
-"PO-Revision-Date: 2024-01-22 14:21+0000\n"
-"Last-Translator: grenier <aurelie.grenier@orleans-metropole.fr>\n"
+"PO-Revision-Date: 2024-02-21 03:00+0000\n"
+"Last-Translator: Emmanuel Bétemps <e.betemps@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
 "MIME-Version: 1.0\n"
@@ -287,29 +287,26 @@ msgstr "Si laissé vide, le courriel sera envoyé à la première adresse défin
 
 # Acquisitions > Policy > AcquisitionsDefaultEMailAddress
 msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# Use the from email address"
-msgstr ""
+msgstr "Utiliser le courriel"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# when sending acquisitions order and claim notices."
-msgstr "un courriel en copie cachée (CCI) à l'utilisateur connecté lors de l'envoi des réclamations pour les périodiques ou les acquisitions."
+msgstr "pour l'envoi des commandes et des réclamations de numéros manquants de périodiques."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
-#, fuzzy
 msgid "acquisitions.pref#AcquisitionsDefaultReplyTo# <br>If left empty, it will fall back to the first defined address in the following list: library reply-to, library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Si laissé vide, le courriel sera envoyé à la première adresse définie dans la liste suivante : Répondre à, courriel de la bibliothèque, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> et <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "Si laissée vide, le courriel sera envoyé à la première adresse définie dans la liste suivante : Répondre à, courriel de la bibliothèque, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Acquisitions > Policy > AcquisitionsDefaultReplyTo
 msgid "acquisitions.pref#AcquisitionsDefaultReplyTo# Use the reply-to email address"
-msgstr ""
+msgstr "Utiliser le courriel Réponde à"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#AcquisitionsDefaultReplyTo# when sending acquisitions order and claim notices."
-msgstr "un courriel en copie cachée (CCI) à l'utilisateur connecté lors de l'envoi des réclamations pour les périodiques ou les acquisitions."
+msgstr "lors de l'envoi des commandes ou des réclamations de numéros manquants de périodiques."
 
 # Acquisitions > Policy > BasketConfirmations
 # Acquisitions > Policy
@@ -328,35 +325,31 @@ msgstr "ne pas demander confirmation."
 
 # Circulation > Checkin policy > CalculateFinesOnBackdate
 # Circulation > Checkin policy
-#, fuzzy
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# Exclude"
-msgstr "Calculer et mettre à jour"
+msgstr "Exclure"
 
 # Acquisitions > Policy > EmailPurchaseSuggestions
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# Include"
-msgstr "aucune"
+msgstr "Inclure"
 
 # Acquisitions > Policy > CalculateFundValuesIncludingTax
 msgid "acquisitions.pref#CalculateFundValuesIncludingTax# tax in the calculated fund values (spent, ordered). Note this rule applies to all vendors regardless of their configuration"
-msgstr ""
+msgstr "les taxes dans le calcul des montants (dépensés, commandés) des postes budgétaires. Veuillez noter que cette règle s'applique à tous les fournisseurs, peu importe leur configuration"
 
 # Acquisitions > Policy > AcqViewBaskets
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# Allow"
-msgstr "Afficher les paniers"
+msgstr "Permettre"
 
 # Acquisitions > Policy > AcqEnableFiles
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# Don't allow"
-msgstr "Ne pas autoriser"
+msgstr "Ne pas permettre"
 
 # Acquisitions > Policy > CancelOrdersInClosedBaskets
 msgid "acquisitions.pref#CancelOrdersInClosedBaskets# cancelling order lines in closed baskets."
-msgstr ""
+msgstr "l'annulation de lignes de commandes dans les paniers fermés."
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
@@ -582,21 +575,18 @@ msgstr " jours. Exemple : [30] définit la purge des suggestions de plus de 30 j
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Si laissé vide, le courriel sera envoyé à la première adresse définie dans la liste suivante : Répondre à, courriel de la bibliothèque, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> et <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "Si laissée vide, le courriel sera envoyé à la première adresse définie dans la liste suivante : courriel de la bibliothèque,  <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Administration > Interface options > ReplytoDefault
 # Administration > Interface options
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# Use the from email address"
-msgstr "Adresse courriel à paramétrer comme adresse de réponse dans les courriels&nbsp;: "
+msgstr "Utiliser le courriel"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultEMailAddress# when sending serial claim notices."
-msgstr "un courriel en copie cachée (CCI) à l'utilisateur connecté lors de l'envoi des réclamations pour les périodiques ou les acquisitions."
+msgstr "pour l'envoi de réclamations de numéros manquants de périodiques."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
