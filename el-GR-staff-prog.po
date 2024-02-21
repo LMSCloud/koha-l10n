@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.14.000\n"
 "POT-Creation-Date: 2023-12-20 04:07+0000\n"
-"PO-Revision-Date: 2024-02-21 07:42+0000\n"
-"Last-Translator: dataly <gveranis@dataly.gr>\n"
+"PO-Revision-Date: 2024-02-22 03:15+0000\n"
+"Last-Translator: Eugenios Papadopoulos <eugenios.papadopoulos@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: el-GR\n"
 "MIME-Version: 1.0\n"
@@ -18599,9 +18599,9 @@ msgid "Undefined"
 msgstr "Απροσδιόριστο"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:207
-#, fuzzy, c-format
+#, c-format
 msgid "Environment (TZ):"
-msgstr "%s | Περιβάλλον (TZ): %s "
+msgstr "Περιβάλλον (TZ):"
 
 #. TH
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:226
@@ -18659,9 +18659,9 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:278
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step2.tt:57
-#, fuzzy, c-format
+#, c-format
 msgid "Database row format"
-msgstr "Βάση δεδομένων: "
+msgstr "Μορφοποίηση γραμμών βάσης δεδομένων"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:283
 #, c-format
@@ -18686,12 +18686,12 @@ msgstr "Προβλήματα δεδομένων"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:290
 #, c-format
 msgid "Some of your tables have problems with their auto_increment values which may lead to data loss. "
-msgstr ""
+msgstr "Κάποιοι πίνακες έχουν πρόβλημα με την τιμή auto_increment που μπορεί να οδηγήσει στην απώλεια δεδομένων. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:294
 #, c-format
 msgid "You should not ignore this warning."
-msgstr ""
+msgstr "Δεν πρέπει να αγνοήσετε αυτή την προειδοποίηση."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:296
 #, c-format
@@ -18772,7 +18772,7 @@ msgstr "Αυτός ο τίτλος δεν μπορεί να ζητηθεί."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:390
 #, c-format
 msgid "One of the logfiles listed in the config file is not writable."
-msgstr ""
+msgstr "Κάποιο από τα αρχεία καταγραφής που αναφέρονται στο αρχείο ρυθμίσεων δεν είναι εγγράψιμο."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:391
 #, c-format
@@ -18792,7 +18792,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:400
 #, c-format
 msgid "Maybe it is not installed and configured correctly? "
-msgstr ""
+msgstr "Ίσως δεν έχει εγκατασταθεί και ρυθμιστεί σωστά; "
 
 #. %1$s:  END # /IF warnConnectBroker 
 #. %2$s:  IF warnPrefRequireChoosingExistingAuthority || warnPrefEasyAnalyticalRecords || warnPrefAnonymousPatronOPACPrivacy || warnPrefAnonymousPatronAnonSuggestions || warnPrefAnonymousPatronOPACPrivacy_PatronDoesNotExist || warnPrefAnonymousPatronAnonSuggestions_PatronDoesNotExist || warnPrefKohaAdminEmailAddress || warnPrefOpacHiddenItems || invalid_yesno.count || warnNoActiveCurrency || AutoSelfCheckPatronDoesNotHaveSelfCheckPerm || AutoSelfCheckPatronHasTooManyPerm || warnStatisticsFieldsError || warnNoTemplateCaching || warnILLConfiguration || warnXSLT || oauth2_missing_deps || bad_yaml_prefs || warnIssuingRules || config_bcrypt_settings_no_set || warnHiddenBiblionumbers.size || warnFastCataloging 
@@ -18859,7 +18859,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:419
 #, c-format
 msgid "System preference 'RequireChoosingExistingAuthority' is disabled, but needs 'AutoCreateAuthorites' enabled. Otherwise catalogers can add headings that will not be linked to authorities."
-msgstr ""
+msgstr "Η προτίμηση συστήματος 'RequireChoosingExistingAuthority' είναι απενεργοποιημένη, αλλά απαιτεί το 'AutoCreateAuthorites' ενεργοποιημένο. Διαφορετικά οι καταλογογράφοι θα μπορούν να εισάγουν επικεφαλίδες οι οποίες δεν θα συνδέονται με τις καθιερωμένες."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:425
 #, c-format
@@ -18889,13 +18889,13 @@ msgstr "Η προτίμηση συστήματος 'AnonSuggestions' ρυθμί�
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:455
 #, c-format
 msgid "System preference 'KohaAdminEmailAddress' does not contain a valid email address. Emails will not be sent."
-msgstr ""
+msgstr "Η προτίμηση συστήματος 'KohaAdminEmailAddress' δεν περιέχει ένα έγκυρο email. Τα μηνύματα δεν θα αποσταλούν."
 
 #. %1$s:  warnPrefOpacHiddenItems | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:461
 #, c-format
 msgid "System preference 'OpacHiddenItems' generates a warning and will produce unexpected behaviors: %s"
-msgstr ""
+msgstr "Η προτίμηση συστήματος 'OpacHiddenItems' δημιούργησε μια προειδοποίηση και θα προκαλέσει απροσδόκητες συμπεριφορές: %s"
 
 #. %1$s:  p.syspref | html 
 #. %2$s:  p.value | html 
@@ -18903,7 +18903,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:467
 #, c-format
 msgid "System preference '%s' is '%s', but the file '%s' does not exist."
-msgstr ""
+msgstr "Η προτίμηση συστήματος '%s' είναι '%s', αλλά το αρχείο '%s' δεν υπάρχει."
 
 #. %1$s:  p.variable | html 
 #. %2$s:  IF p.value.defined 
@@ -18913,7 +18913,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:474
 #, c-format
 msgid "System preference '%s' must be '0' or '1', but is %s'%s'%sNULL%s."
-msgstr ""
+msgstr "Η προτίμηση συστήματος '%s' πρέπει να είναι '0' ή '1', αλλά είναι %s'%s'%sNULL%s."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:481
 #, c-format
