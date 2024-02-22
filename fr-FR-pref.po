@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:13-0300\n"
-"PO-Revision-Date: 2024-02-22 03:00+0000\n"
+"PO-Revision-Date: 2024-02-23 03:00+0000\n"
 "Last-Translator: Emmanuel Bétemps <e.betemps@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
@@ -281,9 +281,8 @@ msgstr "lorsque le bibliothécaire tente de donner à une facture un numéro dé
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
-#, fuzzy
 msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# <br>If left empty, it will fall back to the first defined address in the following list: library email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Si laissé vide, le courriel sera envoyé à la première adresse définie dans la liste suivante : Répondre à, courriel de la bibliothèque, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> et <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "<br>Si laissé vide, le courriel sera envoyé à la première adresse définie dans la liste suivante : courriel de la bibliothèque, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Acquisitions > Policy > AcquisitionsDefaultEMailAddress
 msgid "acquisitions.pref#AcquisitionsDefaultEMailAddress# Use the from email address"
@@ -590,19 +589,17 @@ msgstr "pour l'envoi de réclamations de numéros manquants de périodiques."
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultReplyTo# <br>If left empty, it will fall back to the first defined address in the following list: Library ReplyTo, Library Email, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
-msgstr "Si laissé vide, le courriel sera envoyé à la première adresse définie dans la liste suivante : Répondre à, courriel de la bibliothèque, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> et <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "<br>Si laissé vide, le courriel sera envoyé à la première adresse définie dans la liste suivante : Répondre à, courriel de la bibliothèque, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a>, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Acquisitions > Policy > SerialsDefaultReplyTo
 msgid "acquisitions.pref#SerialsDefaultReplyTo# Use the reply-to email address"
-msgstr ""
+msgstr "Utiliser l'adresse courriel"
 
 # Acquisitions > Policy > ClaimsBccCopy
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#SerialsDefaultReplyTo# when sending serial claim notices."
-msgstr "un courriel en copie cachée (CCI) à l'utilisateur connecté lors de l'envoi des réclamations pour les périodiques ou les acquisitions."
+msgstr "comme adresse \"Répondre à\" lors de l'envoi de réclamations de numéros manquants de périodiques."
 
 # Acquisitions > Policy > TaxRates
 # Acquisitions > Policy
@@ -872,20 +869,17 @@ msgid "admin.pref#EmailOverduesNoEmail# overdue notices for patrons without emai
 msgstr "aux bibliothécaires les notifications de retard des adhérents sans courriel."
 
 # OPAC > Features > OpacNewsLibrarySelect
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# Don't force"
-msgstr "Ne pas afficher"
+msgstr "Ne pas exiger"
 
 # OPAC > Features > OpacNewsLibrarySelect
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# Force"
-msgstr "Afficher"
+msgstr "Exiger"
 
 # OPAC > Features > OpacNewsLibrarySelect
 # OPAC > Features
-#, fuzzy
 msgid "admin.pref#ForceLibrarySelection# library selection when logging into the staff interface."
-msgstr "une liste de choix par bibliothèque pour les annonces dans l'OPAC."
+msgstr "le choix d'un site lors de la connexion à l'interface professionnelle."
 
 # Administration > Google OpenID Connect > GoogleOAuth2ClientID
 # Patrons > Notices and notifications > PhoneNotification
@@ -2378,13 +2372,11 @@ msgstr "Créateur de Liens"
 
 # Cataloging > Importing > AdditionalFieldsInZ3950ResultSearch
 # Cataloging > Importing
-#, fuzzy
 msgid "authorities.pref#AdditionalFieldsInZ3950ResultAuthSearch#  in the 'Additional fields' column of Z39.50 search results (use comma as delimiter e.g.: \"<code>001, 035$a</code>\")"
-msgstr "  dans la colonne «&nbsp;Sous-champs supplémentaires&nbsp;» des résultats d'une recherche Z39.50 (utiliser la virgule comme séparateur -par exemple&nbsp;: «<code>001, 082$ab, 090$ab</code>»)"
+msgstr "dans la colonne 'Champs supplémentaires' dans le résultat de recherche Z39.50 (utiliser une virgule pour délimiter les valeurs par ex. : \"<code>001, 035$a</code>\")"
 
 # Cataloging > Importing > AdditionalFieldsInZ3950ResultSearch
 # Cataloging > Importing
-#, fuzzy
 msgid "authorities.pref#AdditionalFieldsInZ3950ResultAuthSearch# Display the MARC field/subfields"
 msgstr "Afficher les champs / sous-champs MARC"
 
@@ -2508,73 +2500,62 @@ msgstr "automatiquement le lien entre les vedettes qui ont été précédemment 
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 0XX"
-msgstr "Utiliser"
+msgstr "0XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 1XX"
-msgstr "Utiliser"
+msgstr "1XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 2XX"
-msgstr "Utiliser"
+msgstr "2XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 3XX"
-msgstr "Utiliser"
+msgstr "3XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 4XX"
-msgstr "Utiliser"
+msgstr "4XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 5XX"
-msgstr "Utiliser"
+msgstr "5XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 6XX"
-msgstr "Utiliser"
+msgstr "6XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 7XX"
-msgstr "Utiliser"
+msgstr "7XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 8XX"
-msgstr "Utiliser"
+msgstr "8XX"
 
 # Authorities > General > UseAuthoritiesForTracings
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# 9XX"
-msgstr "Utiliser"
+msgstr "9XX"
 
 # Authorities > General > AutoCreateAuthorities
 # Authorities > General
-#, fuzzy
 msgid "authorities.pref#DefaultAuthorityTab# When viewing authority details default to the"
-msgstr "Lors de l'édition des notices,"
+msgstr "Par défaut, afficher l'onglet"
 
 # Authorities > General > DefaultAuthorityTab
 msgid "authorities.pref#DefaultAuthorityTab# tab. If the selected tab does not exist, the view will default to the first tab."
-msgstr ""
+msgstr "lors de l'affichage d'une notice d'autorité. Si l'onglet sélectionné n'existe pas, le premier onglet sera sélectionné par défaut."
 
 # Authorities > General > GenerateAuthorityField667
 # OPAC > Privacy
@@ -3021,18 +3002,15 @@ msgstr "l'éditeur de catalogage avancé."
 
 # Circulation > Holds policy > EnableItemGroups
 # Circulation > Article requests
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# Don't enable"
 msgstr "Ne pas activer"
 
 # Circulation > Holds policy > EnableItemGroups
 # Circulation > Checkout policy
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# Enable"
 msgstr "Activer"
 
 # Circulation > Holds policy > EnableItemGroups
-#, fuzzy
 msgid "cataloguing.pref#EnableItemGroups# the item groups feature to allow collecting groups of items on a record together."
 msgstr "la fonctionnalité de groupes d'exemplaires pour permettre de grouper des exemplaires sur une même notice."
 
@@ -3197,9 +3175,8 @@ msgstr "affiche :"
 
 # Cataloging > Record structure > NewItemsDefaultLocation
 # Cataloging > Record structure
-#, fuzzy
 msgid "cataloguing.pref#NewItemsDefaultLocation# (should be a <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC\">location code</a>, or blank to disable)."
-msgstr "(doit être un code de localisation valide ou bien laissé vide pour désactiver cette fonctionnalité)."
+msgstr "(doit être un <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOC\">code de localisation</a>, ou bien laissé vide pour désactiver cette fonctionnalité)."
 
 # Cataloging > Record structure > NewItemsDefaultLocation
 # Cataloging > Record structure
@@ -3233,7 +3210,7 @@ msgstr "(Laisser vide si inutilisé. Définir une plage comme <code>192.168.</co
 
 # Cataloging > Display > OpacSuppression
 msgid "cataloguing.pref#OpacSuppression# <br /> A custom message can be shown on the redirect page for suppressed bibliographic records by creating an <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>HTML customization</a> in the OpacSuppressionMessage region."
-msgstr ""
+msgstr "<br /> Un message personnalisé peut être affiché sur la page de redirection des notices bibliographiques supprimées en créant une <a href='/cgi-bin/koha/tools/additional-contents.pl?category=html_customizations'>personnalisation HTML</a> dans OpacSuppressionMessage."
 
 # Cataloging > Display > OpacSuppression
 # Cataloging > Display
@@ -4352,31 +4329,27 @@ msgstr "Les formats suivants pour la demande d'article sont supportés :"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# When returning items"
-msgstr "Interdire"
+msgstr "Au retour des documents,"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# don't"
-msgstr "Interdire"
+msgstr "ne pas"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining items that is cause for debarment"
-msgstr "Interdire"
+msgstr "si l'adhérent n'a plus de document justifiant une exclusion,"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# if patron has no remaining overdue items"
-msgstr "Interdire"
+msgstr "si l'adhérent n'a plus de document en retard,"
 
 # Circulation > Patron restrictions > AutoRemoveOverduesRestrictions
 msgid "circulation.pref#AutoRemoveOverduesRestrictions# remove OVERDUES restriction triggered by sent notices. The difference between removing restriction when no remaining overdue items exists and doing so only when any of the items would result in debarment is that the latter option will respect possible grace periods of overdue rules also on returns and not only when generating overdue notices."
-msgstr ""
+msgstr "enlever l'exclusion OVERDUES générée par les notifications envoyées. La différence entre retirer l'exclusion s'il ne reste plus de document en retard et le faire seulement si n'importe quel document provoquerait une exclusion est que cette seconde option respectera la possible période de grâce des règles de retard au retour aussi, et pas seulement à la génération des notifications de retard."
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
 # Circulation > Holds policy
@@ -4465,27 +4438,23 @@ msgstr "la redirection automatique vers un autre adhérent si un code à barres 
 
 # Circulation > Holds policy > AutoResumeSuspendedHolds
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/automatic_checkin.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<br><strong>NOTE :</strong> Cette préférence système requiert le cronjob <code>misc/cronjobs/holds/auto_unsuspend_holds.pl</code>. Demander à votre administrateur système de le planifier."
+msgstr "<br><strong>NOTE :</strong> Cette préférence système requiert le cronjob <code>misc/cronjobs/automatic_checkin.pl</code>. Demandez à votre administrateur système de le planifier."
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# Allow"
-msgstr "Autoriser"
+msgstr "Permettre"
 
 # Circulation > Batch checkout > BatchCheckouts
 # Circulation > Batch checkout
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# Don't allow"
-msgstr "Ne pas autoriser"
+msgstr "Ne pas permettre"
 
 # Circulation > Checkout policy > AutomaticItemReturn
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#AutomaticCheckinAutoFill# holds to be automatically filled after being automatically checked in."
-msgstr "automatiquement les exemplaires vers leur site de rattachement lors de leur retour."
+msgstr "aux réservations d'être automatiquement remplies lors d'un retour automatique."
 
 # Circulation > Checkin policy > AutomaticConfirmTransfer
 # Circulation > Checkout policy
@@ -4939,9 +4908,8 @@ msgstr "<br>Laisser vide si vous ne voulez pas faire payer les exemplaires perdu
 
 # Circulation > Checkout policy > DefaultLongOverdueChargeValue
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueChargeValue# Charge a lost item to the patron's account when the <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a> value of the item changes to:"
-msgstr "Facturer les exemplaires perdus aux adhérents quand la valeur LOST de l'exemplaire passe à :"
+msgstr "Facturer les exemplaires perdus aux adhérents quand la <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>valeur LOST</a> de l'exemplaire passe à :"
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -4955,9 +4923,8 @@ msgstr "<br><strong>NOTE :</strong> Cette préférence système requiert le cron
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueLostValue# <br>Example: [1] [30] Sets an item to the <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a> value 1 when it has been overdue for more than 30 days."
-msgstr "<br>Exemple : [1] [30] passe LOST à la valeur 1 quand l'exemplaire à un retard de plus de 30 jours."
+msgstr "<br>Exemple : [1] [30] passe la valeur <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST'>LOST</a> d'un exemplaire à la valeur 1 quand il a un retard de plus de 30 jours."
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -4965,9 +4932,8 @@ msgid "circulation.pref#DefaultLongOverdueLostValue# <br>WARNING — These prefe
 msgstr "<br>Attention : Ces préférences activent le processus de traitement automatique des pertes d'exemplaire. Laissez ces champs vides si vous ne voulez pas activer cette fonctionnalité."
 
 # Circulation > Item bundles > BundleLostValue
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueLostValue# By default, set the <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> value of an item to"
-msgstr "Utiliser la valeur autorisée <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>"
+msgstr "Par défaut, configurer la valeur <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> d'un exemplaire à"
 
 # Circulation > Checkout policy > DefaultLongOverdueLostValue
 # Circulation > Checkout policy
@@ -4986,9 +4952,8 @@ msgstr "."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# <br>Leave this field empty if you don't want to skip any <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> statuses."
-msgstr "<br>Laisser vide si vous ne voulez ignorer aucun statut perdu."
+msgstr "<br>Laisser vide si vous ne voulez ignorer aucun statut <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>."
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
@@ -4997,9 +4962,8 @@ msgstr "<br>Définir une liste de valeurs séparées par une virgule, ex. <em>5,
 
 # Circulation > Checkout policy > DefaultLongOverdueSkipLostStatuses
 # Circulation > Checkout policy
-#, fuzzy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# When using the automatic item loss process, skip items with <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> values matching any of"
-msgstr "Lors de l'exécution du script des exemplaires perdus, ignorer les exemplaires avec les valeurs LOST égales à "
+msgstr "Lors de l'exécution du script des exemplaires perdus, ignorer les exemplaires avec les valeurs <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> égales à"
 
 # Circulation > Interface > DisplayClearScreenButton
 # Circulation > Interface
@@ -5038,21 +5002,18 @@ msgstr "la possibilité de placer des réservations sur plusieurs notices biblio
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Don't email"
 msgstr "Ne pas envoyer"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# Email"
 msgstr "Envoyer"
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#EmailPatronWhenHoldIsPlaced# a patron when they have placed a hold."
-msgstr "Ne pas envoyer"
+msgstr "un courriel à un adhérent qui vient de créer une réservation."
 
 # Circulation > Holds policy > EnableItemGroupHolds
 # Circulation > Holds policy
@@ -7211,15 +7172,13 @@ msgstr "Envoyer"
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
-#, fuzzy
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
-msgstr "Si laissé vide, le courriel sera envoyé à la première adresse définie dans la liste suivante : Répondre à, courriel de la bibliothèque, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> et <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>"
+msgstr "Le courriel sera envoyé à la première adresse définie dans la liste suivante : Répondre à, courriel de la bibliothèque, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the patron's library whenever a hold request is placed."
-msgstr "un courriel à l'administrateur de Koha lorsqu'une réservation est faite par un adhérent."
+msgstr "un courriel au site de l'adhérent lorsqu'une réservation est faite."
 
 # Circulation > Fines Policy > finesCalendar
 # Circulation > Fines Policy
@@ -13142,13 +13101,12 @@ msgid "preservation.pref#PreservationNotForLoanDefaultTrainIn# to apply to items
 msgstr ""
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "preservation.pref#PreservationNotForLoanWaitingListIn# Use the <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a> authorized value"
-msgstr "Utiliser la valeur autorisée <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>"
+msgstr "Utiliser la valeur autorisée<a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>"
 
 # Preservation > Interface > PreservationNotForLoanWaitingListIn
 msgid "preservation.pref#PreservationNotForLoanWaitingListIn# to apply to items added to the waiting list."
-msgstr ""
+msgstr "à appliquer aux exemplaires ajoutés à la liste d'attente."
 
 # Searching
 msgid "searching.pref"
@@ -13205,71 +13163,61 @@ msgstr "(valeurs séparées par |). Les onglets apparaissent dans l'ordre listé
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# ,"
 msgstr ","
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# ."
-msgstr ","
+msgstr "."
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
 #, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# By default, sort search results from author links in MARC21 detail pages and result lists by"
-msgstr "Trier par défaut dans l'interface professionnelle les résultats de recherche sur le champ"
+msgstr "Par défaut, sur les pages de résultat et de détails de l'interface professionnelle, trier les résultats de recherche sur le champ des liens auteur en MARC21 par"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# ascending"
-msgstr "par ordre croissant."
+msgstr "par ordre croissant"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# call number"
 msgstr "cote"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# date added"
-msgstr "date d'ajout"
+msgstr "date de création"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# date of publication"
 msgstr "date de publication"
 
 # Searching > Results display > AuthorLinkSortBy
 msgid "searching.pref#AuthorLinkSortBy# default sort field and order specified in defaultSortField or OPACdefaultSortField"
-msgstr ""
+msgstr "le champ de tri par défaut et l'ordre spécifiés dans defaultSortField ou OPACdefaultSortField"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# descending"
-msgstr "par ordre décroissant."
+msgstr "par ordre décroissant"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# from A to Z"
-msgstr "de A à Z."
+msgstr "de A à Z"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# from Z to A"
-msgstr "de Z à A."
+msgstr "de Z à A"
 
 # Searching > Results display > defaultSortField
 # Searching > Results display
-#, fuzzy
 msgid "searching.pref#AuthorLinkSortBy# title"
 msgstr "titre"
 
@@ -14098,13 +14046,12 @@ msgstr "la liste de routage dans le module Périodiques."
 
 # Serials > Features > OPACSerialIssueDisplayCount
 # Serials
-#, fuzzy
 msgid "serials.pref#SerialsSearchResultsLimit# Show only the"
-msgstr "A l'OPAC, montrer les"
+msgstr "N'afficher que les"
 
 # Serials > Features > SerialsSearchResultsLimit
 msgid "serials.pref#SerialsSearchResultsLimit# first serials when performing an advanced serials search."
-msgstr ""
+msgstr "premiers périodiques lors d'une recherche avancée sur les périodiques."
 
 # Serials > Features > StaffSerialIssueDisplayCount
 # Serials
@@ -14536,15 +14483,13 @@ msgstr "Afficher"
 
 # Staff interface > Options > showLastPatron
 # Staff interface > Options
-#, fuzzy
 msgid "staff_interface.pref#showLastPatron# a link to the last"
-msgstr "Ne pas afficher"
+msgstr "un lien vers le(s)"
 
 # Staff interface > Options > showLastPatron
 # Staff interface > Options
-#, fuzzy
 msgid "staff_interface.pref#showLastPatron# searched patrons in the staff interface."
-msgstr "un lien vers le dernier adhérent recherché dans l'interface professionnelle."
+msgstr "dernier(s) adhérent(s) recherché(s) dans l'interface professionnelle."
 
 # Staff interface > Appearance > staffClientBaseURL
 # Staff interface > Appearance
