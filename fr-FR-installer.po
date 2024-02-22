@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:13-0300\n"
-"PO-Revision-Date: 2024-02-04 03:00+0000\n"
-"Last-Translator: mathsaby <mathsabypro@gmail.com>\n"
+"PO-Revision-Date: 2024-02-23 03:00+0000\n"
+"Last-Translator: Emmanuel Bétemps <e.betemps@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
 "MIME-Version: 1.0\n"
@@ -455,9 +455,8 @@ msgid "Searches regular"
 msgstr "Irrégulier"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:84
-#, fuzzy
 msgid "No license"
-msgstr "Titulaire de la licence"
+msgstr "Pas de licence"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:85
 msgid "Limit exceeded"
@@ -4341,9 +4340,8 @@ msgid "Account expiration"
 msgstr "Expiration du compte"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52
-#, fuzzy
 msgid "Account renewal"
-msgstr "Frais de renouvellement de compte"
+msgstr "Renouvellement d'abonnement"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53
 msgid "OPAC self-registration verification email"
@@ -4442,9 +4440,8 @@ msgid "Hold available for pickup at <<branches.branchname>>"
 msgstr "Réservation en attente de retrait à <<branches.branchname>>"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67
-#, fuzzy
 msgid "Hold(s) available for pickup"
-msgstr "Réservation en attente de retrait"
+msgstr "Réservation(s) en attente de retrait"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:70
 msgid "Hold available for pickup (print notice)"
@@ -5016,17 +5013,18 @@ msgid "Your library account has been renewed. The new expiry date is: %s."
 msgstr "Votre compte lecteur a été renouvelé. Il expirera le : %s."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:5
-#, fuzzy
 msgid ""
 "%s\n"
 "An enrollment fee of %s has been applied.\n"
 "%s"
-msgstr "Un paiement de %s a été enregistré sur votre compte."
+msgstr ""
+"%s\n"
+"Des frais d'abonnement de %s ont été facturés au dossier.\n"
+"%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:52:mul:8
-#, fuzzy
 msgid "Your library,"
-msgstr "Votre bibliothèque"
+msgstr "Votre bibliothèque,"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:53:mul:1
 msgid "Hello!"
@@ -5249,18 +5247,16 @@ msgid "You have a hold available for pickup as of %s:"
 msgstr "Votre réservation est disponible depuis le %s :"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:1
-#, fuzzy
 msgid "You have one or more holds available for pickup:"
-msgstr "Votre réservation est disponible depuis le %s :"
+msgstr "Vous avez au moins une réservation en attente de retrait :"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:6
 msgid "Waiting since: %s"
 msgstr "En attente depuis le : %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:67:mul:7
-#, fuzzy
 msgid "Waiting at: %s"
-msgstr "En attente depuis le : %s"
+msgstr "En attente à : %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:69:mul:3
 msgid "Your hold for %s is available for pickup."
@@ -5553,9 +5549,8 @@ msgid "The following item, %s, has correctly been renewed and is now due on %s"
 msgstr "L'exemplaire suivant, %s, a bien été renouvelé et doit désormais être rendu le %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:4
-#, fuzzy
 msgid "This item has reached the maximum number of automatic renewals and will no longer be renewed."
-msgstr "Vous avez atteint le nombre maximal de renouvellements."
+msgstr "Ce document a atteint le nombre maximum de renouvellements automatiques, il ne sera plus possible de le renouveler."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:84:mul:7
 msgid "This item has reached the maximum number of unseen renewals and will need to be renewed at the library."
@@ -5807,29 +5802,24 @@ msgid "Train name: %s"
 msgstr "Nom d'utilisateur : %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:5
-#, fuzzy
 msgid "Sent on: %s"
-msgstr "Statut ? : %s"
+msgstr "Envoyé le : %s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:96:mul:9
-#, fuzzy
 msgid "Item number #%s"
-msgstr "Cote: %s"
+msgstr "Cote #%s"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:1
-#, fuzzy
 msgid "Hello %s %s (%s),"
-msgstr "Bonjour %s %s %s."
+msgstr "Bonjour %s %s (%s),"
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:2
-#, fuzzy
 msgid "Your hold on %s (%s) has been confirmed."
-msgstr " La commande %s (%s) a été reçue."
+msgstr "Votre réservation de %s (%s) est confirmée."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:97:mul:3
-#, fuzzy
 msgid "You will be notified by the library when your item is available for pickup."
-msgstr "Vous recevrez une nouvelle notification quand le document sera disponible à bibliothèque."
+msgstr "Vous recevrez une notification quand le document sera disponible à bibliothèque."
 
 #: installer/data/mysql/en/mandatory/sample_notices.yml:letter:1:row:9:mul:2
 msgid "An account writeoff of %s has been applied to your account."
@@ -6636,7 +6626,6 @@ msgid "Art copyist"
 msgstr "Copiste d'art"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:4
-#, fuzzy
 msgid "Art director"
 msgstr "Directeur artistique"
 
@@ -6692,14 +6681,12 @@ msgid "Author of dialog"
 msgstr "Auteur du dialogue"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:26
-#, fuzzy
 msgid "Audio engineer"
 msgstr "Ingénieur du son"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:28
-#, fuzzy
 msgid "Audio producer"
-msgstr "Producteur de livres"
+msgstr "Producteur audio"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:29
 msgid "Screenwriter"
@@ -6731,9 +6718,8 @@ msgid "Braille embosser"
 msgstr "Embosseuse braille"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:42
-#, fuzzy
 msgid "Casting director"
-msgstr "Directeur de publication"
+msgstr "Directeur de casting"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:43
 msgid "Caster"
@@ -7307,9 +7293,8 @@ msgid "Remix artist"
 msgstr "Mime"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:249
-#, fuzzy
 msgid "Sound engineer"
-msgstr "Concepteur sonore"
+msgstr "Ingénieur du son"
 
 #: installer/data/mysql/en/optional/marc21_relatorterms.yml:authorised_values:1:row:250
 #, fuzzy
