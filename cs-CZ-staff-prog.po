@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-02 03:02+0000\n"
-"PO-Revision-Date: 2024-02-22 03:00+0000\n"
-"Last-Translator: m23 <black23@gmail.com>\n"
+"PO-Revision-Date: 2024-02-24 03:00+0000\n"
+"Last-Translator: DagmarS <dagmar.sikova@seznam.cz>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
@@ -32941,9 +32941,9 @@ msgid "There are no EDI accounts. "
 msgstr "Nejsou k dispozici žádné EDI účty. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:46
-#, fuzzy, c-format
+#, c-format
 msgid "New library EAN"
-msgstr "Nová knihovna"
+msgstr "Nový EAN kód knihovny"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:79
 #, c-format
@@ -33211,9 +33211,8 @@ msgstr "Odstranit server"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_provider_domains.tt:330
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:402
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smtp_servers.tt:325
-#, fuzzy
 msgid "Error deleting server '%s'. Check the logs for details."
-msgstr "Chyba při mazání serveru '%s'. Zkontrolujte protokoly."
+msgstr "Chyba při mazání serveru '%s'. Podrobnosti naleznete v protokolech."
 
 #. For the first occurrence,
 #. SCRIPT
@@ -33423,9 +33422,9 @@ msgstr "Ano, resetovat mapování"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:143
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:307
-#, fuzzy, c-format
+#, c-format
 msgid "userid"
-msgstr "Id uživatele"
+msgstr "userid"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:146
 #, c-format
@@ -33462,9 +33461,9 @@ msgstr "Pole v systému Koha, který se použije pro nalezení shody uživatele 
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:157
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:333
-#, fuzzy, c-format
+#, c-format
 msgid "It must be present in mapping"
-msgstr "Ano, resetovat mapování"
+msgstr "Musí být přítomen v mapování"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:160
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:336
@@ -33506,28 +33505,28 @@ msgstr "Aktualizujte vaši databázi"
 #. %1$s: - identity_provider.protocol | html -
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:294
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:402
-#, fuzzy, c-format
+#, c-format
 msgid "Add default %s configuration"
-msgstr "Výchozí nastavení:"
+msgstr "Vytvořit výchozí %s nastavení"
 
 #. For the first occurrence,
 #. %1$s: - identity_provider.protocol | html -
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:310
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:402
-#, fuzzy, c-format
+#, c-format
 msgid "Add default %s mapping"
-msgstr "mapování OAI sady"
+msgstr "Přidat výchozí %s mapování"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:322
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:324
-#, fuzzy, c-format
+#, c-format
 msgid "User id"
 msgstr "Id uživatele"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:362
-#, fuzzy, c-format
+#, c-format
 msgid "Protocol"
-msgstr "Fotokopie"
+msgstr "Protokol"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:375
 #, fuzzy, c-format
@@ -33536,15 +33535,13 @@ msgstr "Potvrdit odstranění typu vlastností čtenáře "
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:402
-#, fuzzy
 msgid "Are you sure you want to replace current %s contents?"
-msgstr "Opravdu chcete odstranit vybrané novinky?"
+msgstr "Jste si jisti, že chcete nahradit aktuální %s obsah?"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:402
-#, fuzzy
 msgid "Manage domains"
-msgstr "Spravovat "
+msgstr "Spravovat domény"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:402
@@ -33564,9 +33561,8 @@ msgstr "Hodnota musí obsahovat alfanumerické znaky nebo '_'"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:402
-#, fuzzy
 msgid "You are about to delete the '%s' identity provider."
-msgstr "Opravdu chcete odstranit skupinu '%s' (%s)?"
+msgstr "Chystáte se odstranit '%s' poskytovatele identit."
 
 #. %1$s:  IF op =='add_form' 
 #. %2$s:  IF status.id 
@@ -33629,14 +33625,14 @@ msgid "Modify a batch status"
 msgstr "Upravit typ dluhu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:82
-#, fuzzy, c-format
+#, c-format
 msgid "Required. Maximum length is 100 letters"
-msgstr "Vyžadováno. Maximálně 64 písmen"
+msgstr "Povinné. Maximální délka 100 písmen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:90
-#, fuzzy, c-format
+#, c-format
 msgid "Required, specify UPPERCASE LETTERS. Maximum length is 20 letters"
-msgstr "Vyžadováno. Maximálně 64 písmen"
+msgstr "Povinné, uveďte VELKÁ PÍSMENA. Maximální délka je 20 písmen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/ill_batch_statuses.tt:94
 #, fuzzy, c-format
@@ -33742,9 +33738,9 @@ msgid "New search field"
 msgstr "Nové pole pro vyhledávání"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:42
-#, fuzzy, c-format
+#, c-format
 msgid "Field successfully added "
-msgstr "Pole bylo úspěšně přidáno: %s "
+msgstr "Pole bylo úspěšně přidáno "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:47
 #, c-format
@@ -33769,9 +33765,9 @@ msgid "Failed to delete field."
 msgstr "Pole se nepodařilo odstranit."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:60
-#, fuzzy, c-format
+#, c-format
 msgid "Field successfully updated "
-msgstr "Pole bylo úspěšně aktualizováno: %s "
+msgstr "Pole bylo úspěšně aktualizováno "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:65
 #, c-format
@@ -33811,39 +33807,39 @@ msgid "New item type"
 msgstr "Nový typ jednotek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:124
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when updating this item type. Perhaps the value already exists."
-msgstr "Při vytváření seznamu se vyskytla chyba. Seznam s názvem %s již existuje."
+msgstr "Při aktualizaci tohoto typu jednotky došlo k chybě. Hodnota již možná existuje."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:126
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when inserting this item type. Perhaps the value already exists."
-msgstr "Při vytváření seznamu se vyskytla chyba. Seznam s názvem %s již existuje."
+msgstr "Při vkládání tohoto typu jednotky došlo k chybě. Hodnota již možná existuje."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:128
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when deleting this item type. Check the logs for details."
-msgstr "Při odstraňování tohoto seznamu se vyskytla chyba."
+msgstr "Při mazání tohoto typu jednotky došlo k chybě. Podrobnosti naleznete v protokolech."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:130
-#, fuzzy, c-format
+#, c-format
 msgid "Item type updated successfully."
-msgstr "byl úspěšně aktualizován"
+msgstr "Typ jednotky byl úspěšně aktualizován."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:132
-#, fuzzy, c-format
+#, c-format
 msgid "Item type inserted successfully."
-msgstr "%s citáty úspěšně importovány"
+msgstr "Typ jednotky byl úspěšně vložen."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:134
-#, fuzzy, c-format
+#, c-format
 msgid "Item type deleted successfully."
-msgstr "Importní dávka byla úspěšně odstraněna"
+msgstr "Typ jednotky byl úspěšně odstraněn."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:136
-#, fuzzy, c-format
+#, c-format
 msgid "This item type already exists."
-msgstr "Typ jednotky již existuje!"
+msgstr "Tento typ jednotky již existuje."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:138
 #, c-format
@@ -33901,9 +33897,9 @@ msgid "Translate item type %s"
 msgstr "Přeložit typ jednotky %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:198
-#, fuzzy, c-format
+#, c-format
 msgid "Search category: "
-msgstr "Kategorie vyhledávání"
+msgstr "Kategorie vyhledávání: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:215
 #, c-format
@@ -33916,9 +33912,9 @@ msgid "Options are defined by the authorized value "
 msgstr ". %s Možnosti můžete nastavit jako ověřené hodnoty kategorie ITEMTYPECAT. %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:217
-#, fuzzy, c-format
+#, c-format
 msgid "Options are defined by the authorized value ITEMTYPECAT."
-msgstr ". %s Možnosti můžete nastavit jako ověřené hodnoty kategorie ITEMTYPECAT. %s "
+msgstr "Možnosti jsou definovány autorizovanou hodnotou ITEMTYPECAT."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:223
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:390
@@ -33959,9 +33955,9 @@ msgid "If checked, no item of this type can be issued. If not checked, every ite
 msgstr "Pokud je zaškrtnuto, není možné vypůjčit žádnou jednotku tohoto typu. Pokud zaškrtnuto není, lze vypůjčit všechny jednotky tohoto typu kromě jednotek, které jsou označeny jako nevypůjčitelné."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:252
-#, fuzzy, c-format
+#, c-format
 msgid "Automatic check-in: "
-msgstr "Automatické objednávání: "
+msgstr "Automatické přihlášení: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:258
 #, c-format
@@ -34000,9 +33996,9 @@ msgid "This fee is charged at checkout/renewal time for each day between the che
 msgstr "Tento poplatek je účtován ve chvíli obnovení či vypůjčení a to za každý den mezi tímto časem a termínem požadovaného vrácení určeným ve dnech."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:271
-#, fuzzy, c-format
+#, c-format
 msgid "Daily rentals use calendar: "
-msgstr "Denní poplatek za půjčení: "
+msgstr "Denní výpůjčky používají kalendář: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:277
 #, c-format
@@ -34020,9 +34016,9 @@ msgid "This fee is charged at checkout/renewal time for each hour between the ch
 msgstr "Tento poplatek je účtován při vypůjčení nebo prodloužení jednotky daného typu a to za každou hodinu mezi časem vypůjčení/prodloužení a termínem požadovaného vrácení určeným v hodinách."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:285
-#, fuzzy, c-format
+#, c-format
 msgid "Hourly rentals use calendar: "
-msgstr "Hodinový poplatek za půjčení: "
+msgstr "Hodinové výpůjčky používají kalendář: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:291
 #, fuzzy, c-format
@@ -34152,9 +34148,9 @@ msgstr "Automatické prodloužení"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:420
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:426
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:440
-#, fuzzy, c-format
+#, c-format
 msgid "(default)"
-msgstr "%s (výchozí)"
+msgstr "(výchozí)"
 
 #. For the first occurrence,
 #. %1$s:  IF ( itemtype.notforloan ) 
@@ -34222,9 +34218,9 @@ msgid "The change will be applied immediately."
 msgstr "Změna se ihned projeví."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:36
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when adding this library. The library ID might already exist in this group."
-msgstr "%s %s Při vkládání knihovny došlo k chybě. ID knihovny již v této skupině existuje. %s %s %s "
+msgstr "Při vkládání této knihovny došlo k chybě. ID knihovny již možná v této skupině existuje."
 
 #. %1$s:  added.library.branchname | html | $KohaSpan class = 'name' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:46
@@ -34257,9 +34253,9 @@ msgid "A group with the title %s already exists. "
 msgstr "Skupina s názvem %s již existuje. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:74
-#, fuzzy, c-format
+#, c-format
 msgid "New group "
-msgstr "Žádná skupina"
+msgstr "Nová skupina "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/library_groups.tt:87
 #, c-format
@@ -34398,7 +34394,7 @@ msgid "Add library "
 msgstr "Přídat knihovnu "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/localization.tt:18
-#, fuzzy, c-format
+#, c-format
 msgid "Localization"
 msgstr "Umístění"
 
@@ -34473,9 +34469,9 @@ msgid "%s %s [%% SET pref_MARCOverlayRules_link = '"
 msgstr "%s %s [%% SET pref_MARCOverlayRules_link = '"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:64
-#, fuzzy, c-format
+#, c-format
 msgid "MARCOverlayRules"
-msgstr "jiná pravidla"
+msgstr "MARCOverlayRules"
 
 #. %1$s:   pref_MARCOverlayRules_link | $raw | $KohaSpan 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:65
@@ -34484,14 +34480,14 @@ msgid "The %s preference is not set, don't forget to enable it for rules to take
 msgstr "Předvolba %s není nastavena, nezapomeňte ji povolit, aby se pravidla projevila. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:71
-#, fuzzy, c-format
+#, c-format
 msgid "Remove rule?"
-msgstr "Odstranit toto pravidlo"
+msgstr "Odstranit toto pravidlo?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:72
-#, fuzzy, c-format
+#, c-format
 msgid "Are you sure you want to remove the selected rule(s)?"
-msgstr "Opravdu chcete odstranit vybrané položky?"
+msgstr "Opravdu chcete odstranit vybraná pravidla?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:75
 #, c-format
@@ -34504,9 +34500,9 @@ msgid "Yes, remove"
 msgstr "Ano, odstranit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:85
-#, fuzzy, c-format
+#, c-format
 msgid "Rule"
-msgstr "Pravidlo "
+msgstr "Pravidlo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:86
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:202
@@ -34533,9 +34529,9 @@ msgid "If a field matching the rule tag only exists in the incoming record"
 msgstr "Pokud pole odpovídající štítku pravidla existuje pouze v příchozím záznamu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:91
-#, fuzzy, c-format
+#, c-format
 msgid "Appended "
-msgstr "Přidáno "
+msgstr "Připojeno "
 
 #. I
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:91
@@ -34550,14 +34546,14 @@ msgid "If the original record has a field matching the rule tag, but the matchin
 msgstr "Pokud původní záznam obsahuje pole odpovídající značce pravidla, ale toto pole se v příchozím záznamu nenachází."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:92
-#, fuzzy, c-format
+#, c-format
 msgid "Removed "
-msgstr "Odstranit "
+msgstr "Odstraněno "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:93
-#, fuzzy, c-format
+#, c-format
 msgid "Deleted "
-msgstr "Odstranit "
+msgstr "Smazáno "
 
 #. I
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:93
@@ -34589,9 +34585,9 @@ msgstr "Kategorie uživatelů"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:177
-#, fuzzy, c-format
+#, c-format
 msgid "Custom"
-msgstr "Vlastní..."
+msgstr "Vlastní"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:113
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc-overlay-rules.tt:178
