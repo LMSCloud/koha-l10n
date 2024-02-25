@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.14.000\n"
 "POT-Creation-Date: 2023-12-20 04:07+0000\n"
-"PO-Revision-Date: 2024-02-19 12:42+0000\n"
+"PO-Revision-Date: 2024-02-26 03:17+0000\n"
 "Last-Translator: pmis <pmis@mnw.art.pl>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: pl-PL\n"
@@ -1885,7 +1885,7 @@ msgstr "Dodatkowe parametry"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:350
 #, c-format
 msgid "Identity providers"
-msgstr "Dostawcy uwierzytelniania"
+msgstr "Dostawcy tożsamości"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/admin-menu.inc:151
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/admin-home.tt:246
@@ -4799,7 +4799,7 @@ msgstr "Zamówienie na kopię"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:574
 #, c-format
 msgid "Add order"
-msgstr "Wybierz"
+msgstr "Dodaj zamówienie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:218
 #, c-format
@@ -9856,7 +9856,7 @@ msgstr "Komentarz "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:543
 #, c-format
 msgid "Alternate address"
-msgstr "Dodatkowy adres"
+msgstr "Dodatkowy adres: miejscowość"
 
 #. For the first occurrence,
 #. %1$s:  END 
@@ -12197,52 +12197,52 @@ msgstr "Telefon dodatkowy"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:30
 #, c-format
 msgid "Alternate street number"
-msgstr "Dodatkowy numer ulicy"
+msgstr "Dodatkowy adres: numer ulicy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:31
 #, c-format
 msgid "Alternate street type"
-msgstr "Dodatkowy typ ulicy"
+msgstr "Dodatkowy adres: typ ulicy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:33
 #, c-format
 msgid "Alternate address line 2"
-msgstr "Dodatkowy adres: Adres 2"
+msgstr "Dodatkowy adres: telefon"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:34
 #, c-format
 msgid "Alternate city"
-msgstr "Dodatkowa miejscowość"
+msgstr "Dodatkowy kontakt: miejscowość"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:35
 #, c-format
 msgid "Alternate state"
-msgstr "Dodatkowe państwo"
+msgstr "Dodatkowy adres: województwo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:36
 #, c-format
 msgid "Alternate zip code"
-msgstr "Dodatkowy kod pocztowy"
+msgstr "Dodatkowy kontakt: kod pocztowy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:37
 #, c-format
 msgid "Alternate country"
-msgstr "Dodatkowy adres: Państwo"
+msgstr "Dodatkowy kontakt: państwo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:38
 #, c-format
 msgid "Alternate email"
-msgstr "Dodatkowy adres: E-mail"
+msgstr "Dodatkowy adres: e-mail"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:39
 #, c-format
 msgid "Alternate phone"
-msgstr "Dodatkowy telefon"
+msgstr "Dodatkowy kontakt: telefon"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:41
 #, c-format
 msgid "Library (code)"
-msgstr "Biblioteka (Kod)"
+msgstr "Biblioteka (kod)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:42
 #, c-format
@@ -12292,22 +12292,22 @@ msgstr "Powód ograniczenia"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:49
 #, c-format
 msgid "Guarantor surname"
-msgstr "Nazwisko gwaranta"
+msgstr "Nazwisko poręczyciela"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:50
 #, c-format
 msgid "Guarantor firstname"
-msgstr "Imię gwaranta"
+msgstr "Imię poręczyciela"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:51
 #, c-format
 msgid "Guarantor title"
-msgstr "Tytuł poręczyciela:"
+msgstr "Tytuł poręczyciela"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:52
 #, c-format
 msgid "Guarantor ID"
-msgstr "ID poręczyciela:"
+msgstr "ID poręczyciela"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:53
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:233
@@ -12319,7 +12319,7 @@ msgstr "Uwaga udostępniania"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:54
 #, c-format
 msgid "Guarantor relationship"
-msgstr "Informacje o opiekunie"
+msgstr "Powiązanie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:55
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:57
@@ -12368,47 +12368,47 @@ msgstr "Użytkownik - pole statystyczne 2"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:62
 #, c-format
 msgid "Alternate contact first name"
-msgstr "Dodatkowy kontakt: Imię"
+msgstr "Dodatkowy kontakt: imię"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:63
 #, c-format
 msgid "Alternate contact surname"
-msgstr "Dodatkowy kontakt: Nazwisko"
+msgstr "Dodatkowy kontakt: nazwisko"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:64
 #, c-format
 msgid "Alternate contact address"
-msgstr "Dodatkowy kontakt: Adres"
+msgstr "Dodatkowy kontakt: adres"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:65
 #, c-format
 msgid "Alternate contact address 2"
-msgstr "Dodatkowy kontakt: Adres 2"
+msgstr "Dodatkowy kontakt: adres 2"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:66
 #, c-format
 msgid "Alternate contact city"
-msgstr "Dodatkowy kontakt: Miejscowość"
+msgstr "Dodatkowy kontakt: miejscowość"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:67
 #, c-format
 msgid "Alternate contact state"
-msgstr "Dodatkowy kontakt: Województwo"
+msgstr "Dodatkowy kontakt: województwo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:68
 #, c-format
 msgid "Alternate contact ZIP/postal code"
-msgstr "Dodatkowy kontakt: Kod pocztowy"
+msgstr "Dodatkowy kontakt: kod pocztowy"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:69
 #, c-format
 msgid "Alternate contact country"
-msgstr "Dodatkowy kontakt: Państwo"
+msgstr "Dodatkowy kontakt: państwo"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:70
 #, c-format
 msgid "Alternate contact phone"
-msgstr "Dodatkowy kontakt: Telefon"
+msgstr "Dodatkowy kontakt: telefon"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:71
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:68
@@ -12447,7 +12447,7 @@ msgstr "Ostatnia aktualizacja"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/inventory.tt:263
 #, c-format
 msgid "Last seen"
-msgstr "Ostatnio widziano"
+msgstr "Ostatnio widziany"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:77
 #, c-format
@@ -23955,7 +23955,7 @@ msgstr "Modyfikuj zamówienie (numer #%s)"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:245
 #, c-format
 msgid "New order"
-msgstr "Nowe zamówienie "
+msgstr "Nowe zamówienie"
 
 #. %1$s:  IF ( ordernumber ) 
 #. %2$s:  ELSE 
@@ -24338,7 +24338,7 @@ msgstr "Czasopisma %s &rsaquo; Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersubscription.tt:30
 #, c-format
 msgid "Add order from a subscription"
-msgstr "Dodaj zamówienie z prenumeraty "
+msgstr "Dodaj zamówienie z prenumeraty"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersubscription.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/serials_stats.tt:44
@@ -24403,7 +24403,7 @@ msgstr "Dodaj zamówienie z propozycji &rsaquo; Gromadzenie &rsaquo; Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersuggestion.tt:29
 #, c-format
 msgid "Add order from a suggestion"
-msgstr "Dodaj zamówienie z propozycji "
+msgstr "Dodaj zamówienie z propozycji"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/newordersuggestion.tt:43
 #, c-format
@@ -26486,7 +26486,7 @@ msgstr "Skróty zaawansowanego edytora &rsaquo; Administracja &rsaquo; Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/adveditorshortcuts.tt:21
 #, c-format
 msgid "Advanced editor shortcuts"
-msgstr "Skróty zaawansowanego edytora"
+msgstr "Skróty Zaawansowanego edytora"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/adveditorshortcuts.tt:30
 #, c-format
@@ -31158,7 +31158,7 @@ msgstr "Powiel zasady udostępniania i należności &rsaquo; Zasady udostępnian
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/clone-rules.tt:23
 #, c-format
 msgid "Clone circulation and fine rules"
-msgstr "Powiel zasady udostępniania i należności "
+msgstr "Powiel zasady udostępniania i należności"
 
 #. %1$s:  IF frombranch == "*" 
 #. %2$s:  ELSIF frombranch 
@@ -32871,7 +32871,7 @@ msgstr "%s Nowy dostawca uwierzytelniania &rsaquo; %s Modyfikuj dostawcę uwierz
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:347
 #, c-format
 msgid "New identity provider"
-msgstr "Nowy dostawca uwierzytelniania"
+msgstr "Nowy dostawca tożsamości"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:40
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:232
@@ -34380,7 +34380,7 @@ msgstr "Struktura podpól pola %s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:68
 #, c-format
 msgid "Edit subfields constraints"
-msgstr "Modyfikuj ograniczenia podpól "
+msgstr "Modyfikuj ograniczenia podpól"
 
 #. For the first occurrence,
 #. %1$s:  tagfield | html 
@@ -41098,9 +41098,9 @@ msgstr "Wybierz widoczne wiersze"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:275
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:559
-#, c-format
+#, c-format, fuzzy
 msgid "Serial enumeration"
-msgstr "Numer w czasopiśmie"
+msgstr "Numeracja czasopisma"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch.tt:275
@@ -45854,7 +45854,7 @@ msgstr "Zamówienia użytkowników"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/viewalerts.tt:40
 #, c-format
 msgid "Patron name"
-msgstr "Nazwa użytkownika"
+msgstr "Imię użytkownika"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:256
