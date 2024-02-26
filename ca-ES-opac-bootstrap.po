@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.14.000\n"
 "POT-Creation-Date: 2023-11-15 08:54+0000\n"
-"PO-Revision-Date: 2024-02-24 06:41+0000\n"
+"PO-Revision-Date: 2024-02-27 13:41+0000\n"
 "Last-Translator: Rbellido <rbellido@orex.es>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: ca-ES\n"
@@ -193,9 +193,9 @@ msgid "Payment from library to patron"
 msgstr "Informació biblioteca"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/accounts.inc:29
-#, fuzzy, c-format
+#, c-format
 msgid "Credit has been voided"
-msgstr "La vostra configuració ha estat actualitzada!"
+msgstr "S'ha anul·lat el crèdit"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/accounts.inc:36
 #, c-format
@@ -1029,9 +1029,9 @@ msgstr "Esborreu la data"
 #. %9$s:  BLOCK tabs 
 #. %10$s:  IF ( id ) 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:41
-#, fuzzy, c-format
+#, c-format
 msgid "[ END ] %%] %s %s %s %s %s %s %s %s %s %s "
-msgstr "Autor(s): %s%s%s %s %s; %s %s %s %s%s %s %s;%s %s %s "
+msgstr "[ END ] %%] %s %s %s %s %s %s %s %s %s %s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/ill-availability-table.inc:6
 #, c-format
@@ -1787,7 +1787,7 @@ msgstr "Idiomes:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:756
 #, c-format
 msgid "No cover image available"
-msgstr "No hi ha imatge disponible de la coberta"
+msgstr "No hi ha caràtula disponible"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -2997,7 +2997,7 @@ msgstr "Fi inscripció"
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/clubs/enroll.tt:38
 msgid "Unable to create enrollment!"
-msgstr "No es pot inscriure"
+msgstr "No es pot crear la inscripció!"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
@@ -3150,7 +3150,7 @@ msgstr "Error %s"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/errors/errorpage.tt:37
 #, c-format
 msgid "Sorry, the requested page is not available"
-msgstr "Disculpeu, la pàgina sol · licitada no es troba disponible"
+msgstr "Ho sentim, la pàgina sol·licitada no està disponible"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/errors/errorpage.tt:39
 #, c-format
@@ -3180,7 +3180,7 @@ msgstr "No teniu accés a aquesta pàgina."
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/errors/errorpage.tt:58
 #, c-format
 msgid "You made use of an external link to a catalog item that is no longer available."
-msgstr "Disculpeu, heu fet ús d'un enllaç extern a un element de catàleg que ja no està disponible."
+msgstr "Heu fet servir un enllaç extern a un exemplar del catàleg que ja no està disponible."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/errors/errorpage.tt:59
 #, c-format
@@ -3819,7 +3819,7 @@ msgstr "&lt;?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?&gt; &lt;GetPatronStat
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:684
 #, c-format
 msgid "Returns information about the services available on a particular item for a particular patron."
-msgstr "Retorna informació sobre els serveis disponibles sobre un determinat exemplar per a un usuari concret."
+msgstr "Retorna informació sobre els serveis disponibles en un exemplar concret per a un usuari concret."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:690
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:715
@@ -5348,9 +5348,9 @@ msgid "Error: "
 msgstr "Errors: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:198
-#, fuzzy, c-format
+#, c-format
 msgid "Your password has expired!"
-msgstr "El compte ha expirat"
+msgstr "La contrasenya ha caducat!"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:201
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth.tt:204
@@ -7389,9 +7389,9 @@ msgid "Subscription"
 msgstr "Subscripció"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt:176
-#, fuzzy, c-format
+#, c-format
 msgid "Not available"
-msgstr "No hi ha exemplars disponibles."
+msgstr "No disponible"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -8130,9 +8130,9 @@ msgstr "¿permets al teu responsable veure les teves multes actuals?"
 #. %7$s:  END 
 #. %8$s:  END 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:185
-#, fuzzy, c-format
+#, c-format
 msgid "Guaranteed by %s %s %s %s %s %s, %s %s "
-msgstr "Garantit per %s %s %s %s %s, %s %s "
+msgstr "tutelat per %s %s %s %s %s %s, %s %s "
 
 #. %1$s:  extended_unique_id_failed_value | html 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:201
@@ -8869,9 +8869,9 @@ msgstr "reserves:"
 #. %7$s:  ELSE 
 #. %8$s:  END 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-page.tt:8
-#, fuzzy, c-format
+#, c-format
 msgid "%s%s%sPage error%s &rsaquo; %s%s%sKoha online%s catalog"
-msgstr "Imatges per: %s &rsaquo; %s%s%sKoha online%s catàlog"
+msgstr "%s%s%sError de pàgina%s &rsaquo; %s%s%sKoha online%s catàleg"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-page.tt:27
 #, c-format
@@ -12815,9 +12815,9 @@ msgid "You have too many holds already"
 msgstr "No teniu permís per actualitzar aquesta llista."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:86
-#, fuzzy, c-format
+#, c-format
 msgid "Not holdable"
-msgstr "No hi ha exemplars disponibles."
+msgstr "No es pot reservar"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:88
 #, fuzzy, c-format
