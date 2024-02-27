@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:13-0300\n"
-"PO-Revision-Date: 2024-02-23 03:00+0000\n"
+"PO-Revision-Date: 2024-02-28 03:00+0000\n"
 "Last-Translator: Emmanuel Bétemps <e.betemps@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
@@ -6807,51 +6807,43 @@ msgstr "_BLANK_: FIC - un exemplaire sans localisation sera mis à jour avec la 
 
 # Circulation > Holds policy > UpdateItemWhenLostFromHoldList
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemWhenLostFromHoldList# A list of values to update an item's values with when it is marked as <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a> from the 'Holds to pull' page."
-msgstr "Une liste des valeurs pour mettre à jour les données d'un exemplaire marqué Perdu à partir de la page des 'Réservations à traiter'."
+msgstr "Une liste des valeurs pour mettre à jour les données d'un exemplaire marqué <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">Perdu</a> à partir de la page des 'Réservations à traiter'."
 
 # Circulation > Holds policy > UpdateItemWhenLostFromHoldList
 # Circulation > Holds policy
-#, fuzzy
 msgid "circulation.pref#UpdateItemWhenLostFromHoldList# Example: \"itemlost: 1\" to set items.itemlost to 1 when the item is marked as <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">LOST</a>. (Requires <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
-msgstr "Exemple : \"itemlost: 1\" pour définir items.itemlost à 1 quand l'exemplaire est marqué comme perdu. (Impose d'utiliser <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
+msgstr "Exemple : \"itemlost: 1\" pour définir items.itemlost à 1 quand l'exemplaire est marqué comme <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=LOST\">perdu</a>. (Nécessite <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=CanMarkHoldsToPullAsLost\">CanMarkHoldsToPullAsLost</a>)"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp-1: 0<br/><br/>"
-msgstr "Exemples :<br/>"
+msgstr "&nbsp-1: 0<br/><br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp-1: ONLYMESSAGE<br/><br/>"
-msgstr "Peut être utilisé pour n'afficher que la description du statut. Par exemple '-1: ONLYMESSAGE'."
+msgstr "&nbsp-1: ONLYMESSAGE<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# &nbsp1: 0<br/><br/>"
-msgstr "Exemples :<br/>"
+msgstr "&nbsp1: 0<br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# <strong>Examples:</strong><br/>"
-msgstr "Exemples :<br/>"
+msgstr "<strong>Exemples :</strong><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# BK:<br/>"
-msgstr "Exemples :<br/>"
+msgstr "BK:<br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# CR:<br/>"
-msgstr "Exemples :<br/>"
+msgstr "CR:<br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Each item type needs to be defined on a separate line on the left side of the colon (:).<br/>Each pair of not for loan values, for that item type, should be listed on separate lines below the item type, each indented by a leading space<br/><br/>"
@@ -6859,30 +6851,26 @@ msgstr ""
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# ONLYMESSAGE can be used for showing only the not for loan description. E.g. '-1: ONLYMESSAGE'<br/><br/>"
-msgstr "Peut être utilisé pour n'afficher que la description du statut. Par exemple '-1: ONLYMESSAGE'."
+msgstr "ONLYMESSAGE peut être utilisé pour n'afficher que la description du statut. Par exemple '-1: ONLYMESSAGE'<br/><br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# This is a list of item types and value pairs.<br/><br/>"
-msgstr "Les paires de valeurs doivent se trouver sur des lignes distinctes."
+msgstr "C'est une liste de types de document et de paires de valeurs.<br/><br/>"
 
 # Circulation > Item bundles > BundleNotLoanValue
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# Valid values are <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> authorized values and ONLYMESSAGE.<br/><br/>"
-msgstr "Utiliser la valeur autorisée <a href=\"/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN\">NOT_LOAN</a>"
+msgstr "Les valeurs correctes sont les valeurs autorisées de <a href='/cgi-bin/koha/admin/authorised_values.pl?searchfield=NOT_LOAN'>NOT_LOAN</a> ainsi que ONLYMESSAGE.<br/><br/>"
 
 # Circulation > Checkin policy > UpdateNotForLoanStatusOnCheckin
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# When an item is checked in, if it's item type matches CR then when the value on the left (1) matches the items' not for loan value it will be updated to the value on the right.<br/><br/>The special term _ALL_ is used on the left side of the colon (:) to affect all item types, <strong>this does not override all other rules</strong><br/><br/>"
-msgstr ""
+msgstr "Quand un exemplaire est rendu, si son type de document correspond à CR et que la valeur sur la gauche (1) correspond à son statut, ce dernier sera mis à jour avec la valeur sur la droite.<br/><br/>_ALL_ est utilisé à gauche du (:) pour affecter tous les types de documents, <strong>ce qui n'outrepasse aucune des autres règles</strong><br/><br/>"
 
 # Circulation > Checkin policy > UpdateItemLocationOnCheckin
 # Circulation > Checkin policy
-#, fuzzy
 msgid "circulation.pref#UpdateNotForLoanStatusOnCheckin# _ALL_:<br/>"
-msgstr "Exemples :<br/>"
+msgstr "_ALL_ :<br/>"
 
 # Circulation > Checkout policy > UpdateNotForLoanStatusOnCheckout
 # Circulation > Checkin policy
@@ -8777,7 +8765,7 @@ msgstr "Prêt entre bibliothèques"
 # Interlibrary loans
 # Searching > Features
 msgid "interlibrary_loans.pref Features"
-msgstr "interlibrary_loans.pref Caractéristiques"
+msgstr "Caractéristiques"
 
 # Interlibrary loans
 # Patrons > Notices and notifications
@@ -8789,9 +8777,8 @@ msgid "interlibrary_loans.pref OPAC"
 msgstr "OPAC"
 
 # Serials
-#, fuzzy
 msgid "interlibrary_loans.pref Workflow"
-msgstr "interlibrary_loans.pref"
+msgstr "Circuit"
 
 # Interlibrary loans > Features > CirculateILL
 # Circulation > Interlibrary loans
@@ -8861,15 +8848,15 @@ msgstr "Ajouter du texte activera l'étape d'obtention des droits d'auteurs lors
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;h2&gt;HTML title&lt;/h2&gt;<br>"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;h2&gt;titre HTML&lt;/h2&gt;<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;p&gt;This is an HTML paragraph&lt;/p&gt;<br>"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;p&gt;Ceci est un paragraphe HTML&lt;/p&gt;<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;&nbsp;&lt;p&gt;This is another HTML paragraph&lt;/p&gt;<br>"
-msgstr ""
+msgstr "&nbsp;&nbsp;&lt;p&gt;Ceci est un autre paragraphe HTML&lt;/p&gt;<br>"
 
 # Interlibrary loans > Features > ILLModuleUnmediated
 # Circulation > Interlibrary loans
@@ -8889,21 +8876,18 @@ msgstr ""
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# &nbsp;text: |<br>"
-msgstr "Désactiver"
+msgstr "&nbsp;text: |<br>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# </code>"
-msgstr "Désactiver"
+msgstr "</code>"
 
 # Interlibrary loans > Features > ILLModule
 # Circulation > Interlibrary loans
-#, fuzzy
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# <code>all:<br>"
-msgstr "Désactiver"
+msgstr "<code>all:<br>"
 
 # Interlibrary loans > Workflow > ILLModuleDisclaimerByType
 msgid "interlibrary_loans.pref#ILLModuleDisclaimerByType# <li><code>av_category_code</code> is the authorised values category that will be used for the options being presented at the disclaimer stage.</li>"
