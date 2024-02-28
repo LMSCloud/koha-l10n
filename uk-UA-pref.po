@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:36-0300\n"
-"PO-Revision-Date: 2024-02-27 03:01+0000\n"
+"PO-Revision-Date: 2024-02-29 03:00+0000\n"
 "Last-Translator: Serhij Dubyk <dubyk@ukr.net>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: uk-UA\n"
@@ -5579,7 +5579,7 @@ msgstr "місце отримання"
 # Circulation > Holds policy > LocalHoldsPriority
 # Circulation > Holds policy
 msgid "circulation.pref#LocalHoldsPriority# priority for filling holds to patrons whose"
-msgstr "пріоритет виконання замовлень мають користувачі, чиї"
+msgstr "пріоритет виконання замовлень тим користувачам, чиї"
 
 # Circulation > Checkout policy > MarkLostItemsAsReturned
 # Circulation > Checkout Policy
@@ -9532,7 +9532,6 @@ msgstr "Не дозволяти"
 
 # OPAC > Privacy > AllowPatronToSetFinesVisibilityForGuarantor
 # OPAC > Privacy
-#, fuzzy
 msgid "opac.pref#AllowPatronToSetFinesVisibilityForGuarantor# patrons to choose their own privacy settings for showing the patron's charges to the patron's guarantor."
 msgstr "користувачам вибирати власні налаштування конфіденційності при показі штрафів користувача поручителю."
 
@@ -12693,54 +12692,46 @@ msgstr "При додаванні особи на поруках до корис
 
 # Patrons > Privacy > GDPR_Policy
 # Patrons > Privacy
-#, fuzzy
 msgid "patrons.pref#PrivacyPolicyConsent# . When you enforce a data privacy policy, patrons need to give consent before using the OPAC. If you set to permissive, Koha will warn but not enforce."
-msgstr ". GDPR — загальний регламент захисту даних ЄС. Коли Ви вибираєте „заставляти“, користувачі повинні дати згоду перед використанням електронного каталогу. Якщо Ви встановите „допустимо“, Коха буде попереджати, але не заставляти."
+msgstr "Коли Ви вибираєте „заставляти“, користувачі повинні дати згоду перед використанням електронного каталогу. Якщо Ви встановите „допустимо“, Коха буде попереджати, але не заставляти."
 
 # Patrons > Privacy > GDPR_Policy
-#, fuzzy
 msgid "patrons.pref#PrivacyPolicyConsent# <br><strong>NOTE:</strong> If you enable this you will also have to set the URL of your public privacy policy with the <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=PrivacyPolicyURL\">PrivacyPolicyURL</a> setting."
-msgstr "<br><strong>ПРИМІТКА:</strong> якщо Ви увімкнете це, Вам також доведеться вказати URL-адресу Вашої публічної політики конфіденційності за допомогою параметра <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=PrivacyPolicyURL\">PrivacyPolicyURL</a>."
+msgstr "<br><strong>Примітка:</strong> якщо Ви увімкнете це, Вам також доведеться вказати URL-адресу Ваших загальнодоступних правил конфіденційності за допомогою параметра <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=PrivacyPolicyURL\">PrivacyPolicyURL</a>."
 
 # Patrons > Privacy > GDPR_Policy
 # Patrons > Privacy
-#, fuzzy
 msgid "patrons.pref#PrivacyPolicyConsent# Set data privacy policy consent to:"
-msgstr "Встановити правила GDPR на:"
+msgstr "Встановити згоду з правилами конфіденційності даних на:"
 
 # Patrons > Privacy > GDPR_Policy
 # Patrons > Privacy
-#, fuzzy
 msgid "patrons.pref#PrivacyPolicyConsent# disabled"
 msgstr "вимкнено"
 
 # Patrons > Privacy > GDPR_Policy
 # Patrons > Privacy
-#, fuzzy
 msgid "patrons.pref#PrivacyPolicyConsent# enforced"
 msgstr "заставляти"
 
 # Patrons > Privacy > GDPR_Policy
 # Patrons > Privacy
-#, fuzzy
 msgid "patrons.pref#PrivacyPolicyConsent# permissive"
 msgstr "допустимо"
 
 # Patrons > Privacy > PrivacyPolicyURL
-#, fuzzy
 msgid "patrons.pref#PrivacyPolicyURL# <br><strong>NOTE:</strong> The URL will only be displayed if <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=PrivacyPolicyConsent\">PrivacyPolicyConsent</a> is set."
-msgstr "<br><strong>ПРИМІТКА:</strong> URL-адреса буде відображатися, лише якщо встановлений параметр „<a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=GDPR_Policy\">GDPR_Policy</a>“."
+msgstr "<br><strong>Примітка:</strong> URL-адреса буде відображатися, лише якщо встановлений параметр „<a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=PrivacyPolicyConsent\">PrivacyPolicyConsent</a>“."
 
 # Patrons > Privacy > PrivacyPolicyURL
 # Patrons > Privacy
 msgid "patrons.pref#PrivacyPolicyURL# Use the following URL"
-msgstr "Використовувати таку URL-адресу "
+msgstr "Використовувати таку URL-адресу"
 
 # Patrons > Privacy > PrivacyPolicyURL
 # Patrons > Privacy
-#, fuzzy
 msgid "patrons.pref#PrivacyPolicyURL# to refer to your local privacy policy in messages about privacy and data protection. (If you enforce a data privacy policy, make sure that this page is not blocked.)"
-msgstr "щоб послатися на Ваші локальні правила конфіденційності в повідомленнях про конфіденційність та захист даних (якщо Ви застосовуєте правила GDPR (Загальний регламент захисту даних), переконайтесь, що ця сторінка не заблокована)."
+msgstr "щоб послатися на Ваші локальні правила конфіденційності в повідомленнях про конфіденційність та захист даних (якщо Ви застосовуєте правила конфіденційності даних, переконайтесь, що ця сторінка не заблокована)."
 
 # Patrons > General > ProtectSuperlibrarianPrivileges
 # Patrons > General
