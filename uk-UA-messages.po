@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-03 03:02+0000\n"
-"PO-Revision-Date: 2024-02-17 03:00+0000\n"
+"PO-Revision-Date: 2024-02-29 03:00+0000\n"
 "Last-Translator: Serhij Dubyk <dubyk@ukr.net>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: uk-UA\n"
@@ -4261,9 +4261,8 @@ msgid "All phones"
 msgstr "металофон"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:7
-#, fuzzy
 msgid "Borrowernumber"
-msgstr "Номер абонента бібліотеки"
+msgstr "Системний № користувача"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:26
 #, fuzzy
@@ -6427,9 +6426,8 @@ msgid "No results found"
 msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:11
-#, fuzzy
 msgid "Items"
-msgstr "Примірник втрачено"
+msgstr "Примірники"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:13
 #, perl-brace-format
@@ -6439,31 +6437,29 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:17
 #, perl-brace-format
 msgid "(Record #{biblionumber})"
-msgstr ""
+msgstr "(бібзапис № {biblionumber})"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:56
 #, perl-brace-format
 msgid "Edit {title} by {author}"
-msgstr ""
+msgstr "Редагування: {title} / {author}"
 
 # можливо й не потрібно перекладати
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:56
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:58
-#, fuzzy
 msgctxt "Bibliographic record number"
 msgid "Record #"
-msgstr "запис"
+msgstr "бібзапис №"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:58
 #, perl-brace-format
 msgid "Edit {title}"
-msgstr ""
+msgstr "Редагування: „{title}“"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:63
-#, fuzzy
 msgctxt "Items attached to a bibliographic record"
 msgid "Items"
-msgstr "Примірник втрачено"
+msgstr "Примірники"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:8
 msgid "Catalog concerns"
@@ -8356,7 +8352,7 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:116
 #, perl-brace-format
 msgid "Actions for template '{template_name}'"
-msgstr ""
+msgstr "Дії для шаблону '{template_name}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/marc_modification_templates.tt:19
 #, fuzzy
