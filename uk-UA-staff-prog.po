@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-02 03:02+0000\n"
-"PO-Revision-Date: 2024-02-28 03:00+0000\n"
+"PO-Revision-Date: 2024-02-29 03:01+0000\n"
 "Last-Translator: Serhij Dubyk <dubyk@ukr.net>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: uk-UA\n"
@@ -6685,7 +6685,7 @@ msgstr "Джерельна бібліотека: %s"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:124
 #, c-format
 msgid "Borrowernumber: %s"
-msgstr "Номер користувача АБІС: %s"
+msgstr "Системний № користувача: %s"
 
 #. %1$s:  patron.updated_on | $KohaDates with_hours => 1 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:125
@@ -41678,9 +41678,9 @@ msgid "Materials specified:"
 msgstr "Зазначення матеріалів: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:163
-#, fuzzy, c-format
+#, c-format
 msgid "Statuses"
-msgstr "Стан"
+msgstr "Стани"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/moredetail.tt:181
 #, c-format
@@ -42781,9 +42781,8 @@ msgstr "%s %s (%s скасовано) %s "
 
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:204
-#, fuzzy
 msgid "Shared templates"
-msgstr "Шаблони карток"
+msgstr "Спільні шаблони"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:224
 #, fuzzy, c-format
@@ -42855,7 +42854,6 @@ msgstr "Додати одиницю"
 
 #. INPUT type=submit name=add_duplicate_submit
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:290
-#, fuzzy
 msgid "Add and duplicate"
 msgstr "Додати та здублювати"
 
@@ -42880,36 +42878,34 @@ msgid "Save as template"
 msgstr "Зберегти як шаблон"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:306
-#, fuzzy, c-format
+#, c-format
 msgid "Save template"
-msgstr "Шаблон етикетки"
+msgstr "Збереження шаблону"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:309
-#, fuzzy, c-format
+#, c-format
 msgid "Save as new template"
-msgstr "Створюємо новий шаблон"
+msgstr "Зберегти як новий шаблон"
 
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:310
-#, fuzzy
 msgid "Update existing template"
-msgstr "Оновити існуюче чи додати нове"
+msgstr "Оновити існуючий шаблон"
 
 #. OPTGROUP
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:315
-#, fuzzy
 msgid "Update shared template"
-msgstr "Створюємо новий шаблон"
+msgstr "Оновити спільний шаблон"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:327
-#, fuzzy, c-format
+#, c-format
 msgid "Template name: "
 msgstr "Найменування шаблону: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/additem.tt:335
-#, fuzzy, c-format
+#, c-format
 msgid "Share template "
-msgstr "Шаблон картки"
+msgstr "Поділитись шаблоном "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/concerns.tt:28
 #, c-format
@@ -49838,7 +49834,7 @@ msgstr "Лоток для паперу: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-profile.tt:83
 #, c-format
 msgid "Template name:"
-msgstr "Найменування шаблону: "
+msgstr "Найменування шаблону:"
 
 #. For the first occurrence,
 #. %1$s:  END 
@@ -52903,7 +52899,7 @@ msgstr "Номер читацького квитка: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:254
 #, c-format
 msgid "Borrowernumber: "
-msgstr "Номер користувача АБІС: "
+msgstr "Системний № користувача: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:399
@@ -54456,17 +54452,17 @@ msgstr "Додати кількох користувачів"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:119
 #, c-format
 msgid "Choose type of IDs to enter:"
-msgstr ""
+msgstr "Виберіть тип ідентифікаторів для введення:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:123
-#, fuzzy, c-format
+#, c-format
 msgid "Cardnumbers"
-msgstr "Номер квитка"
+msgstr "номери читацьких квитків"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:127
-#, fuzzy, c-format
+#, c-format
 msgid "Borrowernumbers"
-msgstr "Номер користувача АБІС"
+msgstr "системні №№ користувачів"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:131
 #, c-format
@@ -60707,7 +60703,7 @@ msgstr "Відкрити у новому вікні."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:123
 #, c-format
 msgid "Items:"
-msgstr "Примірники: "
+msgstr "Примірники:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:121
 #, c-format
@@ -62631,9 +62627,9 @@ msgid "This option checks in items to remove them from patron accounts."
 msgstr "Ця можливість повертає примірники, щоб забрати їх з формулярів користувачів."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:228
-#, fuzzy, c-format
+#, c-format
 msgid "Check in items:"
-msgstr "Повернути примірник"
+msgstr "Повернути примірники:"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batchMod-edit.tt:271
@@ -64193,9 +64189,9 @@ msgstr "Відсутнє"
 
 #. %1$s:  missing_critical.borrowernumber | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:146
-#, fuzzy, c-format
+#, c-format
 msgid "borrowernumber: %s"
-msgstr "Номер користувача АБІС: %s"
+msgstr "системний № користувача: %s"
 
 #. %1$s:  missing_critical.surname | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:146
@@ -65732,14 +65728,14 @@ msgid "Circulation note:"
 msgstr "Примітка для бібліотекаря:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:358
-#, fuzzy, c-format
+#, c-format
 msgid "Restriction expiration:"
-msgstr "Термін дії обмеження"
+msgstr "Термін дії обмеження:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:359
-#, fuzzy, c-format
+#, c-format
 msgid "Restriction comment:"
-msgstr "Коментар для обмеження"
+msgstr "Коментар для обмеження:"
 
 #. %1$s:  ELSE 
 #. %2$s:  field.name | html 
@@ -65767,9 +65763,9 @@ msgid "Check to delete this field"
 msgstr "Позначте, щоб вилучити це поле"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:392
-#, fuzzy, c-format
+#, c-format
 msgid "Patron attribute:"
-msgstr "Атрибут користувача: "
+msgstr "Атрибут користувача:"
 
 #. INPUT type=checkbox name=disable_input
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:401
