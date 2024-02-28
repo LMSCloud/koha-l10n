@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.14.000\n"
 "POT-Creation-Date: 2023-12-20 04:07+0000\n"
-"PO-Revision-Date: 2024-02-27 13:42+0000\n"
+"PO-Revision-Date: 2024-02-28 14:41+0000\n"
 "Last-Translator: Serhij Dubyk <dubyk@ukr.net>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: uk-UA\n"
@@ -6281,7 +6281,7 @@ msgstr "Джерельна бібліотека: %s"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:121
 #, c-format
 msgid "Borrowernumber: %s"
-msgstr "Номер користувача АБІС: %s"
+msgstr "Системний № користувача: %s"
 
 #. %1$s:  patron.updated_on | $KohaDates with_hours => 1 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:122
@@ -12073,7 +12073,7 @@ msgstr "Усі телефони"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:7
 #, c-format
 msgid "Borrowernumber"
-msgstr "Номер користувача АБІС"
+msgstr "Системний № користувача"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patronfields.inc:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/identity_providers.tt:149
@@ -53898,7 +53898,7 @@ msgstr "Номер читацького квитка: "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:248
 #, c-format
 msgid "Borrowernumber: "
-msgstr "Номер користувача АБІС: "
+msgstr "Системний № користувача: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember-brief.tt:73
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:385
@@ -55527,9 +55527,9 @@ msgid "New patron list"
 msgstr "Новий список користувачів"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:56
-#, fuzzy, c-format
+#, c-format
 msgid "Create a new patron list"
-msgstr "Створюємо новий список"
+msgstr "Створюємо новий список користувачів"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/add-modify.tt:67
 #, c-format
@@ -55610,17 +55610,17 @@ msgstr "Додати кількох користувачів"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:115
 #, c-format
 msgid "Choose type of IDs to enter:"
-msgstr ""
+msgstr "Виберіть тип ідентифікаторів для введення:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:119
-#, fuzzy, c-format
+#, c-format
 msgid "Cardnumbers"
-msgstr "Номер квитка"
+msgstr "номери читацьких квитків"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:123
-#, fuzzy, c-format
+#, c-format
 msgid "Borrowernumbers"
-msgstr "Номер користувача АБІС"
+msgstr "системні №№ користувачів"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patron_lists/list.tt:127
 #, c-format
@@ -65711,9 +65711,9 @@ msgstr "Відсутнє"
 
 #. %1$s:  missing_critical.borrowernumber | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:121
-#, fuzzy, c-format
+#, c-format
 msgid "borrowernumber: %s"
-msgstr "Номер користувача АБІС: %s"
+msgstr "системний № користувача: %s"
 
 #. %1$s:  missing_critical.surname | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/import_borrowers.tt:121
@@ -67296,14 +67296,14 @@ msgid "Circulation note:"
 msgstr "Примітка для бібліотекаря:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:331
-#, fuzzy, c-format
+#, c-format
 msgid "Restriction expiration:"
-msgstr "Термін дії обмеження"
+msgstr "Термін дії обмеження:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:332
-#, fuzzy, c-format
+#, c-format
 msgid "Restriction comment:"
-msgstr "Коментар для обмеження"
+msgstr "Коментар для обмеження:"
 
 #. %1$s:  ELSE 
 #. %2$s:  field.name | html 
@@ -67331,9 +67331,9 @@ msgid "Check to delete this field"
 msgstr "Позначте, щоб вилучити це поле"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:365
-#, fuzzy, c-format
+#, c-format
 msgid "Patron attribute:"
-msgstr "Атрибут користувача: "
+msgstr "Атрибут користувача:"
 
 #. INPUT type=checkbox name=disable_input
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:374
