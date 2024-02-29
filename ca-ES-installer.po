@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.14.000\n"
-"PO-Revision-Date: 2024-02-27 13:41+0000\n"
+"PO-Revision-Date: 2024-03-01 03:41+0000\n"
 "Last-Translator: Rbellido <rbellido@orex.es>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: ca-ES\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:1
 msgid "Overpayment refund"
-msgstr ""
+msgstr "Devolució de pagament en excés"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:2
 #, fuzzy
@@ -28,9 +28,8 @@ msgid "Writeoff"
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:4
-#, fuzzy
 msgid "Forgiven"
-msgstr "Oblida %s"
+msgstr "Perdonat"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:5
 #, fuzzy
@@ -47,7 +46,7 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:8
 msgid "Lost item fee refund"
-msgstr ""
+msgstr "Devolució del càrrec per l'exemplar perdut"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:9
 msgid "Purchase"
@@ -82,13 +81,12 @@ msgid "Article request fee"
 msgstr "Article sol·licitats"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:4
-#, fuzzy
 msgid "Lost item"
-msgstr "Perdut"
+msgstr "Exemplar perdut"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:5
 msgid "Manual fee"
-msgstr ""
+msgstr "Càrrec manual"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:6
 msgid "New card fee"
@@ -101,15 +99,15 @@ msgstr "Nota de comanda"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:8
 msgid "Lost item processing fee"
-msgstr ""
+msgstr "Processant càrrec per exemplar perdut"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:9
 msgid "Payment from library to patron"
-msgstr ""
+msgstr "Pagament de la biblioteca a l'usuari"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:10
 msgid "Rental fee"
-msgstr ""
+msgstr "Quota de lloguer"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:11
 msgid "Daily rental fee"
@@ -117,11 +115,11 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:12
 msgid "Renewal of daily rental item"
-msgstr ""
+msgstr "Renovació de l'exemplar de préstec diari"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:13
 msgid "Renewal of rental item"
-msgstr ""
+msgstr "Renovació de l'exemplar prestat"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:14
 msgid "Hold fee"
@@ -129,7 +127,7 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:15
 msgid "Hold waiting too long"
-msgstr ""
+msgstr "Reserva massa temps en espera"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:16
 msgid "Credit has been voided"
@@ -6168,7 +6166,6 @@ msgid "Ordered"
 msgstr "Demanat"
 
 #: installer/data/mysql/en/optional/auth_val.yml:authorised_values:3:row:22
-#, fuzzy
 msgid "Not for loan"
 msgstr "Exclòs de préstec"
 
