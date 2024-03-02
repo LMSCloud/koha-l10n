@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-02 03:02+0000\n"
+"POT-Creation-Date: 2024-03-02 03:02+0000\n"
 "PO-Revision-Date: 2024-03-01 03:00+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
@@ -53,9 +53,9 @@ msgid "Edit"
 msgstr "Muokkaa"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1070
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1099
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:10
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:400
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:79
 msgid "Delete"
@@ -172,15 +172,15 @@ msgstr "Virhe; tietojasi ei ehkä tallennettu"
 msgid "Loading..."
 msgstr "Ladataan..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:44
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:53
 msgid "Please select or enter a sound."
 msgstr "Valitse tai lisää ääni."
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:66
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:76
 msgid "Are you sure you want to delete the selected audio alerts?"
 msgstr "Haluatko varmasti poistaa valitut äänihälytykset?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:68
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:78
 msgid "Check the box next to the alert you want to delete."
 msgstr "Laita rasti niiden hälytysten viereen, jotka haluat poistaa."
 
@@ -239,8 +239,7 @@ msgstr "%s on jo korissasi"
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:444
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:454
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:6
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:27
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/cart.js:28
 msgid "No item was selected"
 msgstr "Valitse nimeke"
 
@@ -484,9 +483,9 @@ msgstr "Syyskuu"
 msgid "Failure"
 msgstr "Epäonnistui"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
+#: koha-tmpl/intranet-tmpl/prog/js/cart.js:83
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:358
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:349
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:350
 msgid "Place hold"
 msgstr "Varaa"
 
@@ -551,11 +550,11 @@ msgstr "Haluatko varmasti poistaa %s liitettyä nidettä?"
 msgid "(select to create)"
 msgstr "(valitse luodaksesi)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:643
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:637
 msgid "Something went wrong. Maybe the value already exists?"
 msgstr "Jokin meni pieleen. Ehkä arvo on jo olemassa?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:141
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:147
 msgid "Template name is required."
 msgstr "Pohja on nimettävä."
 
@@ -605,13 +604,13 @@ msgid "Previous checkouts"
 msgstr "Edelliset lainat"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:800
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:829
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
 msgid "by _AUTHOR_"
 msgstr "/ _AUTHOR_"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:129
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:821
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:850
 msgid "On-site checkout"
 msgstr "On-site -lainat"
 
@@ -626,7 +625,7 @@ msgstr "Palautuspyyntö"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:243
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:363
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:313
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:314
 msgid "On hold"
 msgstr "Varattu"
 
@@ -639,12 +638,12 @@ msgid "Must be renewed at the library"
 msgstr "Täytyy uusia kirjastossa"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:262
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
 msgid "Not allowed: patron restricted"
 msgstr "Ei sallittu: asiakkaalla on lainauskielto"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:269
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
 msgid "Not allowed: overdue"
 msgstr "Ei sallittu: erääntynyt"
 
@@ -684,6 +683,11 @@ msgstr " ja %s / %s verkkokirjastouusinnasta jäljellä"
 msgid "Scheduled for automatic renewal"
 msgstr "Ajastettu automaattista uusintaa varten"
 
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:365
+#, fuzzy, javascript-format
+msgid "Confirm (%s)"
+msgstr "Hyväksy"
+
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:380
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:382
 msgid "Claim returned"
@@ -697,94 +701,90 @@ msgstr "Ei nidetyyppiä"
 msgid "Number of checkouts by item type"
 msgstr "Lainojen määrä nidetyypeittäin"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:596
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:591
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:593
 msgid "Checked in"
 msgstr "Palautettu"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:600
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:595
 msgid "Patron note"
 msgstr "Asiakkaan huomautus"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:603
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
 msgid "Unable to check in"
 msgstr "Ei voi palauttaa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:633
-msgid "Confirm"
-msgstr "Hyväksy"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:676
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:680
 msgid "Renewed, due:"
 msgstr "Uusittu, erääntyy:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:679
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:683
 msgid "Renew failed:"
 msgstr "Uusinta epäonnistui:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:681
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:685
 msgid "not checked out"
 msgstr "ei lainattu"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:683
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
 msgid "too many renewals"
 msgstr "liian monta uusintaa"
 
 # Vaikea muotoilla järkeväksi lauseeksi.
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:685
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
 msgid "too many consecutive renewals without being seen by the library"
 msgstr "liian monta uusintaa ilman kirjastokäyntiä"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
 msgid "on hold"
 msgstr "varattu"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
 msgid "Unable to find an open day"
 msgstr "Avoimia päiviä ei löydy"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:701
 msgid "reason unknown"
 msgstr "tuntematon syy"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1025
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1054
 msgid "Double click to edit"
 msgstr "Kaksoisnapsauta muokataksesi"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1073
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1102
 msgid "Resolve"
 msgstr "Ratkaise"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1078
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:89
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:368
 msgid "Actions"
 msgstr "Toiminnot"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1081
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1110
 msgid "Edit notes"
 msgstr "Muokkaa huomautuksia"
 
 # The "Python brace placeholders" error with this translation appears to be false positive
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1144
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1173
 msgid "Show 1 claim"
 msgid_plural "Show all {count} claims"
 msgstr[0] "Näytä 1 palautusilmoitus"
 msgstr[1] "Näytä kaikki {count} palautusilmoitusta"
 
 # The "Python brace placeholders" error with this translation appears to be false positive
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1149
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1178
 msgid "Show 1 unresolved claim"
 msgid_plural "Show {count} unresolved claims"
 msgstr[0] "Näytä 1 ratkaisematon palautusilmoitus"
 msgstr[1] "Näytä {count} ratkaisematonta palautusilmoitusta"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1170
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1199
 msgid "Update"
 msgstr "Päivitä"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1171
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1200
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:415
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:162
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:75
@@ -801,7 +801,7 @@ msgstr "Päivitä"
 msgid "Cancel"
 msgstr "Peruuta"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1210
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1239
 msgid "Are you sure you want to delete this return claim?"
 msgstr "Haluatko varmasti poistaa palautusilmoituksen?"
 
@@ -890,7 +890,7 @@ msgid "Clear filter"
 msgstr "Tyhjennä suodatin"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:51
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:123
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:126
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:27
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:43
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:13
@@ -1161,24 +1161,24 @@ msgstr "Ehdollinen säännöllinen lauseke on täytettävä."
 msgid "The conditional value should be filled."
 msgstr "Ehdollinen arvo on täytettävä."
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:121
-msgid "Every"
-msgstr "...näin montaa lehteä kohden"
-
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:265
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:113
 msgid "Are you sure you wish to delete this template action?"
 msgstr "Haluatko varmasti poistaa tämän pohjan?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:269
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:117
 msgid "Are you sure you wish to delete this template?"
 msgstr "Haluatko varmasti poistaa tämän pohjan?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:315
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:124
+msgid "Every"
+msgstr "...näin montaa lehteä kohden"
+
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:310
 #, javascript-format
 msgid "Edit action %s"
 msgstr "Muokkaa toimintoa %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:318
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:313
 msgid "Update action"
 msgstr "Päivitä toiminto"
 
@@ -1308,50 +1308,50 @@ msgstr "Valitse vietävät lainaustapahtumat"
 msgid "Error: presence of invalid data prevent saving. Please make the corrections and try again."
 msgstr "Virhe: virheellinen tieto estää tallentamisen. Tee korjaukset ja yritä uudelleen."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:25
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:13
 msgid "Nothing to save"
 msgstr "Ei tallennettavaa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:35
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:16
 msgid "Saving..."
 msgstr "Tallennetaan..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:48
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:35
 #, javascript-format
 msgid "Saved preference %s"
 msgstr "Tallennetut asetukset %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:64
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:51
 msgid "modified"
 msgstr "muokattu"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:70
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:57
 msgid "You have made changes to system preferences."
 msgstr "Olet tehnyt muutoksia järjestelmäasetuksiin."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:156
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:143
 msgid "Are you sure you want to delete this consent item?"
 msgstr "Haluatko varmasti poistaa tämän evästeasetuksen?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:214
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:224
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:236
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:201
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:211
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:223
 msgid "Collapse this section"
 msgstr "Valitse sulkeaksi tämä osio"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:221
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:208
 msgid "Expand this section"
 msgstr "Valitse aukaistaksesi tämä osio"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:255
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:242
 msgid "Note: _ALL_ value will override all other values"
 msgstr "Huomaa: _ALL_ arvo kumoaa kaikki muut arvot"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:266
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:253
 msgid "The following values are not formatted correctly:"
 msgstr "Seuraavia arvoja ei ole alustettu oikein:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:378
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:365
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:254
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:124
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:152
@@ -1372,11 +1372,11 @@ msgstr "Seuraavia arvoja ei ole alustettu oikein:"
 msgid "Name"
 msgstr "Nimi"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:379
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:383
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:395
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:399
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:403
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:366
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:370
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:382
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:386
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:390
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:31
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:29
@@ -1404,8 +1404,8 @@ msgstr "Nimi"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:140
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:172
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:40
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:30
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:52
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:31
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:83
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:111
@@ -1419,7 +1419,7 @@ msgstr "Nimi"
 msgid "Required"
 msgstr "Pakollinen tieto"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:382
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:369
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:35
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:284
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:43
@@ -1434,47 +1434,47 @@ msgstr "Pakollinen tieto"
 msgid "Description"
 msgstr "Kuvaus"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:386
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:373
 msgid "Requires consent in OPAC"
 msgstr "Vaatii evästeasetusten hyväksynnän verkkokirjastossa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:390
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:377
 msgid "Requires consent in staff interface"
 msgstr "Vaatii evästeastusten hyväksynnän virkailijaliittymässä"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:394
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:381
 msgid "String used to identify cookie name"
 msgstr "Evästeen tunnistamiseen käytettävä merkkijono"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:398
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:385
 msgid "Cookie domain"
 msgstr "Evästeen verkkotunnus"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:402
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:389
 msgid "Cookie path"
 msgstr "Evästeen polku"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:409
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:396
 msgid "Expand"
 msgstr "Avaa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:410
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:397
 msgid "Collapse"
 msgstr "Supista"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:426
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
 msgid "You must complete all fields"
 msgstr "Täytä kaikki kentät"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:472
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:459
 msgid "Unable to Base64 decode value stored in CookieConsentedJS syspref: "
 msgstr "Ei voida purkaa CookieConsentedJS-järjestelmäasetukseen tallennettua Base64-arvoa: "
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:480
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:467
 msgid "Unable to JSON parse decoded value stored in CookieConsentedJS syspref: "
 msgstr "Ei voida purkaa CookieConsentedJS -järjestelmäasetukseen tallennettua JSON-jäsennettyä arvoa: "
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:490
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:477
 msgid "Add new code"
 msgstr "Lisää uusi tunnus"
 
@@ -1507,56 +1507,56 @@ msgstr "Ei kansikuvaa saatavana"
 msgid "Nothing is selected"
 msgstr "Ei valittuja kohteita"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:428
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:439
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:429
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:441
 msgid "You must select at least one record"
 msgstr "Valitse vähintään yksi tietue"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:450
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:454
 msgid "At least two records must be selected for merging"
 msgstr "Valitse vähintään kaksi tietuetta yhdistettäväksi"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:38
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:37
 #, javascript-format
 msgid "AJAX failed to approve tag: %s"
 msgstr "AJAX: Tagin %s hyväksyminen epäonnistui"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:44
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:43
 #, javascript-format
 msgid "AJAX failed to reject tag: %s"
 msgstr "AJAX: Tagin %s hylkääminen ei onnistunut"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:46
 #, javascript-format
 msgid "%s is permitted!"
 msgstr "%s on sallittu."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:50
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:49
 #, javascript-format
 msgid "%s is prohibited!"
 msgstr "%s on kielletty."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:53
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:52
 #, javascript-format
 msgid "%s is neither permitted nor prohibited!"
 msgstr "%s ei ole sallittu eikä kielletty."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:58
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:57
 msgid " Test"
 msgstr " Testaa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:164
 msgid "Clear all"
 msgstr "Tyhjennä kaikki"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:138
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:161
 msgid "Select all"
 msgstr "Valitse kaikki"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 msgid "Select all pending"
 msgstr "Valitse kaikki odottavat"
 
@@ -1569,20 +1569,20 @@ msgstr "Hylkää"
 msgid "Approved"
 msgstr "Hyväksytty"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:133
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:134
 msgid "Approve"
 msgstr "Hyväksy"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:135
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:138
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:139
 msgid "Rejected"
 msgstr "Hylätty"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:148
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:149
 msgid "Testing..."
 msgstr "Tarkistetaan..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:159
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:161
 #, javascript-format
 msgid "AJAX error (%s alert)"
 msgstr "AJAX-virhe (%s)"
@@ -1631,68 +1631,69 @@ msgstr ""
 msgid "Select item"
 msgstr "Valitse tiedosto"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:6
 msgid "Are you sure you want to remove this recall?"
 msgstr "Haluatko varmasti poistaa tämän palautuspyynnön?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:22
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:12
 msgid "The recall may have already been cancelled. Please refresh the page."
 msgstr "Palautuspyyntö on ehkä jo peruttu. Ole hyvä ja päivitä sivu."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:24
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:14
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:94
 msgid "Cancelled"
 msgstr "Peruutettu"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:32
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:26
 msgid "Are you sure you want to expire this recall?"
 msgstr "Haluatko varmasti antaa tämän palautuspyynnön vanhentua?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:50
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:32
 msgid "The recall may have already been expired. Please refresh the page."
 msgstr "Palautuspyynto on ehkä jo vanhentunut. Ole hyvä ja päivitä sivu."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:34
 msgid "Expired"
 msgstr "Vanhentunut"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:60
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:46
 msgid "Are you sure you want to revert the waiting status of this recall?"
 msgstr "Haluatko varmasti palauttaa odotustilan tälle palautuspyynnölle?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:78
-msgid "The recall waiting status may have already been reverted. Please refresh the page."
-msgstr "Palautuspyynnön odotustila on ehkä jo palautettu. Ole hyvä ja päivitä sivu."
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
+#, fuzzy
+msgid "The recall may have already been reverted. Please refresh the page."
+msgstr "Palautuspyyntö on ehkä jo poistettu. Ole hyvä ja päivitä sivu."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:80
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:54
 msgid "Waiting status reverted"
 msgstr "Odotustila palautettu"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:88
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:66
 msgid "Are you sure you want to mark this recall as overdue?"
 msgstr "Haluatko varmasti merkitä tämän palautuspyynnön erääntyneeksi?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:106
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:72
 msgid "The recall may have already been marked as overdue. Please refresh the page."
 msgstr "Palautuspyyntö on ehkä jo merkitty erääntyneeksi. Ole hyvä ja päivitä sivu."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:108
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:74
 msgid "Marked overdue"
 msgstr "Erääntynyt"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:116
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:86
 msgid "Are you sure you want to remove this recall and return the item to it's home library?"
 msgstr "Haluatko varmasti poistaa tämän palautuspyynnön ja palauttaa niteen kotikirjastoon?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:134
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:92
 msgid "The recall may have already been removed. Please refresh the page."
 msgstr "Palautuspyyntö on ehkä jo poistettu. Ole hyvä ja päivitä sivu."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:154
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:116
 msgid "Are you sure you want to remove the selected recall(s)?"
 msgstr "Haluatko varmasti poistaa valitut palautuspyynnöt?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:156
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:118
 msgid "Please make a selection."
 msgstr "Ole hyvä ja tee valinta."
 
@@ -1701,9 +1702,14 @@ msgstr "Ole hyvä ja tee valinta."
 msgid "%s (current status)"
 msgstr "%s (nykyinen tila)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:8
+#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:7
 msgid "Are you sure you want to delete this rotating collection?"
 msgstr "Haluatko varmasti poistaa tämän siirtokokoelman?"
+
+#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:12
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:461
+msgid "Are you sure you want to remove this item?"
+msgstr "Haluatko varmasti poistaa tämän niteen?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:8
 msgid "The results could not be loaded"
@@ -1745,17 +1751,17 @@ msgstr "Poista kaikki niteet"
 msgid "Remove item"
 msgstr "Poista nide"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:4
-msgid "Are you sure you want to close this subscription?"
-msgstr "Haluatko varmasti sulkea tämän kausijulkaisutilauksen?"
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:9
+msgid "Are you sure you want to delete this subscription?"
+msgstr "Haluatko varmasti poistaa tämän kausijulkaisutilauksen?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:10
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:12
 msgid "Are you sure you want to reopen this subscription?"
 msgstr "Haluatko varmasti avata tämän kausijulkaisutilauksen uudestaan?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:17
-msgid "Are you sure you want to delete this subscription?"
-msgstr "Haluatko varmasti poistaa tämän kausijulkaisutilauksen?"
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:15
+msgid "Are you sure you want to close this subscription?"
+msgstr "Haluatko varmasti sulkea tämän kausijulkaisutilauksen?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/sms_providers.js:36
 msgid "Add an SMS cellular provider"
@@ -1934,34 +1940,29 @@ msgstr "Epäonnistui"
 msgid "Denied"
 msgstr "Estetty"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:142
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:143
 msgid "An error occurred while uploading."
 msgstr "Latauksen aikana tapahtui virhe."
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:172
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:173
 msgid "Error:"
 msgstr "Virhe:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:172
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:173
 msgid "This tool only accepts ZIP files or GIF, JPEG, PNG, or XPM images."
 msgstr "Tämä työkalu hyväksyy vain ZIP-tiedostot tai GIF-, JPEG-, PNG-, tai XPM-kuvat."
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:179
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:180
 msgid "File name:"
 msgstr "Tiedostonimi:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:180
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:181
 msgid "File type:"
 msgstr "Tiedostotyyppi:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:181
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:182
 msgid "File size:"
 msgstr "Tiedoston koko:"
-
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:214
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:220
-msgid "An error occurred on deleting this image"
-msgstr "Kuvaa poistettaessa tapahtui virhe"
 
 #: koha-tmpl/intranet-tmpl/prog/js/viewlog.js:18
 msgid "View comparison"
@@ -2319,7 +2320,7 @@ msgstr "Käyttäjät"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:125
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:75
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:34
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:35
 msgid "Role"
 msgstr "Rooli"
 
@@ -3415,11 +3416,11 @@ msgstr "Poista tämä käyttäjä"
 msgid "User"
 msgstr "Käyttäjä"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:28
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:29
 msgid "Select user"
 msgstr "Valitse käyttäjä"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:62
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:63
 msgid "Add new user"
 msgstr "Lisää uusi käyttäjä"
 
@@ -3762,10 +3763,6 @@ msgstr "Tulosta kuitteja"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:351
 msgid "ID"
 msgstr "ID"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:461
-msgid "Are you sure you want to remove this item?"
-msgstr "Haluatko varmasti poistaa tämän niteen?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:463
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:269
@@ -4163,41 +4160,41 @@ msgstr "Lainat"
 msgid "Holds"
 msgstr "Varaukset"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:290
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:291
 msgid "Checked out until: "
 msgstr "Eräpäivä: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:295
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:296
 msgid "Get item"
 msgstr "Hae nide"
 
 # painike
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:301
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:302
 msgid "Check in"
 msgstr "Palautus"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:302
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:303
 msgid "Are you sure you want to return this item?"
 msgstr "Haluatko varmasti palauttaa tämän niteen?"
 
 # painike
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:319
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:320
 msgid "Check out"
 msgstr "Lainaus"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:320
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:321
 msgid "Are you sure you want to check out this item?"
 msgstr "Haluatko varmasti lainata tämän niteen?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:355
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:356
 msgid "Cancel hold"
 msgstr "Peruuta varaus"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:356
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:357
 msgid "Are you sure you want to cancel this hold?"
 msgstr "Haluatko varmasti peruuttaa tämän varauksen?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:385
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:386
 msgid "Item cannot be checked out. There are no available formats"
 msgstr "Nidettä ei voi lainata. Käytettävissä olevia tallennusmuotoja ei ole"
 
@@ -4215,57 +4212,57 @@ msgstr "Arviosi: %s."
 msgid "Average rating: %s (%s votes)"
 msgstr "Keskiarvo: %s (%s ääntä)"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:42
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:96
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:100
 msgid "Tags added: "
 msgstr "Tageja lisätty: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:43
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:45
 msgid "Tags deleted: "
 msgstr "Tageja poistettu: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:106
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:46
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:110
 msgid "Errors: "
 msgstr "Virheitä: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:60
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:62
 msgid "Sorry, tags are not enabled on this system."
 msgstr "Tagit eivät ole käytössä."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:61
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:63
 msgid "Error! Your tag was entirely markup code.  It was NOT added.  Please try again with plain text."
 msgstr "Virhe! Tagisi oli täysin merkintäkielen koodia.  Sitä ei lisätty.  Kokeile uudelleen pelkkänä tekstinä."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:62
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
 msgid "Error! Illegal parameter"
 msgstr "Virhe! Laiton muuttuja"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:63
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
 msgid "Note: your tag contained markup code that was removed. The tag was added as "
 msgstr "Huomioi: tagisi sisälsi merkintäkielen koodin, joka poistettiin. Tagi lisättiin muodossa "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
 msgid "Error! Adding tags failed at"
 msgstr "Virhe! Tagien lisäys epäonnistui"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
 msgid "Note: you can only tag an item with a given term once.  Check 'Tags' to see your current tags."
 msgstr "Huomioi: voit lisätä niteelle tagin vain kerran.  Tarkista Tagit-osiosta nykyiset tagisi."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:67
 msgid "Error! You cannot delete the tag"
 msgstr "Virhe! Et voi poistaa tagia"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:67
 msgid "Note: you can only delete your own tags."
 msgstr "Huomioi: voit poistaa vain omia tagejasi."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:68
 msgid "You must be logged in to add tags."
 msgstr "Sinun pitää olla kirjautuneena sisään lisätäksesi tageja."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:126
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:130
 msgid "Unable to add one or more tags."
 msgstr "Yhtä tai useampaa tagia ei voida lisätä."
 
@@ -4274,6 +4271,9 @@ msgstr "Yhtä tai useampaa tagia ei voida lisätä."
 
 #~ msgid "Agreement user"
 #~ msgstr "Sopimuskäyttäjä"
+
+#~ msgid "An error occurred on deleting this image"
+#~ msgstr "Kuvaa poistettaessa tapahtui virhe"
 
 #~ msgid "Click to expand"
 #~ msgstr "Valitse aukaistaksesi"
@@ -4304,6 +4304,9 @@ msgstr "Yhtä tai useampaa tagia ei voida lisätä."
 
 #~ msgid "Service Type"
 #~ msgstr "Palvelutyyppi"
+
+#~ msgid "The recall waiting status may have already been reverted. Please refresh the page."
+#~ msgstr "Palautuspyynnön odotustila on ehkä jo palautettu. Ole hyvä ja päivitä sivu."
 
 #~ msgid "barcode"
 #~ msgstr "viivakoodi"

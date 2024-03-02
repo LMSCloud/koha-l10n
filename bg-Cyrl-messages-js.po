@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-02 03:02+0000\n"
+"POT-Creation-Date: 2024-03-02 03:02+0000\n"
 "PO-Revision-Date: 2024-02-15 15:45+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -53,9 +53,9 @@ msgid "Edit"
 msgstr "Редактиране"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1070
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1099
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:10
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:400
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:79
 msgid "Delete"
@@ -172,15 +172,15 @@ msgstr "Грешка; данните ви може да не са запазен
 msgid "Loading..."
 msgstr "Зареждане…"
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:44
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:53
 msgid "Please select or enter a sound."
 msgstr "Моля, изберете или въведете звук."
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:66
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:76
 msgid "Are you sure you want to delete the selected audio alerts?"
 msgstr "Наистина ли искате да изтриете избраните звукови сигнали?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:68
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:78
 msgid "Check the box next to the alert you want to delete."
 msgstr "Поставете отметка в квадратчето до сигнала, който искате да изтриете."
 
@@ -239,8 +239,7 @@ msgstr "%s вече са добавени в количката за книги"
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:444
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:454
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:6
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:27
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/cart.js:28
 msgid "No item was selected"
 msgstr "Не е избран екземпляр"
 
@@ -483,9 +482,9 @@ msgstr "Септември"
 msgid "Failure"
 msgstr "Неуспешно"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
+#: koha-tmpl/intranet-tmpl/prog/js/cart.js:83
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:358
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:349
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:350
 msgid "Place hold"
 msgstr "Направете резервация"
 
@@ -550,11 +549,11 @@ msgstr "Наистина ли искате да изтриете %s избран
 msgid "(select to create)"
 msgstr "(изберете да създадете)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:643
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:637
 msgid "Something went wrong. Maybe the value already exists?"
 msgstr "Грешка. Може би стойността вече съществува?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:141
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:147
 msgid "Template name is required."
 msgstr "Изисква се име на шаблона."
 
@@ -604,13 +603,13 @@ msgid "Previous checkouts"
 msgstr "Предишни заемания"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:800
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:829
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
 msgid "by _AUTHOR_"
 msgstr "by _AUTHOR_"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:129
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:821
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:850
 msgid "On-site checkout"
 msgstr "Заемане на място"
 
@@ -625,7 +624,7 @@ msgstr "Поискано"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:243
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:363
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:313
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:314
 msgid "On hold"
 msgstr "В резервация"
 
@@ -638,12 +637,12 @@ msgid "Must be renewed at the library"
 msgstr "Трябва да се поднови в библиотеката"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:262
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
 msgid "Not allowed: patron restricted"
 msgstr "Не е позволено: читател с ограничения"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:269
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
 msgid "Not allowed: overdue"
 msgstr "Не е позволено: просрочено"
 
@@ -682,6 +681,11 @@ msgstr " и остават %s от %s автоматични презаписв�
 msgid "Scheduled for automatic renewal"
 msgstr "Планирано е автоматично презаписване"
 
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:365
+#, fuzzy, javascript-format
+msgid "Confirm (%s)"
+msgstr "Потвърждение"
+
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:380
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:382
 msgid "Claim returned"
@@ -695,91 +699,87 @@ msgstr "Няма вид библиотечен документ"
 msgid "Number of checkouts by item type"
 msgstr "Брой заемания за вид библиотечен документ"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:596
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:591
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:593
 msgid "Checked in"
 msgstr "Върната"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:600
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:595
 msgid "Patron note"
 msgstr "Бележка на читателя"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:603
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
 msgid "Unable to check in"
 msgstr "Не може да се върне"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:633
-msgid "Confirm"
-msgstr "Потвърждение"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:676
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:680
 msgid "Renewed, due:"
 msgstr "Презаписване, дата на връщане:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:679
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:683
 msgid "Renew failed:"
 msgstr "Презаписването не бе успешно:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:681
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:685
 msgid "not checked out"
 msgstr "не е видяно"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:683
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
 msgid "too many renewals"
 msgstr "твърде много презаписвания"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:685
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
 msgid "too many consecutive renewals without being seen by the library"
 msgstr "твърде много последователни презаписвания, които не се виждат от библиотеката"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
 msgid "on hold"
 msgstr "резервиран"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
 msgid "Unable to find an open day"
 msgstr "Не може да се одобри като върнат"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:701
 msgid "reason unknown"
 msgstr "неизвестна причина"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1025
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1054
 msgid "Double click to edit"
 msgstr "Кликнете два пъти за редактиране"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1073
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1102
 msgid "Resolve"
 msgstr "Анализиране"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1078
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:89
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:368
 msgid "Actions"
 msgstr "Действия"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1081
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1110
 msgid "Edit notes"
 msgstr "Редактиране на бележки"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1144
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1173
 msgid "Show 1 claim"
 msgid_plural "Show all {count} claims"
 msgstr[0] "Показване на 1 рекламация"
 msgstr[1] "Показване всички рекламация"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1149
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1178
 msgid "Show 1 unresolved claim"
 msgid_plural "Show {count} unresolved claims"
 msgstr[0] "Показване на 1 неразрешени рекламации"
 msgstr[1] "Показване на неразрешени рекламации"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1170
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1199
 msgid "Update"
 msgstr "Актуализиране"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1171
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1200
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:415
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:162
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:75
@@ -796,7 +796,7 @@ msgstr "Актуализиране"
 msgid "Cancel"
 msgstr "Отказ"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1210
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1239
 msgid "Are you sure you want to delete this return claim?"
 msgstr "Наистина ли искате да изтриете това искане за връщане?"
 
@@ -884,7 +884,7 @@ msgid "Clear filter"
 msgstr "Изчистване на филтъра"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:51
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:123
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:126
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:27
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:43
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:13
@@ -1153,24 +1153,24 @@ msgstr "Следващият условен израз трябва да бъд�
 msgid "The conditional value should be filled."
 msgstr "Условната стойност трябва да бъде попълнена."
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:121
-msgid "Every"
-msgstr "Всеки"
-
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:265
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:113
 msgid "Are you sure you wish to delete this template action?"
 msgstr "Наистина ли искате да изтриете това действие на шаблон?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:269
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:117
 msgid "Are you sure you wish to delete this template?"
 msgstr "Наистина ли искате да изтриете този шаблон?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:315
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:124
+msgid "Every"
+msgstr "Всеки"
+
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:310
 #, javascript-format
 msgid "Edit action %s"
 msgstr "Редактиране на действие %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:318
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:313
 msgid "Update action"
 msgstr "Обновяване на действие"
 
@@ -1300,50 +1300,50 @@ msgstr "Трябва да изберете заемане(ия) за експо�
 msgid "Error: presence of invalid data prevent saving. Please make the corrections and try again."
 msgstr "Грешка: наличието на невалидни данни предотвратяват запазването. Моля, направете корекциите и опитайте отново."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:25
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:13
 msgid "Nothing to save"
 msgstr "Нищо за запазване"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:35
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:16
 msgid "Saving..."
 msgstr "Запазване…"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:48
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:35
 #, javascript-format
 msgid "Saved preference %s"
 msgstr "Запазено предпочитание %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:64
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:51
 msgid "modified"
 msgstr "променен"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:70
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:57
 msgid "You have made changes to system preferences."
 msgstr "Направихте промени в системните настройки."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:156
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:143
 msgid "Are you sure you want to delete this consent item?"
 msgstr "Сигурни ли сте, че искате да изтриете този запис?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:214
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:224
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:236
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:201
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:211
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:223
 msgid "Collapse this section"
 msgstr "Свиване на раздела"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:221
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:208
 msgid "Expand this section"
 msgstr "Разширяване на раздела"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:255
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:242
 msgid "Note: _ALL_ value will override all other values"
 msgstr "Забележка: _ALL_ стойността ще замени всички останали стойности"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:266
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:253
 msgid "The following values are not formatted correctly:"
 msgstr "Следните стойности не са форматирани правилно:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:378
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:365
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:254
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:124
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:152
@@ -1364,11 +1364,11 @@ msgstr "Следните стойности не са форматирани п�
 msgid "Name"
 msgstr "Име"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:379
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:383
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:395
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:399
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:403
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:366
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:370
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:382
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:386
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:390
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:31
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:29
@@ -1396,8 +1396,8 @@ msgstr "Име"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:140
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:172
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:40
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:30
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:52
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:31
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:83
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:111
@@ -1411,7 +1411,7 @@ msgstr "Име"
 msgid "Required"
 msgstr "Задължително"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:382
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:369
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:35
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:284
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:43
@@ -1426,47 +1426,47 @@ msgstr "Задължително"
 msgid "Description"
 msgstr "Описание"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:386
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:373
 msgid "Requires consent in OPAC"
 msgstr "Изисква съгласие в OPAC"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:390
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:377
 msgid "Requires consent in staff interface"
 msgstr "Изисква съгласие в интерфейса на услугата"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:394
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:381
 msgid "String used to identify cookie name"
 msgstr "Низ за идентифициране на бисквитката"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:398
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:385
 msgid "Cookie domain"
 msgstr "Домейна на бисквитките"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:402
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:389
 msgid "Cookie path"
 msgstr "Път на бисквитките"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:409
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:396
 msgid "Expand"
 msgstr "Разширяване"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:410
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:397
 msgid "Collapse"
 msgstr "Свиване"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:426
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
 msgid "You must complete all fields"
 msgstr "Трябва да попълните всички полета"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:472
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:459
 msgid "Unable to Base64 decode value stored in CookieConsentedJS syspref: "
 msgstr "Не можа да се декодира Base64 стойността, съдържаща се в системното предпочитание CookieConsentedJS "
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:480
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:467
 msgid "Unable to JSON parse decoded value stored in CookieConsentedJS syspref: "
 msgstr "Не може да се декодира стойността на JSON parse, съхранена в CookieConsentedJS syspref: "
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:490
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:477
 msgid "Add new code"
 msgstr "Добавяне на нов код"
 
@@ -1499,56 +1499,56 @@ msgstr "Няма налично изображение на корицата"
 msgid "Nothing is selected"
 msgstr "Нищо не е избрано"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:428
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:439
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:429
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:441
 msgid "You must select at least one record"
 msgstr "Трябва да изберете поне един запис"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:450
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:454
 msgid "At least two records must be selected for merging"
 msgstr "Най-малко два записа трябва да бъдат избрани за сливане"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:38
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:37
 #, javascript-format
 msgid "AJAX failed to approve tag: %s"
 msgstr "AJAX не успя да одобри маркера: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:44
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:43
 #, javascript-format
 msgid "AJAX failed to reject tag: %s"
 msgstr "AJAX не успя да отхвърли маркера: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:46
 #, javascript-format
 msgid "%s is permitted!"
 msgstr "%s е разрешено!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:50
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:49
 #, javascript-format
 msgid "%s is prohibited!"
 msgstr "%s е забранено!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:53
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:52
 #, javascript-format
 msgid "%s is neither permitted nor prohibited!"
 msgstr "%s не е нито разрешено, нито забранено!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:58
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:57
 msgid " Test"
 msgstr " Тест"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:164
 msgid "Clear all"
 msgstr "Изчистване на всичко"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:138
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:161
 msgid "Select all"
 msgstr "Избери всички"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 msgid "Select all pending"
 msgstr "Изберете всички чакащи"
 
@@ -1561,20 +1561,20 @@ msgstr "Отхвърляне"
 msgid "Approved"
 msgstr "Одобрен"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:133
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:134
 msgid "Approve"
 msgstr "Одобряване"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:135
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:138
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:139
 msgid "Rejected"
 msgstr "Отхвърлено"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:148
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:149
 msgid "Testing..."
 msgstr "Тестване..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:159
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:161
 #, javascript-format
 msgid "AJAX error (%s alert)"
 msgstr "AJAX грешка (%s предупреждение)"
@@ -1620,68 +1620,69 @@ msgstr "Търсене на читател"
 msgid "Select item"
 msgstr "Изберете екземпляр"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:6
 msgid "Are you sure you want to remove this recall?"
 msgstr "Моля за потвърждение на действието!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:22
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:12
 msgid "The recall may have already been cancelled. Please refresh the page."
 msgstr "The recall може вече да е отменено. Моля, опреснете страницата."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:24
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:14
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:94
 msgid "Cancelled"
 msgstr "Отменено"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:32
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:26
 msgid "Are you sure you want to expire this recall?"
 msgstr "Сигурни ли сте, че искате да спрете това презаписване?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:50
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:32
 msgid "The recall may have already been expired. Please refresh the page."
 msgstr "The recall може вече да е изтекло. Моля, опреснете страницата."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:34
 msgid "Expired"
 msgstr "Просрочен"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:60
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:46
 msgid "Are you sure you want to revert the waiting status of this recall?"
 msgstr "Сигурни ли сте, че искате да върнете състоянието на изчакване на това презаписване?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:78
-msgid "The recall waiting status may have already been reverted. Please refresh the page."
-msgstr "Състоянието на чакащо The recall може вече да е върнато. Моля, опреснете страницата."
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
+#, fuzzy
+msgid "The recall may have already been reverted. Please refresh the page."
+msgstr "The recall може вече да е премахнато. Моля, опреснете страницата."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:80
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:54
 msgid "Waiting status reverted"
 msgstr "Състоянието на изчакване е върнато"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:88
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:66
 msgid "Are you sure you want to mark this recall as overdue?"
 msgstr "Сигурни ли сте, че искате да маркирате това презаписване като просрочено?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:106
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:72
 msgid "The recall may have already been marked as overdue. Please refresh the page."
 msgstr "The recall може вече да е маркирано като просрочено. Моля, опреснете страницата."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:108
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:74
 msgid "Marked overdue"
 msgstr "Означено като просрочено"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:116
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:86
 msgid "Are you sure you want to remove this recall and return the item to it's home library?"
 msgstr "Наистина ли искате да премахнете това презаписване и да върнете екземпляра в библиотека?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:134
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:92
 msgid "The recall may have already been removed. Please refresh the page."
 msgstr "The recall може вече да е премахнато. Моля, опреснете страницата."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:154
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:116
 msgid "Are you sure you want to remove the selected recall(s)?"
 msgstr "Наистина ли искате да премахнете избраните презаписвания?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:156
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:118
 msgid "Please make a selection."
 msgstr "Изберете ..."
 
@@ -1690,9 +1691,14 @@ msgstr "Изберете ..."
 msgid "%s (current status)"
 msgstr "%s (актуално състояние)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:8
+#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:7
 msgid "Are you sure you want to delete this rotating collection?"
 msgstr "Наистина ли искате да изтриете?"
+
+#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:12
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:461
+msgid "Are you sure you want to remove this item?"
+msgstr "Сигурни ли сте?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:8
 msgid "The results could not be loaded"
@@ -1734,17 +1740,17 @@ msgstr "Изтриване на всички екземпляри"
 msgid "Remove item"
 msgstr "Изтриване на екземпляр"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:4
-msgid "Are you sure you want to close this subscription?"
-msgstr "Наистина ли искате да затворите този абонамент?"
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:9
+msgid "Are you sure you want to delete this subscription?"
+msgstr "Наистина ли искате да изтриете този абонамент?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:10
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:12
 msgid "Are you sure you want to reopen this subscription?"
 msgstr "Наистина ли искате да отворите отново този абонамент?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:17
-msgid "Are you sure you want to delete this subscription?"
-msgstr "Наистина ли искате да изтриете този абонамент?"
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:15
+msgid "Are you sure you want to close this subscription?"
+msgstr "Наистина ли искате да затворите този абонамент?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/sms_providers.js:36
 msgid "Add an SMS cellular provider"
@@ -1922,34 +1928,29 @@ msgstr "Неуспешно"
 msgid "Denied"
 msgstr "Отказан"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:142
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:143
 msgid "An error occurred while uploading."
 msgstr "Възникна грешка при качването."
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:172
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:173
 msgid "Error:"
 msgstr "Грешка:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:172
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:173
 msgid "This tool only accepts ZIP files or GIF, JPEG, PNG, or XPM images."
 msgstr "Този инструмент приема само ZIP файлове или GIF, JPEG, PNG или XPM изображения."
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:179
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:180
 msgid "File name:"
 msgstr "Име на файл:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:180
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:181
 msgid "File type:"
 msgstr "Вид на файла:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:181
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:182
 msgid "File size:"
 msgstr "Размер на файла:"
-
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:214
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:220
-msgid "An error occurred on deleting this image"
-msgstr "При изтриването на това изображение възникна грешка"
 
 #: koha-tmpl/intranet-tmpl/prog/js/viewlog.js:18
 msgid "View comparison"
@@ -2307,7 +2308,7 @@ msgstr "Потребители"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:125
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:75
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:34
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:35
 msgid "Role"
 msgstr "Партия"
 
@@ -3403,11 +3404,11 @@ msgstr "Премахнете потребителя"
 msgid "User"
 msgstr "Потребител"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:28
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:29
 msgid "Select user"
 msgstr "Изберете потребител"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:62
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:63
 msgid "Add new user"
 msgstr "Добавете нов потребител"
 
@@ -3749,10 +3750,6 @@ msgstr "Отпечатване на формуляри"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:351
 msgid "ID"
 msgstr "ID"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:461
-msgid "Are you sure you want to remove this item?"
-msgstr "Сигурни ли сте?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:463
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:269
@@ -4149,39 +4146,39 @@ msgstr "Заемания"
 msgid "Holds"
 msgstr "Резервации"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:290
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:291
 msgid "Checked out until: "
 msgstr "Заети до: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:295
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:296
 msgid "Get item"
 msgstr "Вземете екземпляр"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:301
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:302
 msgid "Check in"
 msgstr "Връщане"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:302
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:303
 msgid "Are you sure you want to return this item?"
 msgstr "Сигурни ли сте, че искате да върнете този библиотечен документ?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:319
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:320
 msgid "Check out"
 msgstr "Заемане"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:320
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:321
 msgid "Are you sure you want to check out this item?"
 msgstr "Наистина ли искате да заемете този библиотечен документ?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:355
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:356
 msgid "Cancel hold"
 msgstr "Анулиране на резервация"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:356
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:357
 msgid "Are you sure you want to cancel this hold?"
 msgstr "Наистина ли искате да отмените резервацията?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:385
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:386
 msgid "Item cannot be checked out. There are no available formats"
 msgstr "Библиотечният документ не може да бъде зает. Няма налични копия"
 
@@ -4199,57 +4196,57 @@ msgstr "Вашата оценка: %s."
 msgid "Average rating: %s (%s votes)"
 msgstr "Рейтинг: %s (%s гласове)"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:42
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:96
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:100
 msgid "Tags added: "
 msgstr "Добавени маркери: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:43
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:45
 msgid "Tags deleted: "
 msgstr "Изтрити на маркери: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:106
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:46
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:110
 msgid "Errors: "
 msgstr "Грешки: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:60
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:62
 msgid "Sorry, tags are not enabled on this system."
 msgstr "За съжаление маркерите не са активирани."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:61
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:63
 msgid "Error! Your tag was entirely markup code.  It was NOT added.  Please try again with plain text."
 msgstr "Грешка! Маркерът ви е код.   НЕ е добавен.  Моля, опитайте отново с обикновен текст."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:62
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
 msgid "Error! Illegal parameter"
 msgstr "Грешка! Невалиден параметър"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:63
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
 msgid "Note: your tag contained markup code that was removed. The tag was added as "
 msgstr "Забележка: Маркерът ви съдържа маркировъчен код, който беше премахнат. Маркерът беше добавен като "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
 msgid "Error! Adding tags failed at"
 msgstr "Грешка! Добавянето на маркери не е успешно"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
 msgid "Note: you can only tag an item with a given term once.  Check 'Tags' to see your current tags."
 msgstr "Забележка: можете да маркирате библиотечен документ с даден термин само веднъж. Поставете отметка в 'Маркери', за да видите текущите си маркери."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:67
 msgid "Error! You cannot delete the tag"
 msgstr "Грешка! Не можете да изтриете маркера"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:67
 msgid "Note: you can only delete your own tags."
 msgstr "Забележка: можете да изтриете само собствените си маркери."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:68
 msgid "You must be logged in to add tags."
 msgstr "Трябва да сте влезли в акаунта си, за да добавите маркери."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:126
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:130
 msgid "Unable to add one or more tags."
 msgstr "Не можете да добавите повече маркери."
 
@@ -4258,6 +4255,9 @@ msgstr "Не можете да добавите повече маркери."
 
 #~ msgid "Agreement user"
 #~ msgstr "Потребител на споразумението"
+
+#~ msgid "An error occurred on deleting this image"
+#~ msgstr "При изтриването на това изображение възникна грешка"
 
 #~ msgid "Click to expand"
 #~ msgstr "Разширяване"
@@ -4288,6 +4288,9 @@ msgstr "Не можете да добавите повече маркери."
 
 #~ msgid "Service Type"
 #~ msgstr "Вид услуга"
+
+#~ msgid "The recall waiting status may have already been reverted. Please refresh the page."
+#~ msgstr "Състоянието на чакащо The recall може вече да е върнато. Моля, опреснете страницата."
 
 #~ msgid "counter registry"
 #~ msgstr "counter registry"

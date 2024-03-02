@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-02 03:02+0000\n"
+"POT-Creation-Date: 2024-03-02 03:02+0000\n"
 "PO-Revision-Date: 2024-03-01 08:42+0000\n"
 "Last-Translator: Urszula <matoga@biblos.pk.edu.pl>\n"
 "Language-Team: Koha Translation Team\n"
@@ -53,9 +53,9 @@ msgid "Edit"
 msgstr "Modyfikuj"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1070
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1099
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:10
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:400
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:79
 msgid "Delete"
@@ -172,15 +172,15 @@ msgstr "Błąd; dane mogły nie zostać zapisane"
 msgid "Loading..."
 msgstr "Wczytywanie..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:44
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:53
 msgid "Please select or enter a sound."
 msgstr "Wybierz lub wprowadź dźwięk."
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:66
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:76
 msgid "Are you sure you want to delete the selected audio alerts?"
 msgstr "Czy na pewno chcesz usunąć zaznaczone alerty dźwiękowe?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:68
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:78
 msgid "Check the box next to the alert you want to delete."
 msgstr "Zaznacz alert, który chcesz usunąć."
 
@@ -239,8 +239,7 @@ msgstr "%s w schowku"
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:444
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:454
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:6
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:27
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/cart.js:28
 msgid "No item was selected"
 msgstr "Nie wybrano żadnego egzemplarza"
 
@@ -484,9 +483,9 @@ msgstr "Wrzesień"
 msgid "Failure"
 msgstr "Nie powiodło się"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
+#: koha-tmpl/intranet-tmpl/prog/js/cart.js:83
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:358
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:349
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:350
 msgid "Place hold"
 msgstr "Zamów"
 
@@ -551,11 +550,11 @@ msgstr "Czy na pewno chcesz usunąć %s wybranych egzemplarzy?"
 msgid "(select to create)"
 msgstr "(wybierz, aby utworzyć)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:643
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:637
 msgid "Something went wrong. Maybe the value already exists?"
 msgstr "Wystąpił błąd. Wartość już istnieje?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:141
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:147
 msgid "Template name is required."
 msgstr "Nazwa szablonu jest wymagana."
 
@@ -605,13 +604,13 @@ msgid "Previous checkouts"
 msgstr "Poprzednie wypożyczenia"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:800
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:829
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
 msgid "by _AUTHOR_"
 msgstr "_AUTHOR_"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:129
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:821
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:850
 msgid "On-site checkout"
 msgstr "Wypożyczenia na miejscu"
 
@@ -626,7 +625,7 @@ msgstr "Przypomnienie złożone"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:243
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:363
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:313
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:314
 msgid "On hold"
 msgstr "Zarezerwowany"
 
@@ -639,12 +638,12 @@ msgid "Must be renewed at the library"
 msgstr "Musi zostać przedłużony w bibliotece"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:262
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
 msgid "Not allowed: patron restricted"
 msgstr "Niedozwolone: użytkownik ma nałożone ograniczenia"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:269
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
 msgid "Not allowed: overdue"
 msgstr "Niedozwolone: przetrzymanie"
 
@@ -683,6 +682,11 @@ msgstr " i do wykorzystania %s z %s prolongat"
 msgid "Scheduled for automatic renewal"
 msgstr "Zaplanowano automatyczną prolongatę"
 
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:365
+#, fuzzy, javascript-format
+msgid "Confirm (%s)"
+msgstr "Potwierdź"
+
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:380
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:382
 msgid "Claim returned"
@@ -696,93 +700,89 @@ msgstr "Brak typu egzemplarza"
 msgid "Number of checkouts by item type"
 msgstr "Liczba wypożyczeń według typu egzemplarza"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:596
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:591
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:593
 msgid "Checked in"
 msgstr "Zwrot przyjęty"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:600
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:595
 msgid "Patron note"
 msgstr "Uwaga użytkownika"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:603
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
 msgid "Unable to check in"
 msgstr "Nie można przekazać / zwrócić"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:633
-msgid "Confirm"
-msgstr "Potwierdź"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:676
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:680
 msgid "Renewed, due:"
 msgstr "Prolongowane, do:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:679
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:683
 msgid "Renew failed:"
 msgstr "Prolongata nie powiodła się:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:681
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:685
 msgid "not checked out"
 msgstr "niewypożyczony"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:683
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
 msgid "too many renewals"
 msgstr "przekroczono limit prolongat"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:685
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
 msgid "too many consecutive renewals without being seen by the library"
 msgstr "zbyt wiele kolejnych prolongat, bez wizyty w bibliotece"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
 msgid "on hold"
 msgstr "Zarezerwowany"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
 msgid "Unable to find an open day"
 msgstr "Nie można znaleźć dnia roboczego"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:701
 msgid "reason unknown"
 msgstr "powód nieznany"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1025
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1054
 msgid "Double click to edit"
 msgstr "Edycja przez dwukrotne kliknięcie"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1073
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1102
 msgid "Resolve"
 msgstr "Rozwiąż"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1078
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:89
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:368
 msgid "Actions"
 msgstr "Działania"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1081
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1110
 msgid "Edit notes"
 msgstr "Edycja uwag"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1144
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1173
 msgid "Show 1 claim"
 msgid_plural "Show all {count} claims"
 msgstr[0] "Zobacz 1 reklamację"
 msgstr[1] "Zobacz wszystkie {count} reklamacje"
 msgstr[2] "Zobacz wszystkie {count} reklamacji"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1149
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1178
 msgid "Show 1 unresolved claim"
 msgid_plural "Show {count} unresolved claims"
 msgstr[0] "Zobacz 1 niezakończoną reklamację"
 msgstr[1] "Liczba niezakończonych reklamacji {count}"
 msgstr[2] "Liczba niezakończonych reklamacji {count}"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1170
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1199
 msgid "Update"
 msgstr "Uaktualnij"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1171
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1200
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:415
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:162
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:75
@@ -799,7 +799,7 @@ msgstr "Uaktualnij"
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1210
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1239
 msgid "Are you sure you want to delete this return claim?"
 msgstr "Czy na pewno chcesz usunąć to żądanie zwrotu?"
 
@@ -887,7 +887,7 @@ msgid "Clear filter"
 msgstr "Wyczyść filtr"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:51
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:123
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:126
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:27
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:43
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:13
@@ -1156,24 +1156,24 @@ msgstr "Warunkowe wyrażenie regularne powinno zostać wypełnione."
 msgid "The conditional value should be filled."
 msgstr "Wartość warunkowa powinna być wypełniona."
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:121
-msgid "Every"
-msgstr "Co ile"
-
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:265
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:113
 msgid "Are you sure you wish to delete this template action?"
 msgstr "Czy na pewno chcesz usunąć tę operację z szablonem?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:269
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:117
 msgid "Are you sure you wish to delete this template?"
 msgstr "Czy na pewno chcesz usunąć ten szablon?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:315
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:124
+msgid "Every"
+msgstr "Co ile"
+
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:310
 #, javascript-format
 msgid "Edit action %s"
 msgstr "Modyfikuj działanie %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:318
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:313
 msgid "Update action"
 msgstr "Aktualizacja działania"
 
@@ -1303,53 +1303,53 @@ msgstr "Wybierz wypożyczenia do eksportu"
 msgid "Error: presence of invalid data prevent saving. Please make the corrections and try again."
 msgstr "Błąd: obecność nieprawidłowych danych uniemożliwia zapisanie. Proszę dokonać poprawek i spróbować ponownie."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:25
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:13
 msgid "Nothing to save"
 msgstr "Nic do zapisania"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:35
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:16
 msgid "Saving..."
 msgstr "Zapisywanie..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:48
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:35
 #, javascript-format
 msgid "Saved preference %s"
 msgstr "Zapisano opcję %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:64
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:51
 msgid "modified"
 msgstr "zmodyfikowano"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:70
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:57
 msgid "You have made changes to system preferences."
 msgstr "Dokonałeś zmian w ustawieniach systemowych."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:156
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:143
 #, fuzzy
 msgid "Are you sure you want to delete this consent item?"
 msgstr "Czy na pewno chcesz usunąć tę okładkę?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:214
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:224
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:236
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:201
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:211
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:223
 #, fuzzy
 msgid "Collapse this section"
 msgstr "Kliknij, by zwinąć sekcję"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:221
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:208
 #, fuzzy
 msgid "Expand this section"
 msgstr "Kliknij, aby rozwinąć sekcję"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:255
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:242
 msgid "Note: _ALL_ value will override all other values"
 msgstr "Uwaga: _ALL_ wartość będzie nadrzędna w stosunku do wszystkich innych wartości"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:266
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:253
 msgid "The following values are not formatted correctly:"
 msgstr "Poniższe wartości nie są prawidłowo sformatowane:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:378
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:365
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:254
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:124
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:152
@@ -1370,11 +1370,11 @@ msgstr "Poniższe wartości nie są prawidłowo sformatowane:"
 msgid "Name"
 msgstr "Nazwa"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:379
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:383
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:395
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:399
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:403
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:366
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:370
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:382
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:386
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:390
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:31
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:29
@@ -1402,8 +1402,8 @@ msgstr "Nazwa"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:140
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:172
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:40
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:30
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:52
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:31
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:83
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:111
@@ -1417,7 +1417,7 @@ msgstr "Nazwa"
 msgid "Required"
 msgstr "Wymagane"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:382
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:369
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:35
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:284
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:43
@@ -1432,48 +1432,48 @@ msgstr "Wymagane"
 msgid "Description"
 msgstr "Opis"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:386
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:373
 msgid "Requires consent in OPAC"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:390
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:377
 msgid "Requires consent in staff interface"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:394
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:381
 msgid "String used to identify cookie name"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:398
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:385
 msgid "Cookie domain"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:402
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:389
 msgid "Cookie path"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:409
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:396
 msgid "Expand"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:410
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:397
 #, fuzzy
 msgid "Collapse"
 msgstr "Kliknij, by zwinąć sekcję"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:426
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
 msgid "You must complete all fields"
 msgstr "Musisz wypełnić wszystkie pola"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:472
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:459
 msgid "Unable to Base64 decode value stored in CookieConsentedJS syspref: "
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:480
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:467
 msgid "Unable to JSON parse decoded value stored in CookieConsentedJS syspref: "
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:490
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:477
 #, fuzzy
 msgid "Add new code"
 msgstr "Dodaj nowy okres"
@@ -1507,56 +1507,56 @@ msgstr "Brak okładki"
 msgid "Nothing is selected"
 msgstr "Nic nie wybrano"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:428
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:439
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:429
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:441
 msgid "You must select at least one record"
 msgstr "Musisz wybrać co najmniej jeden rekord"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:450
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:454
 msgid "At least two records must be selected for merging"
 msgstr "Dwa rekordy muszą być zaznaczone do scalenia"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:38
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:37
 #, javascript-format
 msgid "AJAX failed to approve tag: %s"
 msgstr "AJAX nie zatwierdził tagu: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:44
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:43
 #, javascript-format
 msgid "AJAX failed to reject tag: %s"
 msgstr "AJAX nie odrzucił tagu: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:46
 #, javascript-format
 msgid "%s is permitted!"
 msgstr "%s jest dozwolone!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:50
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:49
 #, javascript-format
 msgid "%s is prohibited!"
 msgstr "%s jest zabronione!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:53
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:52
 #, javascript-format
 msgid "%s is neither permitted nor prohibited!"
 msgstr "%s nie jest ani dozwolone, ani zabronione!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:58
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:57
 msgid " Test"
 msgstr " Test"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:164
 msgid "Clear all"
 msgstr "Wyczyść wszystko"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:138
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:161
 msgid "Select all"
 msgstr "Zaznacz wszystko"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 msgid "Select all pending"
 msgstr "Wybierz wszystkie oczekujące"
 
@@ -1569,20 +1569,20 @@ msgstr "Odrzuć"
 msgid "Approved"
 msgstr "Zatwierdzone"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:133
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:134
 msgid "Approve"
 msgstr "Zatwierdź"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:135
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:138
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:139
 msgid "Rejected"
 msgstr "Odrzucone"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:148
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:149
 msgid "Testing..."
 msgstr "Testuje..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:159
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:161
 #, javascript-format
 msgid "AJAX error (%s alert)"
 msgstr "Błąd AJAX (ostrzeżenie %s)"
@@ -1631,68 +1631,69 @@ msgstr "Szukaj użytkownika"
 msgid "Select item"
 msgstr "Zaznacz plik"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:6
 msgid "Are you sure you want to remove this recall?"
 msgstr "Czy na pewno chcesz usunąć to przypomnienie?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:22
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:12
 msgid "The recall may have already been cancelled. Please refresh the page."
 msgstr "Przypomnienie mogło już zostać anulowane. Odśwież stronę."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:24
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:14
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:94
 msgid "Cancelled"
 msgstr "Anulowane"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:32
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:26
 msgid "Are you sure you want to expire this recall?"
 msgstr "Czy na pewno chcesz wygasić to przypomnienie?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:50
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:32
 msgid "The recall may have already been expired. Please refresh the page."
 msgstr "Przypomnienie mogło już wygasnąć. Odśwież stronę."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:34
 msgid "Expired"
 msgstr "Wygasło"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:60
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:46
 msgid "Are you sure you want to revert the waiting status of this recall?"
 msgstr "Czy na pewno chcesz odwrócić status przypomnienia?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:78
-msgid "The recall waiting status may have already been reverted. Please refresh the page."
-msgstr "Status oczekującego przypomnienia mógł już zostać przywrócony. Odśwież stronę."
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
+#, fuzzy
+msgid "The recall may have already been reverted. Please refresh the page."
+msgstr "Przypomnienie mogło zostać już usunięte. Odśwież stronę."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:80
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:54
 msgid "Waiting status reverted"
 msgstr "Status oczekującego przypomnienia został przywrócony"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:88
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:66
 msgid "Are you sure you want to mark this recall as overdue?"
 msgstr "Czy na pewno chcesz oznaczyć to przypomnienie jako przetrzymane?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:106
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:72
 msgid "The recall may have already been marked as overdue. Please refresh the page."
 msgstr "Przypomnienie mogło już zostać oznaczone jako przetrzymane. Odśwież stronę."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:108
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:74
 msgid "Marked overdue"
 msgstr "Zaznacz przetrzymane"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:116
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:86
 msgid "Are you sure you want to remove this recall and return the item to it's home library?"
 msgstr "Czy na pewno chcesz usunąć to przypomnienie i zwrócić egzemplarz do jego macierzystej biblioteki?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:134
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:92
 msgid "The recall may have already been removed. Please refresh the page."
 msgstr "Przypomnienie mogło zostać już usunięte. Odśwież stronę."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:154
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:116
 msgid "Are you sure you want to remove the selected recall(s)?"
 msgstr "Czy na pewno chcesz usunąć wybrane przypomnienie(-nia)?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:156
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:118
 msgid "Please make a selection."
 msgstr "Wybierz pozycje do przypomnienia."
 
@@ -1701,9 +1702,15 @@ msgstr "Wybierz pozycje do przypomnienia."
 msgid "%s (current status)"
 msgstr "%s (bieżący status)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:8
+#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:7
 msgid "Are you sure you want to delete this rotating collection?"
 msgstr "Czy na pewno chcesz usunąć tę kolekcję czasową?"
+
+#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:12
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:461
+#, fuzzy
+msgid "Are you sure you want to remove this item?"
+msgstr "Czy na pewno chcesz usunąć ten tytuł?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:8
 msgid "The results could not be loaded"
@@ -1745,17 +1752,17 @@ msgstr "Usuń wszystkie egzemplarze"
 msgid "Remove item"
 msgstr "Usuń egzemplarz"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:4
-msgid "Are you sure you want to close this subscription?"
-msgstr "Czy na pewno chcesz zamknąć tę prenumeratę?"
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:9
+msgid "Are you sure you want to delete this subscription?"
+msgstr "Czy na pewno chcesz usunąć tę prenumeratę?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:10
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:12
 msgid "Are you sure you want to reopen this subscription?"
 msgstr "Czy na pewno chcesz wznowić tę prenumeratę?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:17
-msgid "Are you sure you want to delete this subscription?"
-msgstr "Czy na pewno chcesz usunąć tę prenumeratę?"
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:15
+msgid "Are you sure you want to close this subscription?"
+msgstr "Czy na pewno chcesz zamknąć tę prenumeratę?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/sms_providers.js:36
 msgid "Add an SMS cellular provider"
@@ -1935,34 +1942,29 @@ msgstr "Nie powiodło się"
 msgid "Denied"
 msgstr "Odrzucono"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:142
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:143
 msgid "An error occurred while uploading."
 msgstr "Wystąpił błąd w trakcie wczytywania."
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:172
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:173
 msgid "Error:"
 msgstr "Błąd:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:172
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:173
 msgid "This tool only accepts ZIP files or GIF, JPEG, PNG, or XPM images."
 msgstr "Narzędzie akceptuje tylko pliki ZIP lub obrazy w jednym z formatów: GIF, JPEG, PNG lub XPM."
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:179
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:180
 msgid "File name:"
 msgstr "Nazwa pliku:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:180
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:181
 msgid "File type:"
 msgstr "Typ pliku:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:181
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:182
 msgid "File size:"
 msgstr "Wielkość pliku:"
-
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:214
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:220
-msgid "An error occurred on deleting this image"
-msgstr "Wystąpił błąd podczas usuwania zdjęcia"
 
 #: koha-tmpl/intranet-tmpl/prog/js/viewlog.js:18
 msgid "View comparison"
@@ -2320,7 +2322,7 @@ msgstr "Użytkownicy"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:125
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:75
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:34
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:35
 msgid "Role"
 msgstr "Rola"
 
@@ -3466,11 +3468,11 @@ msgstr "Usuń tego użytkownika"
 msgid "User"
 msgstr "Użytkownik"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:28
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:29
 msgid "Select user"
 msgstr "Wybierz użytkownika"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:62
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:63
 msgid "Add new user"
 msgstr "Dodaj nowego użytkownika"
 
@@ -3846,11 +3848,6 @@ msgstr "Drukuj"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:351
 msgid "ID"
 msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:461
-#, fuzzy
-msgid "Are you sure you want to remove this item?"
-msgstr "Czy na pewno chcesz usunąć ten tytuł?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:463
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:269
@@ -4275,39 +4272,39 @@ msgstr "Wypożyczenia"
 msgid "Holds"
 msgstr "Zamówienia"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:290
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:291
 msgid "Checked out until: "
 msgstr "Wypożyczone do: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:295
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:296
 msgid "Get item"
 msgstr "Uzyskaj egzemplarz"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:301
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:302
 msgid "Check in"
 msgstr "Przekaż / Zwróć"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:302
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:303
 msgid "Are you sure you want to return this item?"
 msgstr "Czy na pewno chcesz zwrócić ten egzemplarz?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:319
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:320
 msgid "Check out"
 msgstr "Wypożycz"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:320
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:321
 msgid "Are you sure you want to check out this item?"
 msgstr "Czy na pewno chcesz wypożyczyć ten egzemplarz?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:355
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:356
 msgid "Cancel hold"
 msgstr "Anuluj zamówienie"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:356
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:357
 msgid "Are you sure you want to cancel this hold?"
 msgstr "Czy na pewno chcesz anulować to zamówienie?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:385
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:386
 msgid "Item cannot be checked out. There are no available formats"
 msgstr "Egzemplarz nie może zostać wypożyczony. Brak dostępnych formatów"
 
@@ -4325,60 +4322,63 @@ msgstr "Twoja ocena: %s."
 msgid "Average rating: %s (%s votes)"
 msgstr "Średnia ocena: %s (z %s głosów)"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:42
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:96
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:100
 msgid "Tags added: "
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:43
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:45
 #, fuzzy
 msgid "Tags deleted: "
 msgstr "Tak, usuń"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:106
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:46
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:110
 msgid "Errors: "
 msgstr "Błędy: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:60
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:62
 msgid "Sorry, tags are not enabled on this system."
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:61
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:63
 msgid "Error! Your tag was entirely markup code.  It was NOT added.  Please try again with plain text."
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:62
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
 msgid "Error! Illegal parameter"
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:63
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
 msgid "Note: your tag contained markup code that was removed. The tag was added as "
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
 msgid "Error! Adding tags failed at"
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
 msgid "Note: you can only tag an item with a given term once.  Check 'Tags' to see your current tags."
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:67
 msgid "Error! You cannot delete the tag"
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:67
 msgid "Note: you can only delete your own tags."
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:68
 msgid "You must be logged in to add tags."
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:126
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:130
 msgid "Unable to add one or more tags."
 msgstr ""
+
+#~ msgid "An error occurred on deleting this image"
+#~ msgstr "Wystąpił błąd podczas usuwania zdjęcia"
 
 #, fuzzy
 #~ msgid "Click to expand"
@@ -4398,6 +4398,9 @@ msgstr ""
 #, fuzzy
 #~ msgid "License user"
 #~ msgstr "Nazwa pliku:"
+
+#~ msgid "The recall waiting status may have already been reverted. Please refresh the page."
+#~ msgstr "Status oczekującego przypomnienia mógł już zostać przywrócony. Odśwież stronę."
 
 #, fuzzy
 #~ msgid "name"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-02 03:02+0000\n"
+"POT-Creation-Date: 2024-03-02 03:02+0000\n"
 "PO-Revision-Date: 2024-02-26 03:01+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
@@ -53,9 +53,9 @@ msgid "Edit"
 msgstr "Upravit"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1070
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1099
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:10
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:400
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:79
 msgid "Delete"
@@ -172,15 +172,15 @@ msgstr "Chyba; vaše data nemusela být uložena"
 msgid "Loading..."
 msgstr "Načítá se..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:44
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:53
 msgid "Please select or enter a sound."
 msgstr "Vyberte nebo vložte zvuk."
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:66
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:76
 msgid "Are you sure you want to delete the selected audio alerts?"
 msgstr "Opravdu chcete odstranit vybraná zvuková upozornění?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:68
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:78
 msgid "Check the box next to the alert you want to delete."
 msgstr "Zaškrtněte políčko vedle upozornění, které chcete odstranit."
 
@@ -239,8 +239,7 @@ msgstr "%s již je v košíku"
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:444
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:454
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:6
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:27
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/cart.js:28
 msgid "No item was selected"
 msgstr "Nebyly vybrány žádné položky"
 
@@ -483,9 +482,9 @@ msgstr "Září"
 msgid "Failure"
 msgstr "Selhání"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
+#: koha-tmpl/intranet-tmpl/prog/js/cart.js:83
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:358
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:349
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:350
 msgid "Place hold"
 msgstr "Rezervovat"
 
@@ -550,11 +549,11 @@ msgstr "Opravdu chcete odstranit tento dokument %s?"
 msgid "(select to create)"
 msgstr "(vyberte k vytvoření)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:643
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:637
 msgid "Something went wrong. Maybe the value already exists?"
 msgstr "Něco se pokazilo. Možná už hodnota existuje?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:141
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:147
 msgid "Template name is required."
 msgstr "Název šablony je povinný."
 
@@ -604,13 +603,13 @@ msgid "Previous checkouts"
 msgstr "Předchozí výpůjčky"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:800
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:829
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
 msgid "by _AUTHOR_"
 msgstr "od _AUTHOR_"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:129
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:821
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:850
 msgid "On-site checkout"
 msgstr "Prezenční výpůjčka"
 
@@ -626,7 +625,7 @@ msgstr "S přednostní rezervací"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:243
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:363
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:313
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:314
 msgid "On hold"
 msgstr "Rezervováno"
 
@@ -639,12 +638,12 @@ msgid "Must be renewed at the library"
 msgstr "Musí být prodlouženo v knihovně"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:262
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
 msgid "Not allowed: patron restricted"
 msgstr "Nelze provést: čtenář má omezené služby"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:269
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
 msgid "Not allowed: overdue"
 msgstr "Není povoleno: výpůjčky po datu vrácení"
 
@@ -683,6 +682,11 @@ msgstr " a zbývajících %s z %s nezobrazených prodloužení"
 msgid "Scheduled for automatic renewal"
 msgstr "Naplánováno automatické prodloužení"
 
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:365
+#, fuzzy, javascript-format
+msgid "Confirm (%s)"
+msgstr "Potvrdit"
+
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:380
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:382
 msgid "Claim returned"
@@ -696,93 +700,89 @@ msgstr "Typ jednotky neuveden"
 msgid "Number of checkouts by item type"
 msgstr "Počet výpůjček podle typu jednotky"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:596
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:591
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:593
 msgid "Checked in"
 msgstr "Vráceno"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:600
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:595
 msgid "Patron note"
 msgstr "Poznámka ke čtenáři"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:603
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
 msgid "Unable to check in"
 msgstr "Vrácení není možné"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:633
-msgid "Confirm"
-msgstr "Potvrdit"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:676
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:680
 msgid "Renewed, due:"
 msgstr "Prodlouženo do:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:679
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:683
 msgid "Renew failed:"
 msgstr "Prodloužení se nezdařilo:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:681
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:685
 msgid "not checked out"
 msgstr "nevypůjčeno"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:683
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
 msgid "too many renewals"
 msgstr "příliš mnoho prodloužení"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:685
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
 msgid "too many consecutive renewals without being seen by the library"
 msgstr "příliš mnoho po sobě jdoucích prodloužení, aniž by knihovna jednotky viděla"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
 msgid "on hold"
 msgstr "rezervováno"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
 msgid "Unable to find an open day"
 msgstr "Nelze najít otevírací den"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:701
 msgid "reason unknown"
 msgstr "neznámý důvod"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1025
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1054
 msgid "Double click to edit"
 msgstr "Upravte dvojitým kliknutím"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1073
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1102
 msgid "Resolve"
 msgstr "Vyřešit"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1078
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:89
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:368
 msgid "Actions"
 msgstr "Akce"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1081
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1110
 msgid "Edit notes"
 msgstr "Upravit poznámku"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1144
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1173
 msgid "Show 1 claim"
 msgid_plural "Show all {count} claims"
 msgstr[0] "Zobrazit 1 spornou výpůjčku"
 msgstr[1] "Zobrazit {count} sporné výpůjčky"
 msgstr[2] "Zobrazit {count} sporných výpůjček"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1149
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1178
 msgid "Show 1 unresolved claim"
 msgid_plural "Show {count} unresolved claims"
 msgstr[0] "Zobrazit 1 nevyřešenou reklamaci"
 msgstr[1] "Zobrazit {count} nevyřešené reklamace"
 msgstr[2] "Zobrazit {count} nevyřešených reklamací"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1170
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1199
 msgid "Update"
 msgstr "Aktualizovat"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1171
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1200
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:415
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:162
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:75
@@ -799,7 +799,7 @@ msgstr "Aktualizovat"
 msgid "Cancel"
 msgstr "Zrušit"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1210
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1239
 msgid "Are you sure you want to delete this return claim?"
 msgstr "Opravdu chcete odstranit tuto spornou výpůjčku?"
 
@@ -887,7 +887,7 @@ msgid "Clear filter"
 msgstr "Zrušit filtr"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:51
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:123
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:126
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:27
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:43
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:13
@@ -1156,24 +1156,24 @@ msgstr "Regulární výraz musí být vyplněn."
 msgid "The conditional value should be filled."
 msgstr "Hodnota musí být vyplněna."
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:121
-msgid "Every"
-msgstr "Každý"
-
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:265
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:113
 msgid "Are you sure you wish to delete this template action?"
 msgstr "Opravdu chcete odstranit tuto akci?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:269
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:117
 msgid "Are you sure you wish to delete this template?"
 msgstr "Opravdu chcete odstranit tuto šablonu?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:315
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:124
+msgid "Every"
+msgstr "Každý"
+
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:310
 #, javascript-format
 msgid "Edit action %s"
 msgstr "Upravit akci %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:318
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:313
 msgid "Update action"
 msgstr "Uložit akci"
 
@@ -1303,51 +1303,51 @@ msgstr "Musíte vybrat výpůjčku(y) k exportu"
 msgid "Error: presence of invalid data prevent saving. Please make the corrections and try again."
 msgstr "Chyba: záznam nebyl uložen, protože obsahuje vadná data. Opravte je a zkuste to znovu."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:25
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:13
 msgid "Nothing to save"
 msgstr "Nic k uložení"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:35
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:16
 msgid "Saving..."
 msgstr "Ukládání..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:48
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:35
 #, javascript-format
 msgid "Saved preference %s"
 msgstr "Uloženo nastavení %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:64
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:51
 msgid "modified"
 msgstr "změněno"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:70
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:57
 msgid "You have made changes to system preferences."
 msgstr "Provedli jste změny systémových nastaveních."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:156
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:143
 #, fuzzy
 msgid "Are you sure you want to delete this consent item?"
 msgstr "Opravdu chcete odstranit tuto obálku?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:214
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:224
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:236
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:201
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:211
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:223
 msgid "Collapse this section"
 msgstr "Sbalit tuto část"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:221
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:208
 msgid "Expand this section"
 msgstr "Rozbalit tuto část"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:255
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:242
 msgid "Note: _ALL_ value will override all other values"
 msgstr "Poznámka: _ALL_ hodnota přepíše všechny ostatní hodnoty"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:266
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:253
 msgid "The following values are not formatted correctly:"
 msgstr "Následující hodnoty nejsou ve správném formátu:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:378
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:365
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:254
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:124
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:152
@@ -1368,11 +1368,11 @@ msgstr "Následující hodnoty nejsou ve správném formátu:"
 msgid "Name"
 msgstr "Jméno"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:379
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:383
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:395
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:399
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:403
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:366
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:370
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:382
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:386
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:390
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:31
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:29
@@ -1400,8 +1400,8 @@ msgstr "Jméno"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:140
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:172
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:40
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:30
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:52
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:31
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:83
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:111
@@ -1415,7 +1415,7 @@ msgstr "Jméno"
 msgid "Required"
 msgstr "Povinné"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:382
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:369
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:35
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:284
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:43
@@ -1430,47 +1430,47 @@ msgstr "Povinné"
 msgid "Description"
 msgstr "Popis"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:386
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:373
 msgid "Requires consent in OPAC"
 msgstr "Vyžaduje souhlas v OPAC"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:390
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:377
 msgid "Requires consent in staff interface"
 msgstr "Vyžaduje souhlas v rozhraní pro knihovníky"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:394
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:381
 msgid "String used to identify cookie name"
 msgstr "Řetězec používaný k identifikaci názvu souboru cookie"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:398
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:385
 msgid "Cookie domain"
 msgstr "Doména souborů cookie"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:402
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:389
 msgid "Cookie path"
 msgstr "Cesta k souborům cookie"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:409
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:396
 msgid "Expand"
 msgstr "Rozbalit"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:410
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:397
 msgid "Collapse"
 msgstr "Sbalit"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:426
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
 msgid "You must complete all fields"
 msgstr "Musíte vyplnit všechna pole"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:472
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:459
 msgid "Unable to Base64 decode value stored in CookieConsentedJS syspref: "
 msgstr "Nelze dekódovat hodnotu Base64 uloženou v systémovém nastavení CookieConsentedJS: "
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:480
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:467
 msgid "Unable to JSON parse decoded value stored in CookieConsentedJS syspref: "
 msgstr "Nelze analyzovat dekódovanou hodnotu JSON uloženou v sysprefu CookieConsentedJS: "
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:490
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:477
 msgid "Add new code"
 msgstr "Přidání nového kódu"
 
@@ -1503,56 +1503,56 @@ msgstr "Obálka není dostupná"
 msgid "Nothing is selected"
 msgstr "Nic není vybráno"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:428
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:439
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:429
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:441
 msgid "You must select at least one record"
 msgstr "Musíte vybrat alespoň jeden záznam"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:450
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:454
 msgid "At least two records must be selected for merging"
 msgstr "Pro sloučení je třeba vybrat dva záznamy"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:38
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:37
 #, javascript-format
 msgid "AJAX failed to approve tag: %s"
 msgstr "AJAXu se nepodařilo se schválit štítek: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:44
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:43
 #, javascript-format
 msgid "AJAX failed to reject tag: %s"
 msgstr "AJAXu se nepodařilo se zamítnout štítek: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:46
 #, javascript-format
 msgid "%s is permitted!"
 msgstr "%s je povoleno!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:50
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:49
 #, javascript-format
 msgid "%s is prohibited!"
 msgstr "%s je zakázáno!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:53
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:52
 #, javascript-format
 msgid "%s is neither permitted nor prohibited!"
 msgstr "%s není ani povoleno ani zakázáno!"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:58
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:57
 msgid " Test"
 msgstr " Test"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:164
 msgid "Clear all"
 msgstr "Odebrat označení"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:138
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:161
 msgid "Select all"
 msgstr "Označit vše"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 msgid "Select all pending"
 msgstr "Označit všechny nevyřízené"
 
@@ -1565,20 +1565,20 @@ msgstr "Zamítnout"
 msgid "Approved"
 msgstr "Schválené"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:133
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:134
 msgid "Approve"
 msgstr "Schválit"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:135
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:138
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:139
 msgid "Rejected"
 msgstr "Zamítnuto"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:148
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:149
 msgid "Testing..."
 msgstr "Testování..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:159
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:161
 #, javascript-format
 msgid "AJAX error (%s alert)"
 msgstr "chyba AJAX (%s varování)"
@@ -1624,75 +1624,75 @@ msgstr "Vyhledání čtenáře"
 msgid "Select item"
 msgstr "Vyberte jednotku"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:6
 #, fuzzy
 msgid "Are you sure you want to remove this recall?"
 msgstr "Opravdu chcete zrušit toto sdílení?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:22
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:12
 msgid "The recall may have already been cancelled. Please refresh the page."
 msgstr "Je možné, že přednostní rezervace již byla zrušena. Obnovte prosím stránku."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:24
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:14
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:94
 msgid "Cancelled"
 msgstr "Zrušeno"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:32
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:26
 msgid "Are you sure you want to expire this recall?"
 msgstr "Jste si jisti, že chcete, aby platnost této přednostní rezervace vypršela?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:50
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:32
 msgid "The recall may have already been expired. Please refresh the page."
 msgstr "Je možné, že přednostní rezervace již byla zrušena. Obnovte prosím stránku."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:34
 msgid "Expired"
 msgstr "Registrace vypršela"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:60
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:46
 #, fuzzy
 msgid "Are you sure you want to revert the waiting status of this recall?"
 msgstr "Opravdu chcete odebrat štítek od tohoto titulu?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:78
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
 #, fuzzy
-msgid "The recall waiting status may have already been reverted. Please refresh the page."
+msgid "The recall may have already been reverted. Please refresh the page."
 msgstr "Je možné, že přednostní rezervace již byla odstraněna. Obnovte prosím stránku."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:80
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:54
 msgid "Waiting status reverted"
 msgstr "Stav čekání byl vrácen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:88
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:66
 #, fuzzy
 msgid "Are you sure you want to mark this recall as overdue?"
 msgstr "Opravdu chcete odstranit tento záznam?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:106
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:72
 #, fuzzy
 msgid "The recall may have already been marked as overdue. Please refresh the page."
 msgstr "Je možné, že přednostní rezervace již byla odstraněna. Obnovte prosím stránku."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:108
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:74
 msgid "Marked overdue"
 msgstr "Označeno jako po termínu vrácení"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:116
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:86
 #, fuzzy
 msgid "Are you sure you want to remove this recall and return the item to it's home library?"
 msgstr "Opravdu chcete odstranit tuto jednotku z putovního seznamu?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:134
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:92
 msgid "The recall may have already been removed. Please refresh the page."
 msgstr "Je možné, že přednostní rezervace již byla odstraněna. Obnovte prosím stránku."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:154
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:116
 #, fuzzy
 msgid "Are you sure you want to remove the selected recall(s)?"
 msgstr "Opravdu chcete odstranit vybrané položky?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:156
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:118
 msgid "Please make a selection."
 msgstr "Vyberte si prosím."
 
@@ -1701,10 +1701,15 @@ msgstr "Vyberte si prosím."
 msgid "%s (current status)"
 msgstr "%s (aktuální stav)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:8
+#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:7
 #, fuzzy
 msgid "Are you sure you want to delete this rotating collection?"
 msgstr "Opravdu chcete odstranit tento překlad?"
+
+#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:12
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:461
+msgid "Are you sure you want to remove this item?"
+msgstr "Opravdu chcete tuto jednotku odstranit?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:8
 msgid "The results could not be loaded"
@@ -1746,17 +1751,17 @@ msgstr "Odstranit všechny položky"
 msgid "Remove item"
 msgstr "Odstranit položku"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:4
-msgid "Are you sure you want to close this subscription?"
-msgstr "Opravdu chcete uzavřít toto předplatné?"
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:9
+msgid "Are you sure you want to delete this subscription?"
+msgstr "Opravdu chcete odstranit toto předplatné?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:10
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:12
 msgid "Are you sure you want to reopen this subscription?"
 msgstr "Opravdu chcete znovu otevřít toto předplatné?"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:17
-msgid "Are you sure you want to delete this subscription?"
-msgstr "Opravdu chcete odstranit toto předplatné?"
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:15
+msgid "Are you sure you want to close this subscription?"
+msgstr "Opravdu chcete uzavřít toto předplatné?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/sms_providers.js:36
 msgid "Add an SMS cellular provider"
@@ -1934,34 +1939,29 @@ msgstr "Selhalo"
 msgid "Denied"
 msgstr "Zakázáno"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:142
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:143
 msgid "An error occurred while uploading."
 msgstr "Při nahrávání se vyskytla chyba."
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:172
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:173
 msgid "Error:"
 msgstr "Chyba:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:172
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:173
 msgid "This tool only accepts ZIP files or GIF, JPEG, PNG, or XPM images."
 msgstr "Tento nástroj přijímá pouze soubory ZIP nebo obrázky GIF, JPEG, PNG nebo XPM."
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:179
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:180
 msgid "File name:"
 msgstr "Název souboru:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:180
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:181
 msgid "File type:"
 msgstr "Typ souboru:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:181
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:182
 msgid "File size:"
 msgstr "Velikost souboru:"
-
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:214
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:220
-msgid "An error occurred on deleting this image"
-msgstr "Při odstraňování obrázku se vyskytla chyba"
 
 #: koha-tmpl/intranet-tmpl/prog/js/viewlog.js:18
 msgid "View comparison"
@@ -2319,7 +2319,7 @@ msgstr "Uživatelé"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:125
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:75
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:34
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:35
 msgid "Role"
 msgstr "Role"
 
@@ -3442,11 +3442,11 @@ msgstr "Odebrat tohoto uživatele"
 msgid "User"
 msgstr "Uživatel"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:28
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:29
 msgid "Select user"
 msgstr "Vybrat uživatele"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:62
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:63
 msgid "Add new user"
 msgstr "Přidat nového uživatele"
 
@@ -3790,10 +3790,6 @@ msgstr "Tiskové lístky"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:351
 msgid "ID"
 msgstr "ID"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:461
-msgid "Are you sure you want to remove this item?"
-msgstr "Opravdu chcete tuto jednotku odstranit?"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:463
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:269
@@ -4190,39 +4186,39 @@ msgstr "Výpůjčky"
 msgid "Holds"
 msgstr "Rezervace"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:290
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:291
 msgid "Checked out until: "
 msgstr "Vypůjčeno do: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:295
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:296
 msgid "Get item"
 msgstr "Stáhnout"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:301
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:302
 msgid "Check in"
 msgstr "Vracení"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:302
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:303
 msgid "Are you sure you want to return this item?"
 msgstr "Opravdu chcete vrátit tuto jednotku?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:319
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:320
 msgid "Check out"
 msgstr "Půjčování"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:320
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:321
 msgid "Are you sure you want to check out this item?"
 msgstr "Opravdu chcete vypůjčit tuto jednotku?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:355
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:356
 msgid "Cancel hold"
 msgstr "Zrušit rezervaci"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:356
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:357
 msgid "Are you sure you want to cancel this hold?"
 msgstr "Opravdu chce zrušit tuto rezervaci?"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:385
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:386
 msgid "Item cannot be checked out. There are no available formats"
 msgstr "Jednotku nelze vypůjčit, protože není dostupná v žádném formátu"
 
@@ -4240,59 +4236,62 @@ msgstr "Vaše hodnocení: %s."
 msgid "Average rating: %s (%s votes)"
 msgstr "Průměrné hodnocení: %s (%s hlasů)"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:42
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:96
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:100
 msgid "Tags added: "
 msgstr "Přidané štítky: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:43
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:45
 msgid "Tags deleted: "
 msgstr "Štítky smazány: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:106
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:46
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:110
 msgid "Errors: "
 msgstr "Chyby: "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:60
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:62
 msgid "Sorry, tags are not enabled on this system."
 msgstr "Je nám líto, ale v tomto systému nejsou povoleny štítky."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:61
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:63
 msgid "Error! Your tag was entirely markup code.  It was NOT added.  Please try again with plain text."
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:62
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
 msgid "Error! Illegal parameter"
 msgstr "Chyba! Nepovolený parametr"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:63
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
 msgid "Note: your tag contained markup code that was removed. The tag was added as "
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
 msgid "Error! Adding tags failed at"
 msgstr "Chyba! Přidání štítků se nezdařilo na"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
 msgid "Note: you can only tag an item with a given term once.  Check 'Tags' to see your current tags."
 msgstr "Poznámka: položku můžete daným termínem označit pouze jednou.  Chcete-li zobrazit aktuální štítky, podívejte se na položku \"Štítky\"."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:67
 msgid "Error! You cannot delete the tag"
 msgstr "Chyba! Štítek nelze smazat"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:67
 msgid "Note: you can only delete your own tags."
 msgstr "Poznámka: můžete odstranit pouze své vlastní štítky."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:68
 msgid "You must be logged in to add tags."
 msgstr "Pro přidávání štítků musíte být přihlášeni."
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:126
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:130
 msgid "Unable to add one or more tags."
 msgstr "Nelze přidat jeden nebo více štítků."
+
+#~ msgid "An error occurred on deleting this image"
+#~ msgstr "Při odstraňování obrázku se vyskytla chyba"
 
 #, fuzzy
 #~ msgid "Click to expand"
@@ -4301,6 +4300,10 @@ msgstr "Nelze přidat jeden nebo více štítků."
 #, fuzzy
 #~ msgid "License user"
 #~ msgstr "Název souboru:"
+
+#, fuzzy
+#~ msgid "The recall waiting status may have already been reverted. Please refresh the page."
+#~ msgstr "Je možné, že přednostní rezervace již byla odstraněna. Obnovte prosím stránku."
 
 #, fuzzy
 #~ msgid "name"

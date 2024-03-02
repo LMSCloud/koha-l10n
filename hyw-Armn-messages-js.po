@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-02 03:02+0000\n"
+"POT-Creation-Date: 2024-03-02 03:02+0000\n"
 "PO-Revision-Date: 2022-05-01 10:04-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -53,9 +53,9 @@ msgid "Edit"
 msgstr "Խմբագրել"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1070
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1099
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:10
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:400
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:79
 msgid "Delete"
@@ -174,15 +174,15 @@ msgstr "Սխալ, հնարավոր է որ քո տվյալները չեն հիշ
 msgid "Loading..."
 msgstr "Բեռնավորվում է..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:44
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:53
 msgid "Please select or enter a sound."
 msgstr "Խնդրվում է ընտրել կամ մուտք անել ձայն։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:66
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:76
 msgid "Are you sure you want to delete the selected audio alerts?"
 msgstr "Վստա՞հ ես որ ուզում ես հեռացնել ընտրված ձայնային ահազանգերը։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:68
+#: koha-tmpl/intranet-tmpl/prog/js/audio_alerts.js:78
 msgid "Check the box next to the alert you want to delete."
 msgstr "Ընտրիր ջնջման ենթակա զգուշացման հաջորդ վանդակը։"
 
@@ -241,8 +241,7 @@ msgstr "%s արդեն իսկ քո զամբյուղում է"
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:444
 #: koha-tmpl/intranet-tmpl/prog/js/basket.js:454
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:6
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:27
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/cart.js:28
 msgid "No item was selected"
 msgstr "Նյութը ընտրված չէ"
 
@@ -487,9 +486,9 @@ msgstr "Սեպտեմբեր"
 msgid "Failure"
 msgstr "Ձախողվեց"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
+#: koha-tmpl/intranet-tmpl/prog/js/cart.js:83
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:358
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:349
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:350
 msgid "Place hold"
 msgstr "Դնել պահում"
 
@@ -555,12 +554,12 @@ msgstr "Վստա՞հ ես որ ուզում ես ջնջել %s կցված նյո
 msgid "(select to create)"
 msgstr "ստեղծիր"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:643
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging.js:637
 #, fuzzy
 msgid "Something went wrong. Maybe the value already exists?"
 msgstr "Ինչ որ բան գնացել է սխալ։ Նշումը չի հիշվել։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:141
+#: koha-tmpl/intranet-tmpl/prog/js/cataloging_additem.js:147
 msgid "Template name is required."
 msgstr ""
 
@@ -610,13 +609,13 @@ msgid "Previous checkouts"
 msgstr "Նախորդ դուրս տրումներ"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:800
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:829
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
 msgid "by _AUTHOR_"
 msgstr "_AUTHOR_ կողմից"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:129
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:821
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:850
 msgid "On-site checkout"
 msgstr "Տեղային դուրս տրում"
 
@@ -632,7 +631,7 @@ msgstr "RecallItem "
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:243
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:363
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:313
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:314
 msgid "On hold"
 msgstr "Պահված է"
 
@@ -646,12 +645,12 @@ msgid "Must be renewed at the library"
 msgstr "Պատվիրված է գրադարանի կողմից"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:262
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
 msgid "Not allowed: patron restricted"
 msgstr "Չի թույլատրված. հաճախորդը արգելափակված է"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:269
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
 msgid "Not allowed: overdue"
 msgstr "Չի թույլատրված։ ժամկետանց"
 
@@ -690,6 +689,11 @@ msgstr "%s ընդ. %s մնացող թարմացումները"
 msgid "Scheduled for automatic renewal"
 msgstr "Պլանավորված է ավտոմատ թարմացման համար"
 
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:365
+#, fuzzy, javascript-format
+msgid "Confirm (%s)"
+msgstr "Հաստատիր"
+
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:380
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:382
 msgid "Claim returned"
@@ -703,94 +707,90 @@ msgstr "Չկա նյութի տեսակ"
 msgid "Number of checkouts by item type"
 msgstr "Տացքերի քանակը ըստ նյութի տեսակի"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:596
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:591
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:593
 msgid "Checked in"
 msgstr "Հետ է ընդունված"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:600
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:595
 msgid "Patron note"
 msgstr "Հաճախորդի նշում"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:603
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
 msgid "Unable to check in"
 msgstr "Չի կարողանում հետ ընդունել"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:633
-msgid "Confirm"
-msgstr "Հաստատիր"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:676
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:680
 msgid "Renewed, due:"
 msgstr "Թարմացված, ենթակա է վերադարձի։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:679
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:683
 msgid "Renew failed:"
 msgstr "Թարմացումը տապալվեց։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:681
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:685
 msgid "not checked out"
 msgstr "դուրս տրված չէ"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:683
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
 msgid "too many renewals"
 msgstr "չափից շատ թարմացումներ"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:685
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
 msgid "too many consecutive renewals without being seen by the library"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
 msgid "on hold"
 msgstr "պահման մեջ է"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
 #, fuzzy
 msgid "Unable to find an open day"
 msgstr "Չի կարող նշել որպես վերադարձված"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:701
 msgid "reason unknown"
 msgstr "պատճառը անհայտ է"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1025
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1054
 msgid "Double click to edit"
 msgstr "Երկկտտացնել խմբագրելու համար"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1073
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1102
 msgid "Resolve"
 msgstr "Լուծել"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1078
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:89
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:368
 msgid "Actions"
 msgstr "Գործողություններ"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1081
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1110
 msgid "Edit notes"
 msgstr "Խմբագրել նշումները"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1144
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1173
 #, fuzzy
 msgid "Show 1 claim"
 msgid_plural "Show all {count} claims"
 msgstr[0] "Ցույց տուր որսումը"
 msgstr[1] "Ցույց տուր որսումը"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1149
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1178
 #, fuzzy
 msgid "Show 1 unresolved claim"
 msgid_plural "Show {count} unresolved claims"
 msgstr[0] "Լուծել հայցը"
 msgstr[1] "Լուծել հայցը"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1170
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1199
 msgid "Update"
 msgstr "Թարմացում"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1171
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1200
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:415
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:162
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:75
@@ -807,7 +807,7 @@ msgstr "Թարմացում"
 msgid "Cancel"
 msgstr "Չեղյալ անել"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1210
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1239
 msgid "Are you sure you want to delete this return claim?"
 msgstr "Վստա՞հ ես որ ուզում ես ջնջել այս վերադարձված հայցը։"
 
@@ -895,7 +895,7 @@ msgid "Clear filter"
 msgstr "Մաքրիր զտիչը"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:51
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:123
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:126
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:27
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:43
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:13
@@ -1165,24 +1165,24 @@ msgstr "Պայմանական կանոնավոր արտահայտությունը
 msgid "The conditional value should be filled."
 msgstr "Պայմանական արժեքը պետք է լրացվի:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:121
-msgid "Every"
-msgstr "Ամեն ոք"
-
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:265
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:113
 msgid "Are you sure you wish to delete this template action?"
 msgstr "Վստա՞հ ես որ ուզում ես ջնջել այս ձևանմուշի գործողությունը։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:269
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:117
 msgid "Are you sure you wish to delete this template?"
 msgstr "Վստա՞հ ես որ ուզում ես ջնջել այս ձևանմուշը։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:315
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:124
+msgid "Every"
+msgstr "Ամեն ոք"
+
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:310
 #, javascript-format
 msgid "Edit action %s"
 msgstr "Խմբագրի գործողությունը %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:318
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:313
 msgid "Update action"
 msgstr "Թարմացրու գործողությունը"
 
@@ -1315,53 +1315,53 @@ msgstr "Արտահանման համար պետք է ընտրես դուրս տր
 msgid "Error: presence of invalid data prevent saving. Please make the corrections and try again."
 msgstr "Սխալ. անվավեր տվյալների առկայությունը խափանում է հիշելը: Խնդրում ենք կատարել ճշգրտումներ և կրկին փորձել:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:25
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:13
 msgid "Nothing to save"
 msgstr "Ոչինչ չկա հիշելու"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:35
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:16
 msgid "Saving..."
 msgstr "Հիշում է..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:48
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:35
 #, javascript-format
 msgid "Saved preference %s"
 msgstr "Հիշված նախապատվություն %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:64
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:51
 msgid "modified"
 msgstr "ձևափոխված"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:70
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:57
 msgid "You have made changes to system preferences."
 msgstr "Դու կատարել ես ձևափոխումներ համակարգային նախապատվություններում։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:156
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:143
 #, fuzzy
 msgid "Are you sure you want to delete this consent item?"
 msgstr "Վստա՞հ ես որ ուզում ես ջնջել այս կազմի պատկերը։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:214
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:224
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:236
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:201
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:211
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:223
 #, fuzzy
 msgid "Collapse this section"
 msgstr "Սեղմիր՝ այս բաժինը քանդելու համար"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:221
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:208
 #, fuzzy
 msgid "Expand this section"
 msgstr "Սեղմիր այս սեկցիան ընդլայնելու համար"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:255
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:242
 msgid "Note: _ALL_ value will override all other values"
 msgstr "Նշում: _ALL_ արժեքը կվերագրի բոլոր մյուս արժեքները"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:266
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:253
 msgid "The following values are not formatted correctly:"
 msgstr "Հետևյալ արժեքները ճիշտ չեն ձևավորված։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:378
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:365
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:254
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:124
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:152
@@ -1382,11 +1382,11 @@ msgstr "Հետևյալ արժեքները ճիշտ չեն ձևավորված։"
 msgid "Name"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:379
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:383
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:395
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:399
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:403
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:366
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:370
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:382
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:386
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:390
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:31
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:29
@@ -1414,8 +1414,8 @@ msgstr ""
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:140
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsReportBuilder.vue:172
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsSavedReports.vue:40
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:30
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:52
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:31
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:83
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/SettingsProcessingsFormAdd.vue:111
@@ -1429,7 +1429,7 @@ msgstr ""
 msgid "Required"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:382
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:369
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:35
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:284
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:43
@@ -1444,48 +1444,48 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:386
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:373
 msgid "Requires consent in OPAC"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:390
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:377
 msgid "Requires consent in staff interface"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:394
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:381
 msgid "String used to identify cookie name"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:398
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:385
 msgid "Cookie domain"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:402
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:389
 msgid "Cookie path"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:409
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:396
 msgid "Expand"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:410
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:397
 #, fuzzy
 msgid "Collapse"
 msgstr "Սեղմիր՝ այս բաժինը քանդելու համար"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:426
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:413
 msgid "You must complete all fields"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:472
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:459
 msgid "Unable to Base64 decode value stored in CookieConsentedJS syspref: "
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:480
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:467
 msgid "Unable to JSON parse decoded value stored in CookieConsentedJS syspref: "
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:490
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:477
 msgid "Add new code"
 msgstr ""
 
@@ -1519,56 +1519,56 @@ msgstr "Չկան հասանելի կազմերի պատկերներ"
 msgid "Nothing is selected"
 msgstr "Ոչինչ ընտրված չէ։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:428
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:439
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:429
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:441
 msgid "You must select at least one record"
 msgstr "Դուք պետք է ընտրեք առնվազն մեկ գրառում"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:450
+#: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:454
 msgid "At least two records must be selected for merging"
 msgstr "Ձուլման համար հարկ է ընտրել առնվազն երկու գրառում"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:38
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:37
 #, javascript-format
 msgid "AJAX failed to approve tag: %s"
 msgstr "AJAX-ը ձախողվեց ցուցիչը հաստատելուց: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:44
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:43
 #, javascript-format
 msgid "AJAX failed to reject tag: %s"
 msgstr "AJAX-ը ձախողվեց ցուցիչը մերժելուց: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:46
 #, javascript-format
 msgid "%s is permitted!"
 msgstr "%s թույլատրված է"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:50
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:49
 #, javascript-format
 msgid "%s is prohibited!"
 msgstr "%s արգելված է"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:53
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:52
 #, javascript-format
 msgid "%s is neither permitted nor prohibited!"
 msgstr "%s ոչ թույլատրված է և ոչ էլ արգելված։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:58
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:57
 msgid " Test"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:164
 msgid "Clear all"
 msgstr "Մաքրիր բոլորը"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UsageStatisticsDataProvidersFormAdd.vue:138
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:161
 msgid "Select all"
 msgstr "Ընտրել բոլորը"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:71
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:70
 msgid "Select all pending"
 msgstr "Ընտրել բոլոր սպասողները"
 
@@ -1581,20 +1581,20 @@ msgstr "Մերժել"
 msgid "Approved"
 msgstr "Հաստատված"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:133
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:134
 msgid "Approve"
 msgstr "Հաստատիր"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:135
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:138
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:139
 msgid "Rejected"
 msgstr "Մերժված է"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:148
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:149
 msgid "Testing..."
 msgstr "Թեստավորում..."
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:159
+#: koha-tmpl/intranet-tmpl/prog/js/pages/tags-review.js:161
 #, javascript-format
 msgid "AJAX error (%s alert)"
 msgstr "AJAX սխալ (%s ահազանգ)"
@@ -1647,76 +1647,76 @@ msgstr ""
 msgid "Select item"
 msgstr "Ընտրել բոլորը"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:6
 #, fuzzy
 msgid "Are you sure you want to remove this recall?"
 msgstr "Վստա՞հ ես որ ցանկանում ես հեռացնել այս համատեղը։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:22
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:12
 msgid "The recall may have already been cancelled. Please refresh the page."
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:24
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:14
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:94
 msgid "Cancelled"
 msgstr "Չեղյալ արված"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:32
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:26
 #, fuzzy
 msgid "Are you sure you want to expire this recall?"
 msgstr "Վստա՞հ ես որ ուզում ես ջնջել այս գրառումը։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:50
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:32
 msgid "The recall may have already been expired. Please refresh the page."
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:34
 msgid "Expired"
 msgstr "Ժամկետանց"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:60
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:46
 #, fuzzy
 msgid "Are you sure you want to revert the waiting status of this recall?"
 msgstr "Վստա՞հ ես որ ուզում ես ջնջել այս ցուցիչը այս վերնագրից։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:78
-msgid "The recall waiting status may have already been reverted. Please refresh the page."
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
+msgid "The recall may have already been reverted. Please refresh the page."
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:80
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:54
 #, fuzzy
 msgid "Waiting status reverted"
 msgstr "Ցուցչի վիճակը այստեղ։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:88
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:66
 #, fuzzy
 msgid "Are you sure you want to mark this recall as overdue?"
 msgstr "Վստա՞հ ես որ ուզում ես ջնջել այս գրառումը։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:106
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:72
 msgid "The recall may have already been marked as overdue. Please refresh the page."
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:108
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:74
 #, fuzzy
 msgid "Marked overdue"
 msgstr "Չի թույլատրված։ ժամկետանց"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:116
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:86
 #, fuzzy
 msgid "Are you sure you want to remove this recall and return the item to it's home library?"
 msgstr "Վստա՞հ ես որ ուզում ես հեռացնել այս նյութը իր հերթապահությունից։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:134
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:92
 msgid "The recall may have already been removed. Please refresh the page."
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:154
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:116
 #, fuzzy
 msgid "Are you sure you want to remove the selected recall(s)?"
 msgstr "Վստա՞հ ես որ ուզում ես հեռացնել ընտրված նյութերը։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:156
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:118
 #, fuzzy
 msgid "Please make a selection."
 msgstr "Խնդրում ենք ընտրել ..."
@@ -1726,10 +1726,16 @@ msgstr "Խնդրում ենք ընտրել ..."
 msgid "%s (current status)"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:8
+#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:7
 #, fuzzy
 msgid "Are you sure you want to delete this rotating collection?"
 msgstr "Վստա՞հ ես որ ուզում ես ջնջել այս վերադարձված հայցը։"
+
+#: koha-tmpl/intranet-tmpl/prog/js/rotating-collections.js:12
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:461
+#, fuzzy
+msgid "Are you sure you want to remove this item?"
+msgstr "Վստա՞հ ես որ ցանկանում ես հեռացնել այս համատեղը։"
 
 #: koha-tmpl/intranet-tmpl/prog/js/select2.js:8
 #, fuzzy
@@ -1774,17 +1780,17 @@ msgstr "Հեռացրու ընտրված նյութերը"
 msgid "Remove item"
 msgstr "Հեռացրու դաշտը"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:4
-msgid "Are you sure you want to close this subscription?"
-msgstr "Վստա՞հ ես որ ուզում ես փակել այս բաժանորդագրությունը։"
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:9
+msgid "Are you sure you want to delete this subscription?"
+msgstr "Վստա՞հ ես որ ուզում ես ջնջել այս բաժանորդագրությունը։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:10
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:12
 msgid "Are you sure you want to reopen this subscription?"
 msgstr "Վստա՞հ ես որ ուզում ես վերաբացել այս բաժանորդագրությունը։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:17
-msgid "Are you sure you want to delete this subscription?"
-msgstr "Վստա՞հ ես որ ուզում ես ջնջել այս բաժանորդագրությունը։"
+#: koha-tmpl/intranet-tmpl/prog/js/serials-toolbar.js:15
+msgid "Are you sure you want to close this subscription?"
+msgstr "Վստա՞հ ես որ ուզում ես փակել այս բաժանորդագրությունը։"
 
 #: koha-tmpl/intranet-tmpl/prog/js/sms_providers.js:36
 msgid "Add an SMS cellular provider"
@@ -1964,38 +1970,33 @@ msgstr "Ձախողվեց"
 msgid "Denied"
 msgstr "Արգելված է"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:142
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:143
 #, fuzzy
 msgid "An error occurred while uploading."
 msgstr "Առաջացել է սխալ երբ փորձ է արվել թարմացնել այս ցեւցակը։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:172
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:173
 msgid "Error:"
 msgstr "Սխալ"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:172
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:173
 #, fuzzy
 msgid "This tool only accepts ZIP files or GIF, JPEG, PNG, or XPM images."
 msgstr "Վստահ եղիր որ բեռանվորում ես միայն GIF, JPEG, PNG, կամ XPM պատկերներ։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:179
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:180
 msgid "File name:"
 msgstr "Ֆայլի անուն։"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:180
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:181
 #, fuzzy
 msgid "File type:"
 msgstr "Ֆայլի տեսակ"
 
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:181
+#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:182
 #, fuzzy
 msgid "File size:"
 msgstr "Ֆայլի չափ"
-
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:214
-#: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:220
-msgid "An error occurred on deleting this image"
-msgstr "Այս պատկերը ջնջելիս հանդիպել է սխալ"
 
 #: koha-tmpl/intranet-tmpl/prog/js/viewlog.js:18
 #, fuzzy
@@ -2357,7 +2358,7 @@ msgstr ""
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:125
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:75
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:34
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:35
 msgid "Role"
 msgstr ""
 
@@ -3486,11 +3487,11 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:28
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:29
 msgid "Select user"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:62
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/UserRoles.vue:63
 msgid "Add new user"
 msgstr ""
 
@@ -3856,11 +3857,6 @@ msgstr "Տպել"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:351
 msgid "ID"
 msgstr ""
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:461
-#, fuzzy
-msgid "Are you sure you want to remove this item?"
-msgstr "Վստա՞հ ես որ ցանկանում ես հեռացնել այս համատեղը։"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:463
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/WaitingList.vue:269
@@ -4290,40 +4286,40 @@ msgstr "Դուրս տրումներ"
 msgid "Holds"
 msgstr "Պահումներ"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:290
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:291
 msgid "Checked out until: "
 msgstr "Դուրս է տրված մինչև։ "
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:295
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:296
 #, fuzzy
 msgid "Get item"
 msgstr "Ստացիր դա"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:301
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:302
 msgid "Check in"
 msgstr "Հետ ընդունիր"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:302
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:303
 msgid "Are you sure you want to return this item?"
 msgstr "Վստա՞հ ես որ ուզում ես վերադարձնել այս նյութը։"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:319
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:320
 msgid "Check out"
 msgstr "Դուրս տրում"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:320
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:321
 msgid "Are you sure you want to check out this item?"
 msgstr "Վստա՞հ ես որ ուզում ես սպասարկել այս նյութը։"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:355
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:356
 msgid "Cancel hold"
 msgstr "Չեղյալ անել պահումը"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:356
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:357
 msgid "Are you sure you want to cancel this hold?"
 msgstr "Վստա՞հ ես որ ուզում ես չեղյալ անել այս պահումը։"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:385
+#: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:386
 msgid "Item cannot be checked out. There are no available formats"
 msgstr "Նյութը հնարավոր չէ սպասարկել։ Չկան հասանելի ձևաչափեր"
 
@@ -4341,60 +4337,63 @@ msgstr ""
 msgid "Average rating: %s (%s votes)"
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:42
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:96
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:100
 msgid "Tags added: "
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:43
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:45
 msgid "Tags deleted: "
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:44
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:106
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:46
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:110
 #, fuzzy
 msgid "Errors: "
 msgstr "Սխալ"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:60
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:62
 msgid "Sorry, tags are not enabled on this system."
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:61
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:63
 msgid "Error! Your tag was entirely markup code.  It was NOT added.  Please try again with plain text."
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:62
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
 msgid "Error! Illegal parameter"
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:63
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
 msgid "Note: your tag contained markup code that was removed. The tag was added as "
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
 msgid "Error! Adding tags failed at"
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:64
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
 msgid "Note: you can only tag an item with a given term once.  Check 'Tags' to see your current tags."
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:67
 msgid "Error! You cannot delete the tag"
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:65
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:67
 msgid "Note: you can only delete your own tags."
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:66
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:68
 msgid "You must be logged in to add tags."
 msgstr ""
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:126
+#: koha-tmpl/opac-tmpl/bootstrap/js/tags.js:130
 msgid "Unable to add one or more tags."
 msgstr ""
+
+#~ msgid "An error occurred on deleting this image"
+#~ msgstr "Այս պատկերը ջնջելիս հանդիպել է սխալ"
 
 #, fuzzy
 #~ msgid "Click to expand"
