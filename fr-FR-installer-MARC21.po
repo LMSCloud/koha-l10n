@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.15.000\n"
-"PO-Revision-Date: 2024-03-01 03:41+0000\n"
+"PO-Revision-Date: 2024-03-03 03:13+0000\n"
 "Last-Translator: Emmanuel Bétemps <e.betemps@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
@@ -305,11 +305,11 @@ msgstr "Code de période chronologique"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:104
 msgid "Formatted 9999 B.C. through C.E. time period"
-msgstr "Période de temps structurée: de 9999 avant J.-C. et après J.-C."
+msgstr "Période de temps structurée : de 9999 avant et après J.-C."
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:105
 msgid "Formatted pre-9999 B.C. time period"
-msgstr "Période formatée pré-9999 a.v. J-C "
+msgstr "Période formatée pré-9999 avant J.-C."
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:106
 msgid "Source of date scheme"
@@ -529,7 +529,7 @@ msgstr "Information explicative"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:255
 msgid "Document shelving number (CODOC)"
-msgstr "Document shelving number (CODOC)"
+msgstr "Numéro de rangement du document (CODOC)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:260
 msgid "Call number ; Classification number (OCLC) (R) ; Classification number, CALL (RLIN) (NR)"
@@ -537,7 +537,7 @@ msgstr "Cote ; Numéro de classification (OCLC) (R) ; Numéro de classification,
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:261
 msgid "Item number ; Local cutter number (OCLC) ; Book number/undivided call number, CALL (RLIN)"
-msgstr "Item number ; Local cutter number (OCLC) ; Book number/undivided call number, CALL (RLIN)"
+msgstr "Numéro d'exemplaire; Code cutter local (OCLC); Numéro de copie/cote indivise, CALL (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:263
 msgid "Feature heading (OCLC)"
@@ -721,7 +721,7 @@ msgstr "Nom de la réunion ou nom de la juridiction comme élément d'entrée"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:385
 msgid "Number [OBSOLETE]"
-msgstr "Nombre [OBSOLETE]"
+msgstr "Nombre [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:397
 msgid "Name of meeting following jurisdiction name entry element"
@@ -865,7 +865,7 @@ msgstr "Texte explicatif"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:539
 msgid "Table identification--Schedule [OBSOLETE]"
-msgstr "Identification de la table -- Programme [OBSOLETE]"
+msgstr "Identification de la table -- Programme [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:545
 msgid "Heading referred to"
@@ -949,7 +949,7 @@ msgstr "Ville"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:612
 msgid "Intermediate jurisdiction"
-msgstr "Territoire, province, état, etc."
+msgstr "Juridiction intermédiaire"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:613
 msgid "Country"
@@ -1357,7 +1357,7 @@ msgstr "Numéro où les instructions se trouvent -- Numéro unique ou numéro de
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1613
 msgid "Base number"
-msgstr "Base number"
+msgstr "Indice de base"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1615
 msgid "Divided like number"
@@ -1377,7 +1377,7 @@ msgstr "Numéro de racine"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1621
 msgid "Other classification number"
-msgstr "Other classification number"
+msgstr "Autre indice de classification"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1630
 msgid "Medium of performance term as entry element"
@@ -1473,7 +1473,7 @@ msgstr "Information sur la compression"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1753
 msgid "Path"
-msgstr "Path"
+msgstr "Chemin d'accès"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_subfield_structure:3:row:1754
 msgid "Electronic name"
@@ -1749,11 +1749,11 @@ msgstr "NUMÉRO DE DOCUMENT SUR ETAGERE [OBSOLÈTE, CAN/MARC]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:41
 msgid "LOCAL CALL NUMBER (SERIES) [OBSOLETE]; LOCALLY ASSIGNED LC-TYPE CALL NUMBER (OCLC); LOCAL CALL NUMBER (RLIN)"
-msgstr "Cote locale (série) [PÉRIMÉ]; Cote locale de type classification de la Bibliothèque du Congrès (OCLC); Cote locale (RLIN)"
+msgstr "Cote locale (séries) [OBSOLÈTE]; Cote locale de type Classification de la Bibliothèque du Congrès (OCLC); Cote locale (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:42
 msgid "LOCALLY ASSIGNED LC-TYPE CLASSIFICATION NUMBER (OCLC); LOCAL CLASSIFICATION NUMBER (RLIN)"
-msgstr "Indice de classification local de type classification de la Bibliothèque du Congrès (OCLC); Indice de classification local (RLIN)"
+msgstr "Indice de classification local de type Classification de la Bibliothèque du Congrès (OCLC); Indice de classification local (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/authorities_normal_marc21.yml:auth_tag_structure:2:row:43
 msgid "LOCALLY ASSIGNED DEWEY CALL NUMBER (OCLC)"
@@ -2357,11 +2357,11 @@ msgstr "Grilles bibliographiques et autorités par défaut pour MARC21."
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:2:row:1
 msgid "Item type [OBSOLETE]"
-msgstr "Type de document [OBSOLETE]"
+msgstr "Type de document [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:2:row:2
 msgid "Koha Dewey Subclass [OBSOLETE]"
-msgstr "Sous-classe Dewey Koha [PÉRIMÉ]"
+msgstr "Sous-classe Dewey Koha [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:2:row:3
 msgid "Koha biblionumber"
@@ -2385,7 +2385,7 @@ msgstr "Classification Koha normalisée pour le tri"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:4:row:4
 msgid "Institution code [OBSOLETE]"
-msgstr "Code d'institution [PÉRIMÉ]"
+msgstr "Code d'institution [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:4:row:5
 msgid "Koha item type"
@@ -2605,7 +2605,7 @@ msgstr "Source du numéro ou du code"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:62
 msgid "Additional codes following the standard number [OBSOLETE]"
-msgstr "Codes additionnels faisant suite au numéro normalisé [PERIME]"
+msgstr "Codes additionnels faisant suite au numéro normalisé [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:68
 msgid "Overseas acquisition number"
@@ -2777,7 +2777,7 @@ msgstr "Code de langue d’un résumé analytique ou d'un sommaire"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:193
 msgid "Languages of separate titles (VM) [OBSOLETE] ; Languages of available translation  (SE) [OBSOLETE]"
-msgstr "Langues des titres distincts (DV) [PÉRIMÉ] ; Langues dans lesquelles la traduction est disponible (PS)  [PÉRIMÉ]"
+msgstr "Langues des titres distincts (VM) [OBSOLÈTE] ; Langues dans lesquelles la traduction est disponible  (SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:194
 msgid "Language code of sung or spoken text"
@@ -2953,7 +2953,7 @@ msgstr "Dates inclusives de publication ou de couverture"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:272
 msgid "Supplementary class number (MU) [OBSOLETE]"
-msgstr "Numéro de classe supplémentaire (MU) [OBSOLETE]"
+msgstr "Numéro de classe supplémentaire (MU) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:276
 msgid "Copy information"
@@ -2961,7 +2961,7 @@ msgstr "Information sur la copie"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:284
 msgid "Subject (MP) [OBSOLETE]"
-msgstr "Sujet (MP) [OBSOLETE]"
+msgstr "Sujet (MP) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:288
 msgid "Source of call/class number"
@@ -3021,7 +3021,7 @@ msgstr "Chiffre Cutter local (OCLC) ; Numéro de livre/cote non-divisé, COTE (R
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:386
 msgid "Filing suffix (OCLC); Footnote, FNT (RLIN)"
-msgstr "Suffixe de classement (OCLC); Note de base de page, FNT (RLIN)"
+msgstr "Suffixe de classement (OCLC); Note de bas de page, FNT (RLIN)"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:395
 msgid "Retention, VOL (RLIN)"
@@ -3073,7 +3073,7 @@ msgstr "Désignation de section (BK AM MP MU VM SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:538
 msgid "Name of part/section (BK AM MP MU VM SE) [OBSOLETE]"
-msgstr "Nom de partie/section (BK AM MP MU VM SE) [OBSOLETE]"
+msgstr "Nom de partie/section (BK AM MP MU VM SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:542
 msgid "Language code of translated title"
@@ -3085,7 +3085,7 @@ msgstr "Désignation de section/partie/série (SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:565
 msgid "Name of part/section/series (SE) [OBSOLETE]"
-msgstr "Nom de partie/section/série (SE) [OBSOLETE]"
+msgstr "Nom de partie/section/série (SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:566
 msgid "Inclusive dates"
@@ -3113,7 +3113,7 @@ msgstr "Désignation de section (SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:591
 msgid "Name of part/section (SE) [OBSOLETE]"
-msgstr "Nom de partie/section (SE) [OBSOLETE]"
+msgstr "Nom de partie/section (SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:601
 msgid "Edition statement"
@@ -3257,11 +3257,11 @@ msgstr "Date de production, publication, distribution, fabrication ou copyright"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:671
 msgid "Linkage [OBSOLETE]"
-msgstr "Liaison [PÉRIMÉ]"
+msgstr "Liaison [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:672
 msgid "Source for acquisition/subscription address [OBSOLETE]"
-msgstr "Source pour l'acquisition/adresse de l'abonnement [OBSOLETE]"
+msgstr "Source pour l'acquisition/adresse de l'abonnement [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:678
 msgid "State or province"
@@ -3997,19 +3997,19 @@ msgstr "Cote de la Bibliothèque du Congrès"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1164
 msgid "Library of Congress call number (SE) [OBSOLETE]"
-msgstr "Cote de la Library of Congress (PS) [PÉRIMÉ]"
+msgstr "Cote de la Library of Congress (SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1165
 msgid "n (RLIN) [OBSOLETE]"
-msgstr "n (RLIN) [OBSOLETE]"
+msgstr "n (RLIN) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1166
 msgid "International Standard Serial Number (SE) [OBSOLETE]"
-msgstr "Numéro international normalisé des publications en série (PS) [PÉRIMÉ]"
+msgstr "Numéro international normalisé des publications en série (SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1167
 msgid "Source of note information (AM SE) [OBSOLETE]"
-msgstr "Source d'information de la note (AM SE) [OBSOLETE]"
+msgstr "Source d'information de la note (AM SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1171
 msgid "With note"
@@ -4181,7 +4181,7 @@ msgstr "Note d'affichage"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1251
 msgid "Source of note information (SE) [OBSOLETE]"
-msgstr "Source d'information de la note (SE) [OBSOLETE]"
+msgstr "Source d'information de la note (SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1254
 msgid "Type of computer file or data note"
@@ -4225,7 +4225,7 @@ msgstr "Agence attributrice"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1276
 msgid "Source of note information [OBSOLETE]"
-msgstr "Source d'information de la note [OBSOLETE]"
+msgstr "Source d'information de la note [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1280
 msgid "Target audience note"
@@ -4273,7 +4273,7 @@ msgstr "Note de censure"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1312
 msgid "Additional physical form available note"
-msgstr "Disponible sous un autre format : "
+msgstr "Note sur les autres formats physiques disponibles"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1313
 msgid "Availability source"
@@ -4289,7 +4289,7 @@ msgstr "Numéro de commande"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1317
 msgid "Source of note information (AM CF VM SE) [OBSOLETE]"
-msgstr "Source d'information de la note (AM CF VM SE) [OBSOLETE]"
+msgstr "Source d'information de la note (AM CF VM SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1320
 msgid "Summary of accessibility"
@@ -4637,7 +4637,7 @@ msgstr "Historique"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1494
 msgid "Time of collation [OBSOLETE]"
-msgstr "Heure de la collation |OBSOLETE]"
+msgstr "Heure de la collation [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1500
 msgid "Identifying markings"
@@ -4773,19 +4773,19 @@ msgstr "Note locale"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1583
 msgid "Provenance (VM) [OBSOLETE]"
-msgstr "Provenance (VM) [OBSOLETE]"
+msgstr "Provenance (VM) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1584
 msgid "Condition of individual reels (VM) [OBSOLETE]"
-msgstr "Désignation de la section/partie/collection (PS) [PÉRIMÉ]"
+msgstr "Condition de bandes individuels (VM) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1585
 msgid "Origin of safety copy (VM) [OBSOLETE]"
-msgstr "Désignation de la section/partie/collection (PS) [PÉRIMÉ]"
+msgstr "Origine de la copie de sauvegarde (VM) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1657
 msgid "Number  (BK CF MP MU SE VM MX)  [OBSOLETE]"
-msgstr "Nombre  (BK CF MP MU SE VM MX)  [OBSOLETE]"
+msgstr "Nombre  (BK CF MP MU SE VM MX)  [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1737
 msgid "Active dates"
@@ -4793,7 +4793,7 @@ msgstr "Dates actives"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1753
 msgid "Geographic name following place entry element [OBSOLETE]"
-msgstr "Nom géographique suivant un élément de vedette de lieu [PÉRIMÉ]"
+msgstr "Nom géographique suivant un élément de vedette de lieu [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:1760
 msgid "Geographic name of place element"
@@ -4877,7 +4877,7 @@ msgstr "Nom commun suivant un nom géographique comme élément d'entrée"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2081
 msgid "Number (BK CF MP MU SE VM MX) [OBSOLETE]"
-msgstr "Nombre (BK CF MP MU SE VM MX) [OBSOLETE]"
+msgstr "Nombre (BK CF MP MU SE VM MX) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2100
 msgid "Corporate name or jurisdiction name"
@@ -4949,7 +4949,7 @@ msgstr "Autre identifiant d'exemplaire"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2225
 msgid "Parallel title (BK SE) [OBSOLETE]"
-msgstr "Titre parallèle [toutes sauf 773] [PÉRIMÉ]"
+msgstr "Titre parallèle (BK SE)[OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2230
 msgid "CODEN designation"
@@ -4961,7 +4961,7 @@ msgstr "Données de collection pour les exemplaires liés"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2266
 msgid "Parallel title (BK SE)  [OBSOLETE]"
-msgstr "Titre parallèle [toutes sauf 773] [PÉRIMÉ]"
+msgstr "Titre parallèle (BK SE)  [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2270
 msgid "Standard Technical Report Number"
@@ -5021,15 +5021,15 @@ msgstr "Institution dépositaire"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2857
 msgid "Holdings (NR) (MU VM SE) [OBSOLETE]"
-msgstr "Fonds (MES DV PS) [PÉRIMÉ]"
+msgstr "Fonds (NR) (MU VM SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2858
 msgid "Inclusive dates (NR) (MU VM SE) [OBSOLETE]"
-msgstr "Dates extrêmes (MES DV PS) [PÉRIMÉ]"
+msgstr "Dates comprises (NR) (MU VM SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2859
 msgid "Retention statement (NR) (CF MU VM SE) [OBSOLETE]"
-msgstr "Mention de conservation (NR) (CF MU VM SE) [OBSOLETE]"
+msgstr "Mention de conservation (NR) (CF MU VM SE) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_subfield_structure:8:row:2862
 msgid "Name (custodian or owner)"
@@ -5741,11 +5741,11 @@ msgstr "Éléments de longueur fixe - Renseignements généraux"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:8
 msgid "PHYSICAL DESCRIPTION FIXED-FIELD FOR ARCHIVAL COLLECTION (VM) [OBSOLETE]"
-msgstr "CHAMP FIXE DE DESCRIPTION PHYSIQUE POUR LES COLLECTIONS ARCHIVISTIQUES (VM) [OBSOLETE]"
+msgstr "CHAMP FIXE DE DESCRIPTION PHYSIQUE POUR LES COLLECTIONS ARCHIVISTIQUES (VM) [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:10
 msgid "LINKING LIBRARY OF CONGRESS CONTROL NUMBER [OBSOLETE]"
-msgstr "Numéro de contrôle de liaison de la Library of Congress [PÉRIMÉ]"
+msgstr "Numéro de contrôle de liaison de la Library of Congress [OBSOLÈTE]"
 
 #: installer/data/mysql/en/marcflavour/marc21/mandatory/marc21_framework_DEFAULT.yml:marc_tag_structure:7:row:11
 msgid "PATENT CONTROL INFORMATION"
