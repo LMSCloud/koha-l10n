@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.15.000\n"
-"PO-Revision-Date: 2024-02-26 03:17+0000\n"
+"PO-Revision-Date: 2024-03-04 03:13+0000\n"
 "Last-Translator: m23 <black23@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
@@ -20,23 +20,21 @@ msgid "Overpayment refund"
 msgstr "Vrácení přeplatku"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:2
-#, fuzzy
 msgid "Payment"
 msgstr "Platba"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:3
 msgid "Writeoff"
-msgstr ""
+msgstr "Prominuto"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:4
-#, fuzzy
 msgid "Forgiven"
-msgstr "Prominuto"
+msgstr "Odpuštěno"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:5
 #, fuzzy
 msgid "Credit"
-msgstr "Kredit"
+msgstr "Poplatek"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:6
 msgid "A discount applied to a patrons fine"
@@ -44,11 +42,11 @@ msgstr "Sleva na upomínku čtenářů"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:7
 msgid "Refund"
-msgstr ""
+msgstr "Vrácení peněz"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:8
 msgid "Lost item fee refund"
-msgstr ""
+msgstr "Vrácení vybraného poplatku za ztrátu dokumentu"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:account_credit_types:1:row:9
 msgid "Purchase"
@@ -65,7 +63,7 @@ msgstr "Vrácení poplatku za zpracování ztracené jednotky"
 
 #: installer/data/mysql/en/mandatory/account_credit_types.yml:description:1
 msgid "Credit types used in Koha"
-msgstr ""
+msgstr "Poplatky použíté v Koha"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:1
 msgid "Account creation fee"
@@ -80,9 +78,8 @@ msgid "Article request fee"
 msgstr "Poplatek za vyžádání článku"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:4
-#, fuzzy
 msgid "Lost item"
-msgstr "Ztraceno"
+msgstr "Ztracená jednotka"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:5
 msgid "Manual fee"
@@ -90,12 +87,11 @@ msgstr "Ručně vložený poplatek"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:6
 msgid "New card fee"
-msgstr ""
+msgstr "Poplatek za vystavení průkazky"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:7
-#, fuzzy
 msgid "Overdue fine"
-msgstr "OverdueNoticeBcc"
+msgstr "Upomínka"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:8
 msgid "Lost item processing fee"
@@ -107,7 +103,7 @@ msgstr "Platba knihovny čtenáři"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:10
 msgid "Rental fee"
-msgstr ""
+msgstr "Poplatek za půjčení"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:11
 msgid "Daily rental fee"
@@ -123,11 +119,11 @@ msgstr "Prodloužit jednotku"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:14
 msgid "Hold fee"
-msgstr ""
+msgstr "Poplatek za rezervaci"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:15
 msgid "Hold waiting too long"
-msgstr ""
+msgstr "Rezervace čeká příliš dlouho"
 
 #: installer/data/mysql/en/mandatory/account_debit_types.yml:account_debit_types:1:row:16
 msgid "Credit has been voided"
@@ -155,16 +151,15 @@ msgstr "Hotově přes SIP2"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:1:row:4
 msgid "Visa"
-msgstr ""
+msgstr "Visa"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:1:row:4
 msgid "Visa via SIP2"
-msgstr ""
+msgstr "Karta přes SIP2"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:1:row:5
-#, fuzzy
 msgid "Creditcard"
-msgstr "Kredit"
+msgstr "Kreditní karta"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:1:row:5
 msgid "Creditcard via SIP2"
@@ -176,11 +171,11 @@ msgstr "Každý týden"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:2
 msgid "Active"
-msgstr ""
+msgstr "Aktivní"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:3
 msgid "In negotiation"
-msgstr ""
+msgstr "Ve vyjednávání"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:4
 msgid "Closed"
@@ -192,57 +187,51 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:6
 msgid "Cancelled"
-msgstr ""
+msgstr "Zrušeno"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:7
 msgid "For review"
-msgstr ""
+msgstr "Ke kontrole"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:8
 msgid "Renew"
-msgstr ""
+msgstr "Prodloužit"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:9
-#, fuzzy
 msgid "Cancel"
-msgstr "Taneční formy"
+msgstr "Zrušit"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:10
-#, fuzzy
 msgid "ERM librarian"
-msgstr "Knihovník"
+msgstr "ERM knihovník"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:11
 msgid "Subject specialist"
-msgstr ""
+msgstr "Předmětový specialista"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:12
 msgid "Local"
 msgstr "Místní"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:13
-#, fuzzy
 msgid "Consortial"
-msgstr "Omezení"
+msgstr "Konsorcium"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:14
-#, fuzzy
 msgid "National"
-msgstr "Období"
+msgstr "Národní"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:15
 msgid "Alliance"
-msgstr ""
+msgstr "Aliance"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:17
-#, fuzzy
 msgid "Not yet active"
-msgstr ") má omezené služby knihovny."
+msgstr "Zatím není aktivní"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:19
-#, fuzzy
 msgid "Rejected"
-msgstr "Omezeno"
+msgstr "Zamítnuto"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:21
 msgid "Controlling"
@@ -250,24 +239,23 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:22
 msgid "Future"
-msgstr ""
+msgstr "Budoucí"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:23
 msgid "Historic"
-msgstr ""
+msgstr "Historický"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:24
 msgid "Filing cabinet"
-msgstr ""
+msgstr "Kartotéka"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:25
 msgid "Cupboard"
-msgstr ""
+msgstr "Skříň"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:27
-#, fuzzy
 msgid "Complete"
-msgstr ", kompilátor"
+msgstr "Dokončeno"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:2:row:28
 msgid "Aggregated full"
@@ -665,9 +653,8 @@ msgid "Falkland Islands"
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:73
-#, fuzzy
 msgid "Micronesia"
-msgstr "Mikrofilm"
+msgstr "Mikronésie"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:74
 #, fuzzy
@@ -787,13 +774,12 @@ msgid "Indonesia"
 msgstr "Indonésie"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:102
-#, fuzzy
 msgid "Ireland"
-msgstr "Islandština"
+msgstr "Irsko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:103
 msgid "Israel"
-msgstr ""
+msgstr "Izrael"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:104
 msgid "Isle of Man"
@@ -809,7 +795,7 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:107
 msgid "Iraq"
-msgstr ""
+msgstr "Irák"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:108
 msgid "Iran"
@@ -820,9 +806,8 @@ msgid "Iceland"
 msgstr "Island"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:110
-#, fuzzy
 msgid "Italy"
-msgstr "Kurzíva"
+msgstr "Itálie"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:111
 #, fuzzy
@@ -830,27 +815,24 @@ msgid "Jersey"
 msgstr "Zrušit"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:112
-#, fuzzy
 msgid "Jamaica"
-msgstr "Aramejština"
+msgstr "Jamajka"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:113
 msgid "Jordan"
-msgstr ""
+msgstr "Jordánsko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:114
-#, fuzzy
 msgid "Japan"
-msgstr "Japonský"
+msgstr "Japonsko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:115
 msgid "Kenya"
-msgstr ""
+msgstr "Keňa"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:116
-#, fuzzy
 msgid "Kyrgyzstan"
-msgstr "Kyrgyzština"
+msgstr "Kyrgyzstán"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:117
 msgid "Cambodia"
@@ -858,7 +840,7 @@ msgstr "Kambodža"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:118
 msgid "Kiribati"
-msgstr ""
+msgstr "Kiribati"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:119
 msgid "Comoros"
@@ -879,7 +861,7 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:123
 msgid "Kuwait"
-msgstr ""
+msgstr "Kuvajt"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:124
 #, fuzzy
@@ -887,18 +869,16 @@ msgid "Cayman Islands"
 msgstr "Ferro, Canary Islands"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:125
-#, fuzzy
 msgid "Kazakhstan"
-msgstr "Kazachština"
+msgstr "Kazachstán"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:126
 msgid "Laos"
-msgstr ""
+msgstr "Laos"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:127
-#, fuzzy
 msgid "Lebanon"
-msgstr "kánon"
+msgstr "Libanon"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:128
 msgid "St. Lucia"
@@ -906,55 +886,51 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:129
 msgid "Liechtenstein"
-msgstr ""
+msgstr "Lichtenštejnsko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:130
 msgid "Sri Lanka"
 msgstr "Srí Lanka"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:131
-#, fuzzy
 msgid "Liberia"
-msgstr "Periodikum"
+msgstr "Libérie"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:132
 msgid "Lesotho"
-msgstr ""
+msgstr "Lesotho"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:133
-#, fuzzy
 msgid "Lithuania"
-msgstr "Litevština"
+msgstr "Litva"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:134
-#, fuzzy
 msgid "Luxembourg"
-msgstr "Lucemburština"
+msgstr "Lucembursko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:135
-#, fuzzy
 msgid "Latvia"
-msgstr "Lotyština"
+msgstr "Lotyšsko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:136
 msgid "Libya"
-msgstr ""
+msgstr "Libye"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:137
 msgid "Morocco"
-msgstr ""
+msgstr "Maroko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:138
 msgid "Monaco"
-msgstr "Monaco"
+msgstr "Monako"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:139
 msgid "Moldova"
-msgstr ""
+msgstr "Moldavsko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:140
 msgid "Montenegro"
-msgstr ""
+msgstr "Černá Hora"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:141
 #, fuzzy
@@ -962,9 +938,8 @@ msgid "St. Martin"
 msgstr "Jose Martin"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:142
-#, fuzzy
 msgid "Madagascar"
-msgstr "Malgaština"
+msgstr "Madagaskar"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:143
 msgid "Marshall Islands"
@@ -977,16 +952,15 @@ msgstr "Makedonština"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:145
 msgid "Mali"
-msgstr ""
+msgstr "Mali"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:146
 msgid "Myanmar (Burma)"
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:147
-#, fuzzy
 msgid "Mongolia"
-msgstr "Konžština"
+msgstr "Mongolsko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:148
 msgid "Macao"
@@ -1012,7 +986,7 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:153
 msgid "Malta"
-msgstr ""
+msgstr "Malta"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:154
 msgid "Mauritius"
@@ -1020,29 +994,27 @@ msgstr "Mauricius"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:155
 msgid "Maldives"
-msgstr ""
+msgstr "Maledivy"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:156
-#, fuzzy
 msgid "Malawi"
-msgstr "Malajština"
+msgstr "Malawi"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:157
 msgid "Mexico"
 msgstr "Mexiko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:158
-#, fuzzy
 msgid "Malaysia"
-msgstr "Malajština"
+msgstr "Malajsie"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:159
 msgid "Mozambique"
-msgstr ""
+msgstr "Mosambik"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:160
 msgid "Namibia"
-msgstr ""
+msgstr "Namibie"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:161
 #, fuzzy
@@ -1051,58 +1023,55 @@ msgstr "Nové varování"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:162
 msgid "Niger"
-msgstr ""
+msgstr "Niger"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:163
 msgid "Norfolk Island"
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:164
-#, fuzzy
 msgid "Nigeria"
-msgstr "Periodikum"
+msgstr "Nigérie"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:165
 msgid "Nicaragua"
-msgstr ""
+msgstr "Nikaragua"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:166
-#, fuzzy
 msgid "Netherlands"
-msgstr "Amsterodam, Nizozemsko"
+msgstr "Nizozemsko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:167
 msgid "Norway"
-msgstr ""
+msgstr "Norsko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:168
 msgid "Nepal"
-msgstr ""
+msgstr "Nepál"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:169
 msgid "Nauru"
-msgstr ""
+msgstr "Nauru"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:170
 msgid "Niue"
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:171
-#, fuzzy
 msgid "New Zealand"
-msgstr "Nové pole"
+msgstr "Nový Zéland"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:172
 msgid "Oman"
-msgstr ""
+msgstr "Omán"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:173
 msgid "Panama"
-msgstr ""
+msgstr "Panama"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:174
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:175
 #, fuzzy
@@ -1114,17 +1083,16 @@ msgid "Papua New Guinea"
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:177
-#, fuzzy
 msgid "Philippines"
-msgstr "Philippe Jaillon"
+msgstr "Filipíny"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:178
 msgid "Pakistan"
-msgstr ""
+msgstr "Pákistán"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:179
 msgid "Poland"
-msgstr ""
+msgstr "Polsko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:180
 msgid "St. Pierre & Miquelon"
@@ -1143,31 +1111,28 @@ msgid "Palestinian Territories"
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:184
-#, fuzzy
 msgid "Portugal"
-msgstr "Lisabon, Portugalsko"
+msgstr "Portugalsko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:185
 msgid "Palau"
-msgstr ""
+msgstr "Republika Palau"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:186
-#, fuzzy
 msgid "Paraguay"
-msgstr "Odstavec"
+msgstr "Paraguay"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:187
 msgid "Qatar"
-msgstr ""
+msgstr "Katar"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:188
 msgid "Réunion"
 msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:189
-#, fuzzy
 msgid "Romania"
-msgstr "Roman"
+msgstr "Rumunsko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:190
 msgid "Serbia"
@@ -1180,7 +1145,7 @@ msgstr "Moskva, Rusko"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:192
 msgid "Rwanda"
-msgstr ""
+msgstr "Rwanda"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:193
 msgid "Saudi Arabia"
@@ -1228,7 +1193,7 @@ msgstr "Sierra Leone"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:204
 msgid "San Marino"
-msgstr ""
+msgstr "San Marino"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:205
 msgid "Senegal"
@@ -1391,7 +1356,7 @@ msgstr ""
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:244
 msgid "Samoa"
-msgstr ""
+msgstr "Samoa"
 
 #: installer/data/mysql/en/mandatory/auth_values.yml:authorised_values:3:row:245
 msgid "Yemen"
