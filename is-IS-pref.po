@@ -6611,24 +6611,20 @@ msgstr "opac.pref#OPACUserCSS# Include the following CSS on all pages in the OPA
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
 #, fuzzy
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Do"
-msgstr "circulation.pref#AllowAllMessageDeletion# Allow"
+msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't send"
+msgstr "circulation.pref#AllowAllMessageDeletion# Don't allow"
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
 #, fuzzy
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't"
+msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# OPAC patron messages in the SIP2 screen message field."
 msgstr "circulation.pref#AllowAllMessageDeletion# Don't allow"
 
 # Circulation > Course reserves > UseCourseReserves
 # Circulation > Holds policy
 #, fuzzy
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Use"
+msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Send"
 msgstr "circulation.pref#maxreserves# holds at once."
-
-# Circulation > SIP2 > SIP2AddOpacMessagesToScreenMessage
-msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# send OPAC patron messages in the SIP2 screen message field."
-msgstr ""
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# - 'branchcode' is the location where the checkin is being performed (i.e. branch assigned to SIP user)<br/>"
@@ -8722,7 +8718,7 @@ msgstr "enhanced_content.pref#AllowMultipleCovers# Ne pas autoriser"
 # Enhanced content > OverDrive > OverDriveCirculation
 # Enhanced Content > Coce Cover images cache
 #, fuzzy
-msgid "enhanced_content.pref#OverDriveCirculation# cardnumber"
+msgid "enhanced_content.pref#OverDriveCirculation# card number"
 msgstr "enhanced_content.pref#LocalCoverImages# Afficher"
 
 # Enhanced content > OverDrive > OverDriveCirculation
@@ -12751,9 +12747,10 @@ msgstr ""
 msgid "patrons.pref#EmailFieldPrimary# alternate email"
 msgstr ""
 
-# Patrons > Notices and notifications > EmailFieldPrimary
-msgid "patrons.pref#EmailFieldPrimary# cardnumber"
-msgstr ""
+# Patrons > Notices and notifications
+#, fuzzy
+msgid "patrons.pref#EmailFieldPrimary# card number"
+msgstr "die Ausweisnummer"
 
 # Patrons > Notices and notifications > EmailFieldPrimary
 msgid "patrons.pref#EmailFieldPrimary# first valid email address"
@@ -15864,6 +15861,12 @@ msgstr "web_services.pref#SvcMaxReportRows# raðir í skýrslu í gegnum vefþj�
 #~ msgid "circulation.pref#SCOMainUserBlock# Include the following HTML on the the web-based self checkout screen:"
 #~ msgstr "opac.pref#opacheader# Include the following HTML in the header of all pages in the OPAC:"
 
+# Circulation > Interface > AllowAllMessageDeletion
+# Circulation > Interface
+#, fuzzy
+#~ msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Do"
+#~ msgstr "circulation.pref#AllowAllMessageDeletion# Allow"
+
 # Circulation > Self check-out module > SelfCheckHelpMessage
 # OPAC > Appearance
 #, fuzzy
@@ -15956,10 +15959,6 @@ msgstr "web_services.pref#SvcMaxReportRows# raðir í skýrslu í gegnum vefþj�
 # Patrons > Notices and notifications
 #, fuzzy
 #~ msgid "patrons.pref#AutoEmailPrimaryAddress# alternate"
-#~ msgstr "die Ausweisnummer"
-
-# Patrons > Notices and notifications
-#~ msgid "patrons.pref#AutoEmailPrimaryAddress# cardnumber as"
 #~ msgstr "die Ausweisnummer"
 
 # Patrons > Notices and notifications
