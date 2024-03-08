@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-08 03:02+0000\n"
-"PO-Revision-Date: 2024-03-05 03:01+0000\n"
+"PO-Revision-Date: 2024-03-09 03:01+0000\n"
 "Last-Translator: tigran <tigran@flib.sci.am>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hy-Armn\n"
@@ -7025,9 +7025,9 @@ msgid "Cannot take patron photo."
 msgstr "Չի կարող նկարել ընթերցողին։"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
-#, fuzzy, c-format
+#, c-format
 msgid "The patron must have a card number before a patron photo can be uploaded."
-msgstr "Հաճախորդը պետք է ունենա քարտի համար, նախքան հաճախորդի լուսանկարը վերբեռնելը."
+msgstr "Հաճախորդը պետք է ունենա քարտի թիվ, նախքան հաճախորդի լուսանկարը վերբեռնելը."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:19
@@ -11657,14 +11657,14 @@ msgid "Any item"
 msgstr "Ցանկացած նյութ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/place_booking.inc:35
-#, fuzzy, c-format
+#, c-format
 msgid "Booking dates: "
-msgstr "Ամրագրումներ ("
+msgstr "Ամրագրումների ամսաթվեր: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/place_booking.inc:39
 #, c-format
 msgid "Select the booking start and end date"
-msgstr ""
+msgstr "Ընտրեք ամրագրման մեկնարկի և ավարտի ամսաթիվը"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/resolve_return_claim.inc:7
 #, c-format
@@ -11818,9 +11818,9 @@ msgid "Administrator account created!"
 msgstr "Ադմինիստրատորի հաշիվը ստեղծված է։"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:14
-#, fuzzy, c-format
+#, c-format
 msgid "The patron has not been created! Card number or Userid may already exist."
-msgstr "Ընթերցողը չի ստեղծվել։ Քարտի համարը կամ օգտվողի id միգուցե առկա են։"
+msgstr "Ընթերցողը չի ստեղծվել։ Քարտի թիվը կամ օգտվողի id միգուցե առկա են։"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:139
@@ -27973,7 +27973,7 @@ msgstr "Սեփականատեր։ "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:350
 #, c-format
 msgid "Select owner"
-msgstr "Ընտրիր սեփականատիրոջը"
+msgstr "Ընտրեք սեփականատիրոջը"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:351
 #, c-format
@@ -27998,7 +27998,7 @@ msgstr "Օգտվողներ:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:378
 #, c-format
 msgid "Add users"
-msgstr "Ավելացրու օգտվողներ"
+msgstr "Ավելացնել օգտվողներ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:391
 #, c-format
@@ -44575,7 +44575,6 @@ msgstr "Փնտրիր ընթերցողին"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:444
-#, fuzzy
 msgid "Enter patron card number or name"
 msgstr "Մուտք արա ընթերցողի քարտի թիվը կամ անունը"
 
@@ -44752,9 +44751,9 @@ msgid "Show any items currently checked out:"
 msgstr "Ցույց տուր այն նյութերը, որոնք սպասարկված են:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:192
-#, fuzzy, c-format
+#, c-format
 msgid "Name or card number:"
-msgstr "Անուն կամ Քարտի համար:"
+msgstr "Անուն կամ քարտի թիվ:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:193
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:343
@@ -46106,9 +46105,9 @@ msgstr "Դուրս տրումներ:"
 #. %2$s:  ELSE 
 #. %3$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1338
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s Not checked out %s "
-msgstr "%s Չի սպասարկված %s "
+msgstr "%s %s NՉի սպասարկված %s "
 
 #. %1$s:  item.barcode | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1391
@@ -51152,7 +51151,7 @@ msgstr "Դատարկ ընտրանք"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:592
 #, c-format
 msgid "Add guarantor"
-msgstr "Ավելացրու երաշխավորին"
+msgstr "Ավելացնել երաշխավոր"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:597
 #, c-format
@@ -55664,7 +55663,7 @@ msgstr "Կառավարչի անունը"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:172
 #, c-format
 msgid "Patron card number"
-msgstr "Ընթերցողի քարտի համարը"
+msgstr "Հաճախորդի քարտի թիվը"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:175
 #, c-format
@@ -58841,7 +58840,7 @@ msgstr "Հասցեատերեր:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:96
 #, c-format
 msgid "Add recipients"
-msgstr "Ավելացրու Հասցեատերեր"
+msgstr "Ավելացնել հասցեատերեր"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:98
 #, c-format
@@ -60573,7 +60572,7 @@ msgstr "Խմբագրել առաջարկը #%s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:78
 #, c-format
 msgid "Add suggestion"
-msgstr "Ավելացրու առաջարկություն"
+msgstr "Ավելացնել առաջարկություն"
 
 #. %1$s:  suggestionid | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:83
@@ -60751,7 +60750,7 @@ msgstr "%s | Նախկինում %s %s (%s) %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:973
 #, c-format
 msgid "Select manager"
-msgstr "Ընտրիր կառավարիչին"
+msgstr "Ավելացնել կառավարիչ"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:571
 #, c-format
