@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-08 03:02+0000\n"
+"POT-Creation-Date: 2024-03-09 03:02+0000\n"
 "PO-Revision-Date: 2023-11-02 11:12+0000\n"
 "Last-Translator: Saralin <c108126114@nkust.edu.tw>\n"
 "Language-Team: Koha Translation Team\n"
@@ -55,7 +55,7 @@ msgstr "編輯"
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1099
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:10
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:406
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:407
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:79
 msgid "Delete"
@@ -1259,8 +1259,9 @@ msgstr "修改此類型的預設訊息偏好嗎？"
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:38
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:55
-msgid "Your concern was sucessfully submitted."
-msgstr ""
+#, fuzzy
+msgid "Your concern was successfully submitted."
+msgstr "關係 #%s 更新成功."
 
 #: koha-tmpl/intranet-tmpl/prog/js/modals/add_catalog_concern.js:46
 #: koha-tmpl/opac-tmpl/bootstrap/js/modals/catalog_concern.js:60
@@ -1324,32 +1325,32 @@ msgstr "修改過"
 msgid "You have made changes to system preferences."
 msgstr "您必須改變系統偏好。"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:149
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:150
 #, fuzzy
 msgid "Are you sure you want to delete this consent item?"
 msgstr "確定刪除此封面嗎？"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:207
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:217
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:229
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:208
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:218
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:230
 #, fuzzy
 msgid "Collapse this section"
 msgstr "勾選以展開此區塊"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:214
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:215
 #, fuzzy
 msgid "Expand this section"
 msgstr "勾選以展開此區塊"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:248
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:249
 msgid "Note: _ALL_ value will override all other values"
 msgstr "說明：_ALL_ 的值將取代其他的值"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:259
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:260
 msgid "The following values are not formatted correctly:"
 msgstr "以下值非正確的格式："
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:371
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:372
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:254
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:124
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:152
@@ -1370,11 +1371,11 @@ msgstr "以下值非正確的格式："
 msgid "Name"
 msgstr "姓名"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:372
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:376
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:388
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:392
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:396
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:373
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:377
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:389
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:393
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:397
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:31
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:53
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:29
@@ -1417,7 +1418,7 @@ msgstr "姓名"
 msgid "Required"
 msgstr "必備"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:375
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:376
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:35
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:284
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:43
@@ -1432,48 +1433,48 @@ msgstr "必備"
 msgid "Description"
 msgstr "說明"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:379
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:380
 msgid "Requires consent in OPAC"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:383
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:384
 msgid "Requires consent in staff interface"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:387
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:388
 msgid "String used to identify cookie name"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:391
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:392
 msgid "Cookie domain"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:395
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:396
 msgid "Cookie path"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:402
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:403
 msgid "Expand"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:403
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:404
 #, fuzzy
 msgid "Collapse"
 msgstr "勾選以展開此區塊"
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:419
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:420
 msgid "You must complete all fields"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:465
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:466
 msgid "Unable to Base64 decode value stored in CookieConsentedJS syspref: "
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:473
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:474
 msgid "Unable to JSON parse decoded value stored in CookieConsentedJS syspref: "
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:483
+#: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:484
 #, fuzzy
 msgid "Add new code"
 msgstr "新增期間"
