@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-09 03:03+0000\n"
-"PO-Revision-Date: 2024-03-03 03:00+0000\n"
+"PO-Revision-Date: 2024-03-11 03:00+0000\n"
 "Last-Translator: Илиян Дамянов <aioiliyan@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: bg-Cyrl\n"
@@ -7025,7 +7025,7 @@ msgid "Cannot take patron photo."
 msgstr "Не може да се направи снимка на читател."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
-#, fuzzy, c-format
+#, c-format
 msgid "The patron must have a card number before a patron photo can be uploaded."
 msgstr "Читателят трябва да има валидна читателска карта, преди да може да бъде качена снимка на читателя."
 
@@ -11656,14 +11656,14 @@ msgid "Any item"
 msgstr "Всички екземпляри"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/place_booking.inc:35
-#, fuzzy, c-format
+#, c-format
 msgid "Booking dates: "
-msgstr "Резервации ("
+msgstr "Дати за резервация: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/place_booking.inc:39
 #, c-format
 msgid "Select the booking start and end date"
-msgstr ""
+msgstr "Изберете начална и крайна дата на резервацията"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/resolve_return_claim.inc:7
 #, c-format
@@ -11817,7 +11817,7 @@ msgid "Administrator account created!"
 msgstr "Създаден е администраторски акаунт!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:14
-#, fuzzy, c-format
+#, c-format
 msgid "The patron has not been created! Card number or Userid may already exist."
 msgstr "Читателят не е създаден! Номера на читателската карта или идентификаторът ID на читателя може вече да съществува."
 
@@ -44574,7 +44574,6 @@ msgstr "Търсене на читател"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:444
-#, fuzzy
 msgid "Enter patron card number or name"
 msgstr "Въведете номер на читателска карта или име"
 
@@ -44751,7 +44750,7 @@ msgid "Show any items currently checked out:"
 msgstr "Показване на всички заети екземпляри:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:192
-#, fuzzy, c-format
+#, c-format
 msgid "Name or card number:"
 msgstr "Име или номер на читателска карта:"
 
@@ -46105,9 +46104,9 @@ msgstr "Заемания:"
 #. %2$s:  ELSE 
 #. %3$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1338
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s Not checked out %s "
-msgstr "%s Свободен %s "
+msgstr "%s%s Свободен %s "
 
 #. %1$s:  item.barcode | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1391
@@ -58101,9 +58100,9 @@ msgstr "Очаква се резервация в %s от %s"
 #. %5$s:  END # /IF itemloo.reservedate 
 #. %6$s:  IF itemloo.item_level_holds == "N" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:865
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s Not on hold %s %s "
-msgstr "%s %s Не е резервиран %s %s "
+msgstr "%s%s%s %s Не е резервиран %s %s "
 
 #. %1$s:  ELSIF itemloo.item_level_holds == "F" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:874
@@ -60573,7 +60572,7 @@ msgstr "Редактиране на предложение #%s"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:78
 #, c-format
 msgid "Add suggestion"
-msgstr "Предложение за покупка"
+msgstr "Добавяне на предложение"
 
 #. %1$s:  suggestionid | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:83
