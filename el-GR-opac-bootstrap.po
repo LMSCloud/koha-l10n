@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11.15.000\n"
 "POT-Creation-Date: 2024-03-02 05:23+0000\n"
-"PO-Revision-Date: 2024-02-21 07:42+0000\n"
-"Last-Translator: dataly <gveranis@dataly.gr>\n"
+"PO-Revision-Date: 2024-03-11 03:13+0000\n"
+"Last-Translator: Eugenios Papadopoulos <eugenios.papadopoulos@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: el-GR\n"
 "MIME-Version: 1.0\n"
@@ -210,7 +210,7 @@ msgstr "Πίστωση"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/accounts.inc:38
 #, c-format
 msgid "Discount"
-msgstr ""
+msgstr "Έκπτωση"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/accounts.inc:39
 #, c-format
@@ -270,7 +270,7 @@ msgstr "(Αντικαταστάθηκε)"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/accounts.inc:56
 #, c-format
 msgid "(Refunded)"
-msgstr ""
+msgstr "(Επιστροφή χρημάτων)"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/accounts.inc:57
 #, c-format
@@ -948,7 +948,7 @@ msgstr "μέχρι "
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:160
 #, c-format
 msgid "Pending for next available item of item type '%s'"
-msgstr ""
+msgstr "Σε εκκρεμότητα για το επόμενο διαθέσιμο αντίτυπο του τύπου τεκμηρίου '%s'"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:162
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-holdshistory.tt:164
@@ -1000,9 +1000,9 @@ msgstr "Περίληψη όλων των κρατήσεων που έχουν α
 #. %15$s:  #     [ WRAPPER tabs id= "tabs_container_id" ]                                                        
 #. %16$s:  #         [ WRAPPER tabs_nav ]                                                                        
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:22
-#, c-format
+#, c-format, fuzzy
 msgid "%s %s %s %s %s %s %s %s %s %s %s%s %s %s %s %s [%% # [ WRAPPER tab_item tabname= \"tab_name_1\" bt_active= 1 ] "
-msgstr ""
+msgstr "%s %s %s %s %s %s %s %s %s %s %s%s %s %s %s %s [%% # [ WRAPPER tab_item tabname= \"tab_name_1\" bt_active= 1 ] "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:40
 #, fuzzy, c-format
@@ -1090,7 +1090,7 @@ msgstr "Ημερομηνία"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/item-status.inc:12
 #, c-format
 msgid "Programming error, item-status.inc must be called with a Koha::Item object."
-msgstr ""
+msgstr "Σφάλμα προγραμματισμού, το item-status.inc πρέπει αν εκτελείται με το Koha::Item."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/item-status.inc:43
 #, c-format
@@ -1167,7 +1167,7 @@ msgstr "Δε δανείζεται %s"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/item-status.inc:109
 #, c-format
 msgid "In bundle: "
-msgstr ""
+msgstr "Σε δέσμη: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/item-status.inc:118
 #, c-format
@@ -2721,7 +2721,7 @@ msgstr "Μέσος όρος βαθμολόγησης: %s (%s ψήφοι)"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-suggestions.tt:404
 #, c-format
 msgid "Summary"
-msgstr "Περίληψη"
+msgstr "Σύνοψη"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/usermenu.inc:17
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-account.tt:48
@@ -2731,9 +2731,9 @@ msgid "Charges"
 msgstr "Χρεώσεις"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/usermenu.inc:25
-#, fuzzy, c-format
+#, c-format
 msgid "Personal details"
-msgstr "Τα προσωπικά σας στοιχεία"
+msgstr "Προσωπικά στοιχεία"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/usermenu.inc:29
 #, fuzzy, c-format
@@ -2780,7 +2780,7 @@ msgid "Recalls history"
 msgstr "Πλήρης ιστορικό"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/usermenu.inc:111
-#, fuzzy, c-format
+#, c-format
 msgid "Messaging"
 msgstr "Μηνύματα"
 
