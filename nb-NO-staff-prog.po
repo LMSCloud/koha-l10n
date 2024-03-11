@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-09 03:03+0000\n"
-"PO-Revision-Date: 2024-03-09 03:01+0000\n"
+"PO-Revision-Date: 2024-03-12 03:00+0000\n"
 "Last-Translator: Magnus Enger <magnus@enger.priv.no>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: nb-NO\n"
@@ -4922,9 +4922,9 @@ msgid "Edit items"
 msgstr "Rediger eksemplarer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:65
-#, fuzzy, c-format
+#, c-format
 msgid "Edit items in a batch"
-msgstr "Rediger eksemplarer i parti"
+msgstr "Rediger eksemplarer i batch"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:69
 #, c-format
@@ -7027,7 +7027,7 @@ msgid "Cannot take patron photo."
 msgstr "Kan ikke ta bilde av låner."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
-#, fuzzy, c-format
+#, c-format
 msgid "The patron must have a card number before a patron photo can be uploaded."
 msgstr "Låneren må ha et kortnummer før et bilde kan lastes opp."
 
@@ -11658,14 +11658,14 @@ msgid "Any item"
 msgstr "Hvilket som helst eksemplar"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/place_booking.inc:35
-#, fuzzy, c-format
+#, c-format
 msgid "Booking dates: "
-msgstr "Reservasjoner ("
+msgstr "Booking-datoer: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/place_booking.inc:39
 #, c-format
 msgid "Select the booking start and end date"
-msgstr ""
+msgstr "Velg start- og sluttdato for booking"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/resolve_return_claim.inc:7
 #, c-format
@@ -11819,9 +11819,9 @@ msgid "Administrator account created!"
 msgstr "Administratorkonto opprettet!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:14
-#, fuzzy, c-format
+#, c-format
 msgid "The patron has not been created! Card number or Userid may already exist."
-msgstr "Låneren er ikke opprettet! Kortnummer eller bruker-ID finnes kanskje allerede."
+msgstr "Låneren er ikke opprettet! Kortnummer eller brukernavn finnes kanskje allerede."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:139
@@ -12309,9 +12309,9 @@ msgid "Search for patron"
 msgstr "Søk etter låner"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:37
-#, fuzzy, c-format
+#, c-format
 msgid "Search: "
-msgstr "Søk:"
+msgstr "Søk: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:383
@@ -12338,20 +12338,20 @@ msgstr "Bibliotek: "
 
 #. %1$s:  PROCESS 'av-build-dropbox.inc' no_id => 1, name="sort1_filter", category="Bsort1", empty=1, size = 20  name=sort1_filter
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:74
-#, fuzzy, c-format
+#, c-format
 msgid "Sort 1: %s "
-msgstr "Sorteringing 1:"
+msgstr "Sortering 1: %s "
 
 #. %1$s:  PROCESS 'av-build-dropbox.inc' no_id => 1, name="sort2_filter", category="Bsort2", empty=1, size = 20  name=sort2_filter
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:81
-#, fuzzy, c-format
+#, c-format
 msgid "Sort 2: %s "
-msgstr "Sortering 2:"
+msgstr "Sortering 2: %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:92
-#, fuzzy, c-format
+#, c-format
 msgid "Search type: "
-msgstr "Søkstype:"
+msgstr "Søketype: "
 
 #. INPUT type=button
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:110
@@ -35864,9 +35864,9 @@ msgstr "Søket vil heve relevansen til vektede felt"
 #. %8$s:  CASE 'biblios' 
 #. %9$s:  WRAPPER tab_item tabname= "mapping_biblios" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:118
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s Search fields %s %s %s %s %s "
-msgstr "%s %s %s Søkefelt %s %s %s %s %s "
+msgstr "%s %s %s %s Søkefelt %s %s %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:141
 #, c-format
@@ -42703,14 +42703,14 @@ msgid "Attach an item %s to %s%s"
 msgstr "Knytt et eksemplar %s til %s%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/moveitem.tt:50
-#, fuzzy, c-format
+#, c-format
 msgid "ERROR: Unable to create the new item."
-msgstr "%sFEIL. Kunne ikke opprette det nye eksemplaret."
+msgstr "FEIL: Kunne ikke opprette det nye eksemplaret."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/moveitem.tt:52
-#, fuzzy, c-format
+#, c-format
 msgid "ERROR: Unable to get the item."
-msgstr "%s %sFEIL: Kan ikke hente eksemplaret."
+msgstr "FEIL: Kan ikke hente eksemplaret."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/moveitem.tt:57
 #, c-format
@@ -44584,9 +44584,8 @@ msgstr "Søk etter låner"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:444
-#, fuzzy
 msgid "Enter patron card number or name"
-msgstr "Legg inn lånekortnummeret eller en del av navnet"
+msgstr "Legg inn lånekortnummeret eller navnet"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:460
@@ -44761,7 +44760,7 @@ msgid "Show any items currently checked out:"
 msgstr "Vis alle eksemplarer som er utlånt nå:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:192
-#, fuzzy, c-format
+#, c-format
 msgid "Name or card number:"
 msgstr "Navn eller kortnummer:"
 
@@ -46115,9 +46114,9 @@ msgstr "Utlån:"
 #. %2$s:  ELSE 
 #. %3$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1338
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s Not checked out %s "
-msgstr "%s Ikke lånt ut %s "
+msgstr "%s %s Ikke utlånt %s "
 
 #. %1$s:  item.barcode | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1391
@@ -50030,9 +50029,9 @@ msgid "Pay"
 msgstr "Betal"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:185
-#, fuzzy, c-format
+#, c-format
 msgid "Void payment "
-msgstr "Annuller betaling"
+msgstr "Annuller betaling "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:196
 #, c-format
@@ -56266,9 +56265,9 @@ msgid "Build and run reports"
 msgstr "Bygg og kjør rapporter"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:186
-#, fuzzy, c-format
+#, c-format
 msgid "Used saved"
-msgstr "Bruk lagret"
+msgstr "Brukte lagret"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:190
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1238
@@ -56469,9 +56468,9 @@ msgstr "Matrise"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:580
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:668
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:707
-#, fuzzy, c-format
+#, c-format
 msgid "&lt;&lt; Back"
-msgstr "&lt;&lt;Tilbake til forslag"
+msgstr "&lt;&lt; Tilbake"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:533
 #, c-format
@@ -58111,9 +58110,9 @@ msgstr "Reservert foeventet på %s siden %s"
 #. %5$s:  END # /IF itemloo.reservedate 
 #. %6$s:  IF itemloo.item_level_holds == "N" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:865
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s Not on hold %s %s "
-msgstr "%s %s Ikke reservert %s %s "
+msgstr "%s %s %s %s Ikke reservert %s %s "
 
 #. %1$s:  ELSIF itemloo.item_level_holds == "F" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:874
@@ -58249,9 +58248,8 @@ msgstr "Ingen kommentarer å endre."
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:131
-#, fuzzy
 msgid "Are you sure you want to delete this comment?"
-msgstr "Er du sikker på at du vil slette dette kurset?"
+msgstr "Er du sikker på at du vil slette denne kommentaren?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/addItems.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/rotatingCollections.tt:63
@@ -60529,9 +60527,9 @@ msgid "Subscriptions renewed."
 msgstr "Abonnementene er fornyet."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:34
-#, fuzzy, c-format
+#, c-format
 msgid "Subscription renewal for: "
-msgstr "Fornying av abonnement for %s"
+msgstr "Fornying av abonnement for: "
 
 #. %1$s:  subscription.bibliotitle | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:53
