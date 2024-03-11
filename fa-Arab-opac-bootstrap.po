@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-02 03:02+0000\n"
-"PO-Revision-Date: 2023-11-20 12:57+0000\n"
+"PO-Revision-Date: 2024-03-12 03:00+0000\n"
 "Last-Translator: Soghra Golmaghani <soghragolmaghani@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fa-Arab\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Pootle-Revision: 1\n"
 "X-Pootle-Path: /fa/22.11/fa-Arab-opac-bootstrap.po\n"
 "X-POOTLE-MTIME: 1697954413.958114\n"
@@ -146,12 +146,12 @@ msgstr "هزینه دستی"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/accounts.inc:19
 #, c-format
 msgid "New card"
-msgstr "بطاقة جديدة"
+msgstr "کارت جدید"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/accounts.inc:20
 #, c-format
 msgid "Fine"
-msgstr "الغرامة"
+msgstr "جریمه"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/accounts.inc:21
 #, c-format
@@ -433,7 +433,7 @@ msgstr "هیچ"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/biblio-title-head.inc:1
 #, c-format
 msgid "%s %s %s No title %s %s%s,%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s "
-msgstr "‎%s %s %s No title %s %s%s,%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s "
+msgstr "‎%s %s %s بدون عنوان %s %s%s,%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/biblio-title.inc:7
 #, c-format
@@ -470,7 +470,7 @@ msgstr "فیلتر را پاک کنید"
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/columns_settings.inc:3
 msgid "Columns"
-msgstr "الأعمدة"
+msgstr "ستون ها"
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/columns_settings.inc:3
@@ -884,7 +884,7 @@ msgstr "متن برگه 1"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:40
 #, c-format
 msgid "[ END ] %%] [%% # [ WRAPPER tab_item tabname= \"tab_name_2\" ] "
-msgstr "[ END ] %%] [%% # [ WRAPPER tab_item tabname= \"tab_name_2\" ] "
+msgstr "[ پایان ] %%] [%% # [ WRAPPER tab_item tabname= \"tab_name_2\" ] "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:41
 #, c-format
@@ -904,7 +904,7 @@ msgstr "متن برگه 2"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:41
 #, c-format
 msgid "[ END ] %%] %s %s %s %s %s %s %s %s %s %s "
-msgstr "[ END ] %%] %s %s %s %s %s %s %s %s %s %s "
+msgstr "[ پایان ] %%] %s %s %s %s %s %s %s %s %s %s "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/html_helpers.inc:111
 #, c-format
@@ -1066,7 +1066,7 @@ msgstr "در حال انتقال از %s به %s از آنجا که %s"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:810
 #, c-format
 msgid "On hold"
-msgstr "محجوز"
+msgstr "در رزرو"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/item-status.inc:89
 #, c-format
@@ -1140,7 +1140,7 @@ msgstr "%s %s %s ‏Koha‏ آنلاین %s "
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead-sco.inc:31
 #, c-format
 msgid "Help"
-msgstr "المساعدة"
+msgstr "راهنما"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead-sci.inc:37
 #, c-format
@@ -1360,7 +1360,7 @@ msgstr "فروست"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sco/sco-main.tt:350
 #, c-format
 msgid "Call number"
-msgstr "شماره بازیابی "
+msgstr "شماره بازیابی"
 
 #. INPUT type=text name=q
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:247
@@ -1387,7 +1387,7 @@ msgstr "کتابخانه‌ها"
 #. OPTGROUP
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:271
 msgid "Groups"
-msgstr "گروهها"
+msgstr "گروه ها"
 
 #. BUTTON
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:300
@@ -1809,7 +1809,7 @@ msgstr "آیا شما برای حذف پیشینه جستجو اطمینان د�
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-topissues.tt:127
 #, c-format
 msgid "Place hold"
-msgstr "رزرو کردن"
+msgstr "محل رزرو"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-detail-sidebar.inc:15
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:21
@@ -2035,7 +2035,7 @@ msgstr "مکان ها"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:62
 #, c-format
 msgid "Item types"
-msgstr "أنواع المادة"
+msgstr "نوع آیتم"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:63
 #, c-format
@@ -2147,7 +2147,7 @@ msgstr "همه انواع منابع"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-topissues.inc:49
 #, c-format
 msgid "Limit to:"
-msgstr "حدّد إلى:"
+msgstr "محدود به:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-topissues.inc:51
 #, c-format
@@ -2197,7 +2197,7 @@ msgstr "یک فرمت دانلود را انتخاب کنید"
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/overdrive-checkout.inc:17
 #, c-format
 msgid "Save changes"
-msgstr "إحفظ التغييرات"
+msgstr "ذخیره تغییرات"
 
 #. INPUT type=submit
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/overdrive-login.inc:5
@@ -2375,7 +2375,7 @@ msgstr "تاریخ نشر/حق مولف: جدیدترین به قدیمی تری
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/resort_form.inc:47
 #, c-format
 msgid "Publication/Copyright date: Oldest to newest"
-msgstr "تاریخ نشر/حق مولف:  قدیمی ترین به جدیدترین"
+msgstr "تاریخ نشر/حق مولف: قدیمی ترین به جدیدترین"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/resort_form.inc:50
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/resort_form.inc:52
@@ -2611,7 +2611,7 @@ msgstr "(انجام شده)"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:287
 #, c-format
 msgid "Tag status here. "
-msgstr "وضعیت برچسب در اینجا."
+msgstr "وضعیت برچسب در اینجا. "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/title-actions-menu.inc:45
 #, c-format
@@ -2657,13 +2657,13 @@ msgstr "مرا ارزیابی کن"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:334
 #, c-format
 msgid "Your rating: %s."
-msgstr "رتبه بندی شما: %s, "
+msgstr "امتیاز شما: %s."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/user-star-ratings.inc:45
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/user-star-ratings.inc:49
 #, c-format
 msgid "Cancel rating"
-msgstr "لغو رده‌بندی"
+msgstr "لغو امتیاز"
 
 #. For the first occurrence,
 #. %1$s:  rating_avg | html 
@@ -2702,20 +2702,20 @@ msgstr "موافقت کردن"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-tags.tt:40
 #, c-format
 msgid "Tags"
-msgstr "الوسوم"
+msgstr "برچسب ها"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/usermenu.inc:49
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-passwd.tt:95
 #, c-format
 msgid "Change password"
-msgstr "تغيير كلمة المرور"
+msgstr "تغيير رمزعبور"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/usermenu.inc:67
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:44
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-readingrecord.tt:114
 #, c-format
 msgid "Checkout history"
-msgstr "تاريخ الإعارة"
+msgstr "پیشینیه امانت"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/usermenu.inc:74
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-memberentry.tt:153
@@ -3288,7 +3288,7 @@ msgstr "شناسه کاربری_نوع"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:160
 #, c-format
 msgid "defines the type of record identifier being used in the request, possible values: "
-msgstr "نوع شناسگر رکورد که در درخواست به کار رفته است را تعریف می شود، مقادیر ممکن:"
+msgstr "نوع شناسه رکورد که در درخواست به کار رفته است مقادیر ممکن را تعریف می کند: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:162
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:169
@@ -3321,17 +3321,17 @@ msgstr "(اختیاری)"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:166
 #, c-format
 msgid "return_type"
-msgstr "return_type"
+msgstr "نوع_بازگشت"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:167
 #, c-format
 msgid "requests a particular level of detail in reporting availability, possible values: "
-msgstr "سطحی ویژه از جزئیات در گزارش دسترسی را درخواست می کند، مقادیر ممکن:"
+msgstr "سطحی ویژه از جزئیات در گزارش دسترسی را درخواست می کند، مقادیر ممکن: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:173
 #, c-format
 msgid "return_fmt"
-msgstr "return_fmt"
+msgstr "rبرگشت _fmt"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:174
 #, c-format
@@ -3359,7 +3359,7 @@ msgstr "زبان خاصی را برای خروجی درخواست می کند، 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:867
 #, c-format
 msgid "Example call"
-msgstr "تماس مثال"
+msgstr "مثال تماس"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:180
 #, c-format
@@ -3378,7 +3378,7 @@ msgstr "ilsdi.pl?service=GetAvailability&amp;id=1+2+99999&amp;id_type=item "
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:872
 #, c-format
 msgid "Example response"
-msgstr "پاسخ مثال"
+msgstr "نمونه پاسخ"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:185
 #, c-format
@@ -3410,7 +3410,7 @@ msgstr "طرح ابرداده ای که در آن رکوردها مقاددیر 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:841
 #, c-format
 msgid "Example Call"
-msgstr "تماس مثال"
+msgstr "مثال تماس"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:258
 #, c-format
@@ -3455,22 +3455,22 @@ msgstr "&lt;xml version=\"1.0\" encoding=\"UTF-8\"&gt;; &lt;GetAuthorityRecords&
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:515
 #, c-format
 msgid "Looks up a patron in the ILS by an identifier, and returns the ILS identifier for that patron, aka the patron identifier."
-msgstr "یک کاربر در ILS توسط یک شناسگر را پیدا می کند، و شناسگر ILS را برای آن کاربر باز می گرداند، شناسگر کاربر را می پرسد."
+msgstr "یک کاربر در ILS توسط یک شناسه جستجو می کند، و شناسه ILS را برای آن کاربر با نام مستعار کاربر باز می گرداند،"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:521
 #, c-format
 msgid "an identifier used to look up the patron in Koha"
-msgstr "یک شناسگر مورد استفاده برای یافتن کاربر در کوها"
+msgstr "یک شناسه برای جستجوی کاربر در کوها استفاده می شود"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:523
 #, c-format
 msgid "the type of the identifier, possible values: "
-msgstr "نوع شناسگر، مقادیر ممکن:"
+msgstr "نوع شناسگر، مقادیر ممکن: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:525
 #, c-format
 msgid "cardnumber"
-msgstr "شماره سفارش برگه"
+msgstr "شماره کارت"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:526
 #, c-format
@@ -3480,7 +3480,7 @@ msgstr "شناسه کاربری"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:527
 #, c-format
 msgid "email"
-msgstr "بريد إلكتروني"
+msgstr "پست الکترونیکی"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:528
 #, c-format
@@ -3495,7 +3495,7 @@ msgstr "نام خانوادگی"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:530
 #, c-format
 msgid "firstname"
-msgstr "نام:"
+msgstr "نام"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:536
 #, c-format
@@ -3510,7 +3510,7 @@ msgstr "&lt;?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?&gt; &lt;LookupPatron&
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:549
 #, c-format
 msgid "Authenticates a user's login credentials and returns the identifier for the patron."
-msgstr " اعتبار ورود یک کاربر را تأئید می کند و شناسگر را برای کاربر عودت می دهد. "
+msgstr "اعتبار ورود یک کاربر را تأئید می کند و شناسه کاربر را برمی گرداند."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:553
 #, c-format
@@ -3542,7 +3542,7 @@ msgstr "ilsdi.pl?service=AuthenticatePatron&amp;username=john9&amp;password=soul
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:725
 #, c-format
 msgid "Example Response"
-msgstr "پاسخ مثال"
+msgstr "مثال پاسخ"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:564
 #, c-format
@@ -3563,7 +3563,7 @@ msgstr "اطلاعاتی خاص درباره کاربر برپایه گزینه 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:861
 #, c-format
 msgid "patron_id"
-msgstr "patron_id"
+msgstr "شناسه_کاربر"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:580
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:717
@@ -3635,7 +3635,7 @@ msgstr "نمایش_ویژگی ها"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:590
 #, c-format
 msgid "whether or not to return extended patron attributes information in the response"
-msgstr "در هر صورت بازگرداندن اطلاعات تماس کاربر در پاسخ "
+msgstr "آیا باید اطلاعات ویژگی های کاربر توسعه یافته در پاسخ را برگرداند یا نه"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:594
 #, c-format
@@ -3673,13 +3673,13 @@ msgstr "اطلاعاتی درباره خدمات در دسترس درباره م
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:863
 #, c-format
 msgid "item_id"
-msgstr "item_id"
+msgstr "شناسه_آیتم"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:743
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:768
 #, c-format
 msgid "system item identifier"
-msgstr "شناسگر منبع سیستم"
+msgstr "شناسه منبع سیستم"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:747
 #, c-format
@@ -3719,7 +3719,7 @@ msgstr "&lt;?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?&gt; &lt;RenewLoan&gt;
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:789
 #, c-format
 msgid "Creates, for a patron, a title-level hold request on a given bibliographic record in Koha."
-msgstr "برای یک کاربر، درخواست رزرو در سطح-عنوان برای یک پیشینه کتابشناختی کوها را، ایجاد می کند."
+msgstr "برای یک کاربر، درخواست رزرو در سطح عنوان برای یک پیشینه کتابشناختی کوها را ایجاد می کند."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:794
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:828
@@ -3742,7 +3742,7 @@ msgstr "شناسگر ILS برای پیشینه کتابسناختی که برا�
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:797
 #, c-format
 msgid "request_location"
-msgstr "request_location"
+msgstr "درخواست_موقعیت"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:798
 #, c-format
@@ -3753,13 +3753,13 @@ msgstr "آدرس آی پی جایی که کاربر نهایی درخواست د
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:833
 #, c-format
 msgid "pickup_location"
-msgstr "pickup_location"
+msgstr "محل_دریافت"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:800
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:834
 #, c-format
 msgid "an identifier indicating the location to which to deliver the item for pickup"
-msgstr "یک شناسگر نشان دهنده محل نگهداری را به منظور تحویل منبع برای انتخاب"
+msgstr "شناسه ای که نشان دهنده مکان تحویل کالا برای تحویل است"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:801
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:835
@@ -3777,13 +3777,13 @@ msgstr "تاریخی که پس از آن درخواست های رزرو دیگر
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:837
 #, c-format
 msgid "expiry_date"
-msgstr "تاریخ انقضا"
+msgstr "تاریخ_ انقضاء"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:804
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:838
 #, c-format
 msgid "date after which item returned to shelf if item is not picked up"
-msgstr "تاریخی که پس از آن منبع بازگردانده شده به قفسه، برداشته نشود."
+msgstr "تاریخی که پس از آن در صورت عدم تحویل کالا به قفسه باز می گردد"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:808
 #, c-format
@@ -3857,7 +3857,7 @@ msgstr "برداشته رکوردهای توسعه یافته"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:885
 #, c-format
 msgid "(Use OPAC instead)"
-msgstr "(به جای آن از اپک استفداه شود)"
+msgstr "(به جای آن از اپک استفاده شود)"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:885
 #, c-format
@@ -3906,12 +3906,12 @@ msgstr "(هنوز پشتیبانی نشده است)"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:896
 #, c-format
 msgid "OutputRewritablePage "
-msgstr "OutputRewritablePage "
+msgstr "خروجی صفحه قابل بازنویسی "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:897
 #, c-format
 msgid "OutputIntermediateFormat "
-msgstr "OutputIntermediateFormat "
+msgstr "فرمت متوسط خروجی "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:900
 #, c-format
@@ -3988,7 +3988,7 @@ msgstr "%s%s%sكوها آنلاین%s فهرست به دلیل نگهداری و
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/maintenance.tt:78
 #, c-format
 msgid "site administrator"
-msgstr "مدير الموقع"
+msgstr "مدیر سایت"
 
 #. %1$s:  IF ( LibraryNameTitle ) 
 #. %2$s:  LibraryNameTitle | html 
@@ -4188,7 +4188,7 @@ msgstr "معاملات پرداخت شده را تسویه کنید"
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-account.tt:79
 msgid "Minimum amount needed by this service is %s"
-msgstr "حداقل مقدار مورد نیاز این سرویس %s است"
+msgstr "حداقل مقدار مورد نیاز این سرویس می باشد %s"
 
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-account.tt:79
@@ -4339,7 +4339,7 @@ msgstr "%s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %s and %s "
 #. SELECT name=idx
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:55
 msgid "Choose search type for field %s"
-msgstr "نوع جستجو را برای فیلد انتخاب کنید %s"
+msgstr "انتخاب نوع جستجو را برای فیلد %s"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:56
 #, c-format
@@ -4404,7 +4404,7 @@ msgstr "&nbsp;&nbsp;&nbsp;&nbsp; عبارت نام کنفرانس"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:84
 #, c-format
 msgid "&nbsp;&nbsp;&nbsp;&nbsp; Personal name"
-msgstr "&nbsp;&nbsp;&nbsp;&nbsp; نام شخصی  "
+msgstr "&nbsp;&nbsp;&nbsp;&nbsp; نام شخصی"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:85
 #, c-format
@@ -4486,7 +4486,7 @@ msgstr "مشاهده از (فرم غیرترجیحی) سرفصل ها گنجان
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:718
 #, c-format
 msgid "Item type"
-msgstr "نوع منبع:"
+msgstr "نوع آیتم"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:165
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:146
@@ -4621,7 +4621,7 @@ msgstr "عمومی"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:335
 #, c-format
 msgid "Juvenile"
-msgstr "الحدث"
+msgstr "نوجوان"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:344
 #, c-format
@@ -4662,12 +4662,12 @@ msgstr "ضبط غیر موسیقی"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:934
 #, c-format
 msgid "Format"
-msgstr "تنسيق:"
+msgstr "فرمت"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:362
 #, c-format
 msgid "Any format"
-msgstr "هر شکل"
+msgstr "هر فرمت"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-advsearch.tt:363
 #, c-format
@@ -5336,7 +5336,7 @@ msgstr "در مدخل اصلی"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-authorities-home.tt:76
 #, c-format
 msgid "Order by: "
-msgstr "ترتیب بر حسب:"
+msgstr "سفارش توسط: "
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-authorities-home.tt:79
 #, c-format
@@ -5446,7 +5446,7 @@ msgstr "سبد خرید شما &rsaquo; %s%s%sکوها آنلاین%s فهرست
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:21
 #, c-format
 msgid "Your cart"
-msgstr "سلتك"
+msgstr "سبد خرید شما"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:25
 #, c-format
@@ -7488,7 +7488,7 @@ msgstr "مجموعه کتابخانه:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:886
 #, c-format
 msgid "Status:"
-msgstr "حالة:"
+msgstr "حالت:"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-illrequests.tt:208
 #, c-format
@@ -9644,7 +9644,7 @@ msgstr "تاریخ یادآوری:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:876
 #, c-format
 msgid "Expiration:"
-msgstr "إنتهاء: "
+msgstr "انقضاء:"
 
 #. SPAN
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-recalls.tt:72
@@ -10794,7 +10794,7 @@ msgstr "%s ‏نتیجه، در مجموعه %s یافت شد."
 #. SCRIPT
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-results.tt:592
 msgid "Searching %s..."
-msgstr "‏در حال جستجوی %s..."
+msgstr "‏جستجو کردن %s..."
 
 #. For the first occurrence,
 #. SCRIPT
@@ -10927,7 +10927,7 @@ msgstr "پیشینه جستجوی شما"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-search-history.tt:53
 #, c-format
 msgid "Catalog"
-msgstr "الفهرس"
+msgstr "لیست"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-search-history.tt:54
 #, c-format
@@ -13578,7 +13578,7 @@ msgstr "بارکدها:"
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:154
 #, c-format
 msgid "Check in"
-msgstr "الاعادة"
+msgstr "عودت دادن"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:182
 #, c-format
