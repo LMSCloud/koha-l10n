@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-09 03:03+0000\n"
-"PO-Revision-Date: 2024-02-20 03:00+0000\n"
+"PO-Revision-Date: 2024-03-13 03:00+0000\n"
 "Last-Translator: Nikunj Tyagi <nikunj1@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: hi\n"
@@ -4248,7 +4248,7 @@ msgstr "इस आदेश को संपादित नहीं किय�
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:21
 #, c-format
 msgid "The form submission failed (Wrong CSRF token). Try to come back, refresh the page, then try again."
-msgstr "फ़ॉर्म सबमिशन विफल (गलत CSRF टोकन)। वापस आने का प्रयास करें, पृष्ठ को फिर से ताज़ा करें, फिर प्रयास करें।"
+msgstr "फॉर्म सबमिशन विफल रहा (गलत CSRF टोकन)। वापस आने की कोशिश करें, पृष्ठ को ताज़ा करें, फिर फिर से प्रयास करें।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/blocking_errors.inc:23
 #, c-format
@@ -4921,7 +4921,7 @@ msgid "Edit items"
 msgstr "आयट्म को संपादित करें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:65
-#, fuzzy, c-format
+#, c-format
 msgid "Edit items in a batch"
 msgstr "बैच में आइटम संपादित करें"
 
@@ -7025,9 +7025,9 @@ msgid "Cannot take patron photo."
 msgstr "संरक्षक फोटो नहीं ले सकते।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
-#, fuzzy, c-format
+#, c-format
 msgid "The patron must have a card number before a patron photo can be uploaded."
-msgstr "संरक्षक फोटो अपलोड होने से पहले संरक्षक के पास कार्डनंबर होना चाहिए।"
+msgstr "संरक्षक को एक संरक्षक फोटो अपलोड करने से पहले कार्ड नंबर होना चाहिए।।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:5
 #: koha-tmpl/intranet-tmpl/prog/en/includes/header.inc:19
@@ -11656,14 +11656,14 @@ msgid "Any item"
 msgstr "कोई आइटम"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/place_booking.inc:35
-#, fuzzy, c-format
+#, c-format
 msgid "Booking dates: "
-msgstr "बुकिंग ("
+msgstr "बुकिंग की तारीख: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/place_booking.inc:39
 #, c-format
 msgid "Select the booking start and end date"
-msgstr ""
+msgstr "बुकिंग शुरू और अंतिम तारीख का चयन करें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/resolve_return_claim.inc:7
 #, c-format
@@ -11817,9 +11817,9 @@ msgid "Administrator account created!"
 msgstr "प्रशासक खाता बनाया!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:14
-#, fuzzy, c-format
+#, c-format
 msgid "The patron has not been created! Card number or Userid may already exist."
-msgstr "संरक्षक नहीं बनाया गया है! कार्डनम्बर या यूजरआईडी पहले से मौजूद हो सकता है."
+msgstr "संरक्षक नहीं बनाया गया है! कार्ड संख्या या उपयोगकर्ता पहले से ही मौजूद हो सकता है।।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:139
@@ -12307,9 +12307,9 @@ msgid "Search for patron"
 msgstr "संरक्षक के लिए खोजें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:37
-#, fuzzy, c-format
+#, c-format
 msgid "Search: "
-msgstr "खोजः"
+msgstr "खोज: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:383
@@ -12336,20 +12336,20 @@ msgstr "लाइब्रेरी : "
 
 #. %1$s:  PROCESS 'av-build-dropbox.inc' no_id => 1, name="sort1_filter", category="Bsort1", empty=1, size = 20  name=sort1_filter
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:74
-#, fuzzy, c-format
+#, c-format
 msgid "Sort 1: %s "
-msgstr "क्रमबद्ध 1:"
+msgstr "क्रमबद्ध 1: %s "
 
 #. %1$s:  PROCESS 'av-build-dropbox.inc' no_id => 1, name="sort2_filter", category="Bsort2", empty=1, size = 20  name=sort2_filter
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:81
-#, fuzzy, c-format
+#, c-format
 msgid "Sort 2: %s "
-msgstr "क्रमबद्ध 1:"
+msgstr "टाइप 2: %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:92
-#, fuzzy, c-format
+#, c-format
 msgid "Search type: "
-msgstr "खोज प्रकारः"
+msgstr "खोज प्रकारः "
 
 #. INPUT type=button
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:110
@@ -35856,9 +35856,9 @@ msgstr "खोज भारित क्षेत्र (ओं) को बढ�
 #. %8$s:  CASE 'biblios' 
 #. %9$s:  WRAPPER tab_item tabname= "mapping_biblios" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:118
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s Search fields %s %s %s %s %s "
-msgstr "%s %s %s खोज फ़ील्ड %s %s %s %s %s "
+msgstr "%s %s %s %s खोज फ़ील्ड %s %s %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/searchengine/elasticsearch/mappings.tt:141
 #, c-format
@@ -42693,14 +42693,14 @@ msgid "Attach an item %s to %s%s"
 msgstr "एक आइटम संलग्न%s को %s%s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/moveitem.tt:50
-#, fuzzy, c-format
+#, c-format
 msgid "ERROR: Unable to create the new item."
-msgstr "%sत्रुटि: नया आइटम बनाने में असमर्थ."
+msgstr "त्रुटि: नया आइटम बनाने में असमर्थ।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/moveitem.tt:52
-#, fuzzy, c-format
+#, c-format
 msgid "ERROR: Unable to get the item."
-msgstr "%s %sत्रुटि: आइटम प्राप्त करने में असमर्थ."
+msgstr "त्रुटि: आइटम प्राप्त करने में असमर्थ।"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/moveitem.tt:57
 #, c-format
@@ -44574,7 +44574,6 @@ msgstr "एक संरक्षक खोजें"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:444
-#, fuzzy
 msgid "Enter patron card number or name"
 msgstr "संरक्षक कार्ड नंबर या नाम दर्ज करें"
 
@@ -44751,9 +44750,9 @@ msgid "Show any items currently checked out:"
 msgstr "वर्तमान में चेक आउट किया गया किसी भी आइटम दिखाएँ:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:192
-#, fuzzy, c-format
+#, c-format
 msgid "Name or card number:"
-msgstr "नाम या cardnumber:"
+msgstr "नाम या कार्ड संख्या:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:193
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/modborrowers.tt:343
@@ -46105,9 +46104,9 @@ msgstr "चेकआउट:"
 #. %2$s:  ELSE 
 #. %3$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1338
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s Not checked out %s "
-msgstr "%s चैक आउट नही %s"
+msgstr "%s %sचैक आउट नही %s "
 
 #. %1$s:  item.barcode | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1391
@@ -50021,9 +50020,9 @@ msgid "Pay"
 msgstr "भुगतान करना"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:185
-#, fuzzy, c-format
+#, c-format
 msgid "Void payment "
-msgstr "शून्य भुगतान"
+msgstr "शून्य भुगतान "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/boraccount.tt:196
 #, c-format
@@ -56258,9 +56257,9 @@ msgid "Build and run reports"
 msgstr "बनाएँ और चलाए रिपोर्टें"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:186
-#, fuzzy, c-format
+#, c-format
 msgid "Used saved"
-msgstr "का प्रयोग करें बचाया"
+msgstr "प्रयुक्त बचाया"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:190
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:1238
@@ -56461,9 +56460,9 @@ msgstr "मैट्रिक्स"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:580
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:668
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:707
-#, fuzzy, c-format
+#, c-format
 msgid "&lt;&lt; Back"
-msgstr "&lt;&lt; सुझाव को वापिस"
+msgstr "&lt;&lt; वापस"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:533
 #, c-format
@@ -58103,9 +58102,9 @@ msgstr "होल्ड पर अपेक्षित %s जबसे %s"
 #. %5$s:  END # /IF itemloo.reservedate 
 #. %6$s:  IF itemloo.item_level_holds == "N" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:865
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s Not on hold %s %s "
-msgstr "%s %s होल्ड पर नही %s %s "
+msgstr "%s %s %s %s होल्ड पर नही %s %s "
 
 #. %1$s:  ELSIF itemloo.item_level_holds == "F" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:874
@@ -58241,9 +58240,8 @@ msgstr "कोई टिप्पणी मॉडरेट करने के �
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reviews/reviewswaiting.tt:131
-#, fuzzy
 msgid "Are you sure you want to delete this comment?"
-msgstr "क्या आप वाकई इस पाठ्यक्रम को मिटाना चाहते हैं?"
+msgstr "क्या आप इस टिप्पणी को हटाना चाहते हैं?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/addItems.tt:33
 #: koha-tmpl/intranet-tmpl/prog/en/modules/rotating_collections/rotatingCollections.tt:63
@@ -60521,9 +60519,9 @@ msgid "Subscriptions renewed."
 msgstr "सदस्यताएँ नवीनीकृत"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:34
-#, fuzzy, c-format
+#, c-format
 msgid "Subscription renewal for: "
-msgstr "%s के लिए सदस्यता नवीकरण"
+msgstr "सदस्यता नवीकरण के लिए: "
 
 #. %1$s:  subscription.bibliotitle | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-renew.tt:53
