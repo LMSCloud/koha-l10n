@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-13 03:02+0000\n"
-"PO-Revision-Date: 2024-03-07 03:00+0000\n"
+"PO-Revision-Date: 2024-03-14 03:00+0000\n"
 "Last-Translator: Emmanuel Bétemps <e.betemps@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fr-FR\n"
@@ -190,7 +190,7 @@ msgstr "flûte"
 
 #: Koha/CodeList/Unimarc/MediumOfPerformance.pm:82
 msgid "tabor pipe"
-msgstr "tabor pipe"
+msgstr "galoubet"
 
 #: Koha/CodeList/Unimarc/MediumOfPerformance.pm:83
 msgid "gemshorn"
@@ -387,7 +387,7 @@ msgstr "clairon à valve"
 
 #: Koha/CodeList/Unimarc/MediumOfPerformance.pm:137
 msgid "wagner tuba"
-msgstr "wagner tuba"
+msgstr "tuba Wagner"
 
 #: Koha/CodeList/Unimarc/MediumOfPerformance.pm:138
 msgid "brass - other"
@@ -427,7 +427,7 @@ msgstr "violon, viole (famille)"
 
 #: Koha/CodeList/Unimarc/MediumOfPerformance.pm:152
 msgid "lira da braccio"
-msgstr "lira da braccio"
+msgstr "lira da braccio (lyre de bras)"
 
 #: Koha/CodeList/Unimarc/MediumOfPerformance.pm:153
 msgid "lirone"
@@ -1743,7 +1743,7 @@ msgstr "Prix réel remisé HT."
 
 #: Koha/Database/Columns.pm:112
 msgid "Actual cost, tax incl."
-msgstr "Prix réel remisé TTC"
+msgstr "Prix réel TTC"
 
 #: Koha/Database/Columns.pm:113
 msgid "Actual cost"
@@ -3326,7 +3326,7 @@ msgstr "Roumanie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:144
 msgid "Russian Fed."
-msgstr "Russie"
+msgstr "Fédération de Russie"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/country-list.inc:145
 msgid "Rwanda"
@@ -3684,7 +3684,6 @@ msgid "Manager name"
 msgstr "Nom du gestionnaire"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-#, fuzzy
 msgid "Patron card number"
 msgstr "Numéro de carte d'adhérent"
 
@@ -4596,9 +4595,8 @@ msgstr "Commande"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:1214
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:778
-#, fuzzy
 msgid "Add user"
-msgstr "Ajouter ligne de commande"
+msgstr "Ajouter un utilisateur"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basketgroup.tt:10
 #, perl-brace-format
@@ -4909,7 +4907,7 @@ msgstr "Budgets"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgetperiods.tt:315
 #, perl-brace-format
 msgid "Confirm deletion of budget '{budget_period_description}'?"
-msgstr "Confirmer la suppression du budget '{budget_period_description}'?"
+msgstr "Confirmer la suppression du budget '{budget_period_description}' ?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:87
@@ -4966,17 +4964,15 @@ msgstr "Modifier le poste budgétaire '{fund_name}' du budget '{budget}'"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:463
 #, perl-brace-format
 msgid "Confirm deletion of fund '{fund}'?"
-msgstr "Confirmer la suppression du poste budgétaire '{fund}'?"
+msgstr "Confirmer la suppression du poste budgétaire '{fund}' ?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:677
-#, fuzzy
 msgid "Add users"
-msgstr "Ajouter des réserves de cours"
+msgstr "Ajouter des utilisateurs"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:680
-#, fuzzy
 msgid "Select owner"
-msgstr "électronique"
+msgstr "Sélectionner un propriétaire"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqcontract.tt:10
 #, perl-brace-format
@@ -5530,14 +5526,14 @@ msgstr "Ajouter EAN du site"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:157
 #, perl-brace-format
 msgid "Confirm deletion of EAN '{ean}' for '{library}'?"
-msgstr "Confirmer la suppression de l'EAN '{ean}' pour le site '{library}'?"
+msgstr "Confirmer la suppression de l'EAN '{ean}' pour le site '{library}' ?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:18
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:58
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:159
 #, perl-brace-format
 msgid "Confirm deletion of EAN '{ean}'?"
-msgstr "Confirmer la suppression de l'EAN '{ean}'?"
+msgstr "Confirmer la suppression de l'EAN '{ean}' ?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/edi_ean_accounts.tt:21
 msgid "Library EANs"
@@ -5634,7 +5630,7 @@ msgstr "Impossible de supprimer le type de document '{item_type}'"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:91
 #, perl-brace-format
 msgid "Confirm deletion of item type '{item_type}'?"
-msgstr "Confirmer la suppression du type de document '{item_type}'?"
+msgstr "Confirmer la suppression du type de document '{item_type}' ?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/itemtypes.tt:29
 msgid "Item types"
@@ -5674,7 +5670,7 @@ msgstr "Modifier les restrictions des sous-champs"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:320
 #, perl-brace-format
 msgid "Confirm deletion of subfield '{subfield}'?"
-msgstr "Confirmer la suppression du sous-champ '{subfield}'?"
+msgstr "Confirmer la suppression du sous-champ '{subfield}' ?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marc_subfields_structure.tt:78
 #, perl-brace-format
@@ -5716,7 +5712,7 @@ msgstr "Grille de catalogage bibliographique MARC '{framework}' ({frameworkcode}
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/marctagstructure.tt:199
 #, perl-brace-format
 msgid "Confirm deletion of tag {searchfield}?"
-msgstr "Confirmer la suppression du champ {searchfield}?"
+msgstr "Confirmer la suppression du champ {searchfield} ?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/matching-rules.tt:82
@@ -5790,7 +5786,7 @@ msgstr "Types d'attributs d'adhérent"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/patron-attr-types.tt:267
 #, perl-brace-format
 msgid "Confirm deletion of patron attribute type '{code}' ({description})?"
-msgstr "Confirmer la suppression du type d'attribut adhérent '{code}' ({description})?"
+msgstr "Confirmer la suppression du type d'attribut adhérent '{code}' ({description}) ?"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/preferences.tt:10
 msgid "System preferences"
@@ -5972,7 +5968,7 @@ msgstr "Résultats de recherche pour '{search_keyword}'"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/z3950servers.tt:219
 #, perl-brace-format
 msgid "Searching by target starting with '{search_keyword}'"
-msgstr ""
+msgstr "Rechercher une cible commençant par '{search_keyword}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/auth.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/two_factor_auth.tt:8
@@ -6018,7 +6014,7 @@ msgstr "Se connecter à Koha"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/auth_finder.tt:7
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/searchresultlist-auth.tt:9
 msgid "Cataloging authority plugin"
-msgstr ""
+msgstr "Plugin de catalogage d'autorités"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities-home.tt:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/authorities/authorities.tt:12
@@ -6989,9 +6985,8 @@ msgid "E-resource management"
 msgstr "Gestion des ressources électroniques"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/erm/erm.tt:54
-#, fuzzy
 msgid "Select user"
-msgstr "électrique"
+msgstr "Sélectionner un utilisateur"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/errors/errorpage.tt:5
 #: koha-tmpl/intranet-tmpl/prog/en/modules/errors/errorpage.tt:20
@@ -7293,9 +7288,8 @@ msgid "Created"
 msgstr "Créée"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:1982
-#, fuzzy
 msgid "Add guarantor"
-msgstr "Identifiant du garant"
+msgstr "Ajouter un garant"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/members-update.tt:11
 msgid "Update patron records"
@@ -7436,9 +7430,8 @@ msgid "Patron card creator"
 msgstr "Créateur de cartes d'adhérent"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-batch.tt:389
-#, fuzzy
 msgid "Add patrons"
-msgstr "Ajouter un utilisateur"
+msgstr "Ajouter des adhérents"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/patroncards/edit-layout.tt:7
 msgid "Edit patron card layout"
@@ -7771,9 +7764,8 @@ msgid "Transfer collection '{collection_title}'"
 msgstr "Transférer la collection '{collection_title}'"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:146
-#, fuzzy
 msgid "Add recipients"
-msgstr "Ajouter des réserves de cours"
+msgstr "Ajouter des destinataires"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:15
 #, perl-brace-format
@@ -7781,9 +7773,8 @@ msgid "Edit suggestion #{suggestion_number}"
 msgstr "Modifier la suggestion n° {suggestion_number}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:17
-#, fuzzy
 msgid "Add suggestion"
-msgstr "Suggestions"
+msgstr "Ajouter une suggestion"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:20
 #, perl-brace-format
@@ -7802,13 +7793,12 @@ msgstr "Créée par :"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:1509
 msgid "Select suggester"
-msgstr ""
+msgstr "Sélectionner un demandeur"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:1511
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:1516
-#, fuzzy
 msgid "Select manager"
-msgstr "Gestionnaire d'images"
+msgstr "Sélectionner un gestionnaire"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/list.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tags/list.tt:33
