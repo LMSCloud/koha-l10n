@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-02 03:02+0000\n"
-"PO-Revision-Date: 2024-03-01 03:00+0000\n"
+"PO-Revision-Date: 2024-03-14 08:51+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -3346,9 +3346,9 @@ msgid "language (Optional)"
 msgstr "kieli (vapaaehtoinen)"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:176
-#, fuzzy, c-format
+#, c-format
 msgid "requests a particular language for the output, default is the OPAC cookie language if set, the first language in OPAC language list or English"
-msgstr "näyttäminen vaatii kielen valintaa. Oletus on käyttöliittymän evästeen kieli, jos asetettu; muuten ensimmäinen kieli käyttöliittymän kielivalikossa; tai englanti"
+msgstr "näyttäminen vaatii kielen valintaa. Oletus on käyttöliittymän evästeen kieli, jos asetettu; muuten ensimmäinen kieli käyttöliittymän kielivalikossa tai englanti"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:179
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/ilsdi.tt:471
@@ -8483,19 +8483,16 @@ msgstr "Tuntematon"
 
 #. SELECT name=[% messaging_preference.message_attribute_id | html %]-DAYS
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:81
-#, fuzzy
 msgid "Choose how many days in advance you wish to receive the message"
-msgstr "Valitse montako päivää etukäteen ennakkoilmoitus lähetetään"
+msgstr "Valitse montako päivää ennen eräpäivää ennakkoilmoitus lähetetään"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:97
-#, fuzzy
 msgid "Unselect SMS messaging"
 msgstr "Poista tekstiviestivalinta"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:99
-#, fuzzy
 msgid "Select SMS messaging"
 msgstr "Valitse tekstiviesti"
 
@@ -8516,7 +8513,6 @@ msgstr "Poista itiva-valinta"
 
 #. INPUT type=checkbox name=[% messaging_preference.message_attribute_id | html %]
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-messaging.tt:140
-#, fuzzy
 msgid "Select itiva messaging"
 msgstr "Poista itiva-valinta"
 
@@ -9214,9 +9210,9 @@ msgid "Forever: keep my history without limit. This is the option for users who 
 msgstr "Laina- ja varaushistoria säilytetään aina."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:67
-#, fuzzy, c-format
+#, c-format
 msgid "Default: keep my history according to library policy. This is the default option : the library will keep your history for the duration set by library policy."
-msgstr "Oletus: laina- ja varaushistoria tallennetaan kirjaston määrittämän ajan."
+msgstr "Oletus: laina- ja varaushistoria tallennetaan kirjaston määrittämän ajan. Tämä on oletusvalinta: kirjasto säilyttää lainaushistoriasi käyttösääntöjensä mukaisesti."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-privacy.tt:68
 #, c-format
@@ -9726,9 +9722,9 @@ msgstr "Haluatko varmasti poistaa tämän palautuspyynnön?"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:20
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:51
-#, fuzzy, c-format
+#, c-format
 msgid "Registration pending"
-msgstr "Virheellinen rekisteröityminen"
+msgstr "Ilmoittautuminen vireillä"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:22
 #, c-format
@@ -9736,9 +9732,9 @@ msgid "Registration complete"
 msgstr "Rekisteröityminen on valmis"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:52
-#, fuzzy, c-format
+#, c-format
 msgid "Click the button below to confirm registration."
-msgstr "Vahvistaaksesi paina \"Palauta laina\"-painiketta."
+msgstr "Valitse alla oleva painike vahvistaaksesi rekisteröinnin."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-registration-confirmation.tt:62
 #, c-format
