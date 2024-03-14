@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-13 03:02+0000\n"
-"PO-Revision-Date: 2023-12-27 12:08+0000\n"
+"PO-Revision-Date: 2024-03-14 08:51+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -53,12 +53,11 @@ msgstr "Nide vaurioitunut"
 
 #: C4/ILSDI/Services.pm:982
 msgid "In transit"
-msgstr ""
+msgstr "Kuljetettavana"
 
 #: C4/ILSDI/Services.pm:984
-#, fuzzy
 msgid "On hold"
-msgstr "Vahvista varaukset"
+msgstr "Varattu"
 
 #: C4/ILSDI/Services.pm:986
 msgid "available"
@@ -3686,7 +3685,6 @@ msgid "Manager name"
 msgstr "Käsittelijän nimi"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/csv_headers/reports/cash_register_stats.tt:4
-#, fuzzy
 msgid "Patron card number"
 msgstr "Kirjastokortin numero"
 
@@ -5184,7 +5182,7 @@ msgstr "Vahvista auktoriteettityypin '{authority_type_code}' poisto"
 msgid "This authority type is used {count} time."
 msgid_plural "This authority type is used {count} times."
 msgstr[0] "Tätä auktoriteettityyppiä on käytetty {count} kerran."
-msgstr[1] "Tätä auktoriteettityyppiä on käytetty {count} kertaa."
+msgstr[1] "Tätä auktoriteettityyppiä on käytetty {count} kertaa"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:10
 #, perl-brace-format
@@ -6103,7 +6101,7 @@ msgstr "Tulosta päivän {today} ilmoitukset"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:8
 msgid "Bookings"
-msgstr ""
+msgstr "Ennakkovaraukset"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/ISBDdetail.tt:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/MARCdetail.tt:9
@@ -7060,9 +7058,8 @@ msgid "Install basic configuration settings"
 msgstr "Asenna perusasetukset"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:24
-#, fuzzy
 msgid "Updating database structure"
-msgstr "Päivitä tietokanta"
+msgstr "Päivitetään tietokantarakennetta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:27
 msgid "Select your MARC flavor"
@@ -7786,9 +7783,8 @@ msgid "Edit suggestion #{suggestion_number}"
 msgstr "Muokkaa ehdotusta #{suggestion_number}"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:17
-#, fuzzy
 msgid "Add suggestion"
-msgstr "Hankintaehdotukset"
+msgstr "Lisää hankintaehdotus"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:20
 #, perl-brace-format
@@ -8324,10 +8320,9 @@ msgid "Cancel"
 msgstr "Peruuta"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:207
-#, fuzzy
 msgctxt "Request to cancel hold button"
 msgid "Request to cancel"
-msgstr "Pyydä artikkelia"
+msgstr "Pyydä perumaan"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:43
 msgid "Show fewer authors"
@@ -8370,24 +8365,20 @@ msgid "Show more series"
 msgstr "Näytä lisää sarjoja"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:48
-#, fuzzy
 msgid "Show fewer item types"
-msgstr "Näytä vähemmän tyyppejä"
+msgstr "Näytä vähemmän nidetyyppejä"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:48
-#, fuzzy
 msgid "Show more item types"
-msgstr "Näytä lisää tyyppejä"
+msgstr "Näytä lisää nidetyyppejä"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:49
-#, fuzzy
 msgid "Show fewer collections"
-msgstr "Näytä vähemmän kokoelmakoodeja"
+msgstr "Näytä vähemmän kokoelmia"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:49
-#, fuzzy
 msgid "Show more collections"
-msgstr "Näytä lisää kokoelmakoodeja"
+msgstr "Näytä lisää kokoelmia"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/opac-facets.inc:50
 msgid "Show fewer languages"
