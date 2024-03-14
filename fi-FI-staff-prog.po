@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.006\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-13 03:02+0000\n"
-"PO-Revision-Date: 2024-03-01 03:00+0000\n"
+"PO-Revision-Date: 2024-03-14 08:51+0000\n"
 "Last-Translator: Anneli Österman <anneli.osterman@ouka.fi>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: fi-FI\n"
@@ -7033,7 +7033,7 @@ msgid "Cannot take patron photo."
 msgstr "Asiakaskuvaa ei voi ottaa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
-#, fuzzy, c-format
+#, c-format
 msgid "The patron must have a card number before a patron photo can be uploaded."
 msgstr "Asiakkaalla pitää olla kirjastokortin numero ennen kuin voidaan ladata asiakaskuva."
 
@@ -11828,7 +11828,7 @@ msgid "Administrator account created!"
 msgstr "Ylläpitäjätunnus luotu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:14
-#, fuzzy, c-format
+#, c-format
 msgid "The patron has not been created! Card number or Userid may already exist."
 msgstr "Asiakasta ei lisätty. Kirjastokortin numero tai käyttäjätunnus saattavat jo olla olemassa."
 
@@ -39196,15 +39196,13 @@ msgstr "Ennakkovaraukset nimekkeelle %s"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:71
-#, fuzzy
 msgid "Biblio level"
-msgstr "Nimekevaraus."
+msgstr "Nimeketasoinen"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:71
-#, fuzzy
 msgid "Booking ID"
-msgstr "Ennakkovaraukset ("
+msgstr "Ennakkovarauksen tunnus"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -39794,9 +39792,9 @@ msgstr "Tällä hetkellä paikalliskäytössä %s "
 #. %5$s:  INCLUDE 'patron-title.inc' patron=item.object.checkout.patron hide_patron_infos_if_needed=1 
 #. %6$s:  date_due | $KohaDates as_due_date => 1 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:477
-#, fuzzy, c-format
+#, c-format
 msgid "Checked out %s %s by %s to %s %s : due %s "
-msgstr "Lainattu %s %s %s paikassa %s asiakkaalle %s %s %s : eräpäivä %s "
+msgstr "Lainattu %s %s paikassa %s asiakkaalle %s %s , eräpäivä %s "
 
 #. %1$s:  Branches.GetName( transfer.frombranch ) | html 
 #. %2$s:  Branches.GetName( transfer.tobranch ) | html 
@@ -40533,9 +40531,8 @@ msgstr "Epäonnistui: Katso lokista lisää tietoja"
 #. For the first occurrence,
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:1826
-#, fuzzy
 msgid "Failure: Check the logs for details."
-msgstr "Epäonnistui: Katso lokista lisää tietoja"
+msgstr "Epäonnistui: Katso lokista lisätietoja."
 
 #. For the first occurrence,
 #. SCRIPT
@@ -40965,9 +40962,9 @@ msgstr "Pois kierrosta"
 #. %7$s:  END -
 #. %8$s: - END -
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/itemsearch_json.tt:1
-#, fuzzy, c-format
+#, c-format
 msgid "{ \"draw\": %s, \"recordsTotal\": %s, \"recordsFiltered\": %s, \"data\": [ %s %s %s,%s %s ] } "
-msgstr "{ \"sEcho\": %s, \"iTotalRecords\": %s, \"iTotalDisplayRecords\": %s, \"aaData\": [ %s %s %s,%s %s ] } "
+msgstr "{ \"draw\": %s, \"recordsTotal\": %s, \"recordsFiltered\": %s, \"data\": [ %s %s %s,%s %s ] } "
 
 #. %1$s:  END 
 #. %2$s:  WRAPPER breadcrumb_item bc_active= 1 
@@ -43653,7 +43650,7 @@ msgstr "Liian monta nidettä lainassa. %s lainassa, %s sallittu."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:575
 #, c-format
 msgid "Maximum checkouts calculated from the circulation rule for %s "
-msgstr "Maksimimäärä lainoja laskettu lainasäännöstä %s "
+msgstr "Lainojen maksimimäärä laskettu laina- ja maksusäännöstä %s "
 
 #. %1$s:  current_loan_count | html 
 #. %2$s:  max_loans_allowed | html 
@@ -44238,30 +44235,30 @@ msgid "Cannot check out! %s %s %s %s "
 msgstr "Ei voi lainata! %s %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:93
-#, fuzzy, c-format
+#, c-format
 msgid "Enter barcodes (one barcode per line): "
-msgstr "Lista viivakoodeista (koodi per rivi): "
+msgstr "Lista viivakoodeista (yksi viivakoodi per rivi): "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:97
-#, fuzzy, c-format
+#, c-format
 msgid "Or use a file: "
-msgstr "Käytä tiedostoa "
+msgstr "Käytä tiedostoa: "
 
 #. %1$s:  INCLUDE 'date-format.inc' 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:108
-#, fuzzy, c-format
+#, c-format
 msgid "Specify due date: %s"
-msgstr "Määrittele eräpäivä %s: "
+msgstr "Määrittele eräpäivä: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:137
-#, fuzzy, c-format
+#, c-format
 msgid "Batch checkout confirmation"
-msgstr "Erälainauksen vahvistaminen %s asiakkaalle %s %s"
+msgstr "Erälainauksen vahvistaminen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation_batch_checkouts.tt:141
-#, fuzzy, c-format
+#, c-format
 msgid "Batch checkout results"
-msgstr "Erälainaus "
+msgstr "Erälainauksen tulokset"
 
 #. %1$s:  INCLUDE 'biblio-title.inc' biblio=checkout_info.biblio link = 1 
 #. %2$s:  IF checkout_info.biblio.author 
@@ -44641,9 +44638,8 @@ msgstr "Hae asiakasta"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:444
-#, fuzzy
 msgid "Enter patron card number or name"
-msgstr "Syötä kirjastokortin numero tai nimi"
+msgstr "Syötä asiakkaan kirjastokortin numero tai nimi"
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:460
@@ -44818,7 +44814,7 @@ msgid "Show any items currently checked out:"
 msgstr "Näytä lainassa oleva aineisto:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:192
-#, fuzzy, c-format
+#, c-format
 msgid "Name or card number:"
 msgstr "Nimi tai kirjastokortin numero:"
 
@@ -45265,7 +45261,7 @@ msgid "Patron reached daily limit."
 msgstr "Asiakkaan päivittäinen raja on täyttynyt."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:102
-#, fuzzy, c-format
+#, c-format
 msgid "An error has occurred. Check the logs for details."
 msgstr "Tapahtui virhe. Tarkista lokit."
 
@@ -46176,9 +46172,9 @@ msgstr "Lainat:"
 #. %2$s:  ELSE 
 #. %3$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1338
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s Not checked out %s "
-msgstr "%s Ei lainassa %s "
+msgstr "%s %s Ei lainassa %s %s "
 
 #. %1$s:  item.barcode | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1391
@@ -46545,9 +46541,9 @@ msgid "Cancel all"
 msgstr "Poista kaikki"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:141
-#, fuzzy, c-format
+#, c-format
 msgid "Only items that need not be transferred will be cancelled (TransferWhenCancelAllWaitingHolds syspref)"
-msgstr "%s Vain niteistä, joita ei tarvitse kuljettaa, poistetaan odottavat varaukset. (TransferWhenCancelAllWaitingHolds-järjestelmäasetus) %s "
+msgstr "Vain niteistä, joita ei tarvitse kuljettaa, poistetaan odottavat varaukset (TransferWhenCancelAllWaitingHolds-järjestelmäasetus)"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:187
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1264
@@ -48519,12 +48515,12 @@ msgid "We are ready to do some basic configuration."
 msgstr "Olemme valmiina tekemään joitain perusasetuksia."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:360
-#, fuzzy, c-format
+#, c-format
 msgid "Web installer &rsaquo; Updating database structure"
-msgstr "Asennusohjelma &rsaquo; Päivitä tietokanta"
+msgstr "Asennusohjelma &rsaquo; Tietokantarakenteen päivitys"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:362
-#, fuzzy, c-format
+#, c-format
 msgid "Update report:"
 msgstr "Päivitysraportti:"
 
@@ -50874,12 +50870,12 @@ msgid "Modify patron"
 msgstr "Muokkaa asiakasta"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:76
-#, fuzzy, c-format
+#, c-format
 msgid "Something went wrong when creating the patron. Check the logs for details."
 msgstr "Jotain meni vikaan asiakkaan luomisessa. Tarkista lokit."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:78
-#, fuzzy, c-format
+#, c-format
 msgid "Something went wrong when updating the patron. Check the logs for details."
 msgstr "Jotain meni vikaan asiakkaan tietojen muokkaamisessa. Tarkista lokit."
 
@@ -51414,9 +51410,9 @@ msgid "There is no minimum or maximum character length. %s %s %s "
 msgstr "Merkkien määrällä ei ole vähimmäis- tai enimmäispituutta. %s %s %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:927
-#, fuzzy, c-format
+#, c-format
 msgid "autoMemberNum is set to enabled, but card number is marked as mandatory in BorrowerMandatoryField: auto calc has been disabled."
-msgstr "AutoMemberNum on aktiivinen, mutta kirjastokortti on merkattu pakolliseksi kohdassa BorrowerMandatoryField: automaattinen kirjastokortin luonti on pois käytöstä."
+msgstr "autoMemberNum on aktivoitu, mutta kirjastokortti on merkitty pakolliseksi järjestelmäasetuksessa BorrowerMandatoryField: automaattinen kirjastokortin luonti on pois käytöstä."
 
 #. %1$s:  END 
 #. %2$s:  END 
@@ -52635,7 +52631,7 @@ msgid "Invalid borrowernumber %s"
 msgstr "Virheellinen asiakkaan ID %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:105
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to find an email address for this patron"
 msgstr "Asiakkaalle ei löydy sähköpostiosoitetta"
 
@@ -52672,14 +52668,14 @@ msgid "Unhandled email failure, check the logs for further details"
 msgstr "Käsittelemätön sähköpostivirhe, tarkista lisätiedot lokeista"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:113
-#, fuzzy, c-format
+#, c-format
 msgid "Error occurred while sending email"
-msgstr "Sähköpostin lähettämisessä tapahtui virhe."
+msgstr "Sähköpostin lähettämisessä tapahtui virhe"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:124
-#, fuzzy, c-format
+#, c-format
 msgid "CC:"
-msgstr "LCCN:"
+msgstr "CC:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/notices.tt:134
 #, c-format
@@ -58181,9 +58177,9 @@ msgstr "Varausta odotetaan kirjastossa %s lähtien %s"
 #. %5$s:  END # /IF itemloo.reservedate 
 #. %6$s:  IF itemloo.item_level_holds == "N" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:865
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s Not on hold %s %s "
-msgstr "%s %s Niteeseen ei kohdistu varauksia %s %s "
+msgstr "%s %s %s %s Niteeseen ei kohdistu varauksia %s %s "
 
 #. %1$s:  ELSIF itemloo.item_level_holds == "F" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:874
@@ -61041,9 +61037,8 @@ msgstr "Sisällytä arkistoidut hankintaehdotukset hakuun"
 
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:1274
-#, fuzzy
 msgid "Cannot retrieve info for this patron."
-msgstr "Tällä asiakkaalla ei ole tilastoja."
+msgstr "Tietoja ei voida noutaa."
 
 #. For the first occurrence,
 #. SCRIPT
@@ -61293,34 +61288,34 @@ msgid "Additional content"
 msgstr "Lisäsisältö"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:131
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when updating this content. Perhaps it already exists."
-msgstr "Lisäsisällön päivittämisessä tapahtui virhe. Ehkä sisältö on jo olemassa"
+msgstr "Lisäsisällön päivittämisessä tapahtui virhe. Ehkä sisältö on jo olemassa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:133
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when adding this content. Check the logs for details."
-msgstr "Sisällön lisäämisessä tapahtui virhe. Tarkista lokit"
+msgstr "Sisällön lisäämisessä tapahtui virhe. Tarkista lokit."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:135
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when deleting this content. Check the logs for details."
-msgstr "Sisällön poistossa tapahtui virhe. Tarkista lokit"
+msgstr "Sisällön poistossa tapahtui virhe. Tarkista lokit."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:137
-#, fuzzy, c-format
+#, c-format
 msgid "Content updated successfully."
-msgstr "Sisältö on päivitetty"
+msgstr "Sisältö on päivitetty."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:139
-#, fuzzy, c-format
+#, c-format
 msgid "Content added successfully."
-msgstr "Sisältö on lisätty"
+msgstr "Sisältö on lisätty."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:141
-#, fuzzy, c-format
+#, c-format
 msgid "Content deleted successfully."
-msgstr "Sisältö on poistettu"
+msgstr "Sisältö on poistettu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:172
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/additional-contents.tt:236
@@ -62505,39 +62500,39 @@ msgid "New CSV profile"
 msgstr "Uusi CSV-profiili"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:70
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when updating this CSV profile. Perhaps it already exists."
-msgstr "CSV-profiilin päivittämisessä tapahtui virhe. Ehkä profiili on jo olemassa"
+msgstr "CSV-profiilin päivittämisessä tapahtui virhe. Ehkä profiili on jo olemassa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:72
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when adding this CSV profile."
 msgstr "CSV-profiilin lisäämisessä tapahtui virhe."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:74
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when deleting this CSV profile. Check the logs for details."
-msgstr "CSV-profiilin poistossa tapahtui virhe. Tarkista lokit"
+msgstr "CSV-profiilin poistossa tapahtui virhe. Tarkista lokit."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:76
-#, fuzzy, c-format
+#, c-format
 msgid "CSV profile updated successfully."
-msgstr "CSV-profiili on päivitetty"
+msgstr "CSV-profiili on päivitetty."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:78
-#, fuzzy, c-format
+#, c-format
 msgid "CSV profile added successfully."
-msgstr "CSV-profiili on lisätty"
+msgstr "CSV-profiili on lisätty."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:80
-#, fuzzy, c-format
+#, c-format
 msgid "CSV profile deleted successfully."
-msgstr "CSV-profiili on poistettu"
+msgstr "CSV-profiili on poistettu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:82
-#, fuzzy, c-format
+#, c-format
 msgid "This CSV profile already exists."
-msgstr "CSV-profiili on jo olemassa"
+msgstr "CSV-profiili on jo olemassa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:91
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/csv-profiles.tt:93
@@ -65605,19 +65600,19 @@ msgid "Uploads limited to csv. Incorrect filetype: %s"
 msgstr "Lähetys rajoitettu tiedostomuotoon CSV. Virheellinen tiedostotyyppi: %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:60
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when updating this quote. Perhaps it already exists."
-msgstr "Sitaatin päivittämisessä tapahtui virhe. Ehkä sitaatti on jo olemassa"
+msgstr "Sitaatin päivittämisessä tapahtui virhe. Ehkä sitaatti on jo olemassa."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:62
-#, fuzzy, c-format
+#, c-format
 msgid "An error occurred when adding this quote. Check the logs for details."
-msgstr "Sisällön lisäämisessä tapahtui virhe. Tarkista lokit"
+msgstr "Sisällön lisäämisessä tapahtui virhe. Tarkista lokit."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:64
-#, fuzzy, c-format
+#, c-format
 msgid "Quote updated successfully."
-msgstr "Sitaatti on päivitetty"
+msgstr "Sitaatti on päivitetty."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/quotes.tt:66
 #, c-format
@@ -67526,9 +67521,9 @@ msgstr "[ Uusi lista ]"
 #. %8$s:  FOREACH d IN data 
 #. %9$s:  d.public | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/tables/shelves_results.tt:1
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s { \"draw\": %s, \"recordsTotal\": %s, \"recordsFiltered\": %s, \"data\": [ %s { \"dt_public\": \"%s\", \"dt_shelfname\": \""
-msgstr "%s %s %s %s { \"sEcho\": %s, \"iTotalRecords\": %s, \"iTotalDisplayRecords\": %s, \"aaData\": [ %s { \"dt_public\": \"%s\", \"dt_shelfname\": \""
+msgstr "%s %s %s %s { \"draw\": %s, \"recordsTotal\": %s, \"recordsFiltered\": %s, \"data\": [ %s { \"dt_public\": \"%s\", \"dt_shelfname\": \""
 
 #. %1$s:  tnx('{count} item', '{count} items', count, { count = d.count }) | $raw 
 #. %2$s:  IF d.public 
