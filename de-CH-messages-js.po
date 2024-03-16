@@ -1,9 +1,9 @@
 # Compendium of de_CH.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.006\n"
+"Project-Id-Version: Koha 23.12.00.007\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-09 03:02+0000\n"
+"POT-Creation-Date: 2024-03-16 03:02+0000\n"
 "PO-Revision-Date: 2022-05-01 08:48-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -53,7 +53,7 @@ msgid "Edit"
 msgstr "Bearbeiten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1099
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1105
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:10
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:407
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
@@ -602,23 +602,23 @@ msgid "Loading... you may continue scanning."
 msgstr "Lädt... Sie können das Einlesen fortsetzen."
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:52
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:426
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:432
 msgid "Today's checkouts"
 msgstr "Heutige Ausleihen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:54
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:428
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:434
 msgid "Previous checkouts"
 msgstr "Vorherige Ausleihen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:829
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:835
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
 msgid "by _AUTHOR_"
 msgstr "von _AUTHOR_"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:129
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:850
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:856
 msgid "On-site checkout"
 msgstr "Vor-Ort-Ausleihe"
 
@@ -628,174 +628,178 @@ msgid "This item has been recalled and the due date updated"
 msgstr "Dieser Titel wurde Ihrem Korb hinzugefügt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:236
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:361
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:367
 #, fuzzy
 msgid "Recalled"
 msgstr "RecallItem "
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:243
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:363
+msgid "Booked"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:249
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:369
 #: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:314
 msgid "On hold"
 msgstr "Vorgemerkt"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:250
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:256
 msgid "Not renewable"
 msgstr "Nicht verlängerbar"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:257
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:263
 msgid "Must be renewed at the library"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:262
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:268
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:699
 msgid "Not allowed: patron restricted"
 msgstr "Nicht möglich: Benutzer ist gesperrt"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:269
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:275
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:701
 msgid "Not allowed: overdue"
 msgstr "Nicht möglich: überfällig"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:276
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:282
 #, javascript-format
 msgid "No renewal before %s"
 msgstr "Keine Verlängerung vor %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:283
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:289
 msgid "Can no longer be auto-renewed - number of checkout days exceeded"
 msgstr "Keine weitere automatische Erneuerung möglich - Anzahl der Ausleihtage überschritten"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:290
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:296
 msgid "Automatic renewal failed, patron has unpaid fines"
 msgstr "Automatische Verlängerung nicht möglich, Benutzer hat ausstehende Gebühren"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:297
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:303
 msgid "Automatic renewal failed, account expired"
 msgstr "Automatische Verlängerung nicht möglich, Konto abgelaufen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:306
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:312
 msgid "Renewal denied by syspref"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:341
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:347
 #, javascript-format
 msgid "%s of %s renewals remaining"
 msgstr "%s von %s Verlängerungen verbleiben"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:343
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:349
 #, fuzzy, javascript-format
 msgid " and %s of %s unseen renewals remaining"
 msgstr "%s von %s Verlängerungen verbleiben"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:349
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:355
 msgid "Scheduled for automatic renewal"
 msgstr "Für automatische Verlängerung geplant"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:365
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:371
 #, fuzzy, javascript-format
 msgid "Confirm (%s)"
 msgstr "Bestätigen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:380
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:382
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:386
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:388
 #, fuzzy
 msgid "Claim returned"
 msgstr "Bestellung reklamieren"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:441
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:447
 msgid "No itemtype"
 msgstr "Kein Medientyp"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:447
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:453
 msgid "Number of checkouts by item type"
 msgstr "Anzahl Ausleihen nach Medientyp"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:591
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:593
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:597
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:599
 msgid "Checked in"
 msgstr "Zurückgegeben"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:595
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:601
 msgid "Patron note"
 msgstr "Benutzernotizen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:604
 msgid "Unable to check in"
 msgstr "Rückgabe nicht möglich"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:680
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:686
 msgid "Renewed, due:"
 msgstr "Verlängert, bis:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:683
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
 msgid "Renew failed:"
 msgstr "Verlängerung fehlgeschlagen:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:685
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
 msgid "not checked out"
 msgstr "nicht ausgeliehen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
 msgid "too many renewals"
 msgstr "zu viele Verlängerungen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
 msgid "too many consecutive renewals without being seen by the library"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
 msgid "on hold"
 msgstr "Bereitgestellt"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:703
 #, fuzzy
 msgid "Unable to find an open day"
 msgstr "Benutzer kann nicht gelöscht werden"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:701
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:707
 msgid "reason unknown"
 msgstr "Grund unbekannt"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1054
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1060
 #, fuzzy
 msgid "Double click to edit"
 msgstr "Zur Bearbeitung anklicken"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1102
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1108
 msgid "Resolve"
 msgstr ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1107
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1113
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:89
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:368
 msgid "Actions"
 msgstr "Aktionen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1110
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1116
 #, fuzzy
 msgid "Edit notes"
 msgstr "Editor note"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1173
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1179
 #, fuzzy
 msgid "Show 1 claim"
 msgid_plural "Show all {count} claims"
 msgstr[0] "Zeige alle Spalten"
 msgstr[1] "Zeige alle Spalten"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1178
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1184
 msgid "Show 1 unresolved claim"
 msgid_plural "Show {count} unresolved claims"
 msgstr[0] ""
 msgstr[1] ""
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1199
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1205
 msgid "Update"
 msgstr "Aktualisieren"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1200
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1206
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:415
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:162
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:75
@@ -812,7 +816,7 @@ msgstr "Aktualisieren"
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1239
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1245
 #, fuzzy
 msgid "Are you sure you want to delete this return claim?"
 msgstr "Sind Sie sicher, dass Sie diese Übersetzung löschen möchten?"

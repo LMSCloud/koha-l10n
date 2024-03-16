@@ -1,9 +1,9 @@
 # Compendium of el.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.006\n"
+"Project-Id-Version: Koha 23.12.00.007\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-09 03:02+0000\n"
+"POT-Creation-Date: 2024-03-16 03:02+0000\n"
 "PO-Revision-Date: 2024-02-21 03:00+0000\n"
 "Last-Translator: dataly <gveranis@dataly.gr>\n"
 "Language-Team: Koha Translation Team\n"
@@ -54,7 +54,7 @@ msgid "Edit"
 msgstr "Επεξεργασία"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1099
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1105
 #: koha-tmpl/intranet-tmpl/prog/js/elasticsearch-mappings.js:10
 #: koha-tmpl/intranet-tmpl/prog/js/pages/preferences.js:407
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:109
@@ -600,23 +600,23 @@ msgid "Loading... you may continue scanning."
 msgstr "Φόρτωση... μπορείτε να συνεχίσετε με τη σάρωση."
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:52
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:426
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:432
 msgid "Today's checkouts"
 msgstr "Σημερινοί δανεισμοί"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:54
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:428
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:434
 msgid "Previous checkouts"
 msgstr "Προηγούμενοι δανεισμοί"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:108
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:829
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:835
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:156
 msgid "by _AUTHOR_"
 msgstr "από _AUTHOR_"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:129
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:850
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:856
 msgid "On-site checkout"
 msgstr "Επιτόπιος δανεισμός"
 
@@ -626,170 +626,174 @@ msgid "This item has been recalled and the due date updated"
 msgstr "Αυτό το τεκμήριο προστέθηκε στο καλάθι σας"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:236
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:361
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:367
 #, fuzzy
 msgid "Recalled"
 msgstr "ΑνάκλησηΤεκμηρίου "
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:243
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:363
+msgid "Booked"
+msgstr ""
+
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:249
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:369
 #: koha-tmpl/opac-tmpl/bootstrap/js/overdrive.js:314
 msgid "On hold"
 msgstr "Σε κράτηση"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:250
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:256
 msgid "Not renewable"
 msgstr "Δεν ανανεώνεται"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:257
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:263
 msgid "Must be renewed at the library"
 msgstr "Πρέπει να ανανεωθεί στη βιβλιοθήκη"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:262
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:268
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:699
 msgid "Not allowed: patron restricted"
 msgstr "Δεν επιτρέπεται: μέλος υπό περιορισμένο"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:269
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:275
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:701
 msgid "Not allowed: overdue"
 msgstr "Δεν επιτρέπεται: ληξιπρόθεσμα"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:276
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:282
 #, javascript-format
 msgid "No renewal before %s"
 msgstr "Δεν επιτρέπεται ανανέωση πριν από %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:283
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:289
 msgid "Can no longer be auto-renewed - number of checkout days exceeded"
 msgstr "Δε γίνει να οριστεί άλλη αυτό-ανανέωση - ο αριθμός των ημερών δανεισμού έχει λήξη"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:290
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:296
 msgid "Automatic renewal failed, patron has unpaid fines"
 msgstr "Η αυτόματη ανανέωση απέτυχε, το μέλος έχει απλήρωτα πρόστιμα"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:297
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:303
 msgid "Automatic renewal failed, account expired"
 msgstr "Η αυτόματη ανανέωση απέτυχε, ο λογαριασμός έχει λήξει"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:306
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:312
 msgid "Renewal denied by syspref"
 msgstr "Η ανανέωση απορρίφθηκε από τις προτιμήσεις συστήματος"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:341
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:347
 #, javascript-format
 msgid "%s of %s renewals remaining"
 msgstr "απομένουν %s από %s ανανεώσεις"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:343
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:349
 #, fuzzy, javascript-format
 msgid " and %s of %s unseen renewals remaining"
 msgstr "απομένουν %s από %s ανεπίβλεπτες ανανεώσεις"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:349
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:355
 msgid "Scheduled for automatic renewal"
 msgstr "Προγραμματισμένο για αυτόματη ανανέωση"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:365
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:371
 #, fuzzy, javascript-format
 msgid "Confirm (%s)"
 msgstr "Επιβεβαίωση"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:380
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:382
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:386
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:388
 msgid "Claim returned"
 msgstr "Αξίωση επεστράφη"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:441
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:447
 msgid "No itemtype"
 msgstr "Χωρίς τύπο τεκμηρίου"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:447
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:453
 msgid "Number of checkouts by item type"
 msgstr "Αριθμός χρεώσεων ανά τύπο τεκμηρίου"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:591
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:593
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:597
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:599
 msgid "Checked in"
 msgstr "Επιστροφή"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:595
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:601
 msgid "Patron note"
 msgstr "Σημείωση μέλους"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:598
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:604
 msgid "Unable to check in"
 msgstr "Αδυναμία επιστροφής:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:680
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:686
 msgid "Renewed, due:"
 msgstr "Ανανεωμένο, λήξη:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:683
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
 msgid "Renew failed:"
 msgstr "Αποτυχία ανανέωσης:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:685
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
 msgid "not checked out"
 msgstr "δεν είναι δανεισμένο"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:687
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:693
 msgid "too many renewals"
 msgstr "πάρα πολλές ανανεώσεις"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:689
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:695
 msgid "too many consecutive renewals without being seen by the library"
 msgstr "πάρα πολλές διαδοχικές ανανεώσεις χωρίς επιβεβαίωση από τη βιβλιοθήκη"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:691
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
 msgid "on hold"
 msgstr "σε κράτηση"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:697
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:703
 #, fuzzy
 msgid "Unable to find an open day"
 msgstr "Αδυναμία ορισμού ότι έχει επιστραφεί"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:701
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:707
 msgid "reason unknown"
 msgstr "άγνωστη αιτία"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1054
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1060
 msgid "Double click to edit"
 msgstr "Διπλό πάτημα για επεξεργασία"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1102
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1108
 msgid "Resolve"
 msgstr "Επίλυση"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1107
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1113
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:89
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Preservation/TrainsShow.vue:368
 msgid "Actions"
 msgstr "Ενέργειες"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1110
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1116
 msgid "Edit notes"
 msgstr "Επεξεργασία σημειώσεων"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1173
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1179
 msgid "Show 1 claim"
 msgid_plural "Show all {count} claims"
 msgstr[0] "Προβολή 1 αξίωσης"
 msgstr[1] "Προβολή όλων {count} αξιώσεων"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1178
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1184
 msgid "Show 1 unresolved claim"
 msgid_plural "Show {count} unresolved claims"
 msgstr[0] "Εμφάνιση 1 "
 msgstr[1] "Εμφάνιση {count} ανεπίλυτων αξιώσεων"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1199
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1205
 msgid "Update"
 msgstr "Ενημέρωση"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1200
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1206
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:415
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:162
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:75
@@ -806,7 +810,7 @@ msgstr "Ενημέρωση"
 msgid "Cancel"
 msgstr "Ακύρωση"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1239
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1245
 msgid "Are you sure you want to delete this return claim?"
 msgstr "Είστε σίγουροι ότι επιθυμείτε να διαγράψετε την αξίωση επιστροφής;"
 
