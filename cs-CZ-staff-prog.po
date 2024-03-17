@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11.15.000\n"
 "POT-Creation-Date: 2024-03-02 05:23+0000\n"
 "PO-Revision-Date: 2024-03-18 03:12+0000\n"
-"Last-Translator: m23 <black23@gmail.com>\n"
+"Last-Translator: DagmarS <dagmar.sikova@seznam.cz>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
@@ -48414,9 +48414,9 @@ msgid "Send email"
 msgstr "Poslat email"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/errors/errorpage.tt:38
-#, fuzzy, c-format
+#, c-format
 msgid "To report a broken link or any other issue, please contact the Koha administrator. "
-msgstr "Pro oznámení neplatného odkazu, nebo jakéhokoli jiného problému, prosíme kontaktujte správce systému Koha. "
+msgstr "Chcete-li nahlásit nefunkční odkaz nebo jiný problém, obraťte se na správce systému Koha. "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:12
 #, fuzzy, c-format
@@ -48430,9 +48430,9 @@ msgstr "Nový pořadavek"
 
 #. %1$s:  request.id_prefix _ request.illrequest_id | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:35
-#, fuzzy, c-format
+#, c-format
 msgid "Manage request %s"
-msgstr "Spravovat požadavek %s "
+msgstr "Spravovat požadavek %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:56
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/guided_reports_start.tt:218
@@ -48512,9 +48512,9 @@ msgid "Issue requested item to %s"
 msgstr "Vypůjčit požadovanou jednotku čtenáři %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:147
-#, fuzzy, c-format
+#, c-format
 msgid "This item cannot be checked out as it has no bibliographic record associated with it"
-msgstr "Tuto jednotku nelze vypůjčit, protože není přiřazena k žádnému bibliografickému záznamu"
+msgstr "Tuto jednotku nelze vypůjčit, protože k ní není přiřazen žádný bibliograficý záznam"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:150
 #, c-format
@@ -48522,19 +48522,19 @@ msgid "The bibliographic record for this request has multiple items, it should o
 msgstr "Bibliografický záznam tohoto požadavku obsahuje více položek, měl by obsahovat pouze jednu. Opravte to a zkuste to znovu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:153
-#, fuzzy, c-format
+#, c-format
 msgid "An unknown error occurred while trying to add an item"
-msgstr "Došlo k chybě při nahrávání obrázku. "
+msgstr "Při pokusu o přidání jednotky došlo k neznámé chybě"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:156
-#, fuzzy, c-format
+#, c-format
 msgid "An unknown error occurred while trying to check out the item"
-msgstr "Při zpracování vašeho požadavku došlo k chybě."
+msgstr "Při pokusu o výpůjčku jednotky došlo k neznámé chybě"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:160
-#, fuzzy, c-format
+#, c-format
 msgid "Local use recorded "
-msgstr "Místní užití nahráno"
+msgstr "Místní užití zaznamenáno "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:164
 #, c-format
@@ -48542,9 +48542,9 @@ msgid "There was a problem checking this item out, please check for problems wit
 msgstr "Při kontrole této položky došlo k problému, zkontrolujte prosím, zda nedošlo k problémům s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:165
-#, fuzzy, c-format
+#, c-format
 msgid "patron's account"
-msgstr "Počet čtenářů"
+msgstr "účet čtenáře"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:172
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:272
@@ -48558,9 +48558,9 @@ msgid "The bibliographic record for this request already has an item attached to
 msgstr "Bibliografický záznam tohoto požadavku obsahuje více položek, měl by obsahovat pouze jednu. Opravte to a zkuste to znovu."
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:177
-#, fuzzy, c-format
+#, c-format
 msgid "A bibliographic record for this request exists, but no item. You are about to create an item and check it out"
-msgstr "Bibliografický záznam tohoto požadavku obsahuje více položek, měl by obsahovat pouze jednu. Opravte to a zkuste to znovu."
+msgstr "Pro tento požadavek existuje bibliografický záznam, ale žádná jednotka. Musíte vytvořit jednotku a následně ji vypůjčit"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:181
 #, c-format
@@ -48568,9 +48568,9 @@ msgid "Statistical patron:"
 msgstr "Statistický čtenář:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:193
-#, fuzzy, c-format
+#, c-format
 msgid "You must choose a valid patron"
-msgstr "Musíte zvolit typ jednotky"
+msgstr "Musíte vybrat platného čtenáře"
 
 #. %1$s:  INCLUDE 'patron-title.inc' patron = request.patron 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:195
@@ -48584,9 +48584,9 @@ msgid "You must choose an item type"
 msgstr "Musíte zvolit typ jednotky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:243
-#, fuzzy, c-format
+#, c-format
 msgid "You must choose a library"
-msgstr "Musíte zvolit typ jednotky"
+msgstr "Musíte zvolit knihovnu"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:247
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:279
@@ -48652,9 +48652,9 @@ msgid "Partners available for searching: "
 msgstr "Partneři dostupní pro vyhledávání: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:332
-#, fuzzy, c-format
+#, c-format
 msgid "Search selected partners"
-msgstr "Hledat spolupracující knihovny"
+msgstr "Hledat vybrané partnery"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:337
 #, c-format
@@ -48794,9 +48794,9 @@ msgid "Edit request "
 msgstr "Upravit požadavek "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:584
-#, fuzzy, c-format
+#, c-format
 msgid "Send notice to patron "
-msgstr "Nastavit na čtenáře"
+msgstr "Poslat čtenáři oznámení "
 
 #. A
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/ill-requests.tt:592
@@ -48907,9 +48907,9 @@ msgid "cancel your request"
 msgstr "zrušit váš požadavek"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/ill/log/patron_notice.tt:3
-#, fuzzy, c-format
+#, c-format
 msgid "Patron notice sent: "
-msgstr "Oznámení čtenářům"
+msgstr "Oznámení čtenáři odesláno: "
 
 #. %1$s:  IF log.info.status_before 
 #. %2$s:  before = log.info.status_before 
@@ -49152,9 +49152,9 @@ msgid "Version: %s "
 msgstr "Verze: %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step1.tt:93
-#, fuzzy, c-format
+#, c-format
 msgid "Web installer &rsaquo; Perl modules due for upgrade"
-msgstr "Webový instalátor &rsaquo; Chybějící moduly jazyka Perl"
+msgstr "Webový instalátor &rsaquo; Moduly Perlu určené k aktualizaci"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step1.tt:106
 #, c-format
@@ -49585,9 +49585,9 @@ msgstr "Chyby aktualizace :"
 #. %3$s:  IF loop.first 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:408
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:428
-#, fuzzy, c-format
+#, c-format
 msgid "ERROR: %s %s %s"
-msgstr "Tel: %s%s %s "
+msgstr "Chyba: %s %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/installer/step3.tt:422
 #, fuzzy, c-format
