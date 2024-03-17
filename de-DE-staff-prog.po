@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.007\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-16 03:02+0000\n"
-"PO-Revision-Date: 2024-03-08 03:00+0000\n"
+"PO-Revision-Date: 2024-03-18 03:00+0000\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de-DE\n"
@@ -7027,7 +7027,7 @@ msgid "Cannot take patron photo."
 msgstr "Benutzerfoto kann nicht aufgenommen werden."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
-#, fuzzy, c-format
+#, c-format
 msgid "The patron must have a card number before a patron photo can be uploaded."
 msgstr "Der Benutzer muss eine Ausweisnummer haben, bevor ein Foto hochgeladen werden kann."
 
@@ -11820,9 +11820,9 @@ msgid "Administrator account created!"
 msgstr "Administrations-Konto erstellt!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:14
-#, fuzzy, c-format
+#, c-format
 msgid "The patron has not been created! Card number or Userid may already exist."
-msgstr "Benutzer wurde nicht angelegt! Eventuell existieren die Kartennummer oder die Benutzer-ID bereits."
+msgstr "Benutzer wurde nicht angelegt! Eventuell existieren die Kartennummer oder der Benutzername bereits."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:139
@@ -44613,7 +44613,6 @@ msgstr "Benutzer suchen"
 
 #. INPUT type=text
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:444
-#, fuzzy
 msgid "Enter patron card number or name"
 msgstr "Ausweisnummer oder Namen eingeben"
 
@@ -44790,7 +44789,7 @@ msgid "Show any items currently checked out:"
 msgstr "Zeige aktuell entliehene Medien:"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:192
-#, fuzzy, c-format
+#, c-format
 msgid "Name or card number:"
 msgstr "Name oder Ausweisnummer:"
 
@@ -46145,9 +46144,9 @@ msgstr "Ausleihen:"
 #. %2$s:  ELSE 
 #. %3$s:  END 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1338
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s Not checked out %s "
-msgstr "%s Nicht ausgeliehen %s "
+msgstr "%s %s Nicht ausgeliehen %s "
 
 #. %1$s:  item.barcode | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/returns.tt:1391
@@ -55707,7 +55706,7 @@ msgstr "Bearbeiter*in"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:172
 #, c-format
 msgid "Patron card number"
-msgstr "Benutzerausweisnummer:"
+msgstr "Ausweisnummer"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:175
 #, c-format
@@ -58148,9 +58147,9 @@ msgstr "Vorgemerkt und erwartet in %s seit %s"
 #. %5$s:  END # /IF itemloo.reservedate 
 #. %6$s:  IF itemloo.item_level_holds == "N" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:865
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s %s %s Not on hold %s %s "
-msgstr "%s %s Nicht vorgemerkt %s %s "
+msgstr "%s %s %s %s Nicht vorgemerkt %s %s "
 
 #. %1$s:  ELSIF itemloo.item_level_holds == "F" 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:874
@@ -60623,7 +60622,7 @@ msgstr "Anschaffungsvorschlag %s bearbeiten "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:78
 #, c-format
 msgid "Add suggestion"
-msgstr "Neuer Anschaffungsvorschlag"
+msgstr "Anschaffungsvorschlag anlegen"
 
 #. %1$s:  suggestionid | html 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:83
