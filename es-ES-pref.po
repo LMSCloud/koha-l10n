@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.007\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:11-0300\n"
-"PO-Revision-Date: 2024-01-25 03:00+0000\n"
+"PO-Revision-Date: 2024-03-20 03:01+0000\n"
 "Last-Translator: Tomás Cohen Arazi <tomascohen@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: es-ES\n"
@@ -480,9 +480,8 @@ msgstr "Establezca los valores de asignación de una nueva línea de pedido crea
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <br/>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z"
-msgstr "<p>Por ejemplo:<br/> holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
+msgstr "<br/>Por ejemplo:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>If a field is missing or not mapped, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=MarcFieldsToOrder\">MarcFieldsToOrder</a> will be checked and used for that field (except quantity).</p>"
@@ -495,9 +494,8 @@ msgstr "Establezca los valores de asignación para los nuevos registros de ítem
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-#, fuzzy
 msgid "acquisitions.pref#MarcItemFieldsToOrder# You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice, itemcallnumber, coded_location_qualifier, barcode, and enumchron. Special fields: quantity and budget_code"
-msgstr "<p>Puede utilizar los siguientes campos: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice e itemcallnumber. Campos especiales: quantity y budget_code</p>"
+msgstr "Puede utilizar los siguientes campos: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice e itemcallnumber. Campos especiales: quantity y budget_code"
 
 # Acquisitions > Printing > OrderPdfFormat
 # Acquisitions > Printing
@@ -6240,20 +6238,17 @@ msgstr "Incluya el siguiente JavaScript en todas las páginas del sistema web de
 
 # Circulation > Interface > AllowAllMessageDeletion
 # Circulation > Interface
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Don't send"
 msgstr "No enviar"
 
 # Circulation > SIP2 > SIP2AddOpacMessagesToScreenMessage
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# OPAC patron messages in the SIP2 screen message field."
 msgstr "mensajes de usuario del OPAC en el campo de mensaje en pantalla SIP2."
 
 # Circulation > Course reserves > UseCourseReserves
 # Circulation > Course Reserves
-#, fuzzy
 msgid "circulation.pref#SIP2AddOpacMessagesToScreenMessage# Send"
-msgstr " "
+msgstr "Enviar"
 
 # Circulation > SIP2 > SIP2SortBinMapping
 msgid "circulation.pref#SIP2SortBinMapping# - 'branchcode' is the location where the checkin is being performed (i.e. branch assigned to SIP user)<br/>"
@@ -7172,15 +7167,13 @@ msgstr "Habilitar"
 
 # Administration > Interface options > AddressForFailedOverdueNotices
 # Administration > Interface options
-#, fuzzy
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
-msgstr "<br>Si no se especifica, se utilizará la primera dirección definida de la siguiente lista, en el órden en que aparecen: ReplyTo de la biblioteca, Dirección de correo de la biblioteca, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> y <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
+msgstr "Se utilizará la primera dirección definida de la siguiente lista: ReplyTo de la biblioteca, Dirección de correo de la biblioteca, <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\">ReplytoDefault</a> y <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\">KohaAdminEmailAddress</a>."
 
 # Circulation > Holds policy > emailLibrarianWhenHoldIsPlaced
 # Circulation > Holds Policy
-#, fuzzy
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the patron's library whenever a hold request is placed."
-msgstr "enviar un correo electrónico a la dirección de correo electrónico del administrador Koha cada vez que hay una solicitud de reserva."
+msgstr "enviar un correo electrónico a la biblioteca del usuario cada vez que se haga una reserva."
 
 # Circulation > Fines Policy > finesCalendar
 # Circulation > Fines Policy
@@ -8200,9 +8193,8 @@ msgstr "Requerido"
 
 # Enhanced content > OverDrive > OverDriveCirculation
 # Enhanced Content > OverDrive
-#, fuzzy
 msgid "enhanced_content.pref#OverDriveCirculation# card number"
-msgstr "cardnumber"
+msgstr "número de carné"
 
 # Enhanced content > OverDrive > OverDriveCirculation
 # Enhanced Content > OverDrive
@@ -11300,30 +11292,29 @@ msgid "opac.pref#PurgeListShareInvitesOlderThan# </ul>"
 msgstr "</ul>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
-#, fuzzy
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>First priority: Use the --list-invites parameter when the cleanup_database.pl cronjob is run with a --list-invites parameter defining a number of days.</li>"
-msgstr "<li>Primera prioridad: Utilizar el parámetro --list-invites cuando se ejecuta el cronjob cleanup_database.pl es ejecutado con --list-invites con una cantidad de días."
+msgstr "<li>Primera prioridad: Utilizar el parámetro --list-invites X al ejecutar la rutina periódica cleanup_database.pl donde X es un número de días.</li>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Second priority: Use the PurgeListShareInvitesOlderThan system preference when it contains a value.</li>"
-msgstr "<li>Segunda prioridad: Utilizar la preferencia de sistema PurgeListShareInvitesOlderThan cuando tiene un valor.</li>"
+msgstr "<li>Segunda prioridad: Utilizar la preferencia de sistema PurgeListShareInvitesOlderThan cuando tiene algún valor.</li>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <li>Third priority: Use a default of 14 days when the cleanup_database.pl cronjob is run with a --list-invites parameter, but no value AND the PurgeListShareInvitesOlderThan system preference is empty.</li>"
-msgstr "<li>Tercera prioridad: Utilizar 14 días por defecto cuando el cronjob cleanup_database.pl se ejecuta con el parámetro --list-invites, pero sin un valor y la preferencia de sistema PurgeListShareInvitesOlderThan está vacía.</li>"
+msgstr "<li>Tercera prioridad: Utilizar de manera predeterminada 14 días cuando la rutina periódica cleanup_database.pl es ejecutada con el parámetro --list-invites pero sin un valor, y la preferencia de sistema PurgeListShareInvitesOlderThan se encuentra vacía.</li>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <p><strong>WARNING</strong>: Unaccepted private list shares are deleted using these priorities:"
-msgstr "<p><strong>ADVERTENCIA</strong>: Listas privadas compartidas y no aceptadas son eliminadas usando estas prioridades:"
+msgstr "<p><strong>ADVERTENCIA</strong>: Las comparticiones de listas privadas no aceptadas son eliminadas utilizando estas prioridades:"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <p>Example: [14] Deletes unaccepted private list share invites older than 14 days.</p>"
-msgstr "<p>Ejemplo: [14] Elimina invitaciones a listas privadas no aceptadas por mas de 14 días.</p>"
+msgstr "<p>Ejemplo: [14] Elimina comparticiones de listas privadas de mas de 14 días.</p>"
 
 # OPAC > Self registration and modification > PatronSelfRegistrationVerifyByEmail
 # OPAC > Self registration and modification
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/cleanup_database.pl</code> cronjob. Ask your system administrator to schedule it."
-msgstr "<strong>NOTA:</strong> Esta preferencia de sistema requiere el cronjob <code>misc/cronjobs/cleanup_database.pl</code>. Pídale al administrador que programe su ejecución."
+msgstr "<br><strong>NOTA:</strong> Esta preferencia de sistema requiere la tarea programada <code>misc/cronjobs/cleanup_database.pl</code>. Pídale al administrador que la programe."
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# <ul>"
@@ -11331,7 +11322,7 @@ msgstr "<ul>"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# The cleanup_database.pl cronjob automatically deletes unaccepted private list share invites after"
-msgstr "El cronjob cleanup_database.pl eliminará automáticamente invitaciones a listas privadas compartidas no aceptadas luego de"
+msgstr "La rutina periódica cleanup_database.pl automáticamente elimina comparticiones de listas privadas luego de"
 
 # OPAC > Policy > PurgeListShareInvitesOlderThan
 msgid "opac.pref#PurgeListShareInvitesOlderThan# days."
@@ -11978,7 +11969,7 @@ msgstr "Permisos de cuenta de usuario (usuarios existentes)"
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
 msgid "patrons.pref#CollapseFieldsPatronAddForm# Patron guarantor"
-msgstr "Garante usuario"
+msgstr "Garante del usuario"
 
 # Patrons > Patron forms > CollapseFieldsPatronAddForm
 # Patrons > Patron forms
@@ -12082,9 +12073,8 @@ msgid "patrons.pref#EmailFieldPrimary# alternate email"
 msgstr "email alternativo"
 
 # Patrons > Notices and notifications > EmailFieldPrimary
-#, fuzzy
 msgid "patrons.pref#EmailFieldPrimary# card number"
-msgstr "el número de carné"
+msgstr "número de carné"
 
 # Patrons > Notices and notifications > EmailFieldPrimary
 msgid "patrons.pref#EmailFieldPrimary# first valid email address"
@@ -12574,9 +12564,8 @@ msgstr "Apellido"
 
 # Patrons > Patron relationships > PrefillGuaranteeField
 # Patrons > Patron relationships
-#, fuzzy
 msgid "patrons.pref#PrefillGuaranteeField# When adding a guarantee to a guarantor, whether it's from the guarantor's form or the guarantee's form, fill the following fields in the guarantee's member entry form from the guarantors record:"
-msgstr "Cuando agregue un garante a un usuario complete los siguientes campos en el formulario de carga del garante desde el registro del usuario:"
+msgstr "Cuando agregue un garante a un usuario complete los siguientes campos en el formulario de carga del usuario desde el registro del garante:"
 
 # Patrons > Privacy > GDPR_Policy
 # Patrons > Privacy
