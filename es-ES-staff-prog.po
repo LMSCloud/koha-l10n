@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 23.12.00.007\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-19 03:02+0000\n"
-"PO-Revision-Date: 2024-02-06 03:01+0000\n"
-"Last-Translator: Rocio Sol Lopez <rociolopez@theke.io>\n"
+"PO-Revision-Date: 2024-03-19 12:21+0000\n"
+"Last-Translator: Tomás Cohen Arazi <tomascohen@gmail.com>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: es-ES\n"
 "MIME-Version: 1.0\n"
@@ -4935,7 +4935,7 @@ msgid "Edit items"
 msgstr "Editar ítems"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:65
-#, fuzzy, c-format
+#, c-format
 msgid "Edit items in a batch"
 msgstr "Editar ítems en lote"
 
@@ -7040,7 +7040,7 @@ msgid "Cannot take patron photo."
 msgstr "No se puede tomar la imágen del socio."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:283
-#, fuzzy, c-format
+#, c-format
 msgid "The patron must have a card number before a patron photo can be uploaded."
 msgstr "El usuario debe tener un número de carné antes de que se le pueda subir una foto."
 
@@ -8993,9 +8993,9 @@ msgstr "Único ítem"
 #. %3$s: - ELSE -
 #. %4$s: - END -
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:190
-#, fuzzy, c-format
+#, c-format
 msgid "Only item %s %s %s No barcode %s "
-msgstr "%s%s%sSin código de barras%s"
+msgstr "Sólo el ítem %s %s %s Sin código de barras %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:196
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:204
@@ -11675,14 +11675,14 @@ msgid "Any item"
 msgstr "Cualquier ítem"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/place_booking.inc:35
-#, fuzzy, c-format
+#, c-format
 msgid "Booking dates: "
-msgstr "Reservas anticipadas ("
+msgstr "Reservas anticipadas: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/place_booking.inc:39
 #, c-format
 msgid "Select the booking start and end date"
-msgstr ""
+msgstr "Seleccionar fecha de inicio y fin de reserva anticipada"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/resolve_return_claim.inc:7
 #, c-format
@@ -11836,9 +11836,9 @@ msgid "Administrator account created!"
 msgstr "¡Usuario de administrador creado!"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:14
-#, fuzzy, c-format
+#, c-format
 msgid "The patron has not been created! Card number or Userid may already exist."
-msgstr "¡El usuario no ha sido creado! Número de carné o Userid puede que ya exista."
+msgstr "¡El usuario no ha sido creado! Es posible que el número de carné o el userid ya existan."
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/onboarding_messages.inc:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/memberentrygen.tt:139
@@ -12327,9 +12327,9 @@ msgid "Search for patron"
 msgstr "Buscar usuario"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:37
-#, fuzzy, c-format
+#, c-format
 msgid "Search: "
-msgstr "Buscar:"
+msgstr "Buscar: "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:47
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:383
@@ -12356,20 +12356,20 @@ msgstr "Biblioteca: "
 
 #. %1$s:  PROCESS 'av-build-dropbox.inc' no_id => 1, name="sort1_filter", category="Bsort1", empty=1, size = 20  name=sort1_filter
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:82
-#, fuzzy, c-format
+#, c-format
 msgid "Sort 1: %s "
-msgstr "Ordenación 1:"
+msgstr "Ordenación 1: %s "
 
 #. %1$s:  PROCESS 'av-build-dropbox.inc' no_id => 1, name="sort2_filter", category="Bsort2", empty=1, size = 20  name=sort2_filter
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:89
-#, fuzzy, c-format
+#, c-format
 msgid "Sort 2: %s "
-msgstr "Ordenación 2:"
+msgstr "Ordenación 2: %s "
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:100
-#, fuzzy, c-format
+#, c-format
 msgid "Search type: "
-msgstr "Tipo de búsqueda:"
+msgstr "Tipo de búsqueda: "
 
 #. INPUT type=button
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:118
@@ -20780,9 +20780,9 @@ msgid "HC Sticky"
 msgstr "HC Sticky"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1062
-#, fuzzy, c-format
+#, c-format
 msgid "HC Sticky JavaScript library v2.2.7"
-msgstr "Librería JavaScript HC Sticky v2.2.3"
+msgstr "Librería JavaScript HC Sticky v2.2.7"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:1065
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:112
@@ -55764,7 +55764,7 @@ msgstr "Nombre del encargado"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:172
 #, c-format
 msgid "Patron card number"
-msgstr "Número de carné del usuario"
+msgstr "Número de carné de usuario"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/cash_register_stats.tt:175
 #, c-format
@@ -58947,7 +58947,7 @@ msgstr "Destinatarios:"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:96
 #, c-format
 msgid "Add recipients"
-msgstr "Agregar destinatarios"
+msgstr "Agregar receptores"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/routing.tt:98
 #, c-format
@@ -60857,7 +60857,7 @@ msgstr "%s | Previamente fue %s %s (%s) %s "
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:973
 #, c-format
 msgid "Select manager"
-msgstr "Seleccione administrador"
+msgstr "Seleccionar gestor"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:571
 #, c-format
