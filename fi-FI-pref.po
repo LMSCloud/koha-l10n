@@ -478,7 +478,8 @@ msgstr "Aseta vertailuarvot uudelle tilausriville, joka on luotu välivarastoidu
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
+#, fuzzy
+msgid "acquisitions.pref#MarcItemFieldsToOrder# <br/>For example:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z"
 msgstr "<p>Esimerkiksi:<br/>holdingbranch: 975$b<br/>itype: 975$9|975$z</p>"
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
@@ -487,13 +488,14 @@ msgstr "<p>Jos kenttä puuttuu tai sitä ei ole mäpätty, <a href=\"/cgi-bin/ko
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-msgid "acquisitions.pref#MarcItemFieldsToOrder# <p>You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice and itemcallnumber. Special fields: quantity and budget_code</p>"
-msgstr "<p>Voit käyttää seuraavia kenttiä: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice ja itemcallnumber. Erityiskentät: quantity and budget_code</p>"
+msgid "acquisitions.pref#MarcItemFieldsToOrder# Set the mapping values for new item records created from a MARC record in a staged file."
+msgstr "Määrittele arvojen vastaavuudet uusille nidetietueille, jotka luodaan välivarastoiduista MARC-tietueista."
 
 # Acquisitions > Policy > MarcItemFieldsToOrder
 # Acquisitions > Policy
-msgid "acquisitions.pref#MarcItemFieldsToOrder# Set the mapping values for new item records created from a MARC record in a staged file."
-msgstr "Määrittele arvojen vastaavuudet uusille nidetietueille, jotka luodaan välivarastoiduista MARC-tietueista."
+#, fuzzy
+msgid "acquisitions.pref#MarcItemFieldsToOrder# You can use the following fields: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice, itemcallnumber, coded_location_qualifier, barcode, and enumchron. Special fields: quantity and budget_code"
+msgstr "<p>Voit käyttää seuraavia kenttiä: homebranch, holdingbranch, itype, nonpublic_note, public_note, loc, ccode, notforloan, uri, copyno, price, replacementprice ja itemcallnumber. Erityiskentät: quantity and budget_code</p>"
 
 # Acquisitions > Printing > OrderPdfFormat
 # Acquisitions > Printing
@@ -12532,7 +12534,8 @@ msgstr "Sukunimi"
 
 # Patrons > Patron relationships > PrefillGuaranteeField
 # Patrons > Patron relationships
-msgid "patrons.pref#PrefillGuaranteeField# When adding a guarantee to a guarantor patron fill the following fields in the guarantee's member entry form from the guarantors record:"
+#, fuzzy
+msgid "patrons.pref#PrefillGuaranteeField# When adding a guarantee to a guarantor, whether it's from the guarantor's form or the guarantee's form, fill the following fields in the guarantee's member entry form from the guarantors record:"
 msgstr "Kun takaajalle lisätään taattava, täytä seuraavat kentät takaajan lomakkeesta taattavan asiakastietoihin:"
 
 # Patrons > Privacy > GDPR_Policy
