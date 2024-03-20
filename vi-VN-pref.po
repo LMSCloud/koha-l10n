@@ -1,7 +1,7 @@
 # Compendium of vi.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.007\n"
+"Project-Id-Version: Koha 23.12.00.009\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:36-0300\n"
 "PO-Revision-Date: 2022-05-01 12:47-0300\n"
@@ -584,6 +584,20 @@ msgstr " Máy in"
 #, fuzzy
 msgid "acquisitions.pref#OrderPriceRounding# to nearest cent.<br>"
 msgstr " Sử dụng định dạng"
+
+# Acquisitions > Policy > EmailPurchaseSuggestions
+#, fuzzy
+msgid "acquisitions.pref#PlaceHoldsOnOrdersFromSuggestions# Do"
+msgstr "Patron's Purchase Suggestions"
+
+# Acquisitions > Policy > EmailPurchaseSuggestions
+#, fuzzy
+msgid "acquisitions.pref#PlaceHoldsOnOrdersFromSuggestions# Don't"
+msgstr "Patron's Purchase Suggestions"
+
+# Acquisitions > Printing > PlaceHoldsOnOrdersFromSuggestions
+msgid "acquisitions.pref#PlaceHoldsOnOrdersFromSuggestions# place a hold when ordering from a suggestion."
+msgstr ""
 
 # Acquisitions > Policy > PurgeSuggestionsOlderThan
 msgid "acquisitions.pref#PurgeSuggestionsOlderThan# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/purge_suggestions.pl</code> cronjob. Ask your system administrator to schedule it."
@@ -7547,6 +7561,24 @@ msgstr " Thông báo"
 # Circulation > Interface > WaitingNotifyAtCheckin
 # Circulation > Interface
 msgid "circulation.pref#WaitingNotifyAtCheckin# librarians of waiting holds for the patron whose items they are checking in."
+msgstr " cho cán bộ thư viện các đặt mượn của bạn đọc đối với tài liệu được trả lại."
+
+# Circulation > Interface > WaitingNotifyAtCheckin
+# Circulation > Interface
+#, fuzzy
+msgid "circulation.pref#WaitingNotifyAtCheckout# Don't notify"
+msgstr " Không thông báo"
+
+# Circulation > Interface > WaitingNotifyAtCheckin
+# Circulation > Interface
+#, fuzzy
+msgid "circulation.pref#WaitingNotifyAtCheckout# Notify"
+msgstr " Thông báo"
+
+# Circulation > Interface > WaitingNotifyAtCheckin
+# Circulation > Interface
+#, fuzzy
+msgid "circulation.pref#WaitingNotifyAtCheckout# librarians of waiting holds for the patron whose items they are checking out."
 msgstr " cho cán bộ thư viện các đặt mượn của bạn đọc đối với tài liệu được trả lại."
 
 # Circulation > Self check-out module > WebBasedSelfCheck

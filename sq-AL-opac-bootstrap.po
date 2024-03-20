@@ -1,9 +1,9 @@
 # Compendium of sq.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.007\n"
+"Project-Id-Version: Koha 23.12.00.009\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-16 03:02+0000\n"
+"POT-Creation-Date: 2024-03-20 03:03+0000\n"
 "PO-Revision-Date: 2022-05-01 12:03-0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Koha Translation Team\n"
@@ -365,15 +365,57 @@ msgstr "Termi i ngushtë"
 msgid "(Immediate parent body)"
 msgstr "Fshirje e menjëhershme"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/authorities-search-results.inc:102
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/authorities-search-results.inc:104
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/authorities-search-results.inc:135
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:25
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth-detail.tt:163
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:170
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:70
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-reserves.tt:42
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-curbside-pickups.tt:174
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1205
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt:130
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:383
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:933
+#, c-format
+msgid "Notes"
+msgstr "Shënime"
+
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/authorities-search-results.inc:108
 #, c-format
 msgid "used for/see from:"
 msgstr "përdorur për/shiko nga:"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/authorities-search-results.inc:111
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/authorities-search-results.inc:117
 #, c-format
 msgid "see also:"
 msgstr "shiko gjithashtu:"
+
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/authorities-search-results.inc:136
+#, c-format
+msgid "×"
+msgstr "×"
+
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/authorities-search-results.inc:146
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:99
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:387
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/catalog_concern.inc:11
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:7
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:38
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/overdrive-checkout.inc:6
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/overdrive-login.inc:6
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:996
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1059
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1124
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1147
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1156
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:581
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1050
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:183
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:197
+#, c-format
+msgid "Close"
+msgstr "Mbyll"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/authority-identifiers.inc:4
 #, c-format
@@ -616,20 +658,6 @@ msgstr "Vendi i marrjes në dorëzim"
 msgid "Priority"
 msgstr "Prioriteti"
 
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:25
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-auth-detail.tt:163
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-basket.tt:170
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:70
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-reserves.tt:42
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-curbside-pickups.tt:174
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1205
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-full-serial-issues.tt:130
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-reserve.tt:383
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:933
-#, c-format
-msgid "Notes"
-msgstr "Shënime"
-
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:27
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:68
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:755
@@ -689,27 +717,6 @@ msgstr "Ndrysho fjalëkalimin"
 #, fuzzy, c-format
 msgid "Change pickup location for "
 msgstr "Vendi i marrjes në dorëzim"
-
-#. BUTTON
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:99
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/masthead.inc:387
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/catalog_concern.inc:11
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:7
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/modals/checkout.inc:38
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/overdrive-checkout.inc:6
-#: koha-tmpl/opac-tmpl/bootstrap/en/includes/overdrive-login.inc:6
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:996
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1059
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1124
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1147
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-detail.tt:1156
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:581
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-user.tt:1050
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:183
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/sci/sci-main.tt:197
-#, c-format
-msgid "Close"
-msgstr "Mbyll"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:105
 #, fuzzy, c-format
@@ -3038,7 +3045,7 @@ msgstr ""
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/errors/errorpage.tt:55
 #, fuzzy, c-format
-msgid "An unexpected error occurred while processing your requets."
+msgid "An unexpected error occurred while processing your request."
 msgstr "Ndodhi një gabim gjatë procesimit të kërkesës tuaj."
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/modules/errors/errorpage.tt:58
@@ -14606,6 +14613,3 @@ msgstr "000 "
 
 #~ msgid "your tags"
 #~ msgstr "tags tuaja"
-
-#~ msgid "×"
-#~ msgstr "×"

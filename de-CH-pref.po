@@ -1,7 +1,7 @@
 # Compendium of de_CH.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.007\n"
+"Project-Id-Version: Koha 23.12.00.009\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:08-0300\n"
 "PO-Revision-Date: 2022-05-01 08:48-0300\n"
@@ -585,6 +585,22 @@ msgstr "Drucken"
 #, fuzzy
 msgid "acquisitions.pref#OrderPriceRounding# to nearest cent.<br>"
 msgstr "Verwende"
+
+# Acquisitions > Policy > EmailPurchaseSuggestions
+# Acquisitions > Policy
+#, fuzzy
+msgid "acquisitions.pref#PlaceHoldsOnOrdersFromSuggestions# Do"
+msgstr "Deaktiviere"
+
+# Acquisitions > Policy > EmailPurchaseSuggestions
+# Acquisitions > Policy
+#, fuzzy
+msgid "acquisitions.pref#PlaceHoldsOnOrdersFromSuggestions# Don't"
+msgstr "Deaktiviere"
+
+# Acquisitions > Printing > PlaceHoldsOnOrdersFromSuggestions
+msgid "acquisitions.pref#PlaceHoldsOnOrdersFromSuggestions# place a hold when ordering from a suggestion."
+msgstr ""
 
 # Acquisitions > Policy > PurgeSuggestionsOlderThan
 msgid "acquisitions.pref#PurgeSuggestionsOlderThan# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/purge_suggestions.pl</code> cronjob. Ask your system administrator to schedule it."
@@ -7501,6 +7517,24 @@ msgstr "Zeige einen"
 # Circulation > Interface > WaitingNotifyAtCheckin
 # Circulation > Interface
 msgid "circulation.pref#WaitingNotifyAtCheckin# librarians of waiting holds for the patron whose items they are checking in."
+msgstr "Hinweis in der Rückgabe, wenn für den zurückgebenden Benutzer Vormerkungen zur Abholung bereit liegen."
+
+# Circulation > Interface > WaitingNotifyAtCheckin
+# Circulation > Interface
+#, fuzzy
+msgid "circulation.pref#WaitingNotifyAtCheckout# Don't notify"
+msgstr "Zeige keinen"
+
+# Circulation > Interface > WaitingNotifyAtCheckin
+# Circulation > Interface
+#, fuzzy
+msgid "circulation.pref#WaitingNotifyAtCheckout# Notify"
+msgstr "Zeige einen"
+
+# Circulation > Interface > WaitingNotifyAtCheckin
+# Circulation > Interface
+#, fuzzy
+msgid "circulation.pref#WaitingNotifyAtCheckout# librarians of waiting holds for the patron whose items they are checking out."
 msgstr "Hinweis in der Rückgabe, wenn für den zurückgebenden Benutzer Vormerkungen zur Abholung bereit liegen."
 
 # Circulation > Self check-out module > WebBasedSelfCheck

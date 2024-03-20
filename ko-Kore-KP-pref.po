@@ -1,7 +1,7 @@
 # Compendium of ko.
 msgid ""
 msgstr ""
-"Project-Id-Version: Koha 23.12.00.007\n"
+"Project-Id-Version: Koha 23.12.00.009\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 07:20-0300\n"
 "PO-Revision-Date: 2022-05-01 10:33-0300\n"
@@ -582,6 +582,22 @@ msgstr "인쇄"
 #, fuzzy
 msgid "acquisitions.pref#OrderPriceRounding# to nearest cent.<br>"
 msgstr "사용"
+
+# Acquisitions > Policy > EmailPurchaseSuggestions
+# Acquisitions > Policy
+#, fuzzy
+msgid "acquisitions.pref#PlaceHoldsOnOrdersFromSuggestions# Do"
+msgstr "하지않다"
+
+# Acquisitions > Policy > EmailPurchaseSuggestions
+# Acquisitions > Policy
+#, fuzzy
+msgid "acquisitions.pref#PlaceHoldsOnOrdersFromSuggestions# Don't"
+msgstr "하지않다"
+
+# Acquisitions > Printing > PlaceHoldsOnOrdersFromSuggestions
+msgid "acquisitions.pref#PlaceHoldsOnOrdersFromSuggestions# place a hold when ordering from a suggestion."
+msgstr ""
 
 # Acquisitions > Policy > PurgeSuggestionsOlderThan
 msgid "acquisitions.pref#PurgeSuggestionsOlderThan# <br><strong>NOTE:</strong> This system preference requires the <code>misc/cronjobs/purge_suggestions.pl</code> cronjob. Ask your system administrator to schedule it."
@@ -7584,6 +7600,24 @@ msgstr "알림"
 # Circulation > Interface > WaitingNotifyAtCheckin
 # Circulation > Interface
 msgid "circulation.pref#WaitingNotifyAtCheckin# librarians of waiting holds for the patron whose items they are checking in."
+msgstr "이용자가 반납한 항목을 도서관에서 소장 대기중."
+
+# Circulation > Interface > WaitingNotifyAtCheckin
+# Circulation > Interface
+#, fuzzy
+msgid "circulation.pref#WaitingNotifyAtCheckout# Don't notify"
+msgstr "알리지 않음"
+
+# Circulation > Interface > WaitingNotifyAtCheckin
+# Circulation > Interface
+#, fuzzy
+msgid "circulation.pref#WaitingNotifyAtCheckout# Notify"
+msgstr "알림"
+
+# Circulation > Interface > WaitingNotifyAtCheckin
+# Circulation > Interface
+#, fuzzy
+msgid "circulation.pref#WaitingNotifyAtCheckout# librarians of waiting holds for the patron whose items they are checking out."
 msgstr "이용자가 반납한 항목을 도서관에서 소장 대기중."
 
 # Circulation > Self check-out module > WebBasedSelfCheck
