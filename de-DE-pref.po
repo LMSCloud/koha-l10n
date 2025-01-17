@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-16 03:26+0200\n"
-"PO-Revision-Date: 2024-07-29 13:45+0200\n"
+"PO-Revision-Date: 2025-01-17 13:02+0100\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -6504,6 +6504,22 @@ msgstr "Modus für den Zugriff auf den Divibib NCIP-Service. Geben Sie hier \"te
 msgid "enhanced_content.pref#DivibibTitleAccessURL# URL to access Divibib titles. The value will be used to provide a link to Divibib titles in OPAC result and detail views for not logged in users. A placeholder {TITLEID} within the URL will be replaced with the Divibib title ID."
 msgstr "URL für den Zugriff auf Onleihe-Titel. Der Wert kann benutzt werden, um für nicht angemeldete Benutzer einen Link auf Onleihe-Titel in OPAC-Trefferlisten und OPAC-Detailansichten anzubieten. Der Platzhalter {TITLEID} innerhalb der URL wird durch die Onleihe-Titelnummer ersetzt."
 
+# Enhanced content
+msgid "enhanced_content.pref#DivibibVersion# 2.0"
+msgstr "2.0"
+
+# Enhanced content > OverDrive
+msgid "enhanced_content.pref#DivibibVersion# 3.0 or higher"
+msgstr "3.0 oder höher"
+
+# Enhanced content > Divibib > DivibibVersion
+msgid "enhanced_content.pref#DivibibVersion# <br>Setting the version correctly is necessary to support the Onleihe-OPAC integration and to synchronize data correctly."
+msgstr "<br>Das Setzen der korrekten Onleihe-Version ist notwendig, damit die OPAC-Onleihe-Integration als auch die automatische Synchronisation der Onleihe-Titel funktioniert."
+
+# Enhanced content > OverDrive
+msgid "enhanced_content.pref#DivibibVersion# Version number of the Onleihe"
+msgstr "Versionsnummer der Onleihe"
+
 # Enhanced content > Coce cover images cache
 msgid "enhanced_content.pref#EKZCover# Don't enable"
 msgstr "Aktiviere nicht"
@@ -9347,7 +9363,7 @@ msgstr "Verstecke"
 
 # OPAC > Policy
 msgid "opac.pref#OpacHiddenItemsHidesRecord# the bibliographic record when all its items are hidden by <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=OpacHiddenItems'>OpacHiddenItems</a>."
-msgstr "Eine Liste von Benutzertypen, getrennt mit |, die Titel und Exemplare im OPAC sehen kann, die über <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=OpacHiddenItems\">OpacHiddenItems</a> ausgeblendet wurden:"
+msgstr "einen bibliographischen Datensatz, bei dem alle Exemplare aufgrund der Einstellungen bei <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=OpacHiddenItems\">OpacHiddenItems</a> verborgen werden."
 
 # OPAC > Appearance
 msgid "opac.pref#OpacHighlightedWords# (separate columns with |)."
