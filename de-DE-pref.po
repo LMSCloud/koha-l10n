@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-16 03:26+0200\n"
-"PO-Revision-Date: 2025-01-17 13:02+0100\n"
+"PO-Revision-Date: 2025-01-26 16:20+0100\n"
 "Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -4060,6 +4060,10 @@ msgstr "<br>Tragen Sie eine Liste von komma-separierten Werten ein, z.B. <em>5,6
 # Circulation > Checkout policy
 msgid "circulation.pref#DefaultLongOverdueSkipLostStatuses# When using the automatic item loss process, skip items with lost values matching any of"
 msgstr "Wenn die automatische Verlust-Bearbeitung verwendet wird, dann übergehe Exemplare mit einem der folgenden Verloren-Status:"
+
+# Circulation > Holds policy > DiscardHoldsNoticeFeeOfHomeLibraries
+msgid "circulation.pref#DiscardHoldsNoticeFeeOfHomeLibraries# Discard a notice fee for holds if the home branch of the item is one of the specified codes (seperated by |).<br>"
+msgstr "Berechne keine Benachrichtigungsgebühr für die Vormerkquittung, wenn der Code der Heimatzweigstelle des Mediums hier aufgelistet ist. Mehrere Codes müssen getrennt durch \"|\" angegeben werden. Der Parameter kann genutzt werden, um kostenfreie Magazinbestellungen zu ermöglichen, wenn Vormerkgebühren mit der Bereitstellungsnachricht berechnet werden.<br>"
 
 # Circulation > Interface
 msgid "circulation.pref#DisplayClearScreenButton# Don't show clear screen button"
