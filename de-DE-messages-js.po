@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-17 12:52+0100\n"
-"PO-Revision-Date: 2024-10-08 10:52+0200\n"
-"Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
+"POT-Creation-Date: 2025-07-22 12:14+0200\n"
+"PO-Revision-Date: 2025-07-22 12:47+0200\n"
+"Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -90,22 +90,12 @@ msgstr "ist eine Dublette"
 msgid "already exists in database"
 msgstr "existiert bereits in der Datenbank"
 
-#: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:52
-msgid "There is no record selected"
-msgstr "Kein Datensatz ausgewählt"
+#: koha-tmpl/intranet-tmpl/prog/js/additional-fields.js:152
+#: koha-tmpl/opac-tmpl/bootstrap/js/additional-fields.js:152
+msgid "Additional Fields"
+msgstr "Zusatzfelder"
 
-#: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:63
-msgid "quantity values are not filled in or are not numbers"
-msgstr "Mengenangaben sind leer oder keine Zahlen"
-
-#: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:70
-msgid "Some funds are not defined in item records"
-msgstr "In einigen Exemplaren ist kein Konto definiert"
-
-#: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:78
-msgid "Some required item subfields are not set"
-msgstr "Pflichtfelder im Exemplar nicht vollständig ausgefüllt"
-
+#: koha-tmpl/intranet-tmpl/prog/js/additional-fields.js:153
 #: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:97
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:2
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:2
@@ -125,8 +115,42 @@ msgstr "Pflichtfelder im Exemplar nicht vollständig ausgefüllt"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:2
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:2
 #: koha-tmpl/intranet-tmpl/prog/js/z3950_search.js:117
+#: koha-tmpl/opac-tmpl/bootstrap/js/additional-fields.js:153
 msgid "Loading"
 msgstr "Lädt..."
+
+#: koha-tmpl/intranet-tmpl/prog/js/additional-fields.js:154
+#: koha-tmpl/opac-tmpl/bootstrap/js/additional-fields.js:154
+msgid "Select an option"
+msgstr "Bitte eine Option auswählen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/additional-fields.js:155
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:180
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:199
+#: koha-tmpl/opac-tmpl/bootstrap/js/additional-fields.js:155
+msgid "New"
+msgstr "Neu"
+
+#: koha-tmpl/intranet-tmpl/prog/js/additional-fields.js:156
+#: koha-tmpl/opac-tmpl/bootstrap/js/additional-fields.js:156
+msgid "Remove"
+msgstr "Entfernen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:52
+msgid "There is no record selected"
+msgstr "Kein Datensatz ausgewählt"
+
+#: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:63
+msgid "quantity values are not filled in or are not numbers"
+msgstr "Mengenangaben sind leer oder keine Zahlen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:70
+msgid "Some funds are not defined in item records"
+msgstr "In einigen Exemplaren ist kein Konto definiert"
+
+#: koha-tmpl/intranet-tmpl/prog/js/addorderiso2709.js:78
+msgid "Some required item subfields are not set"
+msgstr "Pflichtfelder im Exemplar nicht vollständig ausgefüllt"
 
 #: koha-tmpl/intranet-tmpl/prog/js/ajax.js:18
 msgid "Internal Server Error, please reload the page"
@@ -280,6 +304,21 @@ msgstr "Sind Sie sicher, dass sie die Felder und Unterfelder des %s-Frameworks e
 #, javascript-format
 msgid "Importing to framework: %s. Importing from file: %s."
 msgstr "Importiere in Framework: %s. Importiere aus Datei: %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-timeline.js:4
+#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:4
+msgid "Record level"
+msgstr "Beliebiges Exemplar"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-timeline.js:7
+#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:7
+#, javascript-format
+msgid "Item %s"
+msgstr "Exemplar %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-timeline.js:19
+msgid "Unknown patron"
+msgstr "Unbekannter Nutzer"
 
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:88
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:90
@@ -454,6 +493,11 @@ msgstr "Oktober"
 #: koha-tmpl/intranet-tmpl/prog/js/calendar.js:144
 msgid "September"
 msgstr "September"
+
+#: koha-tmpl/intranet-tmpl/prog/js/cancel_booking_modal.js:45
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:1218
+msgid "Failure"
+msgstr "Fehler"
 
 #: koha-tmpl/intranet-tmpl/prog/js/cart.js:81
 #: koha-tmpl/intranet-tmpl/prog/js/pages/results.js:366
@@ -727,6 +771,7 @@ msgid "Resolve"
 msgstr "Beilegen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1134
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:130
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:104
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:85
 msgid "Actions"
@@ -754,6 +799,7 @@ msgstr "Aktualisieren"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1227
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:407
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:141
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:165
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:78
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:376
@@ -774,7 +820,7 @@ msgid "Last"
 msgstr "Letzte"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:15
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1010
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:1033
 msgid "No data available in table"
 msgstr "Keine Daten verfügbar"
 
@@ -825,8 +871,8 @@ msgstr "Eine Zeile in Zwischenablage kopiert"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:37
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:39
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:778
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:780
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:795
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:797
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:279
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:281
 msgid "Clear filter"
@@ -864,56 +910,56 @@ msgstr ""
 msgid "Something went wrong when loading the table."
 msgstr "Beim Laden der Tabelle ist ein Problem aufgetreten."
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:741
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:758
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:243
 msgid "Excel"
 msgstr "Excel"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:749
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:766
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:251
 msgid "CSV"
 msgstr "CSV"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:757
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:774
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:259
 msgid "Copy"
 msgstr "Kopieren"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:765
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:782
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:32
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:267
 msgid "Print"
 msgstr "Druck"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:795
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:812
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:296
 msgid "Columns settings"
 msgstr "Tabellenkonfiguration"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:796
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:813
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:297
 msgid "Columns"
 msgstr "Spalten"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:810
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:827
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:311
 msgid "Export or print"
 msgstr "Exportieren oder drucken"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:811
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:828
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:312
 msgid "Export"
 msgstr "Export"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:821
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:838
 msgid "Configure table"
 msgstr "Tabelle konfigurieren"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:822
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:839
 msgid "Configure"
 msgstr "Konfigurieren"
 
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:912
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:935
 #, javascript-format
 msgid "%s search"
 msgstr "%s suchen"
@@ -1369,6 +1415,31 @@ msgstr "Diese Funktion ist nur in einem sicheren Kontext verfügbar (HTTPS)."
 msgid "An unknown error occurred: "
 msgstr "Ein unbekannter Fehler ist aufgetreten: "
 
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:55
+msgid "Edit booking"
+msgstr "Buchung bearbeiten"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:58
+msgid "Place booking"
+msgstr "Buchung erstellen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:130
+#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:501
+msgid "years"
+msgstr "Jahre"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:151
+msgid "Search for a patron"
+msgstr "Benutzer suchen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:220
+msgid "Pickup location"
+msgstr "Abholort"
+
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:283
+msgid "Item type"
+msgstr "Medientyp"
+
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
 msgid "Are you sure you want to remove this recall?"
 msgstr "Sind Sie sicher, dass Sie diesen Rückruf entfernen möchten?"
@@ -1379,6 +1450,8 @@ msgstr "Der Rückruf wurde möglicherweise bereits storniert. Bitte aktualisiere
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:24
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:183
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:195
 msgid "Cancelled"
 msgstr "Storniert"
 
@@ -1391,6 +1464,8 @@ msgid "The recall may have already been expired. Please refresh the page."
 msgstr "Der Rückruf ist möglicherweise bereits abgelaufen. Bitte aktualisieren Sie die Seite."
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:169
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:194
 msgid "Expired"
 msgstr "Abgelaufen"
 
@@ -1517,10 +1592,6 @@ msgstr "Sind Sie sicher, dass Sie %s löschen möchten?"
 msgid "An error occurred. Check the logs"
 msgstr "Es ist ein Fehler aufgetreten. Überprüfen Sie die Logs."
 
-#: koha-tmpl/intranet-tmpl/prog/js/staff-global.js:501
-msgid "years"
-msgstr "Jahre"
-
 #: koha-tmpl/intranet-tmpl/prog/js/subscription-add.js:19
 msgid "Frequency and subscription length provided doesn't combine well. Please consider entering an issue count rather than a time period."
 msgstr "Die Erscheinungsweise und die Abonnementlänge stimmen nicht überein. Eventuell sollten Sie besser die Anzahl Hefte, anstelle einer Zeitperiode eingeben."
@@ -1637,6 +1708,78 @@ msgstr "Filter deaktivieren"
 #: koha-tmpl/intranet-tmpl/prog/js/table_filters.js:54
 msgid "Activate filters"
 msgstr "Filter aktivieren"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:56
+msgid "Booking ID"
+msgstr "Buchungsnummer"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:60
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:42
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:50
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:290
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:49
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:153
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:74
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:188
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:52
+msgid "Status"
+msgstr "Status"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:68
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:13
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:220
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:168
+msgid "Title"
+msgstr "Titel"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:79
+msgid "Item"
+msgstr "Exemplar"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:82
+msgid "Any item"
+msgstr "Beliebiges Exemplar"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:98
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:20
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:57
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:96
+msgid "Start date"
+msgstr "Startdatum"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:107
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:33
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:68
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:106
+msgid "End date"
+msgstr "Enddatum"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:173
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:197
+msgid "Active"
+msgstr "Aktiv"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:177
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:196
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:186
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:198
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:191
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:209
+msgid "Show expired"
+msgstr "Abgelaufene anzeigen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:210
+msgid "Hide expired"
+msgstr "Abgelaufene ausblenden"
 
 #: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:71
 msgid "Are you sure you want to delete this cover image?"
@@ -1777,17 +1920,6 @@ msgstr "Lizenz"
 msgid "Required"
 msgstr "Pflichtfeld"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:42
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:50
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:290
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:49
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:153
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:74
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:188
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:52
-msgid "Status"
-msgstr "Status"
-
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:64
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:154
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:307
@@ -1841,18 +1973,6 @@ msgstr "Vereinbarungszeitraum %s"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:14
 msgid "Remove this period"
 msgstr "Zeitraum entfernen"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:20
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:57
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:96
-msgid "Start date"
-msgstr "Startdatum"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:33
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:68
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:106
-msgid "End date"
-msgstr "Enddatum"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:43
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:93
@@ -2158,12 +2278,6 @@ msgstr "Filter ausblenden"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:7
 msgid "Show filters"
 msgstr "Filter anzeigen"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:13
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:220
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:168
-msgid "Title"
-msgstr "Titel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:22
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:177
@@ -2922,6 +3036,18 @@ msgstr "Es wurde kein Exemplar in den Korb gelegt"
 msgctxt "Bibliographic record"
 msgid "The item has been removed from your cart"
 msgstr "Dieser Titel wurde aus Ihrem Korb gelöscht"
+
+#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:16
+msgid "Another patron"
+msgstr "Anderen Nutzern"
+
+#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:16
+msgid "Booked by"
+msgstr "Gebucht von: "
+
+#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:16
+msgid "You"
+msgstr "Sie selbst"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/global.js:288
 msgid "Back to top"

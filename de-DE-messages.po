@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 10:51+0200\n"
-"PO-Revision-Date: 2024-03-25 18:17+0100\n"
-"Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
+"POT-Creation-Date: 2025-07-22 12:14+0200\n"
+"PO-Revision-Date: 2025-07-22 12:50+0200\n"
+"Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -2783,6 +2783,9 @@ msgid "Cities"
 msgstr "Städte"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/cities.tt:19
+#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:14
 msgid "Koha"
 msgstr "Koha"
 
@@ -2881,6 +2884,15 @@ msgstr "Mappings wurden zurückgesetzt."
 msgid "Elasticsearch is currently disabled."
 msgstr "Elasticsearch ist aktuell nicht aktiviert."
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:11
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:13
+msgid "Bookings"
+msgstr "Buchungen"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:13
+msgid "Catalog"
+msgstr "Katalog"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:937
 #, perl-brace-format
 msgctxt "pluralization"
@@ -2944,18 +2956,27 @@ msgctxt "UNIMARC 116 painting techniques"
 msgid "Techniques (print) 3"
 msgstr "Techniken (Druck) 3"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:14
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:13
+msgid "Circulation"
+msgstr "Ausleihe"
+
 # Homebranch
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchoverdues.tt:22
 #, perl-brace-format
 msgid "Overdues at {library}"
 msgstr "Überfälligkeiten bei {library}"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:787
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:819
 #, perl-brace-format
 msgid "Bundle of {count} item"
 msgid_plural "Bundle of {count} items"
 msgstr[0] "Paket mit {count} Exemplar"
 msgstr[1] "Paket mit {count} Exemplaren"
+
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:12
+msgid "Bookings to collect"
+msgstr "Zu bearbeitende Buchungen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/waitingreserves.tt:98
 #, perl-brace-format
@@ -3086,11 +3107,16 @@ msgctxt "Tags (multiple)"
 msgid "Pending"
 msgstr "Ausstehend ("
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:549
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:555
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/overduerules.tt:99
 msgctxt "Message transport type"
 msgid "Print"
 msgstr "Post"
+
+#: koha-tmpl/opac-tmpl/bootstrap/en/includes/bookings-table.inc:90
+msgctxt "Cancel booking button"
+msgid "Cancel"
+msgstr "Stornieren"
 
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:194
 #: koha-tmpl/opac-tmpl/bootstrap/en/includes/holds-table.inc:201

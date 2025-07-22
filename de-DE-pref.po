@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-16 03:26+0200\n"
-"PO-Revision-Date: 2025-01-26 16:20+0100\n"
-"Last-Translator: Katrin Fischer <katrin.fischer@bsz-bw.de>\n"
+"PO-Revision-Date: 2025-07-22 13:25+0200\n"
+"Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -3546,8 +3546,8 @@ msgid "circulation.pref#ArticleRequestsOpacHostRedirection# Enable"
 msgstr "Aktiviere"
 
 # Circulation > Article requests > ArticleRequestsSupportedFormats
-msgid "circulation.pref#ArticleRequestsSupportedFormats# (Valid choices are currently: PHOTOCOPY and SCAN. Separate the supported formats by a vertical bar. The first listed format is selected by default when you request via the OPAC.)"
-msgstr "(Gültige Formate sind: PHOTOCOPY und SCAN. Trennen Sie die unterstützten Formate mit Pipe (|). Das erste angegebene Format wird voreingestellt, wenn über den OPAC bestellt wird.)"
+msgid "circulation.pref#ArticleRequestsSupportedFormats# The first listed format is selected by default when you request via the OPAC."
+msgstr "Das erste ausgewählte Format ist die Voreinstellung, wenn über den OPAC bestellt wird."
 
 # Circulation > Article requests
 msgid "circulation.pref#ArticleRequestsSupportedFormats# The following article request formats are supported:"
@@ -5899,9 +5899,13 @@ msgstr "Deaktiviere"
 msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# Enable"
 msgstr "Aktiviere"
 
+# Administration > Interface options
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# The first email address set from this list will be used: library reply-to, library email, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault'>ReplytoDefault</a>, <a href='/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress'>KohaAdminEmailAddress</a>."
+msgstr "Wenn das Feld freigelassen wird, wird die erste belegte Adresse aus der folgenden Liste verwendet: ReplyTo-Adresse der Bibliothek, E-Mail-Adresse der Bibliothek, Systemparameter <a href=\\\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ReplytoDefault\\\">ReplytoDefault</a>, <a href=\\\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=KohaAdminEmailAddress\\\">KohaAdminEmailAddress</a>."
+
 # Circulation > Holds policy
-msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the Koha administrator email address whenever a hold request is placed."
-msgstr "den Versand von E-Mails an den Koha-Administrator, wenn eine Vormerkung gesetzt wurde."
+msgid "circulation.pref#emailLibrarianWhenHoldIsPlaced# sending an email to the patron's library whenever a hold request is placed."
+msgstr "den Versand von E-Mails an die Bibliothek des Benutzers, wenn eine Vormerkung eingetragen wurde."
 
 # Circulation > Fines Policy
 msgid "circulation.pref#finesCalendar# Ignore the calendar"
@@ -8500,6 +8504,18 @@ msgstr "Dies sollte eine komplette URL, beginnend mit <code>http://</code> oder 
 # OPAC > Appearance
 msgid "opac.pref#OPACBaseURL# The OPAC is located at "
 msgstr "Der OPAC ist erreichbar unter "
+
+# OPAC > Self registration and modification
+msgid "opac.pref#OPACBookings# Allow"
+msgstr "Erlaube,"
+
+# OPAC > Features
+msgid "opac.pref#OPACBookings# Don't allow"
+msgstr "Erlaube nicht,"
+
+# OPAC > Features
+msgid "opac.pref#OPACBookings# patrons to place and manage their bookings on the OPAC."
+msgstr "dass Benutzer im OPAC Buchungen erfassen und im Benutzerkonto verwalten können."
 
 # OPAC > Self registration and modification
 msgid "opac.pref#OPACComments# Allow"
