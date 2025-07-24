@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-22 12:14+0200\n"
-"PO-Revision-Date: 2025-07-22 12:47+0200\n"
+"POT-Creation-Date: 2025-07-24 08:11+0200\n"
+"PO-Revision-Date: 2025-07-24 08:35+0200\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -91,6 +91,7 @@ msgid "already exists in database"
 msgstr "existiert bereits in der Datenbank"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additional-fields.js:152
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:213
 #: koha-tmpl/opac-tmpl/bootstrap/js/additional-fields.js:152
 msgid "Additional Fields"
 msgstr "Zusatzfelder"
@@ -800,6 +801,7 @@ msgstr "Aktualisieren"
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1227
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:407
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:141
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:242
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:165
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:78
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:376
@@ -1416,10 +1418,13 @@ msgid "An unknown error occurred: "
 msgstr "Ein unbekannter Fehler ist aufgetreten: "
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:55
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:349
 msgid "Edit booking"
 msgstr "Buchung bearbeiten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:58
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:349
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:377
 msgid "Place booking"
 msgstr "Buchung erstellen"
 
@@ -1433,10 +1438,12 @@ msgid "Search for a patron"
 msgstr "Benutzer suchen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:220
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:75
 msgid "Pickup location"
 msgstr "Abholort"
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:283
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:113
 msgid "Item type"
 msgstr "Medientyp"
 
@@ -1733,6 +1740,7 @@ msgid "Title"
 msgstr "Titel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:79
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:136
 msgid "Item"
 msgstr "Exemplar"
 
@@ -1862,6 +1870,68 @@ msgstr "Sie können maximal zwei Einträge auswählen"
 #: koha-tmpl/intranet-tmpl/prog/js/viewlog.js:128
 msgid "You must select two entries to compare"
 msgstr "Sie müssen zwei Einträge auswählen um vergleichen zu können"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:33
+msgid "Select Patron"
+msgstr "Benutzer"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:60
+msgid "Select Pickup Location and Item Type or Item"
+msgstr "Auswahl Abholort und Medientyp oder Exemplar"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:63
+msgid "Select Pickup Location"
+msgstr "Abholort wählen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:80
+msgid "Select a pickup location"
+msgstr "Abholort auswählen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:99
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:128
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:154
+msgid "Options updated"
+msgstr "Optionen aktualisiert"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:173
+msgid "Select Booking Period"
+msgstr "Auswahl Buchungszeitraum"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:177
+msgid "Booking period"
+msgstr "Buchungszeitraum"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:189
+msgid "Booked"
+msgstr "Gebucht"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:193
+msgid "Lead Period"
+msgstr "Buchungsvorlauf"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:197
+msgid "Trail Period"
+msgstr "Buchungsnachbearbeitung"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:201
+msgid "Checked Out"
+msgstr "Ausgeliehen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:377
+msgid "Update booking"
+msgstr "Buchung aktualisieren"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:579
+msgid "Failed to load booking data"
+msgstr "Die Buchungsdaten konnten nicht geladen werden"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:776
+msgid "Failed to save booking."
+msgstr "Die Buchung konnte nicht gespeichert werden."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingCalendar.js:60
+msgid "to"
+msgstr "bis"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ButtonSubmit.vue:11
 msgid "Submit"
