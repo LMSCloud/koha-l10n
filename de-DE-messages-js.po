@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-24 12:33+0200\n"
-"PO-Revision-Date: 2025-07-24 12:34+0200\n"
+"POT-Creation-Date: 2025-07-25 09:32+0200\n"
+"PO-Revision-Date: 2025-07-25 10:06+0200\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -91,7 +91,7 @@ msgid "already exists in database"
 msgstr "existiert bereits in der Datenbank"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additional-fields.js:152
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:213
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:217
 #: koha-tmpl/opac-tmpl/bootstrap/js/additional-fields.js:152
 msgid "Additional Fields"
 msgstr "Zusatzfelder"
@@ -305,6 +305,24 @@ msgstr "Sind Sie sicher, dass sie die Felder und Unterfelder des %s-Frameworks e
 #, javascript-format
 msgid "Importing to framework: %s. Importing from file: %s."
 msgstr "Importiere in Framework: %s. Importiere aus Datei: %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-table-filters.js:17
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:210
+msgid "Hide expired"
+msgstr "Abgelaufene ausblenden"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-table-filters.js:17
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:209
+msgid "Show expired"
+msgstr "Abgelaufene anzeigen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-table-filters.js:21
+msgid "Hide cancelled"
+msgstr "Stornierte ausblenden"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-table-filters.js:21
+msgid "Show cancelled"
+msgstr "Zeige stornierte"
 
 #: koha-tmpl/intranet-tmpl/prog/js/bookings-timeline.js:4
 #: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:4
@@ -801,7 +819,7 @@ msgstr "Aktualisieren"
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1227
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:407
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:141
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:242
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:246
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:165
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:78
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:376
@@ -1418,13 +1436,13 @@ msgid "An unknown error occurred: "
 msgstr "Ein unbekannter Fehler ist aufgetreten: "
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:55
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:349
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:354
 msgid "Edit booking"
 msgstr "Buchung bearbeiten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:58
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:349
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:377
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:354
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:382
 msgid "Place booking"
 msgstr "Buchung erstellen"
 
@@ -1434,16 +1452,17 @@ msgid "years"
 msgstr "Jahre"
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:151
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:41
 msgid "Search for a patron"
 msgstr "Benutzer suchen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:220
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:75
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:79
 msgid "Pickup location"
 msgstr "Abholort"
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:283
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:113
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:117
 msgid "Item type"
 msgstr "Medientyp"
 
@@ -1740,7 +1759,7 @@ msgid "Title"
 msgstr "Titel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:79
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:136
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:140
 msgid "Item"
 msgstr "Exemplar"
 
@@ -1780,14 +1799,6 @@ msgstr "Abgeschlossen"
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:191
 msgid "Unknown"
 msgstr "Unbekannt"
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:209
-msgid "Show expired"
-msgstr "Abgelaufene anzeigen"
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:210
-msgid "Hide expired"
-msgstr "Abgelaufene ausblenden"
 
 #: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:71
 msgid "Are you sure you want to delete this cover image?"
@@ -1875,60 +1886,56 @@ msgstr "Sie müssen zwei Einträge auswählen um vergleichen zu können"
 msgid "Select Patron"
 msgstr "Benutzer"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:60
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:38
+msgid "Patron"
+msgstr "BenutzerIn"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:64
 msgid "Select Pickup Location and Item Type or Item"
 msgstr "Auswahl Abholort und Medientyp oder Exemplar"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:63
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:67
 msgid "Select Pickup Location"
 msgstr "Abholort wählen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:80
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:84
 msgid "Select a pickup location"
 msgstr "Abholort auswählen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:99
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:128
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:154
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:103
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:132
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:158
 msgid "Options updated"
 msgstr "Optionen aktualisiert"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:173
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:177
 msgid "Select Booking Period"
 msgstr "Auswahl Buchungszeitraum"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:177
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:181
 msgid "Booking period"
 msgstr "Buchungszeitraum"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:189
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:193
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingTooltip.vue:60
 msgid "Booked"
 msgstr "Gebucht"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:193
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:197
 msgid "Lead Period"
 msgstr "Buchungsvorlauf"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:197
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:201
 msgid "Trail Period"
 msgstr "Buchungsnachbearbeitung"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:201
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:205
 msgid "Checked Out"
 msgstr "Ausgeliehen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:377
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:382
 msgid "Update booking"
 msgstr "Buchung aktualisieren"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:579
-msgid "Failed to load booking data"
-msgstr "Die Buchungsdaten konnten nicht geladen werden"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:776
-msgid "Failed to save booking."
-msgstr "Die Buchung konnte nicht gespeichert werden."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingTooltip.vue:28
 msgid "Barcode"
@@ -1949,6 +1956,80 @@ msgstr "Buchungsnachbearbeitung"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingCalendar.js:60
 msgid "to"
 msgstr "bis"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:9
+msgid "Biblionumber is required"
+msgstr "Die Angabe der Katalognummer ist erforderlich"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:10
+msgid "Patron ID is required"
+msgstr "Die Angabe der Benutzernummer ist erforderlich"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:11
+msgid "Booking data is required"
+msgstr "Buchungsdaten sind erforderlivh"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:12
+msgid "Booking ID is required"
+msgstr "Buchungs-ID ist eine Pflichtangabe"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:13
+msgid "No update data provided"
+msgstr "Es wurden keine zu aktualisierende Daten übergeben"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:14
+msgid "Data is required"
+msgstr "Pflichtfeld"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:16
+#, javascript-format
+msgid "Missing required fields: %s"
+msgstr "Fehlende Pflichtfelder: %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:20
+#, javascript-format
+msgid "Failed to fetch bookable items: %s %s"
+msgstr "Die buchbaren Exemplare konnten nicht vom Server gelesen werden: %s %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:25
+#, javascript-format
+msgid "Failed to fetch bookings: %s %s"
+msgstr "Die vorliegenden Buchungen konnten nicht vom Server abgeholt werden: %s %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:30
+#, javascript-format
+msgid "Failed to fetch checkouts: %s %s"
+msgstr "Die Ausleihen konnten nicht vom Server gelesen werden: %s %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:35
+#, javascript-format
+msgid "Failed to fetch patron: %s %s"
+msgstr "Der Benutzer konnte nicht vom Server gelesen werden: %s %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:40
+#, javascript-format
+msgid "Failed to fetch patrons: %s %s"
+msgstr "Die Benutzer konnten nicht vom Server gelesen werden: %s %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:45
+#, javascript-format
+msgid "Failed to fetch pickup locations: %s %s"
+msgstr "Die Liste Abholorte konnte nicht vom Server bezogen werden: %s %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:50
+#, javascript-format
+msgid "Failed to fetch circulation rules: %s %s"
+msgstr "Die Ausleihkonditionen konnten nicht vom Server bezogen werden: %s %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:55
+#, javascript-format
+msgid "Failed to create booking: %s %s"
+msgstr "Die Buchung konnte nicht gespeichert werden: %s %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingValidationMessages.js:60
+#, javascript-format
+msgid "Failed to update booking: %s %s"
+msgstr "Die Buchung konnte nicht aktualisiert werden: %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ButtonSubmit.vue:11
 msgid "Submit"
@@ -3054,6 +3135,72 @@ msgstr "hat Frontfile in"
 msgid "related to"
 msgstr "verbunden mit"
 
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:14
+msgid "An error occurred."
+msgstr "Ein Fehler ist aufgetreten."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:22
+msgid "Required field is missing."
+msgstr "Ein Pflichtfeld fehlt."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:26
+msgid "Invalid data type provided."
+msgstr "Ungültiger Datentyp angegeben."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:30
+msgid "Text length is invalid."
+msgstr "Die Textlänge stimmt nicht."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:34
+msgid "Invalid value selected."
+msgstr "Ein ungültiger Wert wurde ausgewählt."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:38
+msgid "Invalid data format."
+msgstr "Ungültiges Datenformat."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:42
+msgid "Data validation failed."
+msgstr "Die Datenvalidierung ist fehlgeschlagen."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:46
+msgid "Invalid request."
+msgstr "Ungültige Anfrage."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:51
+msgid "An unexpected error occurred."
+msgstr "Ein unerwarteter Fehler ist aufgetreten."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:55
+msgid "A server error occurred."
+msgstr "Ein Server-Fehler ist aufgetreten."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:59
+msgid "The requested resource was not found."
+msgstr "Die angeforderte Ressource wurde nicht gefunden."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:63
+msgid "You are not authorized to perform this action."
+msgstr "Sie sind nicht berechtigt, diese Aktion durchzuführen."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:67
+msgid "Access to this resource is forbidden."
+msgstr "Der Zugriff auf die Ressource ist nicht erlaubt."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:71
+msgid "The requested item was not found."
+msgstr "Das angeforderte Exemplar ist nicht vorhanden."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/apiErrors.js:83
+#, javascript-format
+msgid "An error occurred: %s"
+msgstr "Ein Fehler ist aufgetreten: %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/utils/validationErrors.js:22
+#, javascript-format
+msgid "Validation error: %s"
+msgstr "Validierungsfehler: %s"
+
 #: koha-tmpl/intranet-tmpl/prog/js/xmlControlfield.js:215
 #, javascript-format
 msgid "AJAX error: receiving data from %s"
@@ -3224,6 +3371,9 @@ msgstr "Durchschnittsbewertung: %s (%s Wertungen)"
 
 #~ msgid "Delete title"
 #~ msgstr "Titel löschen"
+
+#~ msgid "Failed to load booking data"
+#~ msgstr "Die Buchungsdaten konnten nicht geladen werden"
 
 #~ msgid "Filter"
 #~ msgstr "Filter"
