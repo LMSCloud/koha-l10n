@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
-"POT-Creation-Date: 2025-07-24 08:11+0200\n"
+"POT-Creation-Date: 2025-07-28 13:54+0200\n"
 "PO-Revision-Date: 2025-07-22 13:47+0200\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
@@ -8182,22 +8182,8 @@ msgid "Pending on-site checkouts"
 msgstr "Aktuelle Vor-Ort-Ausleihen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:43
-#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:260
-#: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:33
-#: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:355
-#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:153
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:50
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:62
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:141
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:141
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:155
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:214
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:373
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:375
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:80
-#: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:335
-#, c-format
-msgid "Holds"
+#, fuzzy, c-format
+msgid "Holds and Bookings"
 msgstr "Vormerkungen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:46
@@ -8231,7 +8217,27 @@ msgstr "Bereitgestellte Vormerkungen"
 msgid "Curbside pickups"
 msgstr "Abholungen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:65
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:63
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:91
+#, c-format
+msgid "Bookings to collect"
+msgstr "Zu bearbeitende Buchungen"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:66
+#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:114
+#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:41
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:30
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:41
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:94
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:162
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:220
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:403
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:405
+#, c-format
+msgid "Bookings"
+msgstr "Buchungen"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:72
 #: koha-tmpl/intranet-tmpl/prog/en/includes/permissions.inc:79
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:99
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:102
@@ -8240,12 +8246,12 @@ msgid "Recalls"
 msgstr "Rückrufe"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:68
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:102
 msgid "All active recalls"
 msgstr "Alle aktiven Rückrufe"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:68
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:102
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_queue.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_queue.tt:35
@@ -8254,12 +8260,12 @@ msgid "Recalls queue"
 msgstr "Liste der Rückrufe"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:71
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:103
 msgid "Recalls that could be filled but have not been set waiting"
 msgstr "Rückrufe, die erfüllt werden könnten, aber noch nicht bereitgestellt wurden"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:71
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:78
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:103
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_to_pull.tt:24
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_to_pull.tt:38
@@ -8267,7 +8273,7 @@ msgstr "Rückrufe, die erfüllt werden könnten, aber noch nicht bereitgestellt 
 msgid "Recalls to pull"
 msgstr "Zu erledigende Rückrufe"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:74
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:104
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_overdue.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_overdue.tt:35
@@ -8276,18 +8282,18 @@ msgid "Overdue recalls"
 msgstr "Überfällige Rückrufe"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:74
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:81
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:104
 msgid "Recalled items that are overdue to be returned"
 msgstr "Zurückgerufene Exemplare, die überfällig sind"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:77
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:105
 msgid "Recalled items awaiting pickup"
 msgstr "Bereitgestellte Rückrufe"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:77
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:84
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:105
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_waiting.tt:34
@@ -8296,12 +8302,12 @@ msgid "Recalls awaiting pickup"
 msgstr "Bereitgestellte Rückrufe"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:80
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:87
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:106
 msgid "Inactive recalls"
 msgstr "Inaktive Rückrufe"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:80
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:87
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:106
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_old_queue.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/recalls/recalls_old_queue.tt:35
@@ -8309,13 +8315,13 @@ msgstr "Inaktive Rückrufe"
 msgid "Old recalls"
 msgstr "Erledigte Rückrufe"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:86
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:93
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:116
 #, c-format
 msgid "Patron request"
 msgstr "Bestellungen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:89
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:96
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:144
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/smart-rules.tt:589
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:142
@@ -8326,14 +8332,14 @@ msgstr "Bestellungen"
 msgid "Article requests"
 msgstr "Artikelbestellungen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:94
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:101
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/branchtransfers.tt:22
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:124
 #, c-format
 msgid "Transfers"
 msgstr "Transporte"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:98
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:105
 #: koha-tmpl/intranet-tmpl/prog/en/includes/rotating-collections-toolbar.inc:9
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:660
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:345
@@ -8348,22 +8354,22 @@ msgstr "Transporte"
 msgid "Transfer"
 msgstr "Transfer"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:102
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:109
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:133
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transfers_to_send.tt:25
 #, c-format
 msgid "Transfers to send"
 msgstr "Ausgehende Transporte"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:105
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:112
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:136
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/transferstoreceive.tt:23
 #, c-format
 msgid "Transfers to receive"
 msgstr "Eingehende Transporte"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:109
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:113
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:116
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:120
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:140
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:148
 #, c-format
@@ -8371,18 +8377,18 @@ msgid "Overdues"
 msgstr "Überfälligkeiten"
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:113
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:120
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:145
 msgid "Warning: This report is very resource intensive on systems with large numbers of overdue items."
 msgstr "Dieser Report ist in Systemen mit vielen überfälligen Medien sehr ressourcenintensiv."
 
 #. A
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:117
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:124
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:152
 msgid "Limited to your library. See report help for other details."
 msgstr "Eingeschränkt auf Ihre Bibliothek."
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:117
+#: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:124
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:155
 #, c-format
 msgid "Overdues with fines"
@@ -10226,6 +10232,24 @@ msgstr "Zeige alle Spalten"
 #, c-format
 msgid "Hide all columns"
 msgstr "Alle Spalten ausblenden"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:260
+#: koha-tmpl/intranet-tmpl/prog/en/includes/reports-menu.inc:33
+#: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:355
+#: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/parcel.tt:153
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:50
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reports/reports-home.tt:62
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:141
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/batch_delete_records.tt:141
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:155
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:214
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:373
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:375
+#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/viewlog.tt:80
+#: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:335
+#, c-format
+msgid "Holds"
+msgstr "Vormerkungen"
 
 #. TH
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:260
@@ -27920,19 +27944,6 @@ msgstr "Bestellungen"
 #, c-format
 msgid "Order lines"
 msgstr "Bestellposten"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/admin/additional-fields.tt:114
-#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:30
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:94
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:162
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:220
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:403
-#: koha-tmpl/intranet-tmpl/prog/en/modules/tools/letter.tt:405
-#, c-format
-msgid "Bookings"
-msgstr "Buchungen"
 
 #. %1$s:  END 
 #. %2$s:  END 
@@ -45824,11 +45835,6 @@ msgstr "Ausleihe &rsaquo; Koha"
 #, c-format
 msgid "Holds and bookings"
 msgstr "Vormerkungen"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:91
-#, c-format
-msgid "Bookings to collect"
-msgstr "Zu bearbeitende Buchungen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:167
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/offline.tt:29
