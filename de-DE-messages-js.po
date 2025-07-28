@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-28 13:54+0200\n"
-"PO-Revision-Date: 2025-07-28 14:01+0200\n"
+"POT-Creation-Date: 2025-07-28 16:31+0200\n"
+"PO-Revision-Date: 2025-07-28 16:33+0200\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -326,20 +326,25 @@ msgstr "Stornierte ausblenden"
 msgid "Show cancelled"
 msgstr "Zeige stornierte"
 
-#: koha-tmpl/intranet-tmpl/prog/js/bookings-timeline.js:4
-#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:4
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-timeline.js:11
+#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:9
 msgid "Record level"
 msgstr "Beliebiges Exemplar"
 
-#: koha-tmpl/intranet-tmpl/prog/js/bookings-timeline.js:7
-#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:7
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-timeline.js:14
+#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:12
 #, javascript-format
 msgid "Item %s"
 msgstr "Exemplar %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/bookings-timeline.js:19
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-timeline.js:26
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-timeline.js:51
 msgid "Unknown patron"
 msgstr "Unbekannter Nutzer"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-timeline.js:55
+msgid "Checkout"
+msgstr "Ausleihe"
 
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:88
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:90
@@ -3338,17 +3343,23 @@ msgctxt "Bibliographic record"
 msgid "The item has been removed from your cart"
 msgstr "Dieser Titel wurde aus Ihrem Korb gelöscht"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:16
+#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:21
+#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:41
 msgid "Another patron"
 msgstr "Anderen Nutzern"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:16
+#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:21
 msgid "Booked by"
 msgstr "Gebucht von"
 
-#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:16
+#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:21
+#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:41
 msgid "You"
 msgstr "Sie selbst"
+
+#: koha-tmpl/opac-tmpl/bootstrap/js/bookings-timeline.js:41
+msgid "Checked out to"
+msgstr "Ausgeliehen an"
 
 #: koha-tmpl/opac-tmpl/bootstrap/js/global.js:288
 msgid "Back to top"
