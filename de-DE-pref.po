@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-16 03:26+0200\n"
-"PO-Revision-Date: 2025-07-28 14:22+0200\n"
+"PO-Revision-Date: 2025-08-04 12:24+0200\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -3712,6 +3712,18 @@ msgstr "Aktiviere"
 # Circulation > Checkout policy > BookMobileStationOverdueRulesActive
 msgid "circulation.pref#BookMobileStationOverdueRulesActive# bookmobile station specific overdue rules. If activated, book mobile stations can have individual overdue and claiming fee rules. Requires to have the preference BookMobileSupportEnabled enabled."
 msgstr "die Verwaltung der Mahntrigger für Haltestellen von Buszweigstellen. Durch die Aktivierung können für Haltestellen eigene Regeln für Berechnung von Mahngebühren und Mahnbenachrichtigungen konfiguriert werden. Der Parameter wird nur dann wirksam, wenn mit dem Parameter BookMobileSupportEnabled die Funktionen zur Verwaltung von Bücherbussen aktiviert wurden."
+
+# Circulation > Interface
+msgid "circulation.pref#BookingConstraintMode# Allow any date within range"
+msgstr "Gestatte die Verkürzung des Buchungszeitraums"
+
+# Circulation > Interface
+msgid "circulation.pref#BookingConstraintMode# Allow only start and end dates"
+msgstr "Erlaube nur den festgelegten Buchungszeitraum"
+
+# Circulation > Bookings > BookingConstraintMode
+msgid "circulation.pref#BookingConstraintMode# for booking date constraints. When set to 'end_date_only', patrons can only book the calculated start date or end date, with intermediate dates blocked."
+msgstr "bei der Auswahl des Buchungsstart und Buchungsenddatums. Der Parameter ist nur wirksam, wenn über Parameter <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ConfirmFutureHolds\">BookingDateRangeConstraint</a> der Buchungszeitraum limitiert wird. Wird nur durch die Ausleihregeln festgelegte Zeitraum erlaubt, können Benutzer das Endedatum nicht verändern."
 
 # Circulation > Bookings > BookingDateRangeConstraint
 msgid "circulation.pref#BookingDateRangeConstraint# Constrain to issue length"
@@ -10028,6 +10040,14 @@ msgstr " Jahre."
 # OPAC > Payments > PaymentsMinimumPatronAge
 msgid "opac.pref#PaymentsMinimumPatronAge# The minimum patron age for permission to the payment functionality is "
 msgstr "Das Mindestalter eines Benutzers für Online-Zahlungen im OPAC ist"
+
+# OPAC > Payments > PaymentsMinimumPatronAge
+msgid "opac.pref#PaymentsPatronCategories# ."
+msgstr ". Dies setzt die Nutzung eines Online-Zahlungsplugins voraus."
+
+# OPAC > Payments > PaymentsPatronCategories
+msgid "opac.pref#PaymentsPatronCategories# Enable only the patrons of the listed patron categories (separated by |) to perform online payments"
+msgstr "Gestatte nur Benutzern der angegebenen Benutzertypen (getrennt durch ein Pipe-Zeichen |), Online-Zahlungen im OPAC durchzuführen"
 
 # OPAC > Features
 msgid "opac.pref#QuoteOfTheDay# OPAC"
