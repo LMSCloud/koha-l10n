@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-16 03:26+0200\n"
-"PO-Revision-Date: 2025-08-04 12:24+0200\n"
+"PO-Revision-Date: 2025-08-06 10:53+0200\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -3723,7 +3723,7 @@ msgstr "Erlaube nur den festgelegten Buchungszeitraum"
 
 # Circulation > Bookings > BookingConstraintMode
 msgid "circulation.pref#BookingConstraintMode# for booking date constraints. When set to 'end_date_only', patrons can only book the calculated start date or end date, with intermediate dates blocked."
-msgstr "bei der Auswahl des Buchungsstart und Buchungsenddatums. Der Parameter ist nur wirksam, wenn über Parameter <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ConfirmFutureHolds\">BookingDateRangeConstraint</a> der Buchungszeitraum limitiert wird. Wird nur durch die Ausleihregeln festgelegte Zeitraum erlaubt, können Benutzer das Endedatum nicht verändern."
+msgstr "bei der Auswahl des Buchungsstart- und Buchungsenddatums. Der Parameter ist nur wirksam, wenn über Parameter <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ConfirmFutureHolds\">BookingDateRangeConstraint</a> der Buchungszeitraum limitiert wird. Wird nur durch die Ausleihregeln festgelegte Zeitraum erlaubt, können Benutzer das Endedatum nicht verändern."
 
 # Circulation > Bookings > BookingDateRangeConstraint
 msgid "circulation.pref#BookingDateRangeConstraint# Constrain to issue length"
@@ -8536,6 +8536,18 @@ msgstr "Dies sollte eine komplette URL, beginnend mit <code>http://</code> oder 
 # OPAC > Appearance
 msgid "opac.pref#OPACBaseURL# The OPAC is located at "
 msgstr "Der OPAC ist erreichbar unter "
+
+# Circulation > Interface
+msgid "opac.pref#OPACBookingConstraintMode# Allow any date within range"
+msgstr "Gestatte die Verkürzung des Buchungszeitraums"
+
+# Circulation > Interface
+msgid "opac.pref#OPACBookingConstraintMode# Allow only start and end dates"
+msgstr "Erlaube nur den festgelegten Buchungszeitraum"
+
+# Circulation > Bookings > BookingConstraintMode
+msgid "opac.pref#OPACBookingConstraintMode# for OPAC booking date constraints. When set to 'end_date_only', patrons can only book the calculated start date or end date, with intermediate dates blocked."
+msgstr "bei der Auswahl des Buchungsstart- und Buchungsenddatums im OPAC. Der Parameter ist nur wirksam, wenn über Parameter <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=ConfirmFutureHolds\">BookingDateRangeConstraint</a> der Buchungszeitraum limitiert wird. Wird nur durch die Ausleihregeln festgelegte Zeitraum erlaubt, können Benutzer das Endedatum nicht verändern."
 
 # OPAC > Features > OPACBookingDateRangeConstraint
 msgid "opac.pref#OPACBookingDateRangeConstraint# Constrain to issue length"
