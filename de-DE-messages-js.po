@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-06 10:35+0200\n"
-"PO-Revision-Date: 2025-08-06 10:53+0200\n"
+"POT-Creation-Date: 2025-08-07 11:23+0200\n"
+"PO-Revision-Date: 2025-08-07 11:27+0200\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -47,6 +47,7 @@ msgid "You can't receive any more items"
 msgstr "Sie können keine weiteren Exemplare zugehen lassen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:91
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:498
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:99
 msgid "Edit"
 msgstr "Bearbeiten"
@@ -128,8 +129,11 @@ msgid "Select an option"
 msgstr "Bitte eine Option auswählen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additional-fields.js:155
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:180
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:199
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:224
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:243
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:590
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:192
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:211
 #: koha-tmpl/opac-tmpl/bootstrap/js/additional-fields.js:155
 msgid "New"
 msgstr "Neu"
@@ -310,13 +314,193 @@ msgstr "Sind Sie sicher, dass sie die Felder und Unterfelder des %s-Frameworks e
 msgid "Importing to framework: %s. Importing from file: %s."
 msgstr "Importiere in Framework: %s. Importiere aus Datei: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/bookings-table-filters.js:17
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:175
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:56
+msgid "Booking ID"
+msgstr "Buchungsnummer"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:184
+msgid "Reserved on"
+msgstr "Vorgemerkt am"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:198
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:1303
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:60
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:42
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:50
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:290
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:49
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:153
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:74
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:188
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:52
+msgid "Status"
+msgstr "Status"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:216
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:238
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:601
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:181
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:206
+msgid "Expired"
+msgstr "Abgelaufen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:219
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:241
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:597
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:185
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:209
+msgid "Active"
+msgstr "Aktiv"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:222
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:240
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:593
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:189
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:208
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:227
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:239
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:605
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:24
+#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:195
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:207
+msgid "Cancelled"
+msgstr "Storniert"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:230
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:242
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:609
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:198
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:210
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:235
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:203
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:261
+msgid "Holding library"
+msgstr "Aufenthaltsbibliothek"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:275
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:68
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:13
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:220
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:168
+msgid "Title"
+msgstr "Titel"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:293
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:79
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingDetailsStep.vue:81
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:2013
+#: koha-tmpl/opac-tmpl/bootstrap/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:2013
+msgid "Item"
+msgstr "Exemplar"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:296
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:82
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingDetailsStep.vue:86
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:2017
+#: koha-tmpl/opac-tmpl/bootstrap/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:2017
+msgid "Any item"
+msgstr "Beliebiges Exemplar"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:312
+msgid "Callnumber"
+msgstr "Signatur"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:330
+msgid "Location"
+msgstr "Standort"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:337
+msgid "On loan, due: "
+msgstr "Ausgeliehen, fällig am "
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:354
+#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:283
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingDetailsStep.vue:57
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:1994
+#: koha-tmpl/opac-tmpl/bootstrap/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:1994
+msgid "Item type"
+msgstr "Medientyp"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:368
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPatronStep.vue:10
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:1931
+#: koha-tmpl/opac-tmpl/bootstrap/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:1931
+msgid "Patron"
+msgstr "BenutzerIn"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:381
+msgid "Pickup library"
+msgstr "Abholort"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:395
+msgid "Booking dates"
+msgstr "Buchungszeitraum"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:407
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:98
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:20
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:57
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:96
+msgid "Start date"
+msgstr "Startdatum"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:417
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:107
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:33
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:68
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:106
+msgid "End date"
+msgstr "Enddatum"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:431
+msgid "Additional fields"
+msgstr "Zusatzfelder"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:460
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1134
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:142
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:104
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:85
+msgid "Actions"
+msgstr "Aktionen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:506
+#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1227
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:407
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:153
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:127
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:165
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:78
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:376
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:127
+#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:2091
+#: koha-tmpl/opac-tmpl/bootstrap/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:2091
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-common.js:1257
+msgid "Clear date range"
+msgstr "Zeitraum löschen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings-table-filters.js:17
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:222
 msgid "Hide expired"
 msgstr "Abgelaufene ausblenden"
 
 #: koha-tmpl/intranet-tmpl/prog/js/bookings-table-filters.js:17
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:209
+#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:221
 msgid "Show expired"
 msgstr "Abgelaufene anzeigen"
 
@@ -798,13 +982,6 @@ msgstr "Doppelklicken zum Bearbeiten"
 msgid "Resolve"
 msgstr "Beilegen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1134
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:130
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:104
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:85
-msgid "Actions"
-msgstr "Aktionen"
-
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1137
 msgid "Edit notes"
 msgstr "Notizen bearbeiten"
@@ -824,19 +1001,6 @@ msgstr[1] "Zeige {count} ungelöste Reklamationen"
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1226
 msgid "Update"
 msgstr "Aktualisieren"
-
-#: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1227
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:407
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:141
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:106
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:165
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalPackagesFormAdd.vue:78
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAdd.vue:376
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:127
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:2091
-#: koha-tmpl/opac-tmpl/bootstrap/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:2091
-msgid "Cancel"
-msgstr "Abbrechen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1266
 msgid "Are you sure you want to delete this return claim?"
@@ -1447,13 +1611,13 @@ msgid "An unknown error occurred: "
 msgstr "Ein unbekannter Fehler ist aufgetreten: "
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:55
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:243
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:270
 msgid "Edit booking"
 msgstr "Buchung bearbeiten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:58
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:243
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:272
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:270
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:298
 msgid "Place booking"
 msgstr "Buchung erstellen"
 
@@ -1476,13 +1640,6 @@ msgstr "Benutzer suchen"
 msgid "Pickup location"
 msgstr "Abholort"
 
-#: koha-tmpl/intranet-tmpl/prog/js/place_booking_modal.js:283
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingDetailsStep.vue:57
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:1994
-#: koha-tmpl/opac-tmpl/bootstrap/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:1994
-msgid "Item type"
-msgstr "Medientyp"
-
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:4
 msgid "Are you sure you want to remove this recall?"
 msgstr "Sind Sie sicher, dass Sie diesen Rückruf entfernen möchten?"
@@ -1491,13 +1648,6 @@ msgstr "Sind Sie sicher, dass Sie diesen Rückruf entfernen möchten?"
 msgid "The recall may have already been cancelled. Please refresh the page."
 msgstr "Der Rückruf wurde möglicherweise bereits storniert. Bitte aktualisieren Sie die Seite."
 
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:24
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:136
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:183
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:195
-msgid "Cancelled"
-msgstr "Storniert"
-
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:32
 msgid "Are you sure you want to expire this recall?"
 msgstr "Sind Sie sicher, dass Sie diesen Rückruf auslaufen lassen möchten?"
@@ -1505,12 +1655,6 @@ msgstr "Sind Sie sicher, dass Sie diesen Rückruf auslaufen lassen möchten?"
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:50
 msgid "The recall may have already been expired. Please refresh the page."
 msgstr "Der Rückruf ist möglicherweise bereits abgelaufen. Bitte aktualisieren Sie die Seite."
-
-#: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:169
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:194
-msgid "Expired"
-msgstr "Abgelaufen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:60
 msgid "Are you sure you want to revert the waiting status of this recall?"
@@ -1752,76 +1896,6 @@ msgstr "Filter deaktivieren"
 msgid "Activate filters"
 msgstr "Filter aktivieren"
 
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:56
-msgid "Booking ID"
-msgstr "Buchungsnummer"
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:60
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementLicenses.vue:42
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:50
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsList.vue:290
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:49
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsShow.vue:153
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:74
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesList.vue:188
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesShow.vue:52
-msgid "Status"
-msgstr "Status"
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:68
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:13
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:220
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesList.vue:168
-msgid "Title"
-msgstr "Titel"
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:79
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingDetailsStep.vue:81
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:2013
-#: koha-tmpl/opac-tmpl/bootstrap/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:2013
-msgid "Item"
-msgstr "Exemplar"
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:82
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingDetailsStep.vue:86
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:2017
-#: koha-tmpl/opac-tmpl/bootstrap/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:2017
-msgid "Any item"
-msgstr "Beliebiges Exemplar"
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:98
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:20
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:57
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:96
-msgid "Start date"
-msgstr "Startdatum"
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:107
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:33
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:68
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/LicensesFormAdd.vue:106
-msgid "End date"
-msgstr "Enddatum"
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:173
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:197
-msgid "Active"
-msgstr "Aktiv"
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:177
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:196
-msgid "Pending"
-msgstr "Ausstehend"
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:186
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:198
-msgid "Completed"
-msgstr "Abgeschlossen"
-
-#: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:191
-msgid "Unknown"
-msgstr "Unbekannt"
-
 #: koha-tmpl/intranet-tmpl/prog/js/upload-images.js:71
 msgid "Are you sure you want to delete this cover image?"
 msgstr "Sind Sie sicher, dass Sie dieses Bild löschen möchten?"
@@ -1946,40 +2020,38 @@ msgstr "Keine Medientypen definiert."
 msgid "No items available."
 msgstr "Keine Exemplare verfügbar."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:272
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:298
 msgid "Update booking"
 msgstr "Buchung aktualisieren"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:769
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:863
 #, javascript-format
 msgid "pickup location: %s"
 msgstr "Abholort: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:773
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:873
 #, javascript-format
 msgid "item type: %s"
 msgstr "Medientyp: %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:776
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:880
 #, javascript-format
 msgid "No items are available for booking with the selected criteria (%s). Please adjust your selection."
 msgstr "Für die Buchung sind mit den ausgewählten Kriterien (%s) keine Exemplare vorhanden. Bitte passen Sie ihre Auswahl an."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:777
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:884
 msgid "No items are available"
 msgstr "Es sind keine Exemplare verfügbar"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:1002
+msgid "Please select a valid date range"
+msgstr "Bitte geben Sie einen gültigen Datumsbereich an."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPatronStep.vue:5
 #: koha-tmpl/intranet-tmpl/prog/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:1926
 #: koha-tmpl/opac-tmpl/bootstrap/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:1926
 msgid "Select Patron"
 msgstr "Benutzer"
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPatronStep.vue:10
-#: koha-tmpl/intranet-tmpl/prog/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:1931
-#: koha-tmpl/opac-tmpl/bootstrap/js/vue/dist/booking-modal-island.037d3ca7ede3eb14.esm.js:1931
-msgid "Patron"
-msgstr "BenutzerIn"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPatronStep.vue:17
 msgid "No patrons found."
@@ -2054,7 +2126,7 @@ msgstr "Buchungsnachbearbeitung"
 msgid "Checked Out"
 msgstr "Ausgeliehen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:90
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:82
 msgid "Required end date"
 msgstr "Erforderliches Enddatum"
 
@@ -2080,27 +2152,27 @@ msgstr "Buchungsnachbearbeitung"
 msgid "to"
 msgstr "bis"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingManager.mjs:806
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingManager.mjs:851
 msgid "Start date is required."
 msgstr "Es muss ein Startdatum für die Buchung angegeben werden."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingManager.mjs:827
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingManager.mjs:872
 msgid "Start date is too soon (lead time required)"
 msgstr "Das Startdatum ist für den benötigten Buchungsvorlauf zu früh."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingManager.mjs:834
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingManager.mjs:879
 msgid "End date is before start date"
 msgstr "Das Endedatum liegt vor dem Startdatum."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingManager.mjs:840
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingManager.mjs:885
 msgid "Booking period exceeds maximum allowed"
 msgstr "Der Buchungszeitraum überschreitet die maximale Buchungsdauer."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingManager.mjs:860
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingManager.mjs:905
 msgid "In end date only mode, you can only select the calculated end date"
 msgstr "Es kann nur das vorgegebene Endedatum ausgewählt werden."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingManager.mjs:892
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/bookingManager.mjs:937
 #, javascript-format
 msgid "Date %s is unavailable."
 msgstr "Der %s ist nicht verfügbar."
