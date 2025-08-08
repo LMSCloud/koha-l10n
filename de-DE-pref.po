@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-16 03:26+0200\n"
-"PO-Revision-Date: 2025-08-06 10:53+0200\n"
+"PO-Revision-Date: 2025-08-08 20:26+0200\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -8588,6 +8588,30 @@ msgstr "Erlaube nicht,"
 # OPAC > Features
 msgid "opac.pref#OPACComments# patrons to make comments on items on the OPAC."
 msgstr "dass Benutzer eigene Rezensionen und Kommentare im OPAC verfassen."
+
+# OPAC > Features > OPACDefaultBookingLibrary
+msgid "opac.pref#OPACDefaultBookingLibrary# (Leave empty to disable. This will only be applied when the override in <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=OPACDefaultBookingLibraryEnabled\">OPACDefaultBookingLibraryEnabled</a> is enabled and the selected library is available for pickup.)"
+msgstr "(Lassen Sie den Wert leer, um die Einstellung zu deaktivieren. Die Standard-Abholbibliothek wird nur verwendet, wenn der Parameter <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=OPACDefaultBookingLibraryEnabled\">OPACDefaultBookingLibraryEnabled</a> aktiviert wurde und die ausgewählte Abholbibliothek verfügbar ist."
+
+# OPAC > Features > OPACDefaultBookingLibrary
+msgid "opac.pref#OPACDefaultBookingLibrary# Use the following library as the default pickup location for bookings in the OPAC when the override is enabled:"
+msgstr "Benutze die folgende Bibliothek als Standard-Abholbibliothek für Buchungen im OPAC:"
+
+# OPAC > Features > OPACDefaultBookingLibraryEnabled
+msgid "opac.pref#OPACDefaultBookingLibraryEnabled# . When enabled, the OPAC will preselect the configured library in <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=OPACDefaultBookingLibrary\">OPACDefaultBookingLibrary</a> as the default pickup location when placing a booking."
+msgstr ". Wenn die Standard-Abholbibliothek aktiviert ist, im OPAC wird die mit dem Parameter <a href=\"/cgi-bin/koha/admin/preferences.pl?op=search&searchfield=OPACDefaultBookingLibrary\">OPACDefaultBookingLibrary</a> festgelegte Abholbibliothek für Buchungen verwendet."
+
+# OPAC > Features
+msgid "opac.pref#OPACDefaultBookingLibraryEnabled# Disable"
+msgstr "deaktiviert"
+
+# OPAC > Features
+msgid "opac.pref#OPACDefaultBookingLibraryEnabled# Enable"
+msgstr "aktiviert"
+
+# OPAC > Features > OPACDefaultBookingLibraryEnabled
+msgid "opac.pref#OPACDefaultBookingLibraryEnabled# Override the default pickup library selection in the OPAC with"
+msgstr "Die Festlegung einer Standard-Abholbibliothek für Buchungen ist "
 
 # OPAC > Features
 msgid "opac.pref#OPACDetailQRCode# Disable"
