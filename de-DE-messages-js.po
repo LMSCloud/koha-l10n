@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-12 16:38+0200\n"
-"PO-Revision-Date: 2025-09-12 16:40+0200\n"
+"POT-Creation-Date: 2025-10-24 13:50+0200\n"
+"PO-Revision-Date: 2025-10-24 14:01+0200\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -47,7 +47,7 @@ msgid "You can't receive any more items"
 msgstr "Sie können keine weiteren Exemplare zugehen lassen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:91
-#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:485
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:486
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/KohaTable.vue:99
 msgid "Edit"
 msgstr "Bearbeiten"
@@ -131,7 +131,6 @@ msgstr "Bitte eine Option auswählen"
 #: koha-tmpl/intranet-tmpl/prog/js/additional-fields.js:155
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:57
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:67
-#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/features.js:121
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:192
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:211
 #: koha-tmpl/opac-tmpl/bootstrap/js/additional-fields.js:155
@@ -336,7 +335,7 @@ msgstr "Ausleihe"
 
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:52
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:62
-#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/features.js:132
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/features.js:131
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:52
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:181
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:206
@@ -345,7 +344,7 @@ msgstr "Abgelaufen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:53
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:63
-#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/features.js:136
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/features.js:135
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:24
 #: koha-tmpl/intranet-tmpl/prog/js/recalls.js:136
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:195
@@ -355,7 +354,8 @@ msgstr "Storniert"
 
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:54
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:64
-#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/features.js:124
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/features.js:123
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/statusEnhancement.js:40
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:189
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:208
 msgid "Pending"
@@ -363,7 +363,8 @@ msgstr "Ausstehend"
 
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:55
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:65
-#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/features.js:128
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/features.js:127
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/statusEnhancement.js:40
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:185
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:209
 msgid "Active"
@@ -371,7 +372,7 @@ msgstr "Aktiv"
 
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:56
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:66
-#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/features.js:140
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/features.js:139
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:198
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:210
 msgid "Completed"
@@ -476,7 +477,7 @@ msgstr "Buchungszeitraum"
 msgid "Start date"
 msgstr "Startdatum"
 
-#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:402
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:403
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:107
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementPeriods.vue:33
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormAddResources.vue:68
@@ -484,11 +485,11 @@ msgstr "Startdatum"
 msgid "End date"
 msgstr "Enddatum"
 
-#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:417
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:418
 msgid "Additional fields"
 msgstr "Zusatzfelder"
 
-#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:449
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:450
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1134
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:142
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsLocalTitlesFormImport.vue:104
@@ -496,7 +497,7 @@ msgstr "Zusatzfelder"
 msgid "Actions"
 msgstr "Aktionen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:494
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:495
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1227
 #: koha-tmpl/intranet-tmpl/prog/js/holds.js:407
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:153
@@ -510,7 +511,7 @@ msgstr "Aktionen"
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:504
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:505
 msgid "Convert to checkout"
 msgstr "Jetzt ausleihen"
 
@@ -541,6 +542,23 @@ msgstr "Abgeschlossene ausblenden"
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/quickTogglesEnhancement.js:184
 msgid "Include completed"
 msgstr "Abgeschlossene einblenden"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/statusEnhancement.js:40
+msgid "and"
+msgstr "und"
+
+#: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/statusEnhancement.js:47
+#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:51
+#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:123
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:27
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:43
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:13
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:24
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:27
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:16
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:27
+msgid "All"
+msgstr "Alle"
 
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:88
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:90
@@ -1081,18 +1099,6 @@ msgstr "Eine Zeile in Zwischenablage kopiert"
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:281
 msgid "Clear filter"
 msgstr "Filter löschen"
-
-#: koha-tmpl/intranet-tmpl/prog/js/datatables.js:51
-#: koha-tmpl/intranet-tmpl/prog/js/marc_modification_templates.js:123
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:27
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackageTitlesList.vue:43
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:13
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOPackagesList.vue:24
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlePackagesList.vue:27
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:16
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/EHoldingsEBSCOTitlesList.vue:27
-msgid "All"
-msgstr "Alle"
 
 # "und die " war falscher Fall, muss "und der " heissen. (...ist lizenziert unter der MIT-Lizenz und der GPL-Lizenz.)
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:348
@@ -2030,15 +2036,15 @@ msgid "Edit booking"
 msgstr "Buchung bearbeiten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:271
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:285
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:297
 msgid "Place booking"
 msgstr "Buchung erstellen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:285
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:297
 msgid "Update booking"
 msgstr "Buchung aktualisieren"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:674
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:687
 msgid "Please select a valid date range"
 msgstr "Bitte geben Sie einen gültigen Datumsbereich an."
 
@@ -2147,25 +2153,58 @@ msgstr "Die Buchungsdauer ist durch die Ausleihregeln begrenzt"
 msgid "Barcode"
 msgstr "Barcode"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:67
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:75
+msgid "Bookings are not permitted for this combination of patron category, item type, and pickup location. The circulation rules set the booking period to zero days."
+msgstr "Buchungen sind für ihre Benutzergruppe und den Medientyp am festgelegten Abholort nicht erlaubt. Es kann keine gültige Buchungsperiode ermittelt werden."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:80
+msgid "Bookings are not permitted for this item type at the selected pickup location. The circulation rules set the booking period to zero days."
+msgstr "Buchungen sind für diesen Medientyp am festgelegten Abholort nicht erlaubt. Es kann keine gültige Buchungsperiode ermittelt werden."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:85
+msgid "Bookings are not permitted for this item type. The circulation rules set the booking period to zero days."
+msgstr "Buchungen sind für diesen Medientyp nicht erlaubt. Es kann keine gültige Buchungsperiode ermittelt werden."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:89
+msgid "Bookings are not permitted for this item. The circulation rules set the booking period to zero days."
+msgstr "Buchungen sind für dieses Exemplar nicht erlaubt. Es kann keine gültige Buchungsperiode ermittelt werden."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:96
+msgid "item type"
+msgstr "Medientyp"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:97
+msgid "pickup location"
+msgstr "Abholort"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:98
+msgid "patron"
+msgstr "BenutzerIn"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:101
+msgid " or "
+msgstr " oder "
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:103
+#, javascript-format
+msgid "No circulation rule is defined for this combination. Try a different %s."
+msgstr "Für diese angegebenen Werte ist keine Buchung erlaubt. Bitte probieren Sie eine andere Wertekombination: %s."
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:112
 msgid "No valid booking period is available with the current selection. Try a different item type or pickup location."
 msgstr "Mit der derzeitigen Auswahl kann keine Buchung durchgeführt werden. Wählen Sie einen anderen Medientyp oder einen anderen Abholort."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:72
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:117
 msgid "No valid booking period is available with the current selection. Try a different item type."
 msgstr "Mit der derzeitigen Auswahl kann keine Buchung durchgeführt werden. Wählen Sie einen anderen Medientyp."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:77
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:122
 msgid "No valid booking period is available with the current selection. Try a different pickup location."
 msgstr "Mit der derzeitigen Auswahl kann keine Buchung durchgeführt werden. Wählen Sie einen anderen Abholort."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:82
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:126
 msgid "No valid booking period is available for this record with your current settings. Please try again later or contact your library."
 msgstr "Mit der derzeitigen Auswahl kann keine Buchung durchgeführt werden. Probieren Sie es später oder wenden Sie sich an Ihre Bibliothek."
-
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/composables/useCapacityGuard.mjs:109
-msgid "No valid booking period available (circulation rules evaluate to 0)."
-msgstr "Es kann anhand der festgelegten Ausleihregeln keine gültige Buchungsperiode ermittelt werden."
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/manager.mjs:882
 msgid "Start date is required."
@@ -3656,6 +3695,9 @@ msgstr "Durchschnittsbewertung: %s (%s Wertungen)"
 
 #~ msgid "No items are available"
 #~ msgstr "Es sind keine Exemplare verfügbar"
+
+#~ msgid "No valid booking period available (circulation rules evaluate to 0)."
+#~ msgstr "Es kann anhand der festgelegten Ausleihregeln keine gültige Buchungsperiode ermittelt werden."
 
 #~ msgid "Show cancelled"
 #~ msgstr "Zeige stornierte"
