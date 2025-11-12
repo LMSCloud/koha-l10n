@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 20:50+0200\n"
-"PO-Revision-Date: 2025-10-24 14:01+0200\n"
+"POT-Creation-Date: 2025-11-12 14:57+0100\n"
+"PO-Revision-Date: 2025-11-12 15:01+0100\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -80,8 +80,8 @@ msgid "Add"
 msgstr "Hinzufügen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:187
-msgid "NOTE: Fields listed in the 'UniqueItemsFields' system preference will not be copied"
-msgstr "HINWEIS: In der Systemeinstellung 'UniqueItemsFields' gelistete Felder werden nicht kopiert"
+msgid "NOTE: Fields listed in the 'UniqueItemFields' system preference will not be copied"
+msgstr "HINWEIS: Im Systemparameter 'UniqueItemsFields' gelistete Felder werden nicht kopiert"
 
 #: koha-tmpl/intranet-tmpl/prog/js/additem.js:274
 msgid "is duplicated"
@@ -499,7 +499,7 @@ msgstr "Aktionen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/columns.js:495
 #: koha-tmpl/intranet-tmpl/prog/js/checkouts.js:1227
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:407
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:435
 #: koha-tmpl/intranet-tmpl/prog/js/tables/bookings.js:153
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingModal.vue:134
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/ERM/AgreementsFormAdd.vue:165
@@ -561,9 +561,8 @@ msgid "All"
 msgstr "Alle"
 
 #: koha-tmpl/intranet-tmpl/prog/js/bookings/tables/utils.js:169
-#, fuzzy
 msgid "Select date range"
-msgstr "Zeitraum löschen"
+msgstr "Zeitraum auswählen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:88
 #: koha-tmpl/intranet-tmpl/prog/js/browser.js:90
@@ -1100,8 +1099,8 @@ msgstr "Eine Zeile in Zwischenablage kopiert"
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:39
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:795
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:797
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:279
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:281
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:283
 msgid "Clear filter"
 msgstr "Filter löschen"
 
@@ -1126,43 +1125,43 @@ msgid "Something went wrong when loading the table."
 msgstr "Beim Laden der Tabelle ist ein Problem aufgetreten."
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:758
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:243
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:245
 msgid "Excel"
 msgstr "Excel"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:766
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:251
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:253
 msgid "CSV"
 msgstr "CSV"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:774
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:259
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:261
 msgid "Copy"
 msgstr "Kopieren"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:782
 #: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:32
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:267
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:269
 msgid "Print"
 msgstr "Druck"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:812
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:296
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:298
 msgid "Columns settings"
 msgstr "Tabellenkonfiguration"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:813
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:297
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:299
 msgid "Columns"
 msgstr "Spalten"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:827
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:311
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:313
 msgid "Export or print"
 msgstr "Exportieren oder drucken"
 
 #: koha-tmpl/intranet-tmpl/prog/js/datatables.js:828
-#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:312
+#: koha-tmpl/opac-tmpl/bootstrap/js/datatables.js:314
 msgid "Export"
 msgstr "Export"
 
@@ -1207,81 +1206,81 @@ msgstr "Nein"
 msgid "Yes"
 msgstr "Ja"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:258
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:262
 msgid "Resume"
 msgstr "Wiederaufnehmen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:261
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:406
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:271
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:434
 msgid "Suspend"
 msgstr "Aussetzen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:270
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:298
 msgid "Hold is <strong>suspended</strong>"
 msgstr "Die Vormerkung ist <strong>ausgesetzt</strong>"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:272
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:300
 #, javascript-format
 msgid "until %s"
 msgstr "bis %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:278
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:306
 #, javascript-format
 msgid "Next available %s item"
 msgstr "Nächstes verfügbares Exemplar (%s)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:282
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:310
 #, javascript-format
 msgid "Next available item group <strong>%s</strong> item"
 msgstr "Nächstes verfügbares Exemplar der Gruppe <strong>%s</strong>"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:290
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:318
 msgid "Item is <strong>waiting here</strong>"
 msgstr "Das Exemplar ist <strong>hier bereitgestellt</strong>"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:292
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:296
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:298
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:320
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:324
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:326
 #, javascript-format
 msgid "at %s"
 msgstr "in %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:295
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:323
 msgid "Item is <strong>waiting</strong>"
 msgstr "Das Exemplar ist <strong>bereitgestellt</strong>"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:304
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:332
 #, javascript-format
 msgid "Item is <strong>in transit</strong> from %s since %s"
 msgstr "Das Exemplar ist <strong>unterwegs</strong> von %s seit %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:306
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:334
 #, javascript-format
 msgid "Item hasn't been transferred yet from %s"
 msgstr "Exemplar wurde noch nicht von %s geliefert"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:342
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:370
 msgid "Unable to resume, hold not found"
 msgstr "Wiederaufnahme nicht möglich, Vormerkung nicht gefunden."
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:345
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:431
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:373
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:459
 msgid "Your request could not be processed. Check the logs"
 msgstr "Ihre Vormerkung konnte nicht eingetragen werden, bitte prüfen Sie die Logs."
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:392
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:420
 msgid "Suspend hold on"
 msgstr "Vormerkung aussetzen am "
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:398
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:426
 msgid "Suspend until:"
 msgstr "Aussetzen bis:"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:401
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:429
 msgid "Clear date to suspend indefinitely"
 msgstr "Löschen Sie das Datum, um unbefristet auszusetzen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/holds.js:428
+#: koha-tmpl/intranet-tmpl/prog/js/holds.js:456
 msgid "Unable to suspend, hold not found"
 msgstr "Aussetzen nicht möglich, Vormerkung nicht gefunden."
 

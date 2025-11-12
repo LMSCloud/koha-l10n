@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-24 18:59+0200\n"
+"POT-Creation-Date: 2025-11-12 14:57+0100\n"
 "PO-Revision-Date: 2025-10-24 14:03+0200\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
@@ -25,7 +25,7 @@ msgstr "Fehler: für diese ID konnte keine Verfügbarkeit ermittelt werden"
 msgid "unknown"
 msgstr "unbekannt"
 
-#: C4/ILSDI/Services.pm:957 Koha/Database/Columns.pm:212
+#: C4/ILSDI/Services.pm:957 Koha/Database/Columns.pm:221
 msgid "Not for loan"
 msgstr "Nicht ausleihbar"
 
@@ -1538,887 +1538,887 @@ msgstr "kann Platz des vorherigen Codes einnehmen / Alternative"
 msgid "used by the same player as the preceding code"
 msgstr "verwendet vom gleichen Spieler wie der vorherige Code"
 
-#: Koha/Database/Columns.pm:64
+#: Koha/Database/Columns.pm:73
 msgid "Basket ID (internal)"
 msgstr "Bestellnummer (intern)"
 
-#: Koha/Database/Columns.pm:65
+#: Koha/Database/Columns.pm:74
 msgid "Biblionumber (internal)"
 msgstr "Titelsatznummer (intern)"
 
-#: Koha/Database/Columns.pm:66
+#: Koha/Database/Columns.pm:75
 msgid "Fund ID (internal)"
 msgstr "Konto-ID (intern)"
 
-#: Koha/Database/Columns.pm:67 Koha/Database/Columns.pm:79
-#: Koha/Database/Columns.pm:88
+#: Koha/Database/Columns.pm:76 Koha/Database/Columns.pm:88
+#: Koha/Database/Columns.pm:97
 msgid "Not used (deprecated)"
 msgstr "Nicht verwendet (abgekündigt)"
 
 # Added <span class="patrons-length"></span> patrons to<a></a>
-#: Koha/Database/Columns.pm:68
+#: Koha/Database/Columns.pm:77
 msgid "Cancellation reason"
 msgstr "Stornierungsgrund"
 
-#: Koha/Database/Columns.pm:69
+#: Koha/Database/Columns.pm:78
 msgid "Borrower number of creator"
 msgstr "Benutzernummer des Erstellers"
 
-#: Koha/Database/Columns.pm:70
+#: Koha/Database/Columns.pm:79
 msgid "Currency"
 msgstr "Währung"
 
-#: Koha/Database/Columns.pm:71
+#: Koha/Database/Columns.pm:80
 msgid "Cancellation date"
 msgstr "Stornierungsdatum"
 
-#: Koha/Database/Columns.pm:72
+#: Koha/Database/Columns.pm:81
 msgid "Date received"
 msgstr "Zugangsdatum"
 
-#: Koha/Database/Columns.pm:73
+#: Koha/Database/Columns.pm:82
 msgid "Discount"
 msgstr "Rabatt"
 
-#: Koha/Database/Columns.pm:74
+#: Koha/Database/Columns.pm:83
 msgid "Budgeted cost, tax excl."
 msgstr "Ermittelte Kosten, exkl. Steuer"
 
-#: Koha/Database/Columns.pm:75
+#: Koha/Database/Columns.pm:84
 msgid "Budgeted cost, tax incl."
 msgstr "Ermittelte Kosten, inkl. Steuer"
 
-#: Koha/Database/Columns.pm:76
+#: Koha/Database/Columns.pm:85
 msgid "Budgeted cost"
 msgstr "Ermittelte Kosten"
 
-#: Koha/Database/Columns.pm:77 Koha/Database/Columns.pm:264
+#: Koha/Database/Columns.pm:86 Koha/Database/Columns.pm:273
 msgid "Creation date"
 msgstr "Erstellungsdatum"
 
-#: Koha/Database/Columns.pm:78
+#: Koha/Database/Columns.pm:87
 msgid "Estimated delivery date"
 msgstr "Voraussichtliches Lieferdatum"
 
-#: Koha/Database/Columns.pm:80
+#: Koha/Database/Columns.pm:89
 msgid "Invoice ID (internal)"
 msgstr "Rechnungs-ID (intern)"
 
-#: Koha/Database/Columns.pm:81
+#: Koha/Database/Columns.pm:90
 msgid "Line item ID (EDIFACT)"
 msgstr "Bestellposten-ID (EDIFACT)"
 
-#: Koha/Database/Columns.pm:82
+#: Koha/Database/Columns.pm:91
 msgid "Vendor price"
 msgstr "Lieferantenpreis"
 
-#: Koha/Database/Columns.pm:83 Koha/Database/Columns.pm:226
+#: Koha/Database/Columns.pm:92 Koha/Database/Columns.pm:235
 msgid "Internal note"
 msgstr "Interne Notiz"
 
-#: Koha/Database/Columns.pm:84
+#: Koha/Database/Columns.pm:93
 msgid "Vendor note"
 msgstr "Lieferantennotiz"
 
-#: Koha/Database/Columns.pm:85
+#: Koha/Database/Columns.pm:94
 msgid "Order number"
 msgstr "Bestellnummer"
 
-#: Koha/Database/Columns.pm:86
+#: Koha/Database/Columns.pm:95
 msgid "Order status"
 msgstr "Bestellstatus"
 
-#: Koha/Database/Columns.pm:87
+#: Koha/Database/Columns.pm:96
 msgid "Parent order number (internal)"
 msgstr "Übergeordnete Bestellnummer (intern)"
 
-#: Koha/Database/Columns.pm:89 Koha/Database/Columns.pm:332
+#: Koha/Database/Columns.pm:98 Koha/Database/Columns.pm:341
 msgid "Quantity"
 msgstr "Anzahl"
 
-#: Koha/Database/Columns.pm:90
+#: Koha/Database/Columns.pm:99
 msgid "Quantity received"
 msgstr "Gelieferte Anzahl"
 
-#: Koha/Database/Columns.pm:91 Koha/Database/Columns.pm:207
+#: Koha/Database/Columns.pm:100 Koha/Database/Columns.pm:216
 msgid "Replacement price"
 msgstr "Ersatzpreis"
 
-#: Koha/Database/Columns.pm:92
+#: Koha/Database/Columns.pm:101
 msgid "Retail price, tax excl."
 msgstr "Verkaufspreis, exkl. Steuer"
 
-#: Koha/Database/Columns.pm:93
+#: Koha/Database/Columns.pm:102
 msgid "Retail price, tax incl."
 msgstr "Verkaufspreis, inkl. Steuer"
 
-#: Koha/Database/Columns.pm:94
+#: Koha/Database/Columns.pm:103
 msgid "Retail price"
 msgstr "Verkaufspreis"
 
-#: Koha/Database/Columns.pm:95 Koha/Database/Columns.pm:97
+#: Koha/Database/Columns.pm:104 Koha/Database/Columns.pm:106
 msgid "Not used"
 msgstr "Nicht verwendet"
 
-#: Koha/Database/Columns.pm:96
+#: Koha/Database/Columns.pm:105
 msgid "Statistic 1"
 msgstr "Statistik 1"
 
-#: Koha/Database/Columns.pm:98
+#: Koha/Database/Columns.pm:107
 msgid "Statistic 2"
 msgstr "Statistik 2"
 
-#: Koha/Database/Columns.pm:99
+#: Koha/Database/Columns.pm:108
 msgid "Subscription ID (internal)"
 msgstr "Abo-ID (intern)"
 
-#: Koha/Database/Columns.pm:100
+#: Koha/Database/Columns.pm:109
 msgid "Vendor reference number (EDIFACT)"
 msgstr "Referenznummer des Lieferanten (EDIFACT)"
 
-#: Koha/Database/Columns.pm:101
+#: Koha/Database/Columns.pm:110
 msgid "Vendor reference qualifier (EDIFACT)"
 msgstr "Referenzqualifier des Lieferanten (EDIFACT)"
 
-#: Koha/Database/Columns.pm:102
+#: Koha/Database/Columns.pm:111
 msgid "Vendor report (EDIFACT)"
 msgstr "Lieferantenbericht (EDIFACT)"
 
-#: Koha/Database/Columns.pm:103
+#: Koha/Database/Columns.pm:112
 msgid "Tax rate backup (deprecated)"
 msgstr "Backup der Steuerrate (abgekündigt)"
 
-#: Koha/Database/Columns.pm:104
+#: Koha/Database/Columns.pm:113
 msgid "Tax rate on order"
 msgstr "Steuerrate bei Bestellung"
 
-#: Koha/Database/Columns.pm:105
+#: Koha/Database/Columns.pm:114
 msgid "Tax rate on receive"
 msgstr "Steuerrate bei Zugang"
 
-#: Koha/Database/Columns.pm:106
+#: Koha/Database/Columns.pm:115
 msgid "Tax value backup (deprecated)"
 msgstr "Backup der Steuersumme (abgekündigt)"
 
-#: Koha/Database/Columns.pm:107
+#: Koha/Database/Columns.pm:116
 msgid "Tax amount on order"
 msgstr "Steuersumme bei Bestellung"
 
-#: Koha/Database/Columns.pm:108
+#: Koha/Database/Columns.pm:117
 msgid "Tax amount on receive"
 msgstr "Steuersumme bei Zugang"
 
-#: Koha/Database/Columns.pm:109 Koha/Database/Columns.pm:228
-#: Koha/Database/Columns.pm:296
+#: Koha/Database/Columns.pm:118 Koha/Database/Columns.pm:237
+#: Koha/Database/Columns.pm:305
 msgid "Timestamp"
 msgstr "Zeitstempel"
 
-#: Koha/Database/Columns.pm:110
+#: Koha/Database/Columns.pm:119
 msgid "Uncertain price"
 msgstr "Ungewisser Preis"
 
-#: Koha/Database/Columns.pm:111
+#: Koha/Database/Columns.pm:120
 msgid "Actual cost, tax excl."
 msgstr "Istkosten, exkl. Steuer"
 
-#: Koha/Database/Columns.pm:112
+#: Koha/Database/Columns.pm:121
 msgid "Actual cost, tax incl."
 msgstr "Istkosten, inkl. Steuer"
 
-#: Koha/Database/Columns.pm:113
+#: Koha/Database/Columns.pm:122
 msgid "Actual cost"
 msgstr "Istkosten"
 
-#: Koha/Database/Columns.pm:116
+#: Koha/Database/Columns.pm:125
 msgid "Address"
 msgstr "Adresse"
 
-#: Koha/Database/Columns.pm:117
+#: Koha/Database/Columns.pm:126
 msgid "Address 2"
 msgstr "Adresse 2"
 
-#: Koha/Database/Columns.pm:118
+#: Koha/Database/Columns.pm:127
 msgid "Alternate contact: Address"
 msgstr "Alternativer Kontakt: Adresse"
 
-#: Koha/Database/Columns.pm:119
+#: Koha/Database/Columns.pm:128
 msgid "Alternate contact: Address 2"
 msgstr "Alternativer Kontakt: Adresse 2"
 
-#: Koha/Database/Columns.pm:120
+#: Koha/Database/Columns.pm:129
 msgid "Alternate contact: City"
 msgstr "Alternativer Kontakt: Stadt"
 
-#: Koha/Database/Columns.pm:121
+#: Koha/Database/Columns.pm:130
 msgid "Alternate contact: Country"
 msgstr "Alternativer Kontakt: Land"
 
-#: Koha/Database/Columns.pm:122 Koha/Database/Columns.pm:148
+#: Koha/Database/Columns.pm:131 Koha/Database/Columns.pm:157
 msgid "Alternate contact: First name"
 msgstr "Alternativer Kontakt: Vorname"
 
-#: Koha/Database/Columns.pm:123
+#: Koha/Database/Columns.pm:132
 msgid "Alternate contact: Phone"
 msgstr "Alternativer Kontakt: Telefon"
 
-#: Koha/Database/Columns.pm:124
+#: Koha/Database/Columns.pm:133
 msgid "Alternate contact: State"
 msgstr "Alternativer Kontakt: Bundesland"
 
-#: Koha/Database/Columns.pm:125 Koha/Database/Columns.pm:149
+#: Koha/Database/Columns.pm:134 Koha/Database/Columns.pm:158
 msgid "Alternate contact: Surname"
 msgstr "Alternativer Kontakt: Nachname"
 
-#: Koha/Database/Columns.pm:126 Koha/Database/Columns.pm:151
+#: Koha/Database/Columns.pm:135 Koha/Database/Columns.pm:160
 msgid "Alternate contact: Title"
 msgstr "Alternativer Kontakt: Titel"
 
-#: Koha/Database/Columns.pm:127
+#: Koha/Database/Columns.pm:136
 msgid "Alternate contact: ZIP/Postal code"
 msgstr "Alternativer Kontakt: Postleitzahl"
 
-#: Koha/Database/Columns.pm:128
+#: Koha/Database/Columns.pm:137
 msgid "Data anonymization flag"
 msgstr "Anonymisierungskennzeichen"
 
-#: Koha/Database/Columns.pm:129
+#: Koha/Database/Columns.pm:138
 msgid "Authentication method"
 msgstr "Authentifizierungsmethode"
 
-#: Koha/Database/Columns.pm:130
+#: Koha/Database/Columns.pm:139
 msgid "Allow auto-renewals"
 msgstr "Automatische Verlängerungen erlauben"
 
-#: Koha/Database/Columns.pm:131
+#: Koha/Database/Columns.pm:140
 msgid "Alternate address: Address"
 msgstr "Alternative Adresse: Adresse"
 
-#: Koha/Database/Columns.pm:132
+#: Koha/Database/Columns.pm:141
 msgid "Alternate address: Address 2"
 msgstr "Alternative Adresse: Adresse 2"
 
-#: Koha/Database/Columns.pm:133
+#: Koha/Database/Columns.pm:142
 msgid "Alternate address: City"
 msgstr "Alternative Adresse: Stadt"
 
-#: Koha/Database/Columns.pm:134
+#: Koha/Database/Columns.pm:143
 msgid "Alternate address: Country"
 msgstr "Alternative Adresse: Staat"
 
-#: Koha/Database/Columns.pm:135
+#: Koha/Database/Columns.pm:144
 msgid "Alternate address: Email"
 msgstr "Alternative Adresse: E-Mail"
 
-#: Koha/Database/Columns.pm:136
+#: Koha/Database/Columns.pm:145
 msgid "Alternate address: Phone"
 msgstr "Alternative Adresse: Telefon"
 
-#: Koha/Database/Columns.pm:137
+#: Koha/Database/Columns.pm:146
 msgid "Alternate address: State"
 msgstr "Alternative Adresse: Bundesland"
 
-#: Koha/Database/Columns.pm:138
+#: Koha/Database/Columns.pm:147
 msgid "Alternate address: Street number"
 msgstr "Alternative Adresse: Hausnummer"
 
-#: Koha/Database/Columns.pm:139
+#: Koha/Database/Columns.pm:148
 msgid "Alternate address: Street type"
 msgstr "Alternative Adresse: Straßentyp"
 
-#: Koha/Database/Columns.pm:140
+#: Koha/Database/Columns.pm:149
 msgid "Alternate address: ZIP/Postal code"
 msgstr "Alternative Adresse: Postleitzahl"
 
-#: Koha/Database/Columns.pm:141
+#: Koha/Database/Columns.pm:150
 msgid "Circulation note"
 msgstr "Ausleihnotiz"
 
-#: Koha/Database/Columns.pm:142 Koha/Database/Columns.pm:255
-#: Koha/Database/Columns.pm:304
+#: Koha/Database/Columns.pm:151 Koha/Database/Columns.pm:264
+#: Koha/Database/Columns.pm:313
 msgid "Borrower number"
 msgstr "Benutzernummer"
 
-#: Koha/Database/Columns.pm:143
+#: Koha/Database/Columns.pm:152
 msgid "Home library"
 msgstr "Heimatbibliothek"
 
-#: Koha/Database/Columns.pm:144
+#: Koha/Database/Columns.pm:153
 msgid "Card number"
 msgstr "Ausweisnummer"
 
-#: Koha/Database/Columns.pm:145 Koha/Database/Columns.pm:257
+#: Koha/Database/Columns.pm:154 Koha/Database/Columns.pm:266
 msgid "Patron category"
 msgstr "Benutzertyp"
 
-#: Koha/Database/Columns.pm:146
+#: Koha/Database/Columns.pm:155
 msgid "Check for previous checkouts"
 msgstr "Auf vorherige Ausleihen überprüfen"
 
-#: Koha/Database/Columns.pm:147
+#: Koha/Database/Columns.pm:156
 msgid "City"
 msgstr "Stadt"
 
-#: Koha/Database/Columns.pm:150
+#: Koha/Database/Columns.pm:159
 msgid "Alternate contact: Note"
 msgstr "Alternativer Kontakt: Notiz"
 
-#: Koha/Database/Columns.pm:152
+#: Koha/Database/Columns.pm:161
 msgid "Country"
 msgstr "Staat"
 
-#: Koha/Database/Columns.pm:153
+#: Koha/Database/Columns.pm:162
 msgid "Account renewal date"
 msgstr "Datum der Kontoverlängerung"
 
-#: Koha/Database/Columns.pm:154
+#: Koha/Database/Columns.pm:163
 msgid "Registration date"
 msgstr "Anmeldedatum"
 
-#: Koha/Database/Columns.pm:155
+#: Koha/Database/Columns.pm:164
 msgid "Expiry date"
 msgstr "Ablaufdatum"
 
-#: Koha/Database/Columns.pm:156
+#: Koha/Database/Columns.pm:165
 msgid "Date of birth"
 msgstr "Geburtsdatum"
 
-#: Koha/Database/Columns.pm:157
+#: Koha/Database/Columns.pm:166
 msgid "Restricted [until] flag"
 msgstr "Gesperrt [bis] Flag"
 
-#: Koha/Database/Columns.pm:158
+#: Koha/Database/Columns.pm:167
 msgid "Comment"
 msgstr "Kommentar"
 
-#: Koha/Database/Columns.pm:159
+#: Koha/Database/Columns.pm:168
 msgid "Primary email"
 msgstr "1. E-Mail-Adresse"
 
-#: Koha/Database/Columns.pm:160
+#: Koha/Database/Columns.pm:169
 msgid "Secondary email"
 msgstr "2. E-Mail-Adresse"
 
-#: Koha/Database/Columns.pm:161
+#: Koha/Database/Columns.pm:170
 msgid "Fax"
 msgstr "Fax"
 
-#: Koha/Database/Columns.pm:162
+#: Koha/Database/Columns.pm:171
 msgid "First name"
 msgstr "Vorname"
 
-#: Koha/Database/Columns.pm:163
+#: Koha/Database/Columns.pm:172
 msgid "System permissions"
 msgstr "Systemberechtigungen"
 
-#: Koha/Database/Columns.pm:164
+#: Koha/Database/Columns.pm:173
 msgid "Gone no address flag"
 msgstr "Adresse falsch/fehlt"
 
-#: Koha/Database/Columns.pm:165
+#: Koha/Database/Columns.pm:174
 msgid "Initials"
 msgstr "Initialen"
 
-#: Koha/Database/Columns.pm:166
+#: Koha/Database/Columns.pm:175
 msgid "Preferred language for notices"
 msgstr "Bevorzugte Sprache für Benachrichtigungen"
 
-#: Koha/Database/Columns.pm:167
+#: Koha/Database/Columns.pm:176
 msgid "Last activity date"
 msgstr "Letzte Aktivität"
 
-#: Koha/Database/Columns.pm:168
+#: Koha/Database/Columns.pm:177
 msgid "Number of failed login attempts"
 msgstr "Anzahl fehlgeschlagener Anmeldeversuche"
 
-#: Koha/Database/Columns.pm:169
+#: Koha/Database/Columns.pm:178
 msgid "Lost card flag"
 msgstr "Ausweis verloren"
 
-#: Koha/Database/Columns.pm:170
+#: Koha/Database/Columns.pm:179
 msgid "Middle name"
 msgstr "Zweiter Vorname"
 
-#: Koha/Database/Columns.pm:171
+#: Koha/Database/Columns.pm:180
 msgid "Other phone"
 msgstr "Weitere Telefonnummer"
 
-#: Koha/Database/Columns.pm:172
+#: Koha/Database/Columns.pm:181
 msgid "OPAC note"
 msgstr "OPAC-Notiz"
 
-#: Koha/Database/Columns.pm:173
+#: Koha/Database/Columns.pm:182
 msgid "Other name"
 msgstr "Sonstiger Name"
 
-#: Koha/Database/Columns.pm:174
+#: Koha/Database/Columns.pm:183
 msgid "Overdrive auth token"
 msgstr "Overdrive-Auth-Token"
 
-#: Koha/Database/Columns.pm:175
+#: Koha/Database/Columns.pm:184
 msgid "Password expiration date"
 msgstr "Ablaufdatum des Passworts"
 
-#: Koha/Database/Columns.pm:176
+#: Koha/Database/Columns.pm:185
 msgid "Password"
 msgstr "Passwort"
 
-#: Koha/Database/Columns.pm:177
+#: Koha/Database/Columns.pm:186
 msgid "Primary phone"
 msgstr "1. Telefonnummer"
 
-#: Koha/Database/Columns.pm:178
+#: Koha/Database/Columns.pm:187
 msgid "Secondary phone"
 msgstr "2. Telefonnummer"
 
-#: Koha/Database/Columns.pm:179
+#: Koha/Database/Columns.pm:188
 msgid "Primary contact method"
 msgstr "Primäre Kontaktmethode"
 
-#: Koha/Database/Columns.pm:180
+#: Koha/Database/Columns.pm:189
 msgid "Show checkouts to guarantor"
 msgstr "Zeige Bürgenden die Ausleihen"
 
-#: Koha/Database/Columns.pm:181
+#: Koha/Database/Columns.pm:190
 msgid "Show fines to guarantor"
 msgstr "Zeige den Bürgenden die Gebühren"
 
-#: Koha/Database/Columns.pm:182
+#: Koha/Database/Columns.pm:191
 msgid "Privacy settings"
 msgstr "Einstellungen zur Privatsphäre"
 
-#: Koha/Database/Columns.pm:183
+#: Koha/Database/Columns.pm:192
 msgid "Pronouns"
 msgstr "Pronomen"
 
-#: Koha/Database/Columns.pm:184
+#: Koha/Database/Columns.pm:193
 msgid "Relationship"
 msgstr "Beziehung"
 
-#: Koha/Database/Columns.pm:185
+#: Koha/Database/Columns.pm:194
 msgid "Secret (2FA)"
 msgstr "Geheimnis (2FA)"
 
-#: Koha/Database/Columns.pm:186
+#: Koha/Database/Columns.pm:195
 msgid "Gender"
 msgstr "Geschlecht"
 
-#: Koha/Database/Columns.pm:187
+#: Koha/Database/Columns.pm:196
 msgid "SMS provider ID (internal)"
 msgstr "SMS-Provider-ID (intern)"
 
-#: Koha/Database/Columns.pm:188
+#: Koha/Database/Columns.pm:197
 msgid "Mobile phone number"
 msgstr "Mobilnummer"
 
-#: Koha/Database/Columns.pm:189
+#: Koha/Database/Columns.pm:198
 msgid "Sort 1"
 msgstr "Statistik 1"
 
-#: Koha/Database/Columns.pm:190
+#: Koha/Database/Columns.pm:199
 msgid "Sort 2"
 msgstr "Statistik 2"
 
-#: Koha/Database/Columns.pm:191
+#: Koha/Database/Columns.pm:200
 msgid "State"
 msgstr "Bundesland"
 
-#: Koha/Database/Columns.pm:192
+#: Koha/Database/Columns.pm:201
 msgid "Street number"
 msgstr "Hausnummer"
 
-#: Koha/Database/Columns.pm:193
+#: Koha/Database/Columns.pm:202
 msgid "Street type"
 msgstr "Straßentyp"
 
-#: Koha/Database/Columns.pm:194
+#: Koha/Database/Columns.pm:203
 msgid "Surname"
 msgstr "Nachname"
 
-#: Koha/Database/Columns.pm:195
+#: Koha/Database/Columns.pm:204
 msgid "Salutation"
 msgstr "Anrede"
 
-#: Koha/Database/Columns.pm:196
+#: Koha/Database/Columns.pm:205
 msgid "Last update date"
 msgstr "Letzte Aktualisierung"
 
-#: Koha/Database/Columns.pm:197
+#: Koha/Database/Columns.pm:206
 msgid "Username"
 msgstr "Benutzername"
 
-#: Koha/Database/Columns.pm:198
+#: Koha/Database/Columns.pm:207
 msgid "ZIP/Postal code"
 msgstr "Postleitzahl"
 
-#: Koha/Database/Columns.pm:201
+#: Koha/Database/Columns.pm:210
 msgid "Biblioitem number (internal)"
 msgstr "Biblioitem-Nummer (intern)"
 
-#: Koha/Database/Columns.pm:202
+#: Koha/Database/Columns.pm:211
 msgid "Barcode"
 msgstr "Barcode"
 
-#: Koha/Database/Columns.pm:203
+#: Koha/Database/Columns.pm:212
 msgid "Date acquired"
 msgstr "Zugangsdatum"
 
-#: Koha/Database/Columns.pm:204
+#: Koha/Database/Columns.pm:213
 msgid "Source of acquisition"
 msgstr "Lieferant"
 
 # Homebranch
-#: Koha/Database/Columns.pm:205
+#: Koha/Database/Columns.pm:214
 msgid "Permanent library"
 msgstr "Permanente Bibliothek"
 
-#: Koha/Database/Columns.pm:206
+#: Koha/Database/Columns.pm:215
 msgid "Price"
 msgstr "Preis"
 
-#: Koha/Database/Columns.pm:208
+#: Koha/Database/Columns.pm:217
 msgid "Price effective from"
 msgstr "Preis gültig ab"
 
-#: Koha/Database/Columns.pm:209
+#: Koha/Database/Columns.pm:218
 msgid "Date last checked out"
 msgstr "Zuletzt ausgeliehen am"
 
-#: Koha/Database/Columns.pm:210
+#: Koha/Database/Columns.pm:219
 msgid "Date last seen"
 msgstr "Letzte Aktivität"
 
-#: Koha/Database/Columns.pm:211
+#: Koha/Database/Columns.pm:220
 msgid "Shelving control number"
 msgstr "Magazinnummer"
 
-#: Koha/Database/Columns.pm:213
+#: Koha/Database/Columns.pm:222
 msgid "Damaged status"
 msgstr "Beschädigung"
 
-#: Koha/Database/Columns.pm:214
+#: Koha/Database/Columns.pm:223
 msgid "Damaged on"
 msgstr "Beschädigt am"
 
-#: Koha/Database/Columns.pm:215
+#: Koha/Database/Columns.pm:224
 msgid "Lost status"
 msgstr "Verloren-Status"
 
-#: Koha/Database/Columns.pm:216
+#: Koha/Database/Columns.pm:225
 msgid "Lost on"
 msgstr "Vermisst seit"
 
-#: Koha/Database/Columns.pm:217
+#: Koha/Database/Columns.pm:226
 msgid "Withdrawn status"
 msgstr "Ausgeschieden-Status"
 
-#: Koha/Database/Columns.pm:218
+#: Koha/Database/Columns.pm:227
 msgid "Withdrawn on"
 msgstr "Ausgeschieden am"
 
-#: Koha/Database/Columns.pm:219 Koha/Database/Columns.pm:315
+#: Koha/Database/Columns.pm:228 Koha/Database/Columns.pm:324
 msgid "Call number"
 msgstr "Signatur"
 
-#: Koha/Database/Columns.pm:220
+#: Koha/Database/Columns.pm:229
 msgid "Coded location qualifier"
 msgstr "Kodierter Standort-Qualifier"
 
-#: Koha/Database/Columns.pm:221
+#: Koha/Database/Columns.pm:230
 msgid "Total checkouts"
 msgstr "Anzahl Ausleihen"
 
-#: Koha/Database/Columns.pm:222
+#: Koha/Database/Columns.pm:231
 msgid "Total renewals"
 msgstr "Anzahl Verlängerungen"
 
-#: Koha/Database/Columns.pm:223
+#: Koha/Database/Columns.pm:232
 msgid "Total holds"
 msgstr "Anzahl Vormerkungen"
 
-#: Koha/Database/Columns.pm:224
+#: Koha/Database/Columns.pm:233
 msgid "Use restrictions"
 msgstr "Benutzungsbeschränkungen"
 
-#: Koha/Database/Columns.pm:225
+#: Koha/Database/Columns.pm:234
 msgid "Public note"
 msgstr "OPAC-Notiz"
 
-#: Koha/Database/Columns.pm:227
+#: Koha/Database/Columns.pm:236
 msgid "Current library"
 msgstr "Aktuelle Bibliothek"
 
-#: Koha/Database/Columns.pm:229
+#: Koha/Database/Columns.pm:238
 msgid "Deleted on"
 msgstr "Gelöscht am"
 
-#: Koha/Database/Columns.pm:230 Koha/Database/Columns.pm:254
+#: Koha/Database/Columns.pm:239 Koha/Database/Columns.pm:263
 msgid "Shelving location"
 msgstr "Standort"
 
-#: Koha/Database/Columns.pm:231
+#: Koha/Database/Columns.pm:240
 msgid "Permanent shelving location"
 msgstr "Permanenter Aufstellungsort"
 
-#: Koha/Database/Columns.pm:232
+#: Koha/Database/Columns.pm:241
 msgid "Due date"
 msgstr "Fälligkeitsdatum"
 
-#: Koha/Database/Columns.pm:233
+#: Koha/Database/Columns.pm:242
 msgid "Source of classification / shelving scheme"
 msgstr "Klassifikation / Aufstellungssystematik"
 
-#: Koha/Database/Columns.pm:234
+#: Koha/Database/Columns.pm:243
 msgid "Koha normalized classification for sorting"
 msgstr "Sortierform der Signatur "
 
-#: Koha/Database/Columns.pm:235 Koha/Database/Columns.pm:256
+#: Koha/Database/Columns.pm:244 Koha/Database/Columns.pm:265
 msgid "Collection"
 msgstr "Sammlung"
 
-#: Koha/Database/Columns.pm:236
+#: Koha/Database/Columns.pm:245
 msgid "Materials specified"
 msgstr "Beilagen"
 
-#: Koha/Database/Columns.pm:237
+#: Koha/Database/Columns.pm:246
 msgid "Uniform Resource Identifier"
 msgstr "URL"
 
-#: Koha/Database/Columns.pm:238
+#: Koha/Database/Columns.pm:247
 msgid "Koha itemtype"
 msgstr "Koha-Medientyp"
 
-#: Koha/Database/Columns.pm:239
+#: Koha/Database/Columns.pm:248
 msgid "Additional subfields (XML)"
 msgstr "Zusätzliche Unterfelder (XML)"
 
-#: Koha/Database/Columns.pm:240
+#: Koha/Database/Columns.pm:249
 msgid "Serial enumeraton/chronology"
 msgstr "Jahrgang/Band"
 
-#: Koha/Database/Columns.pm:241
+#: Koha/Database/Columns.pm:250
 msgid "Copy number"
 msgstr "Exemplarnummer"
 
-#: Koha/Database/Columns.pm:242
+#: Koha/Database/Columns.pm:251
 msgid "Inventory number"
 msgstr "Inventarnummer"
 
-#: Koha/Database/Columns.pm:243
+#: Koha/Database/Columns.pm:252
 msgid "New status"
 msgstr "Neu-Status"
 
-#: Koha/Database/Columns.pm:244
+#: Koha/Database/Columns.pm:253
 msgid "Exclude from local holds priority"
 msgstr "Keine Priorisierung von lokalen Vormerkungen"
 
-#: Koha/Database/Columns.pm:247 Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:256 Koha/Database/Columns.pm:315
 msgid "Statistics date and time"
 msgstr "Zeitstempel Statistik"
 
-#: Koha/Database/Columns.pm:248 Koha/Database/Columns.pm:305
-#: Koha/Database/Columns.pm:314 Koha/Database/Columns.pm:323
+#: Koha/Database/Columns.pm:257 Koha/Database/Columns.pm:314
+#: Koha/Database/Columns.pm:323 Koha/Database/Columns.pm:332
 msgid "Library"
 msgstr "Bibliothek"
 
-#: Koha/Database/Columns.pm:249 Koha/Database/Columns.pm:311
+#: Koha/Database/Columns.pm:258 Koha/Database/Columns.pm:320
 msgid "Value"
 msgstr "Wert"
 
-#: Koha/Database/Columns.pm:250
+#: Koha/Database/Columns.pm:259
 msgid "Transaction type"
 msgstr "Transaktionstyp"
 
-#: Koha/Database/Columns.pm:251
+#: Koha/Database/Columns.pm:260
 msgid "SIP mode"
 msgstr "SIP-Modus"
 
-#: Koha/Database/Columns.pm:252 Koha/Database/Columns.pm:307
+#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:316
 msgid "Item number"
 msgstr "Exemplarnummer"
 
-#: Koha/Database/Columns.pm:253
+#: Koha/Database/Columns.pm:262
 msgid "Koha item type"
 msgstr "Koha-Medientyp"
 
-#: Koha/Database/Columns.pm:260
+#: Koha/Database/Columns.pm:269
 msgid "Abstract"
 msgstr "Abstract"
 
-#: Koha/Database/Columns.pm:261 Koha/Database/Columns.pm:322
+#: Koha/Database/Columns.pm:270 Koha/Database/Columns.pm:331
 msgid "Author"
 msgstr "Verfasser"
 
-#: Koha/Database/Columns.pm:262 Koha/Database/Columns.pm:280
+#: Koha/Database/Columns.pm:271 Koha/Database/Columns.pm:289
 msgid "Biblio number"
 msgstr "Titelsatznummer"
 
-#: Koha/Database/Columns.pm:263 Koha/Database/Columns.pm:325
+#: Koha/Database/Columns.pm:272 Koha/Database/Columns.pm:334
 msgid "Copyright date"
 msgstr "Erscheinungsjahr"
 
-#: Koha/Database/Columns.pm:265
+#: Koha/Database/Columns.pm:274
 msgid "Framework code"
 msgstr "Framework-Code"
 
-#: Koha/Database/Columns.pm:266
+#: Koha/Database/Columns.pm:275
 msgid "Medium"
 msgstr "Medium"
 
-#: Koha/Database/Columns.pm:267 Koha/Database/Columns.pm:288
+#: Koha/Database/Columns.pm:276 Koha/Database/Columns.pm:297
 msgid "Notes"
 msgstr "Hinweise"
 
-#: Koha/Database/Columns.pm:268
+#: Koha/Database/Columns.pm:277
 msgid "Name of part/section of a work"
 msgstr "Titel eines Teils/einer Abteilung eines Werkes"
 
-#: Koha/Database/Columns.pm:269
+#: Koha/Database/Columns.pm:278
 msgid "Number of part/section of a work"
 msgstr "Zählung des Teils/der Abteilung eines Werkes"
 
-#: Koha/Database/Columns.pm:270
+#: Koha/Database/Columns.pm:279
 msgid "Is a serial?"
 msgstr "Ist es eine Zeitschrift?"
 
-#: Koha/Database/Columns.pm:271
+#: Koha/Database/Columns.pm:280
 msgid "Series title"
 msgstr "Reihentitel"
 
-#: Koha/Database/Columns.pm:272
+#: Koha/Database/Columns.pm:281
 msgid "Remainder of title"
 msgstr "Zusatz zum Titel"
 
-#: Koha/Database/Columns.pm:273
+#: Koha/Database/Columns.pm:282
 msgid "Modification date"
 msgstr "Änderungsdatum"
 
-#: Koha/Database/Columns.pm:274 Koha/Database/Columns.pm:297
-#: Koha/Database/Columns.pm:333
+#: Koha/Database/Columns.pm:283 Koha/Database/Columns.pm:306
+#: Koha/Database/Columns.pm:342
 msgid "Title"
 msgstr "Titel"
 
-#: Koha/Database/Columns.pm:275
+#: Koha/Database/Columns.pm:284
 msgid "Uniform title"
 msgstr "Einheitstitel"
 
-#: Koha/Database/Columns.pm:278
+#: Koha/Database/Columns.pm:287
 msgid "Age restriction"
 msgstr "Altersbeschränkung"
 
-#: Koha/Database/Columns.pm:279
+#: Koha/Database/Columns.pm:288
 msgid "Biblioitem number"
 msgstr "Biblioitem-Nummer"
 
-#: Koha/Database/Columns.pm:281
+#: Koha/Database/Columns.pm:290
 msgid "Classification"
 msgstr "Klassifikation"
 
-#: Koha/Database/Columns.pm:282
+#: Koha/Database/Columns.pm:291
 msgid "Dewey/classification"
 msgstr "Klassifikation"
 
-#: Koha/Database/Columns.pm:283
+#: Koha/Database/Columns.pm:292
 msgid "Illustrations"
 msgstr "Illustrationen"
 
-#: Koha/Database/Columns.pm:284 Koha/Database/Columns.pm:326
+#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:335
 msgid "ISBN"
 msgstr "ISBN"
 
-#: Koha/Database/Columns.pm:285
+#: Koha/Database/Columns.pm:294
 msgid "ISSN"
 msgstr "ISSN"
 
-#: Koha/Database/Columns.pm:286
+#: Koha/Database/Columns.pm:295
 msgid "Biblio-level item type"
 msgstr "Medientyp auf Titelebene"
 
-#: Koha/Database/Columns.pm:287
+#: Koha/Database/Columns.pm:296
 msgid "LCCN"
 msgstr "LCCN"
 
-#: Koha/Database/Columns.pm:289
+#: Koha/Database/Columns.pm:298
 msgid "Number"
 msgstr "Nummer"
 
-#: Koha/Database/Columns.pm:290
+#: Koha/Database/Columns.pm:299
 msgid "Number of pages"
 msgstr "Anzahl Seiten"
 
-#: Koha/Database/Columns.pm:291 Koha/Database/Columns.pm:330
+#: Koha/Database/Columns.pm:300 Koha/Database/Columns.pm:339
 msgid "Place of publication"
 msgstr "Ort der Veröffentlichung"
 
-#: Koha/Database/Columns.pm:292
+#: Koha/Database/Columns.pm:301
 msgid "Publication date"
 msgstr "Erscheinungsjahr"
 
-#: Koha/Database/Columns.pm:293 Koha/Database/Columns.pm:331
+#: Koha/Database/Columns.pm:302 Koha/Database/Columns.pm:340
 msgid "Publisher"
 msgstr "Verlag"
 
-#: Koha/Database/Columns.pm:294
+#: Koha/Database/Columns.pm:303
 msgid "Size"
 msgstr "Größe"
 
-#: Koha/Database/Columns.pm:295
+#: Koha/Database/Columns.pm:304
 msgid "Sub classification"
 msgstr "Unterklassifikation"
 
-#: Koha/Database/Columns.pm:298
+#: Koha/Database/Columns.pm:307
 msgid "URL"
 msgstr "URL"
 
-#: Koha/Database/Columns.pm:299
+#: Koha/Database/Columns.pm:308
 msgid "Volume number"
 msgstr "Bandnummer"
 
-#: Koha/Database/Columns.pm:300
+#: Koha/Database/Columns.pm:309
 msgid "Volume date"
 msgstr "Band-Datum"
 
-#: Koha/Database/Columns.pm:301
+#: Koha/Database/Columns.pm:310
 msgid "Volume information"
 msgstr "Information zum Band"
 
-#: Koha/Database/Columns.pm:308
+#: Koha/Database/Columns.pm:317
 msgid "Itemtype"
 msgstr "Medientyp"
 
-#: Koha/Database/Columns.pm:310
+#: Koha/Database/Columns.pm:319
 msgid "Type"
 msgstr "Typ"
 
-#: Koha/Database/Columns.pm:316
+#: Koha/Database/Columns.pm:325
 msgid "End date"
 msgstr "Enddatum"
 
-#: Koha/Database/Columns.pm:317
+#: Koha/Database/Columns.pm:326
 msgid "Location"
 msgstr "Standort"
 
-#: Koha/Database/Columns.pm:318
+#: Koha/Database/Columns.pm:327
 msgid "Periodicity"
 msgstr "Periodizität"
 
-#: Koha/Database/Columns.pm:319
+#: Koha/Database/Columns.pm:328
 msgid "Start date"
 msgstr "Beginn"
 
-#: Koha/Database/Columns.pm:324
+#: Koha/Database/Columns.pm:333
 msgid "Collection title"
 msgstr "Reihe"
 
-#: Koha/Database/Columns.pm:327
+#: Koha/Database/Columns.pm:336
 msgid "Item type"
 msgstr "Medientyp"
 
-#: Koha/Database/Columns.pm:328
+#: Koha/Database/Columns.pm:337
 msgid "Note"
 msgstr "Hinweis"
 
 # Added <span class="patrons-length"></span> patrons to<a></a>
-#: Koha/Database/Columns.pm:329
+#: Koha/Database/Columns.pm:338
 msgid "Patron reason"
 msgstr "Begründung für Vorschlag"
 
@@ -3000,16 +3000,16 @@ msgid_plural "{title} ({barcode}) was removed from {count} courses."
 msgstr[0] "{title} ({barcode}) wurde aus {count} Kurs entfernt."
 msgstr[1] "{title} ({barcode}) wurde aus {count} Kursen entfernt."
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:75
+#: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-details.tt:76
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course-reserves.tt:51
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-reserves.tt:45
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-reserves.tt:46
 msgctxt "Semester"
 msgid "Term"
 msgstr "Semester"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:92
 #: koha-tmpl/intranet-tmpl/prog/en/modules/course_reserves/course.tt:105
-#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:44
+#: koha-tmpl/opac-tmpl/bootstrap/en/modules/opac-course-details.tt:45
 msgctxt "Semester"
 msgid "Term:"
 msgstr "Semester:"
