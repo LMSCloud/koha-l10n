@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
-"POT-Creation-Date: 2025-11-28 15:55+0100\n"
-"PO-Revision-Date: 2025-11-28 15:56+0100\n"
+"POT-Creation-Date: 2025-12-04 12:56+0100\n"
+"PO-Revision-Date: 2025-12-04 13:09+0100\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -1028,6 +1028,7 @@ msgstr "Bestellungen durchsuchen"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-toolbar.inc:56
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-subscription-search-result.inc:14
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/bundle_contents.inc:14
+#: koha-tmpl/intranet-tmpl/prog/en/includes/modals/convert_to_checkout.inc:17
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-article-requests.inc:10
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-return-claims.inc:16
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:8
@@ -2552,6 +2553,7 @@ msgstr "%sz = andere"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modal-claims.inc:36
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cancel_booking.inc:36
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cataloguing_create_av.inc:38
+#: koha-tmpl/intranet-tmpl/prog/en/includes/modals/convert_to_checkout.inc:29
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/place_booking.inc:58
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/resolve_return_claim.inc:38
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/serials_multi_receiving.inc:26
@@ -3240,6 +3242,7 @@ msgstr "Zusammenführung mit Normdatensatz: "
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cashup_summary.inc:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/cashup_summary.inc:28
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/checkout_renewals.inc:15
+#: koha-tmpl/intranet-tmpl/prog/en/includes/modals/convert_to_checkout.inc:7
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/place_booking.inc:8
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/resolve_return_claim.inc:6
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-search.inc:303
@@ -6486,8 +6489,8 @@ msgstr "Lädt..."
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:157
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/transfer_limits.tt:63
 #: koha-tmpl/intranet-tmpl/prog/en/modules/cataloguing/editor.tt:255
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1162
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:934
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1164
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:936
 #, c-format
 msgid "Loading..."
 msgstr "Lädt..."
@@ -6949,6 +6952,7 @@ msgstr "Zeige Ausleihen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:17
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:18
+#: koha-tmpl/intranet-tmpl/prog/en/includes/modals/convert_to_checkout.inc:23
 #: koha-tmpl/intranet-tmpl/prog/en/includes/recalls.inc:14
 #: koha-tmpl/intranet-tmpl/prog/en/includes/relatives-issues-table.inc:8
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:60
@@ -7782,7 +7786,7 @@ msgstr "Benutzerfoto kann nicht aufgenommen werden."
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/managecashregister.tt:31
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/on-site_checkouts.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/overdue.tt:41
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:29
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:27
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/renew.tt:21
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/reserveratios.tt:27
@@ -7896,6 +7900,7 @@ msgstr "Abholungen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-nav.inc:63
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation-home.tt:91
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:30
 #, c-format
 msgid "Bookings to collect"
 msgstr "Zu bearbeitende Buchungen"
@@ -9187,7 +9192,7 @@ msgstr "Zugegangen"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/orderreceive.tt:165
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/background_jobs.tt:188
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:908
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:73
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/holdshistory.tt:100
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:374
 #: koha-tmpl/intranet-tmpl/prog/en/modules/serials/subscription-detail.tt:405
@@ -9628,6 +9633,7 @@ msgstr "Priorität"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/holds_table.inc:12
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-list-table.inc:19
+#: koha-tmpl/intranet-tmpl/prog/en/includes/modals/convert_to_checkout.inc:19
 #: koha-tmpl/intranet-tmpl/prog/en/includes/relatives-issues-table.inc:22
 #: koha-tmpl/intranet-tmpl/prog/en/includes/waiting_holds.inc:15
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/issuehistory.tt:49
@@ -10174,7 +10180,6 @@ msgstr "Modulseite"
 
 #. NAV
 #: koha-tmpl/intranet-tmpl/prog/en/includes/html_helpers.inc:445
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:23
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:11
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:16
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/process_koc.tt:15
@@ -10186,7 +10191,6 @@ msgstr "Krümelpfad"
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-report-search-result.inc:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/auth_subfields_structure.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/items_search_fields.tt:18
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:26
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/recallshistory.tt:17
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/enqueue_koc.tt:14
 #: koha-tmpl/intranet-tmpl/prog/en/modules/offline_circ/list.tt:19
@@ -10236,7 +10240,7 @@ msgstr "Stornierung angefordert"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/ill-list-table-strings.inc:2
 #: koha-tmpl/intranet-tmpl/prog/en/includes/patron-article-requests.inc:89
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:73
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:314
 #, c-format
 msgid "Completed"
@@ -11954,6 +11958,7 @@ msgid "Bundle contents for %s"
 msgstr "Paketinhalt von %s"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/bundle_contents.inc:13
+#: koha-tmpl/intranet-tmpl/prog/en/includes/modals/convert_to_checkout.inc:21
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:105
 #: koha-tmpl/intranet-tmpl/prog/en/includes/search_indexes.inc:107
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/neworderempty.tt:490
@@ -12137,6 +12142,21 @@ msgstr "Exemplarverlängerungen"
 #, c-format
 msgid "Retrieving renewals..."
 msgstr "Ermittle Verlängerungen..."
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/modals/convert_to_checkout.inc:8
+#, c-format
+msgid "Convert to checkout"
+msgstr "Jetzt Ausleihen"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/modals/convert_to_checkout.inc:15
+#, c-format
+msgid "Are you sure you want to convert this booking to a checkout?"
+msgstr "Sind Sie sicher, dass Sie das gebuchte Exemplar jetzt ausleihen möchten?"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/modals/convert_to_checkout.inc:28
+#, c-format
+msgid "Confirm checkout"
+msgstr "Bitte Ausleihe bestätigen"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/modals/place_booking.inc:20
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/curbside_pickups.tt:452
@@ -12482,7 +12502,7 @@ msgstr "Scan"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/basket.tt:268
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/detail.tt:983
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/article-requests.tt:181
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:73
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:308
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/holdshistory.tt:111
 #: koha-tmpl/intranet-tmpl/prog/en/modules/suggestion/suggestion.tt:192
@@ -21521,7 +21541,7 @@ msgid "MIT license"
 msgstr "MIT-Lizenz"
 
 #: koha-tmpl/intranet-tmpl/prog/en/modules/about.tt:936
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:45
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:41
 #, c-format
 msgid "and "
 msgstr "und "
@@ -22480,7 +22500,7 @@ msgstr "Nach Bibliothek filtern"
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqbudgets.tt:111
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/currency.tt:214
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/stockrotation.tt:67
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:73
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/apikeys.tt:85
 #: koha-tmpl/intranet-tmpl/prog/en/modules/tools/stockrotation.tt:88
 #, c-format
@@ -41497,10 +41517,10 @@ msgstr "[%% INCLUDE 'bookings-timeline.inc' timeline_id = 'bookings-timeline' lo
 
 #. For the first occurrence,
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:101
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:97
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1162
-#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:934
+#: koha-tmpl/intranet-tmpl/prog/en/modules/bookings/list.tt:103
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:99
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1164
+#: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:936
 msgid "Select or type a reason"
 msgstr "Wählen oder geben Sie einen Grund ein"
 
@@ -45599,7 +45619,7 @@ msgstr "Anzahl der Ausleihen"
 
 #. For the first occurrence,
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:73
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/bookings.tt:75
 #: koha-tmpl/intranet-tmpl/prog/en/modules/members/moremember.tt:403
 #: koha-tmpl/intranet-tmpl/prog/en/modules/reports/serials_stats.tt:73
 #, c-format
@@ -46832,7 +46852,7 @@ msgid "You have already submitted a barcode, please wait for the checkout to pro
 msgstr "Es wurde bereits eine Mediennummer eingelesen, bitte warten Sie, dass die Ausleihe durchgeführt wird..."
 
 #. SCRIPT
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1162
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/circulation.tt:1164
 msgid "Are you sure you want to delete this message? This cannot be undone."
 msgstr "Sind Sie sicher, dass Sie diese Mitteilung löschen möchten? Dies kann nicht rückgängig gemacht werden."
 
@@ -48232,31 +48252,26 @@ msgstr "Bibliothek des Benutzers:"
 msgid "Apply filter"
 msgstr "Filter anwenden"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:32
-#, c-format
-msgid "Bookings to collect "
-msgstr "Zu bearbeitende Buchungen"
-
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:45
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:41
 #, c-format
 msgid "Items required for bookings between "
 msgstr "Erforderliche Exemplare für Buchungen zwischen "
 
 #. For the first occurrence,
 #. %1$s:  todaysdate | $KohaDates
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:46
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:42
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingreserves.tt:56
 #, c-format
 msgid "Reported on %s"
 msgstr "Hinweis am %s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:47
-#, c-format
-msgid "The following items have not been collected for bookings. Please retrieve them and check them in."
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:43
+#, fuzzy, c-format
+msgid "The following items have not been collected for bookings."
 msgstr "Die folgenden Exemplare wurden noch nicht für Buchungen bereitgestellt. Bitte holen Sie diese ab und buchen sie zurück."
 
 #. %1$s:  INCLUDE 'circ-nav.inc'
-#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:57
+#: koha-tmpl/intranet-tmpl/prog/en/modules/circ/pendingbookings.tt:52
 #, c-format
 msgid "[%% INCLUDE 'bookings-filters.inc' show_holding_library = 1 show_pickup_library = 1 show_date_filters = 1 from_date = from to_date = to branchcode = branchcode %%] %s "
 msgstr "[%% INCLUDE 'bookings-filters.inc' show_holding_library = 1 show_pickup_library = 1 show_date_filters = 1 from_date = from to_date = to branchcode = branchcode %%] %s "
@@ -75572,6 +75587,10 @@ msgstr "000 "
 
 #~ msgid "Booking dates"
 #~ msgstr "Buchungsdaten"
+
+#, c-format
+#~ msgid "Bookings to collect "
+#~ msgstr "Zu bearbeitende Buchungen"
 
 #~ msgid "Borrower '%s' added."
 #~ msgstr "Benutzer '%s' wurde hinzugefügt."
