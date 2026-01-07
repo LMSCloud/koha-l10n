@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-04 12:56+0100\n"
-"PO-Revision-Date: 2025-11-28 08:58+0100\n"
+"POT-Creation-Date: 2026-01-07 10:14+0100\n"
+"PO-Revision-Date: 2026-01-07 10:15+0100\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -2122,34 +2122,38 @@ msgstr "Buchungsnachbearbeitung"
 msgid "Checked Out"
 msgstr "Ausgeliehen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:73
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:70
+msgid "Closed"
+msgstr "Geschlossen"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:77
 msgid "Required end date"
 msgstr "Erforderliches Enddatum"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:148
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:153
 #, javascript-format
 msgid "Booking period limited to issue length (%s days)"
 msgstr "Buchungsdauer ist begrenzt durch Ausleihfrist (%s Tage)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:150
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:155
 msgid "Booking period limited to issue length"
 msgstr "Die Buchungsdauer ist begrenzt durch die maximale Ausleihfrist"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:153
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:158
 #, javascript-format
 msgid "Booking period limited to issue length with renewals (%s days)"
 msgstr "Buchungsdauer ist begrenzt durch Ausleihfrist inklusive Verlängerungen (%s Tage)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:156
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:161
 msgid "Booking period limited to issue length with renewals"
 msgstr "Die Buchungsdauer ist begrenzt durch die Ausleihfrist inklusive Verlängerungen"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:160
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:165
 #, javascript-format
 msgid "Booking period limited by circulation rules (%s days)"
 msgstr "Buchungsdauer ist durch Ausleihregeln begrenzt (%s Tage)"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:162
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/BookingPeriodStep.vue:167
 msgid "Booking period limited by circulation rules"
 msgstr "Die Buchungsdauer ist durch die Ausleihregeln begrenzt"
 
@@ -2210,27 +2214,27 @@ msgstr "Mit der derzeitigen Auswahl kann keine Buchung durchgeführt werden. Wä
 msgid "No valid booking period is available for this record with your current settings. Please try again later or contact your library."
 msgstr "Mit der derzeitigen Auswahl kann keine Buchung durchgeführt werden. Probieren Sie es später oder wenden Sie sich an Ihre Bibliothek."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/manager.mjs:1030
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/manager.mjs:1082
 msgid "Start date is required."
 msgstr "Es muss ein Startdatum für die Buchung angegeben werden."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/manager.mjs:1055
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/manager.mjs:1107
 msgid "Start date is too soon (lead time required)"
 msgstr "Das Startdatum ist für den benötigten Buchungsvorlauf zu früh."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/manager.mjs:1062
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/manager.mjs:1114
 msgid "End date is before start date"
 msgstr "Das Endedatum liegt vor dem Startdatum."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/manager.mjs:1079
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/manager.mjs:1131
 msgid "Booking period exceeds maximum allowed"
 msgstr "Der Buchungszeitraum überschreitet die maximale Buchungsdauer."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/manager.mjs:1099
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/manager.mjs:1151
 msgid "In end date only mode, you can only select the calculated end date"
 msgstr "Es kann nur das vorgegebene Endedatum ausgewählt werden."
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/manager.mjs:1131
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/manager.mjs:1183
 #, javascript-format
 msgid "Date %s is unavailable."
 msgstr "Der %s ist nicht verfügbar."
@@ -2301,10 +2305,15 @@ msgstr "Die Ausleihkonditionen konnten nicht vom Server bezogen werden: %s %s"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/validation-messages.js:55
 #, javascript-format
+msgid "Failed to fetch holidays: %s %s"
+msgstr "Die Geschlossentage konnten nicht geladen werden: %s %s"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/validation-messages.js:60
+#, javascript-format
 msgid "Failed to create booking: %s %s"
 msgstr "Die Buchung konnte nicht gespeichert werden: %s %s"
 
-#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/validation-messages.js:60
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/booking/validation-messages.js:65
 #, javascript-format
 msgid "Failed to update booking: %s %s"
 msgstr "Die Buchung konnte nicht aktualisiert werden: %s %s"
@@ -2320,6 +2329,10 @@ msgstr "Buchungsvorlauf"
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/ui/marker-labels.mjs:8
 msgid "Trail period"
 msgstr "Buchungsnachbearbeitung"
+
+#: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/ui/marker-labels.mjs:9
+msgid "Library closed"
+msgstr "Bibliothek geschlossen"
 
 #: koha-tmpl/intranet-tmpl/prog/js/vue/components/Bookings/lib/ui/selection-message.mjs:16
 #, javascript-format
