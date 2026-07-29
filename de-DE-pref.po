@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Koha 22.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-16 03:26+0200\n"
-"PO-Revision-Date: 2025-11-12 15:04+0100\n"
+"PO-Revision-Date: 2026-07-29 14:03+0200\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -4322,6 +4322,10 @@ msgid "circulation.pref#HoldFeeMode# any time a hold is placed."
 msgstr "jedesmal wenn eine Vormerkung eingetragen wird."
 
 # Circulation > Fines Policy
+msgid "circulation.pref#HoldFeeMode# either if all items are checked out or the record has at least one hold already."
+msgstr "nur wenn alle Exemplare ausgeliehen sind oder es für diesen Datensatz bereits mindestens eine Vormerkung gibt."
+
+# Circulation > Fines Policy
 msgid "circulation.pref#HoldFeeMode# only if all items are checked out and the record has at least one hold already."
 msgstr "nur wenn alle Exemplare ausgeliehen sind und es für diesen Datensatz bereits mindestens eine Vormerkung gibt."
 
@@ -6159,6 +6163,10 @@ msgstr "Google"
 msgid "enhanced_content.pref HTML5 media"
 msgstr "HTML5-Medien"
 
+# Enhanced content > Tagging
+msgid "enhanced_content.pref HeLiMa License Manager"
+msgstr "HeLiMa Lizenzmanager"
+
 # Enhanced content > Library Thing
 msgid "enhanced_content.pref Library Thing"
 msgstr "Library Thing"
@@ -6207,9 +6215,17 @@ msgstr "ekz Data Services"
 msgid "enhanced_content.pref filmfriend"
 msgstr "filmfriend Filmportal"
 
+# Enhanced content > HTML5 media
+msgid "enhanced_content.pref## . The name is used at the OPAC additional offer view."
+msgstr ". Der Name wird bei Treffern des HeLiMa-Lizenzmanagers im OPAC angezeigt."
+
 # Enhanced content > All
 msgid "enhanced_content.pref## <strong>NOTE:</strong> you can only choose one source of cover images from below, otherwise Koha will show the images from all sources selected."
 msgstr " <strong>HINWEIS:</strong> Sie sollten nur eine der untenstehenden Quellen für Cover auswählen, da Koha sonst die Cover aus allen gewählten Quellen gemeinsam anzeigen wird."
+
+# Enhanced content > Amazon
+msgid "enhanced_content.pref## State of Hesse"
+msgstr "Land Hessen"
 
 # Enhanced content > Local or remote cover images
 msgid "enhanced_content.pref#AllowMultipleCovers# Allow"
@@ -6727,6 +6743,54 @@ msgstr "Einbettung"
 # Enhanced content > HTML5 media
 msgid "enhanced_content.pref#HTML5MediaYouTube# YouTube links as videos."
 msgstr "von YouTube-Links als Videos."
+
+# Enhanced content > HeLiMa License Manager > HeLiMaSearchCollections
+msgid "enhanced_content.pref#HeLiMaSearchCollections# . Separate HeLiMa collection names by |. This parameter is optional. If not provided, hits all collections licensed by the library will be displayed."
+msgstr ". Mehrfache Angebote werden durch | getrennt angegeben. Der Parameter ist optional. Wird kein Wert angegeben, werden die Treffer aller lizensierten HeLiMa-Angebote der Bibliothek angezeigt."
+
+# Enhanced content > Syndetics
+msgid "enhanced_content.pref#HeLiMaSearchCollections# Limit the HeLiMa search result to the following list of collections."
+msgstr "Zeige nur die Treffer folgender Angebote des HeLiMa-Lizenzmanagers im OPAC."
+
+# Enhanced content > filmfriend > FilmfriendCustomerID
+msgid "enhanced_content.pref#HelimaCustomerID# In order to use HeLiMa search, configure the HeLiMa customer ID"
+msgstr "Um Suchergebnisse des HeLiMa-Lizenzmanagers anzuzeigen, geben Sie hier die Kundennummer an"
+
+# Enhanced content > Coce cover images cache
+msgid "enhanced_content.pref#HelimaCustomerID# provided by the licensor."
+msgstr ", die vom Anbieter bereitgestellt wird."
+
+# Enhanced content > Open Library
+msgid "enhanced_content.pref#HelimaNumSearchResults# Show a maximum of"
+msgstr "Zeige maximal"
+
+# Searching > Results display
+msgid "enhanced_content.pref#HelimaNumSearchResults# results of the HeLiMa search per page in the OPAC."
+msgstr " Treffer der HeLiMa-Lizenzmanager-Suche pro Trefferseite im OPAC an."
+
+# Enhanced content > Munzinger > MunzingerEncyclopediaSearchEnabled
+msgid "enhanced_content.pref#HelimaSearchActive# <br>bearer=[a bearer token provided by the licensor]."
+msgstr "<br>bearer=[das vom Anbieter bereitgestellte Bearer-Token]."
+
+# Enhanced content > Coce cover images cache
+msgid "enhanced_content.pref#HelimaSearchActive# <br>url=[url of the HeLiMa service]"
+msgstr "<br>url=[URL des HeLiMa Lizenzmanager-Services]"
+
+# Enhanced content > Novelist Select
+msgid "enhanced_content.pref#HelimaSearchActive# Activate"
+msgstr "Aktiviere"
+
+# Enhanced content > Coce cover images cache
+msgid "enhanced_content.pref#HelimaSearchActive# Don't activate"
+msgstr "Aktiviere nicht"
+
+# Enhanced content > HeLiMa License Manager > HelimaSearchActive
+msgid "enhanced_content.pref#HelimaSearchActive# The use of the HeLiMa license manager requires a configuration file on the server with the code if the licensor (e.g. hessian + 'LicenseManagerConfig.key', example: /etc/koha/hessianLicenseManagerConfig.key) providing the following data:"
+msgstr "Wenn der HeLiMa-Lizenzmanager genutzt werden soll, muss auf dem Koha-Server eine Konfigurationsdatei mit dem Code des HeLiMa-Anbieters hinterlegt werden (z.B.: hessian + 'LicenseManagerConfig.key' also beispielsweise mit der Datei /etc/koha/hessianLicenseManagerConfig.key). Die Datei muss folgende Angaben enthalten:"
+
+# Enhanced content > filmfriend > FilmfriendSearchActive
+msgid "enhanced_content.pref#HelimaSearchActive# the HeLiMa license manager search in OPAC. Please activate only if you want to enrich OPAC search results with results of the HeLiMa license manager. You need to contract with a HeLiMa licensor to use this feature."
+msgstr " die HeLiMa-Lizenzmanager-Suche im OPAC. Aktivieren Sie die Suche nur, wenn Sie die OPAC-Suche mit Trefferlisten der HeLiMa-Lizenzmanager-Suche anreichern möchten. Zur Nutzung der HeLiMa-Lizenzmanager-Suche müssen HeLiMa-Dienste beim Anbieter lizensiert worden sein."
 
 # Enhanced content > Coce cover images cache
 msgid "enhanced_content.pref#IntranetCoce# Don't enable"
