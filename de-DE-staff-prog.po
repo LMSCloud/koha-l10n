@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Koha 22.11\n"
-"POT-Creation-Date: 2026-08-05 11:24+0200\n"
-"PO-Revision-Date: 2026-08-04 08:38+0200\n"
+"POT-Creation-Date: 2026-08-08 16:20+0200\n"
+"PO-Revision-Date: 2026-08-08 16:13+0200\n"
 "Last-Translator: Roger Großmann <roger.grossmann@lmscloud.de>\n"
 "Language-Team: Koha Translation Team\n"
 "Language: de\n"
@@ -2547,7 +2547,7 @@ msgstr "%sz = andere"
 
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-finder-search.inc:182
 #: koha-tmpl/intranet-tmpl/prog/en/includes/auth-two-factor.inc:29
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:242
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:246
 #: koha-tmpl/intranet-tmpl/prog/en/includes/circ-menu.inc:292
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-share-report.inc:90
 #: koha-tmpl/intranet-tmpl/prog/en/includes/mana/mana-subscription-search-result.inc:85
@@ -5387,7 +5387,7 @@ msgstr "Excel"
 #. SCRIPT
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cashregister-fines-overview.inc:568
 #: koha-tmpl/intranet-tmpl/prog/en/includes/cat-menu.inc:22
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:241
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:245
 #: koha-tmpl/intranet-tmpl/prog/en/includes/checkouts-table.inc:86
 #: koha-tmpl/intranet-tmpl/prog/en/includes/columns_settings.inc:6
 #: koha-tmpl/intranet-tmpl/prog/en/modules/admin/aqplan.tt:259
@@ -5934,71 +5934,63 @@ msgstr "Weitere Listen"
 msgid "New list"
 msgstr "Neue Liste"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:180
+#. %1$s:  IF ( orderable ) 
+#. %2$s:  ELSE 
+#. %3$s:  END 
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:184
 #, c-format
-msgid "Place hold "
-msgstr "Vormerken "
-
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:185
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:190
-#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:17
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:158
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:163
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:178
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:325
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:617
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:619
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:621
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1021
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1023
-#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1025
-#: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:256
-#, c-format
-msgid "Place hold"
-msgstr "Vormerken"
+msgid "%sPlace order%sPlace hold%s "
+msgstr "%sBestellen%sVormerken%s "
 
 #. For the first occurrence,
-#. %1$s:  INCLUDE 'patron-title.inc' patron => holdfor_patron no_title => 1 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:186
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:165
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:170
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:552
-#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:553
-#: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:337
+#. %1$s:  IF ( orderable ) 
+#. %2$s:  ELSE 
+#. %3$s:  END 
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:189
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:194
 #, c-format
-msgid "Place hold for %s"
-msgstr "Vormerkung auf %s"
+msgid "%sPlace order%sPlace hold%s"
+msgstr "%sBestellen%sVormerken%s"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:201
+#. %1$s:  IF ( orderable ) 
+#. %2$s:  ELSE 
+#. %3$s:  END 
+#. %4$s:  INCLUDE 'patron-title.inc' patron => holdfor_patron no_title => 1 
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:190
+#, c-format
+msgid "%sPlace order%sPlace hold%s for %s"
+msgstr "%sBestellung%sVormerkung%s für %s"
+
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:205
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:571
 #: koha-tmpl/intranet-tmpl/prog/en/modules/circ/request-article.tt:80
 #, c-format
 msgid "Request article"
 msgstr "Artikel bestellen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:207
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:211
 #: koha-tmpl/intranet-tmpl/prog/en/modules/acqui/addorderiso2709.tt:161
 #: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:583
 #, c-format
 msgid "Add order"
 msgstr "Bestellung hinzufügen"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:224
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:228
 #, c-format
 msgid "Exporting to Dublin Core..."
 msgstr "Exportiere als Dublin Core..."
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:230
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:234
 #, c-format
 msgid "Simple DC-RDF"
 msgstr "Einfaches DC-RDF"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:233
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:237
 #, c-format
 msgid "OAI-DC"
 msgstr "OAI-DC"
 
-#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:236
+#: koha-tmpl/intranet-tmpl/prog/en/includes/cat-toolbar.inc:240
 #, c-format
 msgid "SRW-DC"
 msgstr "SRW-DC"
@@ -41166,6 +41158,22 @@ msgstr "Ausgewählte Exemplare:"
 msgid "Add to a list"
 msgstr "Einer Liste hinzufügen"
 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:17
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:158
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:163
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:178
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:325
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:617
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:619
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:621
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1021
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1023
+#: koha-tmpl/intranet-tmpl/prog/en/modules/reserve/request.tt:1025
+#: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:256
+#, c-format
+msgid "Place hold"
+msgstr "Vormerken"
+
 #: koha-tmpl/intranet-tmpl/prog/en/modules/basket/basket.tt:21
 #, c-format
 msgid "Batch modify"
@@ -43783,6 +43791,17 @@ msgstr "Unmarkieren"
 #, c-format
 msgid "Highlight"
 msgstr "Markieren"
+
+#. For the first occurrence,
+#. %1$s:  INCLUDE 'patron-title.inc' patron => holdfor_patron no_title => 1 no_cardnumber => 1 
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:165
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:170
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:552
+#: koha-tmpl/intranet-tmpl/prog/en/modules/catalogue/results.tt:553
+#: koha-tmpl/intranet-tmpl/prog/en/modules/virtualshelves/shelves.tt:337
+#, c-format
+msgid "Place hold for %s"
+msgstr "Vormerkung auf %s"
 
 #. For the first occurrence,
 #. %1$s:  INCLUDE 'patron-title.inc' patron => holdfor_patron no_title => 1 no_cardnumber => 1 
@@ -76518,11 +76537,12 @@ msgstr "000 "
 #~ msgid "Pin code: "
 #~ msgstr "PIN: "
 
+#, c-format
+#~ msgid "Place hold "
+#~ msgstr "Vormerken "
+
 #~ msgid "Place hold for %s %s (%s)"
 #~ msgstr "Vomerken für %s %s (%s)"
-
-#~ msgid "Place holds "
-#~ msgstr "Vormerkungen setzen "
 
 #~ msgid "Plugins "
 #~ msgstr "Plugins "
